@@ -2542,6 +2542,3514 @@ export const EN_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "By pair",
+    "title": "The Rat and the Rat — Same Branch",
+    "summary": "What relationship two Rat people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Rat people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Rat people share the same branch (子 and 子). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "子 is the first of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Rat people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Rat",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rat**'s special partners — Six-Harmony [Ox](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Monkey](/guide/zodiac-pair-rat-monkey) · Discord [Sheep](/guide/zodiac-pair-rat-goat) · Clash [Horse](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rat](/guide/zodiac-rat), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "By pair",
+    "title": "The Rat and the Ox — Six-Harmony",
+    "summary": "What relationship the Rat and the Ox have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rat and the Ox form a six-harmony",
+        "blocks": [
+          {
+            "p": "The Rat and the Ox form a six-harmony. 子 and 丑 make a harmony with only two characters."
+          },
+          {
+            "p": "A six-harmony is the good relationship that appears most often in compatibility, and at {scoreYukhap} it is the highest score either animal can get."
+          },
+          {
+            "p": "On the circle, 子 is in the first place and 丑 in the second, and the two characters are one step apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rat and the Ox",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacYukhap} points in zodiac compatibility and by {swingDayBranchYukhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rat**'s special partners — Six-Harmony [Ox](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Monkey](/guide/zodiac-pair-rat-monkey) · Discord [Sheep](/guide/zodiac-pair-rat-goat) · Clash [Horse](/guide/zodiac-pair-rat-horse)",
+              "**The Ox**'s special partners — Six-Harmony [Rat](/guide/zodiac-pair-rat-ox) · Half triad [Rooster](/guide/zodiac-pair-ox-rooster) · Discord [Horse](/guide/zodiac-pair-ox-horse) · Clash [Sheep](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rat](/guide/zodiac-rat) · [the Ox](/guide/zodiac-ox), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "By pair",
+    "title": "The Rat and the Dragon — Half triad",
+    "summary": "What relationship the Rat and the Dragon have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rat and the Dragon form a half triad",
+        "blocks": [
+          {
+            "p": "The Rat and the Dragon form a half triad. 申子辰 is one triad group (the water group), and 子 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Monkey (申) and the Dragon (辰) of the same group lack the central character 子, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 子 is in the first place and 辰 in the fifth, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rat and the Dragon",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rat**'s special partners — Six-Harmony [Ox](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Monkey](/guide/zodiac-pair-rat-monkey) · Discord [Sheep](/guide/zodiac-pair-rat-goat) · Clash [Horse](/guide/zodiac-pair-rat-horse)",
+              "**The Dragon**'s special partners — Six-Harmony [Rooster](/guide/zodiac-pair-dragon-rooster) · Half triad [Rat](/guide/zodiac-pair-rat-dragon) · Discord [Pig](/guide/zodiac-pair-dragon-pig) · Clash [Dog](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rat](/guide/zodiac-rat) · [the Dragon](/guide/zodiac-dragon), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "By pair",
+    "title": "The Rat and the Horse — Clash",
+    "summary": "What relationship the Rat and the Horse have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rat and the Horse form a clash",
+        "blocks": [
+          {
+            "p": "The Rat and the Horse form a clash. 子 and 午 sit directly opposite each other on the circle."
+          },
+          {
+            "p": "This service keeps {scoreChung} points even for a clash. In traditional myeongri a clash is a collision, not the end of a relationship, and giving a score near the floor would amount to pronouncing a verdict on two people."
+          },
+          {
+            "p": "On the circle, 子 is in the first place and 午 in the seventh, and the two characters are six steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rat and the Horse",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacChung} points in zodiac compatibility and by {swingDayBranchChung} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rat**'s special partners — Six-Harmony [Ox](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Monkey](/guide/zodiac-pair-rat-monkey) · Discord [Sheep](/guide/zodiac-pair-rat-goat) · Clash [Horse](/guide/zodiac-pair-rat-horse)",
+              "**The Horse**'s special partners — Six-Harmony [Sheep](/guide/zodiac-pair-horse-goat) · Half triad [Tiger](/guide/zodiac-pair-tiger-horse), [Dog](/guide/zodiac-pair-horse-dog) · Discord [Ox](/guide/zodiac-pair-ox-horse) · Clash [Rat](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rat](/guide/zodiac-rat) · [the Horse](/guide/zodiac-horse), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "By pair",
+    "title": "The Rat and the Sheep — Discord",
+    "summary": "What relationship the Rat and the Sheep have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rat and the Sheep form a discord",
+        "blocks": [
+          {
+            "p": "The Rat and the Sheep form a discord. The clash position of 子 is 午 (the Horse), and 未 sits right next to it; right next to 丑 (the Ox), the clash position of 未, sits 子."
+          },
+          {
+            "p": "It is traditionally seen as a pair who resent each other yet cannot part. It looks calm on the surface, but the misalignment is believed to last, so it gets {scoreWonjin} — higher than a clash ({scoreChung}) and lower than neutral ({scoreNeutral})."
+          },
+          {
+            "p": "On the circle, 子 is in the first place and 未 in the eighth, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rat and the Sheep",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacWonjin} points in zodiac compatibility and by {swingDayBranchWonjin} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rat**'s special partners — Six-Harmony [Ox](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Monkey](/guide/zodiac-pair-rat-monkey) · Discord [Sheep](/guide/zodiac-pair-rat-goat) · Clash [Horse](/guide/zodiac-pair-rat-horse)",
+              "**The Sheep**'s special partners — Six-Harmony [Horse](/guide/zodiac-pair-horse-goat) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-goat) · Discord [Rat](/guide/zodiac-pair-rat-goat) · Clash [Ox](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rat](/guide/zodiac-rat) · [the Sheep](/guide/zodiac-goat), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "By pair",
+    "title": "The Rat and the Monkey — Half triad",
+    "summary": "What relationship the Rat and the Monkey have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rat and the Monkey form a half triad",
+        "blocks": [
+          {
+            "p": "The Rat and the Monkey form a half triad. 申子辰 is one triad group (the water group), and 子 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Dragon (辰) and the Monkey (申) of the same group lack the central character 子, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 子 is in the first place and 申 in the ninth, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rat and the Monkey",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rat**'s special partners — Six-Harmony [Ox](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Monkey](/guide/zodiac-pair-rat-monkey) · Discord [Sheep](/guide/zodiac-pair-rat-goat) · Clash [Horse](/guide/zodiac-pair-rat-horse)",
+              "**The Monkey**'s special partners — Six-Harmony [Snake](/guide/zodiac-pair-snake-monkey) · Half triad [Rat](/guide/zodiac-pair-rat-monkey) · Discord [Rabbit](/guide/zodiac-pair-rabbit-monkey) · Clash [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rat](/guide/zodiac-rat) · [the Monkey](/guide/zodiac-monkey), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "By pair",
+    "title": "The Ox and the Ox — Same Branch",
+    "summary": "What relationship two Ox people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Ox people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Ox people share the same branch (丑 and 丑). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "丑 is the second of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Ox people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Ox",
+        "blocks": [
+          {
+            "ul": [
+              "**The Ox**'s special partners — Six-Harmony [Rat](/guide/zodiac-pair-rat-ox) · Half triad [Rooster](/guide/zodiac-pair-ox-rooster) · Discord [Horse](/guide/zodiac-pair-ox-horse) · Clash [Sheep](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Ox](/guide/zodiac-ox), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "By pair",
+    "title": "The Ox and the Horse — Discord",
+    "summary": "What relationship the Ox and the Horse have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Ox and the Horse form a discord",
+        "blocks": [
+          {
+            "p": "The Ox and the Horse form a discord. The clash position of 丑 is 未 (the Sheep), and 午 sits right next to it; right next to 子 (the Rat), the clash position of 午, sits 丑."
+          },
+          {
+            "p": "It is traditionally seen as a pair who resent each other yet cannot part. It looks calm on the surface, but the misalignment is believed to last, so it gets {scoreWonjin} — higher than a clash ({scoreChung}) and lower than neutral ({scoreNeutral})."
+          },
+          {
+            "p": "On the circle, 丑 is in the second place and 午 in the seventh, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Ox and the Horse",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacWonjin} points in zodiac compatibility and by {swingDayBranchWonjin} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Ox**'s special partners — Six-Harmony [Rat](/guide/zodiac-pair-rat-ox) · Half triad [Rooster](/guide/zodiac-pair-ox-rooster) · Discord [Horse](/guide/zodiac-pair-ox-horse) · Clash [Sheep](/guide/zodiac-pair-ox-goat)",
+              "**The Horse**'s special partners — Six-Harmony [Sheep](/guide/zodiac-pair-horse-goat) · Half triad [Tiger](/guide/zodiac-pair-tiger-horse), [Dog](/guide/zodiac-pair-horse-dog) · Discord [Ox](/guide/zodiac-pair-ox-horse) · Clash [Rat](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Ox](/guide/zodiac-ox) · [the Horse](/guide/zodiac-horse), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "By pair",
+    "title": "The Ox and the Sheep — Clash",
+    "summary": "What relationship the Ox and the Sheep have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Ox and the Sheep form a clash",
+        "blocks": [
+          {
+            "p": "The Ox and the Sheep form a clash. 丑 and 未 sit directly opposite each other on the circle."
+          },
+          {
+            "p": "This service keeps {scoreChung} points even for a clash. In traditional myeongri a clash is a collision, not the end of a relationship, and giving a score near the floor would amount to pronouncing a verdict on two people."
+          },
+          {
+            "p": "On the circle, 丑 is in the second place and 未 in the eighth, and the two characters are six steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Ox and the Sheep",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacChung} points in zodiac compatibility and by {swingDayBranchChung} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Ox**'s special partners — Six-Harmony [Rat](/guide/zodiac-pair-rat-ox) · Half triad [Rooster](/guide/zodiac-pair-ox-rooster) · Discord [Horse](/guide/zodiac-pair-ox-horse) · Clash [Sheep](/guide/zodiac-pair-ox-goat)",
+              "**The Sheep**'s special partners — Six-Harmony [Horse](/guide/zodiac-pair-horse-goat) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-goat) · Discord [Rat](/guide/zodiac-pair-rat-goat) · Clash [Ox](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Ox](/guide/zodiac-ox) · [the Sheep](/guide/zodiac-goat), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "By pair",
+    "title": "The Ox and the Rooster — Half triad",
+    "summary": "What relationship the Ox and the Rooster have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Ox and the Rooster form a half triad",
+        "blocks": [
+          {
+            "p": "The Ox and the Rooster form a half triad. 巳酉丑 is one triad group (the metal group), and 酉 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Snake (巳) and the Ox (丑) of the same group lack the central character 酉, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 丑 is in the second place and 酉 in the tenth, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Ox and the Rooster",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Ox**'s special partners — Six-Harmony [Rat](/guide/zodiac-pair-rat-ox) · Half triad [Rooster](/guide/zodiac-pair-ox-rooster) · Discord [Horse](/guide/zodiac-pair-ox-horse) · Clash [Sheep](/guide/zodiac-pair-ox-goat)",
+              "**The Rooster**'s special partners — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Ox](/guide/zodiac-pair-ox-rooster), [Snake](/guide/zodiac-pair-snake-rooster) · Discord [Tiger](/guide/zodiac-pair-tiger-rooster) · Clash [Rabbit](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Ox](/guide/zodiac-ox) · [the Rooster](/guide/zodiac-rooster), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "By pair",
+    "title": "The Tiger and the Tiger — Same Branch",
+    "summary": "What relationship two Tiger people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Tiger people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Tiger people share the same branch (寅 and 寅). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "寅 is the third of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Tiger people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Tiger",
+        "blocks": [
+          {
+            "ul": [
+              "**The Tiger**'s special partners — Six-Harmony [Pig](/guide/zodiac-pair-tiger-pig) · Half triad [Horse](/guide/zodiac-pair-tiger-horse) · Discord [Rooster](/guide/zodiac-pair-tiger-rooster) · Clash [Monkey](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Tiger](/guide/zodiac-tiger), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "By pair",
+    "title": "The Tiger and the Horse — Half triad",
+    "summary": "What relationship the Tiger and the Horse have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Tiger and the Horse form a half triad",
+        "blocks": [
+          {
+            "p": "The Tiger and the Horse form a half triad. 寅午戌 is one triad group (the fire group), and 午 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Dog (戌) and the Tiger (寅) of the same group lack the central character 午, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 寅 is in the third place and 午 in the seventh, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Tiger and the Horse",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Tiger**'s special partners — Six-Harmony [Pig](/guide/zodiac-pair-tiger-pig) · Half triad [Horse](/guide/zodiac-pair-tiger-horse) · Discord [Rooster](/guide/zodiac-pair-tiger-rooster) · Clash [Monkey](/guide/zodiac-pair-tiger-monkey)",
+              "**The Horse**'s special partners — Six-Harmony [Sheep](/guide/zodiac-pair-horse-goat) · Half triad [Tiger](/guide/zodiac-pair-tiger-horse), [Dog](/guide/zodiac-pair-horse-dog) · Discord [Ox](/guide/zodiac-pair-ox-horse) · Clash [Rat](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Tiger](/guide/zodiac-tiger) · [the Horse](/guide/zodiac-horse), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "By pair",
+    "title": "The Tiger and the Monkey — Clash",
+    "summary": "What relationship the Tiger and the Monkey have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Tiger and the Monkey form a clash",
+        "blocks": [
+          {
+            "p": "The Tiger and the Monkey form a clash. 寅 and 申 sit directly opposite each other on the circle."
+          },
+          {
+            "p": "This service keeps {scoreChung} points even for a clash. In traditional myeongri a clash is a collision, not the end of a relationship, and giving a score near the floor would amount to pronouncing a verdict on two people."
+          },
+          {
+            "p": "On the circle, 寅 is in the third place and 申 in the ninth, and the two characters are six steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Tiger and the Monkey",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacChung} points in zodiac compatibility and by {swingDayBranchChung} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Tiger**'s special partners — Six-Harmony [Pig](/guide/zodiac-pair-tiger-pig) · Half triad [Horse](/guide/zodiac-pair-tiger-horse) · Discord [Rooster](/guide/zodiac-pair-tiger-rooster) · Clash [Monkey](/guide/zodiac-pair-tiger-monkey)",
+              "**The Monkey**'s special partners — Six-Harmony [Snake](/guide/zodiac-pair-snake-monkey) · Half triad [Rat](/guide/zodiac-pair-rat-monkey) · Discord [Rabbit](/guide/zodiac-pair-rabbit-monkey) · Clash [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Tiger](/guide/zodiac-tiger) · [the Monkey](/guide/zodiac-monkey), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "By pair",
+    "title": "The Tiger and the Rooster — Discord",
+    "summary": "What relationship the Tiger and the Rooster have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Tiger and the Rooster form a discord",
+        "blocks": [
+          {
+            "p": "The Tiger and the Rooster form a discord. The clash position of 寅 is 申 (the Monkey), and 酉 sits right next to it; right next to 卯 (the Rabbit), the clash position of 酉, sits 寅."
+          },
+          {
+            "p": "It is traditionally seen as a pair who resent each other yet cannot part. It looks calm on the surface, but the misalignment is believed to last, so it gets {scoreWonjin} — higher than a clash ({scoreChung}) and lower than neutral ({scoreNeutral})."
+          },
+          {
+            "p": "On the circle, 寅 is in the third place and 酉 in the tenth, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Tiger and the Rooster",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacWonjin} points in zodiac compatibility and by {swingDayBranchWonjin} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Tiger**'s special partners — Six-Harmony [Pig](/guide/zodiac-pair-tiger-pig) · Half triad [Horse](/guide/zodiac-pair-tiger-horse) · Discord [Rooster](/guide/zodiac-pair-tiger-rooster) · Clash [Monkey](/guide/zodiac-pair-tiger-monkey)",
+              "**The Rooster**'s special partners — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Ox](/guide/zodiac-pair-ox-rooster), [Snake](/guide/zodiac-pair-snake-rooster) · Discord [Tiger](/guide/zodiac-pair-tiger-rooster) · Clash [Rabbit](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Tiger](/guide/zodiac-tiger) · [the Rooster](/guide/zodiac-rooster), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "By pair",
+    "title": "The Tiger and the Pig — Six-Harmony",
+    "summary": "What relationship the Tiger and the Pig have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Tiger and the Pig form a six-harmony",
+        "blocks": [
+          {
+            "p": "The Tiger and the Pig form a six-harmony. 寅 and 亥 make a harmony with only two characters."
+          },
+          {
+            "p": "A six-harmony is the good relationship that appears most often in compatibility, and at {scoreYukhap} it is the highest score either animal can get."
+          },
+          {
+            "p": "On the circle, 寅 is in the third place and 亥 in the twelfth, and the two characters are three steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Tiger and the Pig",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacYukhap} points in zodiac compatibility and by {swingDayBranchYukhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Tiger**'s special partners — Six-Harmony [Pig](/guide/zodiac-pair-tiger-pig) · Half triad [Horse](/guide/zodiac-pair-tiger-horse) · Discord [Rooster](/guide/zodiac-pair-tiger-rooster) · Clash [Monkey](/guide/zodiac-pair-tiger-monkey)",
+              "**The Pig**'s special partners — Six-Harmony [Tiger](/guide/zodiac-pair-tiger-pig) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Snake](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Tiger](/guide/zodiac-tiger) · [the Pig](/guide/zodiac-pig), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "By pair",
+    "title": "The Rabbit and the Rabbit — Same Branch",
+    "summary": "What relationship two Rabbit people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Rabbit people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Rabbit people share the same branch (卯 and 卯). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "卯 is the fourth of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Rabbit people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Rabbit",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rabbit**'s special partners — Six-Harmony [Dog](/guide/zodiac-pair-rabbit-dog) · Half triad [Sheep](/guide/zodiac-pair-rabbit-goat), [Pig](/guide/zodiac-pair-rabbit-pig) · Discord [Monkey](/guide/zodiac-pair-rabbit-monkey) · Clash [Rooster](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rabbit](/guide/zodiac-rabbit), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "By pair",
+    "title": "The Rabbit and the Sheep — Half triad",
+    "summary": "What relationship the Rabbit and the Sheep have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rabbit and the Sheep form a half triad",
+        "blocks": [
+          {
+            "p": "The Rabbit and the Sheep form a half triad. 亥卯未 is one triad group (the wood group), and 卯 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Pig (亥) and the Sheep (未) of the same group lack the central character 卯, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 卯 is in the fourth place and 未 in the eighth, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rabbit and the Sheep",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rabbit**'s special partners — Six-Harmony [Dog](/guide/zodiac-pair-rabbit-dog) · Half triad [Sheep](/guide/zodiac-pair-rabbit-goat), [Pig](/guide/zodiac-pair-rabbit-pig) · Discord [Monkey](/guide/zodiac-pair-rabbit-monkey) · Clash [Rooster](/guide/zodiac-pair-rabbit-rooster)",
+              "**The Sheep**'s special partners — Six-Harmony [Horse](/guide/zodiac-pair-horse-goat) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-goat) · Discord [Rat](/guide/zodiac-pair-rat-goat) · Clash [Ox](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rabbit](/guide/zodiac-rabbit) · [the Sheep](/guide/zodiac-goat), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "By pair",
+    "title": "The Rabbit and the Monkey — Discord",
+    "summary": "What relationship the Rabbit and the Monkey have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rabbit and the Monkey form a discord",
+        "blocks": [
+          {
+            "p": "The Rabbit and the Monkey form a discord. The clash position of 卯 is 酉 (the Rooster), and 申 sits right next to it; right next to 寅 (the Tiger), the clash position of 申, sits 卯."
+          },
+          {
+            "p": "It is traditionally seen as a pair who resent each other yet cannot part. It looks calm on the surface, but the misalignment is believed to last, so it gets {scoreWonjin} — higher than a clash ({scoreChung}) and lower than neutral ({scoreNeutral})."
+          },
+          {
+            "p": "On the circle, 卯 is in the fourth place and 申 in the ninth, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rabbit and the Monkey",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacWonjin} points in zodiac compatibility and by {swingDayBranchWonjin} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rabbit**'s special partners — Six-Harmony [Dog](/guide/zodiac-pair-rabbit-dog) · Half triad [Sheep](/guide/zodiac-pair-rabbit-goat), [Pig](/guide/zodiac-pair-rabbit-pig) · Discord [Monkey](/guide/zodiac-pair-rabbit-monkey) · Clash [Rooster](/guide/zodiac-pair-rabbit-rooster)",
+              "**The Monkey**'s special partners — Six-Harmony [Snake](/guide/zodiac-pair-snake-monkey) · Half triad [Rat](/guide/zodiac-pair-rat-monkey) · Discord [Rabbit](/guide/zodiac-pair-rabbit-monkey) · Clash [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rabbit](/guide/zodiac-rabbit) · [the Monkey](/guide/zodiac-monkey), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "By pair",
+    "title": "The Rabbit and the Rooster — Clash",
+    "summary": "What relationship the Rabbit and the Rooster have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rabbit and the Rooster form a clash",
+        "blocks": [
+          {
+            "p": "The Rabbit and the Rooster form a clash. 卯 and 酉 sit directly opposite each other on the circle."
+          },
+          {
+            "p": "This service keeps {scoreChung} points even for a clash. In traditional myeongri a clash is a collision, not the end of a relationship, and giving a score near the floor would amount to pronouncing a verdict on two people."
+          },
+          {
+            "p": "On the circle, 卯 is in the fourth place and 酉 in the tenth, and the two characters are six steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rabbit and the Rooster",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacChung} points in zodiac compatibility and by {swingDayBranchChung} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rabbit**'s special partners — Six-Harmony [Dog](/guide/zodiac-pair-rabbit-dog) · Half triad [Sheep](/guide/zodiac-pair-rabbit-goat), [Pig](/guide/zodiac-pair-rabbit-pig) · Discord [Monkey](/guide/zodiac-pair-rabbit-monkey) · Clash [Rooster](/guide/zodiac-pair-rabbit-rooster)",
+              "**The Rooster**'s special partners — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Ox](/guide/zodiac-pair-ox-rooster), [Snake](/guide/zodiac-pair-snake-rooster) · Discord [Tiger](/guide/zodiac-pair-tiger-rooster) · Clash [Rabbit](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rabbit](/guide/zodiac-rabbit) · [the Rooster](/guide/zodiac-rooster), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "By pair",
+    "title": "The Rabbit and the Dog — Six-Harmony",
+    "summary": "What relationship the Rabbit and the Dog have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rabbit and the Dog form a six-harmony",
+        "blocks": [
+          {
+            "p": "The Rabbit and the Dog form a six-harmony. 卯 and 戌 make a harmony with only two characters."
+          },
+          {
+            "p": "A six-harmony is the good relationship that appears most often in compatibility, and at {scoreYukhap} it is the highest score either animal can get."
+          },
+          {
+            "p": "On the circle, 卯 is in the fourth place and 戌 in the eleventh, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rabbit and the Dog",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacYukhap} points in zodiac compatibility and by {swingDayBranchYukhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rabbit**'s special partners — Six-Harmony [Dog](/guide/zodiac-pair-rabbit-dog) · Half triad [Sheep](/guide/zodiac-pair-rabbit-goat), [Pig](/guide/zodiac-pair-rabbit-pig) · Discord [Monkey](/guide/zodiac-pair-rabbit-monkey) · Clash [Rooster](/guide/zodiac-pair-rabbit-rooster)",
+              "**The Dog**'s special partners — Six-Harmony [Rabbit](/guide/zodiac-pair-rabbit-dog) · Half triad [Horse](/guide/zodiac-pair-horse-dog) · Discord [Snake](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rabbit](/guide/zodiac-rabbit) · [the Dog](/guide/zodiac-dog), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "By pair",
+    "title": "The Rabbit and the Pig — Half triad",
+    "summary": "What relationship the Rabbit and the Pig have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Rabbit and the Pig form a half triad",
+        "blocks": [
+          {
+            "p": "The Rabbit and the Pig form a half triad. 亥卯未 is one triad group (the wood group), and 卯 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Sheep (未) and the Pig (亥) of the same group lack the central character 卯, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 卯 is in the fourth place and 亥 in the twelfth, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Rabbit and the Pig",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rabbit**'s special partners — Six-Harmony [Dog](/guide/zodiac-pair-rabbit-dog) · Half triad [Sheep](/guide/zodiac-pair-rabbit-goat), [Pig](/guide/zodiac-pair-rabbit-pig) · Discord [Monkey](/guide/zodiac-pair-rabbit-monkey) · Clash [Rooster](/guide/zodiac-pair-rabbit-rooster)",
+              "**The Pig**'s special partners — Six-Harmony [Tiger](/guide/zodiac-pair-tiger-pig) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Snake](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rabbit](/guide/zodiac-rabbit) · [the Pig](/guide/zodiac-pig), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "By pair",
+    "title": "The Dragon and the Dragon — Same Branch",
+    "summary": "What relationship two Dragon people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Dragon people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Dragon people share the same branch (辰 and 辰). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "辰 is the fifth of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Dragon people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Dragon",
+        "blocks": [
+          {
+            "ul": [
+              "**The Dragon**'s special partners — Six-Harmony [Rooster](/guide/zodiac-pair-dragon-rooster) · Half triad [Rat](/guide/zodiac-pair-rat-dragon) · Discord [Pig](/guide/zodiac-pair-dragon-pig) · Clash [Dog](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Dragon](/guide/zodiac-dragon), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "By pair",
+    "title": "The Dragon and the Rooster — Six-Harmony",
+    "summary": "What relationship the Dragon and the Rooster have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Dragon and the Rooster form a six-harmony",
+        "blocks": [
+          {
+            "p": "The Dragon and the Rooster form a six-harmony. 辰 and 酉 make a harmony with only two characters."
+          },
+          {
+            "p": "A six-harmony is the good relationship that appears most often in compatibility, and at {scoreYukhap} it is the highest score either animal can get."
+          },
+          {
+            "p": "On the circle, 辰 is in the fifth place and 酉 in the tenth, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Dragon and the Rooster",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacYukhap} points in zodiac compatibility and by {swingDayBranchYukhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Dragon**'s special partners — Six-Harmony [Rooster](/guide/zodiac-pair-dragon-rooster) · Half triad [Rat](/guide/zodiac-pair-rat-dragon) · Discord [Pig](/guide/zodiac-pair-dragon-pig) · Clash [Dog](/guide/zodiac-pair-dragon-dog)",
+              "**The Rooster**'s special partners — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Ox](/guide/zodiac-pair-ox-rooster), [Snake](/guide/zodiac-pair-snake-rooster) · Discord [Tiger](/guide/zodiac-pair-tiger-rooster) · Clash [Rabbit](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Dragon](/guide/zodiac-dragon) · [the Rooster](/guide/zodiac-rooster), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "By pair",
+    "title": "The Dragon and the Dog — Clash",
+    "summary": "What relationship the Dragon and the Dog have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Dragon and the Dog form a clash",
+        "blocks": [
+          {
+            "p": "The Dragon and the Dog form a clash. 辰 and 戌 sit directly opposite each other on the circle."
+          },
+          {
+            "p": "This service keeps {scoreChung} points even for a clash. In traditional myeongri a clash is a collision, not the end of a relationship, and giving a score near the floor would amount to pronouncing a verdict on two people."
+          },
+          {
+            "p": "On the circle, 辰 is in the fifth place and 戌 in the eleventh, and the two characters are six steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Dragon and the Dog",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacChung} points in zodiac compatibility and by {swingDayBranchChung} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Dragon**'s special partners — Six-Harmony [Rooster](/guide/zodiac-pair-dragon-rooster) · Half triad [Rat](/guide/zodiac-pair-rat-dragon) · Discord [Pig](/guide/zodiac-pair-dragon-pig) · Clash [Dog](/guide/zodiac-pair-dragon-dog)",
+              "**The Dog**'s special partners — Six-Harmony [Rabbit](/guide/zodiac-pair-rabbit-dog) · Half triad [Horse](/guide/zodiac-pair-horse-dog) · Discord [Snake](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Dragon](/guide/zodiac-dragon) · [the Dog](/guide/zodiac-dog), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "By pair",
+    "title": "The Dragon and the Pig — Discord",
+    "summary": "What relationship the Dragon and the Pig have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Dragon and the Pig form a discord",
+        "blocks": [
+          {
+            "p": "The Dragon and the Pig form a discord. The clash position of 辰 is 戌 (the Dog), and 亥 sits right next to it; right next to 巳 (the Snake), the clash position of 亥, sits 辰."
+          },
+          {
+            "p": "It is traditionally seen as a pair who resent each other yet cannot part. It looks calm on the surface, but the misalignment is believed to last, so it gets {scoreWonjin} — higher than a clash ({scoreChung}) and lower than neutral ({scoreNeutral})."
+          },
+          {
+            "p": "On the circle, 辰 is in the fifth place and 亥 in the twelfth, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Dragon and the Pig",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacWonjin} points in zodiac compatibility and by {swingDayBranchWonjin} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Dragon**'s special partners — Six-Harmony [Rooster](/guide/zodiac-pair-dragon-rooster) · Half triad [Rat](/guide/zodiac-pair-rat-dragon) · Discord [Pig](/guide/zodiac-pair-dragon-pig) · Clash [Dog](/guide/zodiac-pair-dragon-dog)",
+              "**The Pig**'s special partners — Six-Harmony [Tiger](/guide/zodiac-pair-tiger-pig) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Snake](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Dragon](/guide/zodiac-dragon) · [the Pig](/guide/zodiac-pig), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "By pair",
+    "title": "The Snake and the Snake — Same Branch",
+    "summary": "What relationship two Snake people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Snake people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Snake people share the same branch (巳 and 巳). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "巳 is the sixth of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Snake people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Snake",
+        "blocks": [
+          {
+            "ul": [
+              "**The Snake**'s special partners — Six-Harmony [Monkey](/guide/zodiac-pair-snake-monkey) · Half triad [Rooster](/guide/zodiac-pair-snake-rooster) · Discord [Dog](/guide/zodiac-pair-snake-dog) · Clash [Pig](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Snake](/guide/zodiac-snake), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "By pair",
+    "title": "The Snake and the Monkey — Six-Harmony",
+    "summary": "What relationship the Snake and the Monkey have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Snake and the Monkey form a six-harmony",
+        "blocks": [
+          {
+            "p": "The Snake and the Monkey form a six-harmony. 巳 and 申 make a harmony with only two characters."
+          },
+          {
+            "p": "A six-harmony is the good relationship that appears most often in compatibility, and at {scoreYukhap} it is the highest score either animal can get."
+          },
+          {
+            "p": "On the circle, 巳 is in the sixth place and 申 in the ninth, and the two characters are three steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Snake and the Monkey",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacYukhap} points in zodiac compatibility and by {swingDayBranchYukhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Snake**'s special partners — Six-Harmony [Monkey](/guide/zodiac-pair-snake-monkey) · Half triad [Rooster](/guide/zodiac-pair-snake-rooster) · Discord [Dog](/guide/zodiac-pair-snake-dog) · Clash [Pig](/guide/zodiac-pair-snake-pig)",
+              "**The Monkey**'s special partners — Six-Harmony [Snake](/guide/zodiac-pair-snake-monkey) · Half triad [Rat](/guide/zodiac-pair-rat-monkey) · Discord [Rabbit](/guide/zodiac-pair-rabbit-monkey) · Clash [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Snake](/guide/zodiac-snake) · [the Monkey](/guide/zodiac-monkey), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "By pair",
+    "title": "The Snake and the Rooster — Half triad",
+    "summary": "What relationship the Snake and the Rooster have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Snake and the Rooster form a half triad",
+        "blocks": [
+          {
+            "p": "The Snake and the Rooster form a half triad. 巳酉丑 is one triad group (the metal group), and 酉 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Ox (丑) and the Snake (巳) of the same group lack the central character 酉, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 巳 is in the sixth place and 酉 in the tenth, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Snake and the Rooster",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Snake**'s special partners — Six-Harmony [Monkey](/guide/zodiac-pair-snake-monkey) · Half triad [Rooster](/guide/zodiac-pair-snake-rooster) · Discord [Dog](/guide/zodiac-pair-snake-dog) · Clash [Pig](/guide/zodiac-pair-snake-pig)",
+              "**The Rooster**'s special partners — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Ox](/guide/zodiac-pair-ox-rooster), [Snake](/guide/zodiac-pair-snake-rooster) · Discord [Tiger](/guide/zodiac-pair-tiger-rooster) · Clash [Rabbit](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Snake](/guide/zodiac-snake) · [the Rooster](/guide/zodiac-rooster), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "By pair",
+    "title": "The Snake and the Dog — Discord",
+    "summary": "What relationship the Snake and the Dog have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Snake and the Dog form a discord",
+        "blocks": [
+          {
+            "p": "The Snake and the Dog form a discord. The clash position of 巳 is 亥 (the Pig), and 戌 sits right next to it; right next to 辰 (the Dragon), the clash position of 戌, sits 巳."
+          },
+          {
+            "p": "It is traditionally seen as a pair who resent each other yet cannot part. It looks calm on the surface, but the misalignment is believed to last, so it gets {scoreWonjin} — higher than a clash ({scoreChung}) and lower than neutral ({scoreNeutral})."
+          },
+          {
+            "p": "On the circle, 巳 is in the sixth place and 戌 in the eleventh, and the two characters are five steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Snake and the Dog",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacWonjin} points in zodiac compatibility and by {swingDayBranchWonjin} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Snake**'s special partners — Six-Harmony [Monkey](/guide/zodiac-pair-snake-monkey) · Half triad [Rooster](/guide/zodiac-pair-snake-rooster) · Discord [Dog](/guide/zodiac-pair-snake-dog) · Clash [Pig](/guide/zodiac-pair-snake-pig)",
+              "**The Dog**'s special partners — Six-Harmony [Rabbit](/guide/zodiac-pair-rabbit-dog) · Half triad [Horse](/guide/zodiac-pair-horse-dog) · Discord [Snake](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Snake](/guide/zodiac-snake) · [the Dog](/guide/zodiac-dog), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "By pair",
+    "title": "The Snake and the Pig — Clash",
+    "summary": "What relationship the Snake and the Pig have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Snake and the Pig form a clash",
+        "blocks": [
+          {
+            "p": "The Snake and the Pig form a clash. 巳 and 亥 sit directly opposite each other on the circle."
+          },
+          {
+            "p": "This service keeps {scoreChung} points even for a clash. In traditional myeongri a clash is a collision, not the end of a relationship, and giving a score near the floor would amount to pronouncing a verdict on two people."
+          },
+          {
+            "p": "On the circle, 巳 is in the sixth place and 亥 in the twelfth, and the two characters are six steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Snake and the Pig",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair lowers the final match rate by {swingZodiacChung} points in zodiac compatibility and by {swingDayBranchChung} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Snake**'s special partners — Six-Harmony [Monkey](/guide/zodiac-pair-snake-monkey) · Half triad [Rooster](/guide/zodiac-pair-snake-rooster) · Discord [Dog](/guide/zodiac-pair-snake-dog) · Clash [Pig](/guide/zodiac-pair-snake-pig)",
+              "**The Pig**'s special partners — Six-Harmony [Tiger](/guide/zodiac-pair-tiger-pig) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Snake](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Snake](/guide/zodiac-snake) · [the Pig](/guide/zodiac-pig), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "By pair",
+    "title": "The Horse and the Horse — Same Branch",
+    "summary": "What relationship two Horse people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Horse people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Horse people share the same branch (午 and 午). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "午 is the seventh of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Horse people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Horse",
+        "blocks": [
+          {
+            "ul": [
+              "**The Horse**'s special partners — Six-Harmony [Sheep](/guide/zodiac-pair-horse-goat) · Half triad [Tiger](/guide/zodiac-pair-tiger-horse), [Dog](/guide/zodiac-pair-horse-dog) · Discord [Ox](/guide/zodiac-pair-ox-horse) · Clash [Rat](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Horse](/guide/zodiac-horse), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "By pair",
+    "title": "The Horse and the Sheep — Six-Harmony",
+    "summary": "What relationship the Horse and the Sheep have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Horse and the Sheep form a six-harmony",
+        "blocks": [
+          {
+            "p": "The Horse and the Sheep form a six-harmony. 午 and 未 make a harmony with only two characters."
+          },
+          {
+            "p": "A six-harmony is the good relationship that appears most often in compatibility, and at {scoreYukhap} it is the highest score either animal can get."
+          },
+          {
+            "p": "On the circle, 午 is in the seventh place and 未 in the eighth, and the two characters are one step apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Horse and the Sheep",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacYukhap} points in zodiac compatibility and by {swingDayBranchYukhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Horse**'s special partners — Six-Harmony [Sheep](/guide/zodiac-pair-horse-goat) · Half triad [Tiger](/guide/zodiac-pair-tiger-horse), [Dog](/guide/zodiac-pair-horse-dog) · Discord [Ox](/guide/zodiac-pair-ox-horse) · Clash [Rat](/guide/zodiac-pair-rat-horse)",
+              "**The Sheep**'s special partners — Six-Harmony [Horse](/guide/zodiac-pair-horse-goat) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-goat) · Discord [Rat](/guide/zodiac-pair-rat-goat) · Clash [Ox](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Horse](/guide/zodiac-horse) · [the Sheep](/guide/zodiac-goat), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "By pair",
+    "title": "The Horse and the Dog — Half triad",
+    "summary": "What relationship the Horse and the Dog have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The Horse and the Dog form a half triad",
+        "blocks": [
+          {
+            "p": "The Horse and the Dog form a half triad. 寅午戌 is one triad group (the fire group), and 午 is the **royal branch** at its centre."
+          },
+          {
+            "p": "Inyeon-Link accepts only pairs that include the royal branch, so this pair is a half triad ({scoreBanhap})."
+          },
+          {
+            "p": "The Tiger (寅) and the Dog (戌) of the same group lack the central character 午, so they are not counted as a harmony and are treated as neutral."
+          },
+          {
+            "p": "On the circle, 午 is in the seventh place and 戌 in the eleventh, and the two characters are four steps apart."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "The Horse and the Dog",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacBanhap} points in zodiac compatibility and by {swingDayBranchBanhap} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of each animal",
+        "blocks": [
+          {
+            "ul": [
+              "**The Horse**'s special partners — Six-Harmony [Sheep](/guide/zodiac-pair-horse-goat) · Half triad [Tiger](/guide/zodiac-pair-tiger-horse), [Dog](/guide/zodiac-pair-horse-dog) · Discord [Ox](/guide/zodiac-pair-ox-horse) · Clash [Rat](/guide/zodiac-pair-rat-horse)",
+              "**The Dog**'s special partners — Six-Harmony [Rabbit](/guide/zodiac-pair-rabbit-dog) · Half triad [Horse](/guide/zodiac-pair-horse-dog) · Discord [Snake](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Horse](/guide/zodiac-horse) · [the Dog](/guide/zodiac-dog), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "By pair",
+    "title": "The Sheep and the Sheep — Same Branch",
+    "summary": "What relationship two Sheep people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Sheep people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Sheep people share the same branch (未 and 未). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "未 is the eighth of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Sheep people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Sheep",
+        "blocks": [
+          {
+            "ul": [
+              "**The Sheep**'s special partners — Six-Harmony [Horse](/guide/zodiac-pair-horse-goat) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-goat) · Discord [Rat](/guide/zodiac-pair-rat-goat) · Clash [Ox](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Sheep](/guide/zodiac-goat), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "By pair",
+    "title": "The Monkey and the Monkey — Same Branch",
+    "summary": "What relationship two Monkey people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Monkey people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Monkey people share the same branch (申 and 申). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "申 is the ninth of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Monkey people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Monkey",
+        "blocks": [
+          {
+            "ul": [
+              "**The Monkey**'s special partners — Six-Harmony [Snake](/guide/zodiac-pair-snake-monkey) · Half triad [Rat](/guide/zodiac-pair-rat-monkey) · Discord [Rabbit](/guide/zodiac-pair-rabbit-monkey) · Clash [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Monkey](/guide/zodiac-monkey), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "By pair",
+    "title": "The Rooster and the Rooster — Same Branch",
+    "summary": "What relationship two Rooster people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Rooster people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Rooster people share the same branch (酉 and 酉). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "酉 is the tenth of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Rooster people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Rooster",
+        "blocks": [
+          {
+            "ul": [
+              "**The Rooster**'s special partners — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Ox](/guide/zodiac-pair-ox-rooster), [Snake](/guide/zodiac-pair-snake-rooster) · Discord [Tiger](/guide/zodiac-pair-tiger-rooster) · Clash [Rabbit](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Rooster](/guide/zodiac-rooster), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "By pair",
+    "title": "The Dog and the Dog — Same Branch",
+    "summary": "What relationship two Dog people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Dog people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Dog people share the same branch (戌 and 戌). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "戌 is the eleventh of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Dog people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Dog",
+        "blocks": [
+          {
+            "ul": [
+              "**The Dog**'s special partners — Six-Harmony [Rabbit](/guide/zodiac-pair-rabbit-dog) · Half triad [Horse](/guide/zodiac-pair-horse-dog) · Discord [Snake](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Dog](/guide/zodiac-dog), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "By pair",
+    "title": "The Pig and the Pig — Same Branch",
+    "summary": "What relationship two Pig people have, what it scores, and how far that score moves the final match rate — laid out exactly as Inyeon-Link's calculation rules have it.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Two Pig people share the same branch",
+        "blocks": [
+          {
+            "p": "Two Pig people share the same branch (亥 and 亥). It means they resemble each other, not that they attract."
+          },
+          {
+            "p": "So it scores {scoreSame}, just above neutral ({scoreNeutral}): not a harmony, a clash or a discord, only slightly raised."
+          },
+          {
+            "p": "亥 is the twelfth of the twelve earthly branches."
+          }
+        ]
+      },
+      {
+        "title": "The numbers of this pair",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Two Pig people",
+              "head": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Relationship",
+                  "Same branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Share of the final match rate in zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Share of the final match rate in day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "How far it moves the final match rate",
+        "blocks": [
+          {
+            "p": "If everything else is equal, this pair raises the final match rate by {swingZodiacSame} points in zodiac compatibility and by {swingDayBranchSame} points in day branch compatibility, compared with a neutral pair."
+          },
+          {
+            "p": "Zodiac compatibility sets the branches of the birth years side by side, and day branch compatibility sets those of the birth days. The two can be different branches, so the same two people can show different relationships in each."
+          }
+        ]
+      },
+      {
+        "title": "The other special relationships of the Pig",
+        "blocks": [
+          {
+            "ul": [
+              "**The Pig**'s special partners — Six-Harmony [Tiger](/guide/zodiac-pair-tiger-pig) · Half triad [Rabbit](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Snake](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "What this guide does not say",
+        "blocks": [
+          {
+            "ul": [
+              "One animal does not settle a relationship between two people. {weightSaju} of the final match rate is decided by the saju compatibility.",
+              "The point changes above assume that everything else is equal; the real result is set by both people's whole saju."
+            ]
+          },
+          {
+            "p": "The full guide to each animal is at [the Pig](/guide/zodiac-pig), and the full chart is in the [twelve-branch chart](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Ten Gods",
     "title": "Ten Gods and Spouse Position",

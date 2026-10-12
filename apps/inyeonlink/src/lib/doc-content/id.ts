@@ -2769,6 +2769,3514 @@ export const ID_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Tikus dan Tikus — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Tikus, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Tikus memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Tikus memiliki cabang yang sama (子 dan 子). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "子 adalah cabang bumi pertama dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Tikus",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Tikus",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Tikus** — Enam-Harmoni [Sapi](/guide/zodiac-pair-rat-ox) · Triad setengah [Naga](/guide/zodiac-pair-rat-dragon), [Monyet](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Domba](/guide/zodiac-pair-rat-goat) · Tabrakan [Kuda](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Tikus](/guide/zodiac-rat), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Tikus dan Sapi — Enam-Harmoni",
+    "summary": "Hubungan apa yang dimiliki Tikus dan Sapi, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Tikus dan Sapi membentuk Enam-Harmoni",
+        "blocks": [
+          {
+            "p": "Tikus dan Sapi membentuk Enam-Harmoni. 子 dan 丑 membentuk keharmonisan hanya dengan dua karakter."
+          },
+          {
+            "p": "Enam-Harmoni adalah hubungan baik yang paling sering muncul dalam kecocokan, dan pada {scoreYukhap} itu adalah skor tertinggi yang bisa diperoleh kedua hewan."
+          },
+          {
+            "p": "Pada lingkaran, 子 berada di urutan pertama dan 丑 di urutan kedua, dan kedua karakter itu terpisah satu langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Tikus dan Sapi",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Enam-Harmoni"
+                ],
+                [
+                  "Skor",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacYukhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchYukhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Tikus** — Enam-Harmoni [Sapi](/guide/zodiac-pair-rat-ox) · Triad setengah [Naga](/guide/zodiac-pair-rat-dragon), [Monyet](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Domba](/guide/zodiac-pair-rat-goat) · Tabrakan [Kuda](/guide/zodiac-pair-rat-horse)",
+              "Pasangan khusus **Sapi** — Enam-Harmoni [Tikus](/guide/zodiac-pair-rat-ox) · Triad setengah [Ayam](/guide/zodiac-pair-ox-rooster) · Ketidakcocokan [Kuda](/guide/zodiac-pair-ox-horse) · Tabrakan [Domba](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Tikus](/guide/zodiac-rat) · [Sapi](/guide/zodiac-ox), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Tikus dan Naga — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Tikus dan Naga, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Tikus dan Naga membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Tikus dan Naga membentuk triad setengah. 申子辰 adalah satu kelompok triad (kelompok air), dan 子 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Monyet (申) dan Naga (辰) dari kelompok yang sama tidak memiliki karakter pusat 子, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 子 berada di urutan pertama dan 辰 di urutan kelima, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Tikus dan Naga",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Tikus** — Enam-Harmoni [Sapi](/guide/zodiac-pair-rat-ox) · Triad setengah [Naga](/guide/zodiac-pair-rat-dragon), [Monyet](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Domba](/guide/zodiac-pair-rat-goat) · Tabrakan [Kuda](/guide/zodiac-pair-rat-horse)",
+              "Pasangan khusus **Naga** — Enam-Harmoni [Ayam](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Tikus](/guide/zodiac-pair-rat-dragon) · Ketidakcocokan [Babi](/guide/zodiac-pair-dragon-pig) · Tabrakan [Anjing](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Tikus](/guide/zodiac-rat) · [Naga](/guide/zodiac-dragon), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Tikus dan Kuda — Tabrakan",
+    "summary": "Hubungan apa yang dimiliki Tikus dan Kuda, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Tikus dan Kuda membentuk tabrakan",
+        "blocks": [
+          {
+            "p": "Tikus dan Kuda membentuk tabrakan. 子 dan 午 berada tepat berseberangan di lingkaran."
+          },
+          {
+            "p": "Layanan ini tetap memberi {scoreChung} poin meskipun tabrakan. Dalam myeongri tradisional, tabrakan adalah benturan, bukan akhir sebuah hubungan, dan memberi skor mendekati nol sama saja dengan menjatuhkan vonis atas dua orang."
+          },
+          {
+            "p": "Pada lingkaran, 子 berada di urutan pertama dan 午 di urutan ketujuh, dan kedua karakter itu terpisah enam langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Tikus dan Kuda",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Tabrakan"
+                ],
+                [
+                  "Skor",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacChung} poin dalam kecocokan zodiak dan sebesar {swingDayBranchChung} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Tikus** — Enam-Harmoni [Sapi](/guide/zodiac-pair-rat-ox) · Triad setengah [Naga](/guide/zodiac-pair-rat-dragon), [Monyet](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Domba](/guide/zodiac-pair-rat-goat) · Tabrakan [Kuda](/guide/zodiac-pair-rat-horse)",
+              "Pasangan khusus **Kuda** — Enam-Harmoni [Domba](/guide/zodiac-pair-horse-goat) · Triad setengah [Harimau](/guide/zodiac-pair-tiger-horse), [Anjing](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Sapi](/guide/zodiac-pair-ox-horse) · Tabrakan [Tikus](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Tikus](/guide/zodiac-rat) · [Kuda](/guide/zodiac-horse), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Tikus dan Domba — Ketidakcocokan",
+    "summary": "Hubungan apa yang dimiliki Tikus dan Domba, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Tikus dan Domba membentuk ketidakcocokan",
+        "blocks": [
+          {
+            "p": "Tikus dan Domba membentuk ketidakcocokan. Posisi tabrakan 子 adalah 午 (Kuda), dan 未 berada tepat di sebelahnya; tepat di sebelah 丑 (Sapi), posisi tabrakan 未, berada 子."
+          },
+          {
+            "p": "Secara tradisional dipandang sebagai pasangan yang saling menyimpan kesal namun tidak bisa berpisah. Tampak tenang di permukaan, tetapi ketidakselarasannya dipercaya bertahan lama, sehingga mendapat {scoreWonjin} — lebih tinggi daripada tabrakan ({scoreChung}) dan lebih rendah daripada netral ({scoreNeutral})."
+          },
+          {
+            "p": "Pada lingkaran, 子 berada di urutan pertama dan 未 di urutan kedelapan, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Tikus dan Domba",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Ketidakcocokan"
+                ],
+                [
+                  "Skor",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacWonjin} poin dalam kecocokan zodiak dan sebesar {swingDayBranchWonjin} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Tikus** — Enam-Harmoni [Sapi](/guide/zodiac-pair-rat-ox) · Triad setengah [Naga](/guide/zodiac-pair-rat-dragon), [Monyet](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Domba](/guide/zodiac-pair-rat-goat) · Tabrakan [Kuda](/guide/zodiac-pair-rat-horse)",
+              "Pasangan khusus **Domba** — Enam-Harmoni [Kuda](/guide/zodiac-pair-horse-goat) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-goat) · Ketidakcocokan [Tikus](/guide/zodiac-pair-rat-goat) · Tabrakan [Sapi](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Tikus](/guide/zodiac-rat) · [Domba](/guide/zodiac-goat), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Tikus dan Monyet — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Tikus dan Monyet, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Tikus dan Monyet membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Tikus dan Monyet membentuk triad setengah. 申子辰 adalah satu kelompok triad (kelompok air), dan 子 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Naga (辰) dan Monyet (申) dari kelompok yang sama tidak memiliki karakter pusat 子, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 子 berada di urutan pertama dan 申 di urutan kesembilan, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Tikus dan Monyet",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Tikus** — Enam-Harmoni [Sapi](/guide/zodiac-pair-rat-ox) · Triad setengah [Naga](/guide/zodiac-pair-rat-dragon), [Monyet](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Domba](/guide/zodiac-pair-rat-goat) · Tabrakan [Kuda](/guide/zodiac-pair-rat-horse)",
+              "Pasangan khusus **Monyet** — Enam-Harmoni [Ular](/guide/zodiac-pair-snake-monkey) · Triad setengah [Tikus](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Kelinci](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Harimau](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Tikus](/guide/zodiac-rat) · [Monyet](/guide/zodiac-monkey), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Sapi dan Sapi — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Sapi, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Sapi memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Sapi memiliki cabang yang sama (丑 dan 丑). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "丑 adalah cabang bumi kedua dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Sapi",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Sapi",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Sapi** — Enam-Harmoni [Tikus](/guide/zodiac-pair-rat-ox) · Triad setengah [Ayam](/guide/zodiac-pair-ox-rooster) · Ketidakcocokan [Kuda](/guide/zodiac-pair-ox-horse) · Tabrakan [Domba](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Sapi](/guide/zodiac-ox), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Sapi dan Kuda — Ketidakcocokan",
+    "summary": "Hubungan apa yang dimiliki Sapi dan Kuda, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Sapi dan Kuda membentuk ketidakcocokan",
+        "blocks": [
+          {
+            "p": "Sapi dan Kuda membentuk ketidakcocokan. Posisi tabrakan 丑 adalah 未 (Domba), dan 午 berada tepat di sebelahnya; tepat di sebelah 子 (Tikus), posisi tabrakan 午, berada 丑."
+          },
+          {
+            "p": "Secara tradisional dipandang sebagai pasangan yang saling menyimpan kesal namun tidak bisa berpisah. Tampak tenang di permukaan, tetapi ketidakselarasannya dipercaya bertahan lama, sehingga mendapat {scoreWonjin} — lebih tinggi daripada tabrakan ({scoreChung}) dan lebih rendah daripada netral ({scoreNeutral})."
+          },
+          {
+            "p": "Pada lingkaran, 丑 berada di urutan kedua dan 午 di urutan ketujuh, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sapi dan Kuda",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Ketidakcocokan"
+                ],
+                [
+                  "Skor",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacWonjin} poin dalam kecocokan zodiak dan sebesar {swingDayBranchWonjin} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Sapi** — Enam-Harmoni [Tikus](/guide/zodiac-pair-rat-ox) · Triad setengah [Ayam](/guide/zodiac-pair-ox-rooster) · Ketidakcocokan [Kuda](/guide/zodiac-pair-ox-horse) · Tabrakan [Domba](/guide/zodiac-pair-ox-goat)",
+              "Pasangan khusus **Kuda** — Enam-Harmoni [Domba](/guide/zodiac-pair-horse-goat) · Triad setengah [Harimau](/guide/zodiac-pair-tiger-horse), [Anjing](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Sapi](/guide/zodiac-pair-ox-horse) · Tabrakan [Tikus](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Sapi](/guide/zodiac-ox) · [Kuda](/guide/zodiac-horse), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Sapi dan Domba — Tabrakan",
+    "summary": "Hubungan apa yang dimiliki Sapi dan Domba, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Sapi dan Domba membentuk tabrakan",
+        "blocks": [
+          {
+            "p": "Sapi dan Domba membentuk tabrakan. 丑 dan 未 berada tepat berseberangan di lingkaran."
+          },
+          {
+            "p": "Layanan ini tetap memberi {scoreChung} poin meskipun tabrakan. Dalam myeongri tradisional, tabrakan adalah benturan, bukan akhir sebuah hubungan, dan memberi skor mendekati nol sama saja dengan menjatuhkan vonis atas dua orang."
+          },
+          {
+            "p": "Pada lingkaran, 丑 berada di urutan kedua dan 未 di urutan kedelapan, dan kedua karakter itu terpisah enam langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sapi dan Domba",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Tabrakan"
+                ],
+                [
+                  "Skor",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacChung} poin dalam kecocokan zodiak dan sebesar {swingDayBranchChung} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Sapi** — Enam-Harmoni [Tikus](/guide/zodiac-pair-rat-ox) · Triad setengah [Ayam](/guide/zodiac-pair-ox-rooster) · Ketidakcocokan [Kuda](/guide/zodiac-pair-ox-horse) · Tabrakan [Domba](/guide/zodiac-pair-ox-goat)",
+              "Pasangan khusus **Domba** — Enam-Harmoni [Kuda](/guide/zodiac-pair-horse-goat) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-goat) · Ketidakcocokan [Tikus](/guide/zodiac-pair-rat-goat) · Tabrakan [Sapi](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Sapi](/guide/zodiac-ox) · [Domba](/guide/zodiac-goat), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Sapi dan Ayam — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Sapi dan Ayam, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Sapi dan Ayam membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Sapi dan Ayam membentuk triad setengah. 巳酉丑 adalah satu kelompok triad (kelompok logam), dan 酉 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Ular (巳) dan Sapi (丑) dari kelompok yang sama tidak memiliki karakter pusat 酉, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 丑 berada di urutan kedua dan 酉 di urutan kesepuluh, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sapi dan Ayam",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Sapi** — Enam-Harmoni [Tikus](/guide/zodiac-pair-rat-ox) · Triad setengah [Ayam](/guide/zodiac-pair-ox-rooster) · Ketidakcocokan [Kuda](/guide/zodiac-pair-ox-horse) · Tabrakan [Domba](/guide/zodiac-pair-ox-goat)",
+              "Pasangan khusus **Ayam** — Enam-Harmoni [Naga](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Sapi](/guide/zodiac-pair-ox-rooster), [Ular](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Harimau](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Kelinci](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Sapi](/guide/zodiac-ox) · [Ayam](/guide/zodiac-rooster), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Harimau dan Harimau — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Harimau, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Harimau memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Harimau memiliki cabang yang sama (寅 dan 寅). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "寅 adalah cabang bumi ketiga dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Harimau",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Harimau",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Harimau** — Enam-Harmoni [Babi](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kuda](/guide/zodiac-pair-tiger-horse) · Ketidakcocokan [Ayam](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Monyet](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Harimau](/guide/zodiac-tiger), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Harimau dan Kuda — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Harimau dan Kuda, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Harimau dan Kuda membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Harimau dan Kuda membentuk triad setengah. 寅午戌 adalah satu kelompok triad (kelompok api), dan 午 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Anjing (戌) dan Harimau (寅) dari kelompok yang sama tidak memiliki karakter pusat 午, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 寅 berada di urutan ketiga dan 午 di urutan ketujuh, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Harimau dan Kuda",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Harimau** — Enam-Harmoni [Babi](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kuda](/guide/zodiac-pair-tiger-horse) · Ketidakcocokan [Ayam](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Monyet](/guide/zodiac-pair-tiger-monkey)",
+              "Pasangan khusus **Kuda** — Enam-Harmoni [Domba](/guide/zodiac-pair-horse-goat) · Triad setengah [Harimau](/guide/zodiac-pair-tiger-horse), [Anjing](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Sapi](/guide/zodiac-pair-ox-horse) · Tabrakan [Tikus](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Harimau](/guide/zodiac-tiger) · [Kuda](/guide/zodiac-horse), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Harimau dan Monyet — Tabrakan",
+    "summary": "Hubungan apa yang dimiliki Harimau dan Monyet, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Harimau dan Monyet membentuk tabrakan",
+        "blocks": [
+          {
+            "p": "Harimau dan Monyet membentuk tabrakan. 寅 dan 申 berada tepat berseberangan di lingkaran."
+          },
+          {
+            "p": "Layanan ini tetap memberi {scoreChung} poin meskipun tabrakan. Dalam myeongri tradisional, tabrakan adalah benturan, bukan akhir sebuah hubungan, dan memberi skor mendekati nol sama saja dengan menjatuhkan vonis atas dua orang."
+          },
+          {
+            "p": "Pada lingkaran, 寅 berada di urutan ketiga dan 申 di urutan kesembilan, dan kedua karakter itu terpisah enam langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Harimau dan Monyet",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Tabrakan"
+                ],
+                [
+                  "Skor",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacChung} poin dalam kecocokan zodiak dan sebesar {swingDayBranchChung} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Harimau** — Enam-Harmoni [Babi](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kuda](/guide/zodiac-pair-tiger-horse) · Ketidakcocokan [Ayam](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Monyet](/guide/zodiac-pair-tiger-monkey)",
+              "Pasangan khusus **Monyet** — Enam-Harmoni [Ular](/guide/zodiac-pair-snake-monkey) · Triad setengah [Tikus](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Kelinci](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Harimau](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Harimau](/guide/zodiac-tiger) · [Monyet](/guide/zodiac-monkey), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Harimau dan Ayam — Ketidakcocokan",
+    "summary": "Hubungan apa yang dimiliki Harimau dan Ayam, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Harimau dan Ayam membentuk ketidakcocokan",
+        "blocks": [
+          {
+            "p": "Harimau dan Ayam membentuk ketidakcocokan. Posisi tabrakan 寅 adalah 申 (Monyet), dan 酉 berada tepat di sebelahnya; tepat di sebelah 卯 (Kelinci), posisi tabrakan 酉, berada 寅."
+          },
+          {
+            "p": "Secara tradisional dipandang sebagai pasangan yang saling menyimpan kesal namun tidak bisa berpisah. Tampak tenang di permukaan, tetapi ketidakselarasannya dipercaya bertahan lama, sehingga mendapat {scoreWonjin} — lebih tinggi daripada tabrakan ({scoreChung}) dan lebih rendah daripada netral ({scoreNeutral})."
+          },
+          {
+            "p": "Pada lingkaran, 寅 berada di urutan ketiga dan 酉 di urutan kesepuluh, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Harimau dan Ayam",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Ketidakcocokan"
+                ],
+                [
+                  "Skor",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacWonjin} poin dalam kecocokan zodiak dan sebesar {swingDayBranchWonjin} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Harimau** — Enam-Harmoni [Babi](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kuda](/guide/zodiac-pair-tiger-horse) · Ketidakcocokan [Ayam](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Monyet](/guide/zodiac-pair-tiger-monkey)",
+              "Pasangan khusus **Ayam** — Enam-Harmoni [Naga](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Sapi](/guide/zodiac-pair-ox-rooster), [Ular](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Harimau](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Kelinci](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Harimau](/guide/zodiac-tiger) · [Ayam](/guide/zodiac-rooster), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Harimau dan Babi — Enam-Harmoni",
+    "summary": "Hubungan apa yang dimiliki Harimau dan Babi, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Harimau dan Babi membentuk Enam-Harmoni",
+        "blocks": [
+          {
+            "p": "Harimau dan Babi membentuk Enam-Harmoni. 寅 dan 亥 membentuk keharmonisan hanya dengan dua karakter."
+          },
+          {
+            "p": "Enam-Harmoni adalah hubungan baik yang paling sering muncul dalam kecocokan, dan pada {scoreYukhap} itu adalah skor tertinggi yang bisa diperoleh kedua hewan."
+          },
+          {
+            "p": "Pada lingkaran, 寅 berada di urutan ketiga dan 亥 di urutan kedua belas, dan kedua karakter itu terpisah tiga langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Harimau dan Babi",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Enam-Harmoni"
+                ],
+                [
+                  "Skor",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacYukhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchYukhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Harimau** — Enam-Harmoni [Babi](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kuda](/guide/zodiac-pair-tiger-horse) · Ketidakcocokan [Ayam](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Monyet](/guide/zodiac-pair-tiger-monkey)",
+              "Pasangan khusus **Babi** — Enam-Harmoni [Harimau](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Naga](/guide/zodiac-pair-dragon-pig) · Tabrakan [Ular](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Harimau](/guide/zodiac-tiger) · [Babi](/guide/zodiac-pig), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kelinci dan Kelinci — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Kelinci, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Kelinci memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Kelinci memiliki cabang yang sama (卯 dan 卯). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "卯 adalah cabang bumi keempat dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Kelinci",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Kelinci",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kelinci** — Enam-Harmoni [Anjing](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Domba](/guide/zodiac-pair-rabbit-goat), [Babi](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Monyet](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Ayam](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kelinci](/guide/zodiac-rabbit), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kelinci dan Domba — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Kelinci dan Domba, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Kelinci dan Domba membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Kelinci dan Domba membentuk triad setengah. 亥卯未 adalah satu kelompok triad (kelompok kayu), dan 卯 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Babi (亥) dan Domba (未) dari kelompok yang sama tidak memiliki karakter pusat 卯, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 卯 berada di urutan keempat dan 未 di urutan kedelapan, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Kelinci dan Domba",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kelinci** — Enam-Harmoni [Anjing](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Domba](/guide/zodiac-pair-rabbit-goat), [Babi](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Monyet](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Ayam](/guide/zodiac-pair-rabbit-rooster)",
+              "Pasangan khusus **Domba** — Enam-Harmoni [Kuda](/guide/zodiac-pair-horse-goat) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-goat) · Ketidakcocokan [Tikus](/guide/zodiac-pair-rat-goat) · Tabrakan [Sapi](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kelinci](/guide/zodiac-rabbit) · [Domba](/guide/zodiac-goat), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kelinci dan Monyet — Ketidakcocokan",
+    "summary": "Hubungan apa yang dimiliki Kelinci dan Monyet, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Kelinci dan Monyet membentuk ketidakcocokan",
+        "blocks": [
+          {
+            "p": "Kelinci dan Monyet membentuk ketidakcocokan. Posisi tabrakan 卯 adalah 酉 (Ayam), dan 申 berada tepat di sebelahnya; tepat di sebelah 寅 (Harimau), posisi tabrakan 申, berada 卯."
+          },
+          {
+            "p": "Secara tradisional dipandang sebagai pasangan yang saling menyimpan kesal namun tidak bisa berpisah. Tampak tenang di permukaan, tetapi ketidakselarasannya dipercaya bertahan lama, sehingga mendapat {scoreWonjin} — lebih tinggi daripada tabrakan ({scoreChung}) dan lebih rendah daripada netral ({scoreNeutral})."
+          },
+          {
+            "p": "Pada lingkaran, 卯 berada di urutan keempat dan 申 di urutan kesembilan, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Kelinci dan Monyet",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Ketidakcocokan"
+                ],
+                [
+                  "Skor",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacWonjin} poin dalam kecocokan zodiak dan sebesar {swingDayBranchWonjin} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kelinci** — Enam-Harmoni [Anjing](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Domba](/guide/zodiac-pair-rabbit-goat), [Babi](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Monyet](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Ayam](/guide/zodiac-pair-rabbit-rooster)",
+              "Pasangan khusus **Monyet** — Enam-Harmoni [Ular](/guide/zodiac-pair-snake-monkey) · Triad setengah [Tikus](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Kelinci](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Harimau](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kelinci](/guide/zodiac-rabbit) · [Monyet](/guide/zodiac-monkey), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kelinci dan Ayam — Tabrakan",
+    "summary": "Hubungan apa yang dimiliki Kelinci dan Ayam, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Kelinci dan Ayam membentuk tabrakan",
+        "blocks": [
+          {
+            "p": "Kelinci dan Ayam membentuk tabrakan. 卯 dan 酉 berada tepat berseberangan di lingkaran."
+          },
+          {
+            "p": "Layanan ini tetap memberi {scoreChung} poin meskipun tabrakan. Dalam myeongri tradisional, tabrakan adalah benturan, bukan akhir sebuah hubungan, dan memberi skor mendekati nol sama saja dengan menjatuhkan vonis atas dua orang."
+          },
+          {
+            "p": "Pada lingkaran, 卯 berada di urutan keempat dan 酉 di urutan kesepuluh, dan kedua karakter itu terpisah enam langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Kelinci dan Ayam",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Tabrakan"
+                ],
+                [
+                  "Skor",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacChung} poin dalam kecocokan zodiak dan sebesar {swingDayBranchChung} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kelinci** — Enam-Harmoni [Anjing](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Domba](/guide/zodiac-pair-rabbit-goat), [Babi](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Monyet](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Ayam](/guide/zodiac-pair-rabbit-rooster)",
+              "Pasangan khusus **Ayam** — Enam-Harmoni [Naga](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Sapi](/guide/zodiac-pair-ox-rooster), [Ular](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Harimau](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Kelinci](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kelinci](/guide/zodiac-rabbit) · [Ayam](/guide/zodiac-rooster), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kelinci dan Anjing — Enam-Harmoni",
+    "summary": "Hubungan apa yang dimiliki Kelinci dan Anjing, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Kelinci dan Anjing membentuk Enam-Harmoni",
+        "blocks": [
+          {
+            "p": "Kelinci dan Anjing membentuk Enam-Harmoni. 卯 dan 戌 membentuk keharmonisan hanya dengan dua karakter."
+          },
+          {
+            "p": "Enam-Harmoni adalah hubungan baik yang paling sering muncul dalam kecocokan, dan pada {scoreYukhap} itu adalah skor tertinggi yang bisa diperoleh kedua hewan."
+          },
+          {
+            "p": "Pada lingkaran, 卯 berada di urutan keempat dan 戌 di urutan kesebelas, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Kelinci dan Anjing",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Enam-Harmoni"
+                ],
+                [
+                  "Skor",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacYukhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchYukhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kelinci** — Enam-Harmoni [Anjing](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Domba](/guide/zodiac-pair-rabbit-goat), [Babi](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Monyet](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Ayam](/guide/zodiac-pair-rabbit-rooster)",
+              "Pasangan khusus **Anjing** — Enam-Harmoni [Kelinci](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Kuda](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Ular](/guide/zodiac-pair-snake-dog) · Tabrakan [Naga](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kelinci](/guide/zodiac-rabbit) · [Anjing](/guide/zodiac-dog), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kelinci dan Babi — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Kelinci dan Babi, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Kelinci dan Babi membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Kelinci dan Babi membentuk triad setengah. 亥卯未 adalah satu kelompok triad (kelompok kayu), dan 卯 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Domba (未) dan Babi (亥) dari kelompok yang sama tidak memiliki karakter pusat 卯, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 卯 berada di urutan keempat dan 亥 di urutan kedua belas, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Kelinci dan Babi",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kelinci** — Enam-Harmoni [Anjing](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Domba](/guide/zodiac-pair-rabbit-goat), [Babi](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Monyet](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Ayam](/guide/zodiac-pair-rabbit-rooster)",
+              "Pasangan khusus **Babi** — Enam-Harmoni [Harimau](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Naga](/guide/zodiac-pair-dragon-pig) · Tabrakan [Ular](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kelinci](/guide/zodiac-rabbit) · [Babi](/guide/zodiac-pig), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Naga dan Naga — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Naga, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Naga memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Naga memiliki cabang yang sama (辰 dan 辰). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "辰 adalah cabang bumi kelima dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Naga",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Naga",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Naga** — Enam-Harmoni [Ayam](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Tikus](/guide/zodiac-pair-rat-dragon) · Ketidakcocokan [Babi](/guide/zodiac-pair-dragon-pig) · Tabrakan [Anjing](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Naga](/guide/zodiac-dragon), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Naga dan Ayam — Enam-Harmoni",
+    "summary": "Hubungan apa yang dimiliki Naga dan Ayam, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Naga dan Ayam membentuk Enam-Harmoni",
+        "blocks": [
+          {
+            "p": "Naga dan Ayam membentuk Enam-Harmoni. 辰 dan 酉 membentuk keharmonisan hanya dengan dua karakter."
+          },
+          {
+            "p": "Enam-Harmoni adalah hubungan baik yang paling sering muncul dalam kecocokan, dan pada {scoreYukhap} itu adalah skor tertinggi yang bisa diperoleh kedua hewan."
+          },
+          {
+            "p": "Pada lingkaran, 辰 berada di urutan kelima dan 酉 di urutan kesepuluh, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Naga dan Ayam",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Enam-Harmoni"
+                ],
+                [
+                  "Skor",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacYukhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchYukhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Naga** — Enam-Harmoni [Ayam](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Tikus](/guide/zodiac-pair-rat-dragon) · Ketidakcocokan [Babi](/guide/zodiac-pair-dragon-pig) · Tabrakan [Anjing](/guide/zodiac-pair-dragon-dog)",
+              "Pasangan khusus **Ayam** — Enam-Harmoni [Naga](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Sapi](/guide/zodiac-pair-ox-rooster), [Ular](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Harimau](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Kelinci](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Naga](/guide/zodiac-dragon) · [Ayam](/guide/zodiac-rooster), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Naga dan Anjing — Tabrakan",
+    "summary": "Hubungan apa yang dimiliki Naga dan Anjing, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Naga dan Anjing membentuk tabrakan",
+        "blocks": [
+          {
+            "p": "Naga dan Anjing membentuk tabrakan. 辰 dan 戌 berada tepat berseberangan di lingkaran."
+          },
+          {
+            "p": "Layanan ini tetap memberi {scoreChung} poin meskipun tabrakan. Dalam myeongri tradisional, tabrakan adalah benturan, bukan akhir sebuah hubungan, dan memberi skor mendekati nol sama saja dengan menjatuhkan vonis atas dua orang."
+          },
+          {
+            "p": "Pada lingkaran, 辰 berada di urutan kelima dan 戌 di urutan kesebelas, dan kedua karakter itu terpisah enam langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Naga dan Anjing",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Tabrakan"
+                ],
+                [
+                  "Skor",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacChung} poin dalam kecocokan zodiak dan sebesar {swingDayBranchChung} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Naga** — Enam-Harmoni [Ayam](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Tikus](/guide/zodiac-pair-rat-dragon) · Ketidakcocokan [Babi](/guide/zodiac-pair-dragon-pig) · Tabrakan [Anjing](/guide/zodiac-pair-dragon-dog)",
+              "Pasangan khusus **Anjing** — Enam-Harmoni [Kelinci](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Kuda](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Ular](/guide/zodiac-pair-snake-dog) · Tabrakan [Naga](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Naga](/guide/zodiac-dragon) · [Anjing](/guide/zodiac-dog), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Naga dan Babi — Ketidakcocokan",
+    "summary": "Hubungan apa yang dimiliki Naga dan Babi, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Naga dan Babi membentuk ketidakcocokan",
+        "blocks": [
+          {
+            "p": "Naga dan Babi membentuk ketidakcocokan. Posisi tabrakan 辰 adalah 戌 (Anjing), dan 亥 berada tepat di sebelahnya; tepat di sebelah 巳 (Ular), posisi tabrakan 亥, berada 辰."
+          },
+          {
+            "p": "Secara tradisional dipandang sebagai pasangan yang saling menyimpan kesal namun tidak bisa berpisah. Tampak tenang di permukaan, tetapi ketidakselarasannya dipercaya bertahan lama, sehingga mendapat {scoreWonjin} — lebih tinggi daripada tabrakan ({scoreChung}) dan lebih rendah daripada netral ({scoreNeutral})."
+          },
+          {
+            "p": "Pada lingkaran, 辰 berada di urutan kelima dan 亥 di urutan kedua belas, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Naga dan Babi",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Ketidakcocokan"
+                ],
+                [
+                  "Skor",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacWonjin} poin dalam kecocokan zodiak dan sebesar {swingDayBranchWonjin} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Naga** — Enam-Harmoni [Ayam](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Tikus](/guide/zodiac-pair-rat-dragon) · Ketidakcocokan [Babi](/guide/zodiac-pair-dragon-pig) · Tabrakan [Anjing](/guide/zodiac-pair-dragon-dog)",
+              "Pasangan khusus **Babi** — Enam-Harmoni [Harimau](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Naga](/guide/zodiac-pair-dragon-pig) · Tabrakan [Ular](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Naga](/guide/zodiac-dragon) · [Babi](/guide/zodiac-pig), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Ular dan Ular — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Ular, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Ular memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Ular memiliki cabang yang sama (巳 dan 巳). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "巳 adalah cabang bumi keenam dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Ular",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Ular",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Ular** — Enam-Harmoni [Monyet](/guide/zodiac-pair-snake-monkey) · Triad setengah [Ayam](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Anjing](/guide/zodiac-pair-snake-dog) · Tabrakan [Babi](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Ular](/guide/zodiac-snake), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Ular dan Monyet — Enam-Harmoni",
+    "summary": "Hubungan apa yang dimiliki Ular dan Monyet, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Ular dan Monyet membentuk Enam-Harmoni",
+        "blocks": [
+          {
+            "p": "Ular dan Monyet membentuk Enam-Harmoni. 巳 dan 申 membentuk keharmonisan hanya dengan dua karakter."
+          },
+          {
+            "p": "Enam-Harmoni adalah hubungan baik yang paling sering muncul dalam kecocokan, dan pada {scoreYukhap} itu adalah skor tertinggi yang bisa diperoleh kedua hewan."
+          },
+          {
+            "p": "Pada lingkaran, 巳 berada di urutan keenam dan 申 di urutan kesembilan, dan kedua karakter itu terpisah tiga langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ular dan Monyet",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Enam-Harmoni"
+                ],
+                [
+                  "Skor",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacYukhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchYukhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Ular** — Enam-Harmoni [Monyet](/guide/zodiac-pair-snake-monkey) · Triad setengah [Ayam](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Anjing](/guide/zodiac-pair-snake-dog) · Tabrakan [Babi](/guide/zodiac-pair-snake-pig)",
+              "Pasangan khusus **Monyet** — Enam-Harmoni [Ular](/guide/zodiac-pair-snake-monkey) · Triad setengah [Tikus](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Kelinci](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Harimau](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Ular](/guide/zodiac-snake) · [Monyet](/guide/zodiac-monkey), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Ular dan Ayam — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Ular dan Ayam, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Ular dan Ayam membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Ular dan Ayam membentuk triad setengah. 巳酉丑 adalah satu kelompok triad (kelompok logam), dan 酉 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Sapi (丑) dan Ular (巳) dari kelompok yang sama tidak memiliki karakter pusat 酉, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 巳 berada di urutan keenam dan 酉 di urutan kesepuluh, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ular dan Ayam",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Ular** — Enam-Harmoni [Monyet](/guide/zodiac-pair-snake-monkey) · Triad setengah [Ayam](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Anjing](/guide/zodiac-pair-snake-dog) · Tabrakan [Babi](/guide/zodiac-pair-snake-pig)",
+              "Pasangan khusus **Ayam** — Enam-Harmoni [Naga](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Sapi](/guide/zodiac-pair-ox-rooster), [Ular](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Harimau](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Kelinci](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Ular](/guide/zodiac-snake) · [Ayam](/guide/zodiac-rooster), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Ular dan Anjing — Ketidakcocokan",
+    "summary": "Hubungan apa yang dimiliki Ular dan Anjing, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Ular dan Anjing membentuk ketidakcocokan",
+        "blocks": [
+          {
+            "p": "Ular dan Anjing membentuk ketidakcocokan. Posisi tabrakan 巳 adalah 亥 (Babi), dan 戌 berada tepat di sebelahnya; tepat di sebelah 辰 (Naga), posisi tabrakan 戌, berada 巳."
+          },
+          {
+            "p": "Secara tradisional dipandang sebagai pasangan yang saling menyimpan kesal namun tidak bisa berpisah. Tampak tenang di permukaan, tetapi ketidakselarasannya dipercaya bertahan lama, sehingga mendapat {scoreWonjin} — lebih tinggi daripada tabrakan ({scoreChung}) dan lebih rendah daripada netral ({scoreNeutral})."
+          },
+          {
+            "p": "Pada lingkaran, 巳 berada di urutan keenam dan 戌 di urutan kesebelas, dan kedua karakter itu terpisah lima langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ular dan Anjing",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Ketidakcocokan"
+                ],
+                [
+                  "Skor",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacWonjin} poin dalam kecocokan zodiak dan sebesar {swingDayBranchWonjin} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Ular** — Enam-Harmoni [Monyet](/guide/zodiac-pair-snake-monkey) · Triad setengah [Ayam](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Anjing](/guide/zodiac-pair-snake-dog) · Tabrakan [Babi](/guide/zodiac-pair-snake-pig)",
+              "Pasangan khusus **Anjing** — Enam-Harmoni [Kelinci](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Kuda](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Ular](/guide/zodiac-pair-snake-dog) · Tabrakan [Naga](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Ular](/guide/zodiac-snake) · [Anjing](/guide/zodiac-dog), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Ular dan Babi — Tabrakan",
+    "summary": "Hubungan apa yang dimiliki Ular dan Babi, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Ular dan Babi membentuk tabrakan",
+        "blocks": [
+          {
+            "p": "Ular dan Babi membentuk tabrakan. 巳 dan 亥 berada tepat berseberangan di lingkaran."
+          },
+          {
+            "p": "Layanan ini tetap memberi {scoreChung} poin meskipun tabrakan. Dalam myeongri tradisional, tabrakan adalah benturan, bukan akhir sebuah hubungan, dan memberi skor mendekati nol sama saja dengan menjatuhkan vonis atas dua orang."
+          },
+          {
+            "p": "Pada lingkaran, 巳 berada di urutan keenam dan 亥 di urutan kedua belas, dan kedua karakter itu terpisah enam langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ular dan Babi",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Tabrakan"
+                ],
+                [
+                  "Skor",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menurunkan tingkat kecocokan akhir sebesar {swingZodiacChung} poin dalam kecocokan zodiak dan sebesar {swingDayBranchChung} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Ular** — Enam-Harmoni [Monyet](/guide/zodiac-pair-snake-monkey) · Triad setengah [Ayam](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Anjing](/guide/zodiac-pair-snake-dog) · Tabrakan [Babi](/guide/zodiac-pair-snake-pig)",
+              "Pasangan khusus **Babi** — Enam-Harmoni [Harimau](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Naga](/guide/zodiac-pair-dragon-pig) · Tabrakan [Ular](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Ular](/guide/zodiac-snake) · [Babi](/guide/zodiac-pig), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kuda dan Kuda — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Kuda, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Kuda memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Kuda memiliki cabang yang sama (午 dan 午). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "午 adalah cabang bumi ketujuh dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Kuda",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Kuda",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kuda** — Enam-Harmoni [Domba](/guide/zodiac-pair-horse-goat) · Triad setengah [Harimau](/guide/zodiac-pair-tiger-horse), [Anjing](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Sapi](/guide/zodiac-pair-ox-horse) · Tabrakan [Tikus](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kuda](/guide/zodiac-horse), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kuda dan Domba — Enam-Harmoni",
+    "summary": "Hubungan apa yang dimiliki Kuda dan Domba, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Kuda dan Domba membentuk Enam-Harmoni",
+        "blocks": [
+          {
+            "p": "Kuda dan Domba membentuk Enam-Harmoni. 午 dan 未 membentuk keharmonisan hanya dengan dua karakter."
+          },
+          {
+            "p": "Enam-Harmoni adalah hubungan baik yang paling sering muncul dalam kecocokan, dan pada {scoreYukhap} itu adalah skor tertinggi yang bisa diperoleh kedua hewan."
+          },
+          {
+            "p": "Pada lingkaran, 午 berada di urutan ketujuh dan 未 di urutan kedelapan, dan kedua karakter itu terpisah satu langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Kuda dan Domba",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Enam-Harmoni"
+                ],
+                [
+                  "Skor",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacYukhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchYukhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kuda** — Enam-Harmoni [Domba](/guide/zodiac-pair-horse-goat) · Triad setengah [Harimau](/guide/zodiac-pair-tiger-horse), [Anjing](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Sapi](/guide/zodiac-pair-ox-horse) · Tabrakan [Tikus](/guide/zodiac-pair-rat-horse)",
+              "Pasangan khusus **Domba** — Enam-Harmoni [Kuda](/guide/zodiac-pair-horse-goat) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-goat) · Ketidakcocokan [Tikus](/guide/zodiac-pair-rat-goat) · Tabrakan [Sapi](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kuda](/guide/zodiac-horse) · [Domba](/guide/zodiac-goat), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Kuda dan Anjing — Triad setengah",
+    "summary": "Hubungan apa yang dimiliki Kuda dan Anjing, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Kuda dan Anjing membentuk triad setengah",
+        "blocks": [
+          {
+            "p": "Kuda dan Anjing membentuk triad setengah. 寅午戌 adalah satu kelompok triad (kelompok api), dan 午 adalah **cabang raja** di pusatnya."
+          },
+          {
+            "p": "Inyeon-Link hanya menerima pasangan yang menyertakan cabang raja, sehingga pasangan ini adalah triad setengah ({scoreBanhap})."
+          },
+          {
+            "p": "Harimau (寅) dan Anjing (戌) dari kelompok yang sama tidak memiliki karakter pusat 午, sehingga tidak dihitung sebagai keharmonisan dan dianggap netral."
+          },
+          {
+            "p": "Pada lingkaran, 午 berada di urutan ketujuh dan 戌 di urutan kesebelas, dan kedua karakter itu terpisah empat langkah."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Kuda dan Anjing",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Triad setengah"
+                ],
+                [
+                  "Skor",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacBanhap} poin dalam kecocokan zodiak dan sebesar {swingDayBranchBanhap} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari masing-masing hewan",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Kuda** — Enam-Harmoni [Domba](/guide/zodiac-pair-horse-goat) · Triad setengah [Harimau](/guide/zodiac-pair-tiger-horse), [Anjing](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Sapi](/guide/zodiac-pair-ox-horse) · Tabrakan [Tikus](/guide/zodiac-pair-rat-horse)",
+              "Pasangan khusus **Anjing** — Enam-Harmoni [Kelinci](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Kuda](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Ular](/guide/zodiac-pair-snake-dog) · Tabrakan [Naga](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Kuda](/guide/zodiac-horse) · [Anjing](/guide/zodiac-dog), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Domba dan Domba — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Domba, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Domba memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Domba memiliki cabang yang sama (未 dan 未). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "未 adalah cabang bumi kedelapan dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Domba",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Domba",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Domba** — Enam-Harmoni [Kuda](/guide/zodiac-pair-horse-goat) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-goat) · Ketidakcocokan [Tikus](/guide/zodiac-pair-rat-goat) · Tabrakan [Sapi](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Domba](/guide/zodiac-goat), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Monyet dan Monyet — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Monyet, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Monyet memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Monyet memiliki cabang yang sama (申 dan 申). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "申 adalah cabang bumi kesembilan dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Monyet",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Monyet",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Monyet** — Enam-Harmoni [Ular](/guide/zodiac-pair-snake-monkey) · Triad setengah [Tikus](/guide/zodiac-pair-rat-monkey) · Ketidakcocokan [Kelinci](/guide/zodiac-pair-rabbit-monkey) · Tabrakan [Harimau](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Monyet](/guide/zodiac-monkey), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Ayam dan Ayam — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Ayam, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Ayam memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Ayam memiliki cabang yang sama (酉 dan 酉). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "酉 adalah cabang bumi kesepuluh dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Ayam",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Ayam",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Ayam** — Enam-Harmoni [Naga](/guide/zodiac-pair-dragon-rooster) · Triad setengah [Sapi](/guide/zodiac-pair-ox-rooster), [Ular](/guide/zodiac-pair-snake-rooster) · Ketidakcocokan [Harimau](/guide/zodiac-pair-tiger-rooster) · Tabrakan [Kelinci](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Ayam](/guide/zodiac-rooster), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Anjing dan Anjing — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Anjing, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Anjing memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Anjing memiliki cabang yang sama (戌 dan 戌). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "戌 adalah cabang bumi kesebelas dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Anjing",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Anjing",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Anjing** — Enam-Harmoni [Kelinci](/guide/zodiac-pair-rabbit-dog) · Triad setengah [Kuda](/guide/zodiac-pair-horse-dog) · Ketidakcocokan [Ular](/guide/zodiac-pair-snake-dog) · Tabrakan [Naga](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Anjing](/guide/zodiac-dog), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "Menurut pasangan",
+    "title": "Babi dan Babi — Cabang yang sama",
+    "summary": "Hubungan apa yang dimiliki dua orang berzodiak Babi, berapa skornya, dan seberapa jauh skor itu menggeser tingkat kecocokan akhir — disusun persis seperti aturan perhitungan Inyeon-Link.",
+    "backLabel": "Dasar Perhitungan",
+    "sections": [
+      {
+        "title": "Dua orang berzodiak Babi memiliki cabang yang sama",
+        "blocks": [
+          {
+            "p": "Dua orang berzodiak Babi memiliki cabang yang sama (亥 dan 亥). Artinya mereka mirip, bukan saling tertarik."
+          },
+          {
+            "p": "Maka skornya {scoreSame}, sedikit di atas netral ({scoreNeutral}): bukan keharmonisan, tabrakan, atau ketidakcocokan, hanya sedikit dinaikkan."
+          },
+          {
+            "p": "亥 adalah cabang bumi kedua belas dari dua belas cabang bumi."
+          }
+        ]
+      },
+      {
+        "title": "Angka-angka pasangan ini",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dua orang berzodiak Babi",
+              "head": [
+                "Butir",
+                "Nilai"
+              ],
+              "rows": [
+                [
+                  "Hubungan",
+                  "Cabang yang sama"
+                ],
+                [
+                  "Skor",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan zodiak",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bagian dari tingkat kecocokan akhir dalam kecocokan cabang hari",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seberapa jauh ia menggeser tingkat kecocokan akhir",
+        "blocks": [
+          {
+            "p": "Jika semua hal lain sama, pasangan ini menaikkan tingkat kecocokan akhir sebesar {swingZodiacSame} poin dalam kecocokan zodiak dan sebesar {swingDayBranchSame} poin dalam kecocokan cabang hari, dibandingkan dengan pasangan netral."
+          },
+          {
+            "p": "Kecocokan zodiak menyandingkan cabang tahun lahir, dan kecocokan cabang hari menyandingkan cabang hari lahir. Keduanya bisa berupa cabang yang berbeda, sehingga dua orang yang sama dapat menunjukkan hubungan yang berbeda pada masing-masing."
+          }
+        ]
+      },
+      {
+        "title": "Hubungan khusus lain dari Babi",
+        "blocks": [
+          {
+            "ul": [
+              "Pasangan khusus **Babi** — Enam-Harmoni [Harimau](/guide/zodiac-pair-tiger-pig) · Triad setengah [Kelinci](/guide/zodiac-pair-rabbit-pig) · Ketidakcocokan [Naga](/guide/zodiac-pair-dragon-pig) · Tabrakan [Ular](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu hewan tidak menentukan hubungan dua orang. {weightSaju} dari tingkat kecocokan akhir ditentukan oleh kecocokan saju.",
+              "Perubahan poin di atas mengandaikan semua hal lain sama; hasil sebenarnya ditentukan oleh seluruh saju kedua orang."
+            ]
+          },
+          {
+            "p": "Panduan lengkap tiap hewan ada di [Babi](/guide/zodiac-pig), dan tabel lengkapnya ada di [tabel dua belas cabang](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Sepuluh Dewa",
     "title": "Sepuluh Dewa dan Posisi Pasangan",

@@ -2769,6 +2769,3514 @@ export const JA_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "組み合わせ別",
+    "title": "ネズミとネズミ — 同じ地支",
+    "summary": "ネズミ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ネズミ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "ネズミ同士は同じ地支です（子と子）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "子は十二の地支の第一です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ネズミ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "ネズミのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ネズミ**の特別な相手 — 六合 [ウシ](/guide/zodiac-pair-rat-ox) · 半合 [タツ](/guide/zodiac-pair-rat-dragon)、[サル](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ヒツジ](/guide/zodiac-pair-rat-goat) · 衝 [ウマ](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ネズミ](/guide/zodiac-rat)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "組み合わせ別",
+    "title": "ネズミとウシ — 六合",
+    "summary": "ネズミとウシがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ネズミとウシは六合になります",
+        "blocks": [
+          {
+            "p": "ネズミとウシは六合になります。子と丑は二つの文字だけで合を作ります。"
+          },
+          {
+            "p": "六合は相性で最もよく現れる良い関係で、{scoreYukhap}点はどちらの干支も得られる最高点です。"
+          },
+          {
+            "p": "円の上では、子は一番目、丑は二番目にあり、二つの文字は一つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ネズミとウシ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "六合"
+                ],
+                [
+                  "点数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacYukhap}点、日支の相性で{swingDayBranchYukhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ネズミ**の特別な相手 — 六合 [ウシ](/guide/zodiac-pair-rat-ox) · 半合 [タツ](/guide/zodiac-pair-rat-dragon)、[サル](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ヒツジ](/guide/zodiac-pair-rat-goat) · 衝 [ウマ](/guide/zodiac-pair-rat-horse)",
+              "**ウシ**の特別な相手 — 六合 [ネズミ](/guide/zodiac-pair-rat-ox) · 半合 [トリ](/guide/zodiac-pair-ox-rooster) · 怨嗔 [ウマ](/guide/zodiac-pair-ox-horse) · 衝 [ヒツジ](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ネズミ](/guide/zodiac-rat) · [ウシ](/guide/zodiac-ox)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "組み合わせ別",
+    "title": "ネズミとタツ — 半合",
+    "summary": "ネズミとタツがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ネズミとタツは半合になります",
+        "blocks": [
+          {
+            "p": "ネズミとタツは半合になります。申子辰は一つの三合グループ（水のグループ）で、子がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのサル（申）とタツ（辰）は中心の文字である子を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、子は一番目、辰は五番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ネズミとタツ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ネズミ**の特別な相手 — 六合 [ウシ](/guide/zodiac-pair-rat-ox) · 半合 [タツ](/guide/zodiac-pair-rat-dragon)、[サル](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ヒツジ](/guide/zodiac-pair-rat-goat) · 衝 [ウマ](/guide/zodiac-pair-rat-horse)",
+              "**タツ**の特別な相手 — 六合 [トリ](/guide/zodiac-pair-dragon-rooster) · 半合 [ネズミ](/guide/zodiac-pair-rat-dragon) · 怨嗔 [イノシシ](/guide/zodiac-pair-dragon-pig) · 衝 [イヌ](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ネズミ](/guide/zodiac-rat) · [タツ](/guide/zodiac-dragon)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "組み合わせ別",
+    "title": "ネズミとウマ — 衝",
+    "summary": "ネズミとウマがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ネズミとウマは衝になります",
+        "blocks": [
+          {
+            "p": "ネズミとウマは衝になります。子と午は円の上で真向かいに位置します。"
+          },
+          {
+            "p": "このサービスは衝でも{scoreChung}点を保ちます。伝統的な命理では、衝は衝突であって関係の終わりではなく、底に近い点数を付ければ二人に判決を下すことになってしまいます。"
+          },
+          {
+            "p": "円の上では、子は一番目、午は七番目にあり、二つの文字は六つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ネズミとウマ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "衝"
+                ],
+                [
+                  "点数",
+                  "{scoreChung}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacChung}点、日支の相性で{swingDayBranchChung}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ネズミ**の特別な相手 — 六合 [ウシ](/guide/zodiac-pair-rat-ox) · 半合 [タツ](/guide/zodiac-pair-rat-dragon)、[サル](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ヒツジ](/guide/zodiac-pair-rat-goat) · 衝 [ウマ](/guide/zodiac-pair-rat-horse)",
+              "**ウマ**の特別な相手 — 六合 [ヒツジ](/guide/zodiac-pair-horse-goat) · 半合 [トラ](/guide/zodiac-pair-tiger-horse)、[イヌ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ウシ](/guide/zodiac-pair-ox-horse) · 衝 [ネズミ](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ネズミ](/guide/zodiac-rat) · [ウマ](/guide/zodiac-horse)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "組み合わせ別",
+    "title": "ネズミとヒツジ — 怨嗔",
+    "summary": "ネズミとヒツジがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ネズミとヒツジは怨嗔になります",
+        "blocks": [
+          {
+            "p": "ネズミとヒツジは怨嗔になります。子の衝の位置は午（ウマ）で、未はそのすぐ隣にあります。また、未の衝の位置である丑（ウシ）のすぐ隣には子があります。"
+          },
+          {
+            "p": "伝統的に、恨み合いながらも離れられない組と見なされます。表面は穏やかに見えますが、そのずれは長く続くと考えられているため、{scoreWonjin}点となり、衝（{scoreChung}）より高く、中立（{scoreNeutral}）より低くなります。"
+          },
+          {
+            "p": "円の上では、子は一番目、未は八番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ネズミとヒツジ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "怨嗔"
+                ],
+                [
+                  "点数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacWonjin}点、日支の相性で{swingDayBranchWonjin}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ネズミ**の特別な相手 — 六合 [ウシ](/guide/zodiac-pair-rat-ox) · 半合 [タツ](/guide/zodiac-pair-rat-dragon)、[サル](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ヒツジ](/guide/zodiac-pair-rat-goat) · 衝 [ウマ](/guide/zodiac-pair-rat-horse)",
+              "**ヒツジ**の特別な相手 — 六合 [ウマ](/guide/zodiac-pair-horse-goat) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [ネズミ](/guide/zodiac-pair-rat-goat) · 衝 [ウシ](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ネズミ](/guide/zodiac-rat) · [ヒツジ](/guide/zodiac-goat)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "組み合わせ別",
+    "title": "ネズミとサル — 半合",
+    "summary": "ネズミとサルがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ネズミとサルは半合になります",
+        "blocks": [
+          {
+            "p": "ネズミとサルは半合になります。申子辰は一つの三合グループ（水のグループ）で、子がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのタツ（辰）とサル（申）は中心の文字である子を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、子は一番目、申は九番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ネズミとサル",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ネズミ**の特別な相手 — 六合 [ウシ](/guide/zodiac-pair-rat-ox) · 半合 [タツ](/guide/zodiac-pair-rat-dragon)、[サル](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ヒツジ](/guide/zodiac-pair-rat-goat) · 衝 [ウマ](/guide/zodiac-pair-rat-horse)",
+              "**サル**の特別な相手 — 六合 [ヘビ](/guide/zodiac-pair-snake-monkey) · 半合 [ネズミ](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ウサギ](/guide/zodiac-pair-rabbit-monkey) · 衝 [トラ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ネズミ](/guide/zodiac-rat) · [サル](/guide/zodiac-monkey)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウシとウシ — 同じ地支",
+    "summary": "ウシ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウシ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "ウシ同士は同じ地支です（丑と丑）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "丑は十二の地支の第二です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウシ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "ウシのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウシ**の特別な相手 — 六合 [ネズミ](/guide/zodiac-pair-rat-ox) · 半合 [トリ](/guide/zodiac-pair-ox-rooster) · 怨嗔 [ウマ](/guide/zodiac-pair-ox-horse) · 衝 [ヒツジ](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウシ](/guide/zodiac-ox)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウシとウマ — 怨嗔",
+    "summary": "ウシとウマがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウシとウマは怨嗔になります",
+        "blocks": [
+          {
+            "p": "ウシとウマは怨嗔になります。丑の衝の位置は未（ヒツジ）で、午はそのすぐ隣にあります。また、午の衝の位置である子（ネズミ）のすぐ隣には丑があります。"
+          },
+          {
+            "p": "伝統的に、恨み合いながらも離れられない組と見なされます。表面は穏やかに見えますが、そのずれは長く続くと考えられているため、{scoreWonjin}点となり、衝（{scoreChung}）より高く、中立（{scoreNeutral}）より低くなります。"
+          },
+          {
+            "p": "円の上では、丑は二番目、午は七番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウシとウマ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "怨嗔"
+                ],
+                [
+                  "点数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacWonjin}点、日支の相性で{swingDayBranchWonjin}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウシ**の特別な相手 — 六合 [ネズミ](/guide/zodiac-pair-rat-ox) · 半合 [トリ](/guide/zodiac-pair-ox-rooster) · 怨嗔 [ウマ](/guide/zodiac-pair-ox-horse) · 衝 [ヒツジ](/guide/zodiac-pair-ox-goat)",
+              "**ウマ**の特別な相手 — 六合 [ヒツジ](/guide/zodiac-pair-horse-goat) · 半合 [トラ](/guide/zodiac-pair-tiger-horse)、[イヌ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ウシ](/guide/zodiac-pair-ox-horse) · 衝 [ネズミ](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウシ](/guide/zodiac-ox) · [ウマ](/guide/zodiac-horse)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウシとヒツジ — 衝",
+    "summary": "ウシとヒツジがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウシとヒツジは衝になります",
+        "blocks": [
+          {
+            "p": "ウシとヒツジは衝になります。丑と未は円の上で真向かいに位置します。"
+          },
+          {
+            "p": "このサービスは衝でも{scoreChung}点を保ちます。伝統的な命理では、衝は衝突であって関係の終わりではなく、底に近い点数を付ければ二人に判決を下すことになってしまいます。"
+          },
+          {
+            "p": "円の上では、丑は二番目、未は八番目にあり、二つの文字は六つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウシとヒツジ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "衝"
+                ],
+                [
+                  "点数",
+                  "{scoreChung}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacChung}点、日支の相性で{swingDayBranchChung}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウシ**の特別な相手 — 六合 [ネズミ](/guide/zodiac-pair-rat-ox) · 半合 [トリ](/guide/zodiac-pair-ox-rooster) · 怨嗔 [ウマ](/guide/zodiac-pair-ox-horse) · 衝 [ヒツジ](/guide/zodiac-pair-ox-goat)",
+              "**ヒツジ**の特別な相手 — 六合 [ウマ](/guide/zodiac-pair-horse-goat) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [ネズミ](/guide/zodiac-pair-rat-goat) · 衝 [ウシ](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウシ](/guide/zodiac-ox) · [ヒツジ](/guide/zodiac-goat)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウシとトリ — 半合",
+    "summary": "ウシとトリがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウシとトリは半合になります",
+        "blocks": [
+          {
+            "p": "ウシとトリは半合になります。巳酉丑は一つの三合グループ（金のグループ）で、酉がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのヘビ（巳）とウシ（丑）は中心の文字である酉を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、丑は二番目、酉は十番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウシとトリ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウシ**の特別な相手 — 六合 [ネズミ](/guide/zodiac-pair-rat-ox) · 半合 [トリ](/guide/zodiac-pair-ox-rooster) · 怨嗔 [ウマ](/guide/zodiac-pair-ox-horse) · 衝 [ヒツジ](/guide/zodiac-pair-ox-goat)",
+              "**トリ**の特別な相手 — 六合 [タツ](/guide/zodiac-pair-dragon-rooster) · 半合 [ウシ](/guide/zodiac-pair-ox-rooster)、[ヘビ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [トラ](/guide/zodiac-pair-tiger-rooster) · 衝 [ウサギ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウシ](/guide/zodiac-ox) · [トリ](/guide/zodiac-rooster)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "組み合わせ別",
+    "title": "トラとトラ — 同じ地支",
+    "summary": "トラ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "トラ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "トラ同士は同じ地支です（寅と寅）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "寅は十二の地支の第三です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "トラ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "トラのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**トラ**の特別な相手 — 六合 [イノシシ](/guide/zodiac-pair-tiger-pig) · 半合 [ウマ](/guide/zodiac-pair-tiger-horse) · 怨嗔 [トリ](/guide/zodiac-pair-tiger-rooster) · 衝 [サル](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[トラ](/guide/zodiac-tiger)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "組み合わせ別",
+    "title": "トラとウマ — 半合",
+    "summary": "トラとウマがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "トラとウマは半合になります",
+        "blocks": [
+          {
+            "p": "トラとウマは半合になります。寅午戌は一つの三合グループ（火のグループ）で、午がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのイヌ（戌）とトラ（寅）は中心の文字である午を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、寅は三番目、午は七番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "トラとウマ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**トラ**の特別な相手 — 六合 [イノシシ](/guide/zodiac-pair-tiger-pig) · 半合 [ウマ](/guide/zodiac-pair-tiger-horse) · 怨嗔 [トリ](/guide/zodiac-pair-tiger-rooster) · 衝 [サル](/guide/zodiac-pair-tiger-monkey)",
+              "**ウマ**の特別な相手 — 六合 [ヒツジ](/guide/zodiac-pair-horse-goat) · 半合 [トラ](/guide/zodiac-pair-tiger-horse)、[イヌ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ウシ](/guide/zodiac-pair-ox-horse) · 衝 [ネズミ](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[トラ](/guide/zodiac-tiger) · [ウマ](/guide/zodiac-horse)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "組み合わせ別",
+    "title": "トラとサル — 衝",
+    "summary": "トラとサルがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "トラとサルは衝になります",
+        "blocks": [
+          {
+            "p": "トラとサルは衝になります。寅と申は円の上で真向かいに位置します。"
+          },
+          {
+            "p": "このサービスは衝でも{scoreChung}点を保ちます。伝統的な命理では、衝は衝突であって関係の終わりではなく、底に近い点数を付ければ二人に判決を下すことになってしまいます。"
+          },
+          {
+            "p": "円の上では、寅は三番目、申は九番目にあり、二つの文字は六つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "トラとサル",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "衝"
+                ],
+                [
+                  "点数",
+                  "{scoreChung}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacChung}点、日支の相性で{swingDayBranchChung}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**トラ**の特別な相手 — 六合 [イノシシ](/guide/zodiac-pair-tiger-pig) · 半合 [ウマ](/guide/zodiac-pair-tiger-horse) · 怨嗔 [トリ](/guide/zodiac-pair-tiger-rooster) · 衝 [サル](/guide/zodiac-pair-tiger-monkey)",
+              "**サル**の特別な相手 — 六合 [ヘビ](/guide/zodiac-pair-snake-monkey) · 半合 [ネズミ](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ウサギ](/guide/zodiac-pair-rabbit-monkey) · 衝 [トラ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[トラ](/guide/zodiac-tiger) · [サル](/guide/zodiac-monkey)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "組み合わせ別",
+    "title": "トラとトリ — 怨嗔",
+    "summary": "トラとトリがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "トラとトリは怨嗔になります",
+        "blocks": [
+          {
+            "p": "トラとトリは怨嗔になります。寅の衝の位置は申（サル）で、酉はそのすぐ隣にあります。また、酉の衝の位置である卯（ウサギ）のすぐ隣には寅があります。"
+          },
+          {
+            "p": "伝統的に、恨み合いながらも離れられない組と見なされます。表面は穏やかに見えますが、そのずれは長く続くと考えられているため、{scoreWonjin}点となり、衝（{scoreChung}）より高く、中立（{scoreNeutral}）より低くなります。"
+          },
+          {
+            "p": "円の上では、寅は三番目、酉は十番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "トラとトリ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "怨嗔"
+                ],
+                [
+                  "点数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacWonjin}点、日支の相性で{swingDayBranchWonjin}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**トラ**の特別な相手 — 六合 [イノシシ](/guide/zodiac-pair-tiger-pig) · 半合 [ウマ](/guide/zodiac-pair-tiger-horse) · 怨嗔 [トリ](/guide/zodiac-pair-tiger-rooster) · 衝 [サル](/guide/zodiac-pair-tiger-monkey)",
+              "**トリ**の特別な相手 — 六合 [タツ](/guide/zodiac-pair-dragon-rooster) · 半合 [ウシ](/guide/zodiac-pair-ox-rooster)、[ヘビ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [トラ](/guide/zodiac-pair-tiger-rooster) · 衝 [ウサギ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[トラ](/guide/zodiac-tiger) · [トリ](/guide/zodiac-rooster)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "組み合わせ別",
+    "title": "トラとイノシシ — 六合",
+    "summary": "トラとイノシシがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "トラとイノシシは六合になります",
+        "blocks": [
+          {
+            "p": "トラとイノシシは六合になります。寅と亥は二つの文字だけで合を作ります。"
+          },
+          {
+            "p": "六合は相性で最もよく現れる良い関係で、{scoreYukhap}点はどちらの干支も得られる最高点です。"
+          },
+          {
+            "p": "円の上では、寅は三番目、亥は十二番目にあり、二つの文字は三つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "トラとイノシシ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "六合"
+                ],
+                [
+                  "点数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacYukhap}点、日支の相性で{swingDayBranchYukhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**トラ**の特別な相手 — 六合 [イノシシ](/guide/zodiac-pair-tiger-pig) · 半合 [ウマ](/guide/zodiac-pair-tiger-horse) · 怨嗔 [トリ](/guide/zodiac-pair-tiger-rooster) · 衝 [サル](/guide/zodiac-pair-tiger-monkey)",
+              "**イノシシ**の特別な相手 — 六合 [トラ](/guide/zodiac-pair-tiger-pig) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [タツ](/guide/zodiac-pair-dragon-pig) · 衝 [ヘビ](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[トラ](/guide/zodiac-tiger) · [イノシシ](/guide/zodiac-pig)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウサギとウサギ — 同じ地支",
+    "summary": "ウサギ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウサギ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "ウサギ同士は同じ地支です（卯と卯）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "卯は十二の地支の第四です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウサギ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "ウサギのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウサギ**の特別な相手 — 六合 [イヌ](/guide/zodiac-pair-rabbit-dog) · 半合 [ヒツジ](/guide/zodiac-pair-rabbit-goat)、[イノシシ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [サル](/guide/zodiac-pair-rabbit-monkey) · 衝 [トリ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウサギ](/guide/zodiac-rabbit)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウサギとヒツジ — 半合",
+    "summary": "ウサギとヒツジがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウサギとヒツジは半合になります",
+        "blocks": [
+          {
+            "p": "ウサギとヒツジは半合になります。亥卯未は一つの三合グループ（木のグループ）で、卯がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのイノシシ（亥）とヒツジ（未）は中心の文字である卯を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、卯は四番目、未は八番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウサギとヒツジ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウサギ**の特別な相手 — 六合 [イヌ](/guide/zodiac-pair-rabbit-dog) · 半合 [ヒツジ](/guide/zodiac-pair-rabbit-goat)、[イノシシ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [サル](/guide/zodiac-pair-rabbit-monkey) · 衝 [トリ](/guide/zodiac-pair-rabbit-rooster)",
+              "**ヒツジ**の特別な相手 — 六合 [ウマ](/guide/zodiac-pair-horse-goat) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [ネズミ](/guide/zodiac-pair-rat-goat) · 衝 [ウシ](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウサギ](/guide/zodiac-rabbit) · [ヒツジ](/guide/zodiac-goat)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウサギとサル — 怨嗔",
+    "summary": "ウサギとサルがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウサギとサルは怨嗔になります",
+        "blocks": [
+          {
+            "p": "ウサギとサルは怨嗔になります。卯の衝の位置は酉（トリ）で、申はそのすぐ隣にあります。また、申の衝の位置である寅（トラ）のすぐ隣には卯があります。"
+          },
+          {
+            "p": "伝統的に、恨み合いながらも離れられない組と見なされます。表面は穏やかに見えますが、そのずれは長く続くと考えられているため、{scoreWonjin}点となり、衝（{scoreChung}）より高く、中立（{scoreNeutral}）より低くなります。"
+          },
+          {
+            "p": "円の上では、卯は四番目、申は九番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウサギとサル",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "怨嗔"
+                ],
+                [
+                  "点数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacWonjin}点、日支の相性で{swingDayBranchWonjin}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウサギ**の特別な相手 — 六合 [イヌ](/guide/zodiac-pair-rabbit-dog) · 半合 [ヒツジ](/guide/zodiac-pair-rabbit-goat)、[イノシシ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [サル](/guide/zodiac-pair-rabbit-monkey) · 衝 [トリ](/guide/zodiac-pair-rabbit-rooster)",
+              "**サル**の特別な相手 — 六合 [ヘビ](/guide/zodiac-pair-snake-monkey) · 半合 [ネズミ](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ウサギ](/guide/zodiac-pair-rabbit-monkey) · 衝 [トラ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウサギ](/guide/zodiac-rabbit) · [サル](/guide/zodiac-monkey)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウサギとトリ — 衝",
+    "summary": "ウサギとトリがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウサギとトリは衝になります",
+        "blocks": [
+          {
+            "p": "ウサギとトリは衝になります。卯と酉は円の上で真向かいに位置します。"
+          },
+          {
+            "p": "このサービスは衝でも{scoreChung}点を保ちます。伝統的な命理では、衝は衝突であって関係の終わりではなく、底に近い点数を付ければ二人に判決を下すことになってしまいます。"
+          },
+          {
+            "p": "円の上では、卯は四番目、酉は十番目にあり、二つの文字は六つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウサギとトリ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "衝"
+                ],
+                [
+                  "点数",
+                  "{scoreChung}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacChung}点、日支の相性で{swingDayBranchChung}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウサギ**の特別な相手 — 六合 [イヌ](/guide/zodiac-pair-rabbit-dog) · 半合 [ヒツジ](/guide/zodiac-pair-rabbit-goat)、[イノシシ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [サル](/guide/zodiac-pair-rabbit-monkey) · 衝 [トリ](/guide/zodiac-pair-rabbit-rooster)",
+              "**トリ**の特別な相手 — 六合 [タツ](/guide/zodiac-pair-dragon-rooster) · 半合 [ウシ](/guide/zodiac-pair-ox-rooster)、[ヘビ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [トラ](/guide/zodiac-pair-tiger-rooster) · 衝 [ウサギ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウサギ](/guide/zodiac-rabbit) · [トリ](/guide/zodiac-rooster)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウサギとイヌ — 六合",
+    "summary": "ウサギとイヌがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウサギとイヌは六合になります",
+        "blocks": [
+          {
+            "p": "ウサギとイヌは六合になります。卯と戌は二つの文字だけで合を作ります。"
+          },
+          {
+            "p": "六合は相性で最もよく現れる良い関係で、{scoreYukhap}点はどちらの干支も得られる最高点です。"
+          },
+          {
+            "p": "円の上では、卯は四番目、戌は十一番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウサギとイヌ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "六合"
+                ],
+                [
+                  "点数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacYukhap}点、日支の相性で{swingDayBranchYukhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウサギ**の特別な相手 — 六合 [イヌ](/guide/zodiac-pair-rabbit-dog) · 半合 [ヒツジ](/guide/zodiac-pair-rabbit-goat)、[イノシシ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [サル](/guide/zodiac-pair-rabbit-monkey) · 衝 [トリ](/guide/zodiac-pair-rabbit-rooster)",
+              "**イヌ**の特別な相手 — 六合 [ウサギ](/guide/zodiac-pair-rabbit-dog) · 半合 [ウマ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ヘビ](/guide/zodiac-pair-snake-dog) · 衝 [タツ](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウサギ](/guide/zodiac-rabbit) · [イヌ](/guide/zodiac-dog)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウサギとイノシシ — 半合",
+    "summary": "ウサギとイノシシがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウサギとイノシシは半合になります",
+        "blocks": [
+          {
+            "p": "ウサギとイノシシは半合になります。亥卯未は一つの三合グループ（木のグループ）で、卯がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのヒツジ（未）とイノシシ（亥）は中心の文字である卯を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、卯は四番目、亥は十二番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウサギとイノシシ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウサギ**の特別な相手 — 六合 [イヌ](/guide/zodiac-pair-rabbit-dog) · 半合 [ヒツジ](/guide/zodiac-pair-rabbit-goat)、[イノシシ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [サル](/guide/zodiac-pair-rabbit-monkey) · 衝 [トリ](/guide/zodiac-pair-rabbit-rooster)",
+              "**イノシシ**の特別な相手 — 六合 [トラ](/guide/zodiac-pair-tiger-pig) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [タツ](/guide/zodiac-pair-dragon-pig) · 衝 [ヘビ](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウサギ](/guide/zodiac-rabbit) · [イノシシ](/guide/zodiac-pig)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "組み合わせ別",
+    "title": "タツとタツ — 同じ地支",
+    "summary": "タツ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "タツ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "タツ同士は同じ地支です（辰と辰）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "辰は十二の地支の第五です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "タツ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "タツのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**タツ**の特別な相手 — 六合 [トリ](/guide/zodiac-pair-dragon-rooster) · 半合 [ネズミ](/guide/zodiac-pair-rat-dragon) · 怨嗔 [イノシシ](/guide/zodiac-pair-dragon-pig) · 衝 [イヌ](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[タツ](/guide/zodiac-dragon)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "組み合わせ別",
+    "title": "タツとトリ — 六合",
+    "summary": "タツとトリがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "タツとトリは六合になります",
+        "blocks": [
+          {
+            "p": "タツとトリは六合になります。辰と酉は二つの文字だけで合を作ります。"
+          },
+          {
+            "p": "六合は相性で最もよく現れる良い関係で、{scoreYukhap}点はどちらの干支も得られる最高点です。"
+          },
+          {
+            "p": "円の上では、辰は五番目、酉は十番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "タツとトリ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "六合"
+                ],
+                [
+                  "点数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacYukhap}点、日支の相性で{swingDayBranchYukhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**タツ**の特別な相手 — 六合 [トリ](/guide/zodiac-pair-dragon-rooster) · 半合 [ネズミ](/guide/zodiac-pair-rat-dragon) · 怨嗔 [イノシシ](/guide/zodiac-pair-dragon-pig) · 衝 [イヌ](/guide/zodiac-pair-dragon-dog)",
+              "**トリ**の特別な相手 — 六合 [タツ](/guide/zodiac-pair-dragon-rooster) · 半合 [ウシ](/guide/zodiac-pair-ox-rooster)、[ヘビ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [トラ](/guide/zodiac-pair-tiger-rooster) · 衝 [ウサギ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[タツ](/guide/zodiac-dragon) · [トリ](/guide/zodiac-rooster)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "組み合わせ別",
+    "title": "タツとイヌ — 衝",
+    "summary": "タツとイヌがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "タツとイヌは衝になります",
+        "blocks": [
+          {
+            "p": "タツとイヌは衝になります。辰と戌は円の上で真向かいに位置します。"
+          },
+          {
+            "p": "このサービスは衝でも{scoreChung}点を保ちます。伝統的な命理では、衝は衝突であって関係の終わりではなく、底に近い点数を付ければ二人に判決を下すことになってしまいます。"
+          },
+          {
+            "p": "円の上では、辰は五番目、戌は十一番目にあり、二つの文字は六つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "タツとイヌ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "衝"
+                ],
+                [
+                  "点数",
+                  "{scoreChung}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacChung}点、日支の相性で{swingDayBranchChung}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**タツ**の特別な相手 — 六合 [トリ](/guide/zodiac-pair-dragon-rooster) · 半合 [ネズミ](/guide/zodiac-pair-rat-dragon) · 怨嗔 [イノシシ](/guide/zodiac-pair-dragon-pig) · 衝 [イヌ](/guide/zodiac-pair-dragon-dog)",
+              "**イヌ**の特別な相手 — 六合 [ウサギ](/guide/zodiac-pair-rabbit-dog) · 半合 [ウマ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ヘビ](/guide/zodiac-pair-snake-dog) · 衝 [タツ](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[タツ](/guide/zodiac-dragon) · [イヌ](/guide/zodiac-dog)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "組み合わせ別",
+    "title": "タツとイノシシ — 怨嗔",
+    "summary": "タツとイノシシがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "タツとイノシシは怨嗔になります",
+        "blocks": [
+          {
+            "p": "タツとイノシシは怨嗔になります。辰の衝の位置は戌（イヌ）で、亥はそのすぐ隣にあります。また、亥の衝の位置である巳（ヘビ）のすぐ隣には辰があります。"
+          },
+          {
+            "p": "伝統的に、恨み合いながらも離れられない組と見なされます。表面は穏やかに見えますが、そのずれは長く続くと考えられているため、{scoreWonjin}点となり、衝（{scoreChung}）より高く、中立（{scoreNeutral}）より低くなります。"
+          },
+          {
+            "p": "円の上では、辰は五番目、亥は十二番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "タツとイノシシ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "怨嗔"
+                ],
+                [
+                  "点数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacWonjin}点、日支の相性で{swingDayBranchWonjin}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**タツ**の特別な相手 — 六合 [トリ](/guide/zodiac-pair-dragon-rooster) · 半合 [ネズミ](/guide/zodiac-pair-rat-dragon) · 怨嗔 [イノシシ](/guide/zodiac-pair-dragon-pig) · 衝 [イヌ](/guide/zodiac-pair-dragon-dog)",
+              "**イノシシ**の特別な相手 — 六合 [トラ](/guide/zodiac-pair-tiger-pig) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [タツ](/guide/zodiac-pair-dragon-pig) · 衝 [ヘビ](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[タツ](/guide/zodiac-dragon) · [イノシシ](/guide/zodiac-pig)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "組み合わせ別",
+    "title": "ヘビとヘビ — 同じ地支",
+    "summary": "ヘビ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ヘビ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "ヘビ同士は同じ地支です（巳と巳）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "巳は十二の地支の第六です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ヘビ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "ヘビのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ヘビ**の特別な相手 — 六合 [サル](/guide/zodiac-pair-snake-monkey) · 半合 [トリ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [イヌ](/guide/zodiac-pair-snake-dog) · 衝 [イノシシ](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ヘビ](/guide/zodiac-snake)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "組み合わせ別",
+    "title": "ヘビとサル — 六合",
+    "summary": "ヘビとサルがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ヘビとサルは六合になります",
+        "blocks": [
+          {
+            "p": "ヘビとサルは六合になります。巳と申は二つの文字だけで合を作ります。"
+          },
+          {
+            "p": "六合は相性で最もよく現れる良い関係で、{scoreYukhap}点はどちらの干支も得られる最高点です。"
+          },
+          {
+            "p": "円の上では、巳は六番目、申は九番目にあり、二つの文字は三つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ヘビとサル",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "六合"
+                ],
+                [
+                  "点数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacYukhap}点、日支の相性で{swingDayBranchYukhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ヘビ**の特別な相手 — 六合 [サル](/guide/zodiac-pair-snake-monkey) · 半合 [トリ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [イヌ](/guide/zodiac-pair-snake-dog) · 衝 [イノシシ](/guide/zodiac-pair-snake-pig)",
+              "**サル**の特別な相手 — 六合 [ヘビ](/guide/zodiac-pair-snake-monkey) · 半合 [ネズミ](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ウサギ](/guide/zodiac-pair-rabbit-monkey) · 衝 [トラ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ヘビ](/guide/zodiac-snake) · [サル](/guide/zodiac-monkey)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "組み合わせ別",
+    "title": "ヘビとトリ — 半合",
+    "summary": "ヘビとトリがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ヘビとトリは半合になります",
+        "blocks": [
+          {
+            "p": "ヘビとトリは半合になります。巳酉丑は一つの三合グループ（金のグループ）で、酉がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのウシ（丑）とヘビ（巳）は中心の文字である酉を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、巳は六番目、酉は十番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ヘビとトリ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ヘビ**の特別な相手 — 六合 [サル](/guide/zodiac-pair-snake-monkey) · 半合 [トリ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [イヌ](/guide/zodiac-pair-snake-dog) · 衝 [イノシシ](/guide/zodiac-pair-snake-pig)",
+              "**トリ**の特別な相手 — 六合 [タツ](/guide/zodiac-pair-dragon-rooster) · 半合 [ウシ](/guide/zodiac-pair-ox-rooster)、[ヘビ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [トラ](/guide/zodiac-pair-tiger-rooster) · 衝 [ウサギ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ヘビ](/guide/zodiac-snake) · [トリ](/guide/zodiac-rooster)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "組み合わせ別",
+    "title": "ヘビとイヌ — 怨嗔",
+    "summary": "ヘビとイヌがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ヘビとイヌは怨嗔になります",
+        "blocks": [
+          {
+            "p": "ヘビとイヌは怨嗔になります。巳の衝の位置は亥（イノシシ）で、戌はそのすぐ隣にあります。また、戌の衝の位置である辰（タツ）のすぐ隣には巳があります。"
+          },
+          {
+            "p": "伝統的に、恨み合いながらも離れられない組と見なされます。表面は穏やかに見えますが、そのずれは長く続くと考えられているため、{scoreWonjin}点となり、衝（{scoreChung}）より高く、中立（{scoreNeutral}）より低くなります。"
+          },
+          {
+            "p": "円の上では、巳は六番目、戌は十一番目にあり、二つの文字は五つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ヘビとイヌ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "怨嗔"
+                ],
+                [
+                  "点数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacWonjin}点、日支の相性で{swingDayBranchWonjin}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ヘビ**の特別な相手 — 六合 [サル](/guide/zodiac-pair-snake-monkey) · 半合 [トリ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [イヌ](/guide/zodiac-pair-snake-dog) · 衝 [イノシシ](/guide/zodiac-pair-snake-pig)",
+              "**イヌ**の特別な相手 — 六合 [ウサギ](/guide/zodiac-pair-rabbit-dog) · 半合 [ウマ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ヘビ](/guide/zodiac-pair-snake-dog) · 衝 [タツ](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ヘビ](/guide/zodiac-snake) · [イヌ](/guide/zodiac-dog)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "組み合わせ別",
+    "title": "ヘビとイノシシ — 衝",
+    "summary": "ヘビとイノシシがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ヘビとイノシシは衝になります",
+        "blocks": [
+          {
+            "p": "ヘビとイノシシは衝になります。巳と亥は円の上で真向かいに位置します。"
+          },
+          {
+            "p": "このサービスは衝でも{scoreChung}点を保ちます。伝統的な命理では、衝は衝突であって関係の終わりではなく、底に近い点数を付ければ二人に判決を下すことになってしまいます。"
+          },
+          {
+            "p": "円の上では、巳は六番目、亥は十二番目にあり、二つの文字は六つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ヘビとイノシシ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "衝"
+                ],
+                [
+                  "点数",
+                  "{scoreChung}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacChung}点、日支の相性で{swingDayBranchChung}点押し下げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ヘビ**の特別な相手 — 六合 [サル](/guide/zodiac-pair-snake-monkey) · 半合 [トリ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [イヌ](/guide/zodiac-pair-snake-dog) · 衝 [イノシシ](/guide/zodiac-pair-snake-pig)",
+              "**イノシシ**の特別な相手 — 六合 [トラ](/guide/zodiac-pair-tiger-pig) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [タツ](/guide/zodiac-pair-dragon-pig) · 衝 [ヘビ](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ヘビ](/guide/zodiac-snake) · [イノシシ](/guide/zodiac-pig)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウマとウマ — 同じ地支",
+    "summary": "ウマ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウマ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "ウマ同士は同じ地支です（午と午）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "午は十二の地支の第七です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウマ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "ウマのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウマ**の特別な相手 — 六合 [ヒツジ](/guide/zodiac-pair-horse-goat) · 半合 [トラ](/guide/zodiac-pair-tiger-horse)、[イヌ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ウシ](/guide/zodiac-pair-ox-horse) · 衝 [ネズミ](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウマ](/guide/zodiac-horse)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウマとヒツジ — 六合",
+    "summary": "ウマとヒツジがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウマとヒツジは六合になります",
+        "blocks": [
+          {
+            "p": "ウマとヒツジは六合になります。午と未は二つの文字だけで合を作ります。"
+          },
+          {
+            "p": "六合は相性で最もよく現れる良い関係で、{scoreYukhap}点はどちらの干支も得られる最高点です。"
+          },
+          {
+            "p": "円の上では、午は七番目、未は八番目にあり、二つの文字は一つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウマとヒツジ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "六合"
+                ],
+                [
+                  "点数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacYukhap}点、日支の相性で{swingDayBranchYukhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウマ**の特別な相手 — 六合 [ヒツジ](/guide/zodiac-pair-horse-goat) · 半合 [トラ](/guide/zodiac-pair-tiger-horse)、[イヌ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ウシ](/guide/zodiac-pair-ox-horse) · 衝 [ネズミ](/guide/zodiac-pair-rat-horse)",
+              "**ヒツジ**の特別な相手 — 六合 [ウマ](/guide/zodiac-pair-horse-goat) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [ネズミ](/guide/zodiac-pair-rat-goat) · 衝 [ウシ](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウマ](/guide/zodiac-horse) · [ヒツジ](/guide/zodiac-goat)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "組み合わせ別",
+    "title": "ウマとイヌ — 半合",
+    "summary": "ウマとイヌがどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ウマとイヌは半合になります",
+        "blocks": [
+          {
+            "p": "ウマとイヌは半合になります。寅午戌は一つの三合グループ（火のグループ）で、午がその中心の**王地**です。"
+          },
+          {
+            "p": "Inyeon-Link は王地を含む組み合わせだけを認めるため、この組み合わせは半合（{scoreBanhap}）になります。"
+          },
+          {
+            "p": "同じグループのトラ（寅）とイヌ（戌）は中心の文字である午を欠くため、合とは数えず中立として扱います。"
+          },
+          {
+            "p": "円の上では、午は七番目、戌は十一番目にあり、二つの文字は四つ分離れています。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ウマとイヌ",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "半合"
+                ],
+                [
+                  "点数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacBanhap}点、日支の相性で{swingDayBranchBanhap}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "それぞれの干支のほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ウマ**の特別な相手 — 六合 [ヒツジ](/guide/zodiac-pair-horse-goat) · 半合 [トラ](/guide/zodiac-pair-tiger-horse)、[イヌ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ウシ](/guide/zodiac-pair-ox-horse) · 衝 [ネズミ](/guide/zodiac-pair-rat-horse)",
+              "**イヌ**の特別な相手 — 六合 [ウサギ](/guide/zodiac-pair-rabbit-dog) · 半合 [ウマ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ヘビ](/guide/zodiac-pair-snake-dog) · 衝 [タツ](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ウマ](/guide/zodiac-horse) · [イヌ](/guide/zodiac-dog)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "組み合わせ別",
+    "title": "ヒツジとヒツジ — 同じ地支",
+    "summary": "ヒツジ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "ヒツジ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "ヒツジ同士は同じ地支です（未と未）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "未は十二の地支の第八です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "ヒツジ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "ヒツジのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**ヒツジ**の特別な相手 — 六合 [ウマ](/guide/zodiac-pair-horse-goat) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [ネズミ](/guide/zodiac-pair-rat-goat) · 衝 [ウシ](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[ヒツジ](/guide/zodiac-goat)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "組み合わせ別",
+    "title": "サルとサル — 同じ地支",
+    "summary": "サル同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "サル同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "サル同士は同じ地支です（申と申）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "申は十二の地支の第九です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "サル同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "サルのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**サル**の特別な相手 — 六合 [ヘビ](/guide/zodiac-pair-snake-monkey) · 半合 [ネズミ](/guide/zodiac-pair-rat-monkey) · 怨嗔 [ウサギ](/guide/zodiac-pair-rabbit-monkey) · 衝 [トラ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[サル](/guide/zodiac-monkey)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "組み合わせ別",
+    "title": "トリとトリ — 同じ地支",
+    "summary": "トリ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "トリ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "トリ同士は同じ地支です（酉と酉）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "酉は十二の地支の第十です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "トリ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "トリのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**トリ**の特別な相手 — 六合 [タツ](/guide/zodiac-pair-dragon-rooster) · 半合 [ウシ](/guide/zodiac-pair-ox-rooster)、[ヘビ](/guide/zodiac-pair-snake-rooster) · 怨嗔 [トラ](/guide/zodiac-pair-tiger-rooster) · 衝 [ウサギ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[トリ](/guide/zodiac-rooster)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "組み合わせ別",
+    "title": "イヌとイヌ — 同じ地支",
+    "summary": "イヌ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "イヌ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "イヌ同士は同じ地支です（戌と戌）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "戌は十二の地支の第十一です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "イヌ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "イヌのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**イヌ**の特別な相手 — 六合 [ウサギ](/guide/zodiac-pair-rabbit-dog) · 半合 [ウマ](/guide/zodiac-pair-horse-dog) · 怨嗔 [ヘビ](/guide/zodiac-pair-snake-dog) · 衝 [タツ](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[イヌ](/guide/zodiac-dog)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "組み合わせ別",
+    "title": "イノシシとイノシシ — 同じ地支",
+    "summary": "イノシシ同士がどんな関係になり、何点で、その点が最終マッチ率をどれだけ動かすのかを、Inyeon-Link の計算ルールのとおりに示します。",
+    "backLabel": "計算の根拠",
+    "sections": [
+      {
+        "title": "イノシシ同士は同じ地支です",
+        "blocks": [
+          {
+            "p": "イノシシ同士は同じ地支です（亥と亥）。引き合うのではなく、似ているという意味です。"
+          },
+          {
+            "p": "そのため{scoreSame}点で、中立（{scoreNeutral}）のすぐ上です。合でも衝でも怨嗔でもなく、わずかに高いだけです。"
+          },
+          {
+            "p": "亥は十二の地支の第十二です。"
+          }
+        ]
+      },
+      {
+        "title": "この組み合わせの数値",
+        "blocks": [
+          {
+            "table": {
+              "caption": "イノシシ同士",
+              "head": [
+                "項目",
+                "値"
+              ],
+              "rows": [
+                [
+                  "関係",
+                  "同じ地支"
+                ],
+                [
+                  "点数",
+                  "{scoreSame}"
+                ],
+                [
+                  "干支の相性で最終マッチ率に占める割合",
+                  "{weightZodiac}"
+                ],
+                [
+                  "日支の相性で最終マッチ率に占める割合",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "最終マッチ率をどれだけ動かすか",
+        "blocks": [
+          {
+            "p": "ほかがすべて同じなら、この組み合わせは中立の組より、最終マッチ率を干支の相性で{swingZodiacSame}点、日支の相性で{swingDayBranchSame}点押し上げます。"
+          },
+          {
+            "p": "干支の相性は生まれ年の地支を並べて見て、日支の相性は生まれ日の地支を並べて見ます。二つは異なる地支になることがあるため、同じ二人でもそれぞれで異なる関係を示すことがあります。"
+          }
+        ]
+      },
+      {
+        "title": "イノシシのほかの特別な関係",
+        "blocks": [
+          {
+            "ul": [
+              "**イノシシ**の特別な相手 — 六合 [トラ](/guide/zodiac-pair-tiger-pig) · 半合 [ウサギ](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [タツ](/guide/zodiac-pair-dragon-pig) · 衝 [ヘビ](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "このガイドが述べていないこと",
+        "blocks": [
+          {
+            "ul": [
+              "一つの干支だけで二人の関係が決まるわけではありません。最終マッチ率の{weightSaju}はサジュの相性で決まります。",
+              "上の点数の変化は、ほかがすべて同じだと仮定したものです。実際の結果は二人のサジュ全体で決まります。"
+            ]
+          },
+          {
+            "p": "各干支の詳しいガイドは[イノシシ](/guide/zodiac-pig)に、全体の表は[十二支の関係表](/guide/branches)にあります。"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "十神",
     "title": "十神と配偶者の位置",

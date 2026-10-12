@@ -87,3 +87,20 @@
 - 도구: `docs/drafts/tools-B/` (README 에 절차와 배운 것).
 
 **C 사주링크 천간 10 + 지지 12: 미착수.**
+
+## 구현 상태 추가 (2026-10-12 밤, 사용자 결정으로 보류안 편입)
+
+사용자가 「B 쌍별 개별 편 특별한 관계 38쌍 추가, C 60일주도 그냥 넣자」고 결정해 **보류안이 범위에 들어왔다.**
+
+**B 쌍별 38편: 로컬 구현·검증 완료, 미푸시.** 같은 지지 12 + 육합 6 + 반합 8 + 원진 6 + 충 6.
+- 키 `guide/zodiac-pair-<동물>-<동물>`(색인 순서) · 슬러그 `page.tsx` 38개 · `guide-index.ts` 38개 ·
+  `doc-values.ts` 자리표시자 8개(`swingZodiac{Banhap,Wonjin,Same}` · `swingDayBranch{Yukhap,Banhap,Same,Wonjin,Chung}`).
+- 쌍마다 갈리는 데이터: 관계 · 점수 · 원 위의 자리·거리 · 반합이면 무리와 왕지 · **각 띠가 맺는 다른 특별한 관계 목록**
+  (서로 링크). 같은 지지 12편은 동물 이름만 다르다 — 닮은 글 위험이 가장 큰 곳이다.
+- 번역은 고유 문자열 328개 → 에이전트 7개 × 3개 언어 → **독립 검토 7개**(수정 48개: fil 38 · km 6 · it 2 · hi 2).
+- 검증: tsc exit 0 · 검사기 7종 + `verify-guide-numbers` ALL PASS(인연 한·영 67편, 21개 언어 21/21) · 새 자리표시자 값이 계산과 일치.
+- 도구: `docs/drafts/tools-pairs/`. 한국어 원문 초안 `docs/drafts/B-pairs-38.ko.md`.
+- 허브 카드가 21 → 59장이 된다(별도 「사전」 묶음 UI 는 후속 과제).
+
+**C 사주링크: 천간 10 + 지지 12 + 60일주 = 82편 — 착수 전.** 재료: `STEM_ELEMENT`·`STEM_POLARITY`·`tenGod`·
+`BRANCH_HIDDEN_STEMS`·`vitalityOf`(calculateElementStrength 로 월령 상태). 일주 60편의 고유 데이터는 일간 × 지장간의 십신.

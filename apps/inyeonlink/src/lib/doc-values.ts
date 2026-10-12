@@ -27,6 +27,10 @@ export async function docValues(locale: Locale): Promise<Record<string, string>>
   const percent = (value: number) => `${Math.round(value * 100)}%`;
   const swing = (score: number) =>
     Math.abs((score - BRANCH_RELATION_SCORE.NEUTRAL) * ENGINE_WEIGHTS.zodiac).toFixed(1);
+  const swingDay = (score: number) =>
+    Math.abs(
+      (score - BRANCH_RELATION_SCORE.NEUTRAL) * ENGINE_WEIGHTS.saju * SAJU_WEIGHTS.dayBranchRelation,
+    ).toFixed(1);
   const dictionary = getDictionary(locale);
 
   const values: Record<string, string> = {
@@ -53,6 +57,15 @@ export async function docValues(locale: Locale): Promise<Record<string, string>>
     // **부호 없는 값**이다 — 글이 「높아집니다/낮아집니다」를 따로 적는다. 다른 항목이 같다는 가정의 값이다.
     swingZodiacYukhap: swing(BRANCH_RELATION_SCORE.YUKHAP),
     swingZodiacChung: swing(BRANCH_RELATION_SCORE.CHUNG),
+    swingZodiacBanhap: swing(BRANCH_RELATION_SCORE.BANHAP),
+    swingZodiacWonjin: swing(BRANCH_RELATION_SCORE.WONJIN),
+    swingZodiacSame: swing(BRANCH_RELATION_SCORE.SAME),
+    // 일지 궁합에서의 변동 폭 = (관계 점수 − 무관계 점수) × 사주 비중 × 사주 안의 일지 비중. 부호 없는 값이다.
+    swingDayBranchYukhap: swingDay(BRANCH_RELATION_SCORE.YUKHAP),
+    swingDayBranchBanhap: swingDay(BRANCH_RELATION_SCORE.BANHAP),
+    swingDayBranchSame: swingDay(BRANCH_RELATION_SCORE.SAME),
+    swingDayBranchWonjin: swingDay(BRANCH_RELATION_SCORE.WONJIN),
+    swingDayBranchChung: swingDay(BRANCH_RELATION_SCORE.CHUNG),
 
     // 신강·신약 경계. 인성+비겁은 다섯 중 둘이므로 고르면 40%가 된다 — 그 40%도 세어서 낸다.
     strongThreshold: percent(STRONG_THRESHOLD),

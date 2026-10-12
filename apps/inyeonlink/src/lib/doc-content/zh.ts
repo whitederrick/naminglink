@@ -2769,6 +2769,3514 @@ export const ZH_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "按组合",
+    "title": "鼠与鼠 — 相同地支",
+    "summary": "两个属鼠的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属鼠的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属鼠的人拥有相同的地支（子与子）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "子是十二地支中的第一位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属鼠的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "鼠的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**鼠**的特殊搭档 — 六合 [牛](/guide/zodiac-pair-rat-ox) · 半合 [龙](/guide/zodiac-pair-rat-dragon)、[猴](/guide/zodiac-pair-rat-monkey) · 怨嗔 [羊](/guide/zodiac-pair-rat-goat) · 冲 [马](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[鼠](/guide/zodiac-rat)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "按组合",
+    "title": "鼠与牛 — 六合",
+    "summary": "鼠与牛是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "鼠与牛构成六合",
+        "blocks": [
+          {
+            "p": "鼠与牛构成六合。子与丑只用两个字就构成合。"
+          },
+          {
+            "p": "六合是兼容性中最常出现的好关系，{scoreYukhap}分是这两个生肖都能得到的最高分。"
+          },
+          {
+            "p": "在圆圈上，子排在第一位，丑排在第二位，两个字相隔一步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "鼠与牛",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "六合"
+                ],
+                [
+                  "分数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacYukhap}分，在日支兼容性中提高{swingDayBranchYukhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**鼠**的特殊搭档 — 六合 [牛](/guide/zodiac-pair-rat-ox) · 半合 [龙](/guide/zodiac-pair-rat-dragon)、[猴](/guide/zodiac-pair-rat-monkey) · 怨嗔 [羊](/guide/zodiac-pair-rat-goat) · 冲 [马](/guide/zodiac-pair-rat-horse)",
+              "**牛**的特殊搭档 — 六合 [鼠](/guide/zodiac-pair-rat-ox) · 半合 [鸡](/guide/zodiac-pair-ox-rooster) · 怨嗔 [马](/guide/zodiac-pair-ox-horse) · 冲 [羊](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[鼠](/guide/zodiac-rat) · [牛](/guide/zodiac-ox)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "按组合",
+    "title": "鼠与龙 — 半合",
+    "summary": "鼠与龙是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "鼠与龙构成半合",
+        "blocks": [
+          {
+            "p": "鼠与龙构成半合。申子辰是一个三合组（水组），子是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的猴（申）与龙（辰）缺少中心字子，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，子排在第一位，辰排在第五位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "鼠与龙",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**鼠**的特殊搭档 — 六合 [牛](/guide/zodiac-pair-rat-ox) · 半合 [龙](/guide/zodiac-pair-rat-dragon)、[猴](/guide/zodiac-pair-rat-monkey) · 怨嗔 [羊](/guide/zodiac-pair-rat-goat) · 冲 [马](/guide/zodiac-pair-rat-horse)",
+              "**龙**的特殊搭档 — 六合 [鸡](/guide/zodiac-pair-dragon-rooster) · 半合 [鼠](/guide/zodiac-pair-rat-dragon) · 怨嗔 [猪](/guide/zodiac-pair-dragon-pig) · 冲 [狗](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[鼠](/guide/zodiac-rat) · [龙](/guide/zodiac-dragon)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "按组合",
+    "title": "鼠与马 — 冲",
+    "summary": "鼠与马是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "鼠与马构成冲",
+        "blocks": [
+          {
+            "p": "鼠与马构成冲。子与午在圆圈上正好相对。"
+          },
+          {
+            "p": "本服务即使对冲也保留{scoreChung}分。在传统命理中，冲是一次碰撞，而不是关系的终结，给出接近最低的分数就等于对两个人下判决。"
+          },
+          {
+            "p": "在圆圈上，子排在第一位，午排在第七位，两个字相隔六步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "鼠与马",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "冲"
+                ],
+                [
+                  "分数",
+                  "{scoreChung}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacChung}分，在日支兼容性中降低{swingDayBranchChung}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**鼠**的特殊搭档 — 六合 [牛](/guide/zodiac-pair-rat-ox) · 半合 [龙](/guide/zodiac-pair-rat-dragon)、[猴](/guide/zodiac-pair-rat-monkey) · 怨嗔 [羊](/guide/zodiac-pair-rat-goat) · 冲 [马](/guide/zodiac-pair-rat-horse)",
+              "**马**的特殊搭档 — 六合 [羊](/guide/zodiac-pair-horse-goat) · 半合 [虎](/guide/zodiac-pair-tiger-horse)、[狗](/guide/zodiac-pair-horse-dog) · 怨嗔 [牛](/guide/zodiac-pair-ox-horse) · 冲 [鼠](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[鼠](/guide/zodiac-rat) · [马](/guide/zodiac-horse)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "按组合",
+    "title": "鼠与羊 — 怨嗔",
+    "summary": "鼠与羊是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "鼠与羊构成怨嗔",
+        "blocks": [
+          {
+            "p": "鼠与羊构成怨嗔。子的冲位是午（马），未就紧挨着午；未的冲位是丑（牛），子就紧挨着丑。"
+          },
+          {
+            "p": "传统上被视为互相怨怼却又无法分开的一对。表面上看似平静，但这种错位被认为会持续很久，因此得{scoreWonjin}分 — 高于冲（{scoreChung}），低于中性（{scoreNeutral}）。"
+          },
+          {
+            "p": "在圆圈上，子排在第一位，未排在第八位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "鼠与羊",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "怨嗔"
+                ],
+                [
+                  "分数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacWonjin}分，在日支兼容性中降低{swingDayBranchWonjin}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**鼠**的特殊搭档 — 六合 [牛](/guide/zodiac-pair-rat-ox) · 半合 [龙](/guide/zodiac-pair-rat-dragon)、[猴](/guide/zodiac-pair-rat-monkey) · 怨嗔 [羊](/guide/zodiac-pair-rat-goat) · 冲 [马](/guide/zodiac-pair-rat-horse)",
+              "**羊**的特殊搭档 — 六合 [马](/guide/zodiac-pair-horse-goat) · 半合 [兔](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [鼠](/guide/zodiac-pair-rat-goat) · 冲 [牛](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[鼠](/guide/zodiac-rat) · [羊](/guide/zodiac-goat)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "按组合",
+    "title": "鼠与猴 — 半合",
+    "summary": "鼠与猴是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "鼠与猴构成半合",
+        "blocks": [
+          {
+            "p": "鼠与猴构成半合。申子辰是一个三合组（水组），子是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的龙（辰）与猴（申）缺少中心字子，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，子排在第一位，申排在第九位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "鼠与猴",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**鼠**的特殊搭档 — 六合 [牛](/guide/zodiac-pair-rat-ox) · 半合 [龙](/guide/zodiac-pair-rat-dragon)、[猴](/guide/zodiac-pair-rat-monkey) · 怨嗔 [羊](/guide/zodiac-pair-rat-goat) · 冲 [马](/guide/zodiac-pair-rat-horse)",
+              "**猴**的特殊搭档 — 六合 [蛇](/guide/zodiac-pair-snake-monkey) · 半合 [鼠](/guide/zodiac-pair-rat-monkey) · 怨嗔 [兔](/guide/zodiac-pair-rabbit-monkey) · 冲 [虎](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[鼠](/guide/zodiac-rat) · [猴](/guide/zodiac-monkey)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "按组合",
+    "title": "牛与牛 — 相同地支",
+    "summary": "两个属牛的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属牛的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属牛的人拥有相同的地支（丑与丑）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "丑是十二地支中的第二位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属牛的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "牛的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**牛**的特殊搭档 — 六合 [鼠](/guide/zodiac-pair-rat-ox) · 半合 [鸡](/guide/zodiac-pair-ox-rooster) · 怨嗔 [马](/guide/zodiac-pair-ox-horse) · 冲 [羊](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[牛](/guide/zodiac-ox)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "按组合",
+    "title": "牛与马 — 怨嗔",
+    "summary": "牛与马是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "牛与马构成怨嗔",
+        "blocks": [
+          {
+            "p": "牛与马构成怨嗔。丑的冲位是未（羊），午就紧挨着未；午的冲位是子（鼠），丑就紧挨着子。"
+          },
+          {
+            "p": "传统上被视为互相怨怼却又无法分开的一对。表面上看似平静，但这种错位被认为会持续很久，因此得{scoreWonjin}分 — 高于冲（{scoreChung}），低于中性（{scoreNeutral}）。"
+          },
+          {
+            "p": "在圆圈上，丑排在第二位，午排在第七位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "牛与马",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "怨嗔"
+                ],
+                [
+                  "分数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacWonjin}分，在日支兼容性中降低{swingDayBranchWonjin}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**牛**的特殊搭档 — 六合 [鼠](/guide/zodiac-pair-rat-ox) · 半合 [鸡](/guide/zodiac-pair-ox-rooster) · 怨嗔 [马](/guide/zodiac-pair-ox-horse) · 冲 [羊](/guide/zodiac-pair-ox-goat)",
+              "**马**的特殊搭档 — 六合 [羊](/guide/zodiac-pair-horse-goat) · 半合 [虎](/guide/zodiac-pair-tiger-horse)、[狗](/guide/zodiac-pair-horse-dog) · 怨嗔 [牛](/guide/zodiac-pair-ox-horse) · 冲 [鼠](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[牛](/guide/zodiac-ox) · [马](/guide/zodiac-horse)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "按组合",
+    "title": "牛与羊 — 冲",
+    "summary": "牛与羊是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "牛与羊构成冲",
+        "blocks": [
+          {
+            "p": "牛与羊构成冲。丑与未在圆圈上正好相对。"
+          },
+          {
+            "p": "本服务即使对冲也保留{scoreChung}分。在传统命理中，冲是一次碰撞，而不是关系的终结，给出接近最低的分数就等于对两个人下判决。"
+          },
+          {
+            "p": "在圆圈上，丑排在第二位，未排在第八位，两个字相隔六步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "牛与羊",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "冲"
+                ],
+                [
+                  "分数",
+                  "{scoreChung}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacChung}分，在日支兼容性中降低{swingDayBranchChung}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**牛**的特殊搭档 — 六合 [鼠](/guide/zodiac-pair-rat-ox) · 半合 [鸡](/guide/zodiac-pair-ox-rooster) · 怨嗔 [马](/guide/zodiac-pair-ox-horse) · 冲 [羊](/guide/zodiac-pair-ox-goat)",
+              "**羊**的特殊搭档 — 六合 [马](/guide/zodiac-pair-horse-goat) · 半合 [兔](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [鼠](/guide/zodiac-pair-rat-goat) · 冲 [牛](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[牛](/guide/zodiac-ox) · [羊](/guide/zodiac-goat)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "按组合",
+    "title": "牛与鸡 — 半合",
+    "summary": "牛与鸡是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "牛与鸡构成半合",
+        "blocks": [
+          {
+            "p": "牛与鸡构成半合。巳酉丑是一个三合组（金组），酉是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的蛇（巳）与牛（丑）缺少中心字酉，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，丑排在第二位，酉排在第十位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "牛与鸡",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**牛**的特殊搭档 — 六合 [鼠](/guide/zodiac-pair-rat-ox) · 半合 [鸡](/guide/zodiac-pair-ox-rooster) · 怨嗔 [马](/guide/zodiac-pair-ox-horse) · 冲 [羊](/guide/zodiac-pair-ox-goat)",
+              "**鸡**的特殊搭档 — 六合 [龙](/guide/zodiac-pair-dragon-rooster) · 半合 [牛](/guide/zodiac-pair-ox-rooster)、[蛇](/guide/zodiac-pair-snake-rooster) · 怨嗔 [虎](/guide/zodiac-pair-tiger-rooster) · 冲 [兔](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[牛](/guide/zodiac-ox) · [鸡](/guide/zodiac-rooster)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "按组合",
+    "title": "虎与虎 — 相同地支",
+    "summary": "两个属虎的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属虎的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属虎的人拥有相同的地支（寅与寅）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "寅是十二地支中的第三位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属虎的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "虎的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**虎**的特殊搭档 — 六合 [猪](/guide/zodiac-pair-tiger-pig) · 半合 [马](/guide/zodiac-pair-tiger-horse) · 怨嗔 [鸡](/guide/zodiac-pair-tiger-rooster) · 冲 [猴](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[虎](/guide/zodiac-tiger)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "按组合",
+    "title": "虎与马 — 半合",
+    "summary": "虎与马是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "虎与马构成半合",
+        "blocks": [
+          {
+            "p": "虎与马构成半合。寅午戌是一个三合组（火组），午是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的狗（戌）与虎（寅）缺少中心字午，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，寅排在第三位，午排在第七位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "虎与马",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**虎**的特殊搭档 — 六合 [猪](/guide/zodiac-pair-tiger-pig) · 半合 [马](/guide/zodiac-pair-tiger-horse) · 怨嗔 [鸡](/guide/zodiac-pair-tiger-rooster) · 冲 [猴](/guide/zodiac-pair-tiger-monkey)",
+              "**马**的特殊搭档 — 六合 [羊](/guide/zodiac-pair-horse-goat) · 半合 [虎](/guide/zodiac-pair-tiger-horse)、[狗](/guide/zodiac-pair-horse-dog) · 怨嗔 [牛](/guide/zodiac-pair-ox-horse) · 冲 [鼠](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[虎](/guide/zodiac-tiger) · [马](/guide/zodiac-horse)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "按组合",
+    "title": "虎与猴 — 冲",
+    "summary": "虎与猴是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "虎与猴构成冲",
+        "blocks": [
+          {
+            "p": "虎与猴构成冲。寅与申在圆圈上正好相对。"
+          },
+          {
+            "p": "本服务即使对冲也保留{scoreChung}分。在传统命理中，冲是一次碰撞，而不是关系的终结，给出接近最低的分数就等于对两个人下判决。"
+          },
+          {
+            "p": "在圆圈上，寅排在第三位，申排在第九位，两个字相隔六步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "虎与猴",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "冲"
+                ],
+                [
+                  "分数",
+                  "{scoreChung}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacChung}分，在日支兼容性中降低{swingDayBranchChung}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**虎**的特殊搭档 — 六合 [猪](/guide/zodiac-pair-tiger-pig) · 半合 [马](/guide/zodiac-pair-tiger-horse) · 怨嗔 [鸡](/guide/zodiac-pair-tiger-rooster) · 冲 [猴](/guide/zodiac-pair-tiger-monkey)",
+              "**猴**的特殊搭档 — 六合 [蛇](/guide/zodiac-pair-snake-monkey) · 半合 [鼠](/guide/zodiac-pair-rat-monkey) · 怨嗔 [兔](/guide/zodiac-pair-rabbit-monkey) · 冲 [虎](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[虎](/guide/zodiac-tiger) · [猴](/guide/zodiac-monkey)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "按组合",
+    "title": "虎与鸡 — 怨嗔",
+    "summary": "虎与鸡是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "虎与鸡构成怨嗔",
+        "blocks": [
+          {
+            "p": "虎与鸡构成怨嗔。寅的冲位是申（猴），酉就紧挨着申；酉的冲位是卯（兔），寅就紧挨着卯。"
+          },
+          {
+            "p": "传统上被视为互相怨怼却又无法分开的一对。表面上看似平静，但这种错位被认为会持续很久，因此得{scoreWonjin}分 — 高于冲（{scoreChung}），低于中性（{scoreNeutral}）。"
+          },
+          {
+            "p": "在圆圈上，寅排在第三位，酉排在第十位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "虎与鸡",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "怨嗔"
+                ],
+                [
+                  "分数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacWonjin}分，在日支兼容性中降低{swingDayBranchWonjin}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**虎**的特殊搭档 — 六合 [猪](/guide/zodiac-pair-tiger-pig) · 半合 [马](/guide/zodiac-pair-tiger-horse) · 怨嗔 [鸡](/guide/zodiac-pair-tiger-rooster) · 冲 [猴](/guide/zodiac-pair-tiger-monkey)",
+              "**鸡**的特殊搭档 — 六合 [龙](/guide/zodiac-pair-dragon-rooster) · 半合 [牛](/guide/zodiac-pair-ox-rooster)、[蛇](/guide/zodiac-pair-snake-rooster) · 怨嗔 [虎](/guide/zodiac-pair-tiger-rooster) · 冲 [兔](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[虎](/guide/zodiac-tiger) · [鸡](/guide/zodiac-rooster)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "按组合",
+    "title": "虎与猪 — 六合",
+    "summary": "虎与猪是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "虎与猪构成六合",
+        "blocks": [
+          {
+            "p": "虎与猪构成六合。寅与亥只用两个字就构成合。"
+          },
+          {
+            "p": "六合是兼容性中最常出现的好关系，{scoreYukhap}分是这两个生肖都能得到的最高分。"
+          },
+          {
+            "p": "在圆圈上，寅排在第三位，亥排在第十二位，两个字相隔三步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "虎与猪",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "六合"
+                ],
+                [
+                  "分数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacYukhap}分，在日支兼容性中提高{swingDayBranchYukhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**虎**的特殊搭档 — 六合 [猪](/guide/zodiac-pair-tiger-pig) · 半合 [马](/guide/zodiac-pair-tiger-horse) · 怨嗔 [鸡](/guide/zodiac-pair-tiger-rooster) · 冲 [猴](/guide/zodiac-pair-tiger-monkey)",
+              "**猪**的特殊搭档 — 六合 [虎](/guide/zodiac-pair-tiger-pig) · 半合 [兔](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [龙](/guide/zodiac-pair-dragon-pig) · 冲 [蛇](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[虎](/guide/zodiac-tiger) · [猪](/guide/zodiac-pig)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "按组合",
+    "title": "兔与兔 — 相同地支",
+    "summary": "两个属兔的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属兔的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属兔的人拥有相同的地支（卯与卯）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "卯是十二地支中的第四位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属兔的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "兔的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**兔**的特殊搭档 — 六合 [狗](/guide/zodiac-pair-rabbit-dog) · 半合 [羊](/guide/zodiac-pair-rabbit-goat)、[猪](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [猴](/guide/zodiac-pair-rabbit-monkey) · 冲 [鸡](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[兔](/guide/zodiac-rabbit)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "按组合",
+    "title": "兔与羊 — 半合",
+    "summary": "兔与羊是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "兔与羊构成半合",
+        "blocks": [
+          {
+            "p": "兔与羊构成半合。亥卯未是一个三合组（木组），卯是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的猪（亥）与羊（未）缺少中心字卯，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，卯排在第四位，未排在第八位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "兔与羊",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**兔**的特殊搭档 — 六合 [狗](/guide/zodiac-pair-rabbit-dog) · 半合 [羊](/guide/zodiac-pair-rabbit-goat)、[猪](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [猴](/guide/zodiac-pair-rabbit-monkey) · 冲 [鸡](/guide/zodiac-pair-rabbit-rooster)",
+              "**羊**的特殊搭档 — 六合 [马](/guide/zodiac-pair-horse-goat) · 半合 [兔](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [鼠](/guide/zodiac-pair-rat-goat) · 冲 [牛](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[兔](/guide/zodiac-rabbit) · [羊](/guide/zodiac-goat)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "按组合",
+    "title": "兔与猴 — 怨嗔",
+    "summary": "兔与猴是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "兔与猴构成怨嗔",
+        "blocks": [
+          {
+            "p": "兔与猴构成怨嗔。卯的冲位是酉（鸡），申就紧挨着酉；申的冲位是寅（虎），卯就紧挨着寅。"
+          },
+          {
+            "p": "传统上被视为互相怨怼却又无法分开的一对。表面上看似平静，但这种错位被认为会持续很久，因此得{scoreWonjin}分 — 高于冲（{scoreChung}），低于中性（{scoreNeutral}）。"
+          },
+          {
+            "p": "在圆圈上，卯排在第四位，申排在第九位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "兔与猴",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "怨嗔"
+                ],
+                [
+                  "分数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacWonjin}分，在日支兼容性中降低{swingDayBranchWonjin}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**兔**的特殊搭档 — 六合 [狗](/guide/zodiac-pair-rabbit-dog) · 半合 [羊](/guide/zodiac-pair-rabbit-goat)、[猪](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [猴](/guide/zodiac-pair-rabbit-monkey) · 冲 [鸡](/guide/zodiac-pair-rabbit-rooster)",
+              "**猴**的特殊搭档 — 六合 [蛇](/guide/zodiac-pair-snake-monkey) · 半合 [鼠](/guide/zodiac-pair-rat-monkey) · 怨嗔 [兔](/guide/zodiac-pair-rabbit-monkey) · 冲 [虎](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[兔](/guide/zodiac-rabbit) · [猴](/guide/zodiac-monkey)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "按组合",
+    "title": "兔与鸡 — 冲",
+    "summary": "兔与鸡是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "兔与鸡构成冲",
+        "blocks": [
+          {
+            "p": "兔与鸡构成冲。卯与酉在圆圈上正好相对。"
+          },
+          {
+            "p": "本服务即使对冲也保留{scoreChung}分。在传统命理中，冲是一次碰撞，而不是关系的终结，给出接近最低的分数就等于对两个人下判决。"
+          },
+          {
+            "p": "在圆圈上，卯排在第四位，酉排在第十位，两个字相隔六步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "兔与鸡",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "冲"
+                ],
+                [
+                  "分数",
+                  "{scoreChung}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacChung}分，在日支兼容性中降低{swingDayBranchChung}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**兔**的特殊搭档 — 六合 [狗](/guide/zodiac-pair-rabbit-dog) · 半合 [羊](/guide/zodiac-pair-rabbit-goat)、[猪](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [猴](/guide/zodiac-pair-rabbit-monkey) · 冲 [鸡](/guide/zodiac-pair-rabbit-rooster)",
+              "**鸡**的特殊搭档 — 六合 [龙](/guide/zodiac-pair-dragon-rooster) · 半合 [牛](/guide/zodiac-pair-ox-rooster)、[蛇](/guide/zodiac-pair-snake-rooster) · 怨嗔 [虎](/guide/zodiac-pair-tiger-rooster) · 冲 [兔](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[兔](/guide/zodiac-rabbit) · [鸡](/guide/zodiac-rooster)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "按组合",
+    "title": "兔与狗 — 六合",
+    "summary": "兔与狗是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "兔与狗构成六合",
+        "blocks": [
+          {
+            "p": "兔与狗构成六合。卯与戌只用两个字就构成合。"
+          },
+          {
+            "p": "六合是兼容性中最常出现的好关系，{scoreYukhap}分是这两个生肖都能得到的最高分。"
+          },
+          {
+            "p": "在圆圈上，卯排在第四位，戌排在第十一位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "兔与狗",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "六合"
+                ],
+                [
+                  "分数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacYukhap}分，在日支兼容性中提高{swingDayBranchYukhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**兔**的特殊搭档 — 六合 [狗](/guide/zodiac-pair-rabbit-dog) · 半合 [羊](/guide/zodiac-pair-rabbit-goat)、[猪](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [猴](/guide/zodiac-pair-rabbit-monkey) · 冲 [鸡](/guide/zodiac-pair-rabbit-rooster)",
+              "**狗**的特殊搭档 — 六合 [兔](/guide/zodiac-pair-rabbit-dog) · 半合 [马](/guide/zodiac-pair-horse-dog) · 怨嗔 [蛇](/guide/zodiac-pair-snake-dog) · 冲 [龙](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[兔](/guide/zodiac-rabbit) · [狗](/guide/zodiac-dog)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "按组合",
+    "title": "兔与猪 — 半合",
+    "summary": "兔与猪是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "兔与猪构成半合",
+        "blocks": [
+          {
+            "p": "兔与猪构成半合。亥卯未是一个三合组（木组），卯是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的羊（未）与猪（亥）缺少中心字卯，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，卯排在第四位，亥排在第十二位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "兔与猪",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**兔**的特殊搭档 — 六合 [狗](/guide/zodiac-pair-rabbit-dog) · 半合 [羊](/guide/zodiac-pair-rabbit-goat)、[猪](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [猴](/guide/zodiac-pair-rabbit-monkey) · 冲 [鸡](/guide/zodiac-pair-rabbit-rooster)",
+              "**猪**的特殊搭档 — 六合 [虎](/guide/zodiac-pair-tiger-pig) · 半合 [兔](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [龙](/guide/zodiac-pair-dragon-pig) · 冲 [蛇](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[兔](/guide/zodiac-rabbit) · [猪](/guide/zodiac-pig)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "按组合",
+    "title": "龙与龙 — 相同地支",
+    "summary": "两个属龙的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属龙的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属龙的人拥有相同的地支（辰与辰）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "辰是十二地支中的第五位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属龙的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "龙的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**龙**的特殊搭档 — 六合 [鸡](/guide/zodiac-pair-dragon-rooster) · 半合 [鼠](/guide/zodiac-pair-rat-dragon) · 怨嗔 [猪](/guide/zodiac-pair-dragon-pig) · 冲 [狗](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[龙](/guide/zodiac-dragon)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "按组合",
+    "title": "龙与鸡 — 六合",
+    "summary": "龙与鸡是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "龙与鸡构成六合",
+        "blocks": [
+          {
+            "p": "龙与鸡构成六合。辰与酉只用两个字就构成合。"
+          },
+          {
+            "p": "六合是兼容性中最常出现的好关系，{scoreYukhap}分是这两个生肖都能得到的最高分。"
+          },
+          {
+            "p": "在圆圈上，辰排在第五位，酉排在第十位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "龙与鸡",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "六合"
+                ],
+                [
+                  "分数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacYukhap}分，在日支兼容性中提高{swingDayBranchYukhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**龙**的特殊搭档 — 六合 [鸡](/guide/zodiac-pair-dragon-rooster) · 半合 [鼠](/guide/zodiac-pair-rat-dragon) · 怨嗔 [猪](/guide/zodiac-pair-dragon-pig) · 冲 [狗](/guide/zodiac-pair-dragon-dog)",
+              "**鸡**的特殊搭档 — 六合 [龙](/guide/zodiac-pair-dragon-rooster) · 半合 [牛](/guide/zodiac-pair-ox-rooster)、[蛇](/guide/zodiac-pair-snake-rooster) · 怨嗔 [虎](/guide/zodiac-pair-tiger-rooster) · 冲 [兔](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[龙](/guide/zodiac-dragon) · [鸡](/guide/zodiac-rooster)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "按组合",
+    "title": "龙与狗 — 冲",
+    "summary": "龙与狗是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "龙与狗构成冲",
+        "blocks": [
+          {
+            "p": "龙与狗构成冲。辰与戌在圆圈上正好相对。"
+          },
+          {
+            "p": "本服务即使对冲也保留{scoreChung}分。在传统命理中，冲是一次碰撞，而不是关系的终结，给出接近最低的分数就等于对两个人下判决。"
+          },
+          {
+            "p": "在圆圈上，辰排在第五位，戌排在第十一位，两个字相隔六步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "龙与狗",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "冲"
+                ],
+                [
+                  "分数",
+                  "{scoreChung}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacChung}分，在日支兼容性中降低{swingDayBranchChung}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**龙**的特殊搭档 — 六合 [鸡](/guide/zodiac-pair-dragon-rooster) · 半合 [鼠](/guide/zodiac-pair-rat-dragon) · 怨嗔 [猪](/guide/zodiac-pair-dragon-pig) · 冲 [狗](/guide/zodiac-pair-dragon-dog)",
+              "**狗**的特殊搭档 — 六合 [兔](/guide/zodiac-pair-rabbit-dog) · 半合 [马](/guide/zodiac-pair-horse-dog) · 怨嗔 [蛇](/guide/zodiac-pair-snake-dog) · 冲 [龙](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[龙](/guide/zodiac-dragon) · [狗](/guide/zodiac-dog)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "按组合",
+    "title": "龙与猪 — 怨嗔",
+    "summary": "龙与猪是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "龙与猪构成怨嗔",
+        "blocks": [
+          {
+            "p": "龙与猪构成怨嗔。辰的冲位是戌（狗），亥就紧挨着戌；亥的冲位是巳（蛇），辰就紧挨着巳。"
+          },
+          {
+            "p": "传统上被视为互相怨怼却又无法分开的一对。表面上看似平静，但这种错位被认为会持续很久，因此得{scoreWonjin}分 — 高于冲（{scoreChung}），低于中性（{scoreNeutral}）。"
+          },
+          {
+            "p": "在圆圈上，辰排在第五位，亥排在第十二位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "龙与猪",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "怨嗔"
+                ],
+                [
+                  "分数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacWonjin}分，在日支兼容性中降低{swingDayBranchWonjin}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**龙**的特殊搭档 — 六合 [鸡](/guide/zodiac-pair-dragon-rooster) · 半合 [鼠](/guide/zodiac-pair-rat-dragon) · 怨嗔 [猪](/guide/zodiac-pair-dragon-pig) · 冲 [狗](/guide/zodiac-pair-dragon-dog)",
+              "**猪**的特殊搭档 — 六合 [虎](/guide/zodiac-pair-tiger-pig) · 半合 [兔](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [龙](/guide/zodiac-pair-dragon-pig) · 冲 [蛇](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[龙](/guide/zodiac-dragon) · [猪](/guide/zodiac-pig)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "按组合",
+    "title": "蛇与蛇 — 相同地支",
+    "summary": "两个属蛇的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属蛇的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属蛇的人拥有相同的地支（巳与巳）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "巳是十二地支中的第六位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属蛇的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "蛇的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**蛇**的特殊搭档 — 六合 [猴](/guide/zodiac-pair-snake-monkey) · 半合 [鸡](/guide/zodiac-pair-snake-rooster) · 怨嗔 [狗](/guide/zodiac-pair-snake-dog) · 冲 [猪](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[蛇](/guide/zodiac-snake)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "按组合",
+    "title": "蛇与猴 — 六合",
+    "summary": "蛇与猴是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "蛇与猴构成六合",
+        "blocks": [
+          {
+            "p": "蛇与猴构成六合。巳与申只用两个字就构成合。"
+          },
+          {
+            "p": "六合是兼容性中最常出现的好关系，{scoreYukhap}分是这两个生肖都能得到的最高分。"
+          },
+          {
+            "p": "在圆圈上，巳排在第六位，申排在第九位，两个字相隔三步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "蛇与猴",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "六合"
+                ],
+                [
+                  "分数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacYukhap}分，在日支兼容性中提高{swingDayBranchYukhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**蛇**的特殊搭档 — 六合 [猴](/guide/zodiac-pair-snake-monkey) · 半合 [鸡](/guide/zodiac-pair-snake-rooster) · 怨嗔 [狗](/guide/zodiac-pair-snake-dog) · 冲 [猪](/guide/zodiac-pair-snake-pig)",
+              "**猴**的特殊搭档 — 六合 [蛇](/guide/zodiac-pair-snake-monkey) · 半合 [鼠](/guide/zodiac-pair-rat-monkey) · 怨嗔 [兔](/guide/zodiac-pair-rabbit-monkey) · 冲 [虎](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[蛇](/guide/zodiac-snake) · [猴](/guide/zodiac-monkey)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "按组合",
+    "title": "蛇与鸡 — 半合",
+    "summary": "蛇与鸡是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "蛇与鸡构成半合",
+        "blocks": [
+          {
+            "p": "蛇与鸡构成半合。巳酉丑是一个三合组（金组），酉是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的牛（丑）与蛇（巳）缺少中心字酉，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，巳排在第六位，酉排在第十位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "蛇与鸡",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**蛇**的特殊搭档 — 六合 [猴](/guide/zodiac-pair-snake-monkey) · 半合 [鸡](/guide/zodiac-pair-snake-rooster) · 怨嗔 [狗](/guide/zodiac-pair-snake-dog) · 冲 [猪](/guide/zodiac-pair-snake-pig)",
+              "**鸡**的特殊搭档 — 六合 [龙](/guide/zodiac-pair-dragon-rooster) · 半合 [牛](/guide/zodiac-pair-ox-rooster)、[蛇](/guide/zodiac-pair-snake-rooster) · 怨嗔 [虎](/guide/zodiac-pair-tiger-rooster) · 冲 [兔](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[蛇](/guide/zodiac-snake) · [鸡](/guide/zodiac-rooster)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "按组合",
+    "title": "蛇与狗 — 怨嗔",
+    "summary": "蛇与狗是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "蛇与狗构成怨嗔",
+        "blocks": [
+          {
+            "p": "蛇与狗构成怨嗔。巳的冲位是亥（猪），戌就紧挨着亥；戌的冲位是辰（龙），巳就紧挨着辰。"
+          },
+          {
+            "p": "传统上被视为互相怨怼却又无法分开的一对。表面上看似平静，但这种错位被认为会持续很久，因此得{scoreWonjin}分 — 高于冲（{scoreChung}），低于中性（{scoreNeutral}）。"
+          },
+          {
+            "p": "在圆圈上，巳排在第六位，戌排在第十一位，两个字相隔五步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "蛇与狗",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "怨嗔"
+                ],
+                [
+                  "分数",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacWonjin}分，在日支兼容性中降低{swingDayBranchWonjin}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**蛇**的特殊搭档 — 六合 [猴](/guide/zodiac-pair-snake-monkey) · 半合 [鸡](/guide/zodiac-pair-snake-rooster) · 怨嗔 [狗](/guide/zodiac-pair-snake-dog) · 冲 [猪](/guide/zodiac-pair-snake-pig)",
+              "**狗**的特殊搭档 — 六合 [兔](/guide/zodiac-pair-rabbit-dog) · 半合 [马](/guide/zodiac-pair-horse-dog) · 怨嗔 [蛇](/guide/zodiac-pair-snake-dog) · 冲 [龙](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[蛇](/guide/zodiac-snake) · [狗](/guide/zodiac-dog)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "按组合",
+    "title": "蛇与猪 — 冲",
+    "summary": "蛇与猪是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "蛇与猪构成冲",
+        "blocks": [
+          {
+            "p": "蛇与猪构成冲。巳与亥在圆圈上正好相对。"
+          },
+          {
+            "p": "本服务即使对冲也保留{scoreChung}分。在传统命理中，冲是一次碰撞，而不是关系的终结，给出接近最低的分数就等于对两个人下判决。"
+          },
+          {
+            "p": "在圆圈上，巳排在第六位，亥排在第十二位，两个字相隔六步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "蛇与猪",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "冲"
+                ],
+                [
+                  "分数",
+                  "{scoreChung}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中降低{swingZodiacChung}分，在日支兼容性中降低{swingDayBranchChung}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**蛇**的特殊搭档 — 六合 [猴](/guide/zodiac-pair-snake-monkey) · 半合 [鸡](/guide/zodiac-pair-snake-rooster) · 怨嗔 [狗](/guide/zodiac-pair-snake-dog) · 冲 [猪](/guide/zodiac-pair-snake-pig)",
+              "**猪**的特殊搭档 — 六合 [虎](/guide/zodiac-pair-tiger-pig) · 半合 [兔](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [龙](/guide/zodiac-pair-dragon-pig) · 冲 [蛇](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[蛇](/guide/zodiac-snake) · [猪](/guide/zodiac-pig)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "按组合",
+    "title": "马与马 — 相同地支",
+    "summary": "两个属马的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属马的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属马的人拥有相同的地支（午与午）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "午是十二地支中的第七位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属马的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "马的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**马**的特殊搭档 — 六合 [羊](/guide/zodiac-pair-horse-goat) · 半合 [虎](/guide/zodiac-pair-tiger-horse)、[狗](/guide/zodiac-pair-horse-dog) · 怨嗔 [牛](/guide/zodiac-pair-ox-horse) · 冲 [鼠](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[马](/guide/zodiac-horse)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "按组合",
+    "title": "马与羊 — 六合",
+    "summary": "马与羊是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "马与羊构成六合",
+        "blocks": [
+          {
+            "p": "马与羊构成六合。午与未只用两个字就构成合。"
+          },
+          {
+            "p": "六合是兼容性中最常出现的好关系，{scoreYukhap}分是这两个生肖都能得到的最高分。"
+          },
+          {
+            "p": "在圆圈上，午排在第七位，未排在第八位，两个字相隔一步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "马与羊",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "六合"
+                ],
+                [
+                  "分数",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacYukhap}分，在日支兼容性中提高{swingDayBranchYukhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**马**的特殊搭档 — 六合 [羊](/guide/zodiac-pair-horse-goat) · 半合 [虎](/guide/zodiac-pair-tiger-horse)、[狗](/guide/zodiac-pair-horse-dog) · 怨嗔 [牛](/guide/zodiac-pair-ox-horse) · 冲 [鼠](/guide/zodiac-pair-rat-horse)",
+              "**羊**的特殊搭档 — 六合 [马](/guide/zodiac-pair-horse-goat) · 半合 [兔](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [鼠](/guide/zodiac-pair-rat-goat) · 冲 [牛](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[马](/guide/zodiac-horse) · [羊](/guide/zodiac-goat)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "按组合",
+    "title": "马与狗 — 半合",
+    "summary": "马与狗是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "马与狗构成半合",
+        "blocks": [
+          {
+            "p": "马与狗构成半合。寅午戌是一个三合组（火组），午是位于其中心的**王地**。"
+          },
+          {
+            "p": "Inyeon-Link 只承认包含王地的组合，因此这一组合构成半合（{scoreBanhap}）。"
+          },
+          {
+            "p": "同组的虎（寅）与狗（戌）缺少中心字午，因此不算作合，按中性处理。"
+          },
+          {
+            "p": "在圆圈上，午排在第七位，戌排在第十一位，两个字相隔四步。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "马与狗",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "半合"
+                ],
+                [
+                  "分数",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacBanhap}分，在日支兼容性中提高{swingDayBranchBanhap}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "每个生肖的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**马**的特殊搭档 — 六合 [羊](/guide/zodiac-pair-horse-goat) · 半合 [虎](/guide/zodiac-pair-tiger-horse)、[狗](/guide/zodiac-pair-horse-dog) · 怨嗔 [牛](/guide/zodiac-pair-ox-horse) · 冲 [鼠](/guide/zodiac-pair-rat-horse)",
+              "**狗**的特殊搭档 — 六合 [兔](/guide/zodiac-pair-rabbit-dog) · 半合 [马](/guide/zodiac-pair-horse-dog) · 怨嗔 [蛇](/guide/zodiac-pair-snake-dog) · 冲 [龙](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[马](/guide/zodiac-horse) · [狗](/guide/zodiac-dog)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "按组合",
+    "title": "羊与羊 — 相同地支",
+    "summary": "两个属羊的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属羊的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属羊的人拥有相同的地支（未与未）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "未是十二地支中的第八位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属羊的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "羊的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**羊**的特殊搭档 — 六合 [马](/guide/zodiac-pair-horse-goat) · 半合 [兔](/guide/zodiac-pair-rabbit-goat) · 怨嗔 [鼠](/guide/zodiac-pair-rat-goat) · 冲 [牛](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[羊](/guide/zodiac-goat)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "按组合",
+    "title": "猴与猴 — 相同地支",
+    "summary": "两个属猴的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属猴的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属猴的人拥有相同的地支（申与申）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "申是十二地支中的第九位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属猴的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "猴的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**猴**的特殊搭档 — 六合 [蛇](/guide/zodiac-pair-snake-monkey) · 半合 [鼠](/guide/zodiac-pair-rat-monkey) · 怨嗔 [兔](/guide/zodiac-pair-rabbit-monkey) · 冲 [虎](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[猴](/guide/zodiac-monkey)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "按组合",
+    "title": "鸡与鸡 — 相同地支",
+    "summary": "两个属鸡的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属鸡的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属鸡的人拥有相同的地支（酉与酉）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "酉是十二地支中的第十位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属鸡的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "鸡的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**鸡**的特殊搭档 — 六合 [龙](/guide/zodiac-pair-dragon-rooster) · 半合 [牛](/guide/zodiac-pair-ox-rooster)、[蛇](/guide/zodiac-pair-snake-rooster) · 怨嗔 [虎](/guide/zodiac-pair-tiger-rooster) · 冲 [兔](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[鸡](/guide/zodiac-rooster)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "按组合",
+    "title": "狗与狗 — 相同地支",
+    "summary": "两个属狗的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属狗的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属狗的人拥有相同的地支（戌与戌）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "戌是十二地支中的第十一位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属狗的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "狗的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**狗**的特殊搭档 — 六合 [兔](/guide/zodiac-pair-rabbit-dog) · 半合 [马](/guide/zodiac-pair-horse-dog) · 怨嗔 [蛇](/guide/zodiac-pair-snake-dog) · 冲 [龙](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[狗](/guide/zodiac-dog)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "按组合",
+    "title": "猪与猪 — 相同地支",
+    "summary": "两个属猪的人是什么关系、得多少分，以及该分数使最终匹配率变动多少 — 完全按照 Inyeon-Link 的计算规则列出。",
+    "backLabel": "计算依据",
+    "sections": [
+      {
+        "title": "两个属猪的人拥有相同的地支",
+        "blocks": [
+          {
+            "p": "两个属猪的人拥有相同的地支（亥与亥）。这意味着相似而非相吸。"
+          },
+          {
+            "p": "因此得{scoreSame}分，略高于中性（{scoreNeutral}）：既不是合，也不是冲或怨嗔，只是略有提高。"
+          },
+          {
+            "p": "亥是十二地支中的第十二位。"
+          }
+        ]
+      },
+      {
+        "title": "这一组合的数值",
+        "blocks": [
+          {
+            "table": {
+              "caption": "两个属猪的人",
+              "head": [
+                "项目",
+                "数值"
+              ],
+              "rows": [
+                [
+                  "关系",
+                  "相同地支"
+                ],
+                [
+                  "分数",
+                  "{scoreSame}"
+                ],
+                [
+                  "在生肖兼容性中占最终匹配率的比重",
+                  "{weightZodiac}"
+                ],
+                [
+                  "在日支兼容性中占最终匹配率的比重",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "对最终匹配率的影响幅度",
+        "blocks": [
+          {
+            "p": "如果其他条件都相同，与中性组合相比，这一组合使最终匹配率在生肖兼容性中提高{swingZodiacSame}分，在日支兼容性中提高{swingDayBranchSame}分。"
+          },
+          {
+            "p": "生肖兼容性把出生年的地支并列比较，日支兼容性则把出生日的地支并列比较。两者可能是不同的地支，因此同样的两个人在两者中可能呈现不同的关系。"
+          }
+        ]
+      },
+      {
+        "title": "猪的其他特殊关系",
+        "blocks": [
+          {
+            "ul": [
+              "**猪**的特殊搭档 — 六合 [虎](/guide/zodiac-pair-tiger-pig) · 半合 [兔](/guide/zodiac-pair-rabbit-pig) · 怨嗔 [龙](/guide/zodiac-pair-dragon-pig) · 冲 [蛇](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "本指南没有说的内容",
+        "blocks": [
+          {
+            "ul": [
+              "单靠一个生肖并不能决定两个人之间的关系。最终匹配率的{weightSaju}由 saju 兼容性决定。",
+              "上面的分数变化以其他条件都相同为前提；实际结果由两个人完整的 saju 决定。"
+            ]
+          },
+          {
+            "p": "每个生肖的完整指南见[猪](/guide/zodiac-pig)，完整表格见[十二地支关系表](/guide/branches)。"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "十神",
     "title": "十神与配偶位置",

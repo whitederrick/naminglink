@@ -2769,6 +2769,3514 @@ export const ES_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "Por par",
+    "title": "La Rata y la Rata — Misma rama",
+    "summary": "Qué relación tienen dos personas Rata, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Rata comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Rata comparten la misma rama (子 y 子). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "子 es la primera de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Rata",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de la Rata",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Rata** — Seis armonías [Buey](/guide/zodiac-pair-rat-ox) · Triada media [Dragón](/guide/zodiac-pair-rat-dragon), [Mono](/guide/zodiac-pair-rat-monkey) · Discordia [Oveja](/guide/zodiac-pair-rat-goat) · Choque [Caballo](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Rata](/guide/zodiac-rat), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "Por par",
+    "title": "La Rata y el Buey — Seis armonías",
+    "summary": "Qué relación tienen la Rata y el Buey, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Rata y el Buey forman una relación de seis armonías",
+        "blocks": [
+          {
+            "p": "La Rata y el Buey forman una relación de seis armonías. 子 y 丑 forman una armonía con solo dos caracteres."
+          },
+          {
+            "p": "Una relación de seis armonías es la buena relación que aparece con más frecuencia en la compatibilidad, y con {scoreYukhap} es el máximo que cualquiera de los dos animales puede obtener."
+          },
+          {
+            "p": "En el círculo, 子 está en el primer lugar y 丑 en el segundo, y los dos caracteres están a un paso de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Rata y el Buey",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Seis armonías"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacYukhap} puntos en la compatibilidad zodiacal y {swingDayBranchYukhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Rata** — Seis armonías [Buey](/guide/zodiac-pair-rat-ox) · Triada media [Dragón](/guide/zodiac-pair-rat-dragon), [Mono](/guide/zodiac-pair-rat-monkey) · Discordia [Oveja](/guide/zodiac-pair-rat-goat) · Choque [Caballo](/guide/zodiac-pair-rat-horse)",
+              "Los socios especiales **del Buey** — Seis armonías [Rata](/guide/zodiac-pair-rat-ox) · Triada media [Gallo](/guide/zodiac-pair-ox-rooster) · Discordia [Caballo](/guide/zodiac-pair-ox-horse) · Choque [Oveja](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Rata](/guide/zodiac-rat) · [Buey](/guide/zodiac-ox), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "Por par",
+    "title": "La Rata y el Dragón — Triada media",
+    "summary": "Qué relación tienen la Rata y el Dragón, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Rata y el Dragón forman una triada media",
+        "blocks": [
+          {
+            "p": "La Rata y el Dragón forman una triada media. 申子辰 es un grupo de triada (el grupo del agua), y 子 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "El Mono (申) y el Dragón (辰) del mismo grupo carecen del carácter central 子, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 子 está en el primer lugar y 辰 en el quinto, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Rata y el Dragón",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Rata** — Seis armonías [Buey](/guide/zodiac-pair-rat-ox) · Triada media [Dragón](/guide/zodiac-pair-rat-dragon), [Mono](/guide/zodiac-pair-rat-monkey) · Discordia [Oveja](/guide/zodiac-pair-rat-goat) · Choque [Caballo](/guide/zodiac-pair-rat-horse)",
+              "Los socios especiales **del Dragón** — Seis armonías [Gallo](/guide/zodiac-pair-dragon-rooster) · Triada media [Rata](/guide/zodiac-pair-rat-dragon) · Discordia [Cerdo](/guide/zodiac-pair-dragon-pig) · Choque [Perro](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Rata](/guide/zodiac-rat) · [Dragón](/guide/zodiac-dragon), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "Por par",
+    "title": "La Rata y el Caballo — Choque",
+    "summary": "Qué relación tienen la Rata y el Caballo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Rata y el Caballo forman un choque",
+        "blocks": [
+          {
+            "p": "La Rata y el Caballo forman un choque. 子 y 午 están directamente opuestos en el círculo."
+          },
+          {
+            "p": "Este servicio mantiene {scoreChung} puntos incluso en un choque. En el myeongri tradicional un choque es una colisión, no el fin de una relación, y dar una puntuación cercana al mínimo equivaldría a pronunciar un veredicto sobre dos personas."
+          },
+          {
+            "p": "En el círculo, 子 está en el primer lugar y 午 en el séptimo, y los dos caracteres están a seis pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Rata y el Caballo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Choque"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreChung}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacChung} puntos en la compatibilidad zodiacal y {swingDayBranchChung} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Rata** — Seis armonías [Buey](/guide/zodiac-pair-rat-ox) · Triada media [Dragón](/guide/zodiac-pair-rat-dragon), [Mono](/guide/zodiac-pair-rat-monkey) · Discordia [Oveja](/guide/zodiac-pair-rat-goat) · Choque [Caballo](/guide/zodiac-pair-rat-horse)",
+              "Los socios especiales **del Caballo** — Seis armonías [Oveja](/guide/zodiac-pair-horse-goat) · Triada media [Tigre](/guide/zodiac-pair-tiger-horse), [Perro](/guide/zodiac-pair-horse-dog) · Discordia [Buey](/guide/zodiac-pair-ox-horse) · Choque [Rata](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Rata](/guide/zodiac-rat) · [Caballo](/guide/zodiac-horse), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "Por par",
+    "title": "La Rata y la Oveja — Discordia",
+    "summary": "Qué relación tienen la Rata y la Oveja, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Rata y la Oveja forman una discordia",
+        "blocks": [
+          {
+            "p": "La Rata y la Oveja forman una discordia. La posición del choque de 子 es 午 (el Caballo), y 未 está justo al lado; justo al lado de 丑 (el Buey), la posición del choque de 未, está 子."
+          },
+          {
+            "p": "Tradicionalmente se ve como un par que se guarda rencor pero no puede separarse. Parece tranquilo en la superficie, pero se cree que el desajuste perdura, así que recibe {scoreWonjin} — más que un choque ({scoreChung}) y menos que neutral ({scoreNeutral})."
+          },
+          {
+            "p": "En el círculo, 子 está en el primer lugar y 未 en el octavo, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Rata y la Oveja",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Discordia"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacWonjin} puntos en la compatibilidad zodiacal y {swingDayBranchWonjin} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Rata** — Seis armonías [Buey](/guide/zodiac-pair-rat-ox) · Triada media [Dragón](/guide/zodiac-pair-rat-dragon), [Mono](/guide/zodiac-pair-rat-monkey) · Discordia [Oveja](/guide/zodiac-pair-rat-goat) · Choque [Caballo](/guide/zodiac-pair-rat-horse)",
+              "Los socios especiales **de la Oveja** — Seis armonías [Caballo](/guide/zodiac-pair-horse-goat) · Triada media [Conejo](/guide/zodiac-pair-rabbit-goat) · Discordia [Rata](/guide/zodiac-pair-rat-goat) · Choque [Buey](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Rata](/guide/zodiac-rat) · [Oveja](/guide/zodiac-goat), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "Por par",
+    "title": "La Rata y el Mono — Triada media",
+    "summary": "Qué relación tienen la Rata y el Mono, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Rata y el Mono forman una triada media",
+        "blocks": [
+          {
+            "p": "La Rata y el Mono forman una triada media. 申子辰 es un grupo de triada (el grupo del agua), y 子 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "El Dragón (辰) y el Mono (申) del mismo grupo carecen del carácter central 子, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 子 está en el primer lugar y 申 en el noveno, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Rata y el Mono",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Rata** — Seis armonías [Buey](/guide/zodiac-pair-rat-ox) · Triada media [Dragón](/guide/zodiac-pair-rat-dragon), [Mono](/guide/zodiac-pair-rat-monkey) · Discordia [Oveja](/guide/zodiac-pair-rat-goat) · Choque [Caballo](/guide/zodiac-pair-rat-horse)",
+              "Los socios especiales **del Mono** — Seis armonías [Serpiente](/guide/zodiac-pair-snake-monkey) · Triada media [Rata](/guide/zodiac-pair-rat-monkey) · Discordia [Conejo](/guide/zodiac-pair-rabbit-monkey) · Choque [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Rata](/guide/zodiac-rat) · [Mono](/guide/zodiac-monkey), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "Por par",
+    "title": "El Buey y el Buey — Misma rama",
+    "summary": "Qué relación tienen dos personas Buey, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Buey comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Buey comparten la misma rama (丑 y 丑). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "丑 es la segunda de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Buey",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Buey",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Buey** — Seis armonías [Rata](/guide/zodiac-pair-rat-ox) · Triada media [Gallo](/guide/zodiac-pair-ox-rooster) · Discordia [Caballo](/guide/zodiac-pair-ox-horse) · Choque [Oveja](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Buey](/guide/zodiac-ox), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "Por par",
+    "title": "El Buey y el Caballo — Discordia",
+    "summary": "Qué relación tienen el Buey y el Caballo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Buey y el Caballo forman una discordia",
+        "blocks": [
+          {
+            "p": "El Buey y el Caballo forman una discordia. La posición del choque de 丑 es 未 (la Oveja), y 午 está justo al lado; justo al lado de 子 (la Rata), la posición del choque de 午, está 丑."
+          },
+          {
+            "p": "Tradicionalmente se ve como un par que se guarda rencor pero no puede separarse. Parece tranquilo en la superficie, pero se cree que el desajuste perdura, así que recibe {scoreWonjin} — más que un choque ({scoreChung}) y menos que neutral ({scoreNeutral})."
+          },
+          {
+            "p": "En el círculo, 丑 está en el segundo lugar y 午 en el séptimo, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Buey y el Caballo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Discordia"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacWonjin} puntos en la compatibilidad zodiacal y {swingDayBranchWonjin} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Buey** — Seis armonías [Rata](/guide/zodiac-pair-rat-ox) · Triada media [Gallo](/guide/zodiac-pair-ox-rooster) · Discordia [Caballo](/guide/zodiac-pair-ox-horse) · Choque [Oveja](/guide/zodiac-pair-ox-goat)",
+              "Los socios especiales **del Caballo** — Seis armonías [Oveja](/guide/zodiac-pair-horse-goat) · Triada media [Tigre](/guide/zodiac-pair-tiger-horse), [Perro](/guide/zodiac-pair-horse-dog) · Discordia [Buey](/guide/zodiac-pair-ox-horse) · Choque [Rata](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Buey](/guide/zodiac-ox) · [Caballo](/guide/zodiac-horse), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "Por par",
+    "title": "El Buey y la Oveja — Choque",
+    "summary": "Qué relación tienen el Buey y la Oveja, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Buey y la Oveja forman un choque",
+        "blocks": [
+          {
+            "p": "El Buey y la Oveja forman un choque. 丑 y 未 están directamente opuestos en el círculo."
+          },
+          {
+            "p": "Este servicio mantiene {scoreChung} puntos incluso en un choque. En el myeongri tradicional un choque es una colisión, no el fin de una relación, y dar una puntuación cercana al mínimo equivaldría a pronunciar un veredicto sobre dos personas."
+          },
+          {
+            "p": "En el círculo, 丑 está en el segundo lugar y 未 en el octavo, y los dos caracteres están a seis pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Buey y la Oveja",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Choque"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreChung}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacChung} puntos en la compatibilidad zodiacal y {swingDayBranchChung} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Buey** — Seis armonías [Rata](/guide/zodiac-pair-rat-ox) · Triada media [Gallo](/guide/zodiac-pair-ox-rooster) · Discordia [Caballo](/guide/zodiac-pair-ox-horse) · Choque [Oveja](/guide/zodiac-pair-ox-goat)",
+              "Los socios especiales **de la Oveja** — Seis armonías [Caballo](/guide/zodiac-pair-horse-goat) · Triada media [Conejo](/guide/zodiac-pair-rabbit-goat) · Discordia [Rata](/guide/zodiac-pair-rat-goat) · Choque [Buey](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Buey](/guide/zodiac-ox) · [Oveja](/guide/zodiac-goat), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "Por par",
+    "title": "El Buey y el Gallo — Triada media",
+    "summary": "Qué relación tienen el Buey y el Gallo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Buey y el Gallo forman una triada media",
+        "blocks": [
+          {
+            "p": "El Buey y el Gallo forman una triada media. 巳酉丑 es un grupo de triada (el grupo del metal), y 酉 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "La Serpiente (巳) y el Buey (丑) del mismo grupo carecen del carácter central 酉, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 丑 está en el segundo lugar y 酉 en el décimo, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Buey y el Gallo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Buey** — Seis armonías [Rata](/guide/zodiac-pair-rat-ox) · Triada media [Gallo](/guide/zodiac-pair-ox-rooster) · Discordia [Caballo](/guide/zodiac-pair-ox-horse) · Choque [Oveja](/guide/zodiac-pair-ox-goat)",
+              "Los socios especiales **del Gallo** — Seis armonías [Dragón](/guide/zodiac-pair-dragon-rooster) · Triada media [Buey](/guide/zodiac-pair-ox-rooster), [Serpiente](/guide/zodiac-pair-snake-rooster) · Discordia [Tigre](/guide/zodiac-pair-tiger-rooster) · Choque [Conejo](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Buey](/guide/zodiac-ox) · [Gallo](/guide/zodiac-rooster), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "Por par",
+    "title": "El Tigre y el Tigre — Misma rama",
+    "summary": "Qué relación tienen dos personas Tigre, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Tigre comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Tigre comparten la misma rama (寅 y 寅). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "寅 es la tercera de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Tigre",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Tigre",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Tigre** — Seis armonías [Cerdo](/guide/zodiac-pair-tiger-pig) · Triada media [Caballo](/guide/zodiac-pair-tiger-horse) · Discordia [Gallo](/guide/zodiac-pair-tiger-rooster) · Choque [Mono](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Tigre](/guide/zodiac-tiger), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "Por par",
+    "title": "El Tigre y el Caballo — Triada media",
+    "summary": "Qué relación tienen el Tigre y el Caballo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Tigre y el Caballo forman una triada media",
+        "blocks": [
+          {
+            "p": "El Tigre y el Caballo forman una triada media. 寅午戌 es un grupo de triada (el grupo del fuego), y 午 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "El Perro (戌) y el Tigre (寅) del mismo grupo carecen del carácter central 午, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 寅 está en el tercer lugar y 午 en el séptimo, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Tigre y el Caballo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Tigre** — Seis armonías [Cerdo](/guide/zodiac-pair-tiger-pig) · Triada media [Caballo](/guide/zodiac-pair-tiger-horse) · Discordia [Gallo](/guide/zodiac-pair-tiger-rooster) · Choque [Mono](/guide/zodiac-pair-tiger-monkey)",
+              "Los socios especiales **del Caballo** — Seis armonías [Oveja](/guide/zodiac-pair-horse-goat) · Triada media [Tigre](/guide/zodiac-pair-tiger-horse), [Perro](/guide/zodiac-pair-horse-dog) · Discordia [Buey](/guide/zodiac-pair-ox-horse) · Choque [Rata](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Tigre](/guide/zodiac-tiger) · [Caballo](/guide/zodiac-horse), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "Por par",
+    "title": "El Tigre y el Mono — Choque",
+    "summary": "Qué relación tienen el Tigre y el Mono, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Tigre y el Mono forman un choque",
+        "blocks": [
+          {
+            "p": "El Tigre y el Mono forman un choque. 寅 y 申 están directamente opuestos en el círculo."
+          },
+          {
+            "p": "Este servicio mantiene {scoreChung} puntos incluso en un choque. En el myeongri tradicional un choque es una colisión, no el fin de una relación, y dar una puntuación cercana al mínimo equivaldría a pronunciar un veredicto sobre dos personas."
+          },
+          {
+            "p": "En el círculo, 寅 está en el tercer lugar y 申 en el noveno, y los dos caracteres están a seis pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Tigre y el Mono",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Choque"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreChung}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacChung} puntos en la compatibilidad zodiacal y {swingDayBranchChung} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Tigre** — Seis armonías [Cerdo](/guide/zodiac-pair-tiger-pig) · Triada media [Caballo](/guide/zodiac-pair-tiger-horse) · Discordia [Gallo](/guide/zodiac-pair-tiger-rooster) · Choque [Mono](/guide/zodiac-pair-tiger-monkey)",
+              "Los socios especiales **del Mono** — Seis armonías [Serpiente](/guide/zodiac-pair-snake-monkey) · Triada media [Rata](/guide/zodiac-pair-rat-monkey) · Discordia [Conejo](/guide/zodiac-pair-rabbit-monkey) · Choque [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Tigre](/guide/zodiac-tiger) · [Mono](/guide/zodiac-monkey), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "Por par",
+    "title": "El Tigre y el Gallo — Discordia",
+    "summary": "Qué relación tienen el Tigre y el Gallo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Tigre y el Gallo forman una discordia",
+        "blocks": [
+          {
+            "p": "El Tigre y el Gallo forman una discordia. La posición del choque de 寅 es 申 (el Mono), y 酉 está justo al lado; justo al lado de 卯 (el Conejo), la posición del choque de 酉, está 寅."
+          },
+          {
+            "p": "Tradicionalmente se ve como un par que se guarda rencor pero no puede separarse. Parece tranquilo en la superficie, pero se cree que el desajuste perdura, así que recibe {scoreWonjin} — más que un choque ({scoreChung}) y menos que neutral ({scoreNeutral})."
+          },
+          {
+            "p": "En el círculo, 寅 está en el tercer lugar y 酉 en el décimo, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Tigre y el Gallo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Discordia"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacWonjin} puntos en la compatibilidad zodiacal y {swingDayBranchWonjin} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Tigre** — Seis armonías [Cerdo](/guide/zodiac-pair-tiger-pig) · Triada media [Caballo](/guide/zodiac-pair-tiger-horse) · Discordia [Gallo](/guide/zodiac-pair-tiger-rooster) · Choque [Mono](/guide/zodiac-pair-tiger-monkey)",
+              "Los socios especiales **del Gallo** — Seis armonías [Dragón](/guide/zodiac-pair-dragon-rooster) · Triada media [Buey](/guide/zodiac-pair-ox-rooster), [Serpiente](/guide/zodiac-pair-snake-rooster) · Discordia [Tigre](/guide/zodiac-pair-tiger-rooster) · Choque [Conejo](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Tigre](/guide/zodiac-tiger) · [Gallo](/guide/zodiac-rooster), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "Por par",
+    "title": "El Tigre y el Cerdo — Seis armonías",
+    "summary": "Qué relación tienen el Tigre y el Cerdo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Tigre y el Cerdo forman una relación de seis armonías",
+        "blocks": [
+          {
+            "p": "El Tigre y el Cerdo forman una relación de seis armonías. 寅 y 亥 forman una armonía con solo dos caracteres."
+          },
+          {
+            "p": "Una relación de seis armonías es la buena relación que aparece con más frecuencia en la compatibilidad, y con {scoreYukhap} es el máximo que cualquiera de los dos animales puede obtener."
+          },
+          {
+            "p": "En el círculo, 寅 está en el tercer lugar y 亥 en el duodécimo, y los dos caracteres están a tres pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Tigre y el Cerdo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Seis armonías"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacYukhap} puntos en la compatibilidad zodiacal y {swingDayBranchYukhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Tigre** — Seis armonías [Cerdo](/guide/zodiac-pair-tiger-pig) · Triada media [Caballo](/guide/zodiac-pair-tiger-horse) · Discordia [Gallo](/guide/zodiac-pair-tiger-rooster) · Choque [Mono](/guide/zodiac-pair-tiger-monkey)",
+              "Los socios especiales **del Cerdo** — Seis armonías [Tigre](/guide/zodiac-pair-tiger-pig) · Triada media [Conejo](/guide/zodiac-pair-rabbit-pig) · Discordia [Dragón](/guide/zodiac-pair-dragon-pig) · Choque [Serpiente](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Tigre](/guide/zodiac-tiger) · [Cerdo](/guide/zodiac-pig), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "Por par",
+    "title": "El Conejo y el Conejo — Misma rama",
+    "summary": "Qué relación tienen dos personas Conejo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Conejo comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Conejo comparten la misma rama (卯 y 卯). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "卯 es la cuarta de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Conejo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Conejo",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Conejo** — Seis armonías [Perro](/guide/zodiac-pair-rabbit-dog) · Triada media [Oveja](/guide/zodiac-pair-rabbit-goat), [Cerdo](/guide/zodiac-pair-rabbit-pig) · Discordia [Mono](/guide/zodiac-pair-rabbit-monkey) · Choque [Gallo](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Conejo](/guide/zodiac-rabbit), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "Por par",
+    "title": "El Conejo y la Oveja — Triada media",
+    "summary": "Qué relación tienen el Conejo y la Oveja, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Conejo y la Oveja forman una triada media",
+        "blocks": [
+          {
+            "p": "El Conejo y la Oveja forman una triada media. 亥卯未 es un grupo de triada (el grupo de la madera), y 卯 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "El Cerdo (亥) y la Oveja (未) del mismo grupo carecen del carácter central 卯, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 卯 está en el cuarto lugar y 未 en el octavo, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Conejo y la Oveja",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Conejo** — Seis armonías [Perro](/guide/zodiac-pair-rabbit-dog) · Triada media [Oveja](/guide/zodiac-pair-rabbit-goat), [Cerdo](/guide/zodiac-pair-rabbit-pig) · Discordia [Mono](/guide/zodiac-pair-rabbit-monkey) · Choque [Gallo](/guide/zodiac-pair-rabbit-rooster)",
+              "Los socios especiales **de la Oveja** — Seis armonías [Caballo](/guide/zodiac-pair-horse-goat) · Triada media [Conejo](/guide/zodiac-pair-rabbit-goat) · Discordia [Rata](/guide/zodiac-pair-rat-goat) · Choque [Buey](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Conejo](/guide/zodiac-rabbit) · [Oveja](/guide/zodiac-goat), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "Por par",
+    "title": "El Conejo y el Mono — Discordia",
+    "summary": "Qué relación tienen el Conejo y el Mono, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Conejo y el Mono forman una discordia",
+        "blocks": [
+          {
+            "p": "El Conejo y el Mono forman una discordia. La posición del choque de 卯 es 酉 (el Gallo), y 申 está justo al lado; justo al lado de 寅 (el Tigre), la posición del choque de 申, está 卯."
+          },
+          {
+            "p": "Tradicionalmente se ve como un par que se guarda rencor pero no puede separarse. Parece tranquilo en la superficie, pero se cree que el desajuste perdura, así que recibe {scoreWonjin} — más que un choque ({scoreChung}) y menos que neutral ({scoreNeutral})."
+          },
+          {
+            "p": "En el círculo, 卯 está en el cuarto lugar y 申 en el noveno, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Conejo y el Mono",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Discordia"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacWonjin} puntos en la compatibilidad zodiacal y {swingDayBranchWonjin} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Conejo** — Seis armonías [Perro](/guide/zodiac-pair-rabbit-dog) · Triada media [Oveja](/guide/zodiac-pair-rabbit-goat), [Cerdo](/guide/zodiac-pair-rabbit-pig) · Discordia [Mono](/guide/zodiac-pair-rabbit-monkey) · Choque [Gallo](/guide/zodiac-pair-rabbit-rooster)",
+              "Los socios especiales **del Mono** — Seis armonías [Serpiente](/guide/zodiac-pair-snake-monkey) · Triada media [Rata](/guide/zodiac-pair-rat-monkey) · Discordia [Conejo](/guide/zodiac-pair-rabbit-monkey) · Choque [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Conejo](/guide/zodiac-rabbit) · [Mono](/guide/zodiac-monkey), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "Por par",
+    "title": "El Conejo y el Gallo — Choque",
+    "summary": "Qué relación tienen el Conejo y el Gallo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Conejo y el Gallo forman un choque",
+        "blocks": [
+          {
+            "p": "El Conejo y el Gallo forman un choque. 卯 y 酉 están directamente opuestos en el círculo."
+          },
+          {
+            "p": "Este servicio mantiene {scoreChung} puntos incluso en un choque. En el myeongri tradicional un choque es una colisión, no el fin de una relación, y dar una puntuación cercana al mínimo equivaldría a pronunciar un veredicto sobre dos personas."
+          },
+          {
+            "p": "En el círculo, 卯 está en el cuarto lugar y 酉 en el décimo, y los dos caracteres están a seis pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Conejo y el Gallo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Choque"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreChung}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacChung} puntos en la compatibilidad zodiacal y {swingDayBranchChung} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Conejo** — Seis armonías [Perro](/guide/zodiac-pair-rabbit-dog) · Triada media [Oveja](/guide/zodiac-pair-rabbit-goat), [Cerdo](/guide/zodiac-pair-rabbit-pig) · Discordia [Mono](/guide/zodiac-pair-rabbit-monkey) · Choque [Gallo](/guide/zodiac-pair-rabbit-rooster)",
+              "Los socios especiales **del Gallo** — Seis armonías [Dragón](/guide/zodiac-pair-dragon-rooster) · Triada media [Buey](/guide/zodiac-pair-ox-rooster), [Serpiente](/guide/zodiac-pair-snake-rooster) · Discordia [Tigre](/guide/zodiac-pair-tiger-rooster) · Choque [Conejo](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Conejo](/guide/zodiac-rabbit) · [Gallo](/guide/zodiac-rooster), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "Por par",
+    "title": "El Conejo y el Perro — Seis armonías",
+    "summary": "Qué relación tienen el Conejo y el Perro, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Conejo y el Perro forman una relación de seis armonías",
+        "blocks": [
+          {
+            "p": "El Conejo y el Perro forman una relación de seis armonías. 卯 y 戌 forman una armonía con solo dos caracteres."
+          },
+          {
+            "p": "Una relación de seis armonías es la buena relación que aparece con más frecuencia en la compatibilidad, y con {scoreYukhap} es el máximo que cualquiera de los dos animales puede obtener."
+          },
+          {
+            "p": "En el círculo, 卯 está en el cuarto lugar y 戌 en el undécimo, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Conejo y el Perro",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Seis armonías"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacYukhap} puntos en la compatibilidad zodiacal y {swingDayBranchYukhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Conejo** — Seis armonías [Perro](/guide/zodiac-pair-rabbit-dog) · Triada media [Oveja](/guide/zodiac-pair-rabbit-goat), [Cerdo](/guide/zodiac-pair-rabbit-pig) · Discordia [Mono](/guide/zodiac-pair-rabbit-monkey) · Choque [Gallo](/guide/zodiac-pair-rabbit-rooster)",
+              "Los socios especiales **del Perro** — Seis armonías [Conejo](/guide/zodiac-pair-rabbit-dog) · Triada media [Caballo](/guide/zodiac-pair-horse-dog) · Discordia [Serpiente](/guide/zodiac-pair-snake-dog) · Choque [Dragón](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Conejo](/guide/zodiac-rabbit) · [Perro](/guide/zodiac-dog), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "Por par",
+    "title": "El Conejo y el Cerdo — Triada media",
+    "summary": "Qué relación tienen el Conejo y el Cerdo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Conejo y el Cerdo forman una triada media",
+        "blocks": [
+          {
+            "p": "El Conejo y el Cerdo forman una triada media. 亥卯未 es un grupo de triada (el grupo de la madera), y 卯 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "La Oveja (未) y el Cerdo (亥) del mismo grupo carecen del carácter central 卯, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 卯 está en el cuarto lugar y 亥 en el duodécimo, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Conejo y el Cerdo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Conejo** — Seis armonías [Perro](/guide/zodiac-pair-rabbit-dog) · Triada media [Oveja](/guide/zodiac-pair-rabbit-goat), [Cerdo](/guide/zodiac-pair-rabbit-pig) · Discordia [Mono](/guide/zodiac-pair-rabbit-monkey) · Choque [Gallo](/guide/zodiac-pair-rabbit-rooster)",
+              "Los socios especiales **del Cerdo** — Seis armonías [Tigre](/guide/zodiac-pair-tiger-pig) · Triada media [Conejo](/guide/zodiac-pair-rabbit-pig) · Discordia [Dragón](/guide/zodiac-pair-dragon-pig) · Choque [Serpiente](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Conejo](/guide/zodiac-rabbit) · [Cerdo](/guide/zodiac-pig), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "Por par",
+    "title": "El Dragón y el Dragón — Misma rama",
+    "summary": "Qué relación tienen dos personas Dragón, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Dragón comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Dragón comparten la misma rama (辰 y 辰). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "辰 es la quinta de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Dragón",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Dragón",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Dragón** — Seis armonías [Gallo](/guide/zodiac-pair-dragon-rooster) · Triada media [Rata](/guide/zodiac-pair-rat-dragon) · Discordia [Cerdo](/guide/zodiac-pair-dragon-pig) · Choque [Perro](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Dragón](/guide/zodiac-dragon), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "Por par",
+    "title": "El Dragón y el Gallo — Seis armonías",
+    "summary": "Qué relación tienen el Dragón y el Gallo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Dragón y el Gallo forman una relación de seis armonías",
+        "blocks": [
+          {
+            "p": "El Dragón y el Gallo forman una relación de seis armonías. 辰 y 酉 forman una armonía con solo dos caracteres."
+          },
+          {
+            "p": "Una relación de seis armonías es la buena relación que aparece con más frecuencia en la compatibilidad, y con {scoreYukhap} es el máximo que cualquiera de los dos animales puede obtener."
+          },
+          {
+            "p": "En el círculo, 辰 está en el quinto lugar y 酉 en el décimo, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Dragón y el Gallo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Seis armonías"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacYukhap} puntos en la compatibilidad zodiacal y {swingDayBranchYukhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Dragón** — Seis armonías [Gallo](/guide/zodiac-pair-dragon-rooster) · Triada media [Rata](/guide/zodiac-pair-rat-dragon) · Discordia [Cerdo](/guide/zodiac-pair-dragon-pig) · Choque [Perro](/guide/zodiac-pair-dragon-dog)",
+              "Los socios especiales **del Gallo** — Seis armonías [Dragón](/guide/zodiac-pair-dragon-rooster) · Triada media [Buey](/guide/zodiac-pair-ox-rooster), [Serpiente](/guide/zodiac-pair-snake-rooster) · Discordia [Tigre](/guide/zodiac-pair-tiger-rooster) · Choque [Conejo](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Dragón](/guide/zodiac-dragon) · [Gallo](/guide/zodiac-rooster), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "Por par",
+    "title": "El Dragón y el Perro — Choque",
+    "summary": "Qué relación tienen el Dragón y el Perro, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Dragón y el Perro forman un choque",
+        "blocks": [
+          {
+            "p": "El Dragón y el Perro forman un choque. 辰 y 戌 están directamente opuestos en el círculo."
+          },
+          {
+            "p": "Este servicio mantiene {scoreChung} puntos incluso en un choque. En el myeongri tradicional un choque es una colisión, no el fin de una relación, y dar una puntuación cercana al mínimo equivaldría a pronunciar un veredicto sobre dos personas."
+          },
+          {
+            "p": "En el círculo, 辰 está en el quinto lugar y 戌 en el undécimo, y los dos caracteres están a seis pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Dragón y el Perro",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Choque"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreChung}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacChung} puntos en la compatibilidad zodiacal y {swingDayBranchChung} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Dragón** — Seis armonías [Gallo](/guide/zodiac-pair-dragon-rooster) · Triada media [Rata](/guide/zodiac-pair-rat-dragon) · Discordia [Cerdo](/guide/zodiac-pair-dragon-pig) · Choque [Perro](/guide/zodiac-pair-dragon-dog)",
+              "Los socios especiales **del Perro** — Seis armonías [Conejo](/guide/zodiac-pair-rabbit-dog) · Triada media [Caballo](/guide/zodiac-pair-horse-dog) · Discordia [Serpiente](/guide/zodiac-pair-snake-dog) · Choque [Dragón](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Dragón](/guide/zodiac-dragon) · [Perro](/guide/zodiac-dog), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "Por par",
+    "title": "El Dragón y el Cerdo — Discordia",
+    "summary": "Qué relación tienen el Dragón y el Cerdo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Dragón y el Cerdo forman una discordia",
+        "blocks": [
+          {
+            "p": "El Dragón y el Cerdo forman una discordia. La posición del choque de 辰 es 戌 (el Perro), y 亥 está justo al lado; justo al lado de 巳 (la Serpiente), la posición del choque de 亥, está 辰."
+          },
+          {
+            "p": "Tradicionalmente se ve como un par que se guarda rencor pero no puede separarse. Parece tranquilo en la superficie, pero se cree que el desajuste perdura, así que recibe {scoreWonjin} — más que un choque ({scoreChung}) y menos que neutral ({scoreNeutral})."
+          },
+          {
+            "p": "En el círculo, 辰 está en el quinto lugar y 亥 en el duodécimo, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Dragón y el Cerdo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Discordia"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacWonjin} puntos en la compatibilidad zodiacal y {swingDayBranchWonjin} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Dragón** — Seis armonías [Gallo](/guide/zodiac-pair-dragon-rooster) · Triada media [Rata](/guide/zodiac-pair-rat-dragon) · Discordia [Cerdo](/guide/zodiac-pair-dragon-pig) · Choque [Perro](/guide/zodiac-pair-dragon-dog)",
+              "Los socios especiales **del Cerdo** — Seis armonías [Tigre](/guide/zodiac-pair-tiger-pig) · Triada media [Conejo](/guide/zodiac-pair-rabbit-pig) · Discordia [Dragón](/guide/zodiac-pair-dragon-pig) · Choque [Serpiente](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Dragón](/guide/zodiac-dragon) · [Cerdo](/guide/zodiac-pig), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "Por par",
+    "title": "La Serpiente y la Serpiente — Misma rama",
+    "summary": "Qué relación tienen dos personas Serpiente, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Serpiente comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Serpiente comparten la misma rama (巳 y 巳). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "巳 es la sexta de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Serpiente",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de la Serpiente",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Serpiente** — Seis armonías [Mono](/guide/zodiac-pair-snake-monkey) · Triada media [Gallo](/guide/zodiac-pair-snake-rooster) · Discordia [Perro](/guide/zodiac-pair-snake-dog) · Choque [Cerdo](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Serpiente](/guide/zodiac-snake), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "Por par",
+    "title": "La Serpiente y el Mono — Seis armonías",
+    "summary": "Qué relación tienen la Serpiente y el Mono, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Serpiente y el Mono forman una relación de seis armonías",
+        "blocks": [
+          {
+            "p": "La Serpiente y el Mono forman una relación de seis armonías. 巳 y 申 forman una armonía con solo dos caracteres."
+          },
+          {
+            "p": "Una relación de seis armonías es la buena relación que aparece con más frecuencia en la compatibilidad, y con {scoreYukhap} es el máximo que cualquiera de los dos animales puede obtener."
+          },
+          {
+            "p": "En el círculo, 巳 está en el sexto lugar y 申 en el noveno, y los dos caracteres están a tres pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Serpiente y el Mono",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Seis armonías"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacYukhap} puntos en la compatibilidad zodiacal y {swingDayBranchYukhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Serpiente** — Seis armonías [Mono](/guide/zodiac-pair-snake-monkey) · Triada media [Gallo](/guide/zodiac-pair-snake-rooster) · Discordia [Perro](/guide/zodiac-pair-snake-dog) · Choque [Cerdo](/guide/zodiac-pair-snake-pig)",
+              "Los socios especiales **del Mono** — Seis armonías [Serpiente](/guide/zodiac-pair-snake-monkey) · Triada media [Rata](/guide/zodiac-pair-rat-monkey) · Discordia [Conejo](/guide/zodiac-pair-rabbit-monkey) · Choque [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Serpiente](/guide/zodiac-snake) · [Mono](/guide/zodiac-monkey), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "Por par",
+    "title": "La Serpiente y el Gallo — Triada media",
+    "summary": "Qué relación tienen la Serpiente y el Gallo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Serpiente y el Gallo forman una triada media",
+        "blocks": [
+          {
+            "p": "La Serpiente y el Gallo forman una triada media. 巳酉丑 es un grupo de triada (el grupo del metal), y 酉 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "El Buey (丑) y la Serpiente (巳) del mismo grupo carecen del carácter central 酉, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 巳 está en el sexto lugar y 酉 en el décimo, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Serpiente y el Gallo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Serpiente** — Seis armonías [Mono](/guide/zodiac-pair-snake-monkey) · Triada media [Gallo](/guide/zodiac-pair-snake-rooster) · Discordia [Perro](/guide/zodiac-pair-snake-dog) · Choque [Cerdo](/guide/zodiac-pair-snake-pig)",
+              "Los socios especiales **del Gallo** — Seis armonías [Dragón](/guide/zodiac-pair-dragon-rooster) · Triada media [Buey](/guide/zodiac-pair-ox-rooster), [Serpiente](/guide/zodiac-pair-snake-rooster) · Discordia [Tigre](/guide/zodiac-pair-tiger-rooster) · Choque [Conejo](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Serpiente](/guide/zodiac-snake) · [Gallo](/guide/zodiac-rooster), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "Por par",
+    "title": "La Serpiente y el Perro — Discordia",
+    "summary": "Qué relación tienen la Serpiente y el Perro, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Serpiente y el Perro forman una discordia",
+        "blocks": [
+          {
+            "p": "La Serpiente y el Perro forman una discordia. La posición del choque de 巳 es 亥 (el Cerdo), y 戌 está justo al lado; justo al lado de 辰 (el Dragón), la posición del choque de 戌, está 巳."
+          },
+          {
+            "p": "Tradicionalmente se ve como un par que se guarda rencor pero no puede separarse. Parece tranquilo en la superficie, pero se cree que el desajuste perdura, así que recibe {scoreWonjin} — más que un choque ({scoreChung}) y menos que neutral ({scoreNeutral})."
+          },
+          {
+            "p": "En el círculo, 巳 está en el sexto lugar y 戌 en el undécimo, y los dos caracteres están a cinco pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Serpiente y el Perro",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Discordia"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacWonjin} puntos en la compatibilidad zodiacal y {swingDayBranchWonjin} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Serpiente** — Seis armonías [Mono](/guide/zodiac-pair-snake-monkey) · Triada media [Gallo](/guide/zodiac-pair-snake-rooster) · Discordia [Perro](/guide/zodiac-pair-snake-dog) · Choque [Cerdo](/guide/zodiac-pair-snake-pig)",
+              "Los socios especiales **del Perro** — Seis armonías [Conejo](/guide/zodiac-pair-rabbit-dog) · Triada media [Caballo](/guide/zodiac-pair-horse-dog) · Discordia [Serpiente](/guide/zodiac-pair-snake-dog) · Choque [Dragón](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Serpiente](/guide/zodiac-snake) · [Perro](/guide/zodiac-dog), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "Por par",
+    "title": "La Serpiente y el Cerdo — Choque",
+    "summary": "Qué relación tienen la Serpiente y el Cerdo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "La Serpiente y el Cerdo forman un choque",
+        "blocks": [
+          {
+            "p": "La Serpiente y el Cerdo forman un choque. 巳 y 亥 están directamente opuestos en el círculo."
+          },
+          {
+            "p": "Este servicio mantiene {scoreChung} puntos incluso en un choque. En el myeongri tradicional un choque es una colisión, no el fin de una relación, y dar una puntuación cercana al mínimo equivaldría a pronunciar un veredicto sobre dos personas."
+          },
+          {
+            "p": "En el círculo, 巳 está en el sexto lugar y 亥 en el duodécimo, y los dos caracteres están a seis pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "La Serpiente y el Cerdo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Choque"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreChung}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par baja la puntuación final {swingZodiacChung} puntos en la compatibilidad zodiacal y {swingDayBranchChung} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Serpiente** — Seis armonías [Mono](/guide/zodiac-pair-snake-monkey) · Triada media [Gallo](/guide/zodiac-pair-snake-rooster) · Discordia [Perro](/guide/zodiac-pair-snake-dog) · Choque [Cerdo](/guide/zodiac-pair-snake-pig)",
+              "Los socios especiales **del Cerdo** — Seis armonías [Tigre](/guide/zodiac-pair-tiger-pig) · Triada media [Conejo](/guide/zodiac-pair-rabbit-pig) · Discordia [Dragón](/guide/zodiac-pair-dragon-pig) · Choque [Serpiente](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Serpiente](/guide/zodiac-snake) · [Cerdo](/guide/zodiac-pig), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "Por par",
+    "title": "El Caballo y el Caballo — Misma rama",
+    "summary": "Qué relación tienen dos personas Caballo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Caballo comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Caballo comparten la misma rama (午 y 午). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "午 es la séptima de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Caballo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Caballo",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Caballo** — Seis armonías [Oveja](/guide/zodiac-pair-horse-goat) · Triada media [Tigre](/guide/zodiac-pair-tiger-horse), [Perro](/guide/zodiac-pair-horse-dog) · Discordia [Buey](/guide/zodiac-pair-ox-horse) · Choque [Rata](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Caballo](/guide/zodiac-horse), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "Por par",
+    "title": "El Caballo y la Oveja — Seis armonías",
+    "summary": "Qué relación tienen el Caballo y la Oveja, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Caballo y la Oveja forman una relación de seis armonías",
+        "blocks": [
+          {
+            "p": "El Caballo y la Oveja forman una relación de seis armonías. 午 y 未 forman una armonía con solo dos caracteres."
+          },
+          {
+            "p": "Una relación de seis armonías es la buena relación que aparece con más frecuencia en la compatibilidad, y con {scoreYukhap} es el máximo que cualquiera de los dos animales puede obtener."
+          },
+          {
+            "p": "En el círculo, 午 está en el séptimo lugar y 未 en el octavo, y los dos caracteres están a un paso de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Caballo y la Oveja",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Seis armonías"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacYukhap} puntos en la compatibilidad zodiacal y {swingDayBranchYukhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Caballo** — Seis armonías [Oveja](/guide/zodiac-pair-horse-goat) · Triada media [Tigre](/guide/zodiac-pair-tiger-horse), [Perro](/guide/zodiac-pair-horse-dog) · Discordia [Buey](/guide/zodiac-pair-ox-horse) · Choque [Rata](/guide/zodiac-pair-rat-horse)",
+              "Los socios especiales **de la Oveja** — Seis armonías [Caballo](/guide/zodiac-pair-horse-goat) · Triada media [Conejo](/guide/zodiac-pair-rabbit-goat) · Discordia [Rata](/guide/zodiac-pair-rat-goat) · Choque [Buey](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Caballo](/guide/zodiac-horse) · [Oveja](/guide/zodiac-goat), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "Por par",
+    "title": "El Caballo y el Perro — Triada media",
+    "summary": "Qué relación tienen el Caballo y el Perro, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "El Caballo y el Perro forman una triada media",
+        "blocks": [
+          {
+            "p": "El Caballo y el Perro forman una triada media. 寅午戌 es un grupo de triada (el grupo del fuego), y 午 es la **rama real** en su centro."
+          },
+          {
+            "p": "Inyeon-Link solo acepta pares que incluyan la rama real, así que este par es una triada media ({scoreBanhap})."
+          },
+          {
+            "p": "El Tigre (寅) y el Perro (戌) del mismo grupo carecen del carácter central 午, por lo que no se cuentan como armonía y se tratan como neutral."
+          },
+          {
+            "p": "En el círculo, 午 está en el séptimo lugar y 戌 en el undécimo, y los dos caracteres están a cuatro pasos de distancia."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "El Caballo y el Perro",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Triada media"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacBanhap} puntos en la compatibilidad zodiacal y {swingDayBranchBanhap} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de cada animal",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Caballo** — Seis armonías [Oveja](/guide/zodiac-pair-horse-goat) · Triada media [Tigre](/guide/zodiac-pair-tiger-horse), [Perro](/guide/zodiac-pair-horse-dog) · Discordia [Buey](/guide/zodiac-pair-ox-horse) · Choque [Rata](/guide/zodiac-pair-rat-horse)",
+              "Los socios especiales **del Perro** — Seis armonías [Conejo](/guide/zodiac-pair-rabbit-dog) · Triada media [Caballo](/guide/zodiac-pair-horse-dog) · Discordia [Serpiente](/guide/zodiac-pair-snake-dog) · Choque [Dragón](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Caballo](/guide/zodiac-horse) · [Perro](/guide/zodiac-dog), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "Por par",
+    "title": "La Oveja y la Oveja — Misma rama",
+    "summary": "Qué relación tienen dos personas Oveja, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Oveja comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Oveja comparten la misma rama (未 y 未). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "未 es la octava de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Oveja",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales de la Oveja",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **de la Oveja** — Seis armonías [Caballo](/guide/zodiac-pair-horse-goat) · Triada media [Conejo](/guide/zodiac-pair-rabbit-goat) · Discordia [Rata](/guide/zodiac-pair-rat-goat) · Choque [Buey](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Oveja](/guide/zodiac-goat), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "Por par",
+    "title": "El Mono y el Mono — Misma rama",
+    "summary": "Qué relación tienen dos personas Mono, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Mono comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Mono comparten la misma rama (申 y 申). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "申 es la novena de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Mono",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Mono",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Mono** — Seis armonías [Serpiente](/guide/zodiac-pair-snake-monkey) · Triada media [Rata](/guide/zodiac-pair-rat-monkey) · Discordia [Conejo](/guide/zodiac-pair-rabbit-monkey) · Choque [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Mono](/guide/zodiac-monkey), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "Por par",
+    "title": "El Gallo y el Gallo — Misma rama",
+    "summary": "Qué relación tienen dos personas Gallo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Gallo comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Gallo comparten la misma rama (酉 y 酉). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "酉 es la décima de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Gallo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Gallo",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Gallo** — Seis armonías [Dragón](/guide/zodiac-pair-dragon-rooster) · Triada media [Buey](/guide/zodiac-pair-ox-rooster), [Serpiente](/guide/zodiac-pair-snake-rooster) · Discordia [Tigre](/guide/zodiac-pair-tiger-rooster) · Choque [Conejo](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Gallo](/guide/zodiac-rooster), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "Por par",
+    "title": "El Perro y el Perro — Misma rama",
+    "summary": "Qué relación tienen dos personas Perro, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Perro comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Perro comparten la misma rama (戌 y 戌). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "戌 es la undécima de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Perro",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Perro",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Perro** — Seis armonías [Conejo](/guide/zodiac-pair-rabbit-dog) · Triada media [Caballo](/guide/zodiac-pair-horse-dog) · Discordia [Serpiente](/guide/zodiac-pair-snake-dog) · Choque [Dragón](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Perro](/guide/zodiac-dog), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "Por par",
+    "title": "El Cerdo y el Cerdo — Misma rama",
+    "summary": "Qué relación tienen dos personas Cerdo, qué puntuación recibe y hasta qué punto esa puntuación modifica la puntuación final — expuesto tal como lo recogen las reglas de cálculo de Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Dos personas Cerdo comparten la misma rama",
+        "blocks": [
+          {
+            "p": "Dos personas Cerdo comparten la misma rama (亥 y 亥). Significa que se parecen, no que se atraen."
+          },
+          {
+            "p": "Por eso puntúa {scoreSame}, justo por encima de neutral ({scoreNeutral}): no es una armonía, un choque ni una discordia, solo está ligeramente elevado."
+          },
+          {
+            "p": "亥 es la duodécima de las doce ramas terrestres."
+          }
+        ]
+      },
+      {
+        "title": "Las cifras de este par",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dos personas Cerdo",
+              "head": [
+                "Elemento",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Relación",
+                  "Misma rama"
+                ],
+                [
+                  "Puntuación",
+                  "{scoreSame}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad zodiacal",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Parte de la puntuación final en la compatibilidad de la rama del día",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cuánto mueve la puntuación final",
+        "blocks": [
+          {
+            "p": "Si todo lo demás es igual, este par sube la puntuación final {swingZodiacSame} puntos en la compatibilidad zodiacal y {swingDayBranchSame} puntos en la compatibilidad de la rama del día, en comparación con un par neutral."
+          },
+          {
+            "p": "La compatibilidad zodiacal pone lado a lado las ramas de los años de nacimiento, y la compatibilidad de la rama del día las de los días de nacimiento. Las dos pueden ser ramas distintas, de modo que las mismas dos personas pueden mostrar relaciones diferentes en cada una."
+          }
+        ]
+      },
+      {
+        "title": "Las demás relaciones especiales del Cerdo",
+        "blocks": [
+          {
+            "ul": [
+              "Los socios especiales **del Cerdo** — Seis armonías [Tigre](/guide/zodiac-pair-tiger-pig) · Triada media [Conejo](/guide/zodiac-pair-rabbit-pig) · Discordia [Dragón](/guide/zodiac-pair-dragon-pig) · Choque [Serpiente](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Lo que esta guía no dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animal no decide una relación entre dos personas. {weightSaju} de la puntuación final lo decide la compatibilidad de saju.",
+              "Los cambios de puntos anteriores suponen que todo lo demás es igual; el resultado real lo fija el saju completo de ambas personas."
+            ]
+          },
+          {
+            "p": "La guía completa de cada animal está en [Cerdo](/guide/zodiac-pig), y la tabla completa, en la [tabla de las doce ramas](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Diez Dioses",
     "title": "Diez Dioses y Posición del Cónyuge",

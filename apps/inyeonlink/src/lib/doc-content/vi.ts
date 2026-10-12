@@ -2769,6 +2769,3514 @@ export const VI_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "Theo cặp",
+    "title": "Chuột và Chuột — Cùng nhánh",
+    "summary": "Hai người tuổi Chuột có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Chuột cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Chuột cùng một nhánh (子 và 子). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "子 là nhánh đất thứ nhất trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Chuột",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Chuột",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Chuột** — Sáu hài hòa [Trâu](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Rồng](/guide/zodiac-pair-rat-dragon), [Khỉ](/guide/zodiac-pair-rat-monkey) · Bất hòa [Cừu](/guide/zodiac-pair-rat-goat) · Xung [Ngựa](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Chuột](/guide/zodiac-rat), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "Theo cặp",
+    "title": "Chuột và Trâu — Sáu hài hòa",
+    "summary": "Chuột và Trâu có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Chuột và Trâu tạo thành cặp sáu hài hòa",
+        "blocks": [
+          {
+            "p": "Chuột và Trâu tạo thành cặp sáu hài hòa. 子 và 丑 tạo thành một cặp hợp chỉ với hai ký tự."
+          },
+          {
+            "p": "Sáu hài hòa là mối quan hệ tốt xuất hiện nhiều nhất trong việc xem tương hợp, và với {scoreYukhap} đây là mức điểm cao nhất mà mỗi con giáp trong cặp có thể đạt."
+          },
+          {
+            "p": "Trên vòng tròn, 子 ở vị trí thứ nhất và 丑 ở vị trí thứ hai, và hai ký tự cách nhau một bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Chuột và Trâu",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Sáu hài hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacYukhap} điểm ở tương hợp con giáp và {swingDayBranchYukhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Chuột** — Sáu hài hòa [Trâu](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Rồng](/guide/zodiac-pair-rat-dragon), [Khỉ](/guide/zodiac-pair-rat-monkey) · Bất hòa [Cừu](/guide/zodiac-pair-rat-goat) · Xung [Ngựa](/guide/zodiac-pair-rat-horse)",
+              "Đối tác đặc biệt của **Trâu** — Sáu hài hòa [Chuột](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Gà](/guide/zodiac-pair-ox-rooster) · Bất hòa [Ngựa](/guide/zodiac-pair-ox-horse) · Xung [Cừu](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Chuột](/guide/zodiac-rat) · [Trâu](/guide/zodiac-ox), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "Theo cặp",
+    "title": "Chuột và Rồng — Nửa tam hợp",
+    "summary": "Chuột và Rồng có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Chuột và Rồng tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Chuột và Rồng tạo thành nửa tam hợp. 申子辰 là một nhóm tam hợp (nhóm nước), và 子 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Khỉ (申) và Rồng (辰) trong cùng nhóm thiếu ký tự trung tâm 子, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 子 ở vị trí thứ nhất và 辰 ở vị trí thứ năm, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Chuột và Rồng",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Chuột** — Sáu hài hòa [Trâu](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Rồng](/guide/zodiac-pair-rat-dragon), [Khỉ](/guide/zodiac-pair-rat-monkey) · Bất hòa [Cừu](/guide/zodiac-pair-rat-goat) · Xung [Ngựa](/guide/zodiac-pair-rat-horse)",
+              "Đối tác đặc biệt của **Rồng** — Sáu hài hòa [Gà](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-dragon) · Bất hòa [Lợn](/guide/zodiac-pair-dragon-pig) · Xung [Chó](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Chuột](/guide/zodiac-rat) · [Rồng](/guide/zodiac-dragon), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "Theo cặp",
+    "title": "Chuột và Ngựa — Xung",
+    "summary": "Chuột và Ngựa có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Chuột và Ngựa tạo thành cặp xung",
+        "blocks": [
+          {
+            "p": "Chuột và Ngựa tạo thành cặp xung. 子 và 午 nằm đối diện trực tiếp nhau trên vòng tròn."
+          },
+          {
+            "p": "Dịch vụ này vẫn giữ {scoreChung} điểm ngay cả với một cặp xung. Trong myeongri truyền thống, xung là một va chạm chứ không phải sự kết thúc của một mối quan hệ, và cho điểm gần mức sàn chẳng khác nào tuyên một phán quyết về hai con người."
+          },
+          {
+            "p": "Trên vòng tròn, 子 ở vị trí thứ nhất và 午 ở vị trí thứ bảy, và hai ký tự cách nhau sáu bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Chuột và Ngựa",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Xung"
+                ],
+                [
+                  "Điểm",
+                  "{scoreChung}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacChung} điểm ở tương hợp con giáp và {swingDayBranchChung} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Chuột** — Sáu hài hòa [Trâu](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Rồng](/guide/zodiac-pair-rat-dragon), [Khỉ](/guide/zodiac-pair-rat-monkey) · Bất hòa [Cừu](/guide/zodiac-pair-rat-goat) · Xung [Ngựa](/guide/zodiac-pair-rat-horse)",
+              "Đối tác đặc biệt của **Ngựa** — Sáu hài hòa [Cừu](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Hổ](/guide/zodiac-pair-tiger-horse), [Chó](/guide/zodiac-pair-horse-dog) · Bất hòa [Trâu](/guide/zodiac-pair-ox-horse) · Xung [Chuột](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Chuột](/guide/zodiac-rat) · [Ngựa](/guide/zodiac-horse), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "Theo cặp",
+    "title": "Chuột và Cừu — Bất hòa",
+    "summary": "Chuột và Cừu có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Chuột và Cừu tạo thành cặp bất hòa",
+        "blocks": [
+          {
+            "p": "Chuột và Cừu tạo thành cặp bất hòa. Vị trí xung của 子 là 午 (Ngựa), và 未 nằm ngay cạnh nó; ngay cạnh 丑 (Trâu), vị trí xung của 未, là 子."
+          },
+          {
+            "p": "Theo truyền thống, đây được xem là cặp vừa oán nhau vừa không thể rời nhau. Bề ngoài trông êm đềm, nhưng sự lệch nhau được cho là kéo dài, nên được {scoreWonjin} — cao hơn xung ({scoreChung}) và thấp hơn trung lập ({scoreNeutral})."
+          },
+          {
+            "p": "Trên vòng tròn, 子 ở vị trí thứ nhất và 未 ở vị trí thứ tám, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Chuột và Cừu",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Bất hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacWonjin} điểm ở tương hợp con giáp và {swingDayBranchWonjin} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Chuột** — Sáu hài hòa [Trâu](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Rồng](/guide/zodiac-pair-rat-dragon), [Khỉ](/guide/zodiac-pair-rat-monkey) · Bất hòa [Cừu](/guide/zodiac-pair-rat-goat) · Xung [Ngựa](/guide/zodiac-pair-rat-horse)",
+              "Đối tác đặc biệt của **Cừu** — Sáu hài hòa [Ngựa](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-goat) · Bất hòa [Chuột](/guide/zodiac-pair-rat-goat) · Xung [Trâu](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Chuột](/guide/zodiac-rat) · [Cừu](/guide/zodiac-goat), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "Theo cặp",
+    "title": "Chuột và Khỉ — Nửa tam hợp",
+    "summary": "Chuột và Khỉ có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Chuột và Khỉ tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Chuột và Khỉ tạo thành nửa tam hợp. 申子辰 là một nhóm tam hợp (nhóm nước), và 子 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Rồng (辰) và Khỉ (申) trong cùng nhóm thiếu ký tự trung tâm 子, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 子 ở vị trí thứ nhất và 申 ở vị trí thứ chín, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Chuột và Khỉ",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Chuột** — Sáu hài hòa [Trâu](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Rồng](/guide/zodiac-pair-rat-dragon), [Khỉ](/guide/zodiac-pair-rat-monkey) · Bất hòa [Cừu](/guide/zodiac-pair-rat-goat) · Xung [Ngựa](/guide/zodiac-pair-rat-horse)",
+              "Đối tác đặc biệt của **Khỉ** — Sáu hài hòa [Rắn](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-monkey) · Bất hòa [Thỏ](/guide/zodiac-pair-rabbit-monkey) · Xung [Hổ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Chuột](/guide/zodiac-rat) · [Khỉ](/guide/zodiac-monkey), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "Theo cặp",
+    "title": "Trâu và Trâu — Cùng nhánh",
+    "summary": "Hai người tuổi Trâu có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Trâu cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Trâu cùng một nhánh (丑 và 丑). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "丑 là nhánh đất thứ hai trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Trâu",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Trâu",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Trâu** — Sáu hài hòa [Chuột](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Gà](/guide/zodiac-pair-ox-rooster) · Bất hòa [Ngựa](/guide/zodiac-pair-ox-horse) · Xung [Cừu](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Trâu](/guide/zodiac-ox), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "Theo cặp",
+    "title": "Trâu và Ngựa — Bất hòa",
+    "summary": "Trâu và Ngựa có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Trâu và Ngựa tạo thành cặp bất hòa",
+        "blocks": [
+          {
+            "p": "Trâu và Ngựa tạo thành cặp bất hòa. Vị trí xung của 丑 là 未 (Cừu), và 午 nằm ngay cạnh nó; ngay cạnh 子 (Chuột), vị trí xung của 午, là 丑."
+          },
+          {
+            "p": "Theo truyền thống, đây được xem là cặp vừa oán nhau vừa không thể rời nhau. Bề ngoài trông êm đềm, nhưng sự lệch nhau được cho là kéo dài, nên được {scoreWonjin} — cao hơn xung ({scoreChung}) và thấp hơn trung lập ({scoreNeutral})."
+          },
+          {
+            "p": "Trên vòng tròn, 丑 ở vị trí thứ hai và 午 ở vị trí thứ bảy, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Trâu và Ngựa",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Bất hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacWonjin} điểm ở tương hợp con giáp và {swingDayBranchWonjin} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Trâu** — Sáu hài hòa [Chuột](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Gà](/guide/zodiac-pair-ox-rooster) · Bất hòa [Ngựa](/guide/zodiac-pair-ox-horse) · Xung [Cừu](/guide/zodiac-pair-ox-goat)",
+              "Đối tác đặc biệt của **Ngựa** — Sáu hài hòa [Cừu](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Hổ](/guide/zodiac-pair-tiger-horse), [Chó](/guide/zodiac-pair-horse-dog) · Bất hòa [Trâu](/guide/zodiac-pair-ox-horse) · Xung [Chuột](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Trâu](/guide/zodiac-ox) · [Ngựa](/guide/zodiac-horse), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "Theo cặp",
+    "title": "Trâu và Cừu — Xung",
+    "summary": "Trâu và Cừu có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Trâu và Cừu tạo thành cặp xung",
+        "blocks": [
+          {
+            "p": "Trâu và Cừu tạo thành cặp xung. 丑 và 未 nằm đối diện trực tiếp nhau trên vòng tròn."
+          },
+          {
+            "p": "Dịch vụ này vẫn giữ {scoreChung} điểm ngay cả với một cặp xung. Trong myeongri truyền thống, xung là một va chạm chứ không phải sự kết thúc của một mối quan hệ, và cho điểm gần mức sàn chẳng khác nào tuyên một phán quyết về hai con người."
+          },
+          {
+            "p": "Trên vòng tròn, 丑 ở vị trí thứ hai và 未 ở vị trí thứ tám, và hai ký tự cách nhau sáu bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Trâu và Cừu",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Xung"
+                ],
+                [
+                  "Điểm",
+                  "{scoreChung}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacChung} điểm ở tương hợp con giáp và {swingDayBranchChung} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Trâu** — Sáu hài hòa [Chuột](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Gà](/guide/zodiac-pair-ox-rooster) · Bất hòa [Ngựa](/guide/zodiac-pair-ox-horse) · Xung [Cừu](/guide/zodiac-pair-ox-goat)",
+              "Đối tác đặc biệt của **Cừu** — Sáu hài hòa [Ngựa](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-goat) · Bất hòa [Chuột](/guide/zodiac-pair-rat-goat) · Xung [Trâu](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Trâu](/guide/zodiac-ox) · [Cừu](/guide/zodiac-goat), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "Theo cặp",
+    "title": "Trâu và Gà — Nửa tam hợp",
+    "summary": "Trâu và Gà có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Trâu và Gà tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Trâu và Gà tạo thành nửa tam hợp. 巳酉丑 là một nhóm tam hợp (nhóm kim loại), và 酉 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Rắn (巳) và Trâu (丑) trong cùng nhóm thiếu ký tự trung tâm 酉, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 丑 ở vị trí thứ hai và 酉 ở vị trí thứ mười, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Trâu và Gà",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Trâu** — Sáu hài hòa [Chuột](/guide/zodiac-pair-rat-ox) · Nửa tam hợp [Gà](/guide/zodiac-pair-ox-rooster) · Bất hòa [Ngựa](/guide/zodiac-pair-ox-horse) · Xung [Cừu](/guide/zodiac-pair-ox-goat)",
+              "Đối tác đặc biệt của **Gà** — Sáu hài hòa [Rồng](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Trâu](/guide/zodiac-pair-ox-rooster), [Rắn](/guide/zodiac-pair-snake-rooster) · Bất hòa [Hổ](/guide/zodiac-pair-tiger-rooster) · Xung [Thỏ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Trâu](/guide/zodiac-ox) · [Gà](/guide/zodiac-rooster), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "Theo cặp",
+    "title": "Hổ và Hổ — Cùng nhánh",
+    "summary": "Hai người tuổi Hổ có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Hổ cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Hổ cùng một nhánh (寅 và 寅). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "寅 là nhánh đất thứ ba trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Hổ",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Hổ",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Hổ** — Sáu hài hòa [Lợn](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-tiger-horse) · Bất hòa [Gà](/guide/zodiac-pair-tiger-rooster) · Xung [Khỉ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Hổ](/guide/zodiac-tiger), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "Theo cặp",
+    "title": "Hổ và Ngựa — Nửa tam hợp",
+    "summary": "Hổ và Ngựa có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hổ và Ngựa tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Hổ và Ngựa tạo thành nửa tam hợp. 寅午戌 là một nhóm tam hợp (nhóm lửa), và 午 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Chó (戌) và Hổ (寅) trong cùng nhóm thiếu ký tự trung tâm 午, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 寅 ở vị trí thứ ba và 午 ở vị trí thứ bảy, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hổ và Ngựa",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Hổ** — Sáu hài hòa [Lợn](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-tiger-horse) · Bất hòa [Gà](/guide/zodiac-pair-tiger-rooster) · Xung [Khỉ](/guide/zodiac-pair-tiger-monkey)",
+              "Đối tác đặc biệt của **Ngựa** — Sáu hài hòa [Cừu](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Hổ](/guide/zodiac-pair-tiger-horse), [Chó](/guide/zodiac-pair-horse-dog) · Bất hòa [Trâu](/guide/zodiac-pair-ox-horse) · Xung [Chuột](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Hổ](/guide/zodiac-tiger) · [Ngựa](/guide/zodiac-horse), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "Theo cặp",
+    "title": "Hổ và Khỉ — Xung",
+    "summary": "Hổ và Khỉ có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hổ và Khỉ tạo thành cặp xung",
+        "blocks": [
+          {
+            "p": "Hổ và Khỉ tạo thành cặp xung. 寅 và 申 nằm đối diện trực tiếp nhau trên vòng tròn."
+          },
+          {
+            "p": "Dịch vụ này vẫn giữ {scoreChung} điểm ngay cả với một cặp xung. Trong myeongri truyền thống, xung là một va chạm chứ không phải sự kết thúc của một mối quan hệ, và cho điểm gần mức sàn chẳng khác nào tuyên một phán quyết về hai con người."
+          },
+          {
+            "p": "Trên vòng tròn, 寅 ở vị trí thứ ba và 申 ở vị trí thứ chín, và hai ký tự cách nhau sáu bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hổ và Khỉ",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Xung"
+                ],
+                [
+                  "Điểm",
+                  "{scoreChung}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacChung} điểm ở tương hợp con giáp và {swingDayBranchChung} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Hổ** — Sáu hài hòa [Lợn](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-tiger-horse) · Bất hòa [Gà](/guide/zodiac-pair-tiger-rooster) · Xung [Khỉ](/guide/zodiac-pair-tiger-monkey)",
+              "Đối tác đặc biệt của **Khỉ** — Sáu hài hòa [Rắn](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-monkey) · Bất hòa [Thỏ](/guide/zodiac-pair-rabbit-monkey) · Xung [Hổ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Hổ](/guide/zodiac-tiger) · [Khỉ](/guide/zodiac-monkey), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "Theo cặp",
+    "title": "Hổ và Gà — Bất hòa",
+    "summary": "Hổ và Gà có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hổ và Gà tạo thành cặp bất hòa",
+        "blocks": [
+          {
+            "p": "Hổ và Gà tạo thành cặp bất hòa. Vị trí xung của 寅 là 申 (Khỉ), và 酉 nằm ngay cạnh nó; ngay cạnh 卯 (Thỏ), vị trí xung của 酉, là 寅."
+          },
+          {
+            "p": "Theo truyền thống, đây được xem là cặp vừa oán nhau vừa không thể rời nhau. Bề ngoài trông êm đềm, nhưng sự lệch nhau được cho là kéo dài, nên được {scoreWonjin} — cao hơn xung ({scoreChung}) và thấp hơn trung lập ({scoreNeutral})."
+          },
+          {
+            "p": "Trên vòng tròn, 寅 ở vị trí thứ ba và 酉 ở vị trí thứ mười, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hổ và Gà",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Bất hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacWonjin} điểm ở tương hợp con giáp và {swingDayBranchWonjin} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Hổ** — Sáu hài hòa [Lợn](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-tiger-horse) · Bất hòa [Gà](/guide/zodiac-pair-tiger-rooster) · Xung [Khỉ](/guide/zodiac-pair-tiger-monkey)",
+              "Đối tác đặc biệt của **Gà** — Sáu hài hòa [Rồng](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Trâu](/guide/zodiac-pair-ox-rooster), [Rắn](/guide/zodiac-pair-snake-rooster) · Bất hòa [Hổ](/guide/zodiac-pair-tiger-rooster) · Xung [Thỏ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Hổ](/guide/zodiac-tiger) · [Gà](/guide/zodiac-rooster), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "Theo cặp",
+    "title": "Hổ và Lợn — Sáu hài hòa",
+    "summary": "Hổ và Lợn có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hổ và Lợn tạo thành cặp sáu hài hòa",
+        "blocks": [
+          {
+            "p": "Hổ và Lợn tạo thành cặp sáu hài hòa. 寅 và 亥 tạo thành một cặp hợp chỉ với hai ký tự."
+          },
+          {
+            "p": "Sáu hài hòa là mối quan hệ tốt xuất hiện nhiều nhất trong việc xem tương hợp, và với {scoreYukhap} đây là mức điểm cao nhất mà mỗi con giáp trong cặp có thể đạt."
+          },
+          {
+            "p": "Trên vòng tròn, 寅 ở vị trí thứ ba và 亥 ở vị trí thứ mười hai, và hai ký tự cách nhau ba bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hổ và Lợn",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Sáu hài hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacYukhap} điểm ở tương hợp con giáp và {swingDayBranchYukhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Hổ** — Sáu hài hòa [Lợn](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-tiger-horse) · Bất hòa [Gà](/guide/zodiac-pair-tiger-rooster) · Xung [Khỉ](/guide/zodiac-pair-tiger-monkey)",
+              "Đối tác đặc biệt của **Lợn** — Sáu hài hòa [Hổ](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Rồng](/guide/zodiac-pair-dragon-pig) · Xung [Rắn](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Hổ](/guide/zodiac-tiger) · [Lợn](/guide/zodiac-pig), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "Theo cặp",
+    "title": "Thỏ và Thỏ — Cùng nhánh",
+    "summary": "Hai người tuổi Thỏ có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Thỏ cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Thỏ cùng một nhánh (卯 và 卯). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "卯 là nhánh đất thứ tư trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Thỏ",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Thỏ",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Thỏ** — Sáu hài hòa [Chó](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Cừu](/guide/zodiac-pair-rabbit-goat), [Lợn](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Khỉ](/guide/zodiac-pair-rabbit-monkey) · Xung [Gà](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Thỏ](/guide/zodiac-rabbit), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "Theo cặp",
+    "title": "Thỏ và Cừu — Nửa tam hợp",
+    "summary": "Thỏ và Cừu có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Thỏ và Cừu tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Thỏ và Cừu tạo thành nửa tam hợp. 亥卯未 là một nhóm tam hợp (nhóm gỗ), và 卯 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Lợn (亥) và Cừu (未) trong cùng nhóm thiếu ký tự trung tâm 卯, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 卯 ở vị trí thứ tư và 未 ở vị trí thứ tám, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Thỏ và Cừu",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Thỏ** — Sáu hài hòa [Chó](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Cừu](/guide/zodiac-pair-rabbit-goat), [Lợn](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Khỉ](/guide/zodiac-pair-rabbit-monkey) · Xung [Gà](/guide/zodiac-pair-rabbit-rooster)",
+              "Đối tác đặc biệt của **Cừu** — Sáu hài hòa [Ngựa](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-goat) · Bất hòa [Chuột](/guide/zodiac-pair-rat-goat) · Xung [Trâu](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Thỏ](/guide/zodiac-rabbit) · [Cừu](/guide/zodiac-goat), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "Theo cặp",
+    "title": "Thỏ và Khỉ — Bất hòa",
+    "summary": "Thỏ và Khỉ có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Thỏ và Khỉ tạo thành cặp bất hòa",
+        "blocks": [
+          {
+            "p": "Thỏ và Khỉ tạo thành cặp bất hòa. Vị trí xung của 卯 là 酉 (Gà), và 申 nằm ngay cạnh nó; ngay cạnh 寅 (Hổ), vị trí xung của 申, là 卯."
+          },
+          {
+            "p": "Theo truyền thống, đây được xem là cặp vừa oán nhau vừa không thể rời nhau. Bề ngoài trông êm đềm, nhưng sự lệch nhau được cho là kéo dài, nên được {scoreWonjin} — cao hơn xung ({scoreChung}) và thấp hơn trung lập ({scoreNeutral})."
+          },
+          {
+            "p": "Trên vòng tròn, 卯 ở vị trí thứ tư và 申 ở vị trí thứ chín, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Thỏ và Khỉ",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Bất hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacWonjin} điểm ở tương hợp con giáp và {swingDayBranchWonjin} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Thỏ** — Sáu hài hòa [Chó](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Cừu](/guide/zodiac-pair-rabbit-goat), [Lợn](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Khỉ](/guide/zodiac-pair-rabbit-monkey) · Xung [Gà](/guide/zodiac-pair-rabbit-rooster)",
+              "Đối tác đặc biệt của **Khỉ** — Sáu hài hòa [Rắn](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-monkey) · Bất hòa [Thỏ](/guide/zodiac-pair-rabbit-monkey) · Xung [Hổ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Thỏ](/guide/zodiac-rabbit) · [Khỉ](/guide/zodiac-monkey), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "Theo cặp",
+    "title": "Thỏ và Gà — Xung",
+    "summary": "Thỏ và Gà có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Thỏ và Gà tạo thành cặp xung",
+        "blocks": [
+          {
+            "p": "Thỏ và Gà tạo thành cặp xung. 卯 và 酉 nằm đối diện trực tiếp nhau trên vòng tròn."
+          },
+          {
+            "p": "Dịch vụ này vẫn giữ {scoreChung} điểm ngay cả với một cặp xung. Trong myeongri truyền thống, xung là một va chạm chứ không phải sự kết thúc của một mối quan hệ, và cho điểm gần mức sàn chẳng khác nào tuyên một phán quyết về hai con người."
+          },
+          {
+            "p": "Trên vòng tròn, 卯 ở vị trí thứ tư và 酉 ở vị trí thứ mười, và hai ký tự cách nhau sáu bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Thỏ và Gà",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Xung"
+                ],
+                [
+                  "Điểm",
+                  "{scoreChung}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacChung} điểm ở tương hợp con giáp và {swingDayBranchChung} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Thỏ** — Sáu hài hòa [Chó](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Cừu](/guide/zodiac-pair-rabbit-goat), [Lợn](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Khỉ](/guide/zodiac-pair-rabbit-monkey) · Xung [Gà](/guide/zodiac-pair-rabbit-rooster)",
+              "Đối tác đặc biệt của **Gà** — Sáu hài hòa [Rồng](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Trâu](/guide/zodiac-pair-ox-rooster), [Rắn](/guide/zodiac-pair-snake-rooster) · Bất hòa [Hổ](/guide/zodiac-pair-tiger-rooster) · Xung [Thỏ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Thỏ](/guide/zodiac-rabbit) · [Gà](/guide/zodiac-rooster), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "Theo cặp",
+    "title": "Thỏ và Chó — Sáu hài hòa",
+    "summary": "Thỏ và Chó có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Thỏ và Chó tạo thành cặp sáu hài hòa",
+        "blocks": [
+          {
+            "p": "Thỏ và Chó tạo thành cặp sáu hài hòa. 卯 và 戌 tạo thành một cặp hợp chỉ với hai ký tự."
+          },
+          {
+            "p": "Sáu hài hòa là mối quan hệ tốt xuất hiện nhiều nhất trong việc xem tương hợp, và với {scoreYukhap} đây là mức điểm cao nhất mà mỗi con giáp trong cặp có thể đạt."
+          },
+          {
+            "p": "Trên vòng tròn, 卯 ở vị trí thứ tư và 戌 ở vị trí thứ mười một, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Thỏ và Chó",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Sáu hài hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacYukhap} điểm ở tương hợp con giáp và {swingDayBranchYukhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Thỏ** — Sáu hài hòa [Chó](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Cừu](/guide/zodiac-pair-rabbit-goat), [Lợn](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Khỉ](/guide/zodiac-pair-rabbit-monkey) · Xung [Gà](/guide/zodiac-pair-rabbit-rooster)",
+              "Đối tác đặc biệt của **Chó** — Sáu hài hòa [Thỏ](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-horse-dog) · Bất hòa [Rắn](/guide/zodiac-pair-snake-dog) · Xung [Rồng](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Thỏ](/guide/zodiac-rabbit) · [Chó](/guide/zodiac-dog), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "Theo cặp",
+    "title": "Thỏ và Lợn — Nửa tam hợp",
+    "summary": "Thỏ và Lợn có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Thỏ và Lợn tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Thỏ và Lợn tạo thành nửa tam hợp. 亥卯未 là một nhóm tam hợp (nhóm gỗ), và 卯 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Cừu (未) và Lợn (亥) trong cùng nhóm thiếu ký tự trung tâm 卯, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 卯 ở vị trí thứ tư và 亥 ở vị trí thứ mười hai, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Thỏ và Lợn",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Thỏ** — Sáu hài hòa [Chó](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Cừu](/guide/zodiac-pair-rabbit-goat), [Lợn](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Khỉ](/guide/zodiac-pair-rabbit-monkey) · Xung [Gà](/guide/zodiac-pair-rabbit-rooster)",
+              "Đối tác đặc biệt của **Lợn** — Sáu hài hòa [Hổ](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Rồng](/guide/zodiac-pair-dragon-pig) · Xung [Rắn](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Thỏ](/guide/zodiac-rabbit) · [Lợn](/guide/zodiac-pig), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "Theo cặp",
+    "title": "Rồng và Rồng — Cùng nhánh",
+    "summary": "Hai người tuổi Rồng có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Rồng cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Rồng cùng một nhánh (辰 và 辰). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "辰 là nhánh đất thứ năm trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Rồng",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Rồng",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rồng** — Sáu hài hòa [Gà](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-dragon) · Bất hòa [Lợn](/guide/zodiac-pair-dragon-pig) · Xung [Chó](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rồng](/guide/zodiac-dragon), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "Theo cặp",
+    "title": "Rồng và Gà — Sáu hài hòa",
+    "summary": "Rồng và Gà có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Rồng và Gà tạo thành cặp sáu hài hòa",
+        "blocks": [
+          {
+            "p": "Rồng và Gà tạo thành cặp sáu hài hòa. 辰 và 酉 tạo thành một cặp hợp chỉ với hai ký tự."
+          },
+          {
+            "p": "Sáu hài hòa là mối quan hệ tốt xuất hiện nhiều nhất trong việc xem tương hợp, và với {scoreYukhap} đây là mức điểm cao nhất mà mỗi con giáp trong cặp có thể đạt."
+          },
+          {
+            "p": "Trên vòng tròn, 辰 ở vị trí thứ năm và 酉 ở vị trí thứ mười, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Rồng và Gà",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Sáu hài hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacYukhap} điểm ở tương hợp con giáp và {swingDayBranchYukhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rồng** — Sáu hài hòa [Gà](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-dragon) · Bất hòa [Lợn](/guide/zodiac-pair-dragon-pig) · Xung [Chó](/guide/zodiac-pair-dragon-dog)",
+              "Đối tác đặc biệt của **Gà** — Sáu hài hòa [Rồng](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Trâu](/guide/zodiac-pair-ox-rooster), [Rắn](/guide/zodiac-pair-snake-rooster) · Bất hòa [Hổ](/guide/zodiac-pair-tiger-rooster) · Xung [Thỏ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rồng](/guide/zodiac-dragon) · [Gà](/guide/zodiac-rooster), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "Theo cặp",
+    "title": "Rồng và Chó — Xung",
+    "summary": "Rồng và Chó có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Rồng và Chó tạo thành cặp xung",
+        "blocks": [
+          {
+            "p": "Rồng và Chó tạo thành cặp xung. 辰 và 戌 nằm đối diện trực tiếp nhau trên vòng tròn."
+          },
+          {
+            "p": "Dịch vụ này vẫn giữ {scoreChung} điểm ngay cả với một cặp xung. Trong myeongri truyền thống, xung là một va chạm chứ không phải sự kết thúc của một mối quan hệ, và cho điểm gần mức sàn chẳng khác nào tuyên một phán quyết về hai con người."
+          },
+          {
+            "p": "Trên vòng tròn, 辰 ở vị trí thứ năm và 戌 ở vị trí thứ mười một, và hai ký tự cách nhau sáu bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Rồng và Chó",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Xung"
+                ],
+                [
+                  "Điểm",
+                  "{scoreChung}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacChung} điểm ở tương hợp con giáp và {swingDayBranchChung} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rồng** — Sáu hài hòa [Gà](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-dragon) · Bất hòa [Lợn](/guide/zodiac-pair-dragon-pig) · Xung [Chó](/guide/zodiac-pair-dragon-dog)",
+              "Đối tác đặc biệt của **Chó** — Sáu hài hòa [Thỏ](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-horse-dog) · Bất hòa [Rắn](/guide/zodiac-pair-snake-dog) · Xung [Rồng](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rồng](/guide/zodiac-dragon) · [Chó](/guide/zodiac-dog), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "Theo cặp",
+    "title": "Rồng và Lợn — Bất hòa",
+    "summary": "Rồng và Lợn có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Rồng và Lợn tạo thành cặp bất hòa",
+        "blocks": [
+          {
+            "p": "Rồng và Lợn tạo thành cặp bất hòa. Vị trí xung của 辰 là 戌 (Chó), và 亥 nằm ngay cạnh nó; ngay cạnh 巳 (Rắn), vị trí xung của 亥, là 辰."
+          },
+          {
+            "p": "Theo truyền thống, đây được xem là cặp vừa oán nhau vừa không thể rời nhau. Bề ngoài trông êm đềm, nhưng sự lệch nhau được cho là kéo dài, nên được {scoreWonjin} — cao hơn xung ({scoreChung}) và thấp hơn trung lập ({scoreNeutral})."
+          },
+          {
+            "p": "Trên vòng tròn, 辰 ở vị trí thứ năm và 亥 ở vị trí thứ mười hai, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Rồng và Lợn",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Bất hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacWonjin} điểm ở tương hợp con giáp và {swingDayBranchWonjin} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rồng** — Sáu hài hòa [Gà](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-dragon) · Bất hòa [Lợn](/guide/zodiac-pair-dragon-pig) · Xung [Chó](/guide/zodiac-pair-dragon-dog)",
+              "Đối tác đặc biệt của **Lợn** — Sáu hài hòa [Hổ](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Rồng](/guide/zodiac-pair-dragon-pig) · Xung [Rắn](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rồng](/guide/zodiac-dragon) · [Lợn](/guide/zodiac-pig), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "Theo cặp",
+    "title": "Rắn và Rắn — Cùng nhánh",
+    "summary": "Hai người tuổi Rắn có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Rắn cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Rắn cùng một nhánh (巳 và 巳). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "巳 là nhánh đất thứ sáu trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Rắn",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Rắn",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rắn** — Sáu hài hòa [Khỉ](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Gà](/guide/zodiac-pair-snake-rooster) · Bất hòa [Chó](/guide/zodiac-pair-snake-dog) · Xung [Lợn](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rắn](/guide/zodiac-snake), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "Theo cặp",
+    "title": "Rắn và Khỉ — Sáu hài hòa",
+    "summary": "Rắn và Khỉ có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Rắn và Khỉ tạo thành cặp sáu hài hòa",
+        "blocks": [
+          {
+            "p": "Rắn và Khỉ tạo thành cặp sáu hài hòa. 巳 và 申 tạo thành một cặp hợp chỉ với hai ký tự."
+          },
+          {
+            "p": "Sáu hài hòa là mối quan hệ tốt xuất hiện nhiều nhất trong việc xem tương hợp, và với {scoreYukhap} đây là mức điểm cao nhất mà mỗi con giáp trong cặp có thể đạt."
+          },
+          {
+            "p": "Trên vòng tròn, 巳 ở vị trí thứ sáu và 申 ở vị trí thứ chín, và hai ký tự cách nhau ba bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Rắn và Khỉ",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Sáu hài hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacYukhap} điểm ở tương hợp con giáp và {swingDayBranchYukhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rắn** — Sáu hài hòa [Khỉ](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Gà](/guide/zodiac-pair-snake-rooster) · Bất hòa [Chó](/guide/zodiac-pair-snake-dog) · Xung [Lợn](/guide/zodiac-pair-snake-pig)",
+              "Đối tác đặc biệt của **Khỉ** — Sáu hài hòa [Rắn](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-monkey) · Bất hòa [Thỏ](/guide/zodiac-pair-rabbit-monkey) · Xung [Hổ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rắn](/guide/zodiac-snake) · [Khỉ](/guide/zodiac-monkey), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "Theo cặp",
+    "title": "Rắn và Gà — Nửa tam hợp",
+    "summary": "Rắn và Gà có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Rắn và Gà tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Rắn và Gà tạo thành nửa tam hợp. 巳酉丑 là một nhóm tam hợp (nhóm kim loại), và 酉 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Trâu (丑) và Rắn (巳) trong cùng nhóm thiếu ký tự trung tâm 酉, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 巳 ở vị trí thứ sáu và 酉 ở vị trí thứ mười, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Rắn và Gà",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rắn** — Sáu hài hòa [Khỉ](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Gà](/guide/zodiac-pair-snake-rooster) · Bất hòa [Chó](/guide/zodiac-pair-snake-dog) · Xung [Lợn](/guide/zodiac-pair-snake-pig)",
+              "Đối tác đặc biệt của **Gà** — Sáu hài hòa [Rồng](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Trâu](/guide/zodiac-pair-ox-rooster), [Rắn](/guide/zodiac-pair-snake-rooster) · Bất hòa [Hổ](/guide/zodiac-pair-tiger-rooster) · Xung [Thỏ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rắn](/guide/zodiac-snake) · [Gà](/guide/zodiac-rooster), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "Theo cặp",
+    "title": "Rắn và Chó — Bất hòa",
+    "summary": "Rắn và Chó có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Rắn và Chó tạo thành cặp bất hòa",
+        "blocks": [
+          {
+            "p": "Rắn và Chó tạo thành cặp bất hòa. Vị trí xung của 巳 là 亥 (Lợn), và 戌 nằm ngay cạnh nó; ngay cạnh 辰 (Rồng), vị trí xung của 戌, là 巳."
+          },
+          {
+            "p": "Theo truyền thống, đây được xem là cặp vừa oán nhau vừa không thể rời nhau. Bề ngoài trông êm đềm, nhưng sự lệch nhau được cho là kéo dài, nên được {scoreWonjin} — cao hơn xung ({scoreChung}) và thấp hơn trung lập ({scoreNeutral})."
+          },
+          {
+            "p": "Trên vòng tròn, 巳 ở vị trí thứ sáu và 戌 ở vị trí thứ mười một, và hai ký tự cách nhau năm bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Rắn và Chó",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Bất hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacWonjin} điểm ở tương hợp con giáp và {swingDayBranchWonjin} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rắn** — Sáu hài hòa [Khỉ](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Gà](/guide/zodiac-pair-snake-rooster) · Bất hòa [Chó](/guide/zodiac-pair-snake-dog) · Xung [Lợn](/guide/zodiac-pair-snake-pig)",
+              "Đối tác đặc biệt của **Chó** — Sáu hài hòa [Thỏ](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-horse-dog) · Bất hòa [Rắn](/guide/zodiac-pair-snake-dog) · Xung [Rồng](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rắn](/guide/zodiac-snake) · [Chó](/guide/zodiac-dog), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "Theo cặp",
+    "title": "Rắn và Lợn — Xung",
+    "summary": "Rắn và Lợn có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Rắn và Lợn tạo thành cặp xung",
+        "blocks": [
+          {
+            "p": "Rắn và Lợn tạo thành cặp xung. 巳 và 亥 nằm đối diện trực tiếp nhau trên vòng tròn."
+          },
+          {
+            "p": "Dịch vụ này vẫn giữ {scoreChung} điểm ngay cả với một cặp xung. Trong myeongri truyền thống, xung là một va chạm chứ không phải sự kết thúc của một mối quan hệ, và cho điểm gần mức sàn chẳng khác nào tuyên một phán quyết về hai con người."
+          },
+          {
+            "p": "Trên vòng tròn, 巳 ở vị trí thứ sáu và 亥 ở vị trí thứ mười hai, và hai ký tự cách nhau sáu bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Rắn và Lợn",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Xung"
+                ],
+                [
+                  "Điểm",
+                  "{scoreChung}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm giảm tỷ lệ hợp cuối cùng {swingZodiacChung} điểm ở tương hợp con giáp và {swingDayBranchChung} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Rắn** — Sáu hài hòa [Khỉ](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Gà](/guide/zodiac-pair-snake-rooster) · Bất hòa [Chó](/guide/zodiac-pair-snake-dog) · Xung [Lợn](/guide/zodiac-pair-snake-pig)",
+              "Đối tác đặc biệt của **Lợn** — Sáu hài hòa [Hổ](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Rồng](/guide/zodiac-pair-dragon-pig) · Xung [Rắn](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Rắn](/guide/zodiac-snake) · [Lợn](/guide/zodiac-pig), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "Theo cặp",
+    "title": "Ngựa và Ngựa — Cùng nhánh",
+    "summary": "Hai người tuổi Ngựa có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Ngựa cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Ngựa cùng một nhánh (午 và 午). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "午 là nhánh đất thứ bảy trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Ngựa",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Ngựa",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Ngựa** — Sáu hài hòa [Cừu](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Hổ](/guide/zodiac-pair-tiger-horse), [Chó](/guide/zodiac-pair-horse-dog) · Bất hòa [Trâu](/guide/zodiac-pair-ox-horse) · Xung [Chuột](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Ngựa](/guide/zodiac-horse), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "Theo cặp",
+    "title": "Ngựa và Cừu — Sáu hài hòa",
+    "summary": "Ngựa và Cừu có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Ngựa và Cừu tạo thành cặp sáu hài hòa",
+        "blocks": [
+          {
+            "p": "Ngựa và Cừu tạo thành cặp sáu hài hòa. 午 và 未 tạo thành một cặp hợp chỉ với hai ký tự."
+          },
+          {
+            "p": "Sáu hài hòa là mối quan hệ tốt xuất hiện nhiều nhất trong việc xem tương hợp, và với {scoreYukhap} đây là mức điểm cao nhất mà mỗi con giáp trong cặp có thể đạt."
+          },
+          {
+            "p": "Trên vòng tròn, 午 ở vị trí thứ bảy và 未 ở vị trí thứ tám, và hai ký tự cách nhau một bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ngựa và Cừu",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Sáu hài hòa"
+                ],
+                [
+                  "Điểm",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacYukhap} điểm ở tương hợp con giáp và {swingDayBranchYukhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Ngựa** — Sáu hài hòa [Cừu](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Hổ](/guide/zodiac-pair-tiger-horse), [Chó](/guide/zodiac-pair-horse-dog) · Bất hòa [Trâu](/guide/zodiac-pair-ox-horse) · Xung [Chuột](/guide/zodiac-pair-rat-horse)",
+              "Đối tác đặc biệt của **Cừu** — Sáu hài hòa [Ngựa](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-goat) · Bất hòa [Chuột](/guide/zodiac-pair-rat-goat) · Xung [Trâu](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Ngựa](/guide/zodiac-horse) · [Cừu](/guide/zodiac-goat), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "Theo cặp",
+    "title": "Ngựa và Chó — Nửa tam hợp",
+    "summary": "Ngựa và Chó có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Ngựa và Chó tạo thành nửa tam hợp",
+        "blocks": [
+          {
+            "p": "Ngựa và Chó tạo thành nửa tam hợp. 寅午戌 là một nhóm tam hợp (nhóm lửa), và 午 là **nhánh vương** ở trung tâm của nó."
+          },
+          {
+            "p": "Inyeon-Link chỉ nhận những cặp có nhánh vương, nên cặp này là nửa tam hợp ({scoreBanhap})."
+          },
+          {
+            "p": "Hổ (寅) và Chó (戌) trong cùng nhóm thiếu ký tự trung tâm 午, nên cặp này không được tính là hợp mà được coi là trung lập."
+          },
+          {
+            "p": "Trên vòng tròn, 午 ở vị trí thứ bảy và 戌 ở vị trí thứ mười một, và hai ký tự cách nhau bốn bước."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ngựa và Chó",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Nửa tam hợp"
+                ],
+                [
+                  "Điểm",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacBanhap} điểm ở tương hợp con giáp và {swingDayBranchBanhap} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của mỗi con giáp",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Ngựa** — Sáu hài hòa [Cừu](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Hổ](/guide/zodiac-pair-tiger-horse), [Chó](/guide/zodiac-pair-horse-dog) · Bất hòa [Trâu](/guide/zodiac-pair-ox-horse) · Xung [Chuột](/guide/zodiac-pair-rat-horse)",
+              "Đối tác đặc biệt của **Chó** — Sáu hài hòa [Thỏ](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-horse-dog) · Bất hòa [Rắn](/guide/zodiac-pair-snake-dog) · Xung [Rồng](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Ngựa](/guide/zodiac-horse) · [Chó](/guide/zodiac-dog), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "Theo cặp",
+    "title": "Cừu và Cừu — Cùng nhánh",
+    "summary": "Hai người tuổi Cừu có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Cừu cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Cừu cùng một nhánh (未 và 未). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "未 là nhánh đất thứ tám trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Cừu",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Cừu",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Cừu** — Sáu hài hòa [Ngựa](/guide/zodiac-pair-horse-goat) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-goat) · Bất hòa [Chuột](/guide/zodiac-pair-rat-goat) · Xung [Trâu](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Cừu](/guide/zodiac-goat), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "Theo cặp",
+    "title": "Khỉ và Khỉ — Cùng nhánh",
+    "summary": "Hai người tuổi Khỉ có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Khỉ cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Khỉ cùng một nhánh (申 và 申). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "申 là nhánh đất thứ chín trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Khỉ",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Khỉ",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Khỉ** — Sáu hài hòa [Rắn](/guide/zodiac-pair-snake-monkey) · Nửa tam hợp [Chuột](/guide/zodiac-pair-rat-monkey) · Bất hòa [Thỏ](/guide/zodiac-pair-rabbit-monkey) · Xung [Hổ](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Khỉ](/guide/zodiac-monkey), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "Theo cặp",
+    "title": "Gà và Gà — Cùng nhánh",
+    "summary": "Hai người tuổi Gà có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Gà cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Gà cùng một nhánh (酉 và 酉). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "酉 là nhánh đất thứ mười trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Gà",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Gà",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Gà** — Sáu hài hòa [Rồng](/guide/zodiac-pair-dragon-rooster) · Nửa tam hợp [Trâu](/guide/zodiac-pair-ox-rooster), [Rắn](/guide/zodiac-pair-snake-rooster) · Bất hòa [Hổ](/guide/zodiac-pair-tiger-rooster) · Xung [Thỏ](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Gà](/guide/zodiac-rooster), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "Theo cặp",
+    "title": "Chó và Chó — Cùng nhánh",
+    "summary": "Hai người tuổi Chó có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Chó cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Chó cùng một nhánh (戌 và 戌). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "戌 là nhánh đất thứ mười một trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Chó",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Chó",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Chó** — Sáu hài hòa [Thỏ](/guide/zodiac-pair-rabbit-dog) · Nửa tam hợp [Ngựa](/guide/zodiac-pair-horse-dog) · Bất hòa [Rắn](/guide/zodiac-pair-snake-dog) · Xung [Rồng](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Chó](/guide/zodiac-dog), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "Theo cặp",
+    "title": "Lợn và Lợn — Cùng nhánh",
+    "summary": "Hai người tuổi Lợn có mối quan hệ gì, được bao nhiêu điểm, và số điểm đó làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu — trình bày đúng như quy tắc tính của Inyeon-Link.",
+    "backLabel": "Cơ sở tính điểm",
+    "sections": [
+      {
+        "title": "Hai người tuổi Lợn cùng một nhánh",
+        "blocks": [
+          {
+            "p": "Hai người tuổi Lợn cùng một nhánh (亥 và 亥). Điều đó có nghĩa là họ giống nhau chứ không hút nhau."
+          },
+          {
+            "p": "Vì vậy được {scoreSame}, nằm ngay trên mức trung lập ({scoreNeutral}): không phải hợp, xung hay bất hòa, chỉ nhỉnh lên một chút."
+          },
+          {
+            "p": "亥 là nhánh đất thứ mười hai trong mười hai nhánh đất."
+          }
+        ]
+      },
+      {
+        "title": "Các con số của cặp này",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Hai người tuổi Lợn",
+              "head": [
+                "Hạng mục",
+                "Giá trị"
+              ],
+              "rows": [
+                [
+                  "Mối quan hệ",
+                  "Cùng nhánh"
+                ],
+                [
+                  "Điểm",
+                  "{scoreSame}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp con giáp",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Phần chiếm trong tỷ lệ hợp cuối cùng ở tương hợp nhánh ngày",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Làm tỷ lệ hợp cuối cùng dịch chuyển bao nhiêu",
+        "blocks": [
+          {
+            "p": "Nếu mọi thứ khác bằng nhau, cặp này làm tăng tỷ lệ hợp cuối cùng {swingZodiacSame} điểm ở tương hợp con giáp và {swingDayBranchSame} điểm ở tương hợp nhánh ngày, so với một cặp trung lập."
+          },
+          {
+            "p": "Tương hợp con giáp đặt nhánh của năm sinh cạnh nhau, còn tương hợp nhánh ngày đặt nhánh của ngày sinh cạnh nhau. Hai nhánh này có thể khác nhau, nên cùng hai người có thể cho ra những mối quan hệ khác nhau ở mỗi loại."
+          }
+        ]
+      },
+      {
+        "title": "Những mối quan hệ đặc biệt khác của Lợn",
+        "blocks": [
+          {
+            "ul": [
+              "Đối tác đặc biệt của **Lợn** — Sáu hài hòa [Hổ](/guide/zodiac-pair-tiger-pig) · Nửa tam hợp [Thỏ](/guide/zodiac-pair-rabbit-pig) · Bất hòa [Rồng](/guide/zodiac-pair-dragon-pig) · Xung [Rắn](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều mà hướng dẫn này không nói đến",
+        "blocks": [
+          {
+            "ul": [
+              "Một con giáp không quyết định được mối quan hệ giữa hai người. {weightSaju} của tỷ lệ hợp cuối cùng do tương hợp saju quyết định.",
+              "Các mức thay đổi điểm ở trên giả định mọi thứ khác đều bằng nhau; kết quả thực tế do toàn bộ saju của cả hai người quyết định."
+            ]
+          },
+          {
+            "p": "Hướng dẫn đầy đủ về từng con giáp nằm ở [Lợn](/guide/zodiac-pig), còn bảng đầy đủ nằm trong [bảng mười hai nhánh](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Mười Thần",
     "title": "Mười Thần và Vị Trí Vợ Chồng",

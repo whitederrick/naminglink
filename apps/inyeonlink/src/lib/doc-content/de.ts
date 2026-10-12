@@ -2769,6 +2769,3514 @@ export const DE_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Ratte und die Ratte — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen der Ratte haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen der Ratte haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen der Ratte haben denselben Zweig (子 und 子). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "子 ist der erste der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen der Ratte",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen der Ratte",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Ratte** — Sechs-Harmonie [Ochse](/guide/zodiac-pair-rat-ox) · Halb-Triade [Drache](/guide/zodiac-pair-rat-dragon), [Affe](/guide/zodiac-pair-rat-monkey) · Zwietracht [Schaf](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Pferd](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ratte](/guide/zodiac-rat), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Ratte und der Ochse — Sechs-Harmonie",
+    "summary": "Welche Beziehung die Ratte und der Ochse haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Ratte und der Ochse bilden eine Sechs-Harmonie",
+        "blocks": [
+          {
+            "p": "Die Ratte und der Ochse bilden eine Sechs-Harmonie. 子 und 丑 bilden eine Harmonie mit nur zwei Zeichen."
+          },
+          {
+            "p": "Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und mit {scoreYukhap} ist es der höchste Wert, den jedes der beiden Tiere erreichen kann."
+          },
+          {
+            "p": "Auf dem Kreis steht 子 an erster Stelle und 丑 an zweiter, und die beiden Zeichen liegen einen Schritt auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Ratte und der Ochse",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Sechs-Harmonie"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacYukhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchYukhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Ratte** — Sechs-Harmonie [Ochse](/guide/zodiac-pair-rat-ox) · Halb-Triade [Drache](/guide/zodiac-pair-rat-dragon), [Affe](/guide/zodiac-pair-rat-monkey) · Zwietracht [Schaf](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Pferd](/guide/zodiac-pair-rat-horse)",
+              "Die besonderen Partner **des Ochsen** — Sechs-Harmonie [Ratte](/guide/zodiac-pair-rat-ox) · Halb-Triade [Hahn](/guide/zodiac-pair-ox-rooster) · Zwietracht [Pferd](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Schaf](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Ratte und der Drache — Halb-Triade",
+    "summary": "Welche Beziehung die Ratte und der Drache haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Ratte und der Drache bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Die Ratte und der Drache bilden eine Halb-Triade. 申子辰 ist eine Triadengruppe (die Wassergruppe), und 子 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Der Affe (申) und der Drache (辰) derselben Gruppe entbehren des mittleren Zeichens 子; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 子 an erster Stelle und 辰 an fünfter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Ratte und der Drache",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Ratte** — Sechs-Harmonie [Ochse](/guide/zodiac-pair-rat-ox) · Halb-Triade [Drache](/guide/zodiac-pair-rat-dragon), [Affe](/guide/zodiac-pair-rat-monkey) · Zwietracht [Schaf](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Pferd](/guide/zodiac-pair-rat-horse)",
+              "Die besonderen Partner **des Drachen** — Sechs-Harmonie [Hahn](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-dragon) · Zwietracht [Schwein](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Hund](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ratte](/guide/zodiac-rat) · [Drache](/guide/zodiac-dragon), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Ratte und das Pferd — Zusammenstoß",
+    "summary": "Welche Beziehung die Ratte und das Pferd haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Ratte und das Pferd bilden einen Zusammenstoß",
+        "blocks": [
+          {
+            "p": "Die Ratte und das Pferd bilden einen Zusammenstoß. 子 und 午 liegen auf dem Kreis einander unmittelbar gegenüber."
+          },
+          {
+            "p": "Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich."
+          },
+          {
+            "p": "Auf dem Kreis steht 子 an erster Stelle und 午 an siebter, und die beiden Zeichen liegen sechs Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Ratte und das Pferd",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zusammenstoß"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreChung}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacChung} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchChung} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Ratte** — Sechs-Harmonie [Ochse](/guide/zodiac-pair-rat-ox) · Halb-Triade [Drache](/guide/zodiac-pair-rat-dragon), [Affe](/guide/zodiac-pair-rat-monkey) · Zwietracht [Schaf](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Pferd](/guide/zodiac-pair-rat-horse)",
+              "Die besonderen Partner **des Pferdes** — Sechs-Harmonie [Schaf](/guide/zodiac-pair-horse-goat) · Halb-Triade [Tiger](/guide/zodiac-pair-tiger-horse), [Hund](/guide/zodiac-pair-horse-dog) · Zwietracht [Ochse](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Ratte](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ratte](/guide/zodiac-rat) · [Pferd](/guide/zodiac-horse), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Ratte und das Schaf — Zwietracht",
+    "summary": "Welche Beziehung die Ratte und das Schaf haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Ratte und das Schaf bilden eine Zwietracht",
+        "blocks": [
+          {
+            "p": "Die Ratte und das Schaf bilden eine Zwietracht. Die Position des Zusammenstoßes von 子 ist 午 (das Pferd), und 未 liegt unmittelbar daneben; unmittelbar neben 丑 (dem Ochsen), der Position des Zusammenstoßes von 未, liegt 子."
+          },
+          {
+            "p": "Traditionell gilt es als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Auf dem Kreis steht 子 an erster Stelle und 未 an achter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Ratte und das Schaf",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zwietracht"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacWonjin} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchWonjin} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Ratte** — Sechs-Harmonie [Ochse](/guide/zodiac-pair-rat-ox) · Halb-Triade [Drache](/guide/zodiac-pair-rat-dragon), [Affe](/guide/zodiac-pair-rat-monkey) · Zwietracht [Schaf](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Pferd](/guide/zodiac-pair-rat-horse)",
+              "Die besonderen Partner **des Schafs** — Sechs-Harmonie [Pferd](/guide/zodiac-pair-horse-goat) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-goat) · Zwietracht [Ratte](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Ochse](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ratte](/guide/zodiac-rat) · [Schaf](/guide/zodiac-goat), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Ratte und der Affe — Halb-Triade",
+    "summary": "Welche Beziehung die Ratte und der Affe haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Ratte und der Affe bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Die Ratte und der Affe bilden eine Halb-Triade. 申子辰 ist eine Triadengruppe (die Wassergruppe), und 子 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Der Drache (辰) und der Affe (申) derselben Gruppe entbehren des mittleren Zeichens 子; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 子 an erster Stelle und 申 an neunter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Ratte und der Affe",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Ratte** — Sechs-Harmonie [Ochse](/guide/zodiac-pair-rat-ox) · Halb-Triade [Drache](/guide/zodiac-pair-rat-dragon), [Affe](/guide/zodiac-pair-rat-monkey) · Zwietracht [Schaf](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Pferd](/guide/zodiac-pair-rat-horse)",
+              "Die besonderen Partner **des Affen** — Sechs-Harmonie [Schlange](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-monkey) · Zwietracht [Hase](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ratte](/guide/zodiac-rat) · [Affe](/guide/zodiac-monkey), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Ochse und der Ochse — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Ochsen haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Ochsen haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Ochsen haben denselben Zweig (丑 und 丑). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "丑 ist der zweite der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Ochsen",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Ochsen",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Ochsen** — Sechs-Harmonie [Ratte](/guide/zodiac-pair-rat-ox) · Halb-Triade [Hahn](/guide/zodiac-pair-ox-rooster) · Zwietracht [Pferd](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Schaf](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ochse](/guide/zodiac-ox), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Ochse und das Pferd — Zwietracht",
+    "summary": "Welche Beziehung der Ochse und das Pferd haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Ochse und das Pferd bilden eine Zwietracht",
+        "blocks": [
+          {
+            "p": "Der Ochse und das Pferd bilden eine Zwietracht. Die Position des Zusammenstoßes von 丑 ist 未 (das Schaf), und 午 liegt unmittelbar daneben; unmittelbar neben 子 (der Ratte), der Position des Zusammenstoßes von 午, liegt 丑."
+          },
+          {
+            "p": "Traditionell gilt es als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Auf dem Kreis steht 丑 an zweiter Stelle und 午 an siebter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Ochse und das Pferd",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zwietracht"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacWonjin} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchWonjin} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Ochsen** — Sechs-Harmonie [Ratte](/guide/zodiac-pair-rat-ox) · Halb-Triade [Hahn](/guide/zodiac-pair-ox-rooster) · Zwietracht [Pferd](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Schaf](/guide/zodiac-pair-ox-goat)",
+              "Die besonderen Partner **des Pferdes** — Sechs-Harmonie [Schaf](/guide/zodiac-pair-horse-goat) · Halb-Triade [Tiger](/guide/zodiac-pair-tiger-horse), [Hund](/guide/zodiac-pair-horse-dog) · Zwietracht [Ochse](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Ratte](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ochse](/guide/zodiac-ox) · [Pferd](/guide/zodiac-horse), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Ochse und das Schaf — Zusammenstoß",
+    "summary": "Welche Beziehung der Ochse und das Schaf haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Ochse und das Schaf bilden einen Zusammenstoß",
+        "blocks": [
+          {
+            "p": "Der Ochse und das Schaf bilden einen Zusammenstoß. 丑 und 未 liegen auf dem Kreis einander unmittelbar gegenüber."
+          },
+          {
+            "p": "Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich."
+          },
+          {
+            "p": "Auf dem Kreis steht 丑 an zweiter Stelle und 未 an achter, und die beiden Zeichen liegen sechs Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Ochse und das Schaf",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zusammenstoß"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreChung}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacChung} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchChung} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Ochsen** — Sechs-Harmonie [Ratte](/guide/zodiac-pair-rat-ox) · Halb-Triade [Hahn](/guide/zodiac-pair-ox-rooster) · Zwietracht [Pferd](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Schaf](/guide/zodiac-pair-ox-goat)",
+              "Die besonderen Partner **des Schafs** — Sechs-Harmonie [Pferd](/guide/zodiac-pair-horse-goat) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-goat) · Zwietracht [Ratte](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Ochse](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ochse](/guide/zodiac-ox) · [Schaf](/guide/zodiac-goat), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Ochse und der Hahn — Halb-Triade",
+    "summary": "Welche Beziehung der Ochse und der Hahn haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Ochse und der Hahn bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Der Ochse und der Hahn bilden eine Halb-Triade. 巳酉丑 ist eine Triadengruppe (die Metallgruppe), und 酉 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Die Schlange (巳) und der Ochse (丑) derselben Gruppe entbehren des mittleren Zeichens 酉; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 丑 an zweiter Stelle und 酉 an zehnter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Ochse und der Hahn",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Ochsen** — Sechs-Harmonie [Ratte](/guide/zodiac-pair-rat-ox) · Halb-Triade [Hahn](/guide/zodiac-pair-ox-rooster) · Zwietracht [Pferd](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Schaf](/guide/zodiac-pair-ox-goat)",
+              "Die besonderen Partner **des Hahns** — Sechs-Harmonie [Drache](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ochse](/guide/zodiac-pair-ox-rooster), [Schlange](/guide/zodiac-pair-snake-rooster) · Zwietracht [Tiger](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Hase](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Ochse](/guide/zodiac-ox) · [Hahn](/guide/zodiac-rooster), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Tiger und der Tiger — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Tigers haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Tigers haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Tigers haben denselben Zweig (寅 und 寅). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "寅 ist der dritte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Tigers",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Tigers",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Tigers** — Sechs-Harmonie [Schwein](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Pferd](/guide/zodiac-pair-tiger-horse) · Zwietracht [Hahn](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Affe](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Tiger](/guide/zodiac-tiger), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Tiger und das Pferd — Halb-Triade",
+    "summary": "Welche Beziehung der Tiger und das Pferd haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Tiger und das Pferd bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Der Tiger und das Pferd bilden eine Halb-Triade. 寅午戌 ist eine Triadengruppe (die Feuergruppe), und 午 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Der Hund (戌) und der Tiger (寅) derselben Gruppe entbehren des mittleren Zeichens 午; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 寅 an dritter Stelle und 午 an siebter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Tiger und das Pferd",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Tigers** — Sechs-Harmonie [Schwein](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Pferd](/guide/zodiac-pair-tiger-horse) · Zwietracht [Hahn](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Affe](/guide/zodiac-pair-tiger-monkey)",
+              "Die besonderen Partner **des Pferdes** — Sechs-Harmonie [Schaf](/guide/zodiac-pair-horse-goat) · Halb-Triade [Tiger](/guide/zodiac-pair-tiger-horse), [Hund](/guide/zodiac-pair-horse-dog) · Zwietracht [Ochse](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Ratte](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Tiger](/guide/zodiac-tiger) · [Pferd](/guide/zodiac-horse), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Tiger und der Affe — Zusammenstoß",
+    "summary": "Welche Beziehung der Tiger und der Affe haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Tiger und der Affe bilden einen Zusammenstoß",
+        "blocks": [
+          {
+            "p": "Der Tiger und der Affe bilden einen Zusammenstoß. 寅 und 申 liegen auf dem Kreis einander unmittelbar gegenüber."
+          },
+          {
+            "p": "Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich."
+          },
+          {
+            "p": "Auf dem Kreis steht 寅 an dritter Stelle und 申 an neunter, und die beiden Zeichen liegen sechs Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Tiger und der Affe",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zusammenstoß"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreChung}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacChung} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchChung} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Tigers** — Sechs-Harmonie [Schwein](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Pferd](/guide/zodiac-pair-tiger-horse) · Zwietracht [Hahn](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Affe](/guide/zodiac-pair-tiger-monkey)",
+              "Die besonderen Partner **des Affen** — Sechs-Harmonie [Schlange](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-monkey) · Zwietracht [Hase](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Tiger](/guide/zodiac-tiger) · [Affe](/guide/zodiac-monkey), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Tiger und der Hahn — Zwietracht",
+    "summary": "Welche Beziehung der Tiger und der Hahn haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Tiger und der Hahn bilden eine Zwietracht",
+        "blocks": [
+          {
+            "p": "Der Tiger und der Hahn bilden eine Zwietracht. Die Position des Zusammenstoßes von 寅 ist 申 (der Affe), und 酉 liegt unmittelbar daneben; unmittelbar neben 卯 (dem Hasen), der Position des Zusammenstoßes von 酉, liegt 寅."
+          },
+          {
+            "p": "Traditionell gilt es als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Auf dem Kreis steht 寅 an dritter Stelle und 酉 an zehnter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Tiger und der Hahn",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zwietracht"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacWonjin} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchWonjin} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Tigers** — Sechs-Harmonie [Schwein](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Pferd](/guide/zodiac-pair-tiger-horse) · Zwietracht [Hahn](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Affe](/guide/zodiac-pair-tiger-monkey)",
+              "Die besonderen Partner **des Hahns** — Sechs-Harmonie [Drache](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ochse](/guide/zodiac-pair-ox-rooster), [Schlange](/guide/zodiac-pair-snake-rooster) · Zwietracht [Tiger](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Hase](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Tiger](/guide/zodiac-tiger) · [Hahn](/guide/zodiac-rooster), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Tiger und das Schwein — Sechs-Harmonie",
+    "summary": "Welche Beziehung der Tiger und das Schwein haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Tiger und das Schwein bilden eine Sechs-Harmonie",
+        "blocks": [
+          {
+            "p": "Der Tiger und das Schwein bilden eine Sechs-Harmonie. 寅 und 亥 bilden eine Harmonie mit nur zwei Zeichen."
+          },
+          {
+            "p": "Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und mit {scoreYukhap} ist es der höchste Wert, den jedes der beiden Tiere erreichen kann."
+          },
+          {
+            "p": "Auf dem Kreis steht 寅 an dritter Stelle und 亥 an zwölfter, und die beiden Zeichen liegen drei Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Tiger und das Schwein",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Sechs-Harmonie"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacYukhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchYukhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Tigers** — Sechs-Harmonie [Schwein](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Pferd](/guide/zodiac-pair-tiger-horse) · Zwietracht [Hahn](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Affe](/guide/zodiac-pair-tiger-monkey)",
+              "Die besonderen Partner **des Schweins** — Sechs-Harmonie [Tiger](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Drache](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Schlange](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Tiger](/guide/zodiac-tiger) · [Schwein](/guide/zodiac-pig), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hase und der Hase — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Hasen haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Hasen haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Hasen haben denselben Zweig (卯 und 卯). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "卯 ist der vierte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Hasen",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Hasen",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hasen** — Sechs-Harmonie [Hund](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Schaf](/guide/zodiac-pair-rabbit-goat), [Schwein](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Affe](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Hahn](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hase](/guide/zodiac-rabbit), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hase und das Schaf — Halb-Triade",
+    "summary": "Welche Beziehung der Hase und das Schaf haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hase und das Schaf bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Der Hase und das Schaf bilden eine Halb-Triade. 亥卯未 ist eine Triadengruppe (die Holzgruppe), und 卯 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Das Schwein (亥) und das Schaf (未) derselben Gruppe entbehren des mittleren Zeichens 卯; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 卯 an vierter Stelle und 未 an achter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Hase und das Schaf",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hasen** — Sechs-Harmonie [Hund](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Schaf](/guide/zodiac-pair-rabbit-goat), [Schwein](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Affe](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Hahn](/guide/zodiac-pair-rabbit-rooster)",
+              "Die besonderen Partner **des Schafs** — Sechs-Harmonie [Pferd](/guide/zodiac-pair-horse-goat) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-goat) · Zwietracht [Ratte](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Ochse](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hase](/guide/zodiac-rabbit) · [Schaf](/guide/zodiac-goat), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hase und der Affe — Zwietracht",
+    "summary": "Welche Beziehung der Hase und der Affe haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hase und der Affe bilden eine Zwietracht",
+        "blocks": [
+          {
+            "p": "Der Hase und der Affe bilden eine Zwietracht. Die Position des Zusammenstoßes von 卯 ist 酉 (der Hahn), und 申 liegt unmittelbar daneben; unmittelbar neben 寅 (dem Tiger), der Position des Zusammenstoßes von 申, liegt 卯."
+          },
+          {
+            "p": "Traditionell gilt es als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Auf dem Kreis steht 卯 an vierter Stelle und 申 an neunter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Hase und der Affe",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zwietracht"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacWonjin} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchWonjin} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hasen** — Sechs-Harmonie [Hund](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Schaf](/guide/zodiac-pair-rabbit-goat), [Schwein](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Affe](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Hahn](/guide/zodiac-pair-rabbit-rooster)",
+              "Die besonderen Partner **des Affen** — Sechs-Harmonie [Schlange](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-monkey) · Zwietracht [Hase](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hase](/guide/zodiac-rabbit) · [Affe](/guide/zodiac-monkey), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hase und der Hahn — Zusammenstoß",
+    "summary": "Welche Beziehung der Hase und der Hahn haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hase und der Hahn bilden einen Zusammenstoß",
+        "blocks": [
+          {
+            "p": "Der Hase und der Hahn bilden einen Zusammenstoß. 卯 und 酉 liegen auf dem Kreis einander unmittelbar gegenüber."
+          },
+          {
+            "p": "Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich."
+          },
+          {
+            "p": "Auf dem Kreis steht 卯 an vierter Stelle und 酉 an zehnter, und die beiden Zeichen liegen sechs Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Hase und der Hahn",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zusammenstoß"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreChung}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacChung} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchChung} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hasen** — Sechs-Harmonie [Hund](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Schaf](/guide/zodiac-pair-rabbit-goat), [Schwein](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Affe](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Hahn](/guide/zodiac-pair-rabbit-rooster)",
+              "Die besonderen Partner **des Hahns** — Sechs-Harmonie [Drache](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ochse](/guide/zodiac-pair-ox-rooster), [Schlange](/guide/zodiac-pair-snake-rooster) · Zwietracht [Tiger](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Hase](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hase](/guide/zodiac-rabbit) · [Hahn](/guide/zodiac-rooster), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hase und der Hund — Sechs-Harmonie",
+    "summary": "Welche Beziehung der Hase und der Hund haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hase und der Hund bilden eine Sechs-Harmonie",
+        "blocks": [
+          {
+            "p": "Der Hase und der Hund bilden eine Sechs-Harmonie. 卯 und 戌 bilden eine Harmonie mit nur zwei Zeichen."
+          },
+          {
+            "p": "Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und mit {scoreYukhap} ist es der höchste Wert, den jedes der beiden Tiere erreichen kann."
+          },
+          {
+            "p": "Auf dem Kreis steht 卯 an vierter Stelle und 戌 an elfter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Hase und der Hund",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Sechs-Harmonie"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacYukhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchYukhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hasen** — Sechs-Harmonie [Hund](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Schaf](/guide/zodiac-pair-rabbit-goat), [Schwein](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Affe](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Hahn](/guide/zodiac-pair-rabbit-rooster)",
+              "Die besonderen Partner **des Hundes** — Sechs-Harmonie [Hase](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Pferd](/guide/zodiac-pair-horse-dog) · Zwietracht [Schlange](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Drache](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hase](/guide/zodiac-rabbit) · [Hund](/guide/zodiac-dog), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hase und das Schwein — Halb-Triade",
+    "summary": "Welche Beziehung der Hase und das Schwein haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hase und das Schwein bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Der Hase und das Schwein bilden eine Halb-Triade. 亥卯未 ist eine Triadengruppe (die Holzgruppe), und 卯 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Das Schaf (未) und das Schwein (亥) derselben Gruppe entbehren des mittleren Zeichens 卯; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 卯 an vierter Stelle und 亥 an zwölfter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Hase und das Schwein",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hasen** — Sechs-Harmonie [Hund](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Schaf](/guide/zodiac-pair-rabbit-goat), [Schwein](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Affe](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Hahn](/guide/zodiac-pair-rabbit-rooster)",
+              "Die besonderen Partner **des Schweins** — Sechs-Harmonie [Tiger](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Drache](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Schlange](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hase](/guide/zodiac-rabbit) · [Schwein](/guide/zodiac-pig), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Drache und der Drache — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Drachen haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Drachen haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Drachen haben denselben Zweig (辰 und 辰). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "辰 ist der fünfte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Drachen",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Drachen",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Drachen** — Sechs-Harmonie [Hahn](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-dragon) · Zwietracht [Schwein](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Hund](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Drache](/guide/zodiac-dragon), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Drache und der Hahn — Sechs-Harmonie",
+    "summary": "Welche Beziehung der Drache und der Hahn haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Drache und der Hahn bilden eine Sechs-Harmonie",
+        "blocks": [
+          {
+            "p": "Der Drache und der Hahn bilden eine Sechs-Harmonie. 辰 und 酉 bilden eine Harmonie mit nur zwei Zeichen."
+          },
+          {
+            "p": "Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und mit {scoreYukhap} ist es der höchste Wert, den jedes der beiden Tiere erreichen kann."
+          },
+          {
+            "p": "Auf dem Kreis steht 辰 an fünfter Stelle und 酉 an zehnter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Drache und der Hahn",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Sechs-Harmonie"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacYukhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchYukhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Drachen** — Sechs-Harmonie [Hahn](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-dragon) · Zwietracht [Schwein](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Hund](/guide/zodiac-pair-dragon-dog)",
+              "Die besonderen Partner **des Hahns** — Sechs-Harmonie [Drache](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ochse](/guide/zodiac-pair-ox-rooster), [Schlange](/guide/zodiac-pair-snake-rooster) · Zwietracht [Tiger](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Hase](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Drache](/guide/zodiac-dragon) · [Hahn](/guide/zodiac-rooster), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Drache und der Hund — Zusammenstoß",
+    "summary": "Welche Beziehung der Drache und der Hund haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Drache und der Hund bilden einen Zusammenstoß",
+        "blocks": [
+          {
+            "p": "Der Drache und der Hund bilden einen Zusammenstoß. 辰 und 戌 liegen auf dem Kreis einander unmittelbar gegenüber."
+          },
+          {
+            "p": "Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich."
+          },
+          {
+            "p": "Auf dem Kreis steht 辰 an fünfter Stelle und 戌 an elfter, und die beiden Zeichen liegen sechs Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Drache und der Hund",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zusammenstoß"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreChung}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacChung} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchChung} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Drachen** — Sechs-Harmonie [Hahn](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-dragon) · Zwietracht [Schwein](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Hund](/guide/zodiac-pair-dragon-dog)",
+              "Die besonderen Partner **des Hundes** — Sechs-Harmonie [Hase](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Pferd](/guide/zodiac-pair-horse-dog) · Zwietracht [Schlange](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Drache](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Drache](/guide/zodiac-dragon) · [Hund](/guide/zodiac-dog), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Drache und das Schwein — Zwietracht",
+    "summary": "Welche Beziehung der Drache und das Schwein haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Drache und das Schwein bilden eine Zwietracht",
+        "blocks": [
+          {
+            "p": "Der Drache und das Schwein bilden eine Zwietracht. Die Position des Zusammenstoßes von 辰 ist 戌 (der Hund), und 亥 liegt unmittelbar daneben; unmittelbar neben 巳 (der Schlange), der Position des Zusammenstoßes von 亥, liegt 辰."
+          },
+          {
+            "p": "Traditionell gilt es als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Auf dem Kreis steht 辰 an fünfter Stelle und 亥 an zwölfter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der Drache und das Schwein",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zwietracht"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacWonjin} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchWonjin} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Drachen** — Sechs-Harmonie [Hahn](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-dragon) · Zwietracht [Schwein](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Hund](/guide/zodiac-pair-dragon-dog)",
+              "Die besonderen Partner **des Schweins** — Sechs-Harmonie [Tiger](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Drache](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Schlange](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Drache](/guide/zodiac-dragon) · [Schwein](/guide/zodiac-pig), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Schlange und die Schlange — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen der Schlange haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen der Schlange haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen der Schlange haben denselben Zweig (巳 und 巳). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "巳 ist der sechste der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen der Schlange",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen der Schlange",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Schlange** — Sechs-Harmonie [Affe](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Hahn](/guide/zodiac-pair-snake-rooster) · Zwietracht [Hund](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Schwein](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Schlange](/guide/zodiac-snake), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Schlange und der Affe — Sechs-Harmonie",
+    "summary": "Welche Beziehung die Schlange und der Affe haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Schlange und der Affe bilden eine Sechs-Harmonie",
+        "blocks": [
+          {
+            "p": "Die Schlange und der Affe bilden eine Sechs-Harmonie. 巳 und 申 bilden eine Harmonie mit nur zwei Zeichen."
+          },
+          {
+            "p": "Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und mit {scoreYukhap} ist es der höchste Wert, den jedes der beiden Tiere erreichen kann."
+          },
+          {
+            "p": "Auf dem Kreis steht 巳 an sechster Stelle und 申 an neunter, und die beiden Zeichen liegen drei Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Schlange und der Affe",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Sechs-Harmonie"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacYukhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchYukhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Schlange** — Sechs-Harmonie [Affe](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Hahn](/guide/zodiac-pair-snake-rooster) · Zwietracht [Hund](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Schwein](/guide/zodiac-pair-snake-pig)",
+              "Die besonderen Partner **des Affen** — Sechs-Harmonie [Schlange](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-monkey) · Zwietracht [Hase](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Schlange](/guide/zodiac-snake) · [Affe](/guide/zodiac-monkey), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Schlange und der Hahn — Halb-Triade",
+    "summary": "Welche Beziehung die Schlange und der Hahn haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Schlange und der Hahn bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Die Schlange und der Hahn bilden eine Halb-Triade. 巳酉丑 ist eine Triadengruppe (die Metallgruppe), und 酉 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Der Ochse (丑) und die Schlange (巳) derselben Gruppe entbehren des mittleren Zeichens 酉; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 巳 an sechster Stelle und 酉 an zehnter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Schlange und der Hahn",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Schlange** — Sechs-Harmonie [Affe](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Hahn](/guide/zodiac-pair-snake-rooster) · Zwietracht [Hund](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Schwein](/guide/zodiac-pair-snake-pig)",
+              "Die besonderen Partner **des Hahns** — Sechs-Harmonie [Drache](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ochse](/guide/zodiac-pair-ox-rooster), [Schlange](/guide/zodiac-pair-snake-rooster) · Zwietracht [Tiger](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Hase](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Schlange](/guide/zodiac-snake) · [Hahn](/guide/zodiac-rooster), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Schlange und der Hund — Zwietracht",
+    "summary": "Welche Beziehung die Schlange und der Hund haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Schlange und der Hund bilden eine Zwietracht",
+        "blocks": [
+          {
+            "p": "Die Schlange und der Hund bilden eine Zwietracht. Die Position des Zusammenstoßes von 巳 ist 亥 (das Schwein), und 戌 liegt unmittelbar daneben; unmittelbar neben 辰 (dem Drachen), der Position des Zusammenstoßes von 戌, liegt 巳."
+          },
+          {
+            "p": "Traditionell gilt es als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Auf dem Kreis steht 巳 an sechster Stelle und 戌 an elfter, und die beiden Zeichen liegen fünf Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Schlange und der Hund",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zwietracht"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacWonjin} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchWonjin} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Schlange** — Sechs-Harmonie [Affe](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Hahn](/guide/zodiac-pair-snake-rooster) · Zwietracht [Hund](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Schwein](/guide/zodiac-pair-snake-pig)",
+              "Die besonderen Partner **des Hundes** — Sechs-Harmonie [Hase](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Pferd](/guide/zodiac-pair-horse-dog) · Zwietracht [Schlange](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Drache](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Schlange](/guide/zodiac-snake) · [Hund](/guide/zodiac-dog), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "Nach Paar",
+    "title": "Die Schlange und das Schwein — Zusammenstoß",
+    "summary": "Welche Beziehung die Schlange und das Schwein haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Schlange und das Schwein bilden einen Zusammenstoß",
+        "blocks": [
+          {
+            "p": "Die Schlange und das Schwein bilden einen Zusammenstoß. 巳 und 亥 liegen auf dem Kreis einander unmittelbar gegenüber."
+          },
+          {
+            "p": "Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich."
+          },
+          {
+            "p": "Auf dem Kreis steht 巳 an sechster Stelle und 亥 an zwölfter, und die beiden Zeichen liegen sechs Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Die Schlange und das Schwein",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Zusammenstoß"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreChung}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen senkt dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacChung} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchChung} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **der Schlange** — Sechs-Harmonie [Affe](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Hahn](/guide/zodiac-pair-snake-rooster) · Zwietracht [Hund](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Schwein](/guide/zodiac-pair-snake-pig)",
+              "Die besonderen Partner **des Schweins** — Sechs-Harmonie [Tiger](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Drache](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Schlange](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Schlange](/guide/zodiac-snake) · [Schwein](/guide/zodiac-pig), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "Nach Paar",
+    "title": "Das Pferd und das Pferd — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Pferdes haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Pferdes haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Pferdes haben denselben Zweig (午 und 午). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "午 ist der siebte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Pferdes",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Pferdes",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Pferdes** — Sechs-Harmonie [Schaf](/guide/zodiac-pair-horse-goat) · Halb-Triade [Tiger](/guide/zodiac-pair-tiger-horse), [Hund](/guide/zodiac-pair-horse-dog) · Zwietracht [Ochse](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Ratte](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Pferd](/guide/zodiac-horse), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "Nach Paar",
+    "title": "Das Pferd und das Schaf — Sechs-Harmonie",
+    "summary": "Welche Beziehung das Pferd und das Schaf haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Das Pferd und das Schaf bilden eine Sechs-Harmonie",
+        "blocks": [
+          {
+            "p": "Das Pferd und das Schaf bilden eine Sechs-Harmonie. 午 und 未 bilden eine Harmonie mit nur zwei Zeichen."
+          },
+          {
+            "p": "Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und mit {scoreYukhap} ist es der höchste Wert, den jedes der beiden Tiere erreichen kann."
+          },
+          {
+            "p": "Auf dem Kreis steht 午 an siebter Stelle und 未 an achter, und die beiden Zeichen liegen einen Schritt auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Das Pferd und das Schaf",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Sechs-Harmonie"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacYukhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchYukhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Pferdes** — Sechs-Harmonie [Schaf](/guide/zodiac-pair-horse-goat) · Halb-Triade [Tiger](/guide/zodiac-pair-tiger-horse), [Hund](/guide/zodiac-pair-horse-dog) · Zwietracht [Ochse](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Ratte](/guide/zodiac-pair-rat-horse)",
+              "Die besonderen Partner **des Schafs** — Sechs-Harmonie [Pferd](/guide/zodiac-pair-horse-goat) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-goat) · Zwietracht [Ratte](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Ochse](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "Nach Paar",
+    "title": "Das Pferd und der Hund — Halb-Triade",
+    "summary": "Welche Beziehung das Pferd und der Hund haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Das Pferd und der Hund bilden eine Halb-Triade",
+        "blocks": [
+          {
+            "p": "Das Pferd und der Hund bilden eine Halb-Triade. 寅午戌 ist eine Triadengruppe (die Feuergruppe), und 午 ist der **königliche Zweig** in ihrer Mitte."
+          },
+          {
+            "p": "Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher ist dieses Paar eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Der Tiger (寅) und der Hund (戌) derselben Gruppe entbehren des mittleren Zeichens 午; sie zählen daher nicht als Harmonie und gelten als neutral."
+          },
+          {
+            "p": "Auf dem Kreis steht 午 an siebter Stelle und 戌 an elfter, und die beiden Zeichen liegen vier Schritte auseinander."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Das Pferd und der Hund",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Halb-Triade"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacBanhap} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchBanhap} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen jedes Tieres",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Pferdes** — Sechs-Harmonie [Schaf](/guide/zodiac-pair-horse-goat) · Halb-Triade [Tiger](/guide/zodiac-pair-tiger-horse), [Hund](/guide/zodiac-pair-horse-dog) · Zwietracht [Ochse](/guide/zodiac-pair-ox-horse) · Zusammenstoß [Ratte](/guide/zodiac-pair-rat-horse)",
+              "Die besonderen Partner **des Hundes** — Sechs-Harmonie [Hase](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Pferd](/guide/zodiac-pair-horse-dog) · Zwietracht [Schlange](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Drache](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Pferd](/guide/zodiac-horse) · [Hund](/guide/zodiac-dog), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "Nach Paar",
+    "title": "Das Schaf und das Schaf — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Schafs haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Schafs haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Schafs haben denselben Zweig (未 und 未). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "未 ist der achte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Schafs",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Schafs",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Schafs** — Sechs-Harmonie [Pferd](/guide/zodiac-pair-horse-goat) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-goat) · Zwietracht [Ratte](/guide/zodiac-pair-rat-goat) · Zusammenstoß [Ochse](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Schaf](/guide/zodiac-goat), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Affe und der Affe — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Affen haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Affen haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Affen haben denselben Zweig (申 und 申). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "申 ist der neunte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Affen",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Affen",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Affen** — Sechs-Harmonie [Schlange](/guide/zodiac-pair-snake-monkey) · Halb-Triade [Ratte](/guide/zodiac-pair-rat-monkey) · Zwietracht [Hase](/guide/zodiac-pair-rabbit-monkey) · Zusammenstoß [Tiger](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Affe](/guide/zodiac-monkey), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hahn und der Hahn — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Hahns haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Hahns haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Hahns haben denselben Zweig (酉 und 酉). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "酉 ist der zehnte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Hahns",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Hahns",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hahns** — Sechs-Harmonie [Drache](/guide/zodiac-pair-dragon-rooster) · Halb-Triade [Ochse](/guide/zodiac-pair-ox-rooster), [Schlange](/guide/zodiac-pair-snake-rooster) · Zwietracht [Tiger](/guide/zodiac-pair-tiger-rooster) · Zusammenstoß [Hase](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hahn](/guide/zodiac-rooster), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "Nach Paar",
+    "title": "Der Hund und der Hund — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Hundes haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Hundes haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Hundes haben denselben Zweig (戌 und 戌). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "戌 ist der elfte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Hundes",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Hundes",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Hundes** — Sechs-Harmonie [Hase](/guide/zodiac-pair-rabbit-dog) · Halb-Triade [Pferd](/guide/zodiac-pair-horse-dog) · Zwietracht [Schlange](/guide/zodiac-pair-snake-dog) · Zusammenstoß [Drache](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Hund](/guide/zodiac-dog), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "Nach Paar",
+    "title": "Das Schwein und das Schwein — Gleicher Zweig",
+    "summary": "Welche Beziehung zwei Personen im Zeichen des Schweins haben, welchen Punktwert sie erhält und wie weit dieser Punktwert den Endwert verschiebt — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Zwei Personen im Zeichen des Schweins haben denselben Zweig",
+        "blocks": [
+          {
+            "p": "Zwei Personen im Zeichen des Schweins haben denselben Zweig (亥 und 亥). Das bedeutet, dass sie sich ähneln und nicht anziehen."
+          },
+          {
+            "p": "Daher erhält es {scoreSame}, knapp über neutral ({scoreNeutral}): keine Harmonie, kein Zusammenstoß und keine Zwietracht, nur leicht angehoben."
+          },
+          {
+            "p": "亥 ist der zwölfte der zwölf irdischen Zweige."
+          }
+        ]
+      },
+      {
+        "title": "Die Zahlen dieses Paares",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Zwei Personen im Zeichen des Schweins",
+              "head": [
+                "Punkt",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Beziehung",
+                  "Gleicher Zweig"
+                ],
+                [
+                  "Punktzahl",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anteil am Endwert in der Tierkreis-Kompatibilität",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Anteil am Endwert in der Tageszweig-Kompatibilität",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wie weit sich der Endwert dadurch verschiebt",
+        "blocks": [
+          {
+            "p": "Bei sonst gleichen Voraussetzungen erhöht dieses Paar den Endwert in der Tierkreis-Kompatibilität um {swingZodiacSame} Punkte und in der Tageszweig-Kompatibilität um {swingDayBranchSame} Punkte, verglichen mit einem neutralen Paar."
+          },
+          {
+            "p": "Die Tierkreis-Kompatibilität stellt die Zweige der Geburtsjahre nebeneinander, die Tageszweig-Kompatibilität die der Geburtstage. Die beiden können unterschiedliche Zweige sein, sodass dieselben zwei Personen in beiden unterschiedliche Beziehungen zeigen können."
+          }
+        ]
+      },
+      {
+        "title": "Die weiteren besonderen Beziehungen des Schweins",
+        "blocks": [
+          {
+            "ul": [
+              "Die besonderen Partner **des Schweins** — Sechs-Harmonie [Tiger](/guide/zodiac-pair-tiger-pig) · Halb-Triade [Hase](/guide/zodiac-pair-rabbit-pig) · Zwietracht [Drache](/guide/zodiac-pair-dragon-pig) · Zusammenstoß [Schlange](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt."
+            ]
+          },
+          {
+            "p": "Der vollständige Leitfaden zu jedem Tier steht unter [Schwein](/guide/zodiac-pig), die vollständige Tabelle in der [Tabelle der zwölf Zweige](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Zehn Götter",
     "title": "Zehn Götter und Ehepartnerposition",

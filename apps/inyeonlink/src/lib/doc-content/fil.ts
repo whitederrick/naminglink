@@ -2769,6 +2769,3514 @@ export const FIL_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Daga at ang Daga — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Daga, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Daga",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Daga (子 at 子). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 子 ang una sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Daga",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Daga",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Daga** — Six-Harmony [Baka](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Unggoy](/guide/zodiac-pair-rat-monkey) · Discord [Tupa](/guide/zodiac-pair-rat-goat) · Clash [Kabayo](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Daga](/guide/zodiac-rat), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Daga at ang Baka — Six-Harmony",
+    "summary": "Kung anong relasyon ang taglay ng Daga at ng Baka, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Daga at ang Baka ay bumubuo ng six-harmony",
+        "blocks": [
+          {
+            "p": "Ang Daga at ang Baka ay bumubuo ng six-harmony. Bumubuo ng harmonya ang 子 at 丑 gamit lang ang dalawang karakter."
+          },
+          {
+            "p": "Ang six-harmony ang magandang relasyong pinakamadalas lumitaw sa compatibility, at sa {scoreYukhap} ito ang pinakamataas na score na makukuha ng alinman sa dalawang hayop."
+          },
+          {
+            "p": "Sa bilog, ang 子 ay nasa unang puwesto at ang 丑 ay nasa ikalawang puwesto, at isang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Daga at ang Baka",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacYukhap} puntos sa zodiac compatibility at nang {swingDayBranchYukhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Daga** — Six-Harmony [Baka](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Unggoy](/guide/zodiac-pair-rat-monkey) · Discord [Tupa](/guide/zodiac-pair-rat-goat) · Clash [Kabayo](/guide/zodiac-pair-rat-horse)",
+              "Mga espesyal na kapareha ng **Baka** — Six-Harmony [Daga](/guide/zodiac-pair-rat-ox) · Half triad [Manok](/guide/zodiac-pair-ox-rooster) · Discord [Kabayo](/guide/zodiac-pair-ox-horse) · Clash [Tupa](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Daga](/guide/zodiac-rat) · [Baka](/guide/zodiac-ox), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Daga at ang Dragon — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Daga at ng Dragon, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Daga at ang Dragon ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Daga at ang Dragon ay bumubuo ng half triad. Ang 申子辰 ay isang triad group (ang grupong tubig), at ang 子 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Unggoy (申) at ang Dragon (辰) ng parehong grupo ay walang gitnang karakter na 子, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 子 ay nasa unang puwesto at ang 辰 ay nasa ikalimang puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Daga at ang Dragon",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Daga** — Six-Harmony [Baka](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Unggoy](/guide/zodiac-pair-rat-monkey) · Discord [Tupa](/guide/zodiac-pair-rat-goat) · Clash [Kabayo](/guide/zodiac-pair-rat-horse)",
+              "Mga espesyal na kapareha ng **Dragon** — Six-Harmony [Manok](/guide/zodiac-pair-dragon-rooster) · Half triad [Daga](/guide/zodiac-pair-rat-dragon) · Discord [Baboy](/guide/zodiac-pair-dragon-pig) · Clash [Aso](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Daga](/guide/zodiac-rat) · [Dragon](/guide/zodiac-dragon), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Daga at ang Kabayo — Clash",
+    "summary": "Kung anong relasyon ang taglay ng Daga at ng Kabayo, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Daga at ang Kabayo ay bumubuo ng clash",
+        "blocks": [
+          {
+            "p": "Ang Daga at ang Kabayo ay bumubuo ng clash. Magkatapat mismo sa bilog ang 子 at 午."
+          },
+          {
+            "p": "Pinananatili ng serbisyong ito ang {scoreChung} puntos kahit sa clash. Sa tradisyonal na myeongri, ang clash ay banggaan, hindi katapusan ng relasyon, at ang pagbibigay ng score na malapit sa pinakailalim ay magiging parang paghatol sa dalawang tao."
+          },
+          {
+            "p": "Sa bilog, ang 子 ay nasa unang puwesto at ang 午 ay nasa ikapitong puwesto, at anim na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Daga at ang Kabayo",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacChung} puntos sa zodiac compatibility at nang {swingDayBranchChung} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Daga** — Six-Harmony [Baka](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Unggoy](/guide/zodiac-pair-rat-monkey) · Discord [Tupa](/guide/zodiac-pair-rat-goat) · Clash [Kabayo](/guide/zodiac-pair-rat-horse)",
+              "Mga espesyal na kapareha ng **Kabayo** — Six-Harmony [Tupa](/guide/zodiac-pair-horse-goat) · Half triad [Tigre](/guide/zodiac-pair-tiger-horse), [Aso](/guide/zodiac-pair-horse-dog) · Discord [Baka](/guide/zodiac-pair-ox-horse) · Clash [Daga](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Daga](/guide/zodiac-rat) · [Kabayo](/guide/zodiac-horse), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Daga at ang Tupa — Discord",
+    "summary": "Kung anong relasyon ang taglay ng Daga at ng Tupa, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Daga at ang Tupa ay bumubuo ng discord",
+        "blocks": [
+          {
+            "p": "Ang Daga at ang Tupa ay bumubuo ng discord. Ang posisyon ng clash ng 子 ay 午 (ang Kabayo), at nasa tabi nito mismo ang 未; nasa tabi mismo ng 丑 (ang Baka), ang posisyon ng clash ng 未, ang 子."
+          },
+          {
+            "p": "Tradisyonal itong itinuturing na pares na may sama ng loob sa isa't isa ngunit hindi mapaghiwalay. Mukhang kalmado sa ibabaw, ngunit pinaniniwalaang tumatagal ang hindi pagkakatugma, kaya nakakakuha ito ng {scoreWonjin} — mas mataas kaysa sa clash ({scoreChung}) at mas mababa kaysa sa neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Sa bilog, ang 子 ay nasa unang puwesto at ang 未 ay nasa ikawalong puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Daga at ang Tupa",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacWonjin} puntos sa zodiac compatibility at nang {swingDayBranchWonjin} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Daga** — Six-Harmony [Baka](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Unggoy](/guide/zodiac-pair-rat-monkey) · Discord [Tupa](/guide/zodiac-pair-rat-goat) · Clash [Kabayo](/guide/zodiac-pair-rat-horse)",
+              "Mga espesyal na kapareha ng **Tupa** — Six-Harmony [Kabayo](/guide/zodiac-pair-horse-goat) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-goat) · Discord [Daga](/guide/zodiac-pair-rat-goat) · Clash [Baka](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Daga](/guide/zodiac-rat) · [Tupa](/guide/zodiac-goat), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Daga at ang Unggoy — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Daga at ng Unggoy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Daga at ang Unggoy ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Daga at ang Unggoy ay bumubuo ng half triad. Ang 申子辰 ay isang triad group (ang grupong tubig), at ang 子 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Dragon (辰) at ang Unggoy (申) ng parehong grupo ay walang gitnang karakter na 子, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 子 ay nasa unang puwesto at ang 申 ay nasa ikasiyam na puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Daga at ang Unggoy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Daga** — Six-Harmony [Baka](/guide/zodiac-pair-rat-ox) · Half triad [Dragon](/guide/zodiac-pair-rat-dragon), [Unggoy](/guide/zodiac-pair-rat-monkey) · Discord [Tupa](/guide/zodiac-pair-rat-goat) · Clash [Kabayo](/guide/zodiac-pair-rat-horse)",
+              "Mga espesyal na kapareha ng **Unggoy** — Six-Harmony [Ahas](/guide/zodiac-pair-snake-monkey) · Half triad [Daga](/guide/zodiac-pair-rat-monkey) · Discord [Kuneho](/guide/zodiac-pair-rabbit-monkey) · Clash [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Daga](/guide/zodiac-rat) · [Unggoy](/guide/zodiac-monkey), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Baka at ang Baka — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Baka, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Baka",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Baka (丑 at 丑). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 丑 ang ikalawa sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Baka",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Baka",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Baka** — Six-Harmony [Daga](/guide/zodiac-pair-rat-ox) · Half triad [Manok](/guide/zodiac-pair-ox-rooster) · Discord [Kabayo](/guide/zodiac-pair-ox-horse) · Clash [Tupa](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Baka](/guide/zodiac-ox), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Baka at ang Kabayo — Discord",
+    "summary": "Kung anong relasyon ang taglay ng Baka at ng Kabayo, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Baka at ang Kabayo ay bumubuo ng discord",
+        "blocks": [
+          {
+            "p": "Ang Baka at ang Kabayo ay bumubuo ng discord. Ang posisyon ng clash ng 丑 ay 未 (ang Tupa), at nasa tabi nito mismo ang 午; nasa tabi mismo ng 子 (ang Daga), ang posisyon ng clash ng 午, ang 丑."
+          },
+          {
+            "p": "Tradisyonal itong itinuturing na pares na may sama ng loob sa isa't isa ngunit hindi mapaghiwalay. Mukhang kalmado sa ibabaw, ngunit pinaniniwalaang tumatagal ang hindi pagkakatugma, kaya nakakakuha ito ng {scoreWonjin} — mas mataas kaysa sa clash ({scoreChung}) at mas mababa kaysa sa neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Sa bilog, ang 丑 ay nasa ikalawang puwesto at ang 午 ay nasa ikapitong puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Baka at ang Kabayo",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacWonjin} puntos sa zodiac compatibility at nang {swingDayBranchWonjin} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Baka** — Six-Harmony [Daga](/guide/zodiac-pair-rat-ox) · Half triad [Manok](/guide/zodiac-pair-ox-rooster) · Discord [Kabayo](/guide/zodiac-pair-ox-horse) · Clash [Tupa](/guide/zodiac-pair-ox-goat)",
+              "Mga espesyal na kapareha ng **Kabayo** — Six-Harmony [Tupa](/guide/zodiac-pair-horse-goat) · Half triad [Tigre](/guide/zodiac-pair-tiger-horse), [Aso](/guide/zodiac-pair-horse-dog) · Discord [Baka](/guide/zodiac-pair-ox-horse) · Clash [Daga](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Baka](/guide/zodiac-ox) · [Kabayo](/guide/zodiac-horse), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Baka at ang Tupa — Clash",
+    "summary": "Kung anong relasyon ang taglay ng Baka at ng Tupa, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Baka at ang Tupa ay bumubuo ng clash",
+        "blocks": [
+          {
+            "p": "Ang Baka at ang Tupa ay bumubuo ng clash. Magkatapat mismo sa bilog ang 丑 at 未."
+          },
+          {
+            "p": "Pinananatili ng serbisyong ito ang {scoreChung} puntos kahit sa clash. Sa tradisyonal na myeongri, ang clash ay banggaan, hindi katapusan ng relasyon, at ang pagbibigay ng score na malapit sa pinakailalim ay magiging parang paghatol sa dalawang tao."
+          },
+          {
+            "p": "Sa bilog, ang 丑 ay nasa ikalawang puwesto at ang 未 ay nasa ikawalong puwesto, at anim na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Baka at ang Tupa",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacChung} puntos sa zodiac compatibility at nang {swingDayBranchChung} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Baka** — Six-Harmony [Daga](/guide/zodiac-pair-rat-ox) · Half triad [Manok](/guide/zodiac-pair-ox-rooster) · Discord [Kabayo](/guide/zodiac-pair-ox-horse) · Clash [Tupa](/guide/zodiac-pair-ox-goat)",
+              "Mga espesyal na kapareha ng **Tupa** — Six-Harmony [Kabayo](/guide/zodiac-pair-horse-goat) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-goat) · Discord [Daga](/guide/zodiac-pair-rat-goat) · Clash [Baka](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Baka](/guide/zodiac-ox) · [Tupa](/guide/zodiac-goat), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Baka at ang Manok — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Baka at ng Manok, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Baka at ang Manok ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Baka at ang Manok ay bumubuo ng half triad. Ang 巳酉丑 ay isang triad group (ang grupong metal), at ang 酉 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Ahas (巳) at ang Baka (丑) ng parehong grupo ay walang gitnang karakter na 酉, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 丑 ay nasa ikalawang puwesto at ang 酉 ay nasa ikasampung puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Baka at ang Manok",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Baka** — Six-Harmony [Daga](/guide/zodiac-pair-rat-ox) · Half triad [Manok](/guide/zodiac-pair-ox-rooster) · Discord [Kabayo](/guide/zodiac-pair-ox-horse) · Clash [Tupa](/guide/zodiac-pair-ox-goat)",
+              "Mga espesyal na kapareha ng **Manok** — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Baka](/guide/zodiac-pair-ox-rooster), [Ahas](/guide/zodiac-pair-snake-rooster) · Discord [Tigre](/guide/zodiac-pair-tiger-rooster) · Clash [Kuneho](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Baka](/guide/zodiac-ox) · [Manok](/guide/zodiac-rooster), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Tigre at ang Tigre — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Tigre, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Tigre",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Tigre (寅 at 寅). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 寅 ang ikatlo sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Tigre",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Tigre",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Tigre** — Six-Harmony [Baboy](/guide/zodiac-pair-tiger-pig) · Half triad [Kabayo](/guide/zodiac-pair-tiger-horse) · Discord [Manok](/guide/zodiac-pair-tiger-rooster) · Clash [Unggoy](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Tigre](/guide/zodiac-tiger), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Tigre at ang Kabayo — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Tigre at ng Kabayo, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Tigre at ang Kabayo ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Tigre at ang Kabayo ay bumubuo ng half triad. Ang 寅午戌 ay isang triad group (ang grupong apoy), at ang 午 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Aso (戌) at ang Tigre (寅) ng parehong grupo ay walang gitnang karakter na 午, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 寅 ay nasa ikatlong puwesto at ang 午 ay nasa ikapitong puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Tigre at ang Kabayo",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Tigre** — Six-Harmony [Baboy](/guide/zodiac-pair-tiger-pig) · Half triad [Kabayo](/guide/zodiac-pair-tiger-horse) · Discord [Manok](/guide/zodiac-pair-tiger-rooster) · Clash [Unggoy](/guide/zodiac-pair-tiger-monkey)",
+              "Mga espesyal na kapareha ng **Kabayo** — Six-Harmony [Tupa](/guide/zodiac-pair-horse-goat) · Half triad [Tigre](/guide/zodiac-pair-tiger-horse), [Aso](/guide/zodiac-pair-horse-dog) · Discord [Baka](/guide/zodiac-pair-ox-horse) · Clash [Daga](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Tigre](/guide/zodiac-tiger) · [Kabayo](/guide/zodiac-horse), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Tigre at ang Unggoy — Clash",
+    "summary": "Kung anong relasyon ang taglay ng Tigre at ng Unggoy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Tigre at ang Unggoy ay bumubuo ng clash",
+        "blocks": [
+          {
+            "p": "Ang Tigre at ang Unggoy ay bumubuo ng clash. Magkatapat mismo sa bilog ang 寅 at 申."
+          },
+          {
+            "p": "Pinananatili ng serbisyong ito ang {scoreChung} puntos kahit sa clash. Sa tradisyonal na myeongri, ang clash ay banggaan, hindi katapusan ng relasyon, at ang pagbibigay ng score na malapit sa pinakailalim ay magiging parang paghatol sa dalawang tao."
+          },
+          {
+            "p": "Sa bilog, ang 寅 ay nasa ikatlong puwesto at ang 申 ay nasa ikasiyam na puwesto, at anim na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Tigre at ang Unggoy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacChung} puntos sa zodiac compatibility at nang {swingDayBranchChung} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Tigre** — Six-Harmony [Baboy](/guide/zodiac-pair-tiger-pig) · Half triad [Kabayo](/guide/zodiac-pair-tiger-horse) · Discord [Manok](/guide/zodiac-pair-tiger-rooster) · Clash [Unggoy](/guide/zodiac-pair-tiger-monkey)",
+              "Mga espesyal na kapareha ng **Unggoy** — Six-Harmony [Ahas](/guide/zodiac-pair-snake-monkey) · Half triad [Daga](/guide/zodiac-pair-rat-monkey) · Discord [Kuneho](/guide/zodiac-pair-rabbit-monkey) · Clash [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Tigre](/guide/zodiac-tiger) · [Unggoy](/guide/zodiac-monkey), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Tigre at ang Manok — Discord",
+    "summary": "Kung anong relasyon ang taglay ng Tigre at ng Manok, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Tigre at ang Manok ay bumubuo ng discord",
+        "blocks": [
+          {
+            "p": "Ang Tigre at ang Manok ay bumubuo ng discord. Ang posisyon ng clash ng 寅 ay 申 (ang Unggoy), at nasa tabi nito mismo ang 酉; nasa tabi mismo ng 卯 (ang Kuneho), ang posisyon ng clash ng 酉, ang 寅."
+          },
+          {
+            "p": "Tradisyonal itong itinuturing na pares na may sama ng loob sa isa't isa ngunit hindi mapaghiwalay. Mukhang kalmado sa ibabaw, ngunit pinaniniwalaang tumatagal ang hindi pagkakatugma, kaya nakakakuha ito ng {scoreWonjin} — mas mataas kaysa sa clash ({scoreChung}) at mas mababa kaysa sa neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Sa bilog, ang 寅 ay nasa ikatlong puwesto at ang 酉 ay nasa ikasampung puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Tigre at ang Manok",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacWonjin} puntos sa zodiac compatibility at nang {swingDayBranchWonjin} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Tigre** — Six-Harmony [Baboy](/guide/zodiac-pair-tiger-pig) · Half triad [Kabayo](/guide/zodiac-pair-tiger-horse) · Discord [Manok](/guide/zodiac-pair-tiger-rooster) · Clash [Unggoy](/guide/zodiac-pair-tiger-monkey)",
+              "Mga espesyal na kapareha ng **Manok** — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Baka](/guide/zodiac-pair-ox-rooster), [Ahas](/guide/zodiac-pair-snake-rooster) · Discord [Tigre](/guide/zodiac-pair-tiger-rooster) · Clash [Kuneho](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Tigre](/guide/zodiac-tiger) · [Manok](/guide/zodiac-rooster), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Tigre at ang Baboy — Six-Harmony",
+    "summary": "Kung anong relasyon ang taglay ng Tigre at ng Baboy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Tigre at ang Baboy ay bumubuo ng six-harmony",
+        "blocks": [
+          {
+            "p": "Ang Tigre at ang Baboy ay bumubuo ng six-harmony. Bumubuo ng harmonya ang 寅 at 亥 gamit lang ang dalawang karakter."
+          },
+          {
+            "p": "Ang six-harmony ang magandang relasyong pinakamadalas lumitaw sa compatibility, at sa {scoreYukhap} ito ang pinakamataas na score na makukuha ng alinman sa dalawang hayop."
+          },
+          {
+            "p": "Sa bilog, ang 寅 ay nasa ikatlong puwesto at ang 亥 ay nasa ikalabindalawang puwesto, at tatlong hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Tigre at ang Baboy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacYukhap} puntos sa zodiac compatibility at nang {swingDayBranchYukhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Tigre** — Six-Harmony [Baboy](/guide/zodiac-pair-tiger-pig) · Half triad [Kabayo](/guide/zodiac-pair-tiger-horse) · Discord [Manok](/guide/zodiac-pair-tiger-rooster) · Clash [Unggoy](/guide/zodiac-pair-tiger-monkey)",
+              "Mga espesyal na kapareha ng **Baboy** — Six-Harmony [Tigre](/guide/zodiac-pair-tiger-pig) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Ahas](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Tigre](/guide/zodiac-tiger) · [Baboy](/guide/zodiac-pig), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kuneho at ang Kuneho — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Kuneho, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Kuneho",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Kuneho (卯 at 卯). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 卯 ang ikaapat sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Kuneho",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Kuneho",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kuneho** — Six-Harmony [Aso](/guide/zodiac-pair-rabbit-dog) · Half triad [Tupa](/guide/zodiac-pair-rabbit-goat), [Baboy](/guide/zodiac-pair-rabbit-pig) · Discord [Unggoy](/guide/zodiac-pair-rabbit-monkey) · Clash [Manok](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kuneho](/guide/zodiac-rabbit), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kuneho at ang Tupa — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Kuneho at ng Tupa, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Kuneho at ang Tupa ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Kuneho at ang Tupa ay bumubuo ng half triad. Ang 亥卯未 ay isang triad group (ang grupong kahoy), at ang 卯 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Baboy (亥) at ang Tupa (未) ng parehong grupo ay walang gitnang karakter na 卯, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 卯 ay nasa ikaapat na puwesto at ang 未 ay nasa ikawalong puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Kuneho at ang Tupa",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kuneho** — Six-Harmony [Aso](/guide/zodiac-pair-rabbit-dog) · Half triad [Tupa](/guide/zodiac-pair-rabbit-goat), [Baboy](/guide/zodiac-pair-rabbit-pig) · Discord [Unggoy](/guide/zodiac-pair-rabbit-monkey) · Clash [Manok](/guide/zodiac-pair-rabbit-rooster)",
+              "Mga espesyal na kapareha ng **Tupa** — Six-Harmony [Kabayo](/guide/zodiac-pair-horse-goat) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-goat) · Discord [Daga](/guide/zodiac-pair-rat-goat) · Clash [Baka](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kuneho](/guide/zodiac-rabbit) · [Tupa](/guide/zodiac-goat), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kuneho at ang Unggoy — Discord",
+    "summary": "Kung anong relasyon ang taglay ng Kuneho at ng Unggoy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Kuneho at ang Unggoy ay bumubuo ng discord",
+        "blocks": [
+          {
+            "p": "Ang Kuneho at ang Unggoy ay bumubuo ng discord. Ang posisyon ng clash ng 卯 ay 酉 (ang Manok), at nasa tabi nito mismo ang 申; nasa tabi mismo ng 寅 (ang Tigre), ang posisyon ng clash ng 申, ang 卯."
+          },
+          {
+            "p": "Tradisyonal itong itinuturing na pares na may sama ng loob sa isa't isa ngunit hindi mapaghiwalay. Mukhang kalmado sa ibabaw, ngunit pinaniniwalaang tumatagal ang hindi pagkakatugma, kaya nakakakuha ito ng {scoreWonjin} — mas mataas kaysa sa clash ({scoreChung}) at mas mababa kaysa sa neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Sa bilog, ang 卯 ay nasa ikaapat na puwesto at ang 申 ay nasa ikasiyam na puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Kuneho at ang Unggoy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacWonjin} puntos sa zodiac compatibility at nang {swingDayBranchWonjin} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kuneho** — Six-Harmony [Aso](/guide/zodiac-pair-rabbit-dog) · Half triad [Tupa](/guide/zodiac-pair-rabbit-goat), [Baboy](/guide/zodiac-pair-rabbit-pig) · Discord [Unggoy](/guide/zodiac-pair-rabbit-monkey) · Clash [Manok](/guide/zodiac-pair-rabbit-rooster)",
+              "Mga espesyal na kapareha ng **Unggoy** — Six-Harmony [Ahas](/guide/zodiac-pair-snake-monkey) · Half triad [Daga](/guide/zodiac-pair-rat-monkey) · Discord [Kuneho](/guide/zodiac-pair-rabbit-monkey) · Clash [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kuneho](/guide/zodiac-rabbit) · [Unggoy](/guide/zodiac-monkey), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kuneho at ang Manok — Clash",
+    "summary": "Kung anong relasyon ang taglay ng Kuneho at ng Manok, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Kuneho at ang Manok ay bumubuo ng clash",
+        "blocks": [
+          {
+            "p": "Ang Kuneho at ang Manok ay bumubuo ng clash. Magkatapat mismo sa bilog ang 卯 at 酉."
+          },
+          {
+            "p": "Pinananatili ng serbisyong ito ang {scoreChung} puntos kahit sa clash. Sa tradisyonal na myeongri, ang clash ay banggaan, hindi katapusan ng relasyon, at ang pagbibigay ng score na malapit sa pinakailalim ay magiging parang paghatol sa dalawang tao."
+          },
+          {
+            "p": "Sa bilog, ang 卯 ay nasa ikaapat na puwesto at ang 酉 ay nasa ikasampung puwesto, at anim na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Kuneho at ang Manok",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacChung} puntos sa zodiac compatibility at nang {swingDayBranchChung} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kuneho** — Six-Harmony [Aso](/guide/zodiac-pair-rabbit-dog) · Half triad [Tupa](/guide/zodiac-pair-rabbit-goat), [Baboy](/guide/zodiac-pair-rabbit-pig) · Discord [Unggoy](/guide/zodiac-pair-rabbit-monkey) · Clash [Manok](/guide/zodiac-pair-rabbit-rooster)",
+              "Mga espesyal na kapareha ng **Manok** — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Baka](/guide/zodiac-pair-ox-rooster), [Ahas](/guide/zodiac-pair-snake-rooster) · Discord [Tigre](/guide/zodiac-pair-tiger-rooster) · Clash [Kuneho](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kuneho](/guide/zodiac-rabbit) · [Manok](/guide/zodiac-rooster), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kuneho at ang Aso — Six-Harmony",
+    "summary": "Kung anong relasyon ang taglay ng Kuneho at ng Aso, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Kuneho at ang Aso ay bumubuo ng six-harmony",
+        "blocks": [
+          {
+            "p": "Ang Kuneho at ang Aso ay bumubuo ng six-harmony. Bumubuo ng harmonya ang 卯 at 戌 gamit lang ang dalawang karakter."
+          },
+          {
+            "p": "Ang six-harmony ang magandang relasyong pinakamadalas lumitaw sa compatibility, at sa {scoreYukhap} ito ang pinakamataas na score na makukuha ng alinman sa dalawang hayop."
+          },
+          {
+            "p": "Sa bilog, ang 卯 ay nasa ikaapat na puwesto at ang 戌 ay nasa ikalabing-isang puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Kuneho at ang Aso",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacYukhap} puntos sa zodiac compatibility at nang {swingDayBranchYukhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kuneho** — Six-Harmony [Aso](/guide/zodiac-pair-rabbit-dog) · Half triad [Tupa](/guide/zodiac-pair-rabbit-goat), [Baboy](/guide/zodiac-pair-rabbit-pig) · Discord [Unggoy](/guide/zodiac-pair-rabbit-monkey) · Clash [Manok](/guide/zodiac-pair-rabbit-rooster)",
+              "Mga espesyal na kapareha ng **Aso** — Six-Harmony [Kuneho](/guide/zodiac-pair-rabbit-dog) · Half triad [Kabayo](/guide/zodiac-pair-horse-dog) · Discord [Ahas](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kuneho](/guide/zodiac-rabbit) · [Aso](/guide/zodiac-dog), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kuneho at ang Baboy — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Kuneho at ng Baboy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Kuneho at ang Baboy ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Kuneho at ang Baboy ay bumubuo ng half triad. Ang 亥卯未 ay isang triad group (ang grupong kahoy), at ang 卯 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Tupa (未) at ang Baboy (亥) ng parehong grupo ay walang gitnang karakter na 卯, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 卯 ay nasa ikaapat na puwesto at ang 亥 ay nasa ikalabindalawang puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Kuneho at ang Baboy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kuneho** — Six-Harmony [Aso](/guide/zodiac-pair-rabbit-dog) · Half triad [Tupa](/guide/zodiac-pair-rabbit-goat), [Baboy](/guide/zodiac-pair-rabbit-pig) · Discord [Unggoy](/guide/zodiac-pair-rabbit-monkey) · Clash [Manok](/guide/zodiac-pair-rabbit-rooster)",
+              "Mga espesyal na kapareha ng **Baboy** — Six-Harmony [Tigre](/guide/zodiac-pair-tiger-pig) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Ahas](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kuneho](/guide/zodiac-rabbit) · [Baboy](/guide/zodiac-pig), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Dragon at ang Dragon — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Dragon, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Dragon",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Dragon (辰 at 辰). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 辰 ang ikalima sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Dragon",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Dragon",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Dragon** — Six-Harmony [Manok](/guide/zodiac-pair-dragon-rooster) · Half triad [Daga](/guide/zodiac-pair-rat-dragon) · Discord [Baboy](/guide/zodiac-pair-dragon-pig) · Clash [Aso](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Dragon](/guide/zodiac-dragon), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Dragon at ang Manok — Six-Harmony",
+    "summary": "Kung anong relasyon ang taglay ng Dragon at ng Manok, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Dragon at ang Manok ay bumubuo ng six-harmony",
+        "blocks": [
+          {
+            "p": "Ang Dragon at ang Manok ay bumubuo ng six-harmony. Bumubuo ng harmonya ang 辰 at 酉 gamit lang ang dalawang karakter."
+          },
+          {
+            "p": "Ang six-harmony ang magandang relasyong pinakamadalas lumitaw sa compatibility, at sa {scoreYukhap} ito ang pinakamataas na score na makukuha ng alinman sa dalawang hayop."
+          },
+          {
+            "p": "Sa bilog, ang 辰 ay nasa ikalimang puwesto at ang 酉 ay nasa ikasampung puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Dragon at ang Manok",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacYukhap} puntos sa zodiac compatibility at nang {swingDayBranchYukhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Dragon** — Six-Harmony [Manok](/guide/zodiac-pair-dragon-rooster) · Half triad [Daga](/guide/zodiac-pair-rat-dragon) · Discord [Baboy](/guide/zodiac-pair-dragon-pig) · Clash [Aso](/guide/zodiac-pair-dragon-dog)",
+              "Mga espesyal na kapareha ng **Manok** — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Baka](/guide/zodiac-pair-ox-rooster), [Ahas](/guide/zodiac-pair-snake-rooster) · Discord [Tigre](/guide/zodiac-pair-tiger-rooster) · Clash [Kuneho](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Dragon](/guide/zodiac-dragon) · [Manok](/guide/zodiac-rooster), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Dragon at ang Aso — Clash",
+    "summary": "Kung anong relasyon ang taglay ng Dragon at ng Aso, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Dragon at ang Aso ay bumubuo ng clash",
+        "blocks": [
+          {
+            "p": "Ang Dragon at ang Aso ay bumubuo ng clash. Magkatapat mismo sa bilog ang 辰 at 戌."
+          },
+          {
+            "p": "Pinananatili ng serbisyong ito ang {scoreChung} puntos kahit sa clash. Sa tradisyonal na myeongri, ang clash ay banggaan, hindi katapusan ng relasyon, at ang pagbibigay ng score na malapit sa pinakailalim ay magiging parang paghatol sa dalawang tao."
+          },
+          {
+            "p": "Sa bilog, ang 辰 ay nasa ikalimang puwesto at ang 戌 ay nasa ikalabing-isang puwesto, at anim na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Dragon at ang Aso",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacChung} puntos sa zodiac compatibility at nang {swingDayBranchChung} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Dragon** — Six-Harmony [Manok](/guide/zodiac-pair-dragon-rooster) · Half triad [Daga](/guide/zodiac-pair-rat-dragon) · Discord [Baboy](/guide/zodiac-pair-dragon-pig) · Clash [Aso](/guide/zodiac-pair-dragon-dog)",
+              "Mga espesyal na kapareha ng **Aso** — Six-Harmony [Kuneho](/guide/zodiac-pair-rabbit-dog) · Half triad [Kabayo](/guide/zodiac-pair-horse-dog) · Discord [Ahas](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Dragon](/guide/zodiac-dragon) · [Aso](/guide/zodiac-dog), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Dragon at ang Baboy — Discord",
+    "summary": "Kung anong relasyon ang taglay ng Dragon at ng Baboy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Dragon at ang Baboy ay bumubuo ng discord",
+        "blocks": [
+          {
+            "p": "Ang Dragon at ang Baboy ay bumubuo ng discord. Ang posisyon ng clash ng 辰 ay 戌 (ang Aso), at nasa tabi nito mismo ang 亥; nasa tabi mismo ng 巳 (ang Ahas), ang posisyon ng clash ng 亥, ang 辰."
+          },
+          {
+            "p": "Tradisyonal itong itinuturing na pares na may sama ng loob sa isa't isa ngunit hindi mapaghiwalay. Mukhang kalmado sa ibabaw, ngunit pinaniniwalaang tumatagal ang hindi pagkakatugma, kaya nakakakuha ito ng {scoreWonjin} — mas mataas kaysa sa clash ({scoreChung}) at mas mababa kaysa sa neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Sa bilog, ang 辰 ay nasa ikalimang puwesto at ang 亥 ay nasa ikalabindalawang puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Dragon at ang Baboy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacWonjin} puntos sa zodiac compatibility at nang {swingDayBranchWonjin} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Dragon** — Six-Harmony [Manok](/guide/zodiac-pair-dragon-rooster) · Half triad [Daga](/guide/zodiac-pair-rat-dragon) · Discord [Baboy](/guide/zodiac-pair-dragon-pig) · Clash [Aso](/guide/zodiac-pair-dragon-dog)",
+              "Mga espesyal na kapareha ng **Baboy** — Six-Harmony [Tigre](/guide/zodiac-pair-tiger-pig) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Ahas](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Dragon](/guide/zodiac-dragon) · [Baboy](/guide/zodiac-pig), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Ahas at ang Ahas — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Ahas, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Ahas",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Ahas (巳 at 巳). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 巳 ang ikaanim sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Ahas",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Ahas",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Ahas** — Six-Harmony [Unggoy](/guide/zodiac-pair-snake-monkey) · Half triad [Manok](/guide/zodiac-pair-snake-rooster) · Discord [Aso](/guide/zodiac-pair-snake-dog) · Clash [Baboy](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Ahas](/guide/zodiac-snake), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Ahas at ang Unggoy — Six-Harmony",
+    "summary": "Kung anong relasyon ang taglay ng Ahas at ng Unggoy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Ahas at ang Unggoy ay bumubuo ng six-harmony",
+        "blocks": [
+          {
+            "p": "Ang Ahas at ang Unggoy ay bumubuo ng six-harmony. Bumubuo ng harmonya ang 巳 at 申 gamit lang ang dalawang karakter."
+          },
+          {
+            "p": "Ang six-harmony ang magandang relasyong pinakamadalas lumitaw sa compatibility, at sa {scoreYukhap} ito ang pinakamataas na score na makukuha ng alinman sa dalawang hayop."
+          },
+          {
+            "p": "Sa bilog, ang 巳 ay nasa ikaanim na puwesto at ang 申 ay nasa ikasiyam na puwesto, at tatlong hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Ahas at ang Unggoy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacYukhap} puntos sa zodiac compatibility at nang {swingDayBranchYukhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Ahas** — Six-Harmony [Unggoy](/guide/zodiac-pair-snake-monkey) · Half triad [Manok](/guide/zodiac-pair-snake-rooster) · Discord [Aso](/guide/zodiac-pair-snake-dog) · Clash [Baboy](/guide/zodiac-pair-snake-pig)",
+              "Mga espesyal na kapareha ng **Unggoy** — Six-Harmony [Ahas](/guide/zodiac-pair-snake-monkey) · Half triad [Daga](/guide/zodiac-pair-rat-monkey) · Discord [Kuneho](/guide/zodiac-pair-rabbit-monkey) · Clash [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Ahas](/guide/zodiac-snake) · [Unggoy](/guide/zodiac-monkey), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Ahas at ang Manok — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Ahas at ng Manok, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Ahas at ang Manok ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Ahas at ang Manok ay bumubuo ng half triad. Ang 巳酉丑 ay isang triad group (ang grupong metal), at ang 酉 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Baka (丑) at ang Ahas (巳) ng parehong grupo ay walang gitnang karakter na 酉, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 巳 ay nasa ikaanim na puwesto at ang 酉 ay nasa ikasampung puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Ahas at ang Manok",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Ahas** — Six-Harmony [Unggoy](/guide/zodiac-pair-snake-monkey) · Half triad [Manok](/guide/zodiac-pair-snake-rooster) · Discord [Aso](/guide/zodiac-pair-snake-dog) · Clash [Baboy](/guide/zodiac-pair-snake-pig)",
+              "Mga espesyal na kapareha ng **Manok** — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Baka](/guide/zodiac-pair-ox-rooster), [Ahas](/guide/zodiac-pair-snake-rooster) · Discord [Tigre](/guide/zodiac-pair-tiger-rooster) · Clash [Kuneho](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Ahas](/guide/zodiac-snake) · [Manok](/guide/zodiac-rooster), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Ahas at ang Aso — Discord",
+    "summary": "Kung anong relasyon ang taglay ng Ahas at ng Aso, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Ahas at ang Aso ay bumubuo ng discord",
+        "blocks": [
+          {
+            "p": "Ang Ahas at ang Aso ay bumubuo ng discord. Ang posisyon ng clash ng 巳 ay 亥 (ang Baboy), at nasa tabi nito mismo ang 戌; nasa tabi mismo ng 辰 (ang Dragon), ang posisyon ng clash ng 戌, ang 巳."
+          },
+          {
+            "p": "Tradisyonal itong itinuturing na pares na may sama ng loob sa isa't isa ngunit hindi mapaghiwalay. Mukhang kalmado sa ibabaw, ngunit pinaniniwalaang tumatagal ang hindi pagkakatugma, kaya nakakakuha ito ng {scoreWonjin} — mas mataas kaysa sa clash ({scoreChung}) at mas mababa kaysa sa neutral ({scoreNeutral})."
+          },
+          {
+            "p": "Sa bilog, ang 巳 ay nasa ikaanim na puwesto at ang 戌 ay nasa ikalabing-isang puwesto, at limang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Ahas at ang Aso",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Discord"
+                ],
+                [
+                  "Score",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacWonjin} puntos sa zodiac compatibility at nang {swingDayBranchWonjin} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Ahas** — Six-Harmony [Unggoy](/guide/zodiac-pair-snake-monkey) · Half triad [Manok](/guide/zodiac-pair-snake-rooster) · Discord [Aso](/guide/zodiac-pair-snake-dog) · Clash [Baboy](/guide/zodiac-pair-snake-pig)",
+              "Mga espesyal na kapareha ng **Aso** — Six-Harmony [Kuneho](/guide/zodiac-pair-rabbit-dog) · Half triad [Kabayo](/guide/zodiac-pair-horse-dog) · Discord [Ahas](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Ahas](/guide/zodiac-snake) · [Aso](/guide/zodiac-dog), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Ahas at ang Baboy — Clash",
+    "summary": "Kung anong relasyon ang taglay ng Ahas at ng Baboy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Ahas at ang Baboy ay bumubuo ng clash",
+        "blocks": [
+          {
+            "p": "Ang Ahas at ang Baboy ay bumubuo ng clash. Magkatapat mismo sa bilog ang 巳 at 亥."
+          },
+          {
+            "p": "Pinananatili ng serbisyong ito ang {scoreChung} puntos kahit sa clash. Sa tradisyonal na myeongri, ang clash ay banggaan, hindi katapusan ng relasyon, at ang pagbibigay ng score na malapit sa pinakailalim ay magiging parang paghatol sa dalawang tao."
+          },
+          {
+            "p": "Sa bilog, ang 巳 ay nasa ikaanim na puwesto at ang 亥 ay nasa ikalabindalawang puwesto, at anim na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Ahas at ang Baboy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Clash"
+                ],
+                [
+                  "Score",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, ibinababa ng pares na ito ang huling match rate nang {swingZodiacChung} puntos sa zodiac compatibility at nang {swingDayBranchChung} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Ahas** — Six-Harmony [Unggoy](/guide/zodiac-pair-snake-monkey) · Half triad [Manok](/guide/zodiac-pair-snake-rooster) · Discord [Aso](/guide/zodiac-pair-snake-dog) · Clash [Baboy](/guide/zodiac-pair-snake-pig)",
+              "Mga espesyal na kapareha ng **Baboy** — Six-Harmony [Tigre](/guide/zodiac-pair-tiger-pig) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Ahas](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Ahas](/guide/zodiac-snake) · [Baboy](/guide/zodiac-pig), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kabayo at ang Kabayo — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Kabayo, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Kabayo",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Kabayo (午 at 午). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 午 ang ikapito sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Kabayo",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Kabayo",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kabayo** — Six-Harmony [Tupa](/guide/zodiac-pair-horse-goat) · Half triad [Tigre](/guide/zodiac-pair-tiger-horse), [Aso](/guide/zodiac-pair-horse-dog) · Discord [Baka](/guide/zodiac-pair-ox-horse) · Clash [Daga](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kabayo](/guide/zodiac-horse), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kabayo at ang Tupa — Six-Harmony",
+    "summary": "Kung anong relasyon ang taglay ng Kabayo at ng Tupa, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Kabayo at ang Tupa ay bumubuo ng six-harmony",
+        "blocks": [
+          {
+            "p": "Ang Kabayo at ang Tupa ay bumubuo ng six-harmony. Bumubuo ng harmonya ang 午 at 未 gamit lang ang dalawang karakter."
+          },
+          {
+            "p": "Ang six-harmony ang magandang relasyong pinakamadalas lumitaw sa compatibility, at sa {scoreYukhap} ito ang pinakamataas na score na makukuha ng alinman sa dalawang hayop."
+          },
+          {
+            "p": "Sa bilog, ang 午 ay nasa ikapitong puwesto at ang 未 ay nasa ikawalong puwesto, at isang hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Kabayo at ang Tupa",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Six-Harmony"
+                ],
+                [
+                  "Score",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacYukhap} puntos sa zodiac compatibility at nang {swingDayBranchYukhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kabayo** — Six-Harmony [Tupa](/guide/zodiac-pair-horse-goat) · Half triad [Tigre](/guide/zodiac-pair-tiger-horse), [Aso](/guide/zodiac-pair-horse-dog) · Discord [Baka](/guide/zodiac-pair-ox-horse) · Clash [Daga](/guide/zodiac-pair-rat-horse)",
+              "Mga espesyal na kapareha ng **Tupa** — Six-Harmony [Kabayo](/guide/zodiac-pair-horse-goat) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-goat) · Discord [Daga](/guide/zodiac-pair-rat-goat) · Clash [Baka](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kabayo](/guide/zodiac-horse) · [Tupa](/guide/zodiac-goat), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Kabayo at ang Aso — Half triad",
+    "summary": "Kung anong relasyon ang taglay ng Kabayo at ng Aso, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Kabayo at ang Aso ay bumubuo ng half triad",
+        "blocks": [
+          {
+            "p": "Ang Kabayo at ang Aso ay bumubuo ng half triad. Ang 寅午戌 ay isang triad group (ang grupong apoy), at ang 午 ang **royal branch** sa gitna nito."
+          },
+          {
+            "p": "Tinatanggap lang ng Inyeon-Link ang mga pares na kasama ang royal branch, kaya half triad ({scoreBanhap}) ang pares na ito."
+          },
+          {
+            "p": "Ang Tigre (寅) at ang Aso (戌) ng parehong grupo ay walang gitnang karakter na 午, kaya hindi sila binibilang na harmonya at itinuturing na neutral."
+          },
+          {
+            "p": "Sa bilog, ang 午 ay nasa ikapitong puwesto at ang 戌 ay nasa ikalabing-isang puwesto, at apat na hakbang ang layo ng dalawang karakter sa isa't isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ang Kabayo at ang Aso",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Half triad"
+                ],
+                [
+                  "Score",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacBanhap} puntos sa zodiac compatibility at nang {swingDayBranchBanhap} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng bawat hayop",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Kabayo** — Six-Harmony [Tupa](/guide/zodiac-pair-horse-goat) · Half triad [Tigre](/guide/zodiac-pair-tiger-horse), [Aso](/guide/zodiac-pair-horse-dog) · Discord [Baka](/guide/zodiac-pair-ox-horse) · Clash [Daga](/guide/zodiac-pair-rat-horse)",
+              "Mga espesyal na kapareha ng **Aso** — Six-Harmony [Kuneho](/guide/zodiac-pair-rabbit-dog) · Half triad [Kabayo](/guide/zodiac-pair-horse-dog) · Discord [Ahas](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Kabayo](/guide/zodiac-horse) · [Aso](/guide/zodiac-dog), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Tupa at ang Tupa — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Tupa, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Tupa",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Tupa (未 at 未). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 未 ang ikawalo sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Tupa",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Tupa",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Tupa** — Six-Harmony [Kabayo](/guide/zodiac-pair-horse-goat) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-goat) · Discord [Daga](/guide/zodiac-pair-rat-goat) · Clash [Baka](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Tupa](/guide/zodiac-goat), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Unggoy at ang Unggoy — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Unggoy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Unggoy",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Unggoy (申 at 申). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 申 ang ikasiyam sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Unggoy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Unggoy",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Unggoy** — Six-Harmony [Ahas](/guide/zodiac-pair-snake-monkey) · Half triad [Daga](/guide/zodiac-pair-rat-monkey) · Discord [Kuneho](/guide/zodiac-pair-rabbit-monkey) · Clash [Tigre](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Unggoy](/guide/zodiac-monkey), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Manok at ang Manok — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Manok, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Manok",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Manok (酉 at 酉). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 酉 ang ikasampu sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Manok",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Manok",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Manok** — Six-Harmony [Dragon](/guide/zodiac-pair-dragon-rooster) · Half triad [Baka](/guide/zodiac-pair-ox-rooster), [Ahas](/guide/zodiac-pair-snake-rooster) · Discord [Tigre](/guide/zodiac-pair-tiger-rooster) · Clash [Kuneho](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Manok](/guide/zodiac-rooster), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Aso at ang Aso — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Aso, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Aso",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Aso (戌 at 戌). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 戌 ang ikalabing-isa sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Aso",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Aso",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Aso** — Six-Harmony [Kuneho](/guide/zodiac-pair-rabbit-dog) · Half triad [Kabayo](/guide/zodiac-pair-horse-dog) · Discord [Ahas](/guide/zodiac-pair-snake-dog) · Clash [Dragon](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Aso](/guide/zodiac-dog), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "Ayon sa pares",
+    "title": "Ang Baboy at ang Baboy — Parehong Branch",
+    "summary": "Kung anong relasyon ang taglay ng dalawang taong Baboy, kung ilang puntos ang nakukuha nito, at kung gaano kalaki ang ibinabago ng score na iyon sa huling match rate — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Inyeon-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Parehong branch ang taglay ng dalawang taong Baboy",
+        "blocks": [
+          {
+            "p": "Parehong branch ang taglay ng dalawang taong Baboy (亥 at 亥). Ibig sabihin nito ay magkahawig sila, hindi magkaakit."
+          },
+          {
+            "p": "Kaya may score itong {scoreSame}, bahagyang nasa itaas ng neutral ({scoreNeutral}): hindi harmonya, clash o discord, bahagya lang na itinaas."
+          },
+          {
+            "p": "Ang 亥 ang ikalabindalawa sa labindalawang earthly branch."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga numero ng pares na ito",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Dalawang taong Baboy",
+              "head": [
+                "Aytem",
+                "Halaga"
+              ],
+              "rows": [
+                [
+                  "Relasyon",
+                  "Parehong branch"
+                ],
+                [
+                  "Score",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa zodiac compatibility",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Bahagi ng huling match rate sa day branch compatibility",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gaano kalaki ang ibinabago nito sa huling match rate",
+        "blocks": [
+          {
+            "p": "Kung pantay ang lahat ng iba, itinataas ng pares na ito ang huling match rate nang {swingZodiacSame} puntos sa zodiac compatibility at nang {swingDayBranchSame} puntos sa day branch compatibility, kumpara sa neutral na pares."
+          },
+          {
+            "p": "Inilalagay ng zodiac compatibility nang magkatabi ang mga branch ng taon ng kapanganakan, at ng day branch compatibility ang sa araw ng kapanganakan. Maaaring magkaibang branch ang dalawa, kaya ang parehong dalawang tao ay maaaring magpakita ng magkaibang relasyon sa bawat isa."
+          }
+        ]
+      },
+      {
+        "title": "Ang iba pang espesyal na relasyon ng Baboy",
+        "blocks": [
+          {
+            "ul": [
+              "Mga espesyal na kapareha ng **Baboy** — Six-Harmony [Tigre](/guide/zodiac-pair-tiger-pig) · Half triad [Kuneho](/guide/zodiac-pair-rabbit-pig) · Discord [Dragon](/guide/zodiac-pair-dragon-pig) · Clash [Ahas](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang hayop sa relasyon ng dalawang tao. Ang {weightSaju} ng huling match rate ay itinatakda ng saju compatibility.",
+              "Ipinapalagay ng mga pagbabago sa puntos sa itaas na pantay ang lahat ng iba; ang aktuwal na resulta ay itinatakda ng buong saju ng dalawang tao."
+            ]
+          },
+          {
+            "p": "Ang buong gabay sa bawat hayop ay nasa [Baboy](/guide/zodiac-pig), at ang buong tsart ay nasa [tsart ng labindalawang branch](/guide/branches)."
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Ten Gods",
     "title": "Ten Gods at Posisyon ng Asawa",

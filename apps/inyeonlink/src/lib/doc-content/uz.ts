@@ -2769,6 +2769,3514 @@ export const UZ_DOCS = {
     ]
   },
 
+  "guide/zodiac-pair-rat-rat": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sichqon va Sichqon — Bir xil shox",
+    "summary": "Ikki Sichqon yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Sichqon yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Sichqon yilida tug'ilgan kishi bir xil shoxga ega (子 va 子). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "子 — o'n ikki yer shoxining birinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Sichqon yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Sichqonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sichqon**ning maxsus juftlari — Olti uyg'unlik [Sigir](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Ajdar](/guide/zodiac-pair-rat-dragon), [Maymun](/guide/zodiac-pair-rat-monkey) · Nizo [Qo'y](/guide/zodiac-pair-rat-goat) · To'qnashuv [Ot](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sichqon](/guide/zodiac-rat); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-ox": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sichqon va Sigir — Olti uyg'unlik",
+    "summary": "Sichqon va Sigir o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sichqon va Sigir olti uyg'unlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sichqon va Sigir olti uyg'unlik hosil qiladi. 子 va 丑 faqat ikki belgi bilan uyg'unlik hosil qiladi."
+          },
+          {
+            "p": "Olti uyg'unlik moslikda eng tez-tez uchraydigan yaxshi munosabat bo'lib, {scoreYukhap} ball bilan ikkala hayvon olishi mumkin bo'lgan eng yuqori ball hisoblanadi."
+          },
+          {
+            "p": "Doirada 子 birinchi o'rinda, 丑 esa ikkinchi o'rinda turadi; ikki belgi bir-biridan bir qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sichqon va Sigir",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Olti uyg'unlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacYukhap} ball, kun shoxi mosligida esa {swingDayBranchYukhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sichqon**ning maxsus juftlari — Olti uyg'unlik [Sigir](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Ajdar](/guide/zodiac-pair-rat-dragon), [Maymun](/guide/zodiac-pair-rat-monkey) · Nizo [Qo'y](/guide/zodiac-pair-rat-goat) · To'qnashuv [Ot](/guide/zodiac-pair-rat-horse)",
+              "**Sigir**ning maxsus juftlari — Olti uyg'unlik [Sichqon](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-ox-rooster) · Nizo [Ot](/guide/zodiac-pair-ox-horse) · To'qnashuv [Qo'y](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sichqon](/guide/zodiac-rat) · [Sigir](/guide/zodiac-ox); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-dragon": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sichqon va Ajdar — Yarim uchlik",
+    "summary": "Sichqon va Ajdar o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sichqon va Ajdar yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sichqon va Ajdar yarim uchlik hosil qiladi. 申子辰 — bitta uchlik guruhi (suv guruhi), 子 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi Maymun (申) va Ajdar (辰) markaziy 子 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 子 birinchi o'rinda, 辰 esa beshinchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sichqon va Ajdar",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sichqon**ning maxsus juftlari — Olti uyg'unlik [Sigir](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Ajdar](/guide/zodiac-pair-rat-dragon), [Maymun](/guide/zodiac-pair-rat-monkey) · Nizo [Qo'y](/guide/zodiac-pair-rat-goat) · To'qnashuv [Ot](/guide/zodiac-pair-rat-horse)",
+              "**Ajdar**ning maxsus juftlari — Olti uyg'unlik [Xo'roz](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-dragon) · Nizo [Cho'chqa](/guide/zodiac-pair-dragon-pig) · To'qnashuv [It](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sichqon](/guide/zodiac-rat) · [Ajdar](/guide/zodiac-dragon); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-horse": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sichqon va Ot — To'qnashuv",
+    "summary": "Sichqon va Ot o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sichqon va Ot to'qnashuv hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sichqon va Ot to'qnashuv hosil qiladi. 子 va 午 doirada aynan bir-biriga qarama-qarshi turadi."
+          },
+          {
+            "p": "Bu xizmat to'qnashuv uchun ham {scoreChung} ballni saqlaydi. An'anaviy myeongri'da to'qnashuv — bu to'qnashish, munosabatning oxiri emas, pastki chegaraga yaqin ball berish esa ikki kishi haqida hukm chiqarishga teng bo'lardi."
+          },
+          {
+            "p": "Doirada 子 birinchi o'rinda, 午 esa yettinchi o'rinda turadi; ikki belgi bir-biridan olti qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sichqon va Ot",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "To'qnashuv"
+                ],
+                [
+                  "Ball",
+                  "{scoreChung}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacChung} ball, kun shoxi mosligida esa {swingDayBranchChung} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sichqon**ning maxsus juftlari — Olti uyg'unlik [Sigir](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Ajdar](/guide/zodiac-pair-rat-dragon), [Maymun](/guide/zodiac-pair-rat-monkey) · Nizo [Qo'y](/guide/zodiac-pair-rat-goat) · To'qnashuv [Ot](/guide/zodiac-pair-rat-horse)",
+              "**Ot**ning maxsus juftlari — Olti uyg'unlik [Qo'y](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Yo'lbars](/guide/zodiac-pair-tiger-horse), [It](/guide/zodiac-pair-horse-dog) · Nizo [Sigir](/guide/zodiac-pair-ox-horse) · To'qnashuv [Sichqon](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sichqon](/guide/zodiac-rat) · [Ot](/guide/zodiac-horse); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-goat": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sichqon va Qo'y — Nizo",
+    "summary": "Sichqon va Qo'y o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sichqon va Qo'y nizo hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sichqon va Qo'y nizo hosil qiladi. 子 belgisining to'qnashuv o'rni 午 (Ot), 未 esa uning yonida turadi; 未 belgisining to'qnashuv o'rni 丑 (Sigir), 子 esa uning yonida turadi."
+          },
+          {
+            "p": "An'anaga ko'ra bu bir-biridan ranjigan, ammo ajrala olmaydigan juftlik deb qaraladi. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi, shuning uchun u {scoreWonjin} oladi — to'qnashuvdan ({scoreChung}) yuqori va neytraldan ({scoreNeutral}) past."
+          },
+          {
+            "p": "Doirada 子 birinchi o'rinda, 未 esa sakkizinchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sichqon va Qo'y",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Nizo"
+                ],
+                [
+                  "Ball",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacWonjin} ball, kun shoxi mosligida esa {swingDayBranchWonjin} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sichqon**ning maxsus juftlari — Olti uyg'unlik [Sigir](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Ajdar](/guide/zodiac-pair-rat-dragon), [Maymun](/guide/zodiac-pair-rat-monkey) · Nizo [Qo'y](/guide/zodiac-pair-rat-goat) · To'qnashuv [Ot](/guide/zodiac-pair-rat-horse)",
+              "**Qo'y**ning maxsus juftlari — Olti uyg'unlik [Ot](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-goat) · Nizo [Sichqon](/guide/zodiac-pair-rat-goat) · To'qnashuv [Sigir](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sichqon](/guide/zodiac-rat) · [Qo'y](/guide/zodiac-goat); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rat-monkey": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sichqon va Maymun — Yarim uchlik",
+    "summary": "Sichqon va Maymun o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sichqon va Maymun yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sichqon va Maymun yarim uchlik hosil qiladi. 申子辰 — bitta uchlik guruhi (suv guruhi), 子 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi Ajdar (辰) va Maymun (申) markaziy 子 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 子 birinchi o'rinda, 申 esa to'qqizinchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sichqon va Maymun",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sichqon**ning maxsus juftlari — Olti uyg'unlik [Sigir](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Ajdar](/guide/zodiac-pair-rat-dragon), [Maymun](/guide/zodiac-pair-rat-monkey) · Nizo [Qo'y](/guide/zodiac-pair-rat-goat) · To'qnashuv [Ot](/guide/zodiac-pair-rat-horse)",
+              "**Maymun**ning maxsus juftlari — Olti uyg'unlik [Ilon](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-monkey) · Nizo [Quyon](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Yo'lbars](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sichqon](/guide/zodiac-rat) · [Maymun](/guide/zodiac-monkey); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-ox": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sigir va Sigir — Bir xil shox",
+    "summary": "Ikki Sigir yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Sigir yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Sigir yilida tug'ilgan kishi bir xil shoxga ega (丑 va 丑). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "丑 — o'n ikki yer shoxining ikkinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Sigir yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Sigirning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sigir**ning maxsus juftlari — Olti uyg'unlik [Sichqon](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-ox-rooster) · Nizo [Ot](/guide/zodiac-pair-ox-horse) · To'qnashuv [Qo'y](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sigir](/guide/zodiac-ox); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-horse": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sigir va Ot — Nizo",
+    "summary": "Sigir va Ot o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sigir va Ot nizo hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sigir va Ot nizo hosil qiladi. 丑 belgisining to'qnashuv o'rni 未 (Qo'y), 午 esa uning yonida turadi; 午 belgisining to'qnashuv o'rni 子 (Sichqon), 丑 esa uning yonida turadi."
+          },
+          {
+            "p": "An'anaga ko'ra bu bir-biridan ranjigan, ammo ajrala olmaydigan juftlik deb qaraladi. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi, shuning uchun u {scoreWonjin} oladi — to'qnashuvdan ({scoreChung}) yuqori va neytraldan ({scoreNeutral}) past."
+          },
+          {
+            "p": "Doirada 丑 ikkinchi o'rinda, 午 esa yettinchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sigir va Ot",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Nizo"
+                ],
+                [
+                  "Ball",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacWonjin} ball, kun shoxi mosligida esa {swingDayBranchWonjin} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sigir**ning maxsus juftlari — Olti uyg'unlik [Sichqon](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-ox-rooster) · Nizo [Ot](/guide/zodiac-pair-ox-horse) · To'qnashuv [Qo'y](/guide/zodiac-pair-ox-goat)",
+              "**Ot**ning maxsus juftlari — Olti uyg'unlik [Qo'y](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Yo'lbars](/guide/zodiac-pair-tiger-horse), [It](/guide/zodiac-pair-horse-dog) · Nizo [Sigir](/guide/zodiac-pair-ox-horse) · To'qnashuv [Sichqon](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sigir](/guide/zodiac-ox) · [Ot](/guide/zodiac-horse); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-goat": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sigir va Qo'y — To'qnashuv",
+    "summary": "Sigir va Qo'y o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sigir va Qo'y to'qnashuv hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sigir va Qo'y to'qnashuv hosil qiladi. 丑 va 未 doirada aynan bir-biriga qarama-qarshi turadi."
+          },
+          {
+            "p": "Bu xizmat to'qnashuv uchun ham {scoreChung} ballni saqlaydi. An'anaviy myeongri'da to'qnashuv — bu to'qnashish, munosabatning oxiri emas, pastki chegaraga yaqin ball berish esa ikki kishi haqida hukm chiqarishga teng bo'lardi."
+          },
+          {
+            "p": "Doirada 丑 ikkinchi o'rinda, 未 esa sakkizinchi o'rinda turadi; ikki belgi bir-biridan olti qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sigir va Qo'y",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "To'qnashuv"
+                ],
+                [
+                  "Ball",
+                  "{scoreChung}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacChung} ball, kun shoxi mosligida esa {swingDayBranchChung} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sigir**ning maxsus juftlari — Olti uyg'unlik [Sichqon](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-ox-rooster) · Nizo [Ot](/guide/zodiac-pair-ox-horse) · To'qnashuv [Qo'y](/guide/zodiac-pair-ox-goat)",
+              "**Qo'y**ning maxsus juftlari — Olti uyg'unlik [Ot](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-goat) · Nizo [Sichqon](/guide/zodiac-pair-rat-goat) · To'qnashuv [Sigir](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sigir](/guide/zodiac-ox) · [Qo'y](/guide/zodiac-goat); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-ox-rooster": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Sigir va Xo'roz — Yarim uchlik",
+    "summary": "Sigir va Xo'roz o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Sigir va Xo'roz yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Sigir va Xo'roz yarim uchlik hosil qiladi. 巳酉丑 — bitta uchlik guruhi (metall guruhi), 酉 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi Ilon (巳) va Sigir (丑) markaziy 酉 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 丑 ikkinchi o'rinda, 酉 esa o'ninchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Sigir va Xo'roz",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Sigir**ning maxsus juftlari — Olti uyg'unlik [Sichqon](/guide/zodiac-pair-rat-ox) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-ox-rooster) · Nizo [Ot](/guide/zodiac-pair-ox-horse) · To'qnashuv [Qo'y](/guide/zodiac-pair-ox-goat)",
+              "**Xo'roz**ning maxsus juftlari — Olti uyg'unlik [Ajdar](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sigir](/guide/zodiac-pair-ox-rooster), [Ilon](/guide/zodiac-pair-snake-rooster) · Nizo [Yo'lbars](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Quyon](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Sigir](/guide/zodiac-ox) · [Xo'roz](/guide/zodiac-rooster); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-tiger": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Yo'lbars va Yo'lbars — Bir xil shox",
+    "summary": "Ikki Yo'lbars yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Yo'lbars yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Yo'lbars yilida tug'ilgan kishi bir xil shoxga ega (寅 va 寅). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "寅 — o'n ikki yer shoxining uchinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Yo'lbars yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Yo'lbarsning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Yo'lbars**ning maxsus juftlari — Olti uyg'unlik [Cho'chqa](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Ot](/guide/zodiac-pair-tiger-horse) · Nizo [Xo'roz](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Maymun](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Yo'lbars](/guide/zodiac-tiger); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-horse": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Yo'lbars va Ot — Yarim uchlik",
+    "summary": "Yo'lbars va Ot o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Yo'lbars va Ot yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Yo'lbars va Ot yarim uchlik hosil qiladi. 寅午戌 — bitta uchlik guruhi (olov guruhi), 午 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi It (戌) va Yo'lbars (寅) markaziy 午 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 寅 uchinchi o'rinda, 午 esa yettinchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Yo'lbars va Ot",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Yo'lbars**ning maxsus juftlari — Olti uyg'unlik [Cho'chqa](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Ot](/guide/zodiac-pair-tiger-horse) · Nizo [Xo'roz](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Maymun](/guide/zodiac-pair-tiger-monkey)",
+              "**Ot**ning maxsus juftlari — Olti uyg'unlik [Qo'y](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Yo'lbars](/guide/zodiac-pair-tiger-horse), [It](/guide/zodiac-pair-horse-dog) · Nizo [Sigir](/guide/zodiac-pair-ox-horse) · To'qnashuv [Sichqon](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Yo'lbars](/guide/zodiac-tiger) · [Ot](/guide/zodiac-horse); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-monkey": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Yo'lbars va Maymun — To'qnashuv",
+    "summary": "Yo'lbars va Maymun o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Yo'lbars va Maymun to'qnashuv hosil qiladi",
+        "blocks": [
+          {
+            "p": "Yo'lbars va Maymun to'qnashuv hosil qiladi. 寅 va 申 doirada aynan bir-biriga qarama-qarshi turadi."
+          },
+          {
+            "p": "Bu xizmat to'qnashuv uchun ham {scoreChung} ballni saqlaydi. An'anaviy myeongri'da to'qnashuv — bu to'qnashish, munosabatning oxiri emas, pastki chegaraga yaqin ball berish esa ikki kishi haqida hukm chiqarishga teng bo'lardi."
+          },
+          {
+            "p": "Doirada 寅 uchinchi o'rinda, 申 esa to'qqizinchi o'rinda turadi; ikki belgi bir-biridan olti qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Yo'lbars va Maymun",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "To'qnashuv"
+                ],
+                [
+                  "Ball",
+                  "{scoreChung}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacChung} ball, kun shoxi mosligida esa {swingDayBranchChung} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Yo'lbars**ning maxsus juftlari — Olti uyg'unlik [Cho'chqa](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Ot](/guide/zodiac-pair-tiger-horse) · Nizo [Xo'roz](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Maymun](/guide/zodiac-pair-tiger-monkey)",
+              "**Maymun**ning maxsus juftlari — Olti uyg'unlik [Ilon](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-monkey) · Nizo [Quyon](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Yo'lbars](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Yo'lbars](/guide/zodiac-tiger) · [Maymun](/guide/zodiac-monkey); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-rooster": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Yo'lbars va Xo'roz — Nizo",
+    "summary": "Yo'lbars va Xo'roz o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Yo'lbars va Xo'roz nizo hosil qiladi",
+        "blocks": [
+          {
+            "p": "Yo'lbars va Xo'roz nizo hosil qiladi. 寅 belgisining to'qnashuv o'rni 申 (Maymun), 酉 esa uning yonida turadi; 酉 belgisining to'qnashuv o'rni 卯 (Quyon), 寅 esa uning yonida turadi."
+          },
+          {
+            "p": "An'anaga ko'ra bu bir-biridan ranjigan, ammo ajrala olmaydigan juftlik deb qaraladi. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi, shuning uchun u {scoreWonjin} oladi — to'qnashuvdan ({scoreChung}) yuqori va neytraldan ({scoreNeutral}) past."
+          },
+          {
+            "p": "Doirada 寅 uchinchi o'rinda, 酉 esa o'ninchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Yo'lbars va Xo'roz",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Nizo"
+                ],
+                [
+                  "Ball",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacWonjin} ball, kun shoxi mosligida esa {swingDayBranchWonjin} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Yo'lbars**ning maxsus juftlari — Olti uyg'unlik [Cho'chqa](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Ot](/guide/zodiac-pair-tiger-horse) · Nizo [Xo'roz](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Maymun](/guide/zodiac-pair-tiger-monkey)",
+              "**Xo'roz**ning maxsus juftlari — Olti uyg'unlik [Ajdar](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sigir](/guide/zodiac-pair-ox-rooster), [Ilon](/guide/zodiac-pair-snake-rooster) · Nizo [Yo'lbars](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Quyon](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Yo'lbars](/guide/zodiac-tiger) · [Xo'roz](/guide/zodiac-rooster); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-tiger-pig": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Yo'lbars va Cho'chqa — Olti uyg'unlik",
+    "summary": "Yo'lbars va Cho'chqa o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Yo'lbars va Cho'chqa olti uyg'unlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Yo'lbars va Cho'chqa olti uyg'unlik hosil qiladi. 寅 va 亥 faqat ikki belgi bilan uyg'unlik hosil qiladi."
+          },
+          {
+            "p": "Olti uyg'unlik moslikda eng tez-tez uchraydigan yaxshi munosabat bo'lib, {scoreYukhap} ball bilan ikkala hayvon olishi mumkin bo'lgan eng yuqori ball hisoblanadi."
+          },
+          {
+            "p": "Doirada 寅 uchinchi o'rinda, 亥 esa o'n ikkinchi o'rinda turadi; ikki belgi bir-biridan uch qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Yo'lbars va Cho'chqa",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Olti uyg'unlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacYukhap} ball, kun shoxi mosligida esa {swingDayBranchYukhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Yo'lbars**ning maxsus juftlari — Olti uyg'unlik [Cho'chqa](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Ot](/guide/zodiac-pair-tiger-horse) · Nizo [Xo'roz](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Maymun](/guide/zodiac-pair-tiger-monkey)",
+              "**Cho'chqa**ning maxsus juftlari — Olti uyg'unlik [Yo'lbars](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-pig) · Nizo [Ajdar](/guide/zodiac-pair-dragon-pig) · To'qnashuv [Ilon](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Yo'lbars](/guide/zodiac-tiger) · [Cho'chqa](/guide/zodiac-pig); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rabbit": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Quyon va Quyon — Bir xil shox",
+    "summary": "Ikki Quyon yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Quyon yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Quyon yilida tug'ilgan kishi bir xil shoxga ega (卯 va 卯). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "卯 — o'n ikki yer shoxining to'rtinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Quyon yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Quyonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Quyon**ning maxsus juftlari — Olti uyg'unlik [It](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Qo'y](/guide/zodiac-pair-rabbit-goat), [Cho'chqa](/guide/zodiac-pair-rabbit-pig) · Nizo [Maymun](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Xo'roz](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Quyon](/guide/zodiac-rabbit); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-goat": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Quyon va Qo'y — Yarim uchlik",
+    "summary": "Quyon va Qo'y o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Quyon va Qo'y yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Quyon va Qo'y yarim uchlik hosil qiladi. 亥卯未 — bitta uchlik guruhi (yog'och guruhi), 卯 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi Cho'chqa (亥) va Qo'y (未) markaziy 卯 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 卯 to'rtinchi o'rinda, 未 esa sakkizinchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Quyon va Qo'y",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Quyon**ning maxsus juftlari — Olti uyg'unlik [It](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Qo'y](/guide/zodiac-pair-rabbit-goat), [Cho'chqa](/guide/zodiac-pair-rabbit-pig) · Nizo [Maymun](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Xo'roz](/guide/zodiac-pair-rabbit-rooster)",
+              "**Qo'y**ning maxsus juftlari — Olti uyg'unlik [Ot](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-goat) · Nizo [Sichqon](/guide/zodiac-pair-rat-goat) · To'qnashuv [Sigir](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Quyon](/guide/zodiac-rabbit) · [Qo'y](/guide/zodiac-goat); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-monkey": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Quyon va Maymun — Nizo",
+    "summary": "Quyon va Maymun o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Quyon va Maymun nizo hosil qiladi",
+        "blocks": [
+          {
+            "p": "Quyon va Maymun nizo hosil qiladi. 卯 belgisining to'qnashuv o'rni 酉 (Xo'roz), 申 esa uning yonida turadi; 申 belgisining to'qnashuv o'rni 寅 (Yo'lbars), 卯 esa uning yonida turadi."
+          },
+          {
+            "p": "An'anaga ko'ra bu bir-biridan ranjigan, ammo ajrala olmaydigan juftlik deb qaraladi. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi, shuning uchun u {scoreWonjin} oladi — to'qnashuvdan ({scoreChung}) yuqori va neytraldan ({scoreNeutral}) past."
+          },
+          {
+            "p": "Doirada 卯 to'rtinchi o'rinda, 申 esa to'qqizinchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Quyon va Maymun",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Nizo"
+                ],
+                [
+                  "Ball",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacWonjin} ball, kun shoxi mosligida esa {swingDayBranchWonjin} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Quyon**ning maxsus juftlari — Olti uyg'unlik [It](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Qo'y](/guide/zodiac-pair-rabbit-goat), [Cho'chqa](/guide/zodiac-pair-rabbit-pig) · Nizo [Maymun](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Xo'roz](/guide/zodiac-pair-rabbit-rooster)",
+              "**Maymun**ning maxsus juftlari — Olti uyg'unlik [Ilon](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-monkey) · Nizo [Quyon](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Yo'lbars](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Quyon](/guide/zodiac-rabbit) · [Maymun](/guide/zodiac-monkey); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-rooster": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Quyon va Xo'roz — To'qnashuv",
+    "summary": "Quyon va Xo'roz o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Quyon va Xo'roz to'qnashuv hosil qiladi",
+        "blocks": [
+          {
+            "p": "Quyon va Xo'roz to'qnashuv hosil qiladi. 卯 va 酉 doirada aynan bir-biriga qarama-qarshi turadi."
+          },
+          {
+            "p": "Bu xizmat to'qnashuv uchun ham {scoreChung} ballni saqlaydi. An'anaviy myeongri'da to'qnashuv — bu to'qnashish, munosabatning oxiri emas, pastki chegaraga yaqin ball berish esa ikki kishi haqida hukm chiqarishga teng bo'lardi."
+          },
+          {
+            "p": "Doirada 卯 to'rtinchi o'rinda, 酉 esa o'ninchi o'rinda turadi; ikki belgi bir-biridan olti qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Quyon va Xo'roz",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "To'qnashuv"
+                ],
+                [
+                  "Ball",
+                  "{scoreChung}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacChung} ball, kun shoxi mosligida esa {swingDayBranchChung} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Quyon**ning maxsus juftlari — Olti uyg'unlik [It](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Qo'y](/guide/zodiac-pair-rabbit-goat), [Cho'chqa](/guide/zodiac-pair-rabbit-pig) · Nizo [Maymun](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Xo'roz](/guide/zodiac-pair-rabbit-rooster)",
+              "**Xo'roz**ning maxsus juftlari — Olti uyg'unlik [Ajdar](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sigir](/guide/zodiac-pair-ox-rooster), [Ilon](/guide/zodiac-pair-snake-rooster) · Nizo [Yo'lbars](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Quyon](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Quyon](/guide/zodiac-rabbit) · [Xo'roz](/guide/zodiac-rooster); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-dog": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Quyon va It — Olti uyg'unlik",
+    "summary": "Quyon va It o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Quyon va It olti uyg'unlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Quyon va It olti uyg'unlik hosil qiladi. 卯 va 戌 faqat ikki belgi bilan uyg'unlik hosil qiladi."
+          },
+          {
+            "p": "Olti uyg'unlik moslikda eng tez-tez uchraydigan yaxshi munosabat bo'lib, {scoreYukhap} ball bilan ikkala hayvon olishi mumkin bo'lgan eng yuqori ball hisoblanadi."
+          },
+          {
+            "p": "Doirada 卯 to'rtinchi o'rinda, 戌 esa o'n birinchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Quyon va It",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Olti uyg'unlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacYukhap} ball, kun shoxi mosligida esa {swingDayBranchYukhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Quyon**ning maxsus juftlari — Olti uyg'unlik [It](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Qo'y](/guide/zodiac-pair-rabbit-goat), [Cho'chqa](/guide/zodiac-pair-rabbit-pig) · Nizo [Maymun](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Xo'roz](/guide/zodiac-pair-rabbit-rooster)",
+              "**It**ning maxsus juftlari — Olti uyg'unlik [Quyon](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Ot](/guide/zodiac-pair-horse-dog) · Nizo [Ilon](/guide/zodiac-pair-snake-dog) · To'qnashuv [Ajdar](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Quyon](/guide/zodiac-rabbit) · [It](/guide/zodiac-dog); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rabbit-pig": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Quyon va Cho'chqa — Yarim uchlik",
+    "summary": "Quyon va Cho'chqa o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Quyon va Cho'chqa yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Quyon va Cho'chqa yarim uchlik hosil qiladi. 亥卯未 — bitta uchlik guruhi (yog'och guruhi), 卯 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi Qo'y (未) va Cho'chqa (亥) markaziy 卯 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 卯 to'rtinchi o'rinda, 亥 esa o'n ikkinchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Quyon va Cho'chqa",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Quyon**ning maxsus juftlari — Olti uyg'unlik [It](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Qo'y](/guide/zodiac-pair-rabbit-goat), [Cho'chqa](/guide/zodiac-pair-rabbit-pig) · Nizo [Maymun](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Xo'roz](/guide/zodiac-pair-rabbit-rooster)",
+              "**Cho'chqa**ning maxsus juftlari — Olti uyg'unlik [Yo'lbars](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-pig) · Nizo [Ajdar](/guide/zodiac-pair-dragon-pig) · To'qnashuv [Ilon](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Quyon](/guide/zodiac-rabbit) · [Cho'chqa](/guide/zodiac-pig); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dragon": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ajdar va Ajdar — Bir xil shox",
+    "summary": "Ikki Ajdar yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Ajdar yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Ajdar yilida tug'ilgan kishi bir xil shoxga ega (辰 va 辰). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "辰 — o'n ikki yer shoxining beshinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Ajdar yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Ajdarning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ajdar**ning maxsus juftlari — Olti uyg'unlik [Xo'roz](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-dragon) · Nizo [Cho'chqa](/guide/zodiac-pair-dragon-pig) · To'qnashuv [It](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ajdar](/guide/zodiac-dragon); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-rooster": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ajdar va Xo'roz — Olti uyg'unlik",
+    "summary": "Ajdar va Xo'roz o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ajdar va Xo'roz olti uyg'unlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ajdar va Xo'roz olti uyg'unlik hosil qiladi. 辰 va 酉 faqat ikki belgi bilan uyg'unlik hosil qiladi."
+          },
+          {
+            "p": "Olti uyg'unlik moslikda eng tez-tez uchraydigan yaxshi munosabat bo'lib, {scoreYukhap} ball bilan ikkala hayvon olishi mumkin bo'lgan eng yuqori ball hisoblanadi."
+          },
+          {
+            "p": "Doirada 辰 beshinchi o'rinda, 酉 esa o'ninchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ajdar va Xo'roz",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Olti uyg'unlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacYukhap} ball, kun shoxi mosligida esa {swingDayBranchYukhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ajdar**ning maxsus juftlari — Olti uyg'unlik [Xo'roz](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-dragon) · Nizo [Cho'chqa](/guide/zodiac-pair-dragon-pig) · To'qnashuv [It](/guide/zodiac-pair-dragon-dog)",
+              "**Xo'roz**ning maxsus juftlari — Olti uyg'unlik [Ajdar](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sigir](/guide/zodiac-pair-ox-rooster), [Ilon](/guide/zodiac-pair-snake-rooster) · Nizo [Yo'lbars](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Quyon](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ajdar](/guide/zodiac-dragon) · [Xo'roz](/guide/zodiac-rooster); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-dog": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ajdar va It — To'qnashuv",
+    "summary": "Ajdar va It o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ajdar va It to'qnashuv hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ajdar va It to'qnashuv hosil qiladi. 辰 va 戌 doirada aynan bir-biriga qarama-qarshi turadi."
+          },
+          {
+            "p": "Bu xizmat to'qnashuv uchun ham {scoreChung} ballni saqlaydi. An'anaviy myeongri'da to'qnashuv — bu to'qnashish, munosabatning oxiri emas, pastki chegaraga yaqin ball berish esa ikki kishi haqida hukm chiqarishga teng bo'lardi."
+          },
+          {
+            "p": "Doirada 辰 beshinchi o'rinda, 戌 esa o'n birinchi o'rinda turadi; ikki belgi bir-biridan olti qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ajdar va It",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "To'qnashuv"
+                ],
+                [
+                  "Ball",
+                  "{scoreChung}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacChung} ball, kun shoxi mosligida esa {swingDayBranchChung} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ajdar**ning maxsus juftlari — Olti uyg'unlik [Xo'roz](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-dragon) · Nizo [Cho'chqa](/guide/zodiac-pair-dragon-pig) · To'qnashuv [It](/guide/zodiac-pair-dragon-dog)",
+              "**It**ning maxsus juftlari — Olti uyg'unlik [Quyon](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Ot](/guide/zodiac-pair-horse-dog) · Nizo [Ilon](/guide/zodiac-pair-snake-dog) · To'qnashuv [Ajdar](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ajdar](/guide/zodiac-dragon) · [It](/guide/zodiac-dog); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dragon-pig": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ajdar va Cho'chqa — Nizo",
+    "summary": "Ajdar va Cho'chqa o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ajdar va Cho'chqa nizo hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ajdar va Cho'chqa nizo hosil qiladi. 辰 belgisining to'qnashuv o'rni 戌 (It), 亥 esa uning yonida turadi; 亥 belgisining to'qnashuv o'rni 巳 (Ilon), 辰 esa uning yonida turadi."
+          },
+          {
+            "p": "An'anaga ko'ra bu bir-biridan ranjigan, ammo ajrala olmaydigan juftlik deb qaraladi. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi, shuning uchun u {scoreWonjin} oladi — to'qnashuvdan ({scoreChung}) yuqori va neytraldan ({scoreNeutral}) past."
+          },
+          {
+            "p": "Doirada 辰 beshinchi o'rinda, 亥 esa o'n ikkinchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ajdar va Cho'chqa",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Nizo"
+                ],
+                [
+                  "Ball",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacWonjin} ball, kun shoxi mosligida esa {swingDayBranchWonjin} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ajdar**ning maxsus juftlari — Olti uyg'unlik [Xo'roz](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-dragon) · Nizo [Cho'chqa](/guide/zodiac-pair-dragon-pig) · To'qnashuv [It](/guide/zodiac-pair-dragon-dog)",
+              "**Cho'chqa**ning maxsus juftlari — Olti uyg'unlik [Yo'lbars](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-pig) · Nizo [Ajdar](/guide/zodiac-pair-dragon-pig) · To'qnashuv [Ilon](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ajdar](/guide/zodiac-dragon) · [Cho'chqa](/guide/zodiac-pig); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-snake": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ilon va Ilon — Bir xil shox",
+    "summary": "Ikki Ilon yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Ilon yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Ilon yilida tug'ilgan kishi bir xil shoxga ega (巳 va 巳). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "巳 — o'n ikki yer shoxining oltinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Ilon yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Ilonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ilon**ning maxsus juftlari — Olti uyg'unlik [Maymun](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-snake-rooster) · Nizo [It](/guide/zodiac-pair-snake-dog) · To'qnashuv [Cho'chqa](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ilon](/guide/zodiac-snake); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-monkey": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ilon va Maymun — Olti uyg'unlik",
+    "summary": "Ilon va Maymun o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ilon va Maymun olti uyg'unlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ilon va Maymun olti uyg'unlik hosil qiladi. 巳 va 申 faqat ikki belgi bilan uyg'unlik hosil qiladi."
+          },
+          {
+            "p": "Olti uyg'unlik moslikda eng tez-tez uchraydigan yaxshi munosabat bo'lib, {scoreYukhap} ball bilan ikkala hayvon olishi mumkin bo'lgan eng yuqori ball hisoblanadi."
+          },
+          {
+            "p": "Doirada 巳 oltinchi o'rinda, 申 esa to'qqizinchi o'rinda turadi; ikki belgi bir-biridan uch qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ilon va Maymun",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Olti uyg'unlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacYukhap} ball, kun shoxi mosligida esa {swingDayBranchYukhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ilon**ning maxsus juftlari — Olti uyg'unlik [Maymun](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-snake-rooster) · Nizo [It](/guide/zodiac-pair-snake-dog) · To'qnashuv [Cho'chqa](/guide/zodiac-pair-snake-pig)",
+              "**Maymun**ning maxsus juftlari — Olti uyg'unlik [Ilon](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-monkey) · Nizo [Quyon](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Yo'lbars](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ilon](/guide/zodiac-snake) · [Maymun](/guide/zodiac-monkey); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-rooster": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ilon va Xo'roz — Yarim uchlik",
+    "summary": "Ilon va Xo'roz o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ilon va Xo'roz yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ilon va Xo'roz yarim uchlik hosil qiladi. 巳酉丑 — bitta uchlik guruhi (metall guruhi), 酉 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi Sigir (丑) va Ilon (巳) markaziy 酉 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 巳 oltinchi o'rinda, 酉 esa o'ninchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ilon va Xo'roz",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ilon**ning maxsus juftlari — Olti uyg'unlik [Maymun](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-snake-rooster) · Nizo [It](/guide/zodiac-pair-snake-dog) · To'qnashuv [Cho'chqa](/guide/zodiac-pair-snake-pig)",
+              "**Xo'roz**ning maxsus juftlari — Olti uyg'unlik [Ajdar](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sigir](/guide/zodiac-pair-ox-rooster), [Ilon](/guide/zodiac-pair-snake-rooster) · Nizo [Yo'lbars](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Quyon](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ilon](/guide/zodiac-snake) · [Xo'roz](/guide/zodiac-rooster); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-dog": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ilon va It — Nizo",
+    "summary": "Ilon va It o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ilon va It nizo hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ilon va It nizo hosil qiladi. 巳 belgisining to'qnashuv o'rni 亥 (Cho'chqa), 戌 esa uning yonida turadi; 戌 belgisining to'qnashuv o'rni 辰 (Ajdar), 巳 esa uning yonida turadi."
+          },
+          {
+            "p": "An'anaga ko'ra bu bir-biridan ranjigan, ammo ajrala olmaydigan juftlik deb qaraladi. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi, shuning uchun u {scoreWonjin} oladi — to'qnashuvdan ({scoreChung}) yuqori va neytraldan ({scoreNeutral}) past."
+          },
+          {
+            "p": "Doirada 巳 oltinchi o'rinda, 戌 esa o'n birinchi o'rinda turadi; ikki belgi bir-biridan besh qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ilon va It",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Nizo"
+                ],
+                [
+                  "Ball",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacWonjin} ball, kun shoxi mosligida esa {swingDayBranchWonjin} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ilon**ning maxsus juftlari — Olti uyg'unlik [Maymun](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-snake-rooster) · Nizo [It](/guide/zodiac-pair-snake-dog) · To'qnashuv [Cho'chqa](/guide/zodiac-pair-snake-pig)",
+              "**It**ning maxsus juftlari — Olti uyg'unlik [Quyon](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Ot](/guide/zodiac-pair-horse-dog) · Nizo [Ilon](/guide/zodiac-pair-snake-dog) · To'qnashuv [Ajdar](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ilon](/guide/zodiac-snake) · [It](/guide/zodiac-dog); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-snake-pig": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ilon va Cho'chqa — To'qnashuv",
+    "summary": "Ilon va Cho'chqa o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ilon va Cho'chqa to'qnashuv hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ilon va Cho'chqa to'qnashuv hosil qiladi. 巳 va 亥 doirada aynan bir-biriga qarama-qarshi turadi."
+          },
+          {
+            "p": "Bu xizmat to'qnashuv uchun ham {scoreChung} ballni saqlaydi. An'anaviy myeongri'da to'qnashuv — bu to'qnashish, munosabatning oxiri emas, pastki chegaraga yaqin ball berish esa ikki kishi haqida hukm chiqarishga teng bo'lardi."
+          },
+          {
+            "p": "Doirada 巳 oltinchi o'rinda, 亥 esa o'n ikkinchi o'rinda turadi; ikki belgi bir-biridan olti qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ilon va Cho'chqa",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "To'qnashuv"
+                ],
+                [
+                  "Ball",
+                  "{scoreChung}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacChung} ball, kun shoxi mosligida esa {swingDayBranchChung} ball kamaytiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ilon**ning maxsus juftlari — Olti uyg'unlik [Maymun](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Xo'roz](/guide/zodiac-pair-snake-rooster) · Nizo [It](/guide/zodiac-pair-snake-dog) · To'qnashuv [Cho'chqa](/guide/zodiac-pair-snake-pig)",
+              "**Cho'chqa**ning maxsus juftlari — Olti uyg'unlik [Yo'lbars](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-pig) · Nizo [Ajdar](/guide/zodiac-pair-dragon-pig) · To'qnashuv [Ilon](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ilon](/guide/zodiac-snake) · [Cho'chqa](/guide/zodiac-pig); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-horse": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ot va Ot — Bir xil shox",
+    "summary": "Ikki Ot yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Ot yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Ot yilida tug'ilgan kishi bir xil shoxga ega (午 va 午). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "午 — o'n ikki yer shoxining yettinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Ot yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Otning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ot**ning maxsus juftlari — Olti uyg'unlik [Qo'y](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Yo'lbars](/guide/zodiac-pair-tiger-horse), [It](/guide/zodiac-pair-horse-dog) · Nizo [Sigir](/guide/zodiac-pair-ox-horse) · To'qnashuv [Sichqon](/guide/zodiac-pair-rat-horse)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ot](/guide/zodiac-horse); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-goat": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ot va Qo'y — Olti uyg'unlik",
+    "summary": "Ot va Qo'y o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ot va Qo'y olti uyg'unlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ot va Qo'y olti uyg'unlik hosil qiladi. 午 va 未 faqat ikki belgi bilan uyg'unlik hosil qiladi."
+          },
+          {
+            "p": "Olti uyg'unlik moslikda eng tez-tez uchraydigan yaxshi munosabat bo'lib, {scoreYukhap} ball bilan ikkala hayvon olishi mumkin bo'lgan eng yuqori ball hisoblanadi."
+          },
+          {
+            "p": "Doirada 午 yettinchi o'rinda, 未 esa sakkizinchi o'rinda turadi; ikki belgi bir-biridan bir qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ot va Qo'y",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Olti uyg'unlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacYukhap} ball, kun shoxi mosligida esa {swingDayBranchYukhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ot**ning maxsus juftlari — Olti uyg'unlik [Qo'y](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Yo'lbars](/guide/zodiac-pair-tiger-horse), [It](/guide/zodiac-pair-horse-dog) · Nizo [Sigir](/guide/zodiac-pair-ox-horse) · To'qnashuv [Sichqon](/guide/zodiac-pair-rat-horse)",
+              "**Qo'y**ning maxsus juftlari — Olti uyg'unlik [Ot](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-goat) · Nizo [Sichqon](/guide/zodiac-pair-rat-goat) · To'qnashuv [Sigir](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ot](/guide/zodiac-horse) · [Qo'y](/guide/zodiac-goat); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-horse-dog": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Ot va It — Yarim uchlik",
+    "summary": "Ot va It o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ot va It yarim uchlik hosil qiladi",
+        "blocks": [
+          {
+            "p": "Ot va It yarim uchlik hosil qiladi. 寅午戌 — bitta uchlik guruhi (olov guruhi), 午 esa uning markazidagi **shoh shox**."
+          },
+          {
+            "p": "Inyeon-Link faqat shoh shoxni o'z ichiga olgan juftliklarni qabul qiladi, shuning uchun bu juftlik yarim uchlik ({scoreBanhap}) hisoblanadi."
+          },
+          {
+            "p": "Xuddi shu guruhdagi Yo'lbars (寅) va It (戌) markaziy 午 belgisiga ega emas, shuning uchun ular uyg'unlik hisoblanmaydi va neytral deb qaraladi."
+          },
+          {
+            "p": "Doirada 午 yettinchi o'rinda, 戌 esa o'n birinchi o'rinda turadi; ikki belgi bir-biridan to'rt qadam narida."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ot va It",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Yarim uchlik"
+                ],
+                [
+                  "Ball",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacBanhap} ball, kun shoxi mosligida esa {swingDayBranchBanhap} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Har bir hayvonning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Ot**ning maxsus juftlari — Olti uyg'unlik [Qo'y](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Yo'lbars](/guide/zodiac-pair-tiger-horse), [It](/guide/zodiac-pair-horse-dog) · Nizo [Sigir](/guide/zodiac-pair-ox-horse) · To'qnashuv [Sichqon](/guide/zodiac-pair-rat-horse)",
+              "**It**ning maxsus juftlari — Olti uyg'unlik [Quyon](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Ot](/guide/zodiac-pair-horse-dog) · Nizo [Ilon](/guide/zodiac-pair-snake-dog) · To'qnashuv [Ajdar](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Ot](/guide/zodiac-horse) · [It](/guide/zodiac-dog); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-goat-goat": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Qo'y va Qo'y — Bir xil shox",
+    "summary": "Ikki Qo'y yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Qo'y yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Qo'y yilida tug'ilgan kishi bir xil shoxga ega (未 va 未). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "未 — o'n ikki yer shoxining sakkizinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Qo'y yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Qo'yning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Qo'y**ning maxsus juftlari — Olti uyg'unlik [Ot](/guide/zodiac-pair-horse-goat) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-goat) · Nizo [Sichqon](/guide/zodiac-pair-rat-goat) · To'qnashuv [Sigir](/guide/zodiac-pair-ox-goat)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Qo'y](/guide/zodiac-goat); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-monkey-monkey": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Maymun va Maymun — Bir xil shox",
+    "summary": "Ikki Maymun yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Maymun yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Maymun yilida tug'ilgan kishi bir xil shoxga ega (申 va 申). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "申 — o'n ikki yer shoxining to'qqizinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Maymun yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Maymunning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Maymun**ning maxsus juftlari — Olti uyg'unlik [Ilon](/guide/zodiac-pair-snake-monkey) · Yarim uchlik [Sichqon](/guide/zodiac-pair-rat-monkey) · Nizo [Quyon](/guide/zodiac-pair-rabbit-monkey) · To'qnashuv [Yo'lbars](/guide/zodiac-pair-tiger-monkey)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Maymun](/guide/zodiac-monkey); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-rooster-rooster": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Xo'roz va Xo'roz — Bir xil shox",
+    "summary": "Ikki Xo'roz yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Xo'roz yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Xo'roz yilida tug'ilgan kishi bir xil shoxga ega (酉 va 酉). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "酉 — o'n ikki yer shoxining o'ninchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Xo'roz yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Xo'rozning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Xo'roz**ning maxsus juftlari — Olti uyg'unlik [Ajdar](/guide/zodiac-pair-dragon-rooster) · Yarim uchlik [Sigir](/guide/zodiac-pair-ox-rooster), [Ilon](/guide/zodiac-pair-snake-rooster) · Nizo [Yo'lbars](/guide/zodiac-pair-tiger-rooster) · To'qnashuv [Quyon](/guide/zodiac-pair-rabbit-rooster)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Xo'roz](/guide/zodiac-rooster); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-dog-dog": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "It va It — Bir xil shox",
+    "summary": "Ikki It yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki It yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki It yilida tug'ilgan kishi bir xil shoxga ega (戌 va 戌). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "戌 — o'n ikki yer shoxining o'n birinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki It yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Itning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**It**ning maxsus juftlari — Olti uyg'unlik [Quyon](/guide/zodiac-pair-rabbit-dog) · Yarim uchlik [Ot](/guide/zodiac-pair-horse-dog) · Nizo [Ilon](/guide/zodiac-pair-snake-dog) · To'qnashuv [Ajdar](/guide/zodiac-pair-dragon-dog)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [It](/guide/zodiac-dog); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pair-pig-pig": {
+    "eyebrow": "Juftliklar bo'yicha",
+    "title": "Cho'chqa va Cho'chqa — Bir xil shox",
+    "summary": "Ikki Cho'chqa yilida tug'ilgan kishi o'rtasida qanday munosabat borligi, bu necha ball olishi va bu ball yakuniy moslik darajasini qanchalik o'zgartirishi — Inyeon-Link hisoblash qoidalaridagi aynan shu ko'rinishda keltirilgan.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Ikki Cho'chqa yilida tug'ilgan kishi bir xil shoxga ega",
+        "blocks": [
+          {
+            "p": "Ikki Cho'chqa yilida tug'ilgan kishi bir xil shoxga ega (亥 va 亥). Bu ularning bir-biriga o'xshashini bildiradi, tortishishni emas."
+          },
+          {
+            "p": "Shuning uchun u {scoreSame} ball oladi, neytraldan ({scoreNeutral}) biroz yuqori: uyg'unlik ham, to'qnashuv ham, nizo ham emas, faqat ozgina ko'tarilgan."
+          },
+          {
+            "p": "亥 — o'n ikki yer shoxining o'n ikkinchisi."
+          }
+        ]
+      },
+      {
+        "title": "Bu juftlikning ko'rsatkichlari",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Ikki Cho'chqa yilida tug'ilgan kishi",
+              "head": [
+                "Ko'rsatkich",
+                "Qiymat"
+              ],
+              "rows": [
+                [
+                  "Munosabat",
+                  "Bir xil shox"
+                ],
+                [
+                  "Ball",
+                  "{scoreSame}"
+                ],
+                [
+                  "Zodiak mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightZodiac}"
+                ],
+                [
+                  "Kun shoxi mosligida yakuniy moslik darajasidagi ulushi",
+                  "{weightDayBranchTotal}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yakuniy moslik darajasini qanchalik o'zgartiradi",
+        "blocks": [
+          {
+            "p": "Qolgan hamma narsa teng bo'lsa, bu juftlik neytral juftlikka nisbatan yakuniy moslik darajasini zodiak mosligida {swingZodiacSame} ball, kun shoxi mosligida esa {swingDayBranchSame} ball oshiradi."
+          },
+          {
+            "p": "Zodiak mosligi tug'ilgan yillarning shoxlarini yonma-yon qo'yadi, kun shoxi mosligi esa tug'ilgan kunlarning shoxlarini. Bu ikkisi turli shox bo'lishi mumkin, shuning uchun aynan bir xil ikki kishi har birida turli munosabat ko'rsatishi mumkin."
+          }
+        ]
+      },
+      {
+        "title": "Cho'chqaning boshqa maxsus munosabatlari",
+        "blocks": [
+          {
+            "ul": [
+              "**Cho'chqa**ning maxsus juftlari — Olti uyg'unlik [Yo'lbars](/guide/zodiac-pair-tiger-pig) · Yarim uchlik [Quyon](/guide/zodiac-pair-rabbit-pig) · Nizo [Ajdar](/guide/zodiac-pair-dragon-pig) · To'qnashuv [Ilon](/guide/zodiac-pair-snake-pig)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu qo'llanma nimani aytmaydi",
+        "blocks": [
+          {
+            "ul": [
+              "Bitta hayvon ikki kishi o'rtasidagi munosabatni hal qilmaydi. Yakuniy moslik darajasining {weightSaju} qismi saju mosligi bilan belgilanadi.",
+              "Yuqoridagi ball o'zgarishlari qolgan hamma narsa teng deb faraz qiladi; haqiqiy natijani ikkala kishining butun saju'si belgilaydi."
+            ]
+          },
+          {
+            "p": "Har bir hayvonning to'liq qo'llanmasi: [Cho'chqa](/guide/zodiac-pig); to'liq jadval esa [o'n ikki shox jadvali](/guide/branches)da."
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "O'n Xudo",
     "title": "O'n Xudo va Turmush o'rtog'i Pozitsiyasi",

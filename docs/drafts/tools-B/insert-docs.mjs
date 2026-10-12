@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 const [file, jsonFile, style] = process.argv.slice(2);
 const docs = JSON.parse(readFileSync(jsonFile, "utf8"));
-if (!Array.isArray(docs) || docs.length !== 12) throw new Error(`문서 ${docs.length}편(12편이어야 한다)`);
+if (!Array.isArray(docs) || docs.length === 0) throw new Error(`문서 ${Array.isArray(docs) ? docs.length : "?"}편`);
 let text = readFileSync(file, "utf8");
 const ANCHOR = '\n  "guide/ten-gods": {\n';
 const n = text.split(ANCHOR).length - 1;
@@ -23,5 +23,5 @@ text = text.replace(ANCHOR, "\n" + out + '  "guide/ten-gods": {\n');
 writeFileSync(file, text, "utf8");
 const back = readFileSync(file, "utf8");
 const have = docs.filter((d) => back.includes(`"${d.key}": {`)).length;
-console.log(`${file.split("/").pop()}: ${have}/12 삽입 확인`);
-if (have !== 12) process.exit(1);
+console.log(`${file.split("/").pop()}: ${have}/${docs.length} 삽입 확인`);
+if (have !== docs.length) process.exit(1);
