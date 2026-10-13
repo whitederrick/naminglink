@@ -12,7 +12,7 @@ import { ReturnLink } from "@/components/ReturnLink";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDocPage } from "@/lib/doc-content";
 import { docValues } from "@/lib/doc-values";
-import { docKeyFor, guideEntriesFor } from "@/lib/guide-index";
+import { cardEntries, docKeyFor, guideEntriesFor } from "@/lib/guide-index";
 import { getDictionary, isRtlLocale } from "@/lib/i18n";
 import { routeLocale } from "@/lib/route-locale";
 import { localePath } from "@/lib/locale-path";
@@ -88,7 +88,8 @@ export default async function LandingPage({
   const statsSection = guideDoc.sections.find((section) =>
     section.blocks.some((block) => "stats" in block),
   );
-  const guideCards = guideEntriesFor()
+  // 접힌 사전 묶음(띠별·띠 쌍)은 홈 카드에 올리지 않는다 — 원리 안내가 앞 네 장을 차지한다.
+  const guideCards = cardEntries(guideEntriesFor())
     .slice(0, 4)
     .map((entry) => ({
       slug: entry.slug,

@@ -33,10 +33,24 @@ import type { DocKey } from "@/lib/doc-content";
  */
 export type GuideTrack = "gunghap" | "affinity" | "common";
 
+/**
+ * 허브에서 **접어 두는 사전 묶음**(2026-10-13).
+ *
+ * 띠별 12 · 띠 쌍 38이 한 목록에 섞이면 원리를 설명하는 안내 글이 묻힌다. `group`이 있는 문서는
+ * 허브 아래쪽의 묶음(`<details>`)에 담기고, 없는 문서만 위쪽 카드로 놓인다. **소속은 슬러그 접두가
+ * 아니라 여기에 적은 값이 정한다** — 접두로 판정하면 이름이 비슷한 새 문서가 말없이 묶음에 들어간다.
+ */
+export type GuideGroup = "animals" | "pairs";
+
+/** 묶음이 허브에 놓이는 순서. */
+export const guideGroups: GuideGroup[] = ["animals", "pairs"];
+
 export type GuideEntry = {
   /** `/guide` 아래의 경로 조각. `doc-content`의 키는 `guide/<slug>`다. */
   slug: string;
   track: GuideTrack;
+  /** 있으면 허브의 접힌 사전 묶음에 담긴다. 없으면 위쪽 카드다. */
+  group?: GuideGroup;
 };
 
 /** 허브에 놓이는 순서. 서비스 근거 → 관계표 → 세부 규칙 → 우리 기준 → 개인정보 → 상품. */
@@ -44,56 +58,56 @@ export const guideEntries: GuideEntry[] = [
   { slug: "how-compatibility", track: "gunghap" },
   { slug: "branches", track: "gunghap" },
   { slug: "zodiac", track: "gunghap" },
-  { slug: "zodiac-rat", track: "gunghap" },
-  { slug: "zodiac-ox", track: "gunghap" },
-  { slug: "zodiac-tiger", track: "gunghap" },
-  { slug: "zodiac-rabbit", track: "gunghap" },
-  { slug: "zodiac-dragon", track: "gunghap" },
-  { slug: "zodiac-snake", track: "gunghap" },
-  { slug: "zodiac-horse", track: "gunghap" },
-  { slug: "zodiac-goat", track: "gunghap" },
-  { slug: "zodiac-monkey", track: "gunghap" },
-  { slug: "zodiac-rooster", track: "gunghap" },
-  { slug: "zodiac-dog", track: "gunghap" },
-  { slug: "zodiac-pig", track: "gunghap" },
-  { slug: "zodiac-pair-rat-rat", track: "gunghap" },
-  { slug: "zodiac-pair-rat-ox", track: "gunghap" },
-  { slug: "zodiac-pair-rat-dragon", track: "gunghap" },
-  { slug: "zodiac-pair-rat-horse", track: "gunghap" },
-  { slug: "zodiac-pair-rat-goat", track: "gunghap" },
-  { slug: "zodiac-pair-rat-monkey", track: "gunghap" },
-  { slug: "zodiac-pair-ox-ox", track: "gunghap" },
-  { slug: "zodiac-pair-ox-horse", track: "gunghap" },
-  { slug: "zodiac-pair-ox-goat", track: "gunghap" },
-  { slug: "zodiac-pair-ox-rooster", track: "gunghap" },
-  { slug: "zodiac-pair-tiger-tiger", track: "gunghap" },
-  { slug: "zodiac-pair-tiger-horse", track: "gunghap" },
-  { slug: "zodiac-pair-tiger-monkey", track: "gunghap" },
-  { slug: "zodiac-pair-tiger-rooster", track: "gunghap" },
-  { slug: "zodiac-pair-tiger-pig", track: "gunghap" },
-  { slug: "zodiac-pair-rabbit-rabbit", track: "gunghap" },
-  { slug: "zodiac-pair-rabbit-goat", track: "gunghap" },
-  { slug: "zodiac-pair-rabbit-monkey", track: "gunghap" },
-  { slug: "zodiac-pair-rabbit-rooster", track: "gunghap" },
-  { slug: "zodiac-pair-rabbit-dog", track: "gunghap" },
-  { slug: "zodiac-pair-rabbit-pig", track: "gunghap" },
-  { slug: "zodiac-pair-dragon-dragon", track: "gunghap" },
-  { slug: "zodiac-pair-dragon-rooster", track: "gunghap" },
-  { slug: "zodiac-pair-dragon-dog", track: "gunghap" },
-  { slug: "zodiac-pair-dragon-pig", track: "gunghap" },
-  { slug: "zodiac-pair-snake-snake", track: "gunghap" },
-  { slug: "zodiac-pair-snake-monkey", track: "gunghap" },
-  { slug: "zodiac-pair-snake-rooster", track: "gunghap" },
-  { slug: "zodiac-pair-snake-dog", track: "gunghap" },
-  { slug: "zodiac-pair-snake-pig", track: "gunghap" },
-  { slug: "zodiac-pair-horse-horse", track: "gunghap" },
-  { slug: "zodiac-pair-horse-goat", track: "gunghap" },
-  { slug: "zodiac-pair-horse-dog", track: "gunghap" },
-  { slug: "zodiac-pair-goat-goat", track: "gunghap" },
-  { slug: "zodiac-pair-monkey-monkey", track: "gunghap" },
-  { slug: "zodiac-pair-rooster-rooster", track: "gunghap" },
-  { slug: "zodiac-pair-dog-dog", track: "gunghap" },
-  { slug: "zodiac-pair-pig-pig", track: "gunghap" },
+  { slug: "zodiac-rat", track: "gunghap", group: "animals" },
+  { slug: "zodiac-ox", track: "gunghap", group: "animals" },
+  { slug: "zodiac-tiger", track: "gunghap", group: "animals" },
+  { slug: "zodiac-rabbit", track: "gunghap", group: "animals" },
+  { slug: "zodiac-dragon", track: "gunghap", group: "animals" },
+  { slug: "zodiac-snake", track: "gunghap", group: "animals" },
+  { slug: "zodiac-horse", track: "gunghap", group: "animals" },
+  { slug: "zodiac-goat", track: "gunghap", group: "animals" },
+  { slug: "zodiac-monkey", track: "gunghap", group: "animals" },
+  { slug: "zodiac-rooster", track: "gunghap", group: "animals" },
+  { slug: "zodiac-dog", track: "gunghap", group: "animals" },
+  { slug: "zodiac-pig", track: "gunghap", group: "animals" },
+  { slug: "zodiac-pair-rat-rat", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rat-ox", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rat-dragon", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rat-horse", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rat-goat", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rat-monkey", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-ox-ox", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-ox-horse", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-ox-goat", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-ox-rooster", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-tiger-tiger", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-tiger-horse", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-tiger-monkey", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-tiger-rooster", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-tiger-pig", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rabbit-rabbit", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rabbit-goat", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rabbit-monkey", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rabbit-rooster", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rabbit-dog", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rabbit-pig", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-dragon-dragon", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-dragon-rooster", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-dragon-dog", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-dragon-pig", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-snake-snake", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-snake-monkey", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-snake-rooster", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-snake-dog", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-snake-pig", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-horse-horse", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-horse-goat", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-horse-dog", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-goat-goat", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-monkey-monkey", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-rooster-rooster", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-dog-dog", track: "gunghap", group: "pairs" },
+  { slug: "zodiac-pair-pig-pig", track: "gunghap", group: "pairs" },
   { slug: "ten-gods", track: "gunghap" },
   { slug: "yongsin", track: "gunghap" },
   { slug: "true-solar-time", track: "gunghap" },
@@ -140,6 +154,16 @@ export function guideEntriesFor(fromService?: string): GuideEntry[] {
   const weight = (entry: GuideEntry) =>
     entry.track === track ? 0 : entry.track === "common" ? 1 : 2;
   return [...guideEntries].sort((a, b) => weight(a) - weight(b));
+}
+
+/** 허브 위쪽에 카드로 놓이는 문서 — 묶음에 안 든 것. 순서는 `entries`가 정한 그대로다. */
+export function cardEntries(entries: GuideEntry[]): GuideEntry[] {
+  return entries.filter((entry) => !entry.group);
+}
+
+/** 한 묶음에 든 문서. 선언된 순서 그대로다. */
+export function groupEntries(group: GuideGroup): GuideEntry[] {
+  return guideEntries.filter((entry) => entry.group === group);
 }
 
 /** sitemap·robots가 쓰는 색인 경로. 문서를 더하면 저절로 따라온다. */
