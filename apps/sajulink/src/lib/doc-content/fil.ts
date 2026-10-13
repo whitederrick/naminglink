@@ -4308,10 +4308,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 甲子 ay ang ika-1 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 甲子 ay ang ika-1 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲子, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 1."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲子, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapu, ito ang kombinasyong bilang 1."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -4369,7 +4369,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸亥](/guide/pillar-gye-hae) at ang susunod ay [乙丑](/guide/pillar-eul-chuk)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [癸亥](/guide/pillar-gye-hae) at ang susunod ay [乙丑](/guide/pillar-eul-chuk)."
           },
           {
             "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [子 (Daga)](/guide/branch-ja)."
@@ -4398,10 +4398,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 乙丑 ay ang ika-2 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 乙丑 ay ang ika-2 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙丑, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 2."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙丑, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapu, ito ang kombinasyong bilang 2."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -4465,7 +4465,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲子](/guide/pillar-gap-ja) at ang susunod ay [丙寅](/guide/pillar-byeong-in)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [甲子](/guide/pillar-gap-ja) at ang susunod ay [丙寅](/guide/pillar-byeong-in)."
           },
           {
             "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [丑 (Baka)](/guide/branch-chuk)."
@@ -4494,10 +4494,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丙寅 ay ang ika-3 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丙寅 ay ang ika-3 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙寅, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 3."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙寅, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapu, ito ang kombinasyong bilang 3."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -4561,7 +4561,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙丑](/guide/pillar-eul-chuk) at ang susunod ay [丁卯](/guide/pillar-jeong-myo)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [乙丑](/guide/pillar-eul-chuk) at ang susunod ay [丁卯](/guide/pillar-jeong-myo)."
           },
           {
             "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [寅 (Tigre)](/guide/branch-in)."
@@ -4590,10 +4590,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丁卯 ay ang ika-4 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丁卯 ay ang ika-4 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁卯, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 4."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁卯, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapu, ito ang kombinasyong bilang 4."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -4651,7 +4651,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙寅](/guide/pillar-byeong-in) at ang susunod ay [戊辰](/guide/pillar-mu-jin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丙寅](/guide/pillar-byeong-in) at ang susunod ay [戊辰](/guide/pillar-mu-jin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [卯 (Kuneho)](/guide/branch-myo)."
@@ -4680,10 +4680,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 戊辰 ay ang ika-5 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 戊辰 ay ang ika-5 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊辰, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 5."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊辰, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapu, ito ang kombinasyong bilang 5."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -4747,7 +4747,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁卯](/guide/pillar-jeong-myo) at ang susunod ay [己巳](/guide/pillar-gi-sa)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丁卯](/guide/pillar-jeong-myo) at ang susunod ay [己巳](/guide/pillar-gi-sa)."
           },
           {
             "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [辰 (Dragon)](/guide/branch-jin)."
@@ -4776,10 +4776,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 己巳 ay ang ika-6 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 己巳 ay ang ika-6 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己巳, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 6."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己巳, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapu, ito ang kombinasyong bilang 6."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -4843,7 +4843,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊辰](/guide/pillar-mu-jin) at ang susunod ay [庚午](/guide/pillar-gyeong-o)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [戊辰](/guide/pillar-mu-jin) at ang susunod ay [庚午](/guide/pillar-gyeong-o)."
           },
           {
             "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [巳 (Ahas)](/guide/branch-sa)."
@@ -4872,10 +4872,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 庚午 ay ang ika-7 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 庚午 ay ang ika-7 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚午, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 7."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚午, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapu, ito ang kombinasyong bilang 7."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -4939,7 +4939,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己巳](/guide/pillar-gi-sa) at ang susunod ay [辛未](/guide/pillar-sin-mi)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [己巳](/guide/pillar-gi-sa) at ang susunod ay [辛未](/guide/pillar-sin-mi)."
           },
           {
             "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [午 (Kabayo)](/guide/branch-o)."
@@ -4968,10 +4968,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 辛未 ay ang ika-8 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 辛未 ay ang ika-8 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛未, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 8."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛未, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapu, ito ang kombinasyong bilang 8."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5035,7 +5035,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚午](/guide/pillar-gyeong-o) at ang susunod ay [壬申](/guide/pillar-im-sin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [庚午](/guide/pillar-gyeong-o) at ang susunod ay [壬申](/guide/pillar-im-sin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [未 (Tupa)](/guide/branch-mi)."
@@ -5064,10 +5064,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 壬申 ay ang ika-9 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 壬申 ay ang ika-9 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬申, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 9."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬申, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapu, ito ang kombinasyong bilang 9."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5131,7 +5131,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛未](/guide/pillar-sin-mi) at ang susunod ay [癸酉](/guide/pillar-gye-yu)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [辛未](/guide/pillar-sin-mi) at ang susunod ay [癸酉](/guide/pillar-gye-yu)."
           },
           {
             "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [申 (Unggoy)](/guide/branch-sin)."
@@ -5160,10 +5160,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 癸酉 ay ang ika-10 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 癸酉 ay ang ika-10 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸酉, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 10."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸酉, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapu, ito ang kombinasyong bilang 10."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5221,7 +5221,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬申](/guide/pillar-im-sin) at ang susunod ay [甲戌](/guide/pillar-gap-sul)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [壬申](/guide/pillar-im-sin) at ang susunod ay [甲戌](/guide/pillar-gap-sul)."
           },
           {
             "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [酉 (Manok)](/guide/branch-yu)."
@@ -5250,10 +5250,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 甲戌 ay ang ika-11 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 甲戌 ay ang ika-11 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲戌, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 11."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲戌, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapu, ito ang kombinasyong bilang 11."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5317,7 +5317,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸酉](/guide/pillar-gye-yu) at ang susunod ay [乙亥](/guide/pillar-eul-hae)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [癸酉](/guide/pillar-gye-yu) at ang susunod ay [乙亥](/guide/pillar-eul-hae)."
           },
           {
             "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [戌 (Aso)](/guide/branch-sul)."
@@ -5346,10 +5346,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 乙亥 ay ang ika-12 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 乙亥 ay ang ika-12 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙亥, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 12."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙亥, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapu, ito ang kombinasyong bilang 12."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5413,7 +5413,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲戌](/guide/pillar-gap-sul) at ang susunod ay [丙子](/guide/pillar-byeong-ja)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [甲戌](/guide/pillar-gap-sul) at ang susunod ay [丙子](/guide/pillar-byeong-ja)."
           },
           {
             "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [亥 (Baboy)](/guide/branch-hae)."
@@ -5442,10 +5442,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丙子 ay ang ika-13 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丙子 ay ang ika-13 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙子, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 13."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙子, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapu, ito ang kombinasyong bilang 13."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5503,7 +5503,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙亥](/guide/pillar-eul-hae) at ang susunod ay [丁丑](/guide/pillar-jeong-chuk)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [乙亥](/guide/pillar-eul-hae) at ang susunod ay [丁丑](/guide/pillar-jeong-chuk)."
           },
           {
             "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [子 (Daga)](/guide/branch-ja)."
@@ -5532,10 +5532,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丁丑 ay ang ika-14 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丁丑 ay ang ika-14 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁丑, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 14."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁丑, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapu, ito ang kombinasyong bilang 14."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5599,7 +5599,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙子](/guide/pillar-byeong-ja) at ang susunod ay [戊寅](/guide/pillar-mu-in)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丙子](/guide/pillar-byeong-ja) at ang susunod ay [戊寅](/guide/pillar-mu-in)."
           },
           {
             "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [丑 (Baka)](/guide/branch-chuk)."
@@ -5628,10 +5628,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 戊寅 ay ang ika-15 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 戊寅 ay ang ika-15 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊寅, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 15."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊寅, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapu, ito ang kombinasyong bilang 15."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5695,7 +5695,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁丑](/guide/pillar-jeong-chuk) at ang susunod ay [己卯](/guide/pillar-gi-myo)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丁丑](/guide/pillar-jeong-chuk) at ang susunod ay [己卯](/guide/pillar-gi-myo)."
           },
           {
             "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [寅 (Tigre)](/guide/branch-in)."
@@ -5724,10 +5724,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 己卯 ay ang ika-16 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 己卯 ay ang ika-16 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己卯, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 16."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己卯, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapu, ito ang kombinasyong bilang 16."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5785,7 +5785,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊寅](/guide/pillar-mu-in) at ang susunod ay [庚辰](/guide/pillar-gyeong-jin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [戊寅](/guide/pillar-mu-in) at ang susunod ay [庚辰](/guide/pillar-gyeong-jin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [卯 (Kuneho)](/guide/branch-myo)."
@@ -5814,10 +5814,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 庚辰 ay ang ika-17 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 庚辰 ay ang ika-17 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚辰, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 17."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚辰, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapu, ito ang kombinasyong bilang 17."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5881,7 +5881,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己卯](/guide/pillar-gi-myo) at ang susunod ay [辛巳](/guide/pillar-sin-sa)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [己卯](/guide/pillar-gi-myo) at ang susunod ay [辛巳](/guide/pillar-sin-sa)."
           },
           {
             "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [辰 (Dragon)](/guide/branch-jin)."
@@ -5910,10 +5910,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 辛巳 ay ang ika-18 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 辛巳 ay ang ika-18 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛巳, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 18."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛巳, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapu, ito ang kombinasyong bilang 18."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -5977,7 +5977,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚辰](/guide/pillar-gyeong-jin) at ang susunod ay [壬午](/guide/pillar-im-o)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [庚辰](/guide/pillar-gyeong-jin) at ang susunod ay [壬午](/guide/pillar-im-o)."
           },
           {
             "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [巳 (Ahas)](/guide/branch-sa)."
@@ -6006,10 +6006,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 壬午 ay ang ika-19 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 壬午 ay ang ika-19 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬午, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 19."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬午, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapu, ito ang kombinasyong bilang 19."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6073,7 +6073,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛巳](/guide/pillar-sin-sa) at ang susunod ay [癸未](/guide/pillar-gye-mi)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [辛巳](/guide/pillar-sin-sa) at ang susunod ay [癸未](/guide/pillar-gye-mi)."
           },
           {
             "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [午 (Kabayo)](/guide/branch-o)."
@@ -6102,10 +6102,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 癸未 ay ang ika-20 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 癸未 ay ang ika-20 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸未, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 20."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸未, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapu, ito ang kombinasyong bilang 20."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6169,7 +6169,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬午](/guide/pillar-im-o) at ang susunod ay [甲申](/guide/pillar-gap-sin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [壬午](/guide/pillar-im-o) at ang susunod ay [甲申](/guide/pillar-gap-sin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [未 (Tupa)](/guide/branch-mi)."
@@ -6198,10 +6198,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 甲申 ay ang ika-21 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 甲申 ay ang ika-21 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲申, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 21."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲申, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapu, ito ang kombinasyong bilang 21."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6265,7 +6265,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸未](/guide/pillar-gye-mi) at ang susunod ay [乙酉](/guide/pillar-eul-yu)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [癸未](/guide/pillar-gye-mi) at ang susunod ay [乙酉](/guide/pillar-eul-yu)."
           },
           {
             "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [申 (Unggoy)](/guide/branch-sin)."
@@ -6294,10 +6294,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 乙酉 ay ang ika-22 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 乙酉 ay ang ika-22 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙酉, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 22."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙酉, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapu, ito ang kombinasyong bilang 22."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6355,7 +6355,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲申](/guide/pillar-gap-sin) at ang susunod ay [丙戌](/guide/pillar-byeong-sul)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [甲申](/guide/pillar-gap-sin) at ang susunod ay [丙戌](/guide/pillar-byeong-sul)."
           },
           {
             "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [酉 (Manok)](/guide/branch-yu)."
@@ -6384,10 +6384,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丙戌 ay ang ika-23 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丙戌 ay ang ika-23 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙戌, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 23."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙戌, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapu, ito ang kombinasyong bilang 23."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6451,7 +6451,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙酉](/guide/pillar-eul-yu) at ang susunod ay [丁亥](/guide/pillar-jeong-hae)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [乙酉](/guide/pillar-eul-yu) at ang susunod ay [丁亥](/guide/pillar-jeong-hae)."
           },
           {
             "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [戌 (Aso)](/guide/branch-sul)."
@@ -6480,10 +6480,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丁亥 ay ang ika-24 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丁亥 ay ang ika-24 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁亥, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 24."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁亥, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapu, ito ang kombinasyong bilang 24."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6547,7 +6547,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙戌](/guide/pillar-byeong-sul) at ang susunod ay [戊子](/guide/pillar-mu-ja)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丙戌](/guide/pillar-byeong-sul) at ang susunod ay [戊子](/guide/pillar-mu-ja)."
           },
           {
             "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [亥 (Baboy)](/guide/branch-hae)."
@@ -6576,10 +6576,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 戊子 ay ang ika-25 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 戊子 ay ang ika-25 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊子, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 25."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊子, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapu, ito ang kombinasyong bilang 25."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6637,7 +6637,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁亥](/guide/pillar-jeong-hae) at ang susunod ay [己丑](/guide/pillar-gi-chuk)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丁亥](/guide/pillar-jeong-hae) at ang susunod ay [己丑](/guide/pillar-gi-chuk)."
           },
           {
             "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [子 (Daga)](/guide/branch-ja)."
@@ -6666,10 +6666,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 己丑 ay ang ika-26 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 己丑 ay ang ika-26 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己丑, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 26."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己丑, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapu, ito ang kombinasyong bilang 26."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6733,7 +6733,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊子](/guide/pillar-mu-ja) at ang susunod ay [庚寅](/guide/pillar-gyeong-in)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [戊子](/guide/pillar-mu-ja) at ang susunod ay [庚寅](/guide/pillar-gyeong-in)."
           },
           {
             "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [丑 (Baka)](/guide/branch-chuk)."
@@ -6762,10 +6762,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 庚寅 ay ang ika-27 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 庚寅 ay ang ika-27 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚寅, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 27."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚寅, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapu, ito ang kombinasyong bilang 27."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6829,7 +6829,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己丑](/guide/pillar-gi-chuk) at ang susunod ay [辛卯](/guide/pillar-sin-myo)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [己丑](/guide/pillar-gi-chuk) at ang susunod ay [辛卯](/guide/pillar-sin-myo)."
           },
           {
             "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [寅 (Tigre)](/guide/branch-in)."
@@ -6858,10 +6858,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 辛卯 ay ang ika-28 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 辛卯 ay ang ika-28 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛卯, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 28."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛卯, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapu, ito ang kombinasyong bilang 28."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -6919,7 +6919,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚寅](/guide/pillar-gyeong-in) at ang susunod ay [壬辰](/guide/pillar-im-jin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [庚寅](/guide/pillar-gyeong-in) at ang susunod ay [壬辰](/guide/pillar-im-jin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [卯 (Kuneho)](/guide/branch-myo)."
@@ -6948,10 +6948,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 壬辰 ay ang ika-29 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 壬辰 ay ang ika-29 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬辰, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 29."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬辰, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapu, ito ang kombinasyong bilang 29."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7015,7 +7015,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛卯](/guide/pillar-sin-myo) at ang susunod ay [癸巳](/guide/pillar-gye-sa)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [辛卯](/guide/pillar-sin-myo) at ang susunod ay [癸巳](/guide/pillar-gye-sa)."
           },
           {
             "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [辰 (Dragon)](/guide/branch-jin)."
@@ -7044,10 +7044,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 癸巳 ay ang ika-30 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 癸巳 ay ang ika-30 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸巳, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 30."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸巳, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapu, ito ang kombinasyong bilang 30."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7111,7 +7111,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬辰](/guide/pillar-im-jin) at ang susunod ay [甲午](/guide/pillar-gap-o)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [壬辰](/guide/pillar-im-jin) at ang susunod ay [甲午](/guide/pillar-gap-o)."
           },
           {
             "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [巳 (Ahas)](/guide/branch-sa)."
@@ -7140,10 +7140,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 甲午 ay ang ika-31 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 甲午 ay ang ika-31 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲午, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 31."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲午, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapu, ito ang kombinasyong bilang 31."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7207,7 +7207,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸巳](/guide/pillar-gye-sa) at ang susunod ay [乙未](/guide/pillar-eul-mi)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [癸巳](/guide/pillar-gye-sa) at ang susunod ay [乙未](/guide/pillar-eul-mi)."
           },
           {
             "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [午 (Kabayo)](/guide/branch-o)."
@@ -7236,10 +7236,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 乙未 ay ang ika-32 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 乙未 ay ang ika-32 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙未, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 32."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙未, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapu, ito ang kombinasyong bilang 32."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7303,7 +7303,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲午](/guide/pillar-gap-o) at ang susunod ay [丙申](/guide/pillar-byeong-sin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [甲午](/guide/pillar-gap-o) at ang susunod ay [丙申](/guide/pillar-byeong-sin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [未 (Tupa)](/guide/branch-mi)."
@@ -7332,10 +7332,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丙申 ay ang ika-33 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丙申 ay ang ika-33 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙申, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 33."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙申, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapu, ito ang kombinasyong bilang 33."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7399,7 +7399,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙未](/guide/pillar-eul-mi) at ang susunod ay [丁酉](/guide/pillar-jeong-yu)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [乙未](/guide/pillar-eul-mi) at ang susunod ay [丁酉](/guide/pillar-jeong-yu)."
           },
           {
             "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [申 (Unggoy)](/guide/branch-sin)."
@@ -7428,10 +7428,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丁酉 ay ang ika-34 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丁酉 ay ang ika-34 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁酉, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 34."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁酉, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapu, ito ang kombinasyong bilang 34."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7489,7 +7489,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙申](/guide/pillar-byeong-sin) at ang susunod ay [戊戌](/guide/pillar-mu-sul)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丙申](/guide/pillar-byeong-sin) at ang susunod ay [戊戌](/guide/pillar-mu-sul)."
           },
           {
             "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [酉 (Manok)](/guide/branch-yu)."
@@ -7518,10 +7518,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 戊戌 ay ang ika-35 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 戊戌 ay ang ika-35 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊戌, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 35."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊戌, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapu, ito ang kombinasyong bilang 35."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7585,7 +7585,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁酉](/guide/pillar-jeong-yu) at ang susunod ay [己亥](/guide/pillar-gi-hae)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丁酉](/guide/pillar-jeong-yu) at ang susunod ay [己亥](/guide/pillar-gi-hae)."
           },
           {
             "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [戌 (Aso)](/guide/branch-sul)."
@@ -7614,10 +7614,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 己亥 ay ang ika-36 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 己亥 ay ang ika-36 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己亥, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 36."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己亥, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapu, ito ang kombinasyong bilang 36."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7681,7 +7681,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊戌](/guide/pillar-mu-sul) at ang susunod ay [庚子](/guide/pillar-gyeong-ja)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [戊戌](/guide/pillar-mu-sul) at ang susunod ay [庚子](/guide/pillar-gyeong-ja)."
           },
           {
             "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [亥 (Baboy)](/guide/branch-hae)."
@@ -7710,10 +7710,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 庚子 ay ang ika-37 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 庚子 ay ang ika-37 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚子, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 37."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚子, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapu, ito ang kombinasyong bilang 37."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7771,7 +7771,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己亥](/guide/pillar-gi-hae) at ang susunod ay [辛丑](/guide/pillar-sin-chuk)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [己亥](/guide/pillar-gi-hae) at ang susunod ay [辛丑](/guide/pillar-sin-chuk)."
           },
           {
             "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [子 (Daga)](/guide/branch-ja)."
@@ -7800,10 +7800,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 辛丑 ay ang ika-38 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 辛丑 ay ang ika-38 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛丑, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 38."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛丑, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapu, ito ang kombinasyong bilang 38."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7867,7 +7867,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚子](/guide/pillar-gyeong-ja) at ang susunod ay [壬寅](/guide/pillar-im-in)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [庚子](/guide/pillar-gyeong-ja) at ang susunod ay [壬寅](/guide/pillar-im-in)."
           },
           {
             "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [丑 (Baka)](/guide/branch-chuk)."
@@ -7896,10 +7896,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 壬寅 ay ang ika-39 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 壬寅 ay ang ika-39 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬寅, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 39."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬寅, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapu, ito ang kombinasyong bilang 39."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -7963,7 +7963,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛丑](/guide/pillar-sin-chuk) at ang susunod ay [癸卯](/guide/pillar-gye-myo)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [辛丑](/guide/pillar-sin-chuk) at ang susunod ay [癸卯](/guide/pillar-gye-myo)."
           },
           {
             "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [寅 (Tigre)](/guide/branch-in)."
@@ -7992,10 +7992,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 癸卯 ay ang ika-40 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 癸卯 ay ang ika-40 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸卯, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 40."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸卯, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapu, ito ang kombinasyong bilang 40."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8053,7 +8053,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬寅](/guide/pillar-im-in) at ang susunod ay [甲辰](/guide/pillar-gap-jin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [壬寅](/guide/pillar-im-in) at ang susunod ay [甲辰](/guide/pillar-gap-jin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [卯 (Kuneho)](/guide/branch-myo)."
@@ -8082,10 +8082,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 甲辰 ay ang ika-41 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 甲辰 ay ang ika-41 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲辰, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 41."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲辰, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapu, ito ang kombinasyong bilang 41."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8149,7 +8149,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸卯](/guide/pillar-gye-myo) at ang susunod ay [乙巳](/guide/pillar-eul-sa)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [癸卯](/guide/pillar-gye-myo) at ang susunod ay [乙巳](/guide/pillar-eul-sa)."
           },
           {
             "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [辰 (Dragon)](/guide/branch-jin)."
@@ -8178,10 +8178,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 乙巳 ay ang ika-42 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 乙巳 ay ang ika-42 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙巳, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 42."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙巳, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapu, ito ang kombinasyong bilang 42."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8245,7 +8245,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲辰](/guide/pillar-gap-jin) at ang susunod ay [丙午](/guide/pillar-byeong-o)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [甲辰](/guide/pillar-gap-jin) at ang susunod ay [丙午](/guide/pillar-byeong-o)."
           },
           {
             "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [巳 (Ahas)](/guide/branch-sa)."
@@ -8274,10 +8274,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丙午 ay ang ika-43 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丙午 ay ang ika-43 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙午, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 43."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙午, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapu, ito ang kombinasyong bilang 43."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8341,7 +8341,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙巳](/guide/pillar-eul-sa) at ang susunod ay [丁未](/guide/pillar-jeong-mi)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [乙巳](/guide/pillar-eul-sa) at ang susunod ay [丁未](/guide/pillar-jeong-mi)."
           },
           {
             "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [午 (Kabayo)](/guide/branch-o)."
@@ -8370,10 +8370,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丁未 ay ang ika-44 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丁未 ay ang ika-44 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁未, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 44."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁未, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapu, ito ang kombinasyong bilang 44."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8437,7 +8437,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙午](/guide/pillar-byeong-o) at ang susunod ay [戊申](/guide/pillar-mu-sin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丙午](/guide/pillar-byeong-o) at ang susunod ay [戊申](/guide/pillar-mu-sin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [未 (Tupa)](/guide/branch-mi)."
@@ -8466,10 +8466,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 戊申 ay ang ika-45 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 戊申 ay ang ika-45 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊申, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 45."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊申, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapu, ito ang kombinasyong bilang 45."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8533,7 +8533,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁未](/guide/pillar-jeong-mi) at ang susunod ay [己酉](/guide/pillar-gi-yu)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丁未](/guide/pillar-jeong-mi) at ang susunod ay [己酉](/guide/pillar-gi-yu)."
           },
           {
             "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [申 (Unggoy)](/guide/branch-sin)."
@@ -8562,10 +8562,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 己酉 ay ang ika-46 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 己酉 ay ang ika-46 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己酉, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 46."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己酉, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapu, ito ang kombinasyong bilang 46."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8623,7 +8623,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊申](/guide/pillar-mu-sin) at ang susunod ay [庚戌](/guide/pillar-gyeong-sul)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [戊申](/guide/pillar-mu-sin) at ang susunod ay [庚戌](/guide/pillar-gyeong-sul)."
           },
           {
             "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [酉 (Manok)](/guide/branch-yu)."
@@ -8652,10 +8652,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 庚戌 ay ang ika-47 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 庚戌 ay ang ika-47 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚戌, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 47."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚戌, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapu, ito ang kombinasyong bilang 47."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8719,7 +8719,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己酉](/guide/pillar-gi-yu) at ang susunod ay [辛亥](/guide/pillar-sin-hae)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [己酉](/guide/pillar-gi-yu) at ang susunod ay [辛亥](/guide/pillar-sin-hae)."
           },
           {
             "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [戌 (Aso)](/guide/branch-sul)."
@@ -8748,10 +8748,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 辛亥 ay ang ika-48 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 辛亥 ay ang ika-48 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛亥, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 48."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛亥, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapu, ito ang kombinasyong bilang 48."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8815,7 +8815,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚戌](/guide/pillar-gyeong-sul) at ang susunod ay [壬子](/guide/pillar-im-ja)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [庚戌](/guide/pillar-gyeong-sul) at ang susunod ay [壬子](/guide/pillar-im-ja)."
           },
           {
             "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [亥 (Baboy)](/guide/branch-hae)."
@@ -8844,10 +8844,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 壬子 ay ang ika-49 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 壬子 ay ang ika-49 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬子, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 49."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬子, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapu, ito ang kombinasyong bilang 49."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -8905,7 +8905,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛亥](/guide/pillar-sin-hae) at ang susunod ay [癸丑](/guide/pillar-gye-chuk)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [辛亥](/guide/pillar-sin-hae) at ang susunod ay [癸丑](/guide/pillar-gye-chuk)."
           },
           {
             "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [子 (Daga)](/guide/branch-ja)."
@@ -8934,10 +8934,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 癸丑 ay ang ika-50 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 癸丑 ay ang ika-50 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸丑, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 50."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸丑, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapu, ito ang kombinasyong bilang 50."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9001,7 +9001,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬子](/guide/pillar-im-ja) at ang susunod ay [甲寅](/guide/pillar-gap-in)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [壬子](/guide/pillar-im-ja) at ang susunod ay [甲寅](/guide/pillar-gap-in)."
           },
           {
             "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [丑 (Baka)](/guide/branch-chuk)."
@@ -9030,10 +9030,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 甲寅 ay ang ika-51 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 甲寅 ay ang ika-51 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲寅, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 51."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲寅, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapu, ito ang kombinasyong bilang 51."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9097,7 +9097,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸丑](/guide/pillar-gye-chuk) at ang susunod ay [乙卯](/guide/pillar-eul-myo)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [癸丑](/guide/pillar-gye-chuk) at ang susunod ay [乙卯](/guide/pillar-eul-myo)."
           },
           {
             "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [寅 (Tigre)](/guide/branch-in)."
@@ -9126,10 +9126,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 乙卯 ay ang ika-52 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 乙卯 ay ang ika-52 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙卯, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 52."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙卯, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapu, ito ang kombinasyong bilang 52."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9187,7 +9187,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲寅](/guide/pillar-gap-in) at ang susunod ay [丙辰](/guide/pillar-byeong-jin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [甲寅](/guide/pillar-gap-in) at ang susunod ay [丙辰](/guide/pillar-byeong-jin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [卯 (Kuneho)](/guide/branch-myo)."
@@ -9216,10 +9216,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丙辰 ay ang ika-53 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丙辰 ay ang ika-53 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙辰, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 53."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙辰, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapu, ito ang kombinasyong bilang 53."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9283,7 +9283,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙卯](/guide/pillar-eul-myo) at ang susunod ay [丁巳](/guide/pillar-jeong-sa)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [乙卯](/guide/pillar-eul-myo) at ang susunod ay [丁巳](/guide/pillar-jeong-sa)."
           },
           {
             "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [辰 (Dragon)](/guide/branch-jin)."
@@ -9312,10 +9312,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 丁巳 ay ang ika-54 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 丁巳 ay ang ika-54 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁巳, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 54."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁巳, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapu, ito ang kombinasyong bilang 54."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9379,7 +9379,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙辰](/guide/pillar-byeong-jin) at ang susunod ay [戊午](/guide/pillar-mu-o)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丙辰](/guide/pillar-byeong-jin) at ang susunod ay [戊午](/guide/pillar-mu-o)."
           },
           {
             "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [巳 (Ahas)](/guide/branch-sa)."
@@ -9408,10 +9408,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 戊午 ay ang ika-55 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 戊午 ay ang ika-55 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊午, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 55."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊午, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapu, ito ang kombinasyong bilang 55."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9475,7 +9475,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁巳](/guide/pillar-jeong-sa) at ang susunod ay [己未](/guide/pillar-gi-mi)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [丁巳](/guide/pillar-jeong-sa) at ang susunod ay [己未](/guide/pillar-gi-mi)."
           },
           {
             "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [午 (Kabayo)](/guide/branch-o)."
@@ -9504,10 +9504,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 己未 ay ang ika-56 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 己未 ay ang ika-56 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己未, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 56."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己未, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapu, ito ang kombinasyong bilang 56."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9571,7 +9571,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊午](/guide/pillar-mu-o) at ang susunod ay [庚申](/guide/pillar-gyeong-sin)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [戊午](/guide/pillar-mu-o) at ang susunod ay [庚申](/guide/pillar-gyeong-sin)."
           },
           {
             "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [未 (Tupa)](/guide/branch-mi)."
@@ -9600,10 +9600,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 庚申 ay ang ika-57 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 庚申 ay ang ika-57 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚申, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 57."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚申, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapu, ito ang kombinasyong bilang 57."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9667,7 +9667,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己未](/guide/pillar-gi-mi) at ang susunod ay [辛酉](/guide/pillar-sin-yu)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [己未](/guide/pillar-gi-mi) at ang susunod ay [辛酉](/guide/pillar-sin-yu)."
           },
           {
             "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [申 (Unggoy)](/guide/branch-sin)."
@@ -9696,10 +9696,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 辛酉 ay ang ika-58 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 辛酉 ay ang ika-58 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛酉, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 58."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛酉, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapu, ito ang kombinasyong bilang 58."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9757,7 +9757,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚申](/guide/pillar-gyeong-sin) at ang susunod ay [壬戌](/guide/pillar-im-sul)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [庚申](/guide/pillar-gyeong-sin) at ang susunod ay [壬戌](/guide/pillar-im-sul)."
           },
           {
             "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [酉 (Manok)](/guide/branch-yu)."
@@ -9786,10 +9786,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 壬戌 ay ang ika-59 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 壬戌 ay ang ika-59 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬戌, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 59."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬戌, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapu, ito ang kombinasyong bilang 59."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9853,7 +9853,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛酉](/guide/pillar-sin-yu) at ang susunod ay [癸亥](/guide/pillar-gye-hae)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [辛酉](/guide/pillar-sin-yu) at ang susunod ay [癸亥](/guide/pillar-gye-hae)."
           },
           {
             "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [戌 (Aso)](/guide/branch-sul)."
@@ -9882,10 +9882,10 @@ export const FIL_DOCS = {
     "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang 癸亥 ay ang ika-60 day pillar sa siklo ng animnapung taon",
+        "title": "Ang 癸亥 ay ang ika-60 day pillar sa siklo ng animnapu",
         "blocks": [
           {
-            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸亥, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 60."
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸亥, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapu, ito ang kombinasyong bilang 60."
           },
           {
             "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
@@ -9949,7 +9949,7 @@ export const FIL_DOCS = {
         "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
         "blocks": [
           {
-            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬戌](/guide/pillar-im-sul) at ang susunod ay [甲子](/guide/pillar-gap-ja)."
+            "p": "Sa siklo ng animnapu, ang nakaraang day pillar ay [壬戌](/guide/pillar-im-sul) at ang susunod ay [甲子](/guide/pillar-gap-ja)."
           },
           {
             "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [亥 (Baboy)](/guide/branch-hae)."

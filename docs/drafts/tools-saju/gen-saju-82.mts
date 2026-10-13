@@ -355,9 +355,9 @@ dayPillars.forEach(([si, bi]) => {
 
   const enSec: Section[] = [];
   enSec.push({
-    title: `${s}${b} is day pillar number ${n} of the sixty-year cycle`,
+    title: `${s}${b} is day pillar number ${n} of the sexagenary cycle`,
     blocks: [
-      { p: `When the stem-branch of the birth day is ${s}${b}, the day stem is ${s} (${EL_EN[elOf(s)]}, ${POL_EN[STEM_POL[s]!]}) and the day branch is ${b} (the ${ANIMAL_EN[bi]}). In the sixty-year cycle it is the combination number ${n}.` },
+      { p: `When the stem-branch of the birth day is ${s}${b}, the day stem is ${s} (${EL_EN[elOf(s)]}, ${POL_EN[STEM_POL[s]!]}) and the day branch is ${b} (the ${ANIMAL_EN[bi]}). In the sexagenary cycle it is the combination number ${n}.` },
       { p: `Saju-Link calls a person whose day stem is ${s} "${dmE.name}", and the line the result screen shows is: "${dmE.trait}" This line has nothing to do with the reading below or the scores.` },
     ],
   });
@@ -381,7 +381,7 @@ dayPillars.forEach(([si, bi]) => {
   enSec.push({
     title: "The neighbouring day pillars and the characters it is made of",
     blocks: [
-      { p: `In the sixty-year cycle the previous day pillar is [${STEMS[ps]}${BRANCHES[pb]}](/guide/${pillarSlug(ps, pb)}) and the next is [${STEMS[ns]}${BRANCHES[nb]}](/guide/${pillarSlug(ns, nb)}).` },
+      { p: `In the sexagenary cycle the previous day pillar is [${STEMS[ps]}${BRANCHES[pb]}](/guide/${pillarSlug(ps, pb)}) and the next is [${STEMS[ns]}${BRANCHES[nb]}](/guide/${pillarSlug(ns, nb)}).` },
       { p: `It is made of [${dmE.name}](/guide/${stemSlug(si)}) and [${b} (${ANIMAL_EN[bi]})](/guide/${branchSlug(bi)}).` },
     ],
   });

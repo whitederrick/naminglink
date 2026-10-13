@@ -4308,10 +4308,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "甲子 to filar dnia numer 1 w cyklu sześćdziesięcioletnim",
+        "title": "甲子 to filar dnia numer 1 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲子, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięcioletnim jest to kombinacja numer 1."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲子, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięciu par jest to kombinacja numer 1."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 甲, „Drewno Yang (甲)”, a zdanie pokazywane na ekranie wyników brzmi: „Wysokie drzewo rosnące prosto. Gdy kierunek jest już obrany, nie chwieje się i woli wytrzymać, niż się ugiąć.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -4369,7 +4369,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [癸亥](/guide/pillar-gye-hae), a następnym [乙丑](/guide/pillar-eul-chuk)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [癸亥](/guide/pillar-gye-hae), a następnym [乙丑](/guide/pillar-eul-chuk)."
           },
           {
             "p": "Tworzą go: [Drewno Yang (甲)](/guide/stem-gap) oraz [子 (Szczur)](/guide/branch-ja)."
@@ -4398,10 +4398,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "乙丑 to filar dnia numer 2 w cyklu sześćdziesięcioletnim",
+        "title": "乙丑 to filar dnia numer 2 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙丑, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięcioletnim jest to kombinacja numer 2."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙丑, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięciu par jest to kombinacja numer 2."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 乙, „Drewno Yin (乙)”, a zdanie pokazywane na ekranie wyników brzmi: „Pnącze — giętka trawa. Ugina się pod okolicznościami, żeby iść dalej, i nie pęka.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -4465,7 +4465,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [甲子](/guide/pillar-gap-ja), a następnym [丙寅](/guide/pillar-byeong-in)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [甲子](/guide/pillar-gap-ja), a następnym [丙寅](/guide/pillar-byeong-in)."
           },
           {
             "p": "Tworzą go: [Drewno Yin (乙)](/guide/stem-eul) oraz [丑 (Wół)](/guide/branch-chuk)."
@@ -4494,10 +4494,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丙寅 to filar dnia numer 3 w cyklu sześćdziesięcioletnim",
+        "title": "丙寅 to filar dnia numer 3 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙寅, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięcioletnim jest to kombinacja numer 3."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙寅, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięciu par jest to kombinacja numer 3."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丙, „Ogień Yang (丙)”, a zdanie pokazywane na ekranie wyników brzmi: „Słońce w południe. Uczucia widać wprost, w pomieszczeniu robi się jaśniej, a wychodzenie przed szereg przychodzi naturalnie.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -4561,7 +4561,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [乙丑](/guide/pillar-eul-chuk), a następnym [丁卯](/guide/pillar-jeong-myo)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [乙丑](/guide/pillar-eul-chuk), a następnym [丁卯](/guide/pillar-jeong-myo)."
           },
           {
             "p": "Tworzą go: [Ogień Yang (丙)](/guide/stem-byeong) oraz [寅 (Tygrys)](/guide/branch-in)."
@@ -4590,10 +4590,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丁卯 to filar dnia numer 4 w cyklu sześćdziesięcioletnim",
+        "title": "丁卯 to filar dnia numer 4 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁卯, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięcioletnim jest to kombinacja numer 4."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁卯, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięciu par jest to kombinacja numer 4."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丁, „Ogień Yin (丁)”, a zdanie pokazywane na ekranie wyników brzmi: „Światło świecy. Pali się cicho i długo, a ogrzewa najpierw tych najbliższych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -4651,7 +4651,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丙寅](/guide/pillar-byeong-in), a następnym [戊辰](/guide/pillar-mu-jin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丙寅](/guide/pillar-byeong-in), a następnym [戊辰](/guide/pillar-mu-jin)."
           },
           {
             "p": "Tworzą go: [Ogień Yin (丁)](/guide/stem-jeong) oraz [卯 (Królik)](/guide/branch-myo)."
@@ -4680,10 +4680,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "戊辰 to filar dnia numer 5 w cyklu sześćdziesięcioletnim",
+        "title": "戊辰 to filar dnia numer 5 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊辰, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięcioletnim jest to kombinacja numer 5."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊辰, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięciu par jest to kombinacja numer 5."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 戊, „Ziemia Yang (戊)”, a zdanie pokazywane na ekranie wyników brzmi: „Otwarty ląd i góry. Trudno tym zachwiać i łatwo się o to oprzeć, choć raz podjęta decyzja zmienia się powoli.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -4747,7 +4747,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丁卯](/guide/pillar-jeong-myo), a następnym [己巳](/guide/pillar-gi-sa)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丁卯](/guide/pillar-jeong-myo), a następnym [己巳](/guide/pillar-gi-sa)."
           },
           {
             "p": "Tworzą go: [Ziemia Yang (戊)](/guide/stem-mu) oraz [辰 (Smok)](/guide/branch-jin)."
@@ -4776,10 +4776,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "己巳 to filar dnia numer 6 w cyklu sześćdziesięcioletnim",
+        "title": "己巳 to filar dnia numer 6 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己巳, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięcioletnim jest to kombinacja numer 6."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己巳, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięciu par jest to kombinacja numer 6."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 己, „Ziemia Yin (己)”, a zdanie pokazywane na ekranie wyników brzmi: „Gleba pola. Przyjmuje to, co przyjdzie, i to wyhodowuje — raczej pielęgnuje, niż pokazuje.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -4843,7 +4843,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [戊辰](/guide/pillar-mu-jin), a następnym [庚午](/guide/pillar-gyeong-o)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [戊辰](/guide/pillar-mu-jin), a następnym [庚午](/guide/pillar-gyeong-o)."
           },
           {
             "p": "Tworzą go: [Ziemia Yin (己)](/guide/stem-gi) oraz [巳 (Wąż)](/guide/branch-sa)."
@@ -4872,10 +4872,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "庚午 to filar dnia numer 7 w cyklu sześćdziesięcioletnim",
+        "title": "庚午 to filar dnia numer 7 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚午, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięcioletnim jest to kombinacja numer 7."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚午, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięciu par jest to kombinacja numer 7."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 庚, „Metal Yang (庚)”, a zdanie pokazywane na ekranie wyników brzmi: „Nieobrobione żelazo. Zdecydowany i jednoznaczny, bez cierpliwości do spraw zawieszonych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -4939,7 +4939,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [己巳](/guide/pillar-gi-sa), a następnym [辛未](/guide/pillar-sin-mi)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [己巳](/guide/pillar-gi-sa), a następnym [辛未](/guide/pillar-sin-mi)."
           },
           {
             "p": "Tworzą go: [Metal Yang (庚)](/guide/stem-gyeong) oraz [午 (Koń)](/guide/branch-o)."
@@ -4968,10 +4968,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "辛未 to filar dnia numer 8 w cyklu sześćdziesięcioletnim",
+        "title": "辛未 to filar dnia numer 8 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛未, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięcioletnim jest to kombinacja numer 8."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛未, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięciu par jest to kombinacja numer 8."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 辛, „Metal Yin (辛)”, a zdanie pokazywane na ekranie wyników brzmi: „Oszlifowany klejnot. Wyczulony smak i wysokie wymagania; niedbałość trudno tu puścić płazem.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5035,7 +5035,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [庚午](/guide/pillar-gyeong-o), a następnym [壬申](/guide/pillar-im-sin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [庚午](/guide/pillar-gyeong-o), a następnym [壬申](/guide/pillar-im-sin)."
           },
           {
             "p": "Tworzą go: [Metal Yin (辛)](/guide/stem-sin) oraz [未 (Owca)](/guide/branch-mi)."
@@ -5064,10 +5064,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "壬申 to filar dnia numer 9 w cyklu sześćdziesięcioletnim",
+        "title": "壬申 to filar dnia numer 9 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬申, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięcioletnim jest to kombinacja numer 9."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬申, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięciu par jest to kombinacja numer 9."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 壬, „Woda Yang (壬)”, a zdanie pokazywane na ekranie wyników brzmi: „Rzeka i morze. Szerokie spojrzenie i oko do tego, jak sprawy płyną.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5131,7 +5131,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [辛未](/guide/pillar-sin-mi), a następnym [癸酉](/guide/pillar-gye-yu)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [辛未](/guide/pillar-sin-mi), a następnym [癸酉](/guide/pillar-gye-yu)."
           },
           {
             "p": "Tworzą go: [Woda Yang (壬)](/guide/stem-im) oraz [申 (Małpa)](/guide/branch-sin)."
@@ -5160,10 +5160,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "癸酉 to filar dnia numer 10 w cyklu sześćdziesięcioletnim",
+        "title": "癸酉 to filar dnia numer 10 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸酉, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięcioletnim jest to kombinacja numer 10."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸酉, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięciu par jest to kombinacja numer 10."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 癸, „Woda Yin (癸)”, a zdanie pokazywane na ekranie wyników brzmi: „Rosa i deszcz. Wsiąka cicho i czyta nastrój, zanim padną słowa.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5221,7 +5221,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [壬申](/guide/pillar-im-sin), a następnym [甲戌](/guide/pillar-gap-sul)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [壬申](/guide/pillar-im-sin), a następnym [甲戌](/guide/pillar-gap-sul)."
           },
           {
             "p": "Tworzą go: [Woda Yin (癸)](/guide/stem-gye) oraz [酉 (Kogut)](/guide/branch-yu)."
@@ -5250,10 +5250,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "甲戌 to filar dnia numer 11 w cyklu sześćdziesięcioletnim",
+        "title": "甲戌 to filar dnia numer 11 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲戌, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięcioletnim jest to kombinacja numer 11."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲戌, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięciu par jest to kombinacja numer 11."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 甲, „Drewno Yang (甲)”, a zdanie pokazywane na ekranie wyników brzmi: „Wysokie drzewo rosnące prosto. Gdy kierunek jest już obrany, nie chwieje się i woli wytrzymać, niż się ugiąć.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5317,7 +5317,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [癸酉](/guide/pillar-gye-yu), a następnym [乙亥](/guide/pillar-eul-hae)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [癸酉](/guide/pillar-gye-yu), a następnym [乙亥](/guide/pillar-eul-hae)."
           },
           {
             "p": "Tworzą go: [Drewno Yang (甲)](/guide/stem-gap) oraz [戌 (Pies)](/guide/branch-sul)."
@@ -5346,10 +5346,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "乙亥 to filar dnia numer 12 w cyklu sześćdziesięcioletnim",
+        "title": "乙亥 to filar dnia numer 12 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙亥, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięcioletnim jest to kombinacja numer 12."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙亥, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięciu par jest to kombinacja numer 12."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 乙, „Drewno Yin (乙)”, a zdanie pokazywane na ekranie wyników brzmi: „Pnącze — giętka trawa. Ugina się pod okolicznościami, żeby iść dalej, i nie pęka.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5413,7 +5413,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [甲戌](/guide/pillar-gap-sul), a następnym [丙子](/guide/pillar-byeong-ja)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [甲戌](/guide/pillar-gap-sul), a następnym [丙子](/guide/pillar-byeong-ja)."
           },
           {
             "p": "Tworzą go: [Drewno Yin (乙)](/guide/stem-eul) oraz [亥 (Świnia)](/guide/branch-hae)."
@@ -5442,10 +5442,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丙子 to filar dnia numer 13 w cyklu sześćdziesięcioletnim",
+        "title": "丙子 to filar dnia numer 13 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙子, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięcioletnim jest to kombinacja numer 13."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙子, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięciu par jest to kombinacja numer 13."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丙, „Ogień Yang (丙)”, a zdanie pokazywane na ekranie wyników brzmi: „Słońce w południe. Uczucia widać wprost, w pomieszczeniu robi się jaśniej, a wychodzenie przed szereg przychodzi naturalnie.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5503,7 +5503,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [乙亥](/guide/pillar-eul-hae), a następnym [丁丑](/guide/pillar-jeong-chuk)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [乙亥](/guide/pillar-eul-hae), a następnym [丁丑](/guide/pillar-jeong-chuk)."
           },
           {
             "p": "Tworzą go: [Ogień Yang (丙)](/guide/stem-byeong) oraz [子 (Szczur)](/guide/branch-ja)."
@@ -5532,10 +5532,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丁丑 to filar dnia numer 14 w cyklu sześćdziesięcioletnim",
+        "title": "丁丑 to filar dnia numer 14 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁丑, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięcioletnim jest to kombinacja numer 14."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁丑, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięciu par jest to kombinacja numer 14."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丁, „Ogień Yin (丁)”, a zdanie pokazywane na ekranie wyników brzmi: „Światło świecy. Pali się cicho i długo, a ogrzewa najpierw tych najbliższych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5599,7 +5599,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丙子](/guide/pillar-byeong-ja), a następnym [戊寅](/guide/pillar-mu-in)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丙子](/guide/pillar-byeong-ja), a następnym [戊寅](/guide/pillar-mu-in)."
           },
           {
             "p": "Tworzą go: [Ogień Yin (丁)](/guide/stem-jeong) oraz [丑 (Wół)](/guide/branch-chuk)."
@@ -5628,10 +5628,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "戊寅 to filar dnia numer 15 w cyklu sześćdziesięcioletnim",
+        "title": "戊寅 to filar dnia numer 15 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊寅, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięcioletnim jest to kombinacja numer 15."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊寅, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięciu par jest to kombinacja numer 15."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 戊, „Ziemia Yang (戊)”, a zdanie pokazywane na ekranie wyników brzmi: „Otwarty ląd i góry. Trudno tym zachwiać i łatwo się o to oprzeć, choć raz podjęta decyzja zmienia się powoli.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5695,7 +5695,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丁丑](/guide/pillar-jeong-chuk), a następnym [己卯](/guide/pillar-gi-myo)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丁丑](/guide/pillar-jeong-chuk), a następnym [己卯](/guide/pillar-gi-myo)."
           },
           {
             "p": "Tworzą go: [Ziemia Yang (戊)](/guide/stem-mu) oraz [寅 (Tygrys)](/guide/branch-in)."
@@ -5724,10 +5724,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "己卯 to filar dnia numer 16 w cyklu sześćdziesięcioletnim",
+        "title": "己卯 to filar dnia numer 16 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己卯, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięcioletnim jest to kombinacja numer 16."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己卯, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięciu par jest to kombinacja numer 16."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 己, „Ziemia Yin (己)”, a zdanie pokazywane na ekranie wyników brzmi: „Gleba pola. Przyjmuje to, co przyjdzie, i to wyhodowuje — raczej pielęgnuje, niż pokazuje.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5785,7 +5785,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [戊寅](/guide/pillar-mu-in), a następnym [庚辰](/guide/pillar-gyeong-jin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [戊寅](/guide/pillar-mu-in), a następnym [庚辰](/guide/pillar-gyeong-jin)."
           },
           {
             "p": "Tworzą go: [Ziemia Yin (己)](/guide/stem-gi) oraz [卯 (Królik)](/guide/branch-myo)."
@@ -5814,10 +5814,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "庚辰 to filar dnia numer 17 w cyklu sześćdziesięcioletnim",
+        "title": "庚辰 to filar dnia numer 17 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚辰, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięcioletnim jest to kombinacja numer 17."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚辰, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięciu par jest to kombinacja numer 17."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 庚, „Metal Yang (庚)”, a zdanie pokazywane na ekranie wyników brzmi: „Nieobrobione żelazo. Zdecydowany i jednoznaczny, bez cierpliwości do spraw zawieszonych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5881,7 +5881,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [己卯](/guide/pillar-gi-myo), a następnym [辛巳](/guide/pillar-sin-sa)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [己卯](/guide/pillar-gi-myo), a następnym [辛巳](/guide/pillar-sin-sa)."
           },
           {
             "p": "Tworzą go: [Metal Yang (庚)](/guide/stem-gyeong) oraz [辰 (Smok)](/guide/branch-jin)."
@@ -5910,10 +5910,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "辛巳 to filar dnia numer 18 w cyklu sześćdziesięcioletnim",
+        "title": "辛巳 to filar dnia numer 18 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛巳, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięcioletnim jest to kombinacja numer 18."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛巳, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięciu par jest to kombinacja numer 18."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 辛, „Metal Yin (辛)”, a zdanie pokazywane na ekranie wyników brzmi: „Oszlifowany klejnot. Wyczulony smak i wysokie wymagania; niedbałość trudno tu puścić płazem.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -5977,7 +5977,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [庚辰](/guide/pillar-gyeong-jin), a następnym [壬午](/guide/pillar-im-o)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [庚辰](/guide/pillar-gyeong-jin), a następnym [壬午](/guide/pillar-im-o)."
           },
           {
             "p": "Tworzą go: [Metal Yin (辛)](/guide/stem-sin) oraz [巳 (Wąż)](/guide/branch-sa)."
@@ -6006,10 +6006,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "壬午 to filar dnia numer 19 w cyklu sześćdziesięcioletnim",
+        "title": "壬午 to filar dnia numer 19 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬午, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięcioletnim jest to kombinacja numer 19."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬午, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięciu par jest to kombinacja numer 19."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 壬, „Woda Yang (壬)”, a zdanie pokazywane na ekranie wyników brzmi: „Rzeka i morze. Szerokie spojrzenie i oko do tego, jak sprawy płyną.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6073,7 +6073,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [辛巳](/guide/pillar-sin-sa), a następnym [癸未](/guide/pillar-gye-mi)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [辛巳](/guide/pillar-sin-sa), a następnym [癸未](/guide/pillar-gye-mi)."
           },
           {
             "p": "Tworzą go: [Woda Yang (壬)](/guide/stem-im) oraz [午 (Koń)](/guide/branch-o)."
@@ -6102,10 +6102,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "癸未 to filar dnia numer 20 w cyklu sześćdziesięcioletnim",
+        "title": "癸未 to filar dnia numer 20 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸未, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięcioletnim jest to kombinacja numer 20."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸未, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięciu par jest to kombinacja numer 20."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 癸, „Woda Yin (癸)”, a zdanie pokazywane na ekranie wyników brzmi: „Rosa i deszcz. Wsiąka cicho i czyta nastrój, zanim padną słowa.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6169,7 +6169,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [壬午](/guide/pillar-im-o), a następnym [甲申](/guide/pillar-gap-sin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [壬午](/guide/pillar-im-o), a następnym [甲申](/guide/pillar-gap-sin)."
           },
           {
             "p": "Tworzą go: [Woda Yin (癸)](/guide/stem-gye) oraz [未 (Owca)](/guide/branch-mi)."
@@ -6198,10 +6198,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "甲申 to filar dnia numer 21 w cyklu sześćdziesięcioletnim",
+        "title": "甲申 to filar dnia numer 21 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲申, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięcioletnim jest to kombinacja numer 21."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲申, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięciu par jest to kombinacja numer 21."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 甲, „Drewno Yang (甲)”, a zdanie pokazywane na ekranie wyników brzmi: „Wysokie drzewo rosnące prosto. Gdy kierunek jest już obrany, nie chwieje się i woli wytrzymać, niż się ugiąć.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6265,7 +6265,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [癸未](/guide/pillar-gye-mi), a następnym [乙酉](/guide/pillar-eul-yu)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [癸未](/guide/pillar-gye-mi), a następnym [乙酉](/guide/pillar-eul-yu)."
           },
           {
             "p": "Tworzą go: [Drewno Yang (甲)](/guide/stem-gap) oraz [申 (Małpa)](/guide/branch-sin)."
@@ -6294,10 +6294,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "乙酉 to filar dnia numer 22 w cyklu sześćdziesięcioletnim",
+        "title": "乙酉 to filar dnia numer 22 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙酉, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięcioletnim jest to kombinacja numer 22."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙酉, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięciu par jest to kombinacja numer 22."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 乙, „Drewno Yin (乙)”, a zdanie pokazywane na ekranie wyników brzmi: „Pnącze — giętka trawa. Ugina się pod okolicznościami, żeby iść dalej, i nie pęka.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6355,7 +6355,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [甲申](/guide/pillar-gap-sin), a następnym [丙戌](/guide/pillar-byeong-sul)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [甲申](/guide/pillar-gap-sin), a następnym [丙戌](/guide/pillar-byeong-sul)."
           },
           {
             "p": "Tworzą go: [Drewno Yin (乙)](/guide/stem-eul) oraz [酉 (Kogut)](/guide/branch-yu)."
@@ -6384,10 +6384,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丙戌 to filar dnia numer 23 w cyklu sześćdziesięcioletnim",
+        "title": "丙戌 to filar dnia numer 23 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙戌, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięcioletnim jest to kombinacja numer 23."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙戌, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięciu par jest to kombinacja numer 23."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丙, „Ogień Yang (丙)”, a zdanie pokazywane na ekranie wyników brzmi: „Słońce w południe. Uczucia widać wprost, w pomieszczeniu robi się jaśniej, a wychodzenie przed szereg przychodzi naturalnie.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6451,7 +6451,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [乙酉](/guide/pillar-eul-yu), a następnym [丁亥](/guide/pillar-jeong-hae)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [乙酉](/guide/pillar-eul-yu), a następnym [丁亥](/guide/pillar-jeong-hae)."
           },
           {
             "p": "Tworzą go: [Ogień Yang (丙)](/guide/stem-byeong) oraz [戌 (Pies)](/guide/branch-sul)."
@@ -6480,10 +6480,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丁亥 to filar dnia numer 24 w cyklu sześćdziesięcioletnim",
+        "title": "丁亥 to filar dnia numer 24 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁亥, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięcioletnim jest to kombinacja numer 24."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁亥, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięciu par jest to kombinacja numer 24."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丁, „Ogień Yin (丁)”, a zdanie pokazywane na ekranie wyników brzmi: „Światło świecy. Pali się cicho i długo, a ogrzewa najpierw tych najbliższych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6547,7 +6547,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丙戌](/guide/pillar-byeong-sul), a następnym [戊子](/guide/pillar-mu-ja)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丙戌](/guide/pillar-byeong-sul), a następnym [戊子](/guide/pillar-mu-ja)."
           },
           {
             "p": "Tworzą go: [Ogień Yin (丁)](/guide/stem-jeong) oraz [亥 (Świnia)](/guide/branch-hae)."
@@ -6576,10 +6576,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "戊子 to filar dnia numer 25 w cyklu sześćdziesięcioletnim",
+        "title": "戊子 to filar dnia numer 25 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊子, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięcioletnim jest to kombinacja numer 25."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊子, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięciu par jest to kombinacja numer 25."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 戊, „Ziemia Yang (戊)”, a zdanie pokazywane na ekranie wyników brzmi: „Otwarty ląd i góry. Trudno tym zachwiać i łatwo się o to oprzeć, choć raz podjęta decyzja zmienia się powoli.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6637,7 +6637,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丁亥](/guide/pillar-jeong-hae), a następnym [己丑](/guide/pillar-gi-chuk)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丁亥](/guide/pillar-jeong-hae), a następnym [己丑](/guide/pillar-gi-chuk)."
           },
           {
             "p": "Tworzą go: [Ziemia Yang (戊)](/guide/stem-mu) oraz [子 (Szczur)](/guide/branch-ja)."
@@ -6666,10 +6666,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "己丑 to filar dnia numer 26 w cyklu sześćdziesięcioletnim",
+        "title": "己丑 to filar dnia numer 26 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己丑, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięcioletnim jest to kombinacja numer 26."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己丑, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięciu par jest to kombinacja numer 26."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 己, „Ziemia Yin (己)”, a zdanie pokazywane na ekranie wyników brzmi: „Gleba pola. Przyjmuje to, co przyjdzie, i to wyhodowuje — raczej pielęgnuje, niż pokazuje.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6733,7 +6733,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [戊子](/guide/pillar-mu-ja), a następnym [庚寅](/guide/pillar-gyeong-in)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [戊子](/guide/pillar-mu-ja), a następnym [庚寅](/guide/pillar-gyeong-in)."
           },
           {
             "p": "Tworzą go: [Ziemia Yin (己)](/guide/stem-gi) oraz [丑 (Wół)](/guide/branch-chuk)."
@@ -6762,10 +6762,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "庚寅 to filar dnia numer 27 w cyklu sześćdziesięcioletnim",
+        "title": "庚寅 to filar dnia numer 27 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚寅, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięcioletnim jest to kombinacja numer 27."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚寅, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięciu par jest to kombinacja numer 27."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 庚, „Metal Yang (庚)”, a zdanie pokazywane na ekranie wyników brzmi: „Nieobrobione żelazo. Zdecydowany i jednoznaczny, bez cierpliwości do spraw zawieszonych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6829,7 +6829,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [己丑](/guide/pillar-gi-chuk), a następnym [辛卯](/guide/pillar-sin-myo)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [己丑](/guide/pillar-gi-chuk), a następnym [辛卯](/guide/pillar-sin-myo)."
           },
           {
             "p": "Tworzą go: [Metal Yang (庚)](/guide/stem-gyeong) oraz [寅 (Tygrys)](/guide/branch-in)."
@@ -6858,10 +6858,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "辛卯 to filar dnia numer 28 w cyklu sześćdziesięcioletnim",
+        "title": "辛卯 to filar dnia numer 28 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛卯, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięcioletnim jest to kombinacja numer 28."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛卯, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięciu par jest to kombinacja numer 28."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 辛, „Metal Yin (辛)”, a zdanie pokazywane na ekranie wyników brzmi: „Oszlifowany klejnot. Wyczulony smak i wysokie wymagania; niedbałość trudno tu puścić płazem.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -6919,7 +6919,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [庚寅](/guide/pillar-gyeong-in), a następnym [壬辰](/guide/pillar-im-jin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [庚寅](/guide/pillar-gyeong-in), a następnym [壬辰](/guide/pillar-im-jin)."
           },
           {
             "p": "Tworzą go: [Metal Yin (辛)](/guide/stem-sin) oraz [卯 (Królik)](/guide/branch-myo)."
@@ -6948,10 +6948,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "壬辰 to filar dnia numer 29 w cyklu sześćdziesięcioletnim",
+        "title": "壬辰 to filar dnia numer 29 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬辰, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięcioletnim jest to kombinacja numer 29."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬辰, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięciu par jest to kombinacja numer 29."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 壬, „Woda Yang (壬)”, a zdanie pokazywane na ekranie wyników brzmi: „Rzeka i morze. Szerokie spojrzenie i oko do tego, jak sprawy płyną.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7015,7 +7015,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [辛卯](/guide/pillar-sin-myo), a następnym [癸巳](/guide/pillar-gye-sa)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [辛卯](/guide/pillar-sin-myo), a następnym [癸巳](/guide/pillar-gye-sa)."
           },
           {
             "p": "Tworzą go: [Woda Yang (壬)](/guide/stem-im) oraz [辰 (Smok)](/guide/branch-jin)."
@@ -7044,10 +7044,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "癸巳 to filar dnia numer 30 w cyklu sześćdziesięcioletnim",
+        "title": "癸巳 to filar dnia numer 30 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸巳, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięcioletnim jest to kombinacja numer 30."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸巳, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięciu par jest to kombinacja numer 30."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 癸, „Woda Yin (癸)”, a zdanie pokazywane na ekranie wyników brzmi: „Rosa i deszcz. Wsiąka cicho i czyta nastrój, zanim padną słowa.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7111,7 +7111,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [壬辰](/guide/pillar-im-jin), a następnym [甲午](/guide/pillar-gap-o)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [壬辰](/guide/pillar-im-jin), a następnym [甲午](/guide/pillar-gap-o)."
           },
           {
             "p": "Tworzą go: [Woda Yin (癸)](/guide/stem-gye) oraz [巳 (Wąż)](/guide/branch-sa)."
@@ -7140,10 +7140,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "甲午 to filar dnia numer 31 w cyklu sześćdziesięcioletnim",
+        "title": "甲午 to filar dnia numer 31 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲午, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięcioletnim jest to kombinacja numer 31."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲午, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięciu par jest to kombinacja numer 31."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 甲, „Drewno Yang (甲)”, a zdanie pokazywane na ekranie wyników brzmi: „Wysokie drzewo rosnące prosto. Gdy kierunek jest już obrany, nie chwieje się i woli wytrzymać, niż się ugiąć.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7207,7 +7207,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [癸巳](/guide/pillar-gye-sa), a następnym [乙未](/guide/pillar-eul-mi)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [癸巳](/guide/pillar-gye-sa), a następnym [乙未](/guide/pillar-eul-mi)."
           },
           {
             "p": "Tworzą go: [Drewno Yang (甲)](/guide/stem-gap) oraz [午 (Koń)](/guide/branch-o)."
@@ -7236,10 +7236,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "乙未 to filar dnia numer 32 w cyklu sześćdziesięcioletnim",
+        "title": "乙未 to filar dnia numer 32 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙未, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięcioletnim jest to kombinacja numer 32."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙未, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięciu par jest to kombinacja numer 32."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 乙, „Drewno Yin (乙)”, a zdanie pokazywane na ekranie wyników brzmi: „Pnącze — giętka trawa. Ugina się pod okolicznościami, żeby iść dalej, i nie pęka.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7303,7 +7303,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [甲午](/guide/pillar-gap-o), a następnym [丙申](/guide/pillar-byeong-sin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [甲午](/guide/pillar-gap-o), a następnym [丙申](/guide/pillar-byeong-sin)."
           },
           {
             "p": "Tworzą go: [Drewno Yin (乙)](/guide/stem-eul) oraz [未 (Owca)](/guide/branch-mi)."
@@ -7332,10 +7332,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丙申 to filar dnia numer 33 w cyklu sześćdziesięcioletnim",
+        "title": "丙申 to filar dnia numer 33 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙申, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięcioletnim jest to kombinacja numer 33."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙申, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięciu par jest to kombinacja numer 33."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丙, „Ogień Yang (丙)”, a zdanie pokazywane na ekranie wyników brzmi: „Słońce w południe. Uczucia widać wprost, w pomieszczeniu robi się jaśniej, a wychodzenie przed szereg przychodzi naturalnie.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7399,7 +7399,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [乙未](/guide/pillar-eul-mi), a następnym [丁酉](/guide/pillar-jeong-yu)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [乙未](/guide/pillar-eul-mi), a następnym [丁酉](/guide/pillar-jeong-yu)."
           },
           {
             "p": "Tworzą go: [Ogień Yang (丙)](/guide/stem-byeong) oraz [申 (Małpa)](/guide/branch-sin)."
@@ -7428,10 +7428,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丁酉 to filar dnia numer 34 w cyklu sześćdziesięcioletnim",
+        "title": "丁酉 to filar dnia numer 34 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁酉, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięcioletnim jest to kombinacja numer 34."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁酉, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięciu par jest to kombinacja numer 34."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丁, „Ogień Yin (丁)”, a zdanie pokazywane na ekranie wyników brzmi: „Światło świecy. Pali się cicho i długo, a ogrzewa najpierw tych najbliższych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7489,7 +7489,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丙申](/guide/pillar-byeong-sin), a następnym [戊戌](/guide/pillar-mu-sul)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丙申](/guide/pillar-byeong-sin), a następnym [戊戌](/guide/pillar-mu-sul)."
           },
           {
             "p": "Tworzą go: [Ogień Yin (丁)](/guide/stem-jeong) oraz [酉 (Kogut)](/guide/branch-yu)."
@@ -7518,10 +7518,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "戊戌 to filar dnia numer 35 w cyklu sześćdziesięcioletnim",
+        "title": "戊戌 to filar dnia numer 35 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊戌, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięcioletnim jest to kombinacja numer 35."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊戌, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięciu par jest to kombinacja numer 35."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 戊, „Ziemia Yang (戊)”, a zdanie pokazywane na ekranie wyników brzmi: „Otwarty ląd i góry. Trudno tym zachwiać i łatwo się o to oprzeć, choć raz podjęta decyzja zmienia się powoli.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7585,7 +7585,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丁酉](/guide/pillar-jeong-yu), a następnym [己亥](/guide/pillar-gi-hae)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丁酉](/guide/pillar-jeong-yu), a następnym [己亥](/guide/pillar-gi-hae)."
           },
           {
             "p": "Tworzą go: [Ziemia Yang (戊)](/guide/stem-mu) oraz [戌 (Pies)](/guide/branch-sul)."
@@ -7614,10 +7614,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "己亥 to filar dnia numer 36 w cyklu sześćdziesięcioletnim",
+        "title": "己亥 to filar dnia numer 36 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己亥, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięcioletnim jest to kombinacja numer 36."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己亥, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięciu par jest to kombinacja numer 36."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 己, „Ziemia Yin (己)”, a zdanie pokazywane na ekranie wyników brzmi: „Gleba pola. Przyjmuje to, co przyjdzie, i to wyhodowuje — raczej pielęgnuje, niż pokazuje.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7681,7 +7681,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [戊戌](/guide/pillar-mu-sul), a następnym [庚子](/guide/pillar-gyeong-ja)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [戊戌](/guide/pillar-mu-sul), a następnym [庚子](/guide/pillar-gyeong-ja)."
           },
           {
             "p": "Tworzą go: [Ziemia Yin (己)](/guide/stem-gi) oraz [亥 (Świnia)](/guide/branch-hae)."
@@ -7710,10 +7710,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "庚子 to filar dnia numer 37 w cyklu sześćdziesięcioletnim",
+        "title": "庚子 to filar dnia numer 37 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚子, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięcioletnim jest to kombinacja numer 37."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚子, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięciu par jest to kombinacja numer 37."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 庚, „Metal Yang (庚)”, a zdanie pokazywane na ekranie wyników brzmi: „Nieobrobione żelazo. Zdecydowany i jednoznaczny, bez cierpliwości do spraw zawieszonych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7771,7 +7771,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [己亥](/guide/pillar-gi-hae), a następnym [辛丑](/guide/pillar-sin-chuk)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [己亥](/guide/pillar-gi-hae), a następnym [辛丑](/guide/pillar-sin-chuk)."
           },
           {
             "p": "Tworzą go: [Metal Yang (庚)](/guide/stem-gyeong) oraz [子 (Szczur)](/guide/branch-ja)."
@@ -7800,10 +7800,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "辛丑 to filar dnia numer 38 w cyklu sześćdziesięcioletnim",
+        "title": "辛丑 to filar dnia numer 38 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛丑, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięcioletnim jest to kombinacja numer 38."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛丑, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięciu par jest to kombinacja numer 38."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 辛, „Metal Yin (辛)”, a zdanie pokazywane na ekranie wyników brzmi: „Oszlifowany klejnot. Wyczulony smak i wysokie wymagania; niedbałość trudno tu puścić płazem.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7867,7 +7867,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [庚子](/guide/pillar-gyeong-ja), a następnym [壬寅](/guide/pillar-im-in)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [庚子](/guide/pillar-gyeong-ja), a następnym [壬寅](/guide/pillar-im-in)."
           },
           {
             "p": "Tworzą go: [Metal Yin (辛)](/guide/stem-sin) oraz [丑 (Wół)](/guide/branch-chuk)."
@@ -7896,10 +7896,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "壬寅 to filar dnia numer 39 w cyklu sześćdziesięcioletnim",
+        "title": "壬寅 to filar dnia numer 39 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬寅, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięcioletnim jest to kombinacja numer 39."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬寅, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięciu par jest to kombinacja numer 39."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 壬, „Woda Yang (壬)”, a zdanie pokazywane na ekranie wyników brzmi: „Rzeka i morze. Szerokie spojrzenie i oko do tego, jak sprawy płyną.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -7963,7 +7963,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [辛丑](/guide/pillar-sin-chuk), a następnym [癸卯](/guide/pillar-gye-myo)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [辛丑](/guide/pillar-sin-chuk), a następnym [癸卯](/guide/pillar-gye-myo)."
           },
           {
             "p": "Tworzą go: [Woda Yang (壬)](/guide/stem-im) oraz [寅 (Tygrys)](/guide/branch-in)."
@@ -7992,10 +7992,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "癸卯 to filar dnia numer 40 w cyklu sześćdziesięcioletnim",
+        "title": "癸卯 to filar dnia numer 40 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸卯, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięcioletnim jest to kombinacja numer 40."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸卯, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięciu par jest to kombinacja numer 40."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 癸, „Woda Yin (癸)”, a zdanie pokazywane na ekranie wyników brzmi: „Rosa i deszcz. Wsiąka cicho i czyta nastrój, zanim padną słowa.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8053,7 +8053,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [壬寅](/guide/pillar-im-in), a następnym [甲辰](/guide/pillar-gap-jin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [壬寅](/guide/pillar-im-in), a następnym [甲辰](/guide/pillar-gap-jin)."
           },
           {
             "p": "Tworzą go: [Woda Yin (癸)](/guide/stem-gye) oraz [卯 (Królik)](/guide/branch-myo)."
@@ -8082,10 +8082,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "甲辰 to filar dnia numer 41 w cyklu sześćdziesięcioletnim",
+        "title": "甲辰 to filar dnia numer 41 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲辰, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięcioletnim jest to kombinacja numer 41."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲辰, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięciu par jest to kombinacja numer 41."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 甲, „Drewno Yang (甲)”, a zdanie pokazywane na ekranie wyników brzmi: „Wysokie drzewo rosnące prosto. Gdy kierunek jest już obrany, nie chwieje się i woli wytrzymać, niż się ugiąć.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8149,7 +8149,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [癸卯](/guide/pillar-gye-myo), a następnym [乙巳](/guide/pillar-eul-sa)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [癸卯](/guide/pillar-gye-myo), a następnym [乙巳](/guide/pillar-eul-sa)."
           },
           {
             "p": "Tworzą go: [Drewno Yang (甲)](/guide/stem-gap) oraz [辰 (Smok)](/guide/branch-jin)."
@@ -8178,10 +8178,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "乙巳 to filar dnia numer 42 w cyklu sześćdziesięcioletnim",
+        "title": "乙巳 to filar dnia numer 42 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙巳, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięcioletnim jest to kombinacja numer 42."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙巳, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięciu par jest to kombinacja numer 42."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 乙, „Drewno Yin (乙)”, a zdanie pokazywane na ekranie wyników brzmi: „Pnącze — giętka trawa. Ugina się pod okolicznościami, żeby iść dalej, i nie pęka.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8245,7 +8245,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [甲辰](/guide/pillar-gap-jin), a następnym [丙午](/guide/pillar-byeong-o)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [甲辰](/guide/pillar-gap-jin), a następnym [丙午](/guide/pillar-byeong-o)."
           },
           {
             "p": "Tworzą go: [Drewno Yin (乙)](/guide/stem-eul) oraz [巳 (Wąż)](/guide/branch-sa)."
@@ -8274,10 +8274,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丙午 to filar dnia numer 43 w cyklu sześćdziesięcioletnim",
+        "title": "丙午 to filar dnia numer 43 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙午, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięcioletnim jest to kombinacja numer 43."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙午, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięciu par jest to kombinacja numer 43."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丙, „Ogień Yang (丙)”, a zdanie pokazywane na ekranie wyników brzmi: „Słońce w południe. Uczucia widać wprost, w pomieszczeniu robi się jaśniej, a wychodzenie przed szereg przychodzi naturalnie.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8341,7 +8341,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [乙巳](/guide/pillar-eul-sa), a następnym [丁未](/guide/pillar-jeong-mi)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [乙巳](/guide/pillar-eul-sa), a następnym [丁未](/guide/pillar-jeong-mi)."
           },
           {
             "p": "Tworzą go: [Ogień Yang (丙)](/guide/stem-byeong) oraz [午 (Koń)](/guide/branch-o)."
@@ -8370,10 +8370,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丁未 to filar dnia numer 44 w cyklu sześćdziesięcioletnim",
+        "title": "丁未 to filar dnia numer 44 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁未, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięcioletnim jest to kombinacja numer 44."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁未, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięciu par jest to kombinacja numer 44."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丁, „Ogień Yin (丁)”, a zdanie pokazywane na ekranie wyników brzmi: „Światło świecy. Pali się cicho i długo, a ogrzewa najpierw tych najbliższych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8437,7 +8437,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丙午](/guide/pillar-byeong-o), a następnym [戊申](/guide/pillar-mu-sin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丙午](/guide/pillar-byeong-o), a następnym [戊申](/guide/pillar-mu-sin)."
           },
           {
             "p": "Tworzą go: [Ogień Yin (丁)](/guide/stem-jeong) oraz [未 (Owca)](/guide/branch-mi)."
@@ -8466,10 +8466,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "戊申 to filar dnia numer 45 w cyklu sześćdziesięcioletnim",
+        "title": "戊申 to filar dnia numer 45 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊申, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięcioletnim jest to kombinacja numer 45."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊申, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięciu par jest to kombinacja numer 45."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 戊, „Ziemia Yang (戊)”, a zdanie pokazywane na ekranie wyników brzmi: „Otwarty ląd i góry. Trudno tym zachwiać i łatwo się o to oprzeć, choć raz podjęta decyzja zmienia się powoli.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8533,7 +8533,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丁未](/guide/pillar-jeong-mi), a następnym [己酉](/guide/pillar-gi-yu)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丁未](/guide/pillar-jeong-mi), a następnym [己酉](/guide/pillar-gi-yu)."
           },
           {
             "p": "Tworzą go: [Ziemia Yang (戊)](/guide/stem-mu) oraz [申 (Małpa)](/guide/branch-sin)."
@@ -8562,10 +8562,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "己酉 to filar dnia numer 46 w cyklu sześćdziesięcioletnim",
+        "title": "己酉 to filar dnia numer 46 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己酉, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięcioletnim jest to kombinacja numer 46."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己酉, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięciu par jest to kombinacja numer 46."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 己, „Ziemia Yin (己)”, a zdanie pokazywane na ekranie wyników brzmi: „Gleba pola. Przyjmuje to, co przyjdzie, i to wyhodowuje — raczej pielęgnuje, niż pokazuje.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8623,7 +8623,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [戊申](/guide/pillar-mu-sin), a następnym [庚戌](/guide/pillar-gyeong-sul)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [戊申](/guide/pillar-mu-sin), a następnym [庚戌](/guide/pillar-gyeong-sul)."
           },
           {
             "p": "Tworzą go: [Ziemia Yin (己)](/guide/stem-gi) oraz [酉 (Kogut)](/guide/branch-yu)."
@@ -8652,10 +8652,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "庚戌 to filar dnia numer 47 w cyklu sześćdziesięcioletnim",
+        "title": "庚戌 to filar dnia numer 47 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚戌, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięcioletnim jest to kombinacja numer 47."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚戌, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięciu par jest to kombinacja numer 47."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 庚, „Metal Yang (庚)”, a zdanie pokazywane na ekranie wyników brzmi: „Nieobrobione żelazo. Zdecydowany i jednoznaczny, bez cierpliwości do spraw zawieszonych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8719,7 +8719,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [己酉](/guide/pillar-gi-yu), a następnym [辛亥](/guide/pillar-sin-hae)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [己酉](/guide/pillar-gi-yu), a następnym [辛亥](/guide/pillar-sin-hae)."
           },
           {
             "p": "Tworzą go: [Metal Yang (庚)](/guide/stem-gyeong) oraz [戌 (Pies)](/guide/branch-sul)."
@@ -8748,10 +8748,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "辛亥 to filar dnia numer 48 w cyklu sześćdziesięcioletnim",
+        "title": "辛亥 to filar dnia numer 48 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛亥, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięcioletnim jest to kombinacja numer 48."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛亥, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięciu par jest to kombinacja numer 48."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 辛, „Metal Yin (辛)”, a zdanie pokazywane na ekranie wyników brzmi: „Oszlifowany klejnot. Wyczulony smak i wysokie wymagania; niedbałość trudno tu puścić płazem.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8815,7 +8815,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [庚戌](/guide/pillar-gyeong-sul), a następnym [壬子](/guide/pillar-im-ja)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [庚戌](/guide/pillar-gyeong-sul), a następnym [壬子](/guide/pillar-im-ja)."
           },
           {
             "p": "Tworzą go: [Metal Yin (辛)](/guide/stem-sin) oraz [亥 (Świnia)](/guide/branch-hae)."
@@ -8844,10 +8844,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "壬子 to filar dnia numer 49 w cyklu sześćdziesięcioletnim",
+        "title": "壬子 to filar dnia numer 49 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬子, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięcioletnim jest to kombinacja numer 49."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬子, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 子 (Szczur). W cyklu sześćdziesięciu par jest to kombinacja numer 49."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 壬, „Woda Yang (壬)”, a zdanie pokazywane na ekranie wyników brzmi: „Rzeka i morze. Szerokie spojrzenie i oko do tego, jak sprawy płyną.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -8905,7 +8905,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [辛亥](/guide/pillar-sin-hae), a następnym [癸丑](/guide/pillar-gye-chuk)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [辛亥](/guide/pillar-sin-hae), a następnym [癸丑](/guide/pillar-gye-chuk)."
           },
           {
             "p": "Tworzą go: [Woda Yang (壬)](/guide/stem-im) oraz [子 (Szczur)](/guide/branch-ja)."
@@ -8934,10 +8934,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "癸丑 to filar dnia numer 50 w cyklu sześćdziesięcioletnim",
+        "title": "癸丑 to filar dnia numer 50 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸丑, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięcioletnim jest to kombinacja numer 50."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸丑, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 丑 (Wół). W cyklu sześćdziesięciu par jest to kombinacja numer 50."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 癸, „Woda Yin (癸)”, a zdanie pokazywane na ekranie wyników brzmi: „Rosa i deszcz. Wsiąka cicho i czyta nastrój, zanim padną słowa.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9001,7 +9001,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [壬子](/guide/pillar-im-ja), a następnym [甲寅](/guide/pillar-gap-in)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [壬子](/guide/pillar-im-ja), a następnym [甲寅](/guide/pillar-gap-in)."
           },
           {
             "p": "Tworzą go: [Woda Yin (癸)](/guide/stem-gye) oraz [丑 (Wół)](/guide/branch-chuk)."
@@ -9030,10 +9030,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "甲寅 to filar dnia numer 51 w cyklu sześćdziesięcioletnim",
+        "title": "甲寅 to filar dnia numer 51 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲寅, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięcioletnim jest to kombinacja numer 51."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 甲寅, pniem dnia jest 甲 (Drewno, Yang), a gałęzią dnia 寅 (Tygrys). W cyklu sześćdziesięciu par jest to kombinacja numer 51."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 甲, „Drewno Yang (甲)”, a zdanie pokazywane na ekranie wyników brzmi: „Wysokie drzewo rosnące prosto. Gdy kierunek jest już obrany, nie chwieje się i woli wytrzymać, niż się ugiąć.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9097,7 +9097,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [癸丑](/guide/pillar-gye-chuk), a następnym [乙卯](/guide/pillar-eul-myo)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [癸丑](/guide/pillar-gye-chuk), a następnym [乙卯](/guide/pillar-eul-myo)."
           },
           {
             "p": "Tworzą go: [Drewno Yang (甲)](/guide/stem-gap) oraz [寅 (Tygrys)](/guide/branch-in)."
@@ -9126,10 +9126,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "乙卯 to filar dnia numer 52 w cyklu sześćdziesięcioletnim",
+        "title": "乙卯 to filar dnia numer 52 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙卯, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięcioletnim jest to kombinacja numer 52."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 乙卯, pniem dnia jest 乙 (Drewno, Yin), a gałęzią dnia 卯 (Królik). W cyklu sześćdziesięciu par jest to kombinacja numer 52."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 乙, „Drewno Yin (乙)”, a zdanie pokazywane na ekranie wyników brzmi: „Pnącze — giętka trawa. Ugina się pod okolicznościami, żeby iść dalej, i nie pęka.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9187,7 +9187,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [甲寅](/guide/pillar-gap-in), a następnym [丙辰](/guide/pillar-byeong-jin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [甲寅](/guide/pillar-gap-in), a następnym [丙辰](/guide/pillar-byeong-jin)."
           },
           {
             "p": "Tworzą go: [Drewno Yin (乙)](/guide/stem-eul) oraz [卯 (Królik)](/guide/branch-myo)."
@@ -9216,10 +9216,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丙辰 to filar dnia numer 53 w cyklu sześćdziesięcioletnim",
+        "title": "丙辰 to filar dnia numer 53 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙辰, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięcioletnim jest to kombinacja numer 53."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丙辰, pniem dnia jest 丙 (Ogień, Yang), a gałęzią dnia 辰 (Smok). W cyklu sześćdziesięciu par jest to kombinacja numer 53."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丙, „Ogień Yang (丙)”, a zdanie pokazywane na ekranie wyników brzmi: „Słońce w południe. Uczucia widać wprost, w pomieszczeniu robi się jaśniej, a wychodzenie przed szereg przychodzi naturalnie.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9283,7 +9283,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [乙卯](/guide/pillar-eul-myo), a następnym [丁巳](/guide/pillar-jeong-sa)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [乙卯](/guide/pillar-eul-myo), a następnym [丁巳](/guide/pillar-jeong-sa)."
           },
           {
             "p": "Tworzą go: [Ogień Yang (丙)](/guide/stem-byeong) oraz [辰 (Smok)](/guide/branch-jin)."
@@ -9312,10 +9312,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "丁巳 to filar dnia numer 54 w cyklu sześćdziesięcioletnim",
+        "title": "丁巳 to filar dnia numer 54 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁巳, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięcioletnim jest to kombinacja numer 54."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 丁巳, pniem dnia jest 丁 (Ogień, Yin), a gałęzią dnia 巳 (Wąż). W cyklu sześćdziesięciu par jest to kombinacja numer 54."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 丁, „Ogień Yin (丁)”, a zdanie pokazywane na ekranie wyników brzmi: „Światło świecy. Pali się cicho i długo, a ogrzewa najpierw tych najbliższych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9379,7 +9379,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丙辰](/guide/pillar-byeong-jin), a następnym [戊午](/guide/pillar-mu-o)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丙辰](/guide/pillar-byeong-jin), a następnym [戊午](/guide/pillar-mu-o)."
           },
           {
             "p": "Tworzą go: [Ogień Yin (丁)](/guide/stem-jeong) oraz [巳 (Wąż)](/guide/branch-sa)."
@@ -9408,10 +9408,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "戊午 to filar dnia numer 55 w cyklu sześćdziesięcioletnim",
+        "title": "戊午 to filar dnia numer 55 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊午, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięcioletnim jest to kombinacja numer 55."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 戊午, pniem dnia jest 戊 (Ziemia, Yang), a gałęzią dnia 午 (Koń). W cyklu sześćdziesięciu par jest to kombinacja numer 55."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 戊, „Ziemia Yang (戊)”, a zdanie pokazywane na ekranie wyników brzmi: „Otwarty ląd i góry. Trudno tym zachwiać i łatwo się o to oprzeć, choć raz podjęta decyzja zmienia się powoli.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9475,7 +9475,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [丁巳](/guide/pillar-jeong-sa), a następnym [己未](/guide/pillar-gi-mi)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [丁巳](/guide/pillar-jeong-sa), a następnym [己未](/guide/pillar-gi-mi)."
           },
           {
             "p": "Tworzą go: [Ziemia Yang (戊)](/guide/stem-mu) oraz [午 (Koń)](/guide/branch-o)."
@@ -9504,10 +9504,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "己未 to filar dnia numer 56 w cyklu sześćdziesięcioletnim",
+        "title": "己未 to filar dnia numer 56 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己未, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięcioletnim jest to kombinacja numer 56."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 己未, pniem dnia jest 己 (Ziemia, Yin), a gałęzią dnia 未 (Owca). W cyklu sześćdziesięciu par jest to kombinacja numer 56."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 己, „Ziemia Yin (己)”, a zdanie pokazywane na ekranie wyników brzmi: „Gleba pola. Przyjmuje to, co przyjdzie, i to wyhodowuje — raczej pielęgnuje, niż pokazuje.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9571,7 +9571,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [戊午](/guide/pillar-mu-o), a następnym [庚申](/guide/pillar-gyeong-sin)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [戊午](/guide/pillar-mu-o), a następnym [庚申](/guide/pillar-gyeong-sin)."
           },
           {
             "p": "Tworzą go: [Ziemia Yin (己)](/guide/stem-gi) oraz [未 (Owca)](/guide/branch-mi)."
@@ -9600,10 +9600,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "庚申 to filar dnia numer 57 w cyklu sześćdziesięcioletnim",
+        "title": "庚申 to filar dnia numer 57 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚申, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięcioletnim jest to kombinacja numer 57."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 庚申, pniem dnia jest 庚 (Metal, Yang), a gałęzią dnia 申 (Małpa). W cyklu sześćdziesięciu par jest to kombinacja numer 57."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 庚, „Metal Yang (庚)”, a zdanie pokazywane na ekranie wyników brzmi: „Nieobrobione żelazo. Zdecydowany i jednoznaczny, bez cierpliwości do spraw zawieszonych.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9667,7 +9667,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [己未](/guide/pillar-gi-mi), a następnym [辛酉](/guide/pillar-sin-yu)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [己未](/guide/pillar-gi-mi), a następnym [辛酉](/guide/pillar-sin-yu)."
           },
           {
             "p": "Tworzą go: [Metal Yang (庚)](/guide/stem-gyeong) oraz [申 (Małpa)](/guide/branch-sin)."
@@ -9696,10 +9696,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "辛酉 to filar dnia numer 58 w cyklu sześćdziesięcioletnim",
+        "title": "辛酉 to filar dnia numer 58 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛酉, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięcioletnim jest to kombinacja numer 58."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 辛酉, pniem dnia jest 辛 (Metal, Yin), a gałęzią dnia 酉 (Kogut). W cyklu sześćdziesięciu par jest to kombinacja numer 58."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 辛, „Metal Yin (辛)”, a zdanie pokazywane na ekranie wyników brzmi: „Oszlifowany klejnot. Wyczulony smak i wysokie wymagania; niedbałość trudno tu puścić płazem.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9757,7 +9757,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [庚申](/guide/pillar-gyeong-sin), a następnym [壬戌](/guide/pillar-im-sul)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [庚申](/guide/pillar-gyeong-sin), a następnym [壬戌](/guide/pillar-im-sul)."
           },
           {
             "p": "Tworzą go: [Metal Yin (辛)](/guide/stem-sin) oraz [酉 (Kogut)](/guide/branch-yu)."
@@ -9786,10 +9786,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "壬戌 to filar dnia numer 59 w cyklu sześćdziesięcioletnim",
+        "title": "壬戌 to filar dnia numer 59 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬戌, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięcioletnim jest to kombinacja numer 59."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 壬戌, pniem dnia jest 壬 (Woda, Yang), a gałęzią dnia 戌 (Pies). W cyklu sześćdziesięciu par jest to kombinacja numer 59."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 壬, „Woda Yang (壬)”, a zdanie pokazywane na ekranie wyników brzmi: „Rzeka i morze. Szerokie spojrzenie i oko do tego, jak sprawy płyną.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9853,7 +9853,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [辛酉](/guide/pillar-sin-yu), a następnym [癸亥](/guide/pillar-gye-hae)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [辛酉](/guide/pillar-sin-yu), a następnym [癸亥](/guide/pillar-gye-hae)."
           },
           {
             "p": "Tworzą go: [Woda Yang (壬)](/guide/stem-im) oraz [戌 (Pies)](/guide/branch-sul)."
@@ -9882,10 +9882,10 @@ export const PL_DOCS = {
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "癸亥 to filar dnia numer 60 w cyklu sześćdziesięcioletnim",
+        "title": "癸亥 to filar dnia numer 60 w cyklu sześćdziesięciu par",
         "blocks": [
           {
-            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸亥, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięcioletnim jest to kombinacja numer 60."
+            "p": "Gdy parą pień–gałąź dnia urodzenia jest 癸亥, pniem dnia jest 癸 (Woda, Yin), a gałęzią dnia 亥 (Świnia). W cyklu sześćdziesięciu par jest to kombinacja numer 60."
           },
           {
             "p": "Saju-Link nazywa osobę, której pniem dnia jest 癸, „Woda Yin (癸)”, a zdanie pokazywane na ekranie wyników brzmi: „Rosa i deszcz. Wsiąka cicho i czyta nastrój, zanim padną słowa.” To zdanie nie ma nic wspólnego z poniższym odczytem ani z wynikami."
@@ -9949,7 +9949,7 @@ export const PL_DOCS = {
         "title": "Sąsiednie filary dnia i znaki, z których się składa",
         "blocks": [
           {
-            "p": "W cyklu sześćdziesięcioletnim poprzednim filarem dnia jest [壬戌](/guide/pillar-im-sul), a następnym [甲子](/guide/pillar-gap-ja)."
+            "p": "W cyklu sześćdziesięciu par poprzednim filarem dnia jest [壬戌](/guide/pillar-im-sul), a następnym [甲子](/guide/pillar-gap-ja)."
           },
           {
             "p": "Tworzą go: [Woda Yin (癸)](/guide/stem-gye) oraz [亥 (Świnia)](/guide/branch-hae)."
@@ -10127,7 +10127,7 @@ export const PL_DOCS = {
             "p": "Każdy filar saju to dwa znaki: jeden pień sparowany z jedną gałęzią. Filar dnia urodzenia to **filar dnia (日柱)**."
           },
           {
-            "p": "Parując kolejno pnie i gałęzie, otrzymuje się **sześćdziesiąt** kombinacji, od 甲子 i 乙丑 i 丙寅 aż do 癸亥. Ten cykl nazywa się cyklem sześćdziesięcioletnim. Jest ich sześćdziesiąt, a nie 10 × 12 = 120, ponieważ pień Yang łączy się tylko z gałęzią Yang, a pień Yin tylko z gałęzią Yin."
+            "p": "Parując kolejno pnie i gałęzie, otrzymuje się **sześćdziesiąt** kombinacji, od 甲子 i 乙丑 i 丙寅 aż do 癸亥. Ten cykl nazywa się cyklem sześćdziesięciu par. Jest ich sześćdziesiąt, a nie 10 × 12 = 120, ponieważ pień Yang łączy się tylko z gałęzią Yang, a pień Yin tylko z gałęzią Yin."
           },
           {
             "p": "Górny znak filaru dnia to pień dnia, o którym była mowa wyżej. Hasła objaśniające każdy filar po kolei znajdują się w słownikach pni, gałęzi i filarów dnia na dole [listy poradników](/guide)."

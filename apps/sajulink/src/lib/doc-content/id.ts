@@ -4308,10 +4308,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "甲子 adalah pilar hari nomor 1 dalam siklus enam puluh tahun",
+        "title": "甲子 adalah pilar hari nomor 1 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 甲子, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 1."
+            "p": "Ketika batang-cabang hari lahir adalah 甲子, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh, ini adalah kombinasi nomor 1."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -4369,7 +4369,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸亥](/guide/pillar-gye-hae) dan berikutnya adalah [乙丑](/guide/pillar-eul-chuk)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [癸亥](/guide/pillar-gye-hae) dan berikutnya adalah [乙丑](/guide/pillar-eul-chuk)."
           },
           {
             "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [子 (Tikus)](/guide/branch-ja)."
@@ -4398,10 +4398,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "乙丑 adalah pilar hari nomor 2 dalam siklus enam puluh tahun",
+        "title": "乙丑 adalah pilar hari nomor 2 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 乙丑, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 2."
+            "p": "Ketika batang-cabang hari lahir adalah 乙丑, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh, ini adalah kombinasi nomor 2."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -4465,7 +4465,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲子](/guide/pillar-gap-ja) dan berikutnya adalah [丙寅](/guide/pillar-byeong-in)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [甲子](/guide/pillar-gap-ja) dan berikutnya adalah [丙寅](/guide/pillar-byeong-in)."
           },
           {
             "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [丑 (Sapi)](/guide/branch-chuk)."
@@ -4494,10 +4494,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丙寅 adalah pilar hari nomor 3 dalam siklus enam puluh tahun",
+        "title": "丙寅 adalah pilar hari nomor 3 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丙寅, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 3."
+            "p": "Ketika batang-cabang hari lahir adalah 丙寅, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh, ini adalah kombinasi nomor 3."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -4561,7 +4561,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙丑](/guide/pillar-eul-chuk) dan berikutnya adalah [丁卯](/guide/pillar-jeong-myo)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [乙丑](/guide/pillar-eul-chuk) dan berikutnya adalah [丁卯](/guide/pillar-jeong-myo)."
           },
           {
             "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [寅 (Harimau)](/guide/branch-in)."
@@ -4590,10 +4590,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丁卯 adalah pilar hari nomor 4 dalam siklus enam puluh tahun",
+        "title": "丁卯 adalah pilar hari nomor 4 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丁卯, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 4."
+            "p": "Ketika batang-cabang hari lahir adalah 丁卯, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh, ini adalah kombinasi nomor 4."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -4651,7 +4651,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙寅](/guide/pillar-byeong-in) dan berikutnya adalah [戊辰](/guide/pillar-mu-jin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丙寅](/guide/pillar-byeong-in) dan berikutnya adalah [戊辰](/guide/pillar-mu-jin)."
           },
           {
             "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [卯 (Kelinci)](/guide/branch-myo)."
@@ -4680,10 +4680,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "戊辰 adalah pilar hari nomor 5 dalam siklus enam puluh tahun",
+        "title": "戊辰 adalah pilar hari nomor 5 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 戊辰, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 5."
+            "p": "Ketika batang-cabang hari lahir adalah 戊辰, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh, ini adalah kombinasi nomor 5."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -4747,7 +4747,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁卯](/guide/pillar-jeong-myo) dan berikutnya adalah [己巳](/guide/pillar-gi-sa)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丁卯](/guide/pillar-jeong-myo) dan berikutnya adalah [己巳](/guide/pillar-gi-sa)."
           },
           {
             "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [辰 (Naga)](/guide/branch-jin)."
@@ -4776,10 +4776,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "己巳 adalah pilar hari nomor 6 dalam siklus enam puluh tahun",
+        "title": "己巳 adalah pilar hari nomor 6 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 己巳, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 6."
+            "p": "Ketika batang-cabang hari lahir adalah 己巳, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh, ini adalah kombinasi nomor 6."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -4843,7 +4843,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊辰](/guide/pillar-mu-jin) dan berikutnya adalah [庚午](/guide/pillar-gyeong-o)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [戊辰](/guide/pillar-mu-jin) dan berikutnya adalah [庚午](/guide/pillar-gyeong-o)."
           },
           {
             "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [巳 (Ular)](/guide/branch-sa)."
@@ -4872,10 +4872,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "庚午 adalah pilar hari nomor 7 dalam siklus enam puluh tahun",
+        "title": "庚午 adalah pilar hari nomor 7 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 庚午, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 7."
+            "p": "Ketika batang-cabang hari lahir adalah 庚午, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh, ini adalah kombinasi nomor 7."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -4939,7 +4939,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己巳](/guide/pillar-gi-sa) dan berikutnya adalah [辛未](/guide/pillar-sin-mi)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [己巳](/guide/pillar-gi-sa) dan berikutnya adalah [辛未](/guide/pillar-sin-mi)."
           },
           {
             "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [午 (Kuda)](/guide/branch-o)."
@@ -4968,10 +4968,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "辛未 adalah pilar hari nomor 8 dalam siklus enam puluh tahun",
+        "title": "辛未 adalah pilar hari nomor 8 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 辛未, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 8."
+            "p": "Ketika batang-cabang hari lahir adalah 辛未, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh, ini adalah kombinasi nomor 8."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5035,7 +5035,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚午](/guide/pillar-gyeong-o) dan berikutnya adalah [壬申](/guide/pillar-im-sin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [庚午](/guide/pillar-gyeong-o) dan berikutnya adalah [壬申](/guide/pillar-im-sin)."
           },
           {
             "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [未 (Domba)](/guide/branch-mi)."
@@ -5064,10 +5064,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "壬申 adalah pilar hari nomor 9 dalam siklus enam puluh tahun",
+        "title": "壬申 adalah pilar hari nomor 9 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 壬申, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 9."
+            "p": "Ketika batang-cabang hari lahir adalah 壬申, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh, ini adalah kombinasi nomor 9."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5131,7 +5131,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛未](/guide/pillar-sin-mi) dan berikutnya adalah [癸酉](/guide/pillar-gye-yu)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [辛未](/guide/pillar-sin-mi) dan berikutnya adalah [癸酉](/guide/pillar-gye-yu)."
           },
           {
             "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [申 (Monyet)](/guide/branch-sin)."
@@ -5160,10 +5160,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "癸酉 adalah pilar hari nomor 10 dalam siklus enam puluh tahun",
+        "title": "癸酉 adalah pilar hari nomor 10 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 癸酉, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 10."
+            "p": "Ketika batang-cabang hari lahir adalah 癸酉, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh, ini adalah kombinasi nomor 10."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5221,7 +5221,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬申](/guide/pillar-im-sin) dan berikutnya adalah [甲戌](/guide/pillar-gap-sul)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [壬申](/guide/pillar-im-sin) dan berikutnya adalah [甲戌](/guide/pillar-gap-sul)."
           },
           {
             "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [酉 (Ayam)](/guide/branch-yu)."
@@ -5250,10 +5250,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "甲戌 adalah pilar hari nomor 11 dalam siklus enam puluh tahun",
+        "title": "甲戌 adalah pilar hari nomor 11 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 甲戌, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 11."
+            "p": "Ketika batang-cabang hari lahir adalah 甲戌, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh, ini adalah kombinasi nomor 11."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5317,7 +5317,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸酉](/guide/pillar-gye-yu) dan berikutnya adalah [乙亥](/guide/pillar-eul-hae)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [癸酉](/guide/pillar-gye-yu) dan berikutnya adalah [乙亥](/guide/pillar-eul-hae)."
           },
           {
             "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [戌 (Anjing)](/guide/branch-sul)."
@@ -5346,10 +5346,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "乙亥 adalah pilar hari nomor 12 dalam siklus enam puluh tahun",
+        "title": "乙亥 adalah pilar hari nomor 12 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 乙亥, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 12."
+            "p": "Ketika batang-cabang hari lahir adalah 乙亥, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh, ini adalah kombinasi nomor 12."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5413,7 +5413,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲戌](/guide/pillar-gap-sul) dan berikutnya adalah [丙子](/guide/pillar-byeong-ja)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [甲戌](/guide/pillar-gap-sul) dan berikutnya adalah [丙子](/guide/pillar-byeong-ja)."
           },
           {
             "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [亥 (Babi)](/guide/branch-hae)."
@@ -5442,10 +5442,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丙子 adalah pilar hari nomor 13 dalam siklus enam puluh tahun",
+        "title": "丙子 adalah pilar hari nomor 13 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丙子, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 13."
+            "p": "Ketika batang-cabang hari lahir adalah 丙子, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh, ini adalah kombinasi nomor 13."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5503,7 +5503,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙亥](/guide/pillar-eul-hae) dan berikutnya adalah [丁丑](/guide/pillar-jeong-chuk)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [乙亥](/guide/pillar-eul-hae) dan berikutnya adalah [丁丑](/guide/pillar-jeong-chuk)."
           },
           {
             "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [子 (Tikus)](/guide/branch-ja)."
@@ -5532,10 +5532,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丁丑 adalah pilar hari nomor 14 dalam siklus enam puluh tahun",
+        "title": "丁丑 adalah pilar hari nomor 14 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丁丑, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 14."
+            "p": "Ketika batang-cabang hari lahir adalah 丁丑, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh, ini adalah kombinasi nomor 14."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5599,7 +5599,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙子](/guide/pillar-byeong-ja) dan berikutnya adalah [戊寅](/guide/pillar-mu-in)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丙子](/guide/pillar-byeong-ja) dan berikutnya adalah [戊寅](/guide/pillar-mu-in)."
           },
           {
             "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [丑 (Sapi)](/guide/branch-chuk)."
@@ -5628,10 +5628,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "戊寅 adalah pilar hari nomor 15 dalam siklus enam puluh tahun",
+        "title": "戊寅 adalah pilar hari nomor 15 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 戊寅, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 15."
+            "p": "Ketika batang-cabang hari lahir adalah 戊寅, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh, ini adalah kombinasi nomor 15."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5695,7 +5695,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁丑](/guide/pillar-jeong-chuk) dan berikutnya adalah [己卯](/guide/pillar-gi-myo)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丁丑](/guide/pillar-jeong-chuk) dan berikutnya adalah [己卯](/guide/pillar-gi-myo)."
           },
           {
             "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [寅 (Harimau)](/guide/branch-in)."
@@ -5724,10 +5724,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "己卯 adalah pilar hari nomor 16 dalam siklus enam puluh tahun",
+        "title": "己卯 adalah pilar hari nomor 16 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 己卯, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 16."
+            "p": "Ketika batang-cabang hari lahir adalah 己卯, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh, ini adalah kombinasi nomor 16."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5785,7 +5785,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊寅](/guide/pillar-mu-in) dan berikutnya adalah [庚辰](/guide/pillar-gyeong-jin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [戊寅](/guide/pillar-mu-in) dan berikutnya adalah [庚辰](/guide/pillar-gyeong-jin)."
           },
           {
             "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [卯 (Kelinci)](/guide/branch-myo)."
@@ -5814,10 +5814,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "庚辰 adalah pilar hari nomor 17 dalam siklus enam puluh tahun",
+        "title": "庚辰 adalah pilar hari nomor 17 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 庚辰, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 17."
+            "p": "Ketika batang-cabang hari lahir adalah 庚辰, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh, ini adalah kombinasi nomor 17."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5881,7 +5881,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己卯](/guide/pillar-gi-myo) dan berikutnya adalah [辛巳](/guide/pillar-sin-sa)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [己卯](/guide/pillar-gi-myo) dan berikutnya adalah [辛巳](/guide/pillar-sin-sa)."
           },
           {
             "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [辰 (Naga)](/guide/branch-jin)."
@@ -5910,10 +5910,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "辛巳 adalah pilar hari nomor 18 dalam siklus enam puluh tahun",
+        "title": "辛巳 adalah pilar hari nomor 18 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 辛巳, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 18."
+            "p": "Ketika batang-cabang hari lahir adalah 辛巳, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh, ini adalah kombinasi nomor 18."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -5977,7 +5977,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚辰](/guide/pillar-gyeong-jin) dan berikutnya adalah [壬午](/guide/pillar-im-o)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [庚辰](/guide/pillar-gyeong-jin) dan berikutnya adalah [壬午](/guide/pillar-im-o)."
           },
           {
             "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [巳 (Ular)](/guide/branch-sa)."
@@ -6006,10 +6006,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "壬午 adalah pilar hari nomor 19 dalam siklus enam puluh tahun",
+        "title": "壬午 adalah pilar hari nomor 19 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 壬午, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 19."
+            "p": "Ketika batang-cabang hari lahir adalah 壬午, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh, ini adalah kombinasi nomor 19."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6073,7 +6073,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛巳](/guide/pillar-sin-sa) dan berikutnya adalah [癸未](/guide/pillar-gye-mi)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [辛巳](/guide/pillar-sin-sa) dan berikutnya adalah [癸未](/guide/pillar-gye-mi)."
           },
           {
             "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [午 (Kuda)](/guide/branch-o)."
@@ -6102,10 +6102,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "癸未 adalah pilar hari nomor 20 dalam siklus enam puluh tahun",
+        "title": "癸未 adalah pilar hari nomor 20 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 癸未, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 20."
+            "p": "Ketika batang-cabang hari lahir adalah 癸未, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh, ini adalah kombinasi nomor 20."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6169,7 +6169,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬午](/guide/pillar-im-o) dan berikutnya adalah [甲申](/guide/pillar-gap-sin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [壬午](/guide/pillar-im-o) dan berikutnya adalah [甲申](/guide/pillar-gap-sin)."
           },
           {
             "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [未 (Domba)](/guide/branch-mi)."
@@ -6198,10 +6198,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "甲申 adalah pilar hari nomor 21 dalam siklus enam puluh tahun",
+        "title": "甲申 adalah pilar hari nomor 21 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 甲申, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 21."
+            "p": "Ketika batang-cabang hari lahir adalah 甲申, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh, ini adalah kombinasi nomor 21."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6265,7 +6265,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸未](/guide/pillar-gye-mi) dan berikutnya adalah [乙酉](/guide/pillar-eul-yu)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [癸未](/guide/pillar-gye-mi) dan berikutnya adalah [乙酉](/guide/pillar-eul-yu)."
           },
           {
             "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [申 (Monyet)](/guide/branch-sin)."
@@ -6294,10 +6294,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "乙酉 adalah pilar hari nomor 22 dalam siklus enam puluh tahun",
+        "title": "乙酉 adalah pilar hari nomor 22 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 乙酉, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 22."
+            "p": "Ketika batang-cabang hari lahir adalah 乙酉, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh, ini adalah kombinasi nomor 22."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6355,7 +6355,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲申](/guide/pillar-gap-sin) dan berikutnya adalah [丙戌](/guide/pillar-byeong-sul)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [甲申](/guide/pillar-gap-sin) dan berikutnya adalah [丙戌](/guide/pillar-byeong-sul)."
           },
           {
             "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [酉 (Ayam)](/guide/branch-yu)."
@@ -6384,10 +6384,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丙戌 adalah pilar hari nomor 23 dalam siklus enam puluh tahun",
+        "title": "丙戌 adalah pilar hari nomor 23 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丙戌, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 23."
+            "p": "Ketika batang-cabang hari lahir adalah 丙戌, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh, ini adalah kombinasi nomor 23."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6451,7 +6451,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙酉](/guide/pillar-eul-yu) dan berikutnya adalah [丁亥](/guide/pillar-jeong-hae)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [乙酉](/guide/pillar-eul-yu) dan berikutnya adalah [丁亥](/guide/pillar-jeong-hae)."
           },
           {
             "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [戌 (Anjing)](/guide/branch-sul)."
@@ -6480,10 +6480,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丁亥 adalah pilar hari nomor 24 dalam siklus enam puluh tahun",
+        "title": "丁亥 adalah pilar hari nomor 24 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丁亥, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 24."
+            "p": "Ketika batang-cabang hari lahir adalah 丁亥, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh, ini adalah kombinasi nomor 24."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6547,7 +6547,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙戌](/guide/pillar-byeong-sul) dan berikutnya adalah [戊子](/guide/pillar-mu-ja)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丙戌](/guide/pillar-byeong-sul) dan berikutnya adalah [戊子](/guide/pillar-mu-ja)."
           },
           {
             "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [亥 (Babi)](/guide/branch-hae)."
@@ -6576,10 +6576,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "戊子 adalah pilar hari nomor 25 dalam siklus enam puluh tahun",
+        "title": "戊子 adalah pilar hari nomor 25 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 戊子, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 25."
+            "p": "Ketika batang-cabang hari lahir adalah 戊子, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh, ini adalah kombinasi nomor 25."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6637,7 +6637,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁亥](/guide/pillar-jeong-hae) dan berikutnya adalah [己丑](/guide/pillar-gi-chuk)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丁亥](/guide/pillar-jeong-hae) dan berikutnya adalah [己丑](/guide/pillar-gi-chuk)."
           },
           {
             "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [子 (Tikus)](/guide/branch-ja)."
@@ -6666,10 +6666,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "己丑 adalah pilar hari nomor 26 dalam siklus enam puluh tahun",
+        "title": "己丑 adalah pilar hari nomor 26 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 己丑, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 26."
+            "p": "Ketika batang-cabang hari lahir adalah 己丑, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh, ini adalah kombinasi nomor 26."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6733,7 +6733,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊子](/guide/pillar-mu-ja) dan berikutnya adalah [庚寅](/guide/pillar-gyeong-in)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [戊子](/guide/pillar-mu-ja) dan berikutnya adalah [庚寅](/guide/pillar-gyeong-in)."
           },
           {
             "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [丑 (Sapi)](/guide/branch-chuk)."
@@ -6762,10 +6762,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "庚寅 adalah pilar hari nomor 27 dalam siklus enam puluh tahun",
+        "title": "庚寅 adalah pilar hari nomor 27 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 庚寅, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 27."
+            "p": "Ketika batang-cabang hari lahir adalah 庚寅, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh, ini adalah kombinasi nomor 27."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6829,7 +6829,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己丑](/guide/pillar-gi-chuk) dan berikutnya adalah [辛卯](/guide/pillar-sin-myo)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [己丑](/guide/pillar-gi-chuk) dan berikutnya adalah [辛卯](/guide/pillar-sin-myo)."
           },
           {
             "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [寅 (Harimau)](/guide/branch-in)."
@@ -6858,10 +6858,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "辛卯 adalah pilar hari nomor 28 dalam siklus enam puluh tahun",
+        "title": "辛卯 adalah pilar hari nomor 28 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 辛卯, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 28."
+            "p": "Ketika batang-cabang hari lahir adalah 辛卯, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh, ini adalah kombinasi nomor 28."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -6919,7 +6919,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚寅](/guide/pillar-gyeong-in) dan berikutnya adalah [壬辰](/guide/pillar-im-jin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [庚寅](/guide/pillar-gyeong-in) dan berikutnya adalah [壬辰](/guide/pillar-im-jin)."
           },
           {
             "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [卯 (Kelinci)](/guide/branch-myo)."
@@ -6948,10 +6948,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "壬辰 adalah pilar hari nomor 29 dalam siklus enam puluh tahun",
+        "title": "壬辰 adalah pilar hari nomor 29 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 壬辰, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 29."
+            "p": "Ketika batang-cabang hari lahir adalah 壬辰, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh, ini adalah kombinasi nomor 29."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7015,7 +7015,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛卯](/guide/pillar-sin-myo) dan berikutnya adalah [癸巳](/guide/pillar-gye-sa)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [辛卯](/guide/pillar-sin-myo) dan berikutnya adalah [癸巳](/guide/pillar-gye-sa)."
           },
           {
             "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [辰 (Naga)](/guide/branch-jin)."
@@ -7044,10 +7044,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "癸巳 adalah pilar hari nomor 30 dalam siklus enam puluh tahun",
+        "title": "癸巳 adalah pilar hari nomor 30 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 癸巳, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 30."
+            "p": "Ketika batang-cabang hari lahir adalah 癸巳, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh, ini adalah kombinasi nomor 30."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7111,7 +7111,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬辰](/guide/pillar-im-jin) dan berikutnya adalah [甲午](/guide/pillar-gap-o)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [壬辰](/guide/pillar-im-jin) dan berikutnya adalah [甲午](/guide/pillar-gap-o)."
           },
           {
             "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [巳 (Ular)](/guide/branch-sa)."
@@ -7140,10 +7140,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "甲午 adalah pilar hari nomor 31 dalam siklus enam puluh tahun",
+        "title": "甲午 adalah pilar hari nomor 31 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 甲午, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 31."
+            "p": "Ketika batang-cabang hari lahir adalah 甲午, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh, ini adalah kombinasi nomor 31."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7207,7 +7207,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸巳](/guide/pillar-gye-sa) dan berikutnya adalah [乙未](/guide/pillar-eul-mi)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [癸巳](/guide/pillar-gye-sa) dan berikutnya adalah [乙未](/guide/pillar-eul-mi)."
           },
           {
             "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [午 (Kuda)](/guide/branch-o)."
@@ -7236,10 +7236,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "乙未 adalah pilar hari nomor 32 dalam siklus enam puluh tahun",
+        "title": "乙未 adalah pilar hari nomor 32 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 乙未, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 32."
+            "p": "Ketika batang-cabang hari lahir adalah 乙未, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh, ini adalah kombinasi nomor 32."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7303,7 +7303,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲午](/guide/pillar-gap-o) dan berikutnya adalah [丙申](/guide/pillar-byeong-sin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [甲午](/guide/pillar-gap-o) dan berikutnya adalah [丙申](/guide/pillar-byeong-sin)."
           },
           {
             "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [未 (Domba)](/guide/branch-mi)."
@@ -7332,10 +7332,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丙申 adalah pilar hari nomor 33 dalam siklus enam puluh tahun",
+        "title": "丙申 adalah pilar hari nomor 33 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丙申, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 33."
+            "p": "Ketika batang-cabang hari lahir adalah 丙申, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh, ini adalah kombinasi nomor 33."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7399,7 +7399,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙未](/guide/pillar-eul-mi) dan berikutnya adalah [丁酉](/guide/pillar-jeong-yu)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [乙未](/guide/pillar-eul-mi) dan berikutnya adalah [丁酉](/guide/pillar-jeong-yu)."
           },
           {
             "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [申 (Monyet)](/guide/branch-sin)."
@@ -7428,10 +7428,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丁酉 adalah pilar hari nomor 34 dalam siklus enam puluh tahun",
+        "title": "丁酉 adalah pilar hari nomor 34 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丁酉, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 34."
+            "p": "Ketika batang-cabang hari lahir adalah 丁酉, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh, ini adalah kombinasi nomor 34."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7489,7 +7489,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙申](/guide/pillar-byeong-sin) dan berikutnya adalah [戊戌](/guide/pillar-mu-sul)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丙申](/guide/pillar-byeong-sin) dan berikutnya adalah [戊戌](/guide/pillar-mu-sul)."
           },
           {
             "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [酉 (Ayam)](/guide/branch-yu)."
@@ -7518,10 +7518,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "戊戌 adalah pilar hari nomor 35 dalam siklus enam puluh tahun",
+        "title": "戊戌 adalah pilar hari nomor 35 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 戊戌, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 35."
+            "p": "Ketika batang-cabang hari lahir adalah 戊戌, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh, ini adalah kombinasi nomor 35."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7585,7 +7585,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁酉](/guide/pillar-jeong-yu) dan berikutnya adalah [己亥](/guide/pillar-gi-hae)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丁酉](/guide/pillar-jeong-yu) dan berikutnya adalah [己亥](/guide/pillar-gi-hae)."
           },
           {
             "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [戌 (Anjing)](/guide/branch-sul)."
@@ -7614,10 +7614,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "己亥 adalah pilar hari nomor 36 dalam siklus enam puluh tahun",
+        "title": "己亥 adalah pilar hari nomor 36 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 己亥, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 36."
+            "p": "Ketika batang-cabang hari lahir adalah 己亥, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh, ini adalah kombinasi nomor 36."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7681,7 +7681,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊戌](/guide/pillar-mu-sul) dan berikutnya adalah [庚子](/guide/pillar-gyeong-ja)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [戊戌](/guide/pillar-mu-sul) dan berikutnya adalah [庚子](/guide/pillar-gyeong-ja)."
           },
           {
             "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [亥 (Babi)](/guide/branch-hae)."
@@ -7710,10 +7710,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "庚子 adalah pilar hari nomor 37 dalam siklus enam puluh tahun",
+        "title": "庚子 adalah pilar hari nomor 37 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 庚子, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 37."
+            "p": "Ketika batang-cabang hari lahir adalah 庚子, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh, ini adalah kombinasi nomor 37."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7771,7 +7771,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己亥](/guide/pillar-gi-hae) dan berikutnya adalah [辛丑](/guide/pillar-sin-chuk)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [己亥](/guide/pillar-gi-hae) dan berikutnya adalah [辛丑](/guide/pillar-sin-chuk)."
           },
           {
             "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [子 (Tikus)](/guide/branch-ja)."
@@ -7800,10 +7800,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "辛丑 adalah pilar hari nomor 38 dalam siklus enam puluh tahun",
+        "title": "辛丑 adalah pilar hari nomor 38 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 辛丑, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 38."
+            "p": "Ketika batang-cabang hari lahir adalah 辛丑, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh, ini adalah kombinasi nomor 38."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7867,7 +7867,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚子](/guide/pillar-gyeong-ja) dan berikutnya adalah [壬寅](/guide/pillar-im-in)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [庚子](/guide/pillar-gyeong-ja) dan berikutnya adalah [壬寅](/guide/pillar-im-in)."
           },
           {
             "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [丑 (Sapi)](/guide/branch-chuk)."
@@ -7896,10 +7896,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "壬寅 adalah pilar hari nomor 39 dalam siklus enam puluh tahun",
+        "title": "壬寅 adalah pilar hari nomor 39 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 壬寅, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 39."
+            "p": "Ketika batang-cabang hari lahir adalah 壬寅, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh, ini adalah kombinasi nomor 39."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -7963,7 +7963,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛丑](/guide/pillar-sin-chuk) dan berikutnya adalah [癸卯](/guide/pillar-gye-myo)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [辛丑](/guide/pillar-sin-chuk) dan berikutnya adalah [癸卯](/guide/pillar-gye-myo)."
           },
           {
             "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [寅 (Harimau)](/guide/branch-in)."
@@ -7992,10 +7992,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "癸卯 adalah pilar hari nomor 40 dalam siklus enam puluh tahun",
+        "title": "癸卯 adalah pilar hari nomor 40 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 癸卯, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 40."
+            "p": "Ketika batang-cabang hari lahir adalah 癸卯, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh, ini adalah kombinasi nomor 40."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8053,7 +8053,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬寅](/guide/pillar-im-in) dan berikutnya adalah [甲辰](/guide/pillar-gap-jin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [壬寅](/guide/pillar-im-in) dan berikutnya adalah [甲辰](/guide/pillar-gap-jin)."
           },
           {
             "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [卯 (Kelinci)](/guide/branch-myo)."
@@ -8082,10 +8082,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "甲辰 adalah pilar hari nomor 41 dalam siklus enam puluh tahun",
+        "title": "甲辰 adalah pilar hari nomor 41 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 甲辰, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 41."
+            "p": "Ketika batang-cabang hari lahir adalah 甲辰, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh, ini adalah kombinasi nomor 41."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8149,7 +8149,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸卯](/guide/pillar-gye-myo) dan berikutnya adalah [乙巳](/guide/pillar-eul-sa)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [癸卯](/guide/pillar-gye-myo) dan berikutnya adalah [乙巳](/guide/pillar-eul-sa)."
           },
           {
             "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [辰 (Naga)](/guide/branch-jin)."
@@ -8178,10 +8178,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "乙巳 adalah pilar hari nomor 42 dalam siklus enam puluh tahun",
+        "title": "乙巳 adalah pilar hari nomor 42 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 乙巳, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 42."
+            "p": "Ketika batang-cabang hari lahir adalah 乙巳, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh, ini adalah kombinasi nomor 42."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8245,7 +8245,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲辰](/guide/pillar-gap-jin) dan berikutnya adalah [丙午](/guide/pillar-byeong-o)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [甲辰](/guide/pillar-gap-jin) dan berikutnya adalah [丙午](/guide/pillar-byeong-o)."
           },
           {
             "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [巳 (Ular)](/guide/branch-sa)."
@@ -8274,10 +8274,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丙午 adalah pilar hari nomor 43 dalam siklus enam puluh tahun",
+        "title": "丙午 adalah pilar hari nomor 43 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丙午, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 43."
+            "p": "Ketika batang-cabang hari lahir adalah 丙午, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh, ini adalah kombinasi nomor 43."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8341,7 +8341,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙巳](/guide/pillar-eul-sa) dan berikutnya adalah [丁未](/guide/pillar-jeong-mi)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [乙巳](/guide/pillar-eul-sa) dan berikutnya adalah [丁未](/guide/pillar-jeong-mi)."
           },
           {
             "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [午 (Kuda)](/guide/branch-o)."
@@ -8370,10 +8370,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丁未 adalah pilar hari nomor 44 dalam siklus enam puluh tahun",
+        "title": "丁未 adalah pilar hari nomor 44 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丁未, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 44."
+            "p": "Ketika batang-cabang hari lahir adalah 丁未, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh, ini adalah kombinasi nomor 44."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8437,7 +8437,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙午](/guide/pillar-byeong-o) dan berikutnya adalah [戊申](/guide/pillar-mu-sin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丙午](/guide/pillar-byeong-o) dan berikutnya adalah [戊申](/guide/pillar-mu-sin)."
           },
           {
             "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [未 (Domba)](/guide/branch-mi)."
@@ -8466,10 +8466,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "戊申 adalah pilar hari nomor 45 dalam siklus enam puluh tahun",
+        "title": "戊申 adalah pilar hari nomor 45 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 戊申, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 45."
+            "p": "Ketika batang-cabang hari lahir adalah 戊申, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh, ini adalah kombinasi nomor 45."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8533,7 +8533,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁未](/guide/pillar-jeong-mi) dan berikutnya adalah [己酉](/guide/pillar-gi-yu)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丁未](/guide/pillar-jeong-mi) dan berikutnya adalah [己酉](/guide/pillar-gi-yu)."
           },
           {
             "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [申 (Monyet)](/guide/branch-sin)."
@@ -8562,10 +8562,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "己酉 adalah pilar hari nomor 46 dalam siklus enam puluh tahun",
+        "title": "己酉 adalah pilar hari nomor 46 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 己酉, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 46."
+            "p": "Ketika batang-cabang hari lahir adalah 己酉, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh, ini adalah kombinasi nomor 46."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8623,7 +8623,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊申](/guide/pillar-mu-sin) dan berikutnya adalah [庚戌](/guide/pillar-gyeong-sul)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [戊申](/guide/pillar-mu-sin) dan berikutnya adalah [庚戌](/guide/pillar-gyeong-sul)."
           },
           {
             "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [酉 (Ayam)](/guide/branch-yu)."
@@ -8652,10 +8652,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "庚戌 adalah pilar hari nomor 47 dalam siklus enam puluh tahun",
+        "title": "庚戌 adalah pilar hari nomor 47 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 庚戌, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 47."
+            "p": "Ketika batang-cabang hari lahir adalah 庚戌, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh, ini adalah kombinasi nomor 47."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8719,7 +8719,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己酉](/guide/pillar-gi-yu) dan berikutnya adalah [辛亥](/guide/pillar-sin-hae)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [己酉](/guide/pillar-gi-yu) dan berikutnya adalah [辛亥](/guide/pillar-sin-hae)."
           },
           {
             "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [戌 (Anjing)](/guide/branch-sul)."
@@ -8748,10 +8748,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "辛亥 adalah pilar hari nomor 48 dalam siklus enam puluh tahun",
+        "title": "辛亥 adalah pilar hari nomor 48 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 辛亥, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 48."
+            "p": "Ketika batang-cabang hari lahir adalah 辛亥, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh, ini adalah kombinasi nomor 48."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8815,7 +8815,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚戌](/guide/pillar-gyeong-sul) dan berikutnya adalah [壬子](/guide/pillar-im-ja)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [庚戌](/guide/pillar-gyeong-sul) dan berikutnya adalah [壬子](/guide/pillar-im-ja)."
           },
           {
             "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [亥 (Babi)](/guide/branch-hae)."
@@ -8844,10 +8844,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "壬子 adalah pilar hari nomor 49 dalam siklus enam puluh tahun",
+        "title": "壬子 adalah pilar hari nomor 49 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 壬子, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 49."
+            "p": "Ketika batang-cabang hari lahir adalah 壬子, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh, ini adalah kombinasi nomor 49."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -8905,7 +8905,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛亥](/guide/pillar-sin-hae) dan berikutnya adalah [癸丑](/guide/pillar-gye-chuk)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [辛亥](/guide/pillar-sin-hae) dan berikutnya adalah [癸丑](/guide/pillar-gye-chuk)."
           },
           {
             "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [子 (Tikus)](/guide/branch-ja)."
@@ -8934,10 +8934,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "癸丑 adalah pilar hari nomor 50 dalam siklus enam puluh tahun",
+        "title": "癸丑 adalah pilar hari nomor 50 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 癸丑, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 50."
+            "p": "Ketika batang-cabang hari lahir adalah 癸丑, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh, ini adalah kombinasi nomor 50."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9001,7 +9001,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬子](/guide/pillar-im-ja) dan berikutnya adalah [甲寅](/guide/pillar-gap-in)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [壬子](/guide/pillar-im-ja) dan berikutnya adalah [甲寅](/guide/pillar-gap-in)."
           },
           {
             "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [丑 (Sapi)](/guide/branch-chuk)."
@@ -9030,10 +9030,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "甲寅 adalah pilar hari nomor 51 dalam siklus enam puluh tahun",
+        "title": "甲寅 adalah pilar hari nomor 51 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 甲寅, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 51."
+            "p": "Ketika batang-cabang hari lahir adalah 甲寅, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh, ini adalah kombinasi nomor 51."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9097,7 +9097,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸丑](/guide/pillar-gye-chuk) dan berikutnya adalah [乙卯](/guide/pillar-eul-myo)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [癸丑](/guide/pillar-gye-chuk) dan berikutnya adalah [乙卯](/guide/pillar-eul-myo)."
           },
           {
             "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [寅 (Harimau)](/guide/branch-in)."
@@ -9126,10 +9126,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "乙卯 adalah pilar hari nomor 52 dalam siklus enam puluh tahun",
+        "title": "乙卯 adalah pilar hari nomor 52 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 乙卯, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 52."
+            "p": "Ketika batang-cabang hari lahir adalah 乙卯, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh, ini adalah kombinasi nomor 52."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9187,7 +9187,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲寅](/guide/pillar-gap-in) dan berikutnya adalah [丙辰](/guide/pillar-byeong-jin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [甲寅](/guide/pillar-gap-in) dan berikutnya adalah [丙辰](/guide/pillar-byeong-jin)."
           },
           {
             "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [卯 (Kelinci)](/guide/branch-myo)."
@@ -9216,10 +9216,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丙辰 adalah pilar hari nomor 53 dalam siklus enam puluh tahun",
+        "title": "丙辰 adalah pilar hari nomor 53 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丙辰, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 53."
+            "p": "Ketika batang-cabang hari lahir adalah 丙辰, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh, ini adalah kombinasi nomor 53."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9283,7 +9283,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙卯](/guide/pillar-eul-myo) dan berikutnya adalah [丁巳](/guide/pillar-jeong-sa)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [乙卯](/guide/pillar-eul-myo) dan berikutnya adalah [丁巳](/guide/pillar-jeong-sa)."
           },
           {
             "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [辰 (Naga)](/guide/branch-jin)."
@@ -9312,10 +9312,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "丁巳 adalah pilar hari nomor 54 dalam siklus enam puluh tahun",
+        "title": "丁巳 adalah pilar hari nomor 54 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 丁巳, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 54."
+            "p": "Ketika batang-cabang hari lahir adalah 丁巳, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh, ini adalah kombinasi nomor 54."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9379,7 +9379,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙辰](/guide/pillar-byeong-jin) dan berikutnya adalah [戊午](/guide/pillar-mu-o)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丙辰](/guide/pillar-byeong-jin) dan berikutnya adalah [戊午](/guide/pillar-mu-o)."
           },
           {
             "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [巳 (Ular)](/guide/branch-sa)."
@@ -9408,10 +9408,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "戊午 adalah pilar hari nomor 55 dalam siklus enam puluh tahun",
+        "title": "戊午 adalah pilar hari nomor 55 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 戊午, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 55."
+            "p": "Ketika batang-cabang hari lahir adalah 戊午, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh, ini adalah kombinasi nomor 55."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9475,7 +9475,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁巳](/guide/pillar-jeong-sa) dan berikutnya adalah [己未](/guide/pillar-gi-mi)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [丁巳](/guide/pillar-jeong-sa) dan berikutnya adalah [己未](/guide/pillar-gi-mi)."
           },
           {
             "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [午 (Kuda)](/guide/branch-o)."
@@ -9504,10 +9504,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "己未 adalah pilar hari nomor 56 dalam siklus enam puluh tahun",
+        "title": "己未 adalah pilar hari nomor 56 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 己未, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 56."
+            "p": "Ketika batang-cabang hari lahir adalah 己未, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh, ini adalah kombinasi nomor 56."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9571,7 +9571,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊午](/guide/pillar-mu-o) dan berikutnya adalah [庚申](/guide/pillar-gyeong-sin)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [戊午](/guide/pillar-mu-o) dan berikutnya adalah [庚申](/guide/pillar-gyeong-sin)."
           },
           {
             "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [未 (Domba)](/guide/branch-mi)."
@@ -9600,10 +9600,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "庚申 adalah pilar hari nomor 57 dalam siklus enam puluh tahun",
+        "title": "庚申 adalah pilar hari nomor 57 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 庚申, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 57."
+            "p": "Ketika batang-cabang hari lahir adalah 庚申, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh, ini adalah kombinasi nomor 57."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9667,7 +9667,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己未](/guide/pillar-gi-mi) dan berikutnya adalah [辛酉](/guide/pillar-sin-yu)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [己未](/guide/pillar-gi-mi) dan berikutnya adalah [辛酉](/guide/pillar-sin-yu)."
           },
           {
             "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [申 (Monyet)](/guide/branch-sin)."
@@ -9696,10 +9696,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "辛酉 adalah pilar hari nomor 58 dalam siklus enam puluh tahun",
+        "title": "辛酉 adalah pilar hari nomor 58 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 辛酉, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 58."
+            "p": "Ketika batang-cabang hari lahir adalah 辛酉, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh, ini adalah kombinasi nomor 58."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9757,7 +9757,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚申](/guide/pillar-gyeong-sin) dan berikutnya adalah [壬戌](/guide/pillar-im-sul)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [庚申](/guide/pillar-gyeong-sin) dan berikutnya adalah [壬戌](/guide/pillar-im-sul)."
           },
           {
             "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [酉 (Ayam)](/guide/branch-yu)."
@@ -9786,10 +9786,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "壬戌 adalah pilar hari nomor 59 dalam siklus enam puluh tahun",
+        "title": "壬戌 adalah pilar hari nomor 59 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 壬戌, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 59."
+            "p": "Ketika batang-cabang hari lahir adalah 壬戌, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh, ini adalah kombinasi nomor 59."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9853,7 +9853,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛酉](/guide/pillar-sin-yu) dan berikutnya adalah [癸亥](/guide/pillar-gye-hae)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [辛酉](/guide/pillar-sin-yu) dan berikutnya adalah [癸亥](/guide/pillar-gye-hae)."
           },
           {
             "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [戌 (Anjing)](/guide/branch-sul)."
@@ -9882,10 +9882,10 @@ export const ID_DOCS = {
     "backLabel": "Dasar perhitungan",
     "sections": [
       {
-        "title": "癸亥 adalah pilar hari nomor 60 dalam siklus enam puluh tahun",
+        "title": "癸亥 adalah pilar hari nomor 60 dalam siklus enam puluh",
         "blocks": [
           {
-            "p": "Ketika batang-cabang hari lahir adalah 癸亥, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 60."
+            "p": "Ketika batang-cabang hari lahir adalah 癸亥, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh, ini adalah kombinasi nomor 60."
           },
           {
             "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
@@ -9949,7 +9949,7 @@ export const ID_DOCS = {
         "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
         "blocks": [
           {
-            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬戌](/guide/pillar-im-sul) dan berikutnya adalah [甲子](/guide/pillar-gap-ja)."
+            "p": "Dalam siklus enam puluh, pilar hari sebelumnya adalah [壬戌](/guide/pillar-im-sul) dan berikutnya adalah [甲子](/guide/pillar-gap-ja)."
           },
           {
             "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [亥 (Babi)](/guide/branch-hae)."

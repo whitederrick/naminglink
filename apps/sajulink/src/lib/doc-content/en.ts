@@ -4313,10 +4313,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "甲子 is day pillar number 1 of the sixty-year cycle",
+        "title": "甲子 is day pillar number 1 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 甲子, the day stem is 甲 (Wood, Yang) and the day branch is 子 (the Rat). In the sixty-year cycle it is the combination number 1."
+            "p": "When the stem-branch of the birth day is 甲子, the day stem is 甲 (Wood, Yang) and the day branch is 子 (the Rat). In the sexagenary cycle it is the combination number 1."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 甲 \"Yang Wood (甲)\", and the line the result screen shows is: \"A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend.\" This line has nothing to do with the reading below or the scores."
@@ -4374,7 +4374,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [癸亥](/guide/pillar-gye-hae) and the next is [乙丑](/guide/pillar-eul-chuk)."
+            "p": "In the sexagenary cycle the previous day pillar is [癸亥](/guide/pillar-gye-hae) and the next is [乙丑](/guide/pillar-eul-chuk)."
           },
           {
             "p": "It is made of [Yang Wood (甲)](/guide/stem-gap) and [子 (Rat)](/guide/branch-ja)."
@@ -4403,10 +4403,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "乙丑 is day pillar number 2 of the sixty-year cycle",
+        "title": "乙丑 is day pillar number 2 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 乙丑, the day stem is 乙 (Wood, Yin) and the day branch is 丑 (the Ox). In the sixty-year cycle it is the combination number 2."
+            "p": "When the stem-branch of the birth day is 乙丑, the day stem is 乙 (Wood, Yin) and the day branch is 丑 (the Ox). In the sexagenary cycle it is the combination number 2."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 乙 \"Yin Wood (乙)\", and the line the result screen shows is: \"A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap.\" This line has nothing to do with the reading below or the scores."
@@ -4470,7 +4470,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [甲子](/guide/pillar-gap-ja) and the next is [丙寅](/guide/pillar-byeong-in)."
+            "p": "In the sexagenary cycle the previous day pillar is [甲子](/guide/pillar-gap-ja) and the next is [丙寅](/guide/pillar-byeong-in)."
           },
           {
             "p": "It is made of [Yin Wood (乙)](/guide/stem-eul) and [丑 (Ox)](/guide/branch-chuk)."
@@ -4499,10 +4499,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丙寅 is day pillar number 3 of the sixty-year cycle",
+        "title": "丙寅 is day pillar number 3 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丙寅, the day stem is 丙 (Fire, Yang) and the day branch is 寅 (the Tiger). In the sixty-year cycle it is the combination number 3."
+            "p": "When the stem-branch of the birth day is 丙寅, the day stem is 丙 (Fire, Yang) and the day branch is 寅 (the Tiger). In the sexagenary cycle it is the combination number 3."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丙 \"Yang Fire (丙)\", and the line the result screen shows is: \"The midday sun. Feelings show plainly, the room brightens, and stepping forward comes naturally.\" This line has nothing to do with the reading below or the scores."
@@ -4566,7 +4566,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [乙丑](/guide/pillar-eul-chuk) and the next is [丁卯](/guide/pillar-jeong-myo)."
+            "p": "In the sexagenary cycle the previous day pillar is [乙丑](/guide/pillar-eul-chuk) and the next is [丁卯](/guide/pillar-jeong-myo)."
           },
           {
             "p": "It is made of [Yang Fire (丙)](/guide/stem-byeong) and [寅 (Tiger)](/guide/branch-in)."
@@ -4595,10 +4595,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丁卯 is day pillar number 4 of the sixty-year cycle",
+        "title": "丁卯 is day pillar number 4 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丁卯, the day stem is 丁 (Fire, Yin) and the day branch is 卯 (the Rabbit). In the sixty-year cycle it is the combination number 4."
+            "p": "When the stem-branch of the birth day is 丁卯, the day stem is 丁 (Fire, Yin) and the day branch is 卯 (the Rabbit). In the sexagenary cycle it is the combination number 4."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丁 \"Yin Fire (丁)\", and the line the result screen shows is: \"Candlelight. It burns quietly and long, and warms those closest first.\" This line has nothing to do with the reading below or the scores."
@@ -4656,7 +4656,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丙寅](/guide/pillar-byeong-in) and the next is [戊辰](/guide/pillar-mu-jin)."
+            "p": "In the sexagenary cycle the previous day pillar is [丙寅](/guide/pillar-byeong-in) and the next is [戊辰](/guide/pillar-mu-jin)."
           },
           {
             "p": "It is made of [Yin Fire (丁)](/guide/stem-jeong) and [卯 (Rabbit)](/guide/branch-myo)."
@@ -4685,10 +4685,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "戊辰 is day pillar number 5 of the sixty-year cycle",
+        "title": "戊辰 is day pillar number 5 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 戊辰, the day stem is 戊 (Earth, Yang) and the day branch is 辰 (the Dragon). In the sixty-year cycle it is the combination number 5."
+            "p": "When the stem-branch of the birth day is 戊辰, the day stem is 戊 (Earth, Yang) and the day branch is 辰 (the Dragon). In the sexagenary cycle it is the combination number 5."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 戊 \"Yang Earth (戊)\", and the line the result screen shows is: \"Open ground and mountains. Hard to shake and easy to lean on, though slow to change a decision once made.\" This line has nothing to do with the reading below or the scores."
@@ -4752,7 +4752,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丁卯](/guide/pillar-jeong-myo) and the next is [己巳](/guide/pillar-gi-sa)."
+            "p": "In the sexagenary cycle the previous day pillar is [丁卯](/guide/pillar-jeong-myo) and the next is [己巳](/guide/pillar-gi-sa)."
           },
           {
             "p": "It is made of [Yang Earth (戊)](/guide/stem-mu) and [辰 (Dragon)](/guide/branch-jin)."
@@ -4781,10 +4781,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "己巳 is day pillar number 6 of the sixty-year cycle",
+        "title": "己巳 is day pillar number 6 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 己巳, the day stem is 己 (Earth, Yin) and the day branch is 巳 (the Snake). In the sixty-year cycle it is the combination number 6."
+            "p": "When the stem-branch of the birth day is 己巳, the day stem is 己 (Earth, Yin) and the day branch is 巳 (the Snake). In the sexagenary cycle it is the combination number 6."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 己 \"Yin Earth (己)\", and the line the result screen shows is: \"Field soil. It takes in whatever comes and grows it, tending rather than displaying.\" This line has nothing to do with the reading below or the scores."
@@ -4848,7 +4848,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [戊辰](/guide/pillar-mu-jin) and the next is [庚午](/guide/pillar-gyeong-o)."
+            "p": "In the sexagenary cycle the previous day pillar is [戊辰](/guide/pillar-mu-jin) and the next is [庚午](/guide/pillar-gyeong-o)."
           },
           {
             "p": "It is made of [Yin Earth (己)](/guide/stem-gi) and [巳 (Snake)](/guide/branch-sa)."
@@ -4877,10 +4877,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "庚午 is day pillar number 7 of the sixty-year cycle",
+        "title": "庚午 is day pillar number 7 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 庚午, the day stem is 庚 (Metal, Yang) and the day branch is 午 (the Horse). In the sixty-year cycle it is the combination number 7."
+            "p": "When the stem-branch of the birth day is 庚午, the day stem is 庚 (Metal, Yang) and the day branch is 午 (the Horse). In the sexagenary cycle it is the combination number 7."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 庚 \"Yang Metal (庚)\", and the line the result screen shows is: \"Unworked iron. Decisive and clear-cut, with little patience for things left hanging.\" This line has nothing to do with the reading below or the scores."
@@ -4944,7 +4944,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [己巳](/guide/pillar-gi-sa) and the next is [辛未](/guide/pillar-sin-mi)."
+            "p": "In the sexagenary cycle the previous day pillar is [己巳](/guide/pillar-gi-sa) and the next is [辛未](/guide/pillar-sin-mi)."
           },
           {
             "p": "It is made of [Yang Metal (庚)](/guide/stem-gyeong) and [午 (Horse)](/guide/branch-o)."
@@ -4973,10 +4973,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "辛未 is day pillar number 8 of the sixty-year cycle",
+        "title": "辛未 is day pillar number 8 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 辛未, the day stem is 辛 (Metal, Yin) and the day branch is 未 (the Sheep). In the sixty-year cycle it is the combination number 8."
+            "p": "When the stem-branch of the birth day is 辛未, the day stem is 辛 (Metal, Yin) and the day branch is 未 (the Sheep). In the sexagenary cycle it is the combination number 8."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 辛 \"Yin Metal (辛)\", and the line the result screen shows is: \"A cut gem. Fine-grained taste and high standards; sloppiness is hard to let pass.\" This line has nothing to do with the reading below or the scores."
@@ -5040,7 +5040,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [庚午](/guide/pillar-gyeong-o) and the next is [壬申](/guide/pillar-im-sin)."
+            "p": "In the sexagenary cycle the previous day pillar is [庚午](/guide/pillar-gyeong-o) and the next is [壬申](/guide/pillar-im-sin)."
           },
           {
             "p": "It is made of [Yin Metal (辛)](/guide/stem-sin) and [未 (Sheep)](/guide/branch-mi)."
@@ -5069,10 +5069,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "壬申 is day pillar number 9 of the sixty-year cycle",
+        "title": "壬申 is day pillar number 9 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 壬申, the day stem is 壬 (Water, Yang) and the day branch is 申 (the Monkey). In the sixty-year cycle it is the combination number 9."
+            "p": "When the stem-branch of the birth day is 壬申, the day stem is 壬 (Water, Yang) and the day branch is 申 (the Monkey). In the sexagenary cycle it is the combination number 9."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 壬 \"Yang Water (壬)\", and the line the result screen shows is: \"River and sea. Broad in outlook, with an eye for how things are flowing.\" This line has nothing to do with the reading below or the scores."
@@ -5136,7 +5136,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [辛未](/guide/pillar-sin-mi) and the next is [癸酉](/guide/pillar-gye-yu)."
+            "p": "In the sexagenary cycle the previous day pillar is [辛未](/guide/pillar-sin-mi) and the next is [癸酉](/guide/pillar-gye-yu)."
           },
           {
             "p": "It is made of [Yang Water (壬)](/guide/stem-im) and [申 (Monkey)](/guide/branch-sin)."
@@ -5165,10 +5165,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "癸酉 is day pillar number 10 of the sixty-year cycle",
+        "title": "癸酉 is day pillar number 10 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 癸酉, the day stem is 癸 (Water, Yin) and the day branch is 酉 (the Rooster). In the sixty-year cycle it is the combination number 10."
+            "p": "When the stem-branch of the birth day is 癸酉, the day stem is 癸 (Water, Yin) and the day branch is 酉 (the Rooster). In the sexagenary cycle it is the combination number 10."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 癸 \"Yin Water (癸)\", and the line the result screen shows is: \"Dew and rain. It seeps in quietly and reads the mood before the words.\" This line has nothing to do with the reading below or the scores."
@@ -5226,7 +5226,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [壬申](/guide/pillar-im-sin) and the next is [甲戌](/guide/pillar-gap-sul)."
+            "p": "In the sexagenary cycle the previous day pillar is [壬申](/guide/pillar-im-sin) and the next is [甲戌](/guide/pillar-gap-sul)."
           },
           {
             "p": "It is made of [Yin Water (癸)](/guide/stem-gye) and [酉 (Rooster)](/guide/branch-yu)."
@@ -5255,10 +5255,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "甲戌 is day pillar number 11 of the sixty-year cycle",
+        "title": "甲戌 is day pillar number 11 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 甲戌, the day stem is 甲 (Wood, Yang) and the day branch is 戌 (the Dog). In the sixty-year cycle it is the combination number 11."
+            "p": "When the stem-branch of the birth day is 甲戌, the day stem is 甲 (Wood, Yang) and the day branch is 戌 (the Dog). In the sexagenary cycle it is the combination number 11."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 甲 \"Yang Wood (甲)\", and the line the result screen shows is: \"A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend.\" This line has nothing to do with the reading below or the scores."
@@ -5322,7 +5322,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [癸酉](/guide/pillar-gye-yu) and the next is [乙亥](/guide/pillar-eul-hae)."
+            "p": "In the sexagenary cycle the previous day pillar is [癸酉](/guide/pillar-gye-yu) and the next is [乙亥](/guide/pillar-eul-hae)."
           },
           {
             "p": "It is made of [Yang Wood (甲)](/guide/stem-gap) and [戌 (Dog)](/guide/branch-sul)."
@@ -5351,10 +5351,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "乙亥 is day pillar number 12 of the sixty-year cycle",
+        "title": "乙亥 is day pillar number 12 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 乙亥, the day stem is 乙 (Wood, Yin) and the day branch is 亥 (the Pig). In the sixty-year cycle it is the combination number 12."
+            "p": "When the stem-branch of the birth day is 乙亥, the day stem is 乙 (Wood, Yin) and the day branch is 亥 (the Pig). In the sexagenary cycle it is the combination number 12."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 乙 \"Yin Wood (乙)\", and the line the result screen shows is: \"A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap.\" This line has nothing to do with the reading below or the scores."
@@ -5418,7 +5418,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [甲戌](/guide/pillar-gap-sul) and the next is [丙子](/guide/pillar-byeong-ja)."
+            "p": "In the sexagenary cycle the previous day pillar is [甲戌](/guide/pillar-gap-sul) and the next is [丙子](/guide/pillar-byeong-ja)."
           },
           {
             "p": "It is made of [Yin Wood (乙)](/guide/stem-eul) and [亥 (Pig)](/guide/branch-hae)."
@@ -5447,10 +5447,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丙子 is day pillar number 13 of the sixty-year cycle",
+        "title": "丙子 is day pillar number 13 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丙子, the day stem is 丙 (Fire, Yang) and the day branch is 子 (the Rat). In the sixty-year cycle it is the combination number 13."
+            "p": "When the stem-branch of the birth day is 丙子, the day stem is 丙 (Fire, Yang) and the day branch is 子 (the Rat). In the sexagenary cycle it is the combination number 13."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丙 \"Yang Fire (丙)\", and the line the result screen shows is: \"The midday sun. Feelings show plainly, the room brightens, and stepping forward comes naturally.\" This line has nothing to do with the reading below or the scores."
@@ -5508,7 +5508,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [乙亥](/guide/pillar-eul-hae) and the next is [丁丑](/guide/pillar-jeong-chuk)."
+            "p": "In the sexagenary cycle the previous day pillar is [乙亥](/guide/pillar-eul-hae) and the next is [丁丑](/guide/pillar-jeong-chuk)."
           },
           {
             "p": "It is made of [Yang Fire (丙)](/guide/stem-byeong) and [子 (Rat)](/guide/branch-ja)."
@@ -5537,10 +5537,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丁丑 is day pillar number 14 of the sixty-year cycle",
+        "title": "丁丑 is day pillar number 14 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丁丑, the day stem is 丁 (Fire, Yin) and the day branch is 丑 (the Ox). In the sixty-year cycle it is the combination number 14."
+            "p": "When the stem-branch of the birth day is 丁丑, the day stem is 丁 (Fire, Yin) and the day branch is 丑 (the Ox). In the sexagenary cycle it is the combination number 14."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丁 \"Yin Fire (丁)\", and the line the result screen shows is: \"Candlelight. It burns quietly and long, and warms those closest first.\" This line has nothing to do with the reading below or the scores."
@@ -5604,7 +5604,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丙子](/guide/pillar-byeong-ja) and the next is [戊寅](/guide/pillar-mu-in)."
+            "p": "In the sexagenary cycle the previous day pillar is [丙子](/guide/pillar-byeong-ja) and the next is [戊寅](/guide/pillar-mu-in)."
           },
           {
             "p": "It is made of [Yin Fire (丁)](/guide/stem-jeong) and [丑 (Ox)](/guide/branch-chuk)."
@@ -5633,10 +5633,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "戊寅 is day pillar number 15 of the sixty-year cycle",
+        "title": "戊寅 is day pillar number 15 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 戊寅, the day stem is 戊 (Earth, Yang) and the day branch is 寅 (the Tiger). In the sixty-year cycle it is the combination number 15."
+            "p": "When the stem-branch of the birth day is 戊寅, the day stem is 戊 (Earth, Yang) and the day branch is 寅 (the Tiger). In the sexagenary cycle it is the combination number 15."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 戊 \"Yang Earth (戊)\", and the line the result screen shows is: \"Open ground and mountains. Hard to shake and easy to lean on, though slow to change a decision once made.\" This line has nothing to do with the reading below or the scores."
@@ -5700,7 +5700,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丁丑](/guide/pillar-jeong-chuk) and the next is [己卯](/guide/pillar-gi-myo)."
+            "p": "In the sexagenary cycle the previous day pillar is [丁丑](/guide/pillar-jeong-chuk) and the next is [己卯](/guide/pillar-gi-myo)."
           },
           {
             "p": "It is made of [Yang Earth (戊)](/guide/stem-mu) and [寅 (Tiger)](/guide/branch-in)."
@@ -5729,10 +5729,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "己卯 is day pillar number 16 of the sixty-year cycle",
+        "title": "己卯 is day pillar number 16 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 己卯, the day stem is 己 (Earth, Yin) and the day branch is 卯 (the Rabbit). In the sixty-year cycle it is the combination number 16."
+            "p": "When the stem-branch of the birth day is 己卯, the day stem is 己 (Earth, Yin) and the day branch is 卯 (the Rabbit). In the sexagenary cycle it is the combination number 16."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 己 \"Yin Earth (己)\", and the line the result screen shows is: \"Field soil. It takes in whatever comes and grows it, tending rather than displaying.\" This line has nothing to do with the reading below or the scores."
@@ -5790,7 +5790,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [戊寅](/guide/pillar-mu-in) and the next is [庚辰](/guide/pillar-gyeong-jin)."
+            "p": "In the sexagenary cycle the previous day pillar is [戊寅](/guide/pillar-mu-in) and the next is [庚辰](/guide/pillar-gyeong-jin)."
           },
           {
             "p": "It is made of [Yin Earth (己)](/guide/stem-gi) and [卯 (Rabbit)](/guide/branch-myo)."
@@ -5819,10 +5819,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "庚辰 is day pillar number 17 of the sixty-year cycle",
+        "title": "庚辰 is day pillar number 17 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 庚辰, the day stem is 庚 (Metal, Yang) and the day branch is 辰 (the Dragon). In the sixty-year cycle it is the combination number 17."
+            "p": "When the stem-branch of the birth day is 庚辰, the day stem is 庚 (Metal, Yang) and the day branch is 辰 (the Dragon). In the sexagenary cycle it is the combination number 17."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 庚 \"Yang Metal (庚)\", and the line the result screen shows is: \"Unworked iron. Decisive and clear-cut, with little patience for things left hanging.\" This line has nothing to do with the reading below or the scores."
@@ -5886,7 +5886,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [己卯](/guide/pillar-gi-myo) and the next is [辛巳](/guide/pillar-sin-sa)."
+            "p": "In the sexagenary cycle the previous day pillar is [己卯](/guide/pillar-gi-myo) and the next is [辛巳](/guide/pillar-sin-sa)."
           },
           {
             "p": "It is made of [Yang Metal (庚)](/guide/stem-gyeong) and [辰 (Dragon)](/guide/branch-jin)."
@@ -5915,10 +5915,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "辛巳 is day pillar number 18 of the sixty-year cycle",
+        "title": "辛巳 is day pillar number 18 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 辛巳, the day stem is 辛 (Metal, Yin) and the day branch is 巳 (the Snake). In the sixty-year cycle it is the combination number 18."
+            "p": "When the stem-branch of the birth day is 辛巳, the day stem is 辛 (Metal, Yin) and the day branch is 巳 (the Snake). In the sexagenary cycle it is the combination number 18."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 辛 \"Yin Metal (辛)\", and the line the result screen shows is: \"A cut gem. Fine-grained taste and high standards; sloppiness is hard to let pass.\" This line has nothing to do with the reading below or the scores."
@@ -5982,7 +5982,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [庚辰](/guide/pillar-gyeong-jin) and the next is [壬午](/guide/pillar-im-o)."
+            "p": "In the sexagenary cycle the previous day pillar is [庚辰](/guide/pillar-gyeong-jin) and the next is [壬午](/guide/pillar-im-o)."
           },
           {
             "p": "It is made of [Yin Metal (辛)](/guide/stem-sin) and [巳 (Snake)](/guide/branch-sa)."
@@ -6011,10 +6011,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "壬午 is day pillar number 19 of the sixty-year cycle",
+        "title": "壬午 is day pillar number 19 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 壬午, the day stem is 壬 (Water, Yang) and the day branch is 午 (the Horse). In the sixty-year cycle it is the combination number 19."
+            "p": "When the stem-branch of the birth day is 壬午, the day stem is 壬 (Water, Yang) and the day branch is 午 (the Horse). In the sexagenary cycle it is the combination number 19."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 壬 \"Yang Water (壬)\", and the line the result screen shows is: \"River and sea. Broad in outlook, with an eye for how things are flowing.\" This line has nothing to do with the reading below or the scores."
@@ -6078,7 +6078,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [辛巳](/guide/pillar-sin-sa) and the next is [癸未](/guide/pillar-gye-mi)."
+            "p": "In the sexagenary cycle the previous day pillar is [辛巳](/guide/pillar-sin-sa) and the next is [癸未](/guide/pillar-gye-mi)."
           },
           {
             "p": "It is made of [Yang Water (壬)](/guide/stem-im) and [午 (Horse)](/guide/branch-o)."
@@ -6107,10 +6107,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "癸未 is day pillar number 20 of the sixty-year cycle",
+        "title": "癸未 is day pillar number 20 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 癸未, the day stem is 癸 (Water, Yin) and the day branch is 未 (the Sheep). In the sixty-year cycle it is the combination number 20."
+            "p": "When the stem-branch of the birth day is 癸未, the day stem is 癸 (Water, Yin) and the day branch is 未 (the Sheep). In the sexagenary cycle it is the combination number 20."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 癸 \"Yin Water (癸)\", and the line the result screen shows is: \"Dew and rain. It seeps in quietly and reads the mood before the words.\" This line has nothing to do with the reading below or the scores."
@@ -6174,7 +6174,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [壬午](/guide/pillar-im-o) and the next is [甲申](/guide/pillar-gap-sin)."
+            "p": "In the sexagenary cycle the previous day pillar is [壬午](/guide/pillar-im-o) and the next is [甲申](/guide/pillar-gap-sin)."
           },
           {
             "p": "It is made of [Yin Water (癸)](/guide/stem-gye) and [未 (Sheep)](/guide/branch-mi)."
@@ -6203,10 +6203,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "甲申 is day pillar number 21 of the sixty-year cycle",
+        "title": "甲申 is day pillar number 21 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 甲申, the day stem is 甲 (Wood, Yang) and the day branch is 申 (the Monkey). In the sixty-year cycle it is the combination number 21."
+            "p": "When the stem-branch of the birth day is 甲申, the day stem is 甲 (Wood, Yang) and the day branch is 申 (the Monkey). In the sexagenary cycle it is the combination number 21."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 甲 \"Yang Wood (甲)\", and the line the result screen shows is: \"A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend.\" This line has nothing to do with the reading below or the scores."
@@ -6270,7 +6270,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [癸未](/guide/pillar-gye-mi) and the next is [乙酉](/guide/pillar-eul-yu)."
+            "p": "In the sexagenary cycle the previous day pillar is [癸未](/guide/pillar-gye-mi) and the next is [乙酉](/guide/pillar-eul-yu)."
           },
           {
             "p": "It is made of [Yang Wood (甲)](/guide/stem-gap) and [申 (Monkey)](/guide/branch-sin)."
@@ -6299,10 +6299,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "乙酉 is day pillar number 22 of the sixty-year cycle",
+        "title": "乙酉 is day pillar number 22 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 乙酉, the day stem is 乙 (Wood, Yin) and the day branch is 酉 (the Rooster). In the sixty-year cycle it is the combination number 22."
+            "p": "When the stem-branch of the birth day is 乙酉, the day stem is 乙 (Wood, Yin) and the day branch is 酉 (the Rooster). In the sexagenary cycle it is the combination number 22."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 乙 \"Yin Wood (乙)\", and the line the result screen shows is: \"A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap.\" This line has nothing to do with the reading below or the scores."
@@ -6360,7 +6360,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [甲申](/guide/pillar-gap-sin) and the next is [丙戌](/guide/pillar-byeong-sul)."
+            "p": "In the sexagenary cycle the previous day pillar is [甲申](/guide/pillar-gap-sin) and the next is [丙戌](/guide/pillar-byeong-sul)."
           },
           {
             "p": "It is made of [Yin Wood (乙)](/guide/stem-eul) and [酉 (Rooster)](/guide/branch-yu)."
@@ -6389,10 +6389,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丙戌 is day pillar number 23 of the sixty-year cycle",
+        "title": "丙戌 is day pillar number 23 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丙戌, the day stem is 丙 (Fire, Yang) and the day branch is 戌 (the Dog). In the sixty-year cycle it is the combination number 23."
+            "p": "When the stem-branch of the birth day is 丙戌, the day stem is 丙 (Fire, Yang) and the day branch is 戌 (the Dog). In the sexagenary cycle it is the combination number 23."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丙 \"Yang Fire (丙)\", and the line the result screen shows is: \"The midday sun. Feelings show plainly, the room brightens, and stepping forward comes naturally.\" This line has nothing to do with the reading below or the scores."
@@ -6456,7 +6456,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [乙酉](/guide/pillar-eul-yu) and the next is [丁亥](/guide/pillar-jeong-hae)."
+            "p": "In the sexagenary cycle the previous day pillar is [乙酉](/guide/pillar-eul-yu) and the next is [丁亥](/guide/pillar-jeong-hae)."
           },
           {
             "p": "It is made of [Yang Fire (丙)](/guide/stem-byeong) and [戌 (Dog)](/guide/branch-sul)."
@@ -6485,10 +6485,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丁亥 is day pillar number 24 of the sixty-year cycle",
+        "title": "丁亥 is day pillar number 24 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丁亥, the day stem is 丁 (Fire, Yin) and the day branch is 亥 (the Pig). In the sixty-year cycle it is the combination number 24."
+            "p": "When the stem-branch of the birth day is 丁亥, the day stem is 丁 (Fire, Yin) and the day branch is 亥 (the Pig). In the sexagenary cycle it is the combination number 24."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丁 \"Yin Fire (丁)\", and the line the result screen shows is: \"Candlelight. It burns quietly and long, and warms those closest first.\" This line has nothing to do with the reading below or the scores."
@@ -6552,7 +6552,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丙戌](/guide/pillar-byeong-sul) and the next is [戊子](/guide/pillar-mu-ja)."
+            "p": "In the sexagenary cycle the previous day pillar is [丙戌](/guide/pillar-byeong-sul) and the next is [戊子](/guide/pillar-mu-ja)."
           },
           {
             "p": "It is made of [Yin Fire (丁)](/guide/stem-jeong) and [亥 (Pig)](/guide/branch-hae)."
@@ -6581,10 +6581,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "戊子 is day pillar number 25 of the sixty-year cycle",
+        "title": "戊子 is day pillar number 25 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 戊子, the day stem is 戊 (Earth, Yang) and the day branch is 子 (the Rat). In the sixty-year cycle it is the combination number 25."
+            "p": "When the stem-branch of the birth day is 戊子, the day stem is 戊 (Earth, Yang) and the day branch is 子 (the Rat). In the sexagenary cycle it is the combination number 25."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 戊 \"Yang Earth (戊)\", and the line the result screen shows is: \"Open ground and mountains. Hard to shake and easy to lean on, though slow to change a decision once made.\" This line has nothing to do with the reading below or the scores."
@@ -6642,7 +6642,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丁亥](/guide/pillar-jeong-hae) and the next is [己丑](/guide/pillar-gi-chuk)."
+            "p": "In the sexagenary cycle the previous day pillar is [丁亥](/guide/pillar-jeong-hae) and the next is [己丑](/guide/pillar-gi-chuk)."
           },
           {
             "p": "It is made of [Yang Earth (戊)](/guide/stem-mu) and [子 (Rat)](/guide/branch-ja)."
@@ -6671,10 +6671,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "己丑 is day pillar number 26 of the sixty-year cycle",
+        "title": "己丑 is day pillar number 26 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 己丑, the day stem is 己 (Earth, Yin) and the day branch is 丑 (the Ox). In the sixty-year cycle it is the combination number 26."
+            "p": "When the stem-branch of the birth day is 己丑, the day stem is 己 (Earth, Yin) and the day branch is 丑 (the Ox). In the sexagenary cycle it is the combination number 26."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 己 \"Yin Earth (己)\", and the line the result screen shows is: \"Field soil. It takes in whatever comes and grows it, tending rather than displaying.\" This line has nothing to do with the reading below or the scores."
@@ -6738,7 +6738,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [戊子](/guide/pillar-mu-ja) and the next is [庚寅](/guide/pillar-gyeong-in)."
+            "p": "In the sexagenary cycle the previous day pillar is [戊子](/guide/pillar-mu-ja) and the next is [庚寅](/guide/pillar-gyeong-in)."
           },
           {
             "p": "It is made of [Yin Earth (己)](/guide/stem-gi) and [丑 (Ox)](/guide/branch-chuk)."
@@ -6767,10 +6767,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "庚寅 is day pillar number 27 of the sixty-year cycle",
+        "title": "庚寅 is day pillar number 27 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 庚寅, the day stem is 庚 (Metal, Yang) and the day branch is 寅 (the Tiger). In the sixty-year cycle it is the combination number 27."
+            "p": "When the stem-branch of the birth day is 庚寅, the day stem is 庚 (Metal, Yang) and the day branch is 寅 (the Tiger). In the sexagenary cycle it is the combination number 27."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 庚 \"Yang Metal (庚)\", and the line the result screen shows is: \"Unworked iron. Decisive and clear-cut, with little patience for things left hanging.\" This line has nothing to do with the reading below or the scores."
@@ -6834,7 +6834,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [己丑](/guide/pillar-gi-chuk) and the next is [辛卯](/guide/pillar-sin-myo)."
+            "p": "In the sexagenary cycle the previous day pillar is [己丑](/guide/pillar-gi-chuk) and the next is [辛卯](/guide/pillar-sin-myo)."
           },
           {
             "p": "It is made of [Yang Metal (庚)](/guide/stem-gyeong) and [寅 (Tiger)](/guide/branch-in)."
@@ -6863,10 +6863,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "辛卯 is day pillar number 28 of the sixty-year cycle",
+        "title": "辛卯 is day pillar number 28 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 辛卯, the day stem is 辛 (Metal, Yin) and the day branch is 卯 (the Rabbit). In the sixty-year cycle it is the combination number 28."
+            "p": "When the stem-branch of the birth day is 辛卯, the day stem is 辛 (Metal, Yin) and the day branch is 卯 (the Rabbit). In the sexagenary cycle it is the combination number 28."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 辛 \"Yin Metal (辛)\", and the line the result screen shows is: \"A cut gem. Fine-grained taste and high standards; sloppiness is hard to let pass.\" This line has nothing to do with the reading below or the scores."
@@ -6924,7 +6924,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [庚寅](/guide/pillar-gyeong-in) and the next is [壬辰](/guide/pillar-im-jin)."
+            "p": "In the sexagenary cycle the previous day pillar is [庚寅](/guide/pillar-gyeong-in) and the next is [壬辰](/guide/pillar-im-jin)."
           },
           {
             "p": "It is made of [Yin Metal (辛)](/guide/stem-sin) and [卯 (Rabbit)](/guide/branch-myo)."
@@ -6953,10 +6953,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "壬辰 is day pillar number 29 of the sixty-year cycle",
+        "title": "壬辰 is day pillar number 29 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 壬辰, the day stem is 壬 (Water, Yang) and the day branch is 辰 (the Dragon). In the sixty-year cycle it is the combination number 29."
+            "p": "When the stem-branch of the birth day is 壬辰, the day stem is 壬 (Water, Yang) and the day branch is 辰 (the Dragon). In the sexagenary cycle it is the combination number 29."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 壬 \"Yang Water (壬)\", and the line the result screen shows is: \"River and sea. Broad in outlook, with an eye for how things are flowing.\" This line has nothing to do with the reading below or the scores."
@@ -7020,7 +7020,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [辛卯](/guide/pillar-sin-myo) and the next is [癸巳](/guide/pillar-gye-sa)."
+            "p": "In the sexagenary cycle the previous day pillar is [辛卯](/guide/pillar-sin-myo) and the next is [癸巳](/guide/pillar-gye-sa)."
           },
           {
             "p": "It is made of [Yang Water (壬)](/guide/stem-im) and [辰 (Dragon)](/guide/branch-jin)."
@@ -7049,10 +7049,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "癸巳 is day pillar number 30 of the sixty-year cycle",
+        "title": "癸巳 is day pillar number 30 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 癸巳, the day stem is 癸 (Water, Yin) and the day branch is 巳 (the Snake). In the sixty-year cycle it is the combination number 30."
+            "p": "When the stem-branch of the birth day is 癸巳, the day stem is 癸 (Water, Yin) and the day branch is 巳 (the Snake). In the sexagenary cycle it is the combination number 30."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 癸 \"Yin Water (癸)\", and the line the result screen shows is: \"Dew and rain. It seeps in quietly and reads the mood before the words.\" This line has nothing to do with the reading below or the scores."
@@ -7116,7 +7116,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [壬辰](/guide/pillar-im-jin) and the next is [甲午](/guide/pillar-gap-o)."
+            "p": "In the sexagenary cycle the previous day pillar is [壬辰](/guide/pillar-im-jin) and the next is [甲午](/guide/pillar-gap-o)."
           },
           {
             "p": "It is made of [Yin Water (癸)](/guide/stem-gye) and [巳 (Snake)](/guide/branch-sa)."
@@ -7145,10 +7145,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "甲午 is day pillar number 31 of the sixty-year cycle",
+        "title": "甲午 is day pillar number 31 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 甲午, the day stem is 甲 (Wood, Yang) and the day branch is 午 (the Horse). In the sixty-year cycle it is the combination number 31."
+            "p": "When the stem-branch of the birth day is 甲午, the day stem is 甲 (Wood, Yang) and the day branch is 午 (the Horse). In the sexagenary cycle it is the combination number 31."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 甲 \"Yang Wood (甲)\", and the line the result screen shows is: \"A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend.\" This line has nothing to do with the reading below or the scores."
@@ -7212,7 +7212,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [癸巳](/guide/pillar-gye-sa) and the next is [乙未](/guide/pillar-eul-mi)."
+            "p": "In the sexagenary cycle the previous day pillar is [癸巳](/guide/pillar-gye-sa) and the next is [乙未](/guide/pillar-eul-mi)."
           },
           {
             "p": "It is made of [Yang Wood (甲)](/guide/stem-gap) and [午 (Horse)](/guide/branch-o)."
@@ -7241,10 +7241,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "乙未 is day pillar number 32 of the sixty-year cycle",
+        "title": "乙未 is day pillar number 32 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 乙未, the day stem is 乙 (Wood, Yin) and the day branch is 未 (the Sheep). In the sixty-year cycle it is the combination number 32."
+            "p": "When the stem-branch of the birth day is 乙未, the day stem is 乙 (Wood, Yin) and the day branch is 未 (the Sheep). In the sexagenary cycle it is the combination number 32."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 乙 \"Yin Wood (乙)\", and the line the result screen shows is: \"A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap.\" This line has nothing to do with the reading below or the scores."
@@ -7308,7 +7308,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [甲午](/guide/pillar-gap-o) and the next is [丙申](/guide/pillar-byeong-sin)."
+            "p": "In the sexagenary cycle the previous day pillar is [甲午](/guide/pillar-gap-o) and the next is [丙申](/guide/pillar-byeong-sin)."
           },
           {
             "p": "It is made of [Yin Wood (乙)](/guide/stem-eul) and [未 (Sheep)](/guide/branch-mi)."
@@ -7337,10 +7337,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丙申 is day pillar number 33 of the sixty-year cycle",
+        "title": "丙申 is day pillar number 33 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丙申, the day stem is 丙 (Fire, Yang) and the day branch is 申 (the Monkey). In the sixty-year cycle it is the combination number 33."
+            "p": "When the stem-branch of the birth day is 丙申, the day stem is 丙 (Fire, Yang) and the day branch is 申 (the Monkey). In the sexagenary cycle it is the combination number 33."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丙 \"Yang Fire (丙)\", and the line the result screen shows is: \"The midday sun. Feelings show plainly, the room brightens, and stepping forward comes naturally.\" This line has nothing to do with the reading below or the scores."
@@ -7404,7 +7404,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [乙未](/guide/pillar-eul-mi) and the next is [丁酉](/guide/pillar-jeong-yu)."
+            "p": "In the sexagenary cycle the previous day pillar is [乙未](/guide/pillar-eul-mi) and the next is [丁酉](/guide/pillar-jeong-yu)."
           },
           {
             "p": "It is made of [Yang Fire (丙)](/guide/stem-byeong) and [申 (Monkey)](/guide/branch-sin)."
@@ -7433,10 +7433,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丁酉 is day pillar number 34 of the sixty-year cycle",
+        "title": "丁酉 is day pillar number 34 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丁酉, the day stem is 丁 (Fire, Yin) and the day branch is 酉 (the Rooster). In the sixty-year cycle it is the combination number 34."
+            "p": "When the stem-branch of the birth day is 丁酉, the day stem is 丁 (Fire, Yin) and the day branch is 酉 (the Rooster). In the sexagenary cycle it is the combination number 34."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丁 \"Yin Fire (丁)\", and the line the result screen shows is: \"Candlelight. It burns quietly and long, and warms those closest first.\" This line has nothing to do with the reading below or the scores."
@@ -7494,7 +7494,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丙申](/guide/pillar-byeong-sin) and the next is [戊戌](/guide/pillar-mu-sul)."
+            "p": "In the sexagenary cycle the previous day pillar is [丙申](/guide/pillar-byeong-sin) and the next is [戊戌](/guide/pillar-mu-sul)."
           },
           {
             "p": "It is made of [Yin Fire (丁)](/guide/stem-jeong) and [酉 (Rooster)](/guide/branch-yu)."
@@ -7523,10 +7523,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "戊戌 is day pillar number 35 of the sixty-year cycle",
+        "title": "戊戌 is day pillar number 35 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 戊戌, the day stem is 戊 (Earth, Yang) and the day branch is 戌 (the Dog). In the sixty-year cycle it is the combination number 35."
+            "p": "When the stem-branch of the birth day is 戊戌, the day stem is 戊 (Earth, Yang) and the day branch is 戌 (the Dog). In the sexagenary cycle it is the combination number 35."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 戊 \"Yang Earth (戊)\", and the line the result screen shows is: \"Open ground and mountains. Hard to shake and easy to lean on, though slow to change a decision once made.\" This line has nothing to do with the reading below or the scores."
@@ -7590,7 +7590,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丁酉](/guide/pillar-jeong-yu) and the next is [己亥](/guide/pillar-gi-hae)."
+            "p": "In the sexagenary cycle the previous day pillar is [丁酉](/guide/pillar-jeong-yu) and the next is [己亥](/guide/pillar-gi-hae)."
           },
           {
             "p": "It is made of [Yang Earth (戊)](/guide/stem-mu) and [戌 (Dog)](/guide/branch-sul)."
@@ -7619,10 +7619,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "己亥 is day pillar number 36 of the sixty-year cycle",
+        "title": "己亥 is day pillar number 36 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 己亥, the day stem is 己 (Earth, Yin) and the day branch is 亥 (the Pig). In the sixty-year cycle it is the combination number 36."
+            "p": "When the stem-branch of the birth day is 己亥, the day stem is 己 (Earth, Yin) and the day branch is 亥 (the Pig). In the sexagenary cycle it is the combination number 36."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 己 \"Yin Earth (己)\", and the line the result screen shows is: \"Field soil. It takes in whatever comes and grows it, tending rather than displaying.\" This line has nothing to do with the reading below or the scores."
@@ -7686,7 +7686,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [戊戌](/guide/pillar-mu-sul) and the next is [庚子](/guide/pillar-gyeong-ja)."
+            "p": "In the sexagenary cycle the previous day pillar is [戊戌](/guide/pillar-mu-sul) and the next is [庚子](/guide/pillar-gyeong-ja)."
           },
           {
             "p": "It is made of [Yin Earth (己)](/guide/stem-gi) and [亥 (Pig)](/guide/branch-hae)."
@@ -7715,10 +7715,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "庚子 is day pillar number 37 of the sixty-year cycle",
+        "title": "庚子 is day pillar number 37 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 庚子, the day stem is 庚 (Metal, Yang) and the day branch is 子 (the Rat). In the sixty-year cycle it is the combination number 37."
+            "p": "When the stem-branch of the birth day is 庚子, the day stem is 庚 (Metal, Yang) and the day branch is 子 (the Rat). In the sexagenary cycle it is the combination number 37."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 庚 \"Yang Metal (庚)\", and the line the result screen shows is: \"Unworked iron. Decisive and clear-cut, with little patience for things left hanging.\" This line has nothing to do with the reading below or the scores."
@@ -7776,7 +7776,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [己亥](/guide/pillar-gi-hae) and the next is [辛丑](/guide/pillar-sin-chuk)."
+            "p": "In the sexagenary cycle the previous day pillar is [己亥](/guide/pillar-gi-hae) and the next is [辛丑](/guide/pillar-sin-chuk)."
           },
           {
             "p": "It is made of [Yang Metal (庚)](/guide/stem-gyeong) and [子 (Rat)](/guide/branch-ja)."
@@ -7805,10 +7805,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "辛丑 is day pillar number 38 of the sixty-year cycle",
+        "title": "辛丑 is day pillar number 38 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 辛丑, the day stem is 辛 (Metal, Yin) and the day branch is 丑 (the Ox). In the sixty-year cycle it is the combination number 38."
+            "p": "When the stem-branch of the birth day is 辛丑, the day stem is 辛 (Metal, Yin) and the day branch is 丑 (the Ox). In the sexagenary cycle it is the combination number 38."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 辛 \"Yin Metal (辛)\", and the line the result screen shows is: \"A cut gem. Fine-grained taste and high standards; sloppiness is hard to let pass.\" This line has nothing to do with the reading below or the scores."
@@ -7872,7 +7872,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [庚子](/guide/pillar-gyeong-ja) and the next is [壬寅](/guide/pillar-im-in)."
+            "p": "In the sexagenary cycle the previous day pillar is [庚子](/guide/pillar-gyeong-ja) and the next is [壬寅](/guide/pillar-im-in)."
           },
           {
             "p": "It is made of [Yin Metal (辛)](/guide/stem-sin) and [丑 (Ox)](/guide/branch-chuk)."
@@ -7901,10 +7901,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "壬寅 is day pillar number 39 of the sixty-year cycle",
+        "title": "壬寅 is day pillar number 39 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 壬寅, the day stem is 壬 (Water, Yang) and the day branch is 寅 (the Tiger). In the sixty-year cycle it is the combination number 39."
+            "p": "When the stem-branch of the birth day is 壬寅, the day stem is 壬 (Water, Yang) and the day branch is 寅 (the Tiger). In the sexagenary cycle it is the combination number 39."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 壬 \"Yang Water (壬)\", and the line the result screen shows is: \"River and sea. Broad in outlook, with an eye for how things are flowing.\" This line has nothing to do with the reading below or the scores."
@@ -7968,7 +7968,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [辛丑](/guide/pillar-sin-chuk) and the next is [癸卯](/guide/pillar-gye-myo)."
+            "p": "In the sexagenary cycle the previous day pillar is [辛丑](/guide/pillar-sin-chuk) and the next is [癸卯](/guide/pillar-gye-myo)."
           },
           {
             "p": "It is made of [Yang Water (壬)](/guide/stem-im) and [寅 (Tiger)](/guide/branch-in)."
@@ -7997,10 +7997,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "癸卯 is day pillar number 40 of the sixty-year cycle",
+        "title": "癸卯 is day pillar number 40 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 癸卯, the day stem is 癸 (Water, Yin) and the day branch is 卯 (the Rabbit). In the sixty-year cycle it is the combination number 40."
+            "p": "When the stem-branch of the birth day is 癸卯, the day stem is 癸 (Water, Yin) and the day branch is 卯 (the Rabbit). In the sexagenary cycle it is the combination number 40."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 癸 \"Yin Water (癸)\", and the line the result screen shows is: \"Dew and rain. It seeps in quietly and reads the mood before the words.\" This line has nothing to do with the reading below or the scores."
@@ -8058,7 +8058,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [壬寅](/guide/pillar-im-in) and the next is [甲辰](/guide/pillar-gap-jin)."
+            "p": "In the sexagenary cycle the previous day pillar is [壬寅](/guide/pillar-im-in) and the next is [甲辰](/guide/pillar-gap-jin)."
           },
           {
             "p": "It is made of [Yin Water (癸)](/guide/stem-gye) and [卯 (Rabbit)](/guide/branch-myo)."
@@ -8087,10 +8087,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "甲辰 is day pillar number 41 of the sixty-year cycle",
+        "title": "甲辰 is day pillar number 41 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 甲辰, the day stem is 甲 (Wood, Yang) and the day branch is 辰 (the Dragon). In the sixty-year cycle it is the combination number 41."
+            "p": "When the stem-branch of the birth day is 甲辰, the day stem is 甲 (Wood, Yang) and the day branch is 辰 (the Dragon). In the sexagenary cycle it is the combination number 41."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 甲 \"Yang Wood (甲)\", and the line the result screen shows is: \"A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend.\" This line has nothing to do with the reading below or the scores."
@@ -8154,7 +8154,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [癸卯](/guide/pillar-gye-myo) and the next is [乙巳](/guide/pillar-eul-sa)."
+            "p": "In the sexagenary cycle the previous day pillar is [癸卯](/guide/pillar-gye-myo) and the next is [乙巳](/guide/pillar-eul-sa)."
           },
           {
             "p": "It is made of [Yang Wood (甲)](/guide/stem-gap) and [辰 (Dragon)](/guide/branch-jin)."
@@ -8183,10 +8183,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "乙巳 is day pillar number 42 of the sixty-year cycle",
+        "title": "乙巳 is day pillar number 42 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 乙巳, the day stem is 乙 (Wood, Yin) and the day branch is 巳 (the Snake). In the sixty-year cycle it is the combination number 42."
+            "p": "When the stem-branch of the birth day is 乙巳, the day stem is 乙 (Wood, Yin) and the day branch is 巳 (the Snake). In the sexagenary cycle it is the combination number 42."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 乙 \"Yin Wood (乙)\", and the line the result screen shows is: \"A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap.\" This line has nothing to do with the reading below or the scores."
@@ -8250,7 +8250,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [甲辰](/guide/pillar-gap-jin) and the next is [丙午](/guide/pillar-byeong-o)."
+            "p": "In the sexagenary cycle the previous day pillar is [甲辰](/guide/pillar-gap-jin) and the next is [丙午](/guide/pillar-byeong-o)."
           },
           {
             "p": "It is made of [Yin Wood (乙)](/guide/stem-eul) and [巳 (Snake)](/guide/branch-sa)."
@@ -8279,10 +8279,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丙午 is day pillar number 43 of the sixty-year cycle",
+        "title": "丙午 is day pillar number 43 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丙午, the day stem is 丙 (Fire, Yang) and the day branch is 午 (the Horse). In the sixty-year cycle it is the combination number 43."
+            "p": "When the stem-branch of the birth day is 丙午, the day stem is 丙 (Fire, Yang) and the day branch is 午 (the Horse). In the sexagenary cycle it is the combination number 43."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丙 \"Yang Fire (丙)\", and the line the result screen shows is: \"The midday sun. Feelings show plainly, the room brightens, and stepping forward comes naturally.\" This line has nothing to do with the reading below or the scores."
@@ -8346,7 +8346,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [乙巳](/guide/pillar-eul-sa) and the next is [丁未](/guide/pillar-jeong-mi)."
+            "p": "In the sexagenary cycle the previous day pillar is [乙巳](/guide/pillar-eul-sa) and the next is [丁未](/guide/pillar-jeong-mi)."
           },
           {
             "p": "It is made of [Yang Fire (丙)](/guide/stem-byeong) and [午 (Horse)](/guide/branch-o)."
@@ -8375,10 +8375,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丁未 is day pillar number 44 of the sixty-year cycle",
+        "title": "丁未 is day pillar number 44 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丁未, the day stem is 丁 (Fire, Yin) and the day branch is 未 (the Sheep). In the sixty-year cycle it is the combination number 44."
+            "p": "When the stem-branch of the birth day is 丁未, the day stem is 丁 (Fire, Yin) and the day branch is 未 (the Sheep). In the sexagenary cycle it is the combination number 44."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丁 \"Yin Fire (丁)\", and the line the result screen shows is: \"Candlelight. It burns quietly and long, and warms those closest first.\" This line has nothing to do with the reading below or the scores."
@@ -8442,7 +8442,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丙午](/guide/pillar-byeong-o) and the next is [戊申](/guide/pillar-mu-sin)."
+            "p": "In the sexagenary cycle the previous day pillar is [丙午](/guide/pillar-byeong-o) and the next is [戊申](/guide/pillar-mu-sin)."
           },
           {
             "p": "It is made of [Yin Fire (丁)](/guide/stem-jeong) and [未 (Sheep)](/guide/branch-mi)."
@@ -8471,10 +8471,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "戊申 is day pillar number 45 of the sixty-year cycle",
+        "title": "戊申 is day pillar number 45 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 戊申, the day stem is 戊 (Earth, Yang) and the day branch is 申 (the Monkey). In the sixty-year cycle it is the combination number 45."
+            "p": "When the stem-branch of the birth day is 戊申, the day stem is 戊 (Earth, Yang) and the day branch is 申 (the Monkey). In the sexagenary cycle it is the combination number 45."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 戊 \"Yang Earth (戊)\", and the line the result screen shows is: \"Open ground and mountains. Hard to shake and easy to lean on, though slow to change a decision once made.\" This line has nothing to do with the reading below or the scores."
@@ -8538,7 +8538,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丁未](/guide/pillar-jeong-mi) and the next is [己酉](/guide/pillar-gi-yu)."
+            "p": "In the sexagenary cycle the previous day pillar is [丁未](/guide/pillar-jeong-mi) and the next is [己酉](/guide/pillar-gi-yu)."
           },
           {
             "p": "It is made of [Yang Earth (戊)](/guide/stem-mu) and [申 (Monkey)](/guide/branch-sin)."
@@ -8567,10 +8567,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "己酉 is day pillar number 46 of the sixty-year cycle",
+        "title": "己酉 is day pillar number 46 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 己酉, the day stem is 己 (Earth, Yin) and the day branch is 酉 (the Rooster). In the sixty-year cycle it is the combination number 46."
+            "p": "When the stem-branch of the birth day is 己酉, the day stem is 己 (Earth, Yin) and the day branch is 酉 (the Rooster). In the sexagenary cycle it is the combination number 46."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 己 \"Yin Earth (己)\", and the line the result screen shows is: \"Field soil. It takes in whatever comes and grows it, tending rather than displaying.\" This line has nothing to do with the reading below or the scores."
@@ -8628,7 +8628,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [戊申](/guide/pillar-mu-sin) and the next is [庚戌](/guide/pillar-gyeong-sul)."
+            "p": "In the sexagenary cycle the previous day pillar is [戊申](/guide/pillar-mu-sin) and the next is [庚戌](/guide/pillar-gyeong-sul)."
           },
           {
             "p": "It is made of [Yin Earth (己)](/guide/stem-gi) and [酉 (Rooster)](/guide/branch-yu)."
@@ -8657,10 +8657,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "庚戌 is day pillar number 47 of the sixty-year cycle",
+        "title": "庚戌 is day pillar number 47 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 庚戌, the day stem is 庚 (Metal, Yang) and the day branch is 戌 (the Dog). In the sixty-year cycle it is the combination number 47."
+            "p": "When the stem-branch of the birth day is 庚戌, the day stem is 庚 (Metal, Yang) and the day branch is 戌 (the Dog). In the sexagenary cycle it is the combination number 47."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 庚 \"Yang Metal (庚)\", and the line the result screen shows is: \"Unworked iron. Decisive and clear-cut, with little patience for things left hanging.\" This line has nothing to do with the reading below or the scores."
@@ -8724,7 +8724,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [己酉](/guide/pillar-gi-yu) and the next is [辛亥](/guide/pillar-sin-hae)."
+            "p": "In the sexagenary cycle the previous day pillar is [己酉](/guide/pillar-gi-yu) and the next is [辛亥](/guide/pillar-sin-hae)."
           },
           {
             "p": "It is made of [Yang Metal (庚)](/guide/stem-gyeong) and [戌 (Dog)](/guide/branch-sul)."
@@ -8753,10 +8753,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "辛亥 is day pillar number 48 of the sixty-year cycle",
+        "title": "辛亥 is day pillar number 48 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 辛亥, the day stem is 辛 (Metal, Yin) and the day branch is 亥 (the Pig). In the sixty-year cycle it is the combination number 48."
+            "p": "When the stem-branch of the birth day is 辛亥, the day stem is 辛 (Metal, Yin) and the day branch is 亥 (the Pig). In the sexagenary cycle it is the combination number 48."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 辛 \"Yin Metal (辛)\", and the line the result screen shows is: \"A cut gem. Fine-grained taste and high standards; sloppiness is hard to let pass.\" This line has nothing to do with the reading below or the scores."
@@ -8820,7 +8820,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [庚戌](/guide/pillar-gyeong-sul) and the next is [壬子](/guide/pillar-im-ja)."
+            "p": "In the sexagenary cycle the previous day pillar is [庚戌](/guide/pillar-gyeong-sul) and the next is [壬子](/guide/pillar-im-ja)."
           },
           {
             "p": "It is made of [Yin Metal (辛)](/guide/stem-sin) and [亥 (Pig)](/guide/branch-hae)."
@@ -8849,10 +8849,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "壬子 is day pillar number 49 of the sixty-year cycle",
+        "title": "壬子 is day pillar number 49 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 壬子, the day stem is 壬 (Water, Yang) and the day branch is 子 (the Rat). In the sixty-year cycle it is the combination number 49."
+            "p": "When the stem-branch of the birth day is 壬子, the day stem is 壬 (Water, Yang) and the day branch is 子 (the Rat). In the sexagenary cycle it is the combination number 49."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 壬 \"Yang Water (壬)\", and the line the result screen shows is: \"River and sea. Broad in outlook, with an eye for how things are flowing.\" This line has nothing to do with the reading below or the scores."
@@ -8910,7 +8910,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [辛亥](/guide/pillar-sin-hae) and the next is [癸丑](/guide/pillar-gye-chuk)."
+            "p": "In the sexagenary cycle the previous day pillar is [辛亥](/guide/pillar-sin-hae) and the next is [癸丑](/guide/pillar-gye-chuk)."
           },
           {
             "p": "It is made of [Yang Water (壬)](/guide/stem-im) and [子 (Rat)](/guide/branch-ja)."
@@ -8939,10 +8939,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "癸丑 is day pillar number 50 of the sixty-year cycle",
+        "title": "癸丑 is day pillar number 50 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 癸丑, the day stem is 癸 (Water, Yin) and the day branch is 丑 (the Ox). In the sixty-year cycle it is the combination number 50."
+            "p": "When the stem-branch of the birth day is 癸丑, the day stem is 癸 (Water, Yin) and the day branch is 丑 (the Ox). In the sexagenary cycle it is the combination number 50."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 癸 \"Yin Water (癸)\", and the line the result screen shows is: \"Dew and rain. It seeps in quietly and reads the mood before the words.\" This line has nothing to do with the reading below or the scores."
@@ -9006,7 +9006,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [壬子](/guide/pillar-im-ja) and the next is [甲寅](/guide/pillar-gap-in)."
+            "p": "In the sexagenary cycle the previous day pillar is [壬子](/guide/pillar-im-ja) and the next is [甲寅](/guide/pillar-gap-in)."
           },
           {
             "p": "It is made of [Yin Water (癸)](/guide/stem-gye) and [丑 (Ox)](/guide/branch-chuk)."
@@ -9035,10 +9035,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "甲寅 is day pillar number 51 of the sixty-year cycle",
+        "title": "甲寅 is day pillar number 51 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 甲寅, the day stem is 甲 (Wood, Yang) and the day branch is 寅 (the Tiger). In the sixty-year cycle it is the combination number 51."
+            "p": "When the stem-branch of the birth day is 甲寅, the day stem is 甲 (Wood, Yang) and the day branch is 寅 (the Tiger). In the sexagenary cycle it is the combination number 51."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 甲 \"Yang Wood (甲)\", and the line the result screen shows is: \"A tall tree growing straight. Once the direction is set it does not waver, and it would rather endure than bend.\" This line has nothing to do with the reading below or the scores."
@@ -9102,7 +9102,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [癸丑](/guide/pillar-gye-chuk) and the next is [乙卯](/guide/pillar-eul-myo)."
+            "p": "In the sexagenary cycle the previous day pillar is [癸丑](/guide/pillar-gye-chuk) and the next is [乙卯](/guide/pillar-eul-myo)."
           },
           {
             "p": "It is made of [Yang Wood (甲)](/guide/stem-gap) and [寅 (Tiger)](/guide/branch-in)."
@@ -9131,10 +9131,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "乙卯 is day pillar number 52 of the sixty-year cycle",
+        "title": "乙卯 is day pillar number 52 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 乙卯, the day stem is 乙 (Wood, Yin) and the day branch is 卯 (the Rabbit). In the sixty-year cycle it is the combination number 52."
+            "p": "When the stem-branch of the birth day is 乙卯, the day stem is 乙 (Wood, Yin) and the day branch is 卯 (the Rabbit). In the sexagenary cycle it is the combination number 52."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 乙 \"Yin Wood (乙)\", and the line the result screen shows is: \"A vine — flexible grass. It bends with circumstance to keep moving, and it does not snap.\" This line has nothing to do with the reading below or the scores."
@@ -9192,7 +9192,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [甲寅](/guide/pillar-gap-in) and the next is [丙辰](/guide/pillar-byeong-jin)."
+            "p": "In the sexagenary cycle the previous day pillar is [甲寅](/guide/pillar-gap-in) and the next is [丙辰](/guide/pillar-byeong-jin)."
           },
           {
             "p": "It is made of [Yin Wood (乙)](/guide/stem-eul) and [卯 (Rabbit)](/guide/branch-myo)."
@@ -9221,10 +9221,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丙辰 is day pillar number 53 of the sixty-year cycle",
+        "title": "丙辰 is day pillar number 53 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丙辰, the day stem is 丙 (Fire, Yang) and the day branch is 辰 (the Dragon). In the sixty-year cycle it is the combination number 53."
+            "p": "When the stem-branch of the birth day is 丙辰, the day stem is 丙 (Fire, Yang) and the day branch is 辰 (the Dragon). In the sexagenary cycle it is the combination number 53."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丙 \"Yang Fire (丙)\", and the line the result screen shows is: \"The midday sun. Feelings show plainly, the room brightens, and stepping forward comes naturally.\" This line has nothing to do with the reading below or the scores."
@@ -9288,7 +9288,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [乙卯](/guide/pillar-eul-myo) and the next is [丁巳](/guide/pillar-jeong-sa)."
+            "p": "In the sexagenary cycle the previous day pillar is [乙卯](/guide/pillar-eul-myo) and the next is [丁巳](/guide/pillar-jeong-sa)."
           },
           {
             "p": "It is made of [Yang Fire (丙)](/guide/stem-byeong) and [辰 (Dragon)](/guide/branch-jin)."
@@ -9317,10 +9317,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "丁巳 is day pillar number 54 of the sixty-year cycle",
+        "title": "丁巳 is day pillar number 54 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 丁巳, the day stem is 丁 (Fire, Yin) and the day branch is 巳 (the Snake). In the sixty-year cycle it is the combination number 54."
+            "p": "When the stem-branch of the birth day is 丁巳, the day stem is 丁 (Fire, Yin) and the day branch is 巳 (the Snake). In the sexagenary cycle it is the combination number 54."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 丁 \"Yin Fire (丁)\", and the line the result screen shows is: \"Candlelight. It burns quietly and long, and warms those closest first.\" This line has nothing to do with the reading below or the scores."
@@ -9384,7 +9384,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丙辰](/guide/pillar-byeong-jin) and the next is [戊午](/guide/pillar-mu-o)."
+            "p": "In the sexagenary cycle the previous day pillar is [丙辰](/guide/pillar-byeong-jin) and the next is [戊午](/guide/pillar-mu-o)."
           },
           {
             "p": "It is made of [Yin Fire (丁)](/guide/stem-jeong) and [巳 (Snake)](/guide/branch-sa)."
@@ -9413,10 +9413,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "戊午 is day pillar number 55 of the sixty-year cycle",
+        "title": "戊午 is day pillar number 55 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 戊午, the day stem is 戊 (Earth, Yang) and the day branch is 午 (the Horse). In the sixty-year cycle it is the combination number 55."
+            "p": "When the stem-branch of the birth day is 戊午, the day stem is 戊 (Earth, Yang) and the day branch is 午 (the Horse). In the sexagenary cycle it is the combination number 55."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 戊 \"Yang Earth (戊)\", and the line the result screen shows is: \"Open ground and mountains. Hard to shake and easy to lean on, though slow to change a decision once made.\" This line has nothing to do with the reading below or the scores."
@@ -9480,7 +9480,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [丁巳](/guide/pillar-jeong-sa) and the next is [己未](/guide/pillar-gi-mi)."
+            "p": "In the sexagenary cycle the previous day pillar is [丁巳](/guide/pillar-jeong-sa) and the next is [己未](/guide/pillar-gi-mi)."
           },
           {
             "p": "It is made of [Yang Earth (戊)](/guide/stem-mu) and [午 (Horse)](/guide/branch-o)."
@@ -9509,10 +9509,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "己未 is day pillar number 56 of the sixty-year cycle",
+        "title": "己未 is day pillar number 56 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 己未, the day stem is 己 (Earth, Yin) and the day branch is 未 (the Sheep). In the sixty-year cycle it is the combination number 56."
+            "p": "When the stem-branch of the birth day is 己未, the day stem is 己 (Earth, Yin) and the day branch is 未 (the Sheep). In the sexagenary cycle it is the combination number 56."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 己 \"Yin Earth (己)\", and the line the result screen shows is: \"Field soil. It takes in whatever comes and grows it, tending rather than displaying.\" This line has nothing to do with the reading below or the scores."
@@ -9576,7 +9576,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [戊午](/guide/pillar-mu-o) and the next is [庚申](/guide/pillar-gyeong-sin)."
+            "p": "In the sexagenary cycle the previous day pillar is [戊午](/guide/pillar-mu-o) and the next is [庚申](/guide/pillar-gyeong-sin)."
           },
           {
             "p": "It is made of [Yin Earth (己)](/guide/stem-gi) and [未 (Sheep)](/guide/branch-mi)."
@@ -9605,10 +9605,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "庚申 is day pillar number 57 of the sixty-year cycle",
+        "title": "庚申 is day pillar number 57 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 庚申, the day stem is 庚 (Metal, Yang) and the day branch is 申 (the Monkey). In the sixty-year cycle it is the combination number 57."
+            "p": "When the stem-branch of the birth day is 庚申, the day stem is 庚 (Metal, Yang) and the day branch is 申 (the Monkey). In the sexagenary cycle it is the combination number 57."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 庚 \"Yang Metal (庚)\", and the line the result screen shows is: \"Unworked iron. Decisive and clear-cut, with little patience for things left hanging.\" This line has nothing to do with the reading below or the scores."
@@ -9672,7 +9672,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [己未](/guide/pillar-gi-mi) and the next is [辛酉](/guide/pillar-sin-yu)."
+            "p": "In the sexagenary cycle the previous day pillar is [己未](/guide/pillar-gi-mi) and the next is [辛酉](/guide/pillar-sin-yu)."
           },
           {
             "p": "It is made of [Yang Metal (庚)](/guide/stem-gyeong) and [申 (Monkey)](/guide/branch-sin)."
@@ -9701,10 +9701,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "辛酉 is day pillar number 58 of the sixty-year cycle",
+        "title": "辛酉 is day pillar number 58 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 辛酉, the day stem is 辛 (Metal, Yin) and the day branch is 酉 (the Rooster). In the sixty-year cycle it is the combination number 58."
+            "p": "When the stem-branch of the birth day is 辛酉, the day stem is 辛 (Metal, Yin) and the day branch is 酉 (the Rooster). In the sexagenary cycle it is the combination number 58."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 辛 \"Yin Metal (辛)\", and the line the result screen shows is: \"A cut gem. Fine-grained taste and high standards; sloppiness is hard to let pass.\" This line has nothing to do with the reading below or the scores."
@@ -9762,7 +9762,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [庚申](/guide/pillar-gyeong-sin) and the next is [壬戌](/guide/pillar-im-sul)."
+            "p": "In the sexagenary cycle the previous day pillar is [庚申](/guide/pillar-gyeong-sin) and the next is [壬戌](/guide/pillar-im-sul)."
           },
           {
             "p": "It is made of [Yin Metal (辛)](/guide/stem-sin) and [酉 (Rooster)](/guide/branch-yu)."
@@ -9791,10 +9791,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "壬戌 is day pillar number 59 of the sixty-year cycle",
+        "title": "壬戌 is day pillar number 59 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 壬戌, the day stem is 壬 (Water, Yang) and the day branch is 戌 (the Dog). In the sixty-year cycle it is the combination number 59."
+            "p": "When the stem-branch of the birth day is 壬戌, the day stem is 壬 (Water, Yang) and the day branch is 戌 (the Dog). In the sexagenary cycle it is the combination number 59."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 壬 \"Yang Water (壬)\", and the line the result screen shows is: \"River and sea. Broad in outlook, with an eye for how things are flowing.\" This line has nothing to do with the reading below or the scores."
@@ -9858,7 +9858,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [辛酉](/guide/pillar-sin-yu) and the next is [癸亥](/guide/pillar-gye-hae)."
+            "p": "In the sexagenary cycle the previous day pillar is [辛酉](/guide/pillar-sin-yu) and the next is [癸亥](/guide/pillar-gye-hae)."
           },
           {
             "p": "It is made of [Yang Water (壬)](/guide/stem-im) and [戌 (Dog)](/guide/branch-sul)."
@@ -9887,10 +9887,10 @@ export const EN_DOCS = {
     "backLabel": "Calculation basis",
     "sections": [
       {
-        "title": "癸亥 is day pillar number 60 of the sixty-year cycle",
+        "title": "癸亥 is day pillar number 60 of the sexagenary cycle",
         "blocks": [
           {
-            "p": "When the stem-branch of the birth day is 癸亥, the day stem is 癸 (Water, Yin) and the day branch is 亥 (the Pig). In the sixty-year cycle it is the combination number 60."
+            "p": "When the stem-branch of the birth day is 癸亥, the day stem is 癸 (Water, Yin) and the day branch is 亥 (the Pig). In the sexagenary cycle it is the combination number 60."
           },
           {
             "p": "Saju-Link calls a person whose day stem is 癸 \"Yin Water (癸)\", and the line the result screen shows is: \"Dew and rain. It seeps in quietly and reads the mood before the words.\" This line has nothing to do with the reading below or the scores."
@@ -9954,7 +9954,7 @@ export const EN_DOCS = {
         "title": "The neighbouring day pillars and the characters it is made of",
         "blocks": [
           {
-            "p": "In the sixty-year cycle the previous day pillar is [壬戌](/guide/pillar-im-sul) and the next is [甲子](/guide/pillar-gap-ja)."
+            "p": "In the sexagenary cycle the previous day pillar is [壬戌](/guide/pillar-im-sul) and the next is [甲子](/guide/pillar-gap-ja)."
           },
           {
             "p": "It is made of [Yin Water (癸)](/guide/stem-gye) and [亥 (Pig)](/guide/branch-hae)."
