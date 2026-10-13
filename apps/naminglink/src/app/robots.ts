@@ -63,7 +63,12 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
         // 결과·계정·로그인 화면은 robots로 막지 않고 화면 쪽에 noindex를 붙였다.
         // robots로 막으면 크롤러가 페이지를 못 읽어 noindex 자체를 못 보게 되고,
         // 외부 링크가 하나라도 있으면 내용 없이 URL만 색인되는 쪽이 오히려 나빠진다.
-        disallow: ["/api/", "/naming-artist", "/admin"],
+        //
+        // `?_rsc=`는 Next.js가 링크를 미리 불러올 때 붙이는 꼬리표다. 같은 페이지를 꼬리표만 바꿔
+        // **반복해서** 가져가게 되고, 매번 페이지 전체를 캐시 없이 새로 만든다. 서치 콘솔 크롤링
+        // 통계에서 구글 요청의 31~69%가 이것이었다(네 앱 모두, 2026-10-13). 크롤러가 읽을 새 내용이 없다.
+        // 다른 쿼리 뒤에 붙는 꼴(`?from=today&_rsc=`)도 같이 막는다.
+        disallow: ["/api/", "/naming-artist", "/admin", "/*?_rsc=", "/*&_rsc="],
       },
     ],
     sitemap: `${siteUrl}/sitemap.xml`,
