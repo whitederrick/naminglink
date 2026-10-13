@@ -63,6 +63,20 @@ export const MS_DOCS = {
     "backLabel": "Kembali ke Halaman Utama",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Saju mencatat tahun, bulan, hari dan jam kelahiran anda, masing-masing dengan dua watak Cina, keseluruhannya lapan watak. Watak atas bagi setiap pasangan dipanggil **batang syurga**, watak bawahnya **cabang bumi**, dan dua watak bagi hari lahir anda dipanggil **Pilar Hari**. Jika istilah ini baharu bagi anda, mulakan dengan [Batang Syurga, Cabang Bumi dan Pilar Hari — Cara Membaca Watak Saju](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Batang syurga** — sepuluh watak atas Saju. Setiap satu mempunyai elemen dan kekutuban yang tetap, dan batang syurga bagi hari lahir anda ialah batang hari yang merujuk kepada diri anda.",
+              "**Cabang bumi** — dua belas watak bawah Saju, watak yang sama dengan haiwan zodiak. Setiap cabang menyimpan batang tersembunyi (支藏干) di dalamnya.",
+              "**Pilar hari** — pasangan yang dibentuk oleh batang dan cabang bagi hari lahir anda. Terdapat 60 pasangan, daripada 甲子 hingga 癸亥, dan setiap satu mempunyai entri tersendiri. Anda boleh menemuinya dalam senarai yang dilipat di bawah."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const MS_DOCS = {
               "Satu pilar hari tidak menentukan seseorang atau sesuatu hubungan. Saju dibaca daripada bagaimana lapan watak empat pilar saling berkait.",
               "Bacaan kedudukan pasangan meneruskan peraturan myeongri tradisional, dan jika anda tidak menyatakan jantina, kedudukan ini tidak dibaca."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Mulakan di sini",
+    "title": "Batang Syurga, Cabang Bumi dan Pilar Hari — Cara Membaca Watak Saju",
+    "summary": "Apakah lapan watak dalam Saju, dan apakah maksud batang syurga, cabang bumi dan pilar hari, dijelaskan dengan dua jadual yang mudah.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Saju ditulis dengan dua jenis watak",
+        "blocks": [
+          {
+            "p": "Lapan watak Saju dibahagikan kepada watak atas dan watak bawah. Watak atas ialah satu daripada sepuluh **batang syurga (天干)**, dan watak bawah ialah satu daripada dua belas **cabang bumi (地支)**."
+          },
+          {
+            "p": "Anggaplah batang syurga sebagai label untuk jenis tenaga dan cabang bumi sebagai label untuk masa dan tempat. Anda tidak perlu menghafalnya, sama seperti anda tidak menghafal nama hari dalam seminggu; cukup cari dalam jadual di bawah. Cara empat pilar menjadi lapan watak dijelaskan dalam [panduan carta kelahiran](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh batang syurga",
+        "blocks": [
+          {
+            "p": "Terdapat sepuluh batang syurga. Lima elemen (Kayu, Api, Tanah, Logam, Air) masing-masing mempunyai dua batang, dan dalam setiap pasangan, yang pertama ialah Yang (陽) dan yang kedua ialah Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh batang syurga beserta elemen dan kekutuban",
+              "head": [
+                "Batang syurga",
+                "Elemen dan kekutuban"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Batang syurga bagi hari kelahiran anda dipanggil **batang hari (日干)**, dan inilah watak yang merujuk kepada diri anda."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "Terdapat dua belas cabang bumi, dan setiap satu mempunyai seekor haiwan zodiak. Jadi, dua belas cabang bumi ialah tanda zodiak."
+          },
+          {
+            "table": {
+              "caption": "Dua Belas Cabang Bumi dan Tanda Zodiak",
+              "head": [
+                "Cabang Bumi",
+                "Tanda Zodiak"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Tikus"
+                ],
+                [
+                  "丑",
+                  "Lembu"
+                ],
+                [
+                  "寅",
+                  "Harimau"
+                ],
+                [
+                  "卯",
+                  "Arnab"
+                ],
+                [
+                  "辰",
+                  "Naga"
+                ],
+                [
+                  "巳",
+                  "Ular"
+                ],
+                [
+                  "午",
+                  "Kuda"
+                ],
+                [
+                  "未",
+                  "Kambing"
+                ],
+                [
+                  "申",
+                  "Monyet"
+                ],
+                [
+                  "酉",
+                  "Ayam"
+                ],
+                [
+                  "戌",
+                  "Anjing"
+                ],
+                [
+                  "亥",
+                  "Babi"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Sesuatu cabang bumi kelihatan seperti satu watak, tetapi di dalamnya tersimpan batang. Ini dipanggil **batang tersembunyi (支藏干)**. Batang yang manakah disimpan oleh sesuatu cabang, dan berapa banyak, dihuraikan dalam entri kamus bagi setiap cabang. Untuk cara haiwan zodiak ditentukan, lihat [panduan zodiak](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari — sepasang batang dan cabang",
+        "blocks": [
+          {
+            "p": "Setiap pilar Saju terdiri daripada dua watak: satu batang dipasangkan dengan satu cabang. Pilar bagi hari kelahiran anda ialah **Pilar Hari (日柱)**."
+          },
+          {
+            "p": "Pasangkan batang dan cabang mengikut urutan, dan anda mendapat **enam puluh** gabungan, daripada 甲子, 乙丑 dan 丙寅 sehingga 癸亥. Kitaran ini dipanggil kitaran enam puluh. Jumlahnya enam puluh, bukan 10 × 12 = 120, kerana batang Yang hanya dipasangkan dengan cabang Yang, dan batang Yin hanya dengan cabang Yin."
+          },
+          {
+            "p": "Watak atas pilar hari ialah batang hari yang anda temui di atas. Entri yang menerangkan setiap pilar satu per satu terdapat dalam kamus batang, cabang dan pilar hari di bahagian bawah [senarai panduan](/guide)."
           }
         ]
       }

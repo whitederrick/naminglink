@@ -68,6 +68,20 @@ export const EN_DOCS = {
     "backLabel": "Back to Home",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Saju writes down the year, month, day and hour of your birth as two Chinese characters each, eight characters in all. The upper character of each pair is called the **heavenly stem**, the lower one the **earthly branch**, and the two characters of your birth day are called the **Day Pillar**. If these words are new to you, start with [Stems, Branches and Day Pillars — How to Read the Letters](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Heavenly stems** — the ten upper characters of Saju. Each has a fixed element and polarity, and the stem of your birth day is the day stem that points to you.",
+              "**Earthly branches** — the twelve lower characters of Saju, the same characters as the zodiac animals. Each branch holds hidden stems inside it.",
+              "**Day pillars** — the pair made by the stem and branch of your birth day. There are 60 of them, from 甲子 to 癸亥, and each has its own entry. You will find them in the collapsed lists below."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9956,6 +9970,172 @@ export const EN_DOCS = {
               "One day pillar does not settle a person or a relationship. A saju is read from how the eight characters of the four pillars relate.",
               "The reading of the spouse position carries over a rule of traditional myeongri, and if you do not state your gender this position is not read."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Start here",
+    "title": "Stems, Branches and Day Pillars — How to Read the Letters",
+    "summary": "What the eight characters of a Saju chart are, and what the heavenly stems, earthly branches and day pillar each mean, explained with two simple tables.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Saju is written with two kinds of characters",
+        "blocks": [
+          {
+            "p": "The eight characters of a Saju chart are split into upper and lower characters. The upper character is one of ten **heavenly stems (天干)**, and the lower character is one of twelve **earthly branches (地支)**."
+          },
+          {
+            "p": "Think of a stem as a label for a kind of energy and a branch as a label for a time and a place. You do not need to memorize them, any more than you would memorize the names of the weekdays; just look them up in the tables below. How the four pillars become eight characters is explained in [the natal chart guide](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "The ten heavenly stems",
+        "blocks": [
+          {
+            "p": "There are ten heavenly stems. The five elements (Wood, Fire, Earth, Metal, Water) each take two stems, and within each pair the first is Yang (陽) and the second is Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "The ten heavenly stems with element and polarity",
+              "head": [
+                "Heavenly stem",
+                "Element and polarity"
+              ],
+              "rows": [
+                [
+                  "Yang Wood (甲)",
+                  "Wood Yang"
+                ],
+                [
+                  "Yin Wood (乙)",
+                  "Wood Yin"
+                ],
+                [
+                  "Yang Fire (丙)",
+                  "Fire Yang"
+                ],
+                [
+                  "Yin Fire (丁)",
+                  "Fire Yin"
+                ],
+                [
+                  "Yang Earth (戊)",
+                  "Earth Yang"
+                ],
+                [
+                  "Yin Earth (己)",
+                  "Earth Yin"
+                ],
+                [
+                  "Yang Metal (庚)",
+                  "Metal Yang"
+                ],
+                [
+                  "Yin Metal (辛)",
+                  "Metal Yin"
+                ],
+                [
+                  "Yang Water (壬)",
+                  "Water Yang"
+                ],
+                [
+                  "Yin Water (癸)",
+                  "Water Yin"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "The stem of the day you were born is called the **day stem (日干)**, and it is the character that points to you."
+          }
+        ]
+      },
+      {
+        "title": "The twelve earthly branches",
+        "blocks": [
+          {
+            "p": "There are twelve earthly branches, and each one has an animal of the zodiac attached. So the twelve branches are the zodiac signs."
+          },
+          {
+            "table": {
+              "caption": "The Twelve Earthly Branches and Zodiac Signs",
+              "head": [
+                "Earthly Branch",
+                "Zodiac Sign"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Rat"
+                ],
+                [
+                  "丑",
+                  "Ox"
+                ],
+                [
+                  "寅",
+                  "Tiger"
+                ],
+                [
+                  "卯",
+                  "Rabbit"
+                ],
+                [
+                  "辰",
+                  "Dragon"
+                ],
+                [
+                  "巳",
+                  "Snake"
+                ],
+                [
+                  "午",
+                  "Horse"
+                ],
+                [
+                  "未",
+                  "Goat"
+                ],
+                [
+                  "申",
+                  "Monkey"
+                ],
+                [
+                  "酉",
+                  "Rooster"
+                ],
+                [
+                  "戌",
+                  "Dog"
+                ],
+                [
+                  "亥",
+                  "Pig"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "A branch looks like a single character, but it holds stems inside it. These are called the **hidden stems (支藏干)**. Which stems a branch holds, and how much of each, is laid out in the dictionary entry for each branch. For how the zodiac animal is decided, see [the zodiac guide](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "The day pillar — a stem and a branch as a pair",
+        "blocks": [
+          {
+            "p": "Each pillar of a Saju chart is two characters: one stem paired with one branch. The pillar of the day you were born is the **Day Pillar (日柱)**."
+          },
+          {
+            "p": "Pair the stems and branches off in order and you get **sixty** combinations, from 甲子 and 乙丑 and 丙寅 through to 癸亥. This cycle is called the sexagenary cycle. It is sixty rather than 10 × 12 = 120 because a Yang stem is paired only with a Yang branch, and a Yin stem only with a Yin branch."
+          },
+          {
+            "p": "The upper character of the day pillar is the day stem you met above. Entries that explain each pillar one by one are in the stem, branch and day pillar dictionaries at the bottom of [the guide list](/guide)."
           }
         ]
       }

@@ -63,6 +63,20 @@ export const FIL_DOCS = {
     "backLabel": "Bumalik sa Tahanan",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Isinusulat ng Saju ang taon, buwan, araw at oras ng iyong kapanganakan sa tig-dalawang karakter na Tsino, walong karakter sa kabuuan. Ang itaas na karakter ng bawat pares ay tinatawag na **heavenly stem**, ang ibaba ay ang **earthly branch**, at ang dalawang karakter ng araw na ipinanganak ka ay tinatawag na **Day Pillar**. Kung bago pa sa iyo ang mga terminong ito, magsimula sa [Heavenly Stems, Earthly Branches at Day Pillar — Paano Basahin ang mga Karakter ng Saju](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Mga heavenly stem** — ang sampung itaas na karakter ng Saju. May takdang elemento at polarity ang bawat isa, at ang stem ng araw na ipinanganak ka ang day stem na tumutukoy sa iyo.",
+              "**Mga earthly branch** — ang labindalawang ibabang karakter ng Saju, ang parehong karakter ng mga zodiac animal. Bawat branch ay may hidden stems (支藏干) sa loob nito.",
+              "**Mga day pillar** — ang pares na nabuo ng stem at branch ng araw na ipinanganak ka. May 60 sa mga ito, mula 甲子 hanggang 癸亥, at bawat isa ay may sariling entry. Makikita mo ang mga ito sa mga nakatiklop na listahan sa ibaba."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const FIL_DOCS = {
               "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
               "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Magsimula dito",
+    "title": "Heavenly Stems, Earthly Branches at Day Pillar — Paano Basahin ang mga Karakter ng Saju",
+    "summary": "Ano ang walong karakter ng Saju, at ano ang kahulugan ng bawat heavenly stem, earthly branch at day pillar, na ipinaliwanag gamit ang dalawang simpleng talahanayan.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Isinusulat ang Saju gamit ang dalawang uri ng karakter",
+        "blocks": [
+          {
+            "p": "Hinahati sa itaas at ibabang karakter ang walong karakter ng Saju. Ang itaas na karakter ay isa sa sampung **heavenly stems (天干)**, at ang ibabang karakter ay isa sa labindalawang **earthly branches (地支)**."
+          },
+          {
+            "p": "Isipin ang stem bilang pangalan ng uri ng enerhiya at ang branch bilang pangalan ng oras at lugar. Hindi mo kailangang kabisaduhin ang mga ito, tulad ng hindi mo kinakabisa ang mga pangalan ng araw sa isang linggo; hanapin lang sa mga talahanayan sa ibaba. Ipinapaliwanag sa [gabay sa natal chart](/guide/natal-chart) kung paano nagiging walong karakter ang apat na haligi."
+          }
+        ]
+      },
+      {
+        "title": "Ang sampung heavenly stems",
+        "blocks": [
+          {
+            "p": "May sampung heavenly stems. Bawat isa sa limang elemento (Kahoy, Apoy, Lupa, Metal, Tubig) ay may dalawang stem, at sa bawat pares, ang una ay Yang (陽) at ang ikalawa ay Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "Ang sampung heavenly stems kasama ang elemento at polarity",
+              "head": [
+                "Heavenly stem",
+                "Elemento at polarity"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Ang stem ng araw na ipinanganak ka ay tinatawag na **day stem (日干)**, at ito ang karakter na tumutukoy sa iyo."
+          }
+        ]
+      },
+      {
+        "title": "Ang labindalawang earthly branches",
+        "blocks": [
+          {
+            "p": "May labindalawang earthly branches, at bawat isa ay may kasamang zodiac animal. Kaya ang labindalawang branch ay ang mga zodiac sign."
+          },
+          {
+            "table": {
+              "caption": "Ang Labindalawang Earthly Branches at mga Tanda ng Zodiac",
+              "head": [
+                "Earthly Branch",
+                "Tanda ng Zodiac"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Daga"
+                ],
+                [
+                  "丑",
+                  "Baka"
+                ],
+                [
+                  "寅",
+                  "Tigre"
+                ],
+                [
+                  "卯",
+                  "Kuneho"
+                ],
+                [
+                  "辰",
+                  "Dragon"
+                ],
+                [
+                  "巳",
+                  "Ahas"
+                ],
+                [
+                  "午",
+                  "Kabayo"
+                ],
+                [
+                  "未",
+                  "Kambing"
+                ],
+                [
+                  "申",
+                  "Unggoy"
+                ],
+                [
+                  "酉",
+                  "Tandang"
+                ],
+                [
+                  "戌",
+                  "Aso"
+                ],
+                [
+                  "亥",
+                  "Baboy"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Mukhang iisang karakter lang ang isang branch, ngunit may mga stem sa loob nito. Tinatawag itong **hidden stems (支藏干)**. Kung aling mga stem ang taglay ng isang branch, at gaano karami ang bawat isa, ay nakasaad sa entry ng diksyunaryo para sa bawat branch. Para sa kung paano natutukoy ang zodiac animal, tingnan ang [gabay sa zodiac](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "Ang day pillar — isang stem at isang branch na magkapares",
+        "blocks": [
+          {
+            "p": "Ang bawat haligi ng Saju ay dalawang karakter: isang stem na ipinares sa isang branch. Ang haligi ng araw na ipinanganak ka ay ang **Day Pillar (日柱)**."
+          },
+          {
+            "p": "Kapag ipinares nang sunud-sunod ang mga stem at branch, makukuha mo ang **animnapung** kombinasyon, mula 甲子, 乙丑, at 丙寅 hanggang 癸亥. Tinatawag itong siklo ng animnapu. Animnapu ito at hindi 10 × 12 = 120 dahil ang Yang na stem ay ipinapares lamang sa Yang na branch, at ang Yin na stem ay sa Yin na branch lamang."
+          },
+          {
+            "p": "Ang itaas na karakter ng day pillar ay ang day stem na nakilala mo sa itaas. Ang mga entry na nagpapaliwanag sa bawat haligi ay nasa mga diksyunaryo ng stem, branch at day pillar sa ibaba ng [listahan ng mga gabay](/guide)."
           }
         ]
       }

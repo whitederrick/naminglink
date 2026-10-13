@@ -63,6 +63,20 @@ export const DE_DOCS = {
     "backLabel": "Zurück zur Startseite",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Saju hält Jahr, Monat, Tag und Stunde Ihrer Geburt mit je zwei chinesischen Zeichen fest, insgesamt acht Zeichen. Das obere Zeichen jedes Paars heißt **himmlischer Stamm**, das untere **irdischer Zweig**, und die beiden Zeichen Ihres Geburtstags heißen **Tagessäule**. Falls Ihnen diese Begriffe neu sind, beginnen Sie mit [Himmlische Stämme, irdische Zweige und Tagessäule – so lesen Sie die Zeichen](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Himmlische Stämme** — die zehn oberen Zeichen des Saju. Jedes hat ein festes Element und eine feste Polarität, und der Stamm Ihres Geburtstags ist der Tagesstamm, der auf Sie verweist.",
+              "**Irdische Zweige** — die zwölf unteren Zeichen des Saju, dieselben Zeichen wie die Tierkreistiere. Jeder Zweig trägt verborgene Stämme in sich.",
+              "**Tagessäulen** — das Paar aus Stamm und Zweig Ihres Geburtstags. Es gibt 60 davon, von 甲子 bis 癸亥, und jedes hat einen eigenen Eintrag. Sie finden sie in den eingeklappten Listen unten."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const DE_DOCS = {
               "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
               "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Für den Einstieg",
+    "title": "Himmlische Stämme, irdische Zweige und Tagessäule – so lesen Sie die Zeichen",
+    "summary": "Was die acht Zeichen eines Saju sind und was die himmlischen Stämme, die irdischen Zweige und die Tagessäule jeweils bedeuten – leicht verständlich erklärt mit zwei einfachen Tabellen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Saju wird mit zwei Arten von Zeichen geschrieben",
+        "blocks": [
+          {
+            "p": "Die acht Zeichen eines Saju sind in obere und untere Zeichen unterteilt. Das obere Zeichen ist einer von zehn **himmlischen Stämmen (天干)**, das untere Zeichen einer von zwölf **irdischen Zweigen (地支)**."
+          },
+          {
+            "p": "Stellen Sie sich einen Stamm als Bezeichnung für eine Art von Energie vor und einen Zweig als Bezeichnung für eine Zeit und einen Ort. Sie müssen sie nicht auswendig lernen – so wenig wie die Namen der Wochentage; schlagen Sie sie einfach in den Tabellen unten nach. Wie aus den vier Säulen acht Zeichen werden, erklärt der [Leitfaden zum Geburtshoroskop](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "Die zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "Es gibt zehn himmlische Stämme. Die fünf Elemente (Holz, Feuer, Erde, Metall, Wasser) nehmen jeweils zwei Stämme ein; in jedem Paar ist der erste Yang (陽) und der zweite Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "Die zehn himmlischen Stämme mit Element und Polarität",
+              "head": [
+                "Himmlischer Stamm",
+                "Element und Polarität"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Der Stamm des Tages, an dem Sie geboren wurden, heißt **Tagesstamm (日干)**, und er ist das Zeichen, das auf Sie selbst verweist."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "Es gibt zwölf irdische Zweige, und jedem ist ein Tier des Tierkreises zugeordnet. Die zwölf Zweige sind also die Tierkreiszeichen."
+          },
+          {
+            "table": {
+              "caption": "Die Zwölf irdischen Zweige und Tierkreiszeichen",
+              "head": [
+                "Irdischer Zweig",
+                "Tierkreiszeichen"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Ratte"
+                ],
+                [
+                  "丑",
+                  "Ochse"
+                ],
+                [
+                  "寅",
+                  "Tiger"
+                ],
+                [
+                  "卯",
+                  "Hase"
+                ],
+                [
+                  "辰",
+                  "Drache"
+                ],
+                [
+                  "巳",
+                  "Schlange"
+                ],
+                [
+                  "午",
+                  "Pferd"
+                ],
+                [
+                  "未",
+                  "Ziege"
+                ],
+                [
+                  "申",
+                  "Affe"
+                ],
+                [
+                  "酉",
+                  "Hahn"
+                ],
+                [
+                  "戌",
+                  "Hund"
+                ],
+                [
+                  "亥",
+                  "Schwein"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Ein Zweig sieht aus wie ein einzelnes Zeichen, trägt aber Stämme in sich. Diese heißen **verborgene Stämme (支藏干)**. Welche Stämme ein Zweig enthält und in welchem Anteil, ist im Wörterbucheintrag zu jedem Zweig aufgeführt. Wie das Tierkreiszeichen bestimmt wird, lesen Sie im [Leitfaden zum Tierkreiszeichen](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "Die Tagessäule – ein Stamm und ein Zweig als Paar",
+        "blocks": [
+          {
+            "p": "Jede Säule eines Saju besteht aus zwei Zeichen: einem Stamm, gepaart mit einem Zweig. Die Säule des Tages, an dem Sie geboren wurden, ist die **Tagessäule (日柱)**."
+          },
+          {
+            "p": "Paart man die Stämme und Zweige der Reihe nach, ergeben sich **sechzig** Kombinationen, von 甲子 über 乙丑 und 丙寅 bis 癸亥. Dieser Zyklus heißt Sechzigerzyklus. Es sind sechzig und nicht 10 × 12 = 120, weil ein Yang-Stamm nur mit einem Yang-Zweig und ein Yin-Stamm nur mit einem Yin-Zweig gepaart wird."
+          },
+          {
+            "p": "Das obere Zeichen der Tagessäule ist der oben genannte Tagesstamm. Einträge, die jede Säule einzeln erklären, finden Sie in den Wörterbüchern zu Stämmen, Zweigen und Tagessäulen am Ende der [Leitfaden-Übersicht](/guide)."
           }
         ]
       }

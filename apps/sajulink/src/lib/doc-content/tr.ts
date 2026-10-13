@@ -63,6 +63,20 @@ export const TR_DOCS = {
     "backLabel": "Ana Sayfaya Dön",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Saju, doğumunuzun yılını, ayını, gününü ve saatini ikişer Çin karakteriyle, toplam sekiz karakter olarak yazar. Her çiftin üst karakterine **gök gövdesi**, alt karakterine **yer dalı** denir; doğduğunuz günün iki karakterine ise **Gün Sütunu** denir. Bu kelimeler size yabancıysa [Gök Gövdeleri, Yer Dalları ve Gün Sütunu — Harfler Nasıl Okunur](/guide/saju-letters) yazısıyla başlayın."
+          },
+          {
+            "ul": [
+              "**Gök gövdeleri** — Saju'nun on üst karakteri. Her birinin sabit bir elementi ve kutbu vardır; doğduğunuz günün gövdesi, sizi işaret eden gün gövdesidir.",
+              "**Yer dalları** — Saju'nun on iki alt karakteri; burç hayvanlarıyla aynı karakterlerdir. Her dal, içinde gizli gövdeler barındırır.",
+              "**Gün sütunları** — doğduğunuz günün gövdesi ile dalının oluşturduğu çift. 甲子'dan 癸亥'ye kadar 60 tanedir ve her birinin kendi maddesi vardır. Bunları aşağıdaki açılır listelerde bulabilirsiniz."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const TR_DOCS = {
               "Tek bir gün sütunu bir insanı ya da bir ilişkiyi belirlemez. Bir saju, dört sütunun sekiz karakterinin birbiriyle ilişkisinden okunur.",
               "Eş konumunun okuması geleneksel myeongri'nin bir kuralını taşır ve cinsiyetinizi belirtmezseniz bu konum okunmaz."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Buradan başlayın",
+    "title": "Gök Gövdeleri, Yer Dalları ve Gün Sütunu — Harfler Nasıl Okunur",
+    "summary": "Bir Saju haritasındaki sekiz karakterin ne olduğunu ve gök gövdelerinin, yer dallarının ve gün sütununun ne anlama geldiğini iki basit tabloyla anlatır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Saju iki tür karakterle yazılır",
+        "blocks": [
+          {
+            "p": "Bir Saju haritasındaki sekiz karakter üst ve alt karakterlere ayrılır. Üst karakter on **gök gövdesinden (天干)** biridir, alt karakter ise on iki **yer dalından (地支)** biridir."
+          },
+          {
+            "p": "Gövdeyi bir enerji türünün, dalı ise bir zaman ve mekânın etiketi olarak düşünün. Haftanın günlerinin adlarını ezberlemeniz gerekmediği gibi bunları da ezberlemeniz gerekmez; aşağıdaki tablolardan bakmanız yeterlidir. Dört sütunun sekiz karakter olarak nasıl oluştuğu [doğum haritası rehberinde](/guide/natal-chart) anlatılır."
+          }
+        ]
+      },
+      {
+        "title": "On gök gövdesi",
+        "blocks": [
+          {
+            "p": "On gök gövdesi vardır. Beş elementin (Ağaç, Ateş, Toprak, Metal, Su) her biri iki gövde alır; her çiftte ilk gövde Yang (陽), ikincisi Yin (陰)'dir."
+          },
+          {
+            "table": {
+              "caption": "Element ve kutbuyla on gök gövdesi",
+              "head": [
+                "Gök gövdesi",
+                "Element ve kutup"
+              ],
+              "rows": [
+                [
+                  "Yang Ağaç (甲)",
+                  "Yang Ağaç"
+                ],
+                [
+                  "Yin Ağaç (乙)",
+                  "Yin Ağaç"
+                ],
+                [
+                  "Yang Ateş (丙)",
+                  "Yang Ateş"
+                ],
+                [
+                  "Yin Ateş (丁)",
+                  "Yin Ateş"
+                ],
+                [
+                  "Yang Toprak (戊)",
+                  "Yang Toprak"
+                ],
+                [
+                  "Yin Toprak (己)",
+                  "Yin Toprak"
+                ],
+                [
+                  "Yang Metal (庚)",
+                  "Yang Metal"
+                ],
+                [
+                  "Yin Metal (辛)",
+                  "Yin Metal"
+                ],
+                [
+                  "Yang Su (壬)",
+                  "Yang Su"
+                ],
+                [
+                  "Yin Su (癸)",
+                  "Yin Su"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Doğduğunuz günün gövdesine **gün gövdesi (日干)** denir ve sizi işaret eden karakter odur."
+          }
+        ]
+      },
+      {
+        "title": "On iki yer dalı",
+        "blocks": [
+          {
+            "p": "On iki yer dalı vardır ve her birine bir burç hayvanı bağlıdır. Yani on iki dal, burçların kendisidir."
+          },
+          {
+            "table": {
+              "caption": "On İki Yerel Dal ve Burçlar",
+              "head": [
+                "Yerel Dal",
+                "Burç"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Fare"
+                ],
+                [
+                  "丑",
+                  "Öküz"
+                ],
+                [
+                  "寅",
+                  "Kaplan"
+                ],
+                [
+                  "卯",
+                  "Tavşan"
+                ],
+                [
+                  "辰",
+                  "Ejderha"
+                ],
+                [
+                  "巳",
+                  "Yılan"
+                ],
+                [
+                  "午",
+                  "At"
+                ],
+                [
+                  "未",
+                  "Keçi"
+                ],
+                [
+                  "申",
+                  "Maymun"
+                ],
+                [
+                  "酉",
+                  "Horoz"
+                ],
+                [
+                  "戌",
+                  "Köpek"
+                ],
+                [
+                  "亥",
+                  "Domuz"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Bir dal tek bir karakter gibi görünür ama içinde gövdeler barındırır. Bunlara **gizli gövdeler (支藏干)** denir. Bir dalın hangi gövdeleri ne oranda barındırdığı, her dalın sözlük maddesinde gösterilir. Burç hayvanının nasıl belirlendiği için [burç rehberine](/guide/zodiac) bakın."
+          }
+        ]
+      },
+      {
+        "title": "Gün sütunu — çift olarak bir gövde ve bir dal",
+        "blocks": [
+          {
+            "p": "Bir Saju haritasındaki her sütun iki karakterdir: bir gövde ile bir dal çifti. Doğduğunuz günün sütunu **Gün Sütunu (日柱)**'dur."
+          },
+          {
+            "p": "Gövdeleri ve dalları sırayla eşleştirirseniz 甲子, 乙丑 ve 丙寅'den 癸亥'ye kadar **altmış** birleşim elde edersiniz. Bu döngüye altmışlık döngü denir. Sayı 10 × 12 = 120 değil altmıştır, çünkü Yang gövde yalnızca Yang dalla, Yin gövde yalnızca Yin dalla eşleşir."
+          },
+          {
+            "p": "Gün sütununun üst karakteri, yukarıda tanıştığınız gün gövdesidir. Her sütunu tek tek açıklayan maddeler, [rehber listesinin](/guide) altındaki gövde, dal ve gün sütunu sözlüklerindedir."
           }
         ]
       }

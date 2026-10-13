@@ -1,5 +1,5 @@
 import type { BackTarget } from "@/components/GuideBackLink";
-import { guideEntriesFor } from "@/lib/guide-index";
+import { cardEntries, guideEntriesFor } from "@/lib/guide-index";
 import { getDictionary, type Dictionary, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/locale-path";
 
@@ -134,10 +134,11 @@ export function guideServiceOrigins(locale: Locale, homeLabel: string): Record<s
  * 옮기는 것은 **숫자뿐**이다 — 규칙이 두 곳에 생기지 않는다.
  */
 export function guideEntryOrders(): Record<string, number[]> {
-  const base = guideEntriesFor(undefined);
+  // 허브 위쪽 카드만 순서를 바꾼다 — 접힌 사전 묶음(`group`)은 늘 아래에 있다.
+  const base = cardEntries(guideEntriesFor(undefined));
   const orders: Record<string, number[]> = {};
   for (const from of ORIGINS.keys()) {
-    const ordered = guideEntriesFor(from);
+    const ordered = cardEntries(guideEntriesFor(from));
     orders[from] = base.map((entry) => ordered.findIndex((item) => item.slug === entry.slug));
   }
   return orders;

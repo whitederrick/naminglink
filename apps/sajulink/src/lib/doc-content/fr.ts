@@ -63,6 +63,20 @@ export const FR_DOCS = {
     "backLabel": "Retour à l'accueil",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Le saju note l'année, le mois, le jour et l'heure de votre naissance avec deux caractères chinois chacun, soit huit caractères au total. Le caractère supérieur de chaque paire s'appelle la **tige céleste**, le caractère inférieur la **branche terrestre**, et les deux caractères de votre jour de naissance forment le **pilier du jour**. Si ces mots sont nouveaux pour vous, commencez par [Tiges célestes, branches terrestres et pilier du jour : comment lire les caractères](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Tiges célestes** — les dix caractères supérieurs du saju. Chacun a un élément et une polarité fixes, et la tige de votre jour de naissance est la tige du jour qui vous désigne.",
+              "**Branches terrestres** — les douze caractères inférieurs du saju, les mêmes que les animaux du zodiaque. Chaque branche contient des tiges cachées.",
+              "**Piliers du jour** — la paire formée par la tige et la branche de votre jour de naissance. Il y en a 60, de 甲子 à 癸亥, et chacune a sa propre entrée. Vous les trouverez dans les listes repliées ci-dessous."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const FR_DOCS = {
               "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
               "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Pour bien commencer",
+    "title": "Tiges célestes, branches terrestres et pilier du jour : comment lire les caractères",
+    "summary": "Ce que sont les huit caractères d'un saju, et ce que signifient les tiges célestes, les branches terrestres et le pilier du jour, expliqués simplement avec deux tableaux.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le saju s'écrit avec deux sortes de caractères",
+        "blocks": [
+          {
+            "p": "Les huit caractères d'un saju se divisent en caractères supérieurs et inférieurs. Le caractère supérieur est l'une des dix **tiges célestes (天干)**, et le caractère inférieur est l'une des douze **branches terrestres (地支)**."
+          },
+          {
+            "p": "Voyez la tige comme l'étiquette d'un type d'énergie et la branche comme l'étiquette d'un moment et d'un lieu. Inutile de les apprendre par cœur, pas plus que les noms des jours de la semaine : il suffit de les chercher dans les tableaux ci-dessous. La façon dont les quatre piliers deviennent huit caractères est expliquée dans [le guide de la carte natale](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "Les dix tiges célestes",
+        "blocks": [
+          {
+            "p": "Il y a dix tiges célestes. Les cinq éléments (Bois, Feu, Terre, Métal, Eau) en prennent chacun deux, et dans chaque paire, la première est Yang (陽) et la seconde est Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "Les dix tiges célestes avec leur élément et leur polarité",
+              "head": [
+                "Tige céleste",
+                "Élément et polarité"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "La tige du jour de votre naissance s'appelle la **tige du jour (日干)**, et c'est le caractère qui vous désigne."
+          }
+        ]
+      },
+      {
+        "title": "Les douze branches terrestres",
+        "blocks": [
+          {
+            "p": "Il y a douze branches terrestres, et chacune est associée à un animal du zodiaque. Les douze branches sont donc les signes du zodiaque."
+          },
+          {
+            "table": {
+              "caption": "Les Douze Branches Terrestres et Signe du Zodiaque",
+              "head": [
+                "Branche Terrestre",
+                "Signe du Zodiaque"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Rat"
+                ],
+                [
+                  "丑",
+                  "Boeuf"
+                ],
+                [
+                  "寅",
+                  "Tigre"
+                ],
+                [
+                  "卯",
+                  "Lapin"
+                ],
+                [
+                  "辰",
+                  "Dragon"
+                ],
+                [
+                  "巳",
+                  "Serpent"
+                ],
+                [
+                  "午",
+                  "Cheval"
+                ],
+                [
+                  "未",
+                  "Chèvre"
+                ],
+                [
+                  "申",
+                  "Singe"
+                ],
+                [
+                  "酉",
+                  "Coq"
+                ],
+                [
+                  "戌",
+                  "Chien"
+                ],
+                [
+                  "亥",
+                  "Cochon"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Une branche ressemble à un seul caractère, mais elle contient des tiges. On les appelle les **tiges cachées (支藏干)**. Les tiges que contient chaque branche, et en quelle proportion, sont détaillées dans l'entrée du dictionnaire consacrée à chaque branche. Pour savoir comment le signe du zodiaque est déterminé, consultez [le guide du zodiaque](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "Le pilier du jour : une tige et une branche en paire",
+        "blocks": [
+          {
+            "p": "Chaque pilier d'un saju est composé de deux caractères : une tige associée à une branche. Le pilier du jour de votre naissance est le **pilier du jour (日柱)**."
+          },
+          {
+            "p": "En associant les tiges et les branches dans l'ordre, on obtient **soixante** combinaisons, de 甲子 et 乙丑 et 丙寅 jusqu'à 癸亥. Ce cycle s'appelle le cycle sexagésimal. Il y en a soixante et non 10 × 12 = 120, car une tige Yang n'est associée qu'à une branche Yang, et une tige Yin qu'à une branche Yin."
+          },
+          {
+            "p": "Le caractère supérieur du pilier du jour est la tige du jour vue plus haut. Les entrées qui expliquent chaque pilier un par un se trouvent dans les dictionnaires des tiges, des branches et des piliers du jour, en bas de [la liste des guides](/guide)."
           }
         ]
       }

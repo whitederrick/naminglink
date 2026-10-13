@@ -63,6 +63,20 @@ export const PL_DOCS = {
     "backLabel": "Powrót do Strony Głównej",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Saju zapisuje rok, miesiąc, dzień i godzinę urodzenia po dwa chińskie znaki każde, razem osiem znaków. Górny znak każdej pary nazywa się **pniem niebiańskim**, dolny **gałęzią ziemską**, a dwa znaki dnia urodzenia nazywa się **filarem dnia**. Jeśli te słowa są dla ciebie nowe, zacznij od [Pnie niebiańskie, gałęzie ziemskie i filar dnia – jak czytać znaki](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Pnie niebiańskie** — dziesięć górnych znaków saju. Każdy ma stały element i polaryzację, a pień dnia urodzenia to pień dnia, który wskazuje na ciebie.",
+              "**Gałęzie ziemskie** — dwanaście dolnych znaków saju, tych samych co zwierzęta zodiaku. Każda gałąź mieści w sobie ukryte pnie.",
+              "**Filary dnia** — para utworzona przez pień i gałąź dnia urodzenia. Jest ich 60, od 甲子 do 癸亥, a każda ma własne hasło. Znajdziesz je w rozwijanych listach poniżej."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const PL_DOCS = {
               "Jeden filar dnia nie rozstrzyga o człowieku ani o relacji. Saju czyta się z relacji między ośmioma znakami czterech filarów.",
               "Odczyt pozycji małżonka przejmuje zasadę tradycyjnego myeongri, a jeśli nie podasz płci, ta pozycja nie jest odczytywana."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Na początek",
+    "title": "Pnie niebiańskie, gałęzie ziemskie i filar dnia – jak czytać znaki",
+    "summary": "Co to za osiem znaków w saju i co oznaczają pnie niebiańskie, gałęzie ziemskie oraz filar dnia – wyjaśnione prosto za pomocą dwóch tabel.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Saju zapisuje się dwoma rodzajami znaków",
+        "blocks": [
+          {
+            "p": "Osiem znaków saju dzieli się na znaki górne i dolne. Znak górny to jeden z dziesięciu **pni niebiańskich (天干)**, a znak dolny to jedna z dwunastu **gałęzi ziemskich (地支)**."
+          },
+          {
+            "p": "Pomyśl o pniu jak o nazwie rodzaju energii, a o gałęzi jak o nazwie czasu i miejsca. Nie musisz ich zapamiętywać, tak samo jak nie zapamiętujesz nazw dni tygodnia – wystarczy znaleźć je w tabelach poniżej. To, jak cztery filary stają się ośmioma znakami, wyjaśnia [poradnik o wykresie urodzeniowym](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "Dziesięć pni niebiańskich",
+        "blocks": [
+          {
+            "p": "Pni niebiańskich jest dziesięć. Każdy z pięciu elementów (Drewno, Ogień, Ziemia, Metal, Woda) otrzymuje po dwa pnie, a w każdej parze pierwszy jest Yang (陽), a drugi Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "Dziesięć pni niebiańskich wraz z elementem i polaryzacją",
+              "head": [
+                "Pień niebiański",
+                "Element i polaryzacja"
+              ],
+              "rows": [
+                [
+                  "Drewno Yang (甲)",
+                  "Drewno Yang"
+                ],
+                [
+                  "Drewno Yin (乙)",
+                  "Drewno Yin"
+                ],
+                [
+                  "Ogień Yang (丙)",
+                  "Ogień Yang"
+                ],
+                [
+                  "Ogień Yin (丁)",
+                  "Ogień Yin"
+                ],
+                [
+                  "Ziemia Yang (戊)",
+                  "Ziemia Yang"
+                ],
+                [
+                  "Ziemia Yin (己)",
+                  "Ziemia Yin"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin"
+                ],
+                [
+                  "Woda Yang (壬)",
+                  "Woda Yang"
+                ],
+                [
+                  "Woda Yin (癸)",
+                  "Woda Yin"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Pień dnia urodzenia nazywa się **pniem dnia (日干)** i jest to znak, który wskazuje na ciebie."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście gałęzi ziemskich",
+        "blocks": [
+          {
+            "p": "Gałęzi ziemskich jest dwanaście i każdej przypisane jest jedno zwierzę zodiaku. Dwanaście gałęzi to więc znaki zodiaku."
+          },
+          {
+            "table": {
+              "caption": "Dwanaście Ziemskich Gałęzi i Znaków Zodiaku",
+              "head": [
+                "Ziemska Gałąź",
+                "Znak Zodiaku"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Szczur"
+                ],
+                [
+                  "丑",
+                  "Wół"
+                ],
+                [
+                  "寅",
+                  "Tygrys"
+                ],
+                [
+                  "卯",
+                  "Królik"
+                ],
+                [
+                  "辰",
+                  "Smok"
+                ],
+                [
+                  "巳",
+                  "Wąż"
+                ],
+                [
+                  "午",
+                  "Koń"
+                ],
+                [
+                  "未",
+                  "Koza"
+                ],
+                [
+                  "申",
+                  "Małpa"
+                ],
+                [
+                  "酉",
+                  "Kogut"
+                ],
+                [
+                  "戌",
+                  "Pies"
+                ],
+                [
+                  "亥",
+                  "Świnia"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Gałąź wygląda jak pojedynczy znak, ale mieści w sobie pnie. Nazywa się je **ukrytymi pniami (支藏干)**. To, jakie pnie zawiera dana gałąź i w jakiej proporcji, opisano w haśle słownika poświęconym każdej gałęzi. O tym, jak ustala się znak zodiaku, przeczytasz w [poradniku o znakach zodiaku](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "Filar dnia – pień i gałąź w parze",
+        "blocks": [
+          {
+            "p": "Każdy filar saju to dwa znaki: jeden pień sparowany z jedną gałęzią. Filar dnia urodzenia to **filar dnia (日柱)**."
+          },
+          {
+            "p": "Parując kolejno pnie i gałęzie, otrzymuje się **sześćdziesiąt** kombinacji, od 甲子 i 乙丑 i 丙寅 aż do 癸亥. Ten cykl nazywa się cyklem sześćdziesięcioletnim. Jest ich sześćdziesiąt, a nie 10 × 12 = 120, ponieważ pień Yang łączy się tylko z gałęzią Yang, a pień Yin tylko z gałęzią Yin."
+          },
+          {
+            "p": "Górny znak filaru dnia to pień dnia, o którym była mowa wyżej. Hasła objaśniające każdy filar po kolei znajdują się w słownikach pni, gałęzi i filarów dnia na dole [listy poradników](/guide)."
           }
         ]
       }

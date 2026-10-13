@@ -63,6 +63,20 @@ export const ES_DOCS = {
     "backLabel": "Volver a Inicio",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "El saju anota el año, el mes, el día y la hora de tu nacimiento con dos caracteres chinos cada uno, ocho caracteres en total. El carácter superior de cada par se llama **tronco celestial**, el inferior **rama terrestre**, y los dos caracteres de tu día de nacimiento se llaman **pilar del día**. Si estas palabras te resultan nuevas, empieza por [Troncos celestiales, ramas terrestres y pilar del día: cómo leer los caracteres](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Troncos celestiales** — los diez caracteres superiores del saju. Cada uno tiene un elemento y una polaridad fijos, y el tronco de tu día de nacimiento es el tronco del día que te señala a ti.",
+              "**Ramas terrestres** — los doce caracteres inferiores del saju, los mismos que los animales del zodiaco. Cada rama guarda troncos ocultos en su interior.",
+              "**Pilares del día** — la pareja formada por el tronco y la rama de tu día de nacimiento. Hay 60, de 甲子 a 癸亥, y cada una tiene su propia entrada. Las encontrarás en las listas plegadas de abajo."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const ES_DOCS = {
               "Un solo pilar del día no define a una persona ni a una relación. Un saju se lee a partir de cómo se relacionan los ocho caracteres de los cuatro pilares.",
               "La lectura de la posición del cónyuge traslada una regla de la myeongri tradicional, y si no indicas tu género esta posición no se lee."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Para empezar",
+    "title": "Troncos celestiales, ramas terrestres y pilar del día: cómo leer los caracteres",
+    "summary": "Qué son los ocho caracteres de un saju y qué significan los troncos celestiales, las ramas terrestres y el pilar del día, explicado de forma sencilla con dos tablas.",
+    "backLabel": "Base del cálculo",
+    "sections": [
+      {
+        "title": "El saju se escribe con dos tipos de caracteres",
+        "blocks": [
+          {
+            "p": "Los ocho caracteres de un saju se dividen en caracteres superiores e inferiores. El carácter superior es uno de los diez **troncos celestiales (天干)**, y el carácter inferior es una de las doce **ramas terrestres (地支)**."
+          },
+          {
+            "p": "Piensa en el tronco como una etiqueta para un tipo de energía y en la rama como una etiqueta para un momento y un lugar. No necesitas memorizarlos, igual que no memorizas los nombres de los días de la semana; basta con buscarlos en las tablas de abajo. Cómo los cuatro pilares se convierten en ocho caracteres se explica en la [guía de la carta natal](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "Los diez troncos celestiales",
+        "blocks": [
+          {
+            "p": "Hay diez troncos celestiales. Cada uno de los cinco elementos (Madera, Fuego, Tierra, Metal, Agua) toma dos troncos, y dentro de cada pareja el primero es Yang (陽) y el segundo es Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "Los diez troncos celestiales con su elemento y polaridad",
+              "head": [
+                "Tronco celestial",
+                "Elemento y polaridad"
+              ],
+              "rows": [
+                [
+                  "Madera Yang (甲)",
+                  "Madera Yang"
+                ],
+                [
+                  "Madera Yin (乙)",
+                  "Madera Yin"
+                ],
+                [
+                  "Fuego Yang (丙)",
+                  "Fuego Yang"
+                ],
+                [
+                  "Fuego Yin (丁)",
+                  "Fuego Yin"
+                ],
+                [
+                  "Tierra Yang (戊)",
+                  "Tierra Yang"
+                ],
+                [
+                  "Tierra Yin (己)",
+                  "Tierra Yin"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin"
+                ],
+                [
+                  "Agua Yang (壬)",
+                  "Agua Yang"
+                ],
+                [
+                  "Agua Yin (癸)",
+                  "Agua Yin"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "El tronco del día en que naciste se llama **tronco del día (日干)**, y es el carácter que te señala a ti."
+          }
+        ]
+      },
+      {
+        "title": "Las doce ramas terrestres",
+        "blocks": [
+          {
+            "p": "Hay doce ramas terrestres, y cada una tiene asociado un animal del zodiaco. Así que las doce ramas son los signos del zodiaco."
+          },
+          {
+            "table": {
+              "caption": "Las Doce Ramas Terrestres y Signos Zodiacales",
+              "head": [
+                "Rama Terrestre",
+                "Signo Zodiacal"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Rata"
+                ],
+                [
+                  "丑",
+                  "Buey"
+                ],
+                [
+                  "寅",
+                  "Tigre"
+                ],
+                [
+                  "卯",
+                  "Conejo"
+                ],
+                [
+                  "辰",
+                  "Dragón"
+                ],
+                [
+                  "巳",
+                  "Serpiente"
+                ],
+                [
+                  "午",
+                  "Caballo"
+                ],
+                [
+                  "未",
+                  "Cabra"
+                ],
+                [
+                  "申",
+                  "Mono"
+                ],
+                [
+                  "酉",
+                  "Gallo"
+                ],
+                [
+                  "戌",
+                  "Perro"
+                ],
+                [
+                  "亥",
+                  "Cerdo"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Una rama parece un solo carácter, pero guarda troncos en su interior. Se llaman **troncos ocultos (支藏干)**. Qué troncos contiene una rama y en qué proporción se detalla en la entrada del diccionario de cada rama. Para saber cómo se determina el animal del zodiaco, consulta la [guía del zodiaco](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "El pilar del día: un tronco y una rama emparejados",
+        "blocks": [
+          {
+            "p": "Cada pilar de un saju son dos caracteres: un tronco emparejado con una rama. El pilar del día en que naciste es el **pilar del día (日柱)**."
+          },
+          {
+            "p": "Si se emparejan los troncos y las ramas en orden, se obtienen **sesenta** combinaciones, desde 甲子 y 乙丑 y 丙寅 hasta 癸亥. Este ciclo se llama ciclo sexagenario. Son sesenta y no 10 × 12 = 120 porque un tronco Yang solo se empareja con una rama Yang, y un tronco Yin solo con una rama Yin."
+          },
+          {
+            "p": "El carácter superior del pilar del día es el tronco del día que vimos arriba. Las entradas que explican cada pilar una por una están en los diccionarios de troncos, ramas y pilares del día, al final de la [lista de guías](/guide)."
           }
         ]
       }

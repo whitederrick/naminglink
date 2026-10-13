@@ -63,6 +63,20 @@ export const UZ_DOCS = {
     "backLabel": "Bosh sahifaga qaytish",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Saju tug'ilgan yilingiz, oyingiz, kuningiz va soatingizni ikkitadan xitoy belgisi bilan, jami sakkiz belgi qilib yozadi. Har bir juftning yuqori belgisi **heavenly stem**, pastki belgisi **earthly branch** deb ataladi, tug'ilgan kuningizning ikki belgisi esa **kun ustuni** deyiladi. Agar bu so'zlar sizga yangi bo'lsa, [Heavenly stems, earthly branches va kun ustuni — belgilarni qanday o'qish kerak](/guide/saju-letters) maqolasidan boshlang."
+          },
+          {
+            "ul": [
+              "**Heavenly stems** — Sajuning yuqoridagi o'nta belgisi. Har bir belgining o'z elementi va qutbi aniq belgilangan, tug'ilgan kuningizning stemi esa sizni ko'rsatadigan day stemdir.",
+              "**Earthly branches** — Sajuning pastdagi o'n ikkita belgisi, zodiak hayvonlari bilan bir xil belgilar. Har bir branch ichida hidden stems saqlaydi.",
+              "**Kun ustunlari** — tug'ilgan kuningizning stemi va branchi hosil qilgan juftlik. Bunday juftliklar 甲子 dan 癸亥 gacha jami 60 ta bo'lib, har birining o'z maqolasi bor. Ularni pastdagi yig'ilgan ro'yxatlardan topasiz."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const UZ_DOCS = {
               "Bitta kun ustuni insonni yoki munosabatni belgilab bermaydi. Saju to'rt ustunning sakkiz belgisi o'zaro qanday bog'lanishidan o'qiladi.",
               "Turmush o'rtog'i pozitsiyasini o'qish an'anaviy myeongri qoidasidan olingan, jinsingizni ko'rsatmasangiz bu pozitsiya o'qilmaydi."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Shu yerdan boshlang",
+    "title": "Heavenly stems, earthly branches va kun ustuni — belgilarni qanday o'qish kerak",
+    "summary": "Saju chartidagi sakkiz belgi nima ekanini hamda heavenly stems, earthly branches va kun ustuni nimani anglatishini ikkita oddiy jadval bilan tushuntiradi.",
+    "backLabel": "Hisoblash asosi",
+    "sections": [
+      {
+        "title": "Saju ikki xil belgi bilan yoziladi",
+        "blocks": [
+          {
+            "p": "Saju chartidagi sakkiz belgi yuqori va pastki belgilarga bo'linadi. Yuqori belgi o'nta **heavenly stem (天干)** dan biri, pastki belgi esa o'n ikkita **earthly branch (地支)** dan biridir."
+          },
+          {
+            "p": "Stemni energiya turining nomi, branchni esa vaqt va joyning nomi deb tasavvur qiling. Hafta kunlari nomlarini yodlamaganingiz kabi, ularni ham yodlash shart emas; pastdagi jadvallardan topib o'qisangiz bo'ladi. To'rt ustun qanday qilib sakkiz belgiga aylanishi [natal chart qo'llanmasi](/guide/natal-chart)da tushuntirilgan."
+          }
+        ]
+      },
+      {
+        "title": "O'nta heavenly stem",
+        "blocks": [
+          {
+            "p": "O'nta heavenly stem bor. Beshta element (Yog'och, Olov, Tuproq, Metall, Suv) har biri ikkitadan stemni oladi va har bir juftlikda birinchisi Yang (陽), ikkinchisi Yin (陰) bo'ladi."
+          },
+          {
+            "table": {
+              "caption": "Element va qutbi bilan o'nta heavenly stem",
+              "head": [
+                "Heavenly stem",
+                "Element va qutb"
+              ],
+              "rows": [
+                [
+                  "Yang Yog'och (甲)",
+                  "Yog'och Yang"
+                ],
+                [
+                  "Yin Yog'och (乙)",
+                  "Yog'och Yin"
+                ],
+                [
+                  "Yang Olov (丙)",
+                  "Olov Yang"
+                ],
+                [
+                  "Yin Olov (丁)",
+                  "Olov Yin"
+                ],
+                [
+                  "Yang Tuproq (戊)",
+                  "Tuproq Yang"
+                ],
+                [
+                  "Yin Tuproq (己)",
+                  "Tuproq Yin"
+                ],
+                [
+                  "Yang Metall (庚)",
+                  "Metall Yang"
+                ],
+                [
+                  "Yin Metall (辛)",
+                  "Metall Yin"
+                ],
+                [
+                  "Yang Suv (壬)",
+                  "Suv Yang"
+                ],
+                [
+                  "Yin Suv (癸)",
+                  "Suv Yin"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Siz tug'ilgan kunning stemi **day stem (日干)** deb ataladi va u sizni ko'rsatadigan belgidir."
+          }
+        ]
+      },
+      {
+        "title": "O'n ikkita earthly branch",
+        "blocks": [
+          {
+            "p": "O'n ikkita earthly branch bor va har biriga zodiak hayvonlaridan biri biriktirilgan. Demak, o'n ikki branch — bu zodiak belgilarining o'zi."
+          },
+          {
+            "table": {
+              "caption": "O'n Ikki Yerli Shox va Zodiak Belgilari",
+              "head": [
+                "Yerli Shoxi",
+                "Zodiak Belgisi"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Sichqon"
+                ],
+                [
+                  "丑",
+                  "Sigir"
+                ],
+                [
+                  "寅",
+                  "Yo'lbars"
+                ],
+                [
+                  "卯",
+                  "Quyon"
+                ],
+                [
+                  "辰",
+                  "Ajdar"
+                ],
+                [
+                  "巳",
+                  "Ilon"
+                ],
+                [
+                  "午",
+                  "Ot"
+                ],
+                [
+                  "未",
+                  "Qo'y"
+                ],
+                [
+                  "申",
+                  "Maymun"
+                ],
+                [
+                  "酉",
+                  "Tovuq"
+                ],
+                [
+                  "戌",
+                  "It"
+                ],
+                [
+                  "亥",
+                  "Cho'chqa"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Branch bitta belgiga o'xshaydi, lekin ichida stemlarni saqlaydi. Ular **hidden stems (支藏干)** deb ataladi. Branch qaysi stemlarni va qancha miqdorda saqlashi har bir branchning lug'at maqolasida ko'rsatilgan. Zodiak hayvoni qanday aniqlanishi haqida [zodiak belgisi qo'llanmasi](/guide/zodiac)ga qarang."
+          }
+        ]
+      },
+      {
+        "title": "Kun ustuni — stem va branchdan iborat juftlik",
+        "blocks": [
+          {
+            "p": "Saju chartidagi har bir ustun ikki belgidan iborat: bitta stem va bitta branch juftligi. Siz tug'ilgan kunning ustuni **kun ustuni (日柱)** hisoblanadi."
+          },
+          {
+            "p": "Stemlar va branchlarni tartib bilan juftlasangiz, 甲子, 乙丑, 丙寅 dan 癸亥 gacha **oltmish** ta kombinatsiya hosil bo'ladi. Bu aylanish oltmishlik sikl deb ataladi. U 10 × 12 = 120 emas, oltmish bo'lishining sababi — Yang stem faqat Yang branch bilan, Yin stem faqat Yin branch bilan juftlashadi."
+          },
+          {
+            "p": "Kun ustunining yuqori belgisi — yuqorida tanishgan day stemingiz. Har bir ustunni alohida tushuntiruvchi maqolalar [qo'llanmalar ro'yxati](/guide) pastidagi stem, branch va kun ustuni lug'atlarida bor."
           }
         ]
       }

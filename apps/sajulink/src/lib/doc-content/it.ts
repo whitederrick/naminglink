@@ -63,6 +63,20 @@ export const IT_DOCS = {
     "backLabel": "Torna alla Home",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Il saju annota l'anno, il mese, il giorno e l'ora della tua nascita con due caratteri cinesi ciascuno, otto caratteri in tutto. Il carattere superiore di ogni coppia si chiama **stelo celeste**, quello inferiore **ramo terrestre**, e i due caratteri del tuo giorno di nascita si chiamano **pilastro del giorno**. Se queste parole ti sono nuove, comincia da [Steli celesti, rami terrestri e pilastro del giorno: come leggere i caratteri](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Steli celesti** — i dieci caratteri superiori del saju. Ciascuno ha un elemento e una polarità fissi, e lo stelo del tuo giorno di nascita è lo stelo del giorno che ti indica.",
+              "**Rami terrestri** — i dodici caratteri inferiori del saju, gli stessi degli animali dello zodiaco. Ogni ramo contiene al suo interno degli steli nascosti.",
+              "**Pilastri del giorno** — la coppia formata dallo stelo e dal ramo del tuo giorno di nascita. Ce ne sono 60, da 甲子 a 癸亥, e ciascuna ha una voce propria. Le troverai negli elenchi comprimibili qui sotto."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const IT_DOCS = {
               "Un solo pilastro del giorno non decide una persona o una relazione. Un saju si legge da come si relazionano gli otto caratteri dei quattro pilastri.",
               "La lettura della posizione del coniuge riprende una regola del myeongri tradizionale e, se non indichi il tuo genere, questa posizione non viene letta."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Per iniziare",
+    "title": "Steli celesti, rami terrestri e pilastro del giorno: come leggere i caratteri",
+    "summary": "Che cosa sono gli otto caratteri di un saju e che cosa significano gli steli celesti, i rami terrestri e il pilastro del giorno, spiegati in modo semplice con due tabelle.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il saju si scrive con due tipi di caratteri",
+        "blocks": [
+          {
+            "p": "Gli otto caratteri di un saju si dividono in caratteri superiori e inferiori. Il carattere superiore è uno dei dieci **steli celesti (天干)**, e il carattere inferiore è uno dei dodici **rami terrestri (地支)**."
+          },
+          {
+            "p": "Pensa allo stelo come a un'etichetta per un tipo di energia e al ramo come a un'etichetta per un tempo e un luogo. Non serve memorizzarli, proprio come non si memorizzano i nomi dei giorni della settimana: basta cercarli nelle tabelle qui sotto. Come i quattro pilastri diventano otto caratteri è spiegato nella [guida al grafico natale](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "I dieci steli celesti",
+        "blocks": [
+          {
+            "p": "Gli steli celesti sono dieci. Ciascuno dei cinque elementi (Legno, Fuoco, Terra, Metallo, Acqua) prende due steli, e in ogni coppia il primo è Yang (陽) e il secondo è Yin (陰)."
+          },
+          {
+            "table": {
+              "caption": "I dieci steli celesti con elemento e polarità",
+              "head": [
+                "Stelo celeste",
+                "Elemento e polarità"
+              ],
+              "rows": [
+                [
+                  "Legno Yang (甲)",
+                  "Legno Yang"
+                ],
+                [
+                  "Legno Yin (乙)",
+                  "Legno Yin"
+                ],
+                [
+                  "Fuoco Yang (丙)",
+                  "Fuoco Yang"
+                ],
+                [
+                  "Fuoco Yin (丁)",
+                  "Fuoco Yin"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin"
+                ],
+                [
+                  "Metallo Yang (庚)",
+                  "Metallo Yang"
+                ],
+                [
+                  "Metallo Yin (辛)",
+                  "Metallo Yin"
+                ],
+                [
+                  "Acqua Yang (壬)",
+                  "Acqua Yang"
+                ],
+                [
+                  "Acqua Yin (癸)",
+                  "Acqua Yin"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Lo stelo del giorno in cui sei nato si chiama **stelo del giorno (日干)**, ed è il carattere che ti indica."
+          }
+        ]
+      },
+      {
+        "title": "I dodici rami terrestri",
+        "blocks": [
+          {
+            "p": "I rami terrestri sono dodici, e a ciascuno è associato un animale dello zodiaco. Quindi i dodici rami sono i segni zodiacali."
+          },
+          {
+            "table": {
+              "caption": "I Dodici Rami Terrestri e Segni Zodiacali",
+              "head": [
+                "Ramo Terrestre",
+                "Segno Zodiacale"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Topo"
+                ],
+                [
+                  "丑",
+                  "Bue"
+                ],
+                [
+                  "寅",
+                  "Tigre"
+                ],
+                [
+                  "卯",
+                  "Coniglio"
+                ],
+                [
+                  "辰",
+                  "Drago"
+                ],
+                [
+                  "巳",
+                  "Serpente"
+                ],
+                [
+                  "午",
+                  "Cavallo"
+                ],
+                [
+                  "未",
+                  "Capra"
+                ],
+                [
+                  "申",
+                  "Scimmia"
+                ],
+                [
+                  "酉",
+                  "Gallo"
+                ],
+                [
+                  "戌",
+                  "Cane"
+                ],
+                [
+                  "亥",
+                  "Maiale"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Un ramo sembra un unico carattere, ma al suo interno contiene degli steli. Questi si chiamano **steli nascosti (支藏干)**. Quali steli contiene un ramo, e in che misura, è indicato nella voce del dizionario dedicata a ciascun ramo. Per sapere come si determina l'animale dello zodiaco, consulta la [guida allo zodiaco](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "Il pilastro del giorno: uno stelo e un ramo in coppia",
+        "blocks": [
+          {
+            "p": "Ogni pilastro di un saju è fatto di due caratteri: uno stelo abbinato a un ramo. Il pilastro del giorno in cui sei nato è il **pilastro del giorno (日柱)**."
+          },
+          {
+            "p": "Abbinando in ordine steli e rami si ottengono **sessanta** combinazioni, da 甲子 e 乙丑 e 丙寅 fino a 癸亥. Questo ciclo si chiama ciclo sessagesimale. Sono sessanta e non 10 × 12 = 120 perché uno stelo Yang si abbina solo a un ramo Yang, e uno stelo Yin solo a un ramo Yin."
+          },
+          {
+            "p": "Il carattere superiore del pilastro del giorno è lo stelo del giorno che abbiamo visto sopra. Le voci che spiegano ogni pilastro uno per uno si trovano nei dizionari di steli, rami e pilastri del giorno in fondo all'[elenco delle guide](/guide)."
           }
         ]
       }

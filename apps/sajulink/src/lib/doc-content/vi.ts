@@ -63,6 +63,20 @@ export const VI_DOCS = {
     "backLabel": "Quay lại Trang Chủ",
     "sections": [
       {
+        "blocks": [
+          {
+            "p": "Saju ghi lại năm, tháng, ngày và giờ sinh của bạn, mỗi mục bằng hai chữ Hán, tổng cộng tám chữ. Chữ trên của mỗi cặp được gọi là **Thiên can**, chữ dưới là **Địa chi**, và hai chữ của ngày sinh bạn được gọi là **Trụ Ngày**. Nếu những từ này còn mới với bạn, hãy bắt đầu với [Thiên can, Địa chi và Trụ Ngày — Cách đọc các chữ trong Saju](/guide/saju-letters)."
+          },
+          {
+            "ul": [
+              "**Thiên can** — mười chữ trên của Saju. Mỗi chữ có ngũ hành và âm dương cố định, và Thiên can của ngày sinh bạn chính là Can ngày chỉ về bạn.",
+              "**Địa chi** — mười hai chữ dưới của Saju, chính là những chữ dùng cho mười hai con giáp. Mỗi Địa chi chứa các tàng can (支藏干) bên trong.",
+              "**Trụ ngày** — cặp do Thiên can và Địa chi của ngày sinh bạn tạo thành. Có 60 cặp, từ 甲子 đến 癸亥, và mỗi cặp có một mục riêng. Bạn sẽ thấy chúng trong các danh sách thu gọn bên dưới."
+            ]
+          }
+        ]
+      },
+      {
         "kind": "note",
         "blocks": [
           {
@@ -9951,6 +9965,172 @@ export const VI_DOCS = {
               "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
               "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
             ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/saju-letters": {
+    "eyebrow": "Dành cho người mới đọc",
+    "title": "Thiên can, Địa chi và Trụ Ngày — Cách đọc các chữ trong Saju",
+    "summary": "Tám chữ Hán trong Saju là gì, và Thiên can, Địa chi cùng Trụ Ngày mỗi thứ nghĩa là gì, được giải thích dễ hiểu bằng hai bảng.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Saju được viết bằng hai loại chữ",
+        "blocks": [
+          {
+            "p": "Tám chữ của Saju được chia thành chữ trên và chữ dưới. Chữ trên là một trong mười **Thiên can (天干)**, còn chữ dưới là một trong mười hai **Địa chi (地支)**."
+          },
+          {
+            "p": "Bạn có thể xem Thiên can là tên gọi cho một loại năng lượng, còn Địa chi là tên gọi cho một thời điểm và một vị trí. Không cần học thuộc lòng, cũng như bạn không cần thuộc tên các ngày trong tuần; chỉ cần tra trong các bảng bên dưới. Bốn trụ trở thành tám chữ như thế nào được giải thích trong [hướng dẫn về biểu đồ sinh](/guide/natal-chart)."
+          }
+        ]
+      },
+      {
+        "title": "Mười Thiên can",
+        "blocks": [
+          {
+            "p": "Có mười Thiên can. Ngũ hành (Mộc, Hỏa, Thổ, Kim, Thủy) mỗi hành có hai Thiên can, và trong mỗi cặp, chữ đầu là Dương (陽) còn chữ sau là Âm (陰)."
+          },
+          {
+            "table": {
+              "caption": "Mười Thiên can cùng ngũ hành và âm dương",
+              "head": [
+                "Thiên can",
+                "Ngũ hành và âm dương"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Thiên can của ngày bạn sinh ra được gọi là **Can ngày (日干)**, và đó là chữ chỉ về chính bạn."
+          }
+        ]
+      },
+      {
+        "title": "Mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "Có mười hai Địa chi, và mỗi chữ gắn với một con giáp. Vì vậy, mười hai Địa chi chính là mười hai con giáp."
+          },
+          {
+            "table": {
+              "caption": "Mười Hai Nhánh Đất và Cung Hoàng Đạo",
+              "head": [
+                "Nhánh Đất",
+                "Cung Hoàng Đạo"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Chuột"
+                ],
+                [
+                  "丑",
+                  "Trâu"
+                ],
+                [
+                  "寅",
+                  "Hổ"
+                ],
+                [
+                  "卯",
+                  "Thỏ"
+                ],
+                [
+                  "辰",
+                  "Rồng"
+                ],
+                [
+                  "巳",
+                  "Rắn"
+                ],
+                [
+                  "午",
+                  "Ngựa"
+                ],
+                [
+                  "未",
+                  "Dê"
+                ],
+                [
+                  "申",
+                  "Khỉ"
+                ],
+                [
+                  "酉",
+                  "Gà"
+                ],
+                [
+                  "戌",
+                  "Chó"
+                ],
+                [
+                  "亥",
+                  "Heo"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Một Địa chi trông như một chữ duy nhất, nhưng bên trong nó chứa các thiên can. Những can này được gọi là **tàng can (支藏干)**. Địa chi chứa những can nào và mỗi can chiếm bao nhiêu đều được trình bày trong mục từ điển của từng Địa chi. Về cách xác định con giáp, xin xem [hướng dẫn về con giáp](/guide/zodiac)."
+          }
+        ]
+      },
+      {
+        "title": "Trụ Ngày — một Thiên can và một Địa chi ghép thành cặp",
+        "blocks": [
+          {
+            "p": "Mỗi trụ của Saju gồm hai chữ: một Thiên can ghép với một Địa chi. Trụ của ngày bạn sinh ra là **Trụ Ngày (日柱)**."
+          },
+          {
+            "p": "Ghép lần lượt Thiên can với Địa chi, bạn sẽ có **sáu mươi** tổ hợp, từ 甲子, 乙丑, 丙寅 cho đến 癸亥. Chu kỳ này được gọi là Lục thập hoa giáp. Con số là sáu mươi chứ không phải 10 × 12 = 120 vì một Thiên can Dương chỉ ghép với Địa chi Dương, và một Thiên can Âm chỉ ghép với Địa chi Âm."
+          },
+          {
+            "p": "Chữ trên của Trụ Ngày chính là Can ngày mà bạn đã gặp ở trên. Các mục giải thích từng trụ một nằm trong các từ điển Thiên can, Địa chi và Trụ Ngày ở cuối [danh sách hướng dẫn](/guide)."
           }
         ]
       }

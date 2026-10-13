@@ -33,102 +33,118 @@ import type { DocKey } from "@/lib/doc-content";
  */
 export type GuideTrack = "reading" | "today" | "common";
 
+/**
+ * 허브에서 **접어 두는 사전 묶음**(2026-10-13).
+ *
+ * 천간 10 · 지지 12 · 일주 60이 한 목록에 섞이면 원리를 설명하는 안내 글이 묻힌다. `group`이 있는
+ * 문서는 허브 아래쪽의 묶음(`<details>`)에 담기고, 없는 문서만 위쪽 카드로 놓인다. **소속은 슬러그
+ * 접두가 아니라 여기에 적은 값이 정한다** — 접두로 판정하면 이름이 비슷한 새 문서가 말없이
+ * 묶음에 들어간다.
+ */
+export type GuideGroup = "stems" | "branches" | "pillars";
+
+/** 묶음이 허브에 놓이는 순서. */
+export const guideGroups: GuideGroup[] = ["stems", "branches", "pillars"];
+
 export type GuideEntry = {
   /** `/guide` 아래의 경로 조각. `doc-content`의 키는 `guide/<slug>`다. */
   slug: string;
   track: GuideTrack;
+  /** 있으면 허브의 접힌 사전 묶음에 담긴다. 없으면 위쪽 카드다. */
+  group?: GuideGroup;
 };
 
-/** 허브에 놓이는 순서. 원국 → 오행·용신 → 십신 → 관계표 → 시각 → 오늘 → 개인정보 → 상품. */
+/** 허브에 놓이는 순서. 입문(글자) → 원국 → 오행·용신 → 십신 → 관계표 → 시각 → 오늘 → 개인정보 → 상품. */
 export const guideEntries: GuideEntry[] = [
+  { slug: "saju-letters", track: "reading" },
   { slug: "natal-chart", track: "reading" },
   { slug: "five-elements", track: "reading" },
   { slug: "yongsin", track: "reading" },
   { slug: "ten-gods", track: "reading" },
   { slug: "branches", track: "reading" },
   { slug: "zodiac", track: "reading" },
-  { slug: "stem-gap", track: "reading" },
-  { slug: "stem-eul", track: "reading" },
-  { slug: "stem-byeong", track: "reading" },
-  { slug: "stem-jeong", track: "reading" },
-  { slug: "stem-mu", track: "reading" },
-  { slug: "stem-gi", track: "reading" },
-  { slug: "stem-gyeong", track: "reading" },
-  { slug: "stem-sin", track: "reading" },
-  { slug: "stem-im", track: "reading" },
-  { slug: "stem-gye", track: "reading" },
-  { slug: "branch-ja", track: "reading" },
-  { slug: "branch-chuk", track: "reading" },
-  { slug: "branch-in", track: "reading" },
-  { slug: "branch-myo", track: "reading" },
-  { slug: "branch-jin", track: "reading" },
-  { slug: "branch-sa", track: "reading" },
-  { slug: "branch-o", track: "reading" },
-  { slug: "branch-mi", track: "reading" },
-  { slug: "branch-sin", track: "reading" },
-  { slug: "branch-yu", track: "reading" },
-  { slug: "branch-sul", track: "reading" },
-  { slug: "branch-hae", track: "reading" },
-  { slug: "pillar-gap-ja", track: "reading" },
-  { slug: "pillar-eul-chuk", track: "reading" },
-  { slug: "pillar-byeong-in", track: "reading" },
-  { slug: "pillar-jeong-myo", track: "reading" },
-  { slug: "pillar-mu-jin", track: "reading" },
-  { slug: "pillar-gi-sa", track: "reading" },
-  { slug: "pillar-gyeong-o", track: "reading" },
-  { slug: "pillar-sin-mi", track: "reading" },
-  { slug: "pillar-im-sin", track: "reading" },
-  { slug: "pillar-gye-yu", track: "reading" },
-  { slug: "pillar-gap-sul", track: "reading" },
-  { slug: "pillar-eul-hae", track: "reading" },
-  { slug: "pillar-byeong-ja", track: "reading" },
-  { slug: "pillar-jeong-chuk", track: "reading" },
-  { slug: "pillar-mu-in", track: "reading" },
-  { slug: "pillar-gi-myo", track: "reading" },
-  { slug: "pillar-gyeong-jin", track: "reading" },
-  { slug: "pillar-sin-sa", track: "reading" },
-  { slug: "pillar-im-o", track: "reading" },
-  { slug: "pillar-gye-mi", track: "reading" },
-  { slug: "pillar-gap-sin", track: "reading" },
-  { slug: "pillar-eul-yu", track: "reading" },
-  { slug: "pillar-byeong-sul", track: "reading" },
-  { slug: "pillar-jeong-hae", track: "reading" },
-  { slug: "pillar-mu-ja", track: "reading" },
-  { slug: "pillar-gi-chuk", track: "reading" },
-  { slug: "pillar-gyeong-in", track: "reading" },
-  { slug: "pillar-sin-myo", track: "reading" },
-  { slug: "pillar-im-jin", track: "reading" },
-  { slug: "pillar-gye-sa", track: "reading" },
-  { slug: "pillar-gap-o", track: "reading" },
-  { slug: "pillar-eul-mi", track: "reading" },
-  { slug: "pillar-byeong-sin", track: "reading" },
-  { slug: "pillar-jeong-yu", track: "reading" },
-  { slug: "pillar-mu-sul", track: "reading" },
-  { slug: "pillar-gi-hae", track: "reading" },
-  { slug: "pillar-gyeong-ja", track: "reading" },
-  { slug: "pillar-sin-chuk", track: "reading" },
-  { slug: "pillar-im-in", track: "reading" },
-  { slug: "pillar-gye-myo", track: "reading" },
-  { slug: "pillar-gap-jin", track: "reading" },
-  { slug: "pillar-eul-sa", track: "reading" },
-  { slug: "pillar-byeong-o", track: "reading" },
-  { slug: "pillar-jeong-mi", track: "reading" },
-  { slug: "pillar-mu-sin", track: "reading" },
-  { slug: "pillar-gi-yu", track: "reading" },
-  { slug: "pillar-gyeong-sul", track: "reading" },
-  { slug: "pillar-sin-hae", track: "reading" },
-  { slug: "pillar-im-ja", track: "reading" },
-  { slug: "pillar-gye-chuk", track: "reading" },
-  { slug: "pillar-gap-in", track: "reading" },
-  { slug: "pillar-eul-myo", track: "reading" },
-  { slug: "pillar-byeong-jin", track: "reading" },
-  { slug: "pillar-jeong-sa", track: "reading" },
-  { slug: "pillar-mu-o", track: "reading" },
-  { slug: "pillar-gi-mi", track: "reading" },
-  { slug: "pillar-gyeong-sin", track: "reading" },
-  { slug: "pillar-sin-yu", track: "reading" },
-  { slug: "pillar-im-sul", track: "reading" },
-  { slug: "pillar-gye-hae", track: "reading" },
+  { slug: "stem-gap", track: "reading", group: "stems" },
+  { slug: "stem-eul", track: "reading", group: "stems" },
+  { slug: "stem-byeong", track: "reading", group: "stems" },
+  { slug: "stem-jeong", track: "reading", group: "stems" },
+  { slug: "stem-mu", track: "reading", group: "stems" },
+  { slug: "stem-gi", track: "reading", group: "stems" },
+  { slug: "stem-gyeong", track: "reading", group: "stems" },
+  { slug: "stem-sin", track: "reading", group: "stems" },
+  { slug: "stem-im", track: "reading", group: "stems" },
+  { slug: "stem-gye", track: "reading", group: "stems" },
+  { slug: "branch-ja", track: "reading", group: "branches" },
+  { slug: "branch-chuk", track: "reading", group: "branches" },
+  { slug: "branch-in", track: "reading", group: "branches" },
+  { slug: "branch-myo", track: "reading", group: "branches" },
+  { slug: "branch-jin", track: "reading", group: "branches" },
+  { slug: "branch-sa", track: "reading", group: "branches" },
+  { slug: "branch-o", track: "reading", group: "branches" },
+  { slug: "branch-mi", track: "reading", group: "branches" },
+  { slug: "branch-sin", track: "reading", group: "branches" },
+  { slug: "branch-yu", track: "reading", group: "branches" },
+  { slug: "branch-sul", track: "reading", group: "branches" },
+  { slug: "branch-hae", track: "reading", group: "branches" },
+  { slug: "pillar-gap-ja", track: "reading", group: "pillars" },
+  { slug: "pillar-eul-chuk", track: "reading", group: "pillars" },
+  { slug: "pillar-byeong-in", track: "reading", group: "pillars" },
+  { slug: "pillar-jeong-myo", track: "reading", group: "pillars" },
+  { slug: "pillar-mu-jin", track: "reading", group: "pillars" },
+  { slug: "pillar-gi-sa", track: "reading", group: "pillars" },
+  { slug: "pillar-gyeong-o", track: "reading", group: "pillars" },
+  { slug: "pillar-sin-mi", track: "reading", group: "pillars" },
+  { slug: "pillar-im-sin", track: "reading", group: "pillars" },
+  { slug: "pillar-gye-yu", track: "reading", group: "pillars" },
+  { slug: "pillar-gap-sul", track: "reading", group: "pillars" },
+  { slug: "pillar-eul-hae", track: "reading", group: "pillars" },
+  { slug: "pillar-byeong-ja", track: "reading", group: "pillars" },
+  { slug: "pillar-jeong-chuk", track: "reading", group: "pillars" },
+  { slug: "pillar-mu-in", track: "reading", group: "pillars" },
+  { slug: "pillar-gi-myo", track: "reading", group: "pillars" },
+  { slug: "pillar-gyeong-jin", track: "reading", group: "pillars" },
+  { slug: "pillar-sin-sa", track: "reading", group: "pillars" },
+  { slug: "pillar-im-o", track: "reading", group: "pillars" },
+  { slug: "pillar-gye-mi", track: "reading", group: "pillars" },
+  { slug: "pillar-gap-sin", track: "reading", group: "pillars" },
+  { slug: "pillar-eul-yu", track: "reading", group: "pillars" },
+  { slug: "pillar-byeong-sul", track: "reading", group: "pillars" },
+  { slug: "pillar-jeong-hae", track: "reading", group: "pillars" },
+  { slug: "pillar-mu-ja", track: "reading", group: "pillars" },
+  { slug: "pillar-gi-chuk", track: "reading", group: "pillars" },
+  { slug: "pillar-gyeong-in", track: "reading", group: "pillars" },
+  { slug: "pillar-sin-myo", track: "reading", group: "pillars" },
+  { slug: "pillar-im-jin", track: "reading", group: "pillars" },
+  { slug: "pillar-gye-sa", track: "reading", group: "pillars" },
+  { slug: "pillar-gap-o", track: "reading", group: "pillars" },
+  { slug: "pillar-eul-mi", track: "reading", group: "pillars" },
+  { slug: "pillar-byeong-sin", track: "reading", group: "pillars" },
+  { slug: "pillar-jeong-yu", track: "reading", group: "pillars" },
+  { slug: "pillar-mu-sul", track: "reading", group: "pillars" },
+  { slug: "pillar-gi-hae", track: "reading", group: "pillars" },
+  { slug: "pillar-gyeong-ja", track: "reading", group: "pillars" },
+  { slug: "pillar-sin-chuk", track: "reading", group: "pillars" },
+  { slug: "pillar-im-in", track: "reading", group: "pillars" },
+  { slug: "pillar-gye-myo", track: "reading", group: "pillars" },
+  { slug: "pillar-gap-jin", track: "reading", group: "pillars" },
+  { slug: "pillar-eul-sa", track: "reading", group: "pillars" },
+  { slug: "pillar-byeong-o", track: "reading", group: "pillars" },
+  { slug: "pillar-jeong-mi", track: "reading", group: "pillars" },
+  { slug: "pillar-mu-sin", track: "reading", group: "pillars" },
+  { slug: "pillar-gi-yu", track: "reading", group: "pillars" },
+  { slug: "pillar-gyeong-sul", track: "reading", group: "pillars" },
+  { slug: "pillar-sin-hae", track: "reading", group: "pillars" },
+  { slug: "pillar-im-ja", track: "reading", group: "pillars" },
+  { slug: "pillar-gye-chuk", track: "reading", group: "pillars" },
+  { slug: "pillar-gap-in", track: "reading", group: "pillars" },
+  { slug: "pillar-eul-myo", track: "reading", group: "pillars" },
+  { slug: "pillar-byeong-jin", track: "reading", group: "pillars" },
+  { slug: "pillar-jeong-sa", track: "reading", group: "pillars" },
+  { slug: "pillar-mu-o", track: "reading", group: "pillars" },
+  { slug: "pillar-gi-mi", track: "reading", group: "pillars" },
+  { slug: "pillar-gyeong-sin", track: "reading", group: "pillars" },
+  { slug: "pillar-sin-yu", track: "reading", group: "pillars" },
+  { slug: "pillar-im-sul", track: "reading", group: "pillars" },
+  { slug: "pillar-gye-hae", track: "reading", group: "pillars" },
   { slug: "true-solar-time", track: "reading" },
   { slug: "today-fortune", track: "today" },
   { slug: "no-storage", track: "common" },
@@ -173,6 +189,16 @@ export function guideEntriesFor(fromService?: string): GuideEntry[] {
   const weight = (entry: GuideEntry) =>
     entry.track === track ? 0 : entry.track === "common" ? 1 : 2;
   return [...guideEntries].sort((a, b) => weight(a) - weight(b));
+}
+
+/** 허브 위쪽에 카드로 놓이는 문서 — 묶음에 안 든 것. 순서는 `entries`가 정한 그대로다. */
+export function cardEntries(entries: GuideEntry[]): GuideEntry[] {
+  return entries.filter((entry) => !entry.group);
+}
+
+/** 한 묶음에 든 문서. 선언된 순서 그대로다. */
+export function groupEntries(group: GuideGroup): GuideEntry[] {
+  return guideEntries.filter((entry) => entry.group === group);
 }
 
 /** sitemap·robots가 쓰는 색인 경로. 문서를 더하면 저절로 따라온다. */

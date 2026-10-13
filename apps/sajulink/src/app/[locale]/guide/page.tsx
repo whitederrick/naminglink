@@ -11,7 +11,14 @@ import {
   guideEntryOrders,
   guideServiceOrigins,
 } from "@/lib/guide-back";
-import { docKeyFor, guideEntriesFor } from "@/lib/guide-index";
+import {
+  cardEntries,
+  docKeyFor,
+  groupEntries,
+  guideEntriesFor,
+  guideGroups,
+  type GuideEntry,
+} from "@/lib/guide-index";
 import { routeLocale } from "@/lib/route-locale";
 import { localePath } from "@/lib/locale-path";
 import { buildPageMetadata } from "@/lib/seo";
@@ -52,7 +59,36 @@ export default async function GuideIndexPage({ params }: PageProps) {
   const doc = getDocPage(locale, "guide");
   const values = await docValues(locale);
   // 기본 순서로 그린다. 온 곳에 맞춘 순서는 브라우저가 CSS order로 갈아 끼운다.
-  const entries = guideEntriesFor(undefined);
+  const entries = cardEntries(guideEntriesFor(undefined));
+  // 사전 묶음(천간·지지·일주)은 카드 아래에 접어 둔다. 제목은 그 묶음 첫 문서의 꼬리표
+  // (`eyebrow`)를 쓴다 — 23개 언어로 이미 번역돼 있어 문구가 새로 생기지 않는다.
+  const groups = guideGroups.map((group) => {
+    const members = groupEntries(group);
+    return {
+      group,
+      members,
+      label: members.length ? getDocPage(locale, docKeyFor(members[0])).eyebrow : "",
+    };
+  });
+  const renderCard = (entry: GuideEntry) => {
+    const card = getDocPage(locale, docKeyFor(entry));
+    return (
+      <li key={entry.slug}>
+        <ReturnLink
+          // **문서의 「이전 화면으로」는 이 허브로 돌아온다**(`chain`, 2026-10-12).
+          // 허브 주소를 (허브가 달고 있는 returnTo 까지) 실어 문서 → 허브 → 처음 화면
+          // 으로 한 칸씩 돌아간다. 처음 화면으로 건너뛰면 단추 이름이 거짓말이 된다.
+          chain
+          href={localePath(`/guide/${entry.slug}`, locale)}
+          className="flex h-full flex-col rounded-xl border border-line bg-surface px-5 py-4 transition hover:bg-surface-strong"
+        >
+          <span className="text-xs font-semibold text-brand-plum">{card.eyebrow}</span>
+          <span className="break-keep-all mt-1 text-base font-semibold">{card.title}</span>
+          <span className="break-keep-all mt-2 text-sm leading-6 text-muted">{card.summary}</span>
+        </ReturnLink>
+      </li>
+    );
+  };
   // 안내를 부른 화면으로 돌려보낸다. 없으면 홈 — 그 이름은 이 문서가 갖고 있다.
   const back = guideBackLink(locale, undefined, doc.backLabel);
 
@@ -71,28 +107,29 @@ export default async function GuideIndexPage({ params }: PageProps) {
       {/* 카드 순서는 출처에 따라 갈리지만 **글은 그대로다.** 서버는 기본 순서로 그리고
           브라우저가 CSS order만 갈아 끼운다. */}
       <GuideEntryOrder orders={guideEntryOrders()} className="mt-8 grid gap-3 sm:grid-cols-2">
-        {entries.map((entry) => {
-          const card = getDocPage(locale, docKeyFor(entry));
-          return (
-            <li key={entry.slug}>
-              <ReturnLink
-                // **문서의 「이전 화면으로」는 이 허브로 돌아온다**(`chain`, 2026-10-12).
-                // 허브 주소를 (허브가 달고 있는 returnTo 까지) 실어 문서 → 허브 → 처음 화면
-                // 으로 한 칸씩 돌아간다. 처음 화면으로 건너뛰면 단추 이름이 거짓말이 된다.
-                chain
-                href={localePath(`/guide/${entry.slug}`, locale)}
-                className="flex h-full flex-col rounded-xl border border-line bg-surface px-5 py-4 transition hover:bg-surface-strong"
-              >
-                <span className="text-xs font-semibold text-brand-plum">{card.eyebrow}</span>
-                <span className="break-keep-all mt-1 text-base font-semibold">{card.title}</span>
-                <span className="break-keep-all mt-2 text-sm leading-6 text-muted">
-                  {card.summary}
-                </span>
-              </ReturnLink>
-            </li>
-          );
-        })}
+        {entries.map(renderCard)}
       </GuideEntryOrder>
+
+      {/* 사전 묶음 — 기본은 접혀 있다. `<details>`라 스크립트가 없고, 접힌 글도 HTML에 실려
+          크롤러가 링크를 따라간다. */}
+      <div className="mt-6 grid gap-3">
+        {groups.map(({ group, members, label }) =>
+          members.length === 0 ? null : (
+            <details
+              key={group}
+              className="rounded-xl border border-line bg-surface [&_summary::-webkit-details-marker]:hidden"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4 text-base font-semibold">
+                <span className="break-keep-all">{label}</span>
+                <span className="text-sm font-normal text-muted">{members.length}</span>
+              </summary>
+              <ul className="grid gap-3 border-t border-line p-4 sm:grid-cols-2">
+                {members.map(renderCard)}
+              </ul>
+            </details>
+          ),
+        )}
+      </div>
     </GuideShell>
   );
 }
