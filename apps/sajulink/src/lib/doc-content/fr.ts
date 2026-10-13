@@ -4308,10 +4308,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "甲子 est le pilier du jour numéro 1 du cycle de soixante ans",
+        "title": "甲子 est le pilier du jour numéro 1 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲子, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 1."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲子, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 子 (le Rat). Dans le cycle sexagésimal, c'est la combinaison numéro 1."
           },
           {
             "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -4369,7 +4369,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸亥](/guide/pillar-gye-hae) et le suivant est [乙丑](/guide/pillar-eul-chuk)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [癸亥](/guide/pillar-gye-hae) et le suivant est [乙丑](/guide/pillar-eul-chuk)."
           },
           {
             "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [子 (Rat)](/guide/branch-ja)."
@@ -4398,10 +4398,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "乙丑 est le pilier du jour numéro 2 du cycle de soixante ans",
+        "title": "乙丑 est le pilier du jour numéro 2 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙丑, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 2."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙丑, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle sexagésimal, c'est la combinaison numéro 2."
           },
           {
             "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -4465,7 +4465,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲子](/guide/pillar-gap-ja) et le suivant est [丙寅](/guide/pillar-byeong-in)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [甲子](/guide/pillar-gap-ja) et le suivant est [丙寅](/guide/pillar-byeong-in)."
           },
           {
             "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [丑 (Bœuf)](/guide/branch-chuk)."
@@ -4494,10 +4494,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丙寅 est le pilier du jour numéro 3 du cycle de soixante ans",
+        "title": "丙寅 est le pilier du jour numéro 3 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙寅, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 3."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙寅, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle sexagésimal, c'est la combinaison numéro 3."
           },
           {
             "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -4561,7 +4561,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙丑](/guide/pillar-eul-chuk) et le suivant est [丁卯](/guide/pillar-jeong-myo)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [乙丑](/guide/pillar-eul-chuk) et le suivant est [丁卯](/guide/pillar-jeong-myo)."
           },
           {
             "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [寅 (Tigre)](/guide/branch-in)."
@@ -4590,10 +4590,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丁卯 est le pilier du jour numéro 4 du cycle de soixante ans",
+        "title": "丁卯 est le pilier du jour numéro 4 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁卯, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 4."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁卯, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle sexagésimal, c'est la combinaison numéro 4."
           },
           {
             "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -4651,7 +4651,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙寅](/guide/pillar-byeong-in) et le suivant est [戊辰](/guide/pillar-mu-jin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丙寅](/guide/pillar-byeong-in) et le suivant est [戊辰](/guide/pillar-mu-jin)."
           },
           {
             "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [卯 (Lapin)](/guide/branch-myo)."
@@ -4680,10 +4680,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "戊辰 est le pilier du jour numéro 5 du cycle de soixante ans",
+        "title": "戊辰 est le pilier du jour numéro 5 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊辰, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 5."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊辰, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle sexagésimal, c'est la combinaison numéro 5."
           },
           {
             "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -4747,7 +4747,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁卯](/guide/pillar-jeong-myo) et le suivant est [己巳](/guide/pillar-gi-sa)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丁卯](/guide/pillar-jeong-myo) et le suivant est [己巳](/guide/pillar-gi-sa)."
           },
           {
             "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [辰 (Dragon)](/guide/branch-jin)."
@@ -4776,10 +4776,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "己巳 est le pilier du jour numéro 6 du cycle de soixante ans",
+        "title": "己巳 est le pilier du jour numéro 6 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己巳, la tige du jour est 己 (Terre, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 6."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己巳, la tige du jour est 己 (Terre, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle sexagésimal, c'est la combinaison numéro 6."
           },
           {
             "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -4843,7 +4843,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊辰](/guide/pillar-mu-jin) et le suivant est [庚午](/guide/pillar-gyeong-o)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [戊辰](/guide/pillar-mu-jin) et le suivant est [庚午](/guide/pillar-gyeong-o)."
           },
           {
             "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [巳 (Serpent)](/guide/branch-sa)."
@@ -4872,10 +4872,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "庚午 est le pilier du jour numéro 7 du cycle de soixante ans",
+        "title": "庚午 est le pilier du jour numéro 7 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚午, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 7."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚午, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle sexagésimal, c'est la combinaison numéro 7."
           },
           {
             "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -4939,7 +4939,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己巳](/guide/pillar-gi-sa) et le suivant est [辛未](/guide/pillar-sin-mi)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [己巳](/guide/pillar-gi-sa) et le suivant est [辛未](/guide/pillar-sin-mi)."
           },
           {
             "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [午 (Cheval)](/guide/branch-o)."
@@ -4968,10 +4968,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "辛未 est le pilier du jour numéro 8 du cycle de soixante ans",
+        "title": "辛未 est le pilier du jour numéro 8 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛未, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 8."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛未, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle sexagésimal, c'est la combinaison numéro 8."
           },
           {
             "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5035,7 +5035,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚午](/guide/pillar-gyeong-o) et le suivant est [壬申](/guide/pillar-im-sin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [庚午](/guide/pillar-gyeong-o) et le suivant est [壬申](/guide/pillar-im-sin)."
           },
           {
             "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [未 (Mouton)](/guide/branch-mi)."
@@ -5064,10 +5064,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "壬申 est le pilier du jour numéro 9 du cycle de soixante ans",
+        "title": "壬申 est le pilier du jour numéro 9 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬申, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 9."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬申, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 申 (le Singe). Dans le cycle sexagésimal, c'est la combinaison numéro 9."
           },
           {
             "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5131,7 +5131,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛未](/guide/pillar-sin-mi) et le suivant est [癸酉](/guide/pillar-gye-yu)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [辛未](/guide/pillar-sin-mi) et le suivant est [癸酉](/guide/pillar-gye-yu)."
           },
           {
             "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [申 (Singe)](/guide/branch-sin)."
@@ -5160,10 +5160,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "癸酉 est le pilier du jour numéro 10 du cycle de soixante ans",
+        "title": "癸酉 est le pilier du jour numéro 10 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸酉, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 10."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸酉, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle sexagésimal, c'est la combinaison numéro 10."
           },
           {
             "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5221,7 +5221,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬申](/guide/pillar-im-sin) et le suivant est [甲戌](/guide/pillar-gap-sul)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [壬申](/guide/pillar-im-sin) et le suivant est [甲戌](/guide/pillar-gap-sul)."
           },
           {
             "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [酉 (Coq)](/guide/branch-yu)."
@@ -5250,10 +5250,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "甲戌 est le pilier du jour numéro 11 du cycle de soixante ans",
+        "title": "甲戌 est le pilier du jour numéro 11 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲戌, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 11."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲戌, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle sexagésimal, c'est la combinaison numéro 11."
           },
           {
             "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5317,7 +5317,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸酉](/guide/pillar-gye-yu) et le suivant est [乙亥](/guide/pillar-eul-hae)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [癸酉](/guide/pillar-gye-yu) et le suivant est [乙亥](/guide/pillar-eul-hae)."
           },
           {
             "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [戌 (Chien)](/guide/branch-sul)."
@@ -5346,10 +5346,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "乙亥 est le pilier du jour numéro 12 du cycle de soixante ans",
+        "title": "乙亥 est le pilier du jour numéro 12 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙亥, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 12."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙亥, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle sexagésimal, c'est la combinaison numéro 12."
           },
           {
             "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5413,7 +5413,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲戌](/guide/pillar-gap-sul) et le suivant est [丙子](/guide/pillar-byeong-ja)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [甲戌](/guide/pillar-gap-sul) et le suivant est [丙子](/guide/pillar-byeong-ja)."
           },
           {
             "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [亥 (Cochon)](/guide/branch-hae)."
@@ -5442,10 +5442,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丙子 est le pilier du jour numéro 13 du cycle de soixante ans",
+        "title": "丙子 est le pilier du jour numéro 13 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙子, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 13."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙子, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 子 (le Rat). Dans le cycle sexagésimal, c'est la combinaison numéro 13."
           },
           {
             "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5503,7 +5503,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙亥](/guide/pillar-eul-hae) et le suivant est [丁丑](/guide/pillar-jeong-chuk)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [乙亥](/guide/pillar-eul-hae) et le suivant est [丁丑](/guide/pillar-jeong-chuk)."
           },
           {
             "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [子 (Rat)](/guide/branch-ja)."
@@ -5532,10 +5532,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丁丑 est le pilier du jour numéro 14 du cycle de soixante ans",
+        "title": "丁丑 est le pilier du jour numéro 14 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁丑, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 14."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁丑, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle sexagésimal, c'est la combinaison numéro 14."
           },
           {
             "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5599,7 +5599,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙子](/guide/pillar-byeong-ja) et le suivant est [戊寅](/guide/pillar-mu-in)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丙子](/guide/pillar-byeong-ja) et le suivant est [戊寅](/guide/pillar-mu-in)."
           },
           {
             "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [丑 (Bœuf)](/guide/branch-chuk)."
@@ -5628,10 +5628,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "戊寅 est le pilier du jour numéro 15 du cycle de soixante ans",
+        "title": "戊寅 est le pilier du jour numéro 15 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊寅, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 15."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊寅, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle sexagésimal, c'est la combinaison numéro 15."
           },
           {
             "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5695,7 +5695,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁丑](/guide/pillar-jeong-chuk) et le suivant est [己卯](/guide/pillar-gi-myo)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丁丑](/guide/pillar-jeong-chuk) et le suivant est [己卯](/guide/pillar-gi-myo)."
           },
           {
             "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [寅 (Tigre)](/guide/branch-in)."
@@ -5724,10 +5724,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "己卯 est le pilier du jour numéro 16 du cycle de soixante ans",
+        "title": "己卯 est le pilier du jour numéro 16 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己卯, la tige du jour est 己 (Terre, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 16."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己卯, la tige du jour est 己 (Terre, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle sexagésimal, c'est la combinaison numéro 16."
           },
           {
             "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5785,7 +5785,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊寅](/guide/pillar-mu-in) et le suivant est [庚辰](/guide/pillar-gyeong-jin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [戊寅](/guide/pillar-mu-in) et le suivant est [庚辰](/guide/pillar-gyeong-jin)."
           },
           {
             "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [卯 (Lapin)](/guide/branch-myo)."
@@ -5814,10 +5814,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "庚辰 est le pilier du jour numéro 17 du cycle de soixante ans",
+        "title": "庚辰 est le pilier du jour numéro 17 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚辰, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 17."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚辰, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle sexagésimal, c'est la combinaison numéro 17."
           },
           {
             "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5881,7 +5881,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己卯](/guide/pillar-gi-myo) et le suivant est [辛巳](/guide/pillar-sin-sa)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [己卯](/guide/pillar-gi-myo) et le suivant est [辛巳](/guide/pillar-sin-sa)."
           },
           {
             "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [辰 (Dragon)](/guide/branch-jin)."
@@ -5910,10 +5910,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "辛巳 est le pilier du jour numéro 18 du cycle de soixante ans",
+        "title": "辛巳 est le pilier du jour numéro 18 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛巳, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 18."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛巳, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle sexagésimal, c'est la combinaison numéro 18."
           },
           {
             "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -5977,7 +5977,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚辰](/guide/pillar-gyeong-jin) et le suivant est [壬午](/guide/pillar-im-o)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [庚辰](/guide/pillar-gyeong-jin) et le suivant est [壬午](/guide/pillar-im-o)."
           },
           {
             "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [巳 (Serpent)](/guide/branch-sa)."
@@ -6006,10 +6006,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "壬午 est le pilier du jour numéro 19 du cycle de soixante ans",
+        "title": "壬午 est le pilier du jour numéro 19 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬午, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 19."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬午, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle sexagésimal, c'est la combinaison numéro 19."
           },
           {
             "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6073,7 +6073,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛巳](/guide/pillar-sin-sa) et le suivant est [癸未](/guide/pillar-gye-mi)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [辛巳](/guide/pillar-sin-sa) et le suivant est [癸未](/guide/pillar-gye-mi)."
           },
           {
             "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [午 (Cheval)](/guide/branch-o)."
@@ -6102,10 +6102,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "癸未 est le pilier du jour numéro 20 du cycle de soixante ans",
+        "title": "癸未 est le pilier du jour numéro 20 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸未, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 20."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸未, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle sexagésimal, c'est la combinaison numéro 20."
           },
           {
             "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6169,7 +6169,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬午](/guide/pillar-im-o) et le suivant est [甲申](/guide/pillar-gap-sin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [壬午](/guide/pillar-im-o) et le suivant est [甲申](/guide/pillar-gap-sin)."
           },
           {
             "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [未 (Mouton)](/guide/branch-mi)."
@@ -6198,10 +6198,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "甲申 est le pilier du jour numéro 21 du cycle de soixante ans",
+        "title": "甲申 est le pilier du jour numéro 21 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲申, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 21."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲申, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 申 (le Singe). Dans le cycle sexagésimal, c'est la combinaison numéro 21."
           },
           {
             "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6265,7 +6265,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸未](/guide/pillar-gye-mi) et le suivant est [乙酉](/guide/pillar-eul-yu)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [癸未](/guide/pillar-gye-mi) et le suivant est [乙酉](/guide/pillar-eul-yu)."
           },
           {
             "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [申 (Singe)](/guide/branch-sin)."
@@ -6294,10 +6294,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "乙酉 est le pilier du jour numéro 22 du cycle de soixante ans",
+        "title": "乙酉 est le pilier du jour numéro 22 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙酉, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 22."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙酉, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle sexagésimal, c'est la combinaison numéro 22."
           },
           {
             "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6355,7 +6355,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲申](/guide/pillar-gap-sin) et le suivant est [丙戌](/guide/pillar-byeong-sul)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [甲申](/guide/pillar-gap-sin) et le suivant est [丙戌](/guide/pillar-byeong-sul)."
           },
           {
             "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [酉 (Coq)](/guide/branch-yu)."
@@ -6384,10 +6384,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丙戌 est le pilier du jour numéro 23 du cycle de soixante ans",
+        "title": "丙戌 est le pilier du jour numéro 23 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙戌, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 23."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙戌, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle sexagésimal, c'est la combinaison numéro 23."
           },
           {
             "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6451,7 +6451,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙酉](/guide/pillar-eul-yu) et le suivant est [丁亥](/guide/pillar-jeong-hae)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [乙酉](/guide/pillar-eul-yu) et le suivant est [丁亥](/guide/pillar-jeong-hae)."
           },
           {
             "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [戌 (Chien)](/guide/branch-sul)."
@@ -6480,10 +6480,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丁亥 est le pilier du jour numéro 24 du cycle de soixante ans",
+        "title": "丁亥 est le pilier du jour numéro 24 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁亥, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 24."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁亥, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle sexagésimal, c'est la combinaison numéro 24."
           },
           {
             "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6547,7 +6547,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙戌](/guide/pillar-byeong-sul) et le suivant est [戊子](/guide/pillar-mu-ja)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丙戌](/guide/pillar-byeong-sul) et le suivant est [戊子](/guide/pillar-mu-ja)."
           },
           {
             "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [亥 (Cochon)](/guide/branch-hae)."
@@ -6576,10 +6576,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "戊子 est le pilier du jour numéro 25 du cycle de soixante ans",
+        "title": "戊子 est le pilier du jour numéro 25 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊子, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 25."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊子, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 子 (le Rat). Dans le cycle sexagésimal, c'est la combinaison numéro 25."
           },
           {
             "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6637,7 +6637,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁亥](/guide/pillar-jeong-hae) et le suivant est [己丑](/guide/pillar-gi-chuk)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丁亥](/guide/pillar-jeong-hae) et le suivant est [己丑](/guide/pillar-gi-chuk)."
           },
           {
             "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [子 (Rat)](/guide/branch-ja)."
@@ -6666,10 +6666,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "己丑 est le pilier du jour numéro 26 du cycle de soixante ans",
+        "title": "己丑 est le pilier du jour numéro 26 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己丑, la tige du jour est 己 (Terre, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 26."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己丑, la tige du jour est 己 (Terre, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle sexagésimal, c'est la combinaison numéro 26."
           },
           {
             "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6733,7 +6733,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊子](/guide/pillar-mu-ja) et le suivant est [庚寅](/guide/pillar-gyeong-in)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [戊子](/guide/pillar-mu-ja) et le suivant est [庚寅](/guide/pillar-gyeong-in)."
           },
           {
             "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [丑 (Bœuf)](/guide/branch-chuk)."
@@ -6762,10 +6762,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "庚寅 est le pilier du jour numéro 27 du cycle de soixante ans",
+        "title": "庚寅 est le pilier du jour numéro 27 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚寅, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 27."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚寅, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle sexagésimal, c'est la combinaison numéro 27."
           },
           {
             "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6829,7 +6829,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己丑](/guide/pillar-gi-chuk) et le suivant est [辛卯](/guide/pillar-sin-myo)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [己丑](/guide/pillar-gi-chuk) et le suivant est [辛卯](/guide/pillar-sin-myo)."
           },
           {
             "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [寅 (Tigre)](/guide/branch-in)."
@@ -6858,10 +6858,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "辛卯 est le pilier du jour numéro 28 du cycle de soixante ans",
+        "title": "辛卯 est le pilier du jour numéro 28 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛卯, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 28."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛卯, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle sexagésimal, c'est la combinaison numéro 28."
           },
           {
             "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -6919,7 +6919,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚寅](/guide/pillar-gyeong-in) et le suivant est [壬辰](/guide/pillar-im-jin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [庚寅](/guide/pillar-gyeong-in) et le suivant est [壬辰](/guide/pillar-im-jin)."
           },
           {
             "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [卯 (Lapin)](/guide/branch-myo)."
@@ -6948,10 +6948,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "壬辰 est le pilier du jour numéro 29 du cycle de soixante ans",
+        "title": "壬辰 est le pilier du jour numéro 29 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬辰, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 29."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬辰, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle sexagésimal, c'est la combinaison numéro 29."
           },
           {
             "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7015,7 +7015,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛卯](/guide/pillar-sin-myo) et le suivant est [癸巳](/guide/pillar-gye-sa)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [辛卯](/guide/pillar-sin-myo) et le suivant est [癸巳](/guide/pillar-gye-sa)."
           },
           {
             "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [辰 (Dragon)](/guide/branch-jin)."
@@ -7044,10 +7044,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "癸巳 est le pilier du jour numéro 30 du cycle de soixante ans",
+        "title": "癸巳 est le pilier du jour numéro 30 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸巳, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 30."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸巳, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle sexagésimal, c'est la combinaison numéro 30."
           },
           {
             "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7111,7 +7111,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬辰](/guide/pillar-im-jin) et le suivant est [甲午](/guide/pillar-gap-o)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [壬辰](/guide/pillar-im-jin) et le suivant est [甲午](/guide/pillar-gap-o)."
           },
           {
             "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [巳 (Serpent)](/guide/branch-sa)."
@@ -7140,10 +7140,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "甲午 est le pilier du jour numéro 31 du cycle de soixante ans",
+        "title": "甲午 est le pilier du jour numéro 31 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲午, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 31."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲午, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle sexagésimal, c'est la combinaison numéro 31."
           },
           {
             "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7207,7 +7207,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸巳](/guide/pillar-gye-sa) et le suivant est [乙未](/guide/pillar-eul-mi)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [癸巳](/guide/pillar-gye-sa) et le suivant est [乙未](/guide/pillar-eul-mi)."
           },
           {
             "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [午 (Cheval)](/guide/branch-o)."
@@ -7236,10 +7236,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "乙未 est le pilier du jour numéro 32 du cycle de soixante ans",
+        "title": "乙未 est le pilier du jour numéro 32 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙未, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 32."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙未, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle sexagésimal, c'est la combinaison numéro 32."
           },
           {
             "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7303,7 +7303,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲午](/guide/pillar-gap-o) et le suivant est [丙申](/guide/pillar-byeong-sin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [甲午](/guide/pillar-gap-o) et le suivant est [丙申](/guide/pillar-byeong-sin)."
           },
           {
             "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [未 (Mouton)](/guide/branch-mi)."
@@ -7332,10 +7332,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丙申 est le pilier du jour numéro 33 du cycle de soixante ans",
+        "title": "丙申 est le pilier du jour numéro 33 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙申, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 33."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙申, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 申 (le Singe). Dans le cycle sexagésimal, c'est la combinaison numéro 33."
           },
           {
             "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7399,7 +7399,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙未](/guide/pillar-eul-mi) et le suivant est [丁酉](/guide/pillar-jeong-yu)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [乙未](/guide/pillar-eul-mi) et le suivant est [丁酉](/guide/pillar-jeong-yu)."
           },
           {
             "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [申 (Singe)](/guide/branch-sin)."
@@ -7428,10 +7428,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丁酉 est le pilier du jour numéro 34 du cycle de soixante ans",
+        "title": "丁酉 est le pilier du jour numéro 34 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁酉, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 34."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁酉, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle sexagésimal, c'est la combinaison numéro 34."
           },
           {
             "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7489,7 +7489,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙申](/guide/pillar-byeong-sin) et le suivant est [戊戌](/guide/pillar-mu-sul)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丙申](/guide/pillar-byeong-sin) et le suivant est [戊戌](/guide/pillar-mu-sul)."
           },
           {
             "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [酉 (Coq)](/guide/branch-yu)."
@@ -7518,10 +7518,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "戊戌 est le pilier du jour numéro 35 du cycle de soixante ans",
+        "title": "戊戌 est le pilier du jour numéro 35 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊戌, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 35."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊戌, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle sexagésimal, c'est la combinaison numéro 35."
           },
           {
             "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7585,7 +7585,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁酉](/guide/pillar-jeong-yu) et le suivant est [己亥](/guide/pillar-gi-hae)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丁酉](/guide/pillar-jeong-yu) et le suivant est [己亥](/guide/pillar-gi-hae)."
           },
           {
             "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [戌 (Chien)](/guide/branch-sul)."
@@ -7614,10 +7614,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "己亥 est le pilier du jour numéro 36 du cycle de soixante ans",
+        "title": "己亥 est le pilier du jour numéro 36 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己亥, la tige du jour est 己 (Terre, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 36."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己亥, la tige du jour est 己 (Terre, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle sexagésimal, c'est la combinaison numéro 36."
           },
           {
             "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7681,7 +7681,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊戌](/guide/pillar-mu-sul) et le suivant est [庚子](/guide/pillar-gyeong-ja)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [戊戌](/guide/pillar-mu-sul) et le suivant est [庚子](/guide/pillar-gyeong-ja)."
           },
           {
             "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [亥 (Cochon)](/guide/branch-hae)."
@@ -7710,10 +7710,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "庚子 est le pilier du jour numéro 37 du cycle de soixante ans",
+        "title": "庚子 est le pilier du jour numéro 37 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚子, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 37."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚子, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 子 (le Rat). Dans le cycle sexagésimal, c'est la combinaison numéro 37."
           },
           {
             "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7771,7 +7771,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己亥](/guide/pillar-gi-hae) et le suivant est [辛丑](/guide/pillar-sin-chuk)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [己亥](/guide/pillar-gi-hae) et le suivant est [辛丑](/guide/pillar-sin-chuk)."
           },
           {
             "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [子 (Rat)](/guide/branch-ja)."
@@ -7800,10 +7800,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "辛丑 est le pilier du jour numéro 38 du cycle de soixante ans",
+        "title": "辛丑 est le pilier du jour numéro 38 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛丑, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 38."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛丑, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle sexagésimal, c'est la combinaison numéro 38."
           },
           {
             "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7867,7 +7867,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚子](/guide/pillar-gyeong-ja) et le suivant est [壬寅](/guide/pillar-im-in)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [庚子](/guide/pillar-gyeong-ja) et le suivant est [壬寅](/guide/pillar-im-in)."
           },
           {
             "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [丑 (Bœuf)](/guide/branch-chuk)."
@@ -7896,10 +7896,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "壬寅 est le pilier du jour numéro 39 du cycle de soixante ans",
+        "title": "壬寅 est le pilier du jour numéro 39 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬寅, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 39."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬寅, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle sexagésimal, c'est la combinaison numéro 39."
           },
           {
             "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -7963,7 +7963,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛丑](/guide/pillar-sin-chuk) et le suivant est [癸卯](/guide/pillar-gye-myo)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [辛丑](/guide/pillar-sin-chuk) et le suivant est [癸卯](/guide/pillar-gye-myo)."
           },
           {
             "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [寅 (Tigre)](/guide/branch-in)."
@@ -7992,10 +7992,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "癸卯 est le pilier du jour numéro 40 du cycle de soixante ans",
+        "title": "癸卯 est le pilier du jour numéro 40 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸卯, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 40."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸卯, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle sexagésimal, c'est la combinaison numéro 40."
           },
           {
             "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8053,7 +8053,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬寅](/guide/pillar-im-in) et le suivant est [甲辰](/guide/pillar-gap-jin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [壬寅](/guide/pillar-im-in) et le suivant est [甲辰](/guide/pillar-gap-jin)."
           },
           {
             "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [卯 (Lapin)](/guide/branch-myo)."
@@ -8082,10 +8082,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "甲辰 est le pilier du jour numéro 41 du cycle de soixante ans",
+        "title": "甲辰 est le pilier du jour numéro 41 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲辰, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 41."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲辰, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle sexagésimal, c'est la combinaison numéro 41."
           },
           {
             "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8149,7 +8149,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸卯](/guide/pillar-gye-myo) et le suivant est [乙巳](/guide/pillar-eul-sa)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [癸卯](/guide/pillar-gye-myo) et le suivant est [乙巳](/guide/pillar-eul-sa)."
           },
           {
             "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [辰 (Dragon)](/guide/branch-jin)."
@@ -8178,10 +8178,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "乙巳 est le pilier du jour numéro 42 du cycle de soixante ans",
+        "title": "乙巳 est le pilier du jour numéro 42 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙巳, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 42."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙巳, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle sexagésimal, c'est la combinaison numéro 42."
           },
           {
             "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8245,7 +8245,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲辰](/guide/pillar-gap-jin) et le suivant est [丙午](/guide/pillar-byeong-o)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [甲辰](/guide/pillar-gap-jin) et le suivant est [丙午](/guide/pillar-byeong-o)."
           },
           {
             "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [巳 (Serpent)](/guide/branch-sa)."
@@ -8274,10 +8274,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丙午 est le pilier du jour numéro 43 du cycle de soixante ans",
+        "title": "丙午 est le pilier du jour numéro 43 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙午, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 43."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙午, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle sexagésimal, c'est la combinaison numéro 43."
           },
           {
             "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8341,7 +8341,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙巳](/guide/pillar-eul-sa) et le suivant est [丁未](/guide/pillar-jeong-mi)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [乙巳](/guide/pillar-eul-sa) et le suivant est [丁未](/guide/pillar-jeong-mi)."
           },
           {
             "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [午 (Cheval)](/guide/branch-o)."
@@ -8370,10 +8370,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丁未 est le pilier du jour numéro 44 du cycle de soixante ans",
+        "title": "丁未 est le pilier du jour numéro 44 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁未, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 44."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁未, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle sexagésimal, c'est la combinaison numéro 44."
           },
           {
             "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8437,7 +8437,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙午](/guide/pillar-byeong-o) et le suivant est [戊申](/guide/pillar-mu-sin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丙午](/guide/pillar-byeong-o) et le suivant est [戊申](/guide/pillar-mu-sin)."
           },
           {
             "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [未 (Mouton)](/guide/branch-mi)."
@@ -8466,10 +8466,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "戊申 est le pilier du jour numéro 45 du cycle de soixante ans",
+        "title": "戊申 est le pilier du jour numéro 45 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊申, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 45."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊申, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 申 (le Singe). Dans le cycle sexagésimal, c'est la combinaison numéro 45."
           },
           {
             "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8533,7 +8533,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁未](/guide/pillar-jeong-mi) et le suivant est [己酉](/guide/pillar-gi-yu)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丁未](/guide/pillar-jeong-mi) et le suivant est [己酉](/guide/pillar-gi-yu)."
           },
           {
             "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [申 (Singe)](/guide/branch-sin)."
@@ -8562,10 +8562,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "己酉 est le pilier du jour numéro 46 du cycle de soixante ans",
+        "title": "己酉 est le pilier du jour numéro 46 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己酉, la tige du jour est 己 (Terre, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 46."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己酉, la tige du jour est 己 (Terre, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle sexagésimal, c'est la combinaison numéro 46."
           },
           {
             "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8623,7 +8623,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊申](/guide/pillar-mu-sin) et le suivant est [庚戌](/guide/pillar-gyeong-sul)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [戊申](/guide/pillar-mu-sin) et le suivant est [庚戌](/guide/pillar-gyeong-sul)."
           },
           {
             "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [酉 (Coq)](/guide/branch-yu)."
@@ -8652,10 +8652,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "庚戌 est le pilier du jour numéro 47 du cycle de soixante ans",
+        "title": "庚戌 est le pilier du jour numéro 47 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚戌, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 47."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚戌, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle sexagésimal, c'est la combinaison numéro 47."
           },
           {
             "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8719,7 +8719,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己酉](/guide/pillar-gi-yu) et le suivant est [辛亥](/guide/pillar-sin-hae)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [己酉](/guide/pillar-gi-yu) et le suivant est [辛亥](/guide/pillar-sin-hae)."
           },
           {
             "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [戌 (Chien)](/guide/branch-sul)."
@@ -8748,10 +8748,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "辛亥 est le pilier du jour numéro 48 du cycle de soixante ans",
+        "title": "辛亥 est le pilier du jour numéro 48 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛亥, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 48."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛亥, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle sexagésimal, c'est la combinaison numéro 48."
           },
           {
             "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8815,7 +8815,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚戌](/guide/pillar-gyeong-sul) et le suivant est [壬子](/guide/pillar-im-ja)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [庚戌](/guide/pillar-gyeong-sul) et le suivant est [壬子](/guide/pillar-im-ja)."
           },
           {
             "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [亥 (Cochon)](/guide/branch-hae)."
@@ -8844,10 +8844,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "壬子 est le pilier du jour numéro 49 du cycle de soixante ans",
+        "title": "壬子 est le pilier du jour numéro 49 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬子, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 49."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬子, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 子 (le Rat). Dans le cycle sexagésimal, c'est la combinaison numéro 49."
           },
           {
             "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -8905,7 +8905,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛亥](/guide/pillar-sin-hae) et le suivant est [癸丑](/guide/pillar-gye-chuk)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [辛亥](/guide/pillar-sin-hae) et le suivant est [癸丑](/guide/pillar-gye-chuk)."
           },
           {
             "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [子 (Rat)](/guide/branch-ja)."
@@ -8934,10 +8934,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "癸丑 est le pilier du jour numéro 50 du cycle de soixante ans",
+        "title": "癸丑 est le pilier du jour numéro 50 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸丑, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 50."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸丑, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle sexagésimal, c'est la combinaison numéro 50."
           },
           {
             "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9001,7 +9001,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬子](/guide/pillar-im-ja) et le suivant est [甲寅](/guide/pillar-gap-in)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [壬子](/guide/pillar-im-ja) et le suivant est [甲寅](/guide/pillar-gap-in)."
           },
           {
             "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [丑 (Bœuf)](/guide/branch-chuk)."
@@ -9030,10 +9030,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "甲寅 est le pilier du jour numéro 51 du cycle de soixante ans",
+        "title": "甲寅 est le pilier du jour numéro 51 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲寅, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 51."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲寅, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle sexagésimal, c'est la combinaison numéro 51."
           },
           {
             "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9097,7 +9097,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸丑](/guide/pillar-gye-chuk) et le suivant est [乙卯](/guide/pillar-eul-myo)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [癸丑](/guide/pillar-gye-chuk) et le suivant est [乙卯](/guide/pillar-eul-myo)."
           },
           {
             "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [寅 (Tigre)](/guide/branch-in)."
@@ -9126,10 +9126,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "乙卯 est le pilier du jour numéro 52 du cycle de soixante ans",
+        "title": "乙卯 est le pilier du jour numéro 52 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙卯, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 52."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙卯, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle sexagésimal, c'est la combinaison numéro 52."
           },
           {
             "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9187,7 +9187,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲寅](/guide/pillar-gap-in) et le suivant est [丙辰](/guide/pillar-byeong-jin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [甲寅](/guide/pillar-gap-in) et le suivant est [丙辰](/guide/pillar-byeong-jin)."
           },
           {
             "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [卯 (Lapin)](/guide/branch-myo)."
@@ -9216,10 +9216,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丙辰 est le pilier du jour numéro 53 du cycle de soixante ans",
+        "title": "丙辰 est le pilier du jour numéro 53 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙辰, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 53."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙辰, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle sexagésimal, c'est la combinaison numéro 53."
           },
           {
             "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9283,7 +9283,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙卯](/guide/pillar-eul-myo) et le suivant est [丁巳](/guide/pillar-jeong-sa)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [乙卯](/guide/pillar-eul-myo) et le suivant est [丁巳](/guide/pillar-jeong-sa)."
           },
           {
             "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [辰 (Dragon)](/guide/branch-jin)."
@@ -9312,10 +9312,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "丁巳 est le pilier du jour numéro 54 du cycle de soixante ans",
+        "title": "丁巳 est le pilier du jour numéro 54 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁巳, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 54."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁巳, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle sexagésimal, c'est la combinaison numéro 54."
           },
           {
             "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9379,7 +9379,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙辰](/guide/pillar-byeong-jin) et le suivant est [戊午](/guide/pillar-mu-o)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丙辰](/guide/pillar-byeong-jin) et le suivant est [戊午](/guide/pillar-mu-o)."
           },
           {
             "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [巳 (Serpent)](/guide/branch-sa)."
@@ -9408,10 +9408,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "戊午 est le pilier du jour numéro 55 du cycle de soixante ans",
+        "title": "戊午 est le pilier du jour numéro 55 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊午, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 55."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊午, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle sexagésimal, c'est la combinaison numéro 55."
           },
           {
             "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9475,7 +9475,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁巳](/guide/pillar-jeong-sa) et le suivant est [己未](/guide/pillar-gi-mi)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [丁巳](/guide/pillar-jeong-sa) et le suivant est [己未](/guide/pillar-gi-mi)."
           },
           {
             "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [午 (Cheval)](/guide/branch-o)."
@@ -9504,10 +9504,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "己未 est le pilier du jour numéro 56 du cycle de soixante ans",
+        "title": "己未 est le pilier du jour numéro 56 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己未, la tige du jour est 己 (Terre, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 56."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己未, la tige du jour est 己 (Terre, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle sexagésimal, c'est la combinaison numéro 56."
           },
           {
             "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9571,7 +9571,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊午](/guide/pillar-mu-o) et le suivant est [庚申](/guide/pillar-gyeong-sin)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [戊午](/guide/pillar-mu-o) et le suivant est [庚申](/guide/pillar-gyeong-sin)."
           },
           {
             "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [未 (Mouton)](/guide/branch-mi)."
@@ -9600,10 +9600,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "庚申 est le pilier du jour numéro 57 du cycle de soixante ans",
+        "title": "庚申 est le pilier du jour numéro 57 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚申, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 57."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚申, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 申 (le Singe). Dans le cycle sexagésimal, c'est la combinaison numéro 57."
           },
           {
             "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9667,7 +9667,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己未](/guide/pillar-gi-mi) et le suivant est [辛酉](/guide/pillar-sin-yu)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [己未](/guide/pillar-gi-mi) et le suivant est [辛酉](/guide/pillar-sin-yu)."
           },
           {
             "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [申 (Singe)](/guide/branch-sin)."
@@ -9696,10 +9696,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "辛酉 est le pilier du jour numéro 58 du cycle de soixante ans",
+        "title": "辛酉 est le pilier du jour numéro 58 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛酉, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 58."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛酉, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle sexagésimal, c'est la combinaison numéro 58."
           },
           {
             "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9757,7 +9757,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚申](/guide/pillar-gyeong-sin) et le suivant est [壬戌](/guide/pillar-im-sul)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [庚申](/guide/pillar-gyeong-sin) et le suivant est [壬戌](/guide/pillar-im-sul)."
           },
           {
             "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [酉 (Coq)](/guide/branch-yu)."
@@ -9786,10 +9786,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "壬戌 est le pilier du jour numéro 59 du cycle de soixante ans",
+        "title": "壬戌 est le pilier du jour numéro 59 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬戌, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 59."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬戌, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle sexagésimal, c'est la combinaison numéro 59."
           },
           {
             "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9853,7 +9853,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛酉](/guide/pillar-sin-yu) et le suivant est [癸亥](/guide/pillar-gye-hae)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [辛酉](/guide/pillar-sin-yu) et le suivant est [癸亥](/guide/pillar-gye-hae)."
           },
           {
             "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [戌 (Chien)](/guide/branch-sul)."
@@ -9882,10 +9882,10 @@ export const FR_DOCS = {
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "癸亥 est le pilier du jour numéro 60 du cycle de soixante ans",
+        "title": "癸亥 est le pilier du jour numéro 60 du cycle sexagésimal",
         "blocks": [
           {
-            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸亥, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 60."
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸亥, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle sexagésimal, c'est la combinaison numéro 60."
           },
           {
             "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
@@ -9949,7 +9949,7 @@ export const FR_DOCS = {
         "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
         "blocks": [
           {
-            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬戌](/guide/pillar-im-sul) et le suivant est [甲子](/guide/pillar-gap-ja)."
+            "p": "Dans le cycle sexagésimal, le pilier du jour précédent est [壬戌](/guide/pillar-im-sul) et le suivant est [甲子](/guide/pillar-gap-ja)."
           },
           {
             "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [亥 (Cochon)](/guide/branch-hae)."

@@ -126,9 +126,31 @@ if (koreanFacts.length === 0) {
   fail("대조군이 없다 — 사업자 값에 한글이 하나도 없다. 이 검사는 아무것도 재고 있지 않다");
 } else {
   notes.push(`대조군: 한국어 사업자 값 ${koreanFacts.length}개 (${koreanFacts.map((f) => f.key).join(", ")})`);
+
+  /**
+   * **원문 그대로 내보내기로 결정한 값** (2026-10-13 등록).
+   *
+   * 통신판매업 신고번호(`제2026-서울금천-1798호`)는 **번역·로마자 표기를 하지 않고** 23개 언어에
+   * 같은 문자열로 낸다 — 신고증의 표기가 곧 법적 표시라는 사용자 결정이다(2026-09-02,
+   * 메모리 `mail-order-registration-number`). 그래서 로마자 표에 넣지 않았고, 이 검사는 그것을
+   * 「한글이 새고 있다」로 읽어 빨간불을 내고 있었다.
+   *
+   * **예외는 키가 아니라 키 + 값 한 쌍에 건다.** 번호가 바뀌면(재발급·정정) 이 예외가 더는 맞지
+   * 않아 다시 빨간불이 되고, 그때 새 값을 같은 결정으로 낼지 사람이 다시 판단한다. 키만으로
+   * 걸면 어떤 한글 값이 들어와도 말없이 통과한다.
+   */
+  const KEEP_AS_IS = [
+    { key: "mailOrderNumber", value: "제2026-서울금천-1798호" },
+  ];
+  const keptAsIs = (f) => KEEP_AS_IS.some((k) => k.key === f.key && k.value === f.value);
+
   for (const f of koreanFacts) {
     const knownRomanized = romanizeKeys.includes(f.value);
     const knownSentinel = sentinels.includes(f.value);
+    if (keptAsIs(f)) {
+      notes.push(`원문 그대로(사용자 결정): ${f.key}`);
+      continue;
+    }
     if (!knownRomanized && !knownSentinel) {
       fail(
         `${f.key}: 「${f.value}」 를 로마자 표도 「준비 중」 판정도 모른다 — ` +

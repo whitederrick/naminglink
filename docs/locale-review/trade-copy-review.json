@@ -10,8 +10,8 @@
       "positions": 66,
       "verdicts": { "good": 13, "doubt": 52, "fix": 1 },
       "unresolvedCritical": 0,
-      "unresolvedNote": "의심 52건은 전부 문구를 고쳐 반영했다(채택 30 · 수정 채택 22). 「고쳐야 함」 1건(D-mailOrderNumber)은 문구가 아니라 배선 결함이었고, /[locale]/contact 가 사업자 값을 변환 없이 그리던 것을 네 앱 모두 고쳐 배포했다(커밋 45becc9).",
-      "sourceHash": "6eecdc02355b888c2c3137af67d5f822e2aeac85d62610fe8447fb3c34f4d78f"
+      "unresolvedNote": "의심 52건은 전부 문구를 고쳐 반영했다(채택 30 · 수정 채택 22). 「고쳐야 함」 1건(D-mailOrderNumber)은 문구가 아니라 배선 결함이었고, /[locale]/contact 가 사업자 값을 변환 없이 그리던 것을 네 앱 모두 고쳐 배포했다(커밋 45becc9). 2026-10-13 사용자 재확인: 검수 뒤 바뀐 자리는 D-mailOrderNumber 한 칸뿐이었고(옛 값으로 되돌려 해시가 이 기록과 일치함을 확인), 통신판매업 신고번호는 고유값이라 원문(제2026-서울금천-1798호) 그대로 두기로 했다 — sourceHash 를 그 상태로 갱신했다.",
+      "sourceHash": "d8e184736c4e92030219d8d1f79f71e3b46cbb498a03d6b1ecbacdc9353388ad"
     }
   ]
 }

@@ -4308,10 +4308,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "甲子 é o pilar do dia número 1 do ciclo de sessenta anos",
+        "title": "甲子 é o pilar do dia número 1 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 甲子, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 1."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲子, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 子 (Rato). No ciclo sexagenário, é a combinação número 1."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -4369,7 +4369,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸亥](/guide/pillar-gye-hae) e o seguinte é [乙丑](/guide/pillar-eul-chuk)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [癸亥](/guide/pillar-gye-hae) e o seguinte é [乙丑](/guide/pillar-eul-chuk)."
           },
           {
             "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [子 (Rato)](/guide/branch-ja)."
@@ -4398,10 +4398,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "乙丑 é o pilar do dia número 2 do ciclo de sessenta anos",
+        "title": "乙丑 é o pilar do dia número 2 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 乙丑, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 2."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙丑, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 丑 (Boi). No ciclo sexagenário, é a combinação número 2."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -4465,7 +4465,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲子](/guide/pillar-gap-ja) e o seguinte é [丙寅](/guide/pillar-byeong-in)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [甲子](/guide/pillar-gap-ja) e o seguinte é [丙寅](/guide/pillar-byeong-in)."
           },
           {
             "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [丑 (Boi)](/guide/branch-chuk)."
@@ -4494,10 +4494,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丙寅 é o pilar do dia número 3 do ciclo de sessenta anos",
+        "title": "丙寅 é o pilar do dia número 3 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丙寅, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 3."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙寅, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 寅 (Tigre). No ciclo sexagenário, é a combinação número 3."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -4561,7 +4561,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙丑](/guide/pillar-eul-chuk) e o seguinte é [丁卯](/guide/pillar-jeong-myo)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [乙丑](/guide/pillar-eul-chuk) e o seguinte é [丁卯](/guide/pillar-jeong-myo)."
           },
           {
             "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [寅 (Tigre)](/guide/branch-in)."
@@ -4590,10 +4590,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丁卯 é o pilar do dia número 4 do ciclo de sessenta anos",
+        "title": "丁卯 é o pilar do dia número 4 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丁卯, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 4."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁卯, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 卯 (Coelho). No ciclo sexagenário, é a combinação número 4."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -4651,7 +4651,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙寅](/guide/pillar-byeong-in) e o seguinte é [戊辰](/guide/pillar-mu-jin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丙寅](/guide/pillar-byeong-in) e o seguinte é [戊辰](/guide/pillar-mu-jin)."
           },
           {
             "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [卯 (Coelho)](/guide/branch-myo)."
@@ -4680,10 +4680,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "戊辰 é o pilar do dia número 5 do ciclo de sessenta anos",
+        "title": "戊辰 é o pilar do dia número 5 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 戊辰, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 5."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊辰, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 辰 (Dragão). No ciclo sexagenário, é a combinação número 5."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -4747,7 +4747,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁卯](/guide/pillar-jeong-myo) e o seguinte é [己巳](/guide/pillar-gi-sa)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丁卯](/guide/pillar-jeong-myo) e o seguinte é [己巳](/guide/pillar-gi-sa)."
           },
           {
             "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [辰 (Dragão)](/guide/branch-jin)."
@@ -4776,10 +4776,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "己巳 é o pilar do dia número 6 do ciclo de sessenta anos",
+        "title": "己巳 é o pilar do dia número 6 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 己巳, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 6."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己巳, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 巳 (Serpente). No ciclo sexagenário, é a combinação número 6."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -4843,7 +4843,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊辰](/guide/pillar-mu-jin) e o seguinte é [庚午](/guide/pillar-gyeong-o)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [戊辰](/guide/pillar-mu-jin) e o seguinte é [庚午](/guide/pillar-gyeong-o)."
           },
           {
             "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [巳 (Serpente)](/guide/branch-sa)."
@@ -4872,10 +4872,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "庚午 é o pilar do dia número 7 do ciclo de sessenta anos",
+        "title": "庚午 é o pilar do dia número 7 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 庚午, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 7."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚午, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 午 (Cavalo). No ciclo sexagenário, é a combinação número 7."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -4939,7 +4939,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己巳](/guide/pillar-gi-sa) e o seguinte é [辛未](/guide/pillar-sin-mi)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [己巳](/guide/pillar-gi-sa) e o seguinte é [辛未](/guide/pillar-sin-mi)."
           },
           {
             "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [午 (Cavalo)](/guide/branch-o)."
@@ -4968,10 +4968,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "辛未 é o pilar do dia número 8 do ciclo de sessenta anos",
+        "title": "辛未 é o pilar do dia número 8 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 辛未, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 8."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛未, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 未 (Ovelha). No ciclo sexagenário, é a combinação número 8."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5035,7 +5035,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚午](/guide/pillar-gyeong-o) e o seguinte é [壬申](/guide/pillar-im-sin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [庚午](/guide/pillar-gyeong-o) e o seguinte é [壬申](/guide/pillar-im-sin)."
           },
           {
             "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [未 (Ovelha)](/guide/branch-mi)."
@@ -5064,10 +5064,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "壬申 é o pilar do dia número 9 do ciclo de sessenta anos",
+        "title": "壬申 é o pilar do dia número 9 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 壬申, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 9."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬申, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 申 (Macaco). No ciclo sexagenário, é a combinação número 9."
           },
           {
             "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5131,7 +5131,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛未](/guide/pillar-sin-mi) e o seguinte é [癸酉](/guide/pillar-gye-yu)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [辛未](/guide/pillar-sin-mi) e o seguinte é [癸酉](/guide/pillar-gye-yu)."
           },
           {
             "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [申 (Macaco)](/guide/branch-sin)."
@@ -5160,10 +5160,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "癸酉 é o pilar do dia número 10 do ciclo de sessenta anos",
+        "title": "癸酉 é o pilar do dia número 10 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 癸酉, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 10."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸酉, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 酉 (Galo). No ciclo sexagenário, é a combinação número 10."
           },
           {
             "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5221,7 +5221,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬申](/guide/pillar-im-sin) e o seguinte é [甲戌](/guide/pillar-gap-sul)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [壬申](/guide/pillar-im-sin) e o seguinte é [甲戌](/guide/pillar-gap-sul)."
           },
           {
             "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [酉 (Galo)](/guide/branch-yu)."
@@ -5250,10 +5250,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "甲戌 é o pilar do dia número 11 do ciclo de sessenta anos",
+        "title": "甲戌 é o pilar do dia número 11 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 甲戌, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 11."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲戌, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 戌 (Cão). No ciclo sexagenário, é a combinação número 11."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5317,7 +5317,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸酉](/guide/pillar-gye-yu) e o seguinte é [乙亥](/guide/pillar-eul-hae)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [癸酉](/guide/pillar-gye-yu) e o seguinte é [乙亥](/guide/pillar-eul-hae)."
           },
           {
             "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [戌 (Cão)](/guide/branch-sul)."
@@ -5346,10 +5346,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "乙亥 é o pilar do dia número 12 do ciclo de sessenta anos",
+        "title": "乙亥 é o pilar do dia número 12 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 乙亥, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 12."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙亥, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 亥 (Porco). No ciclo sexagenário, é a combinação número 12."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5413,7 +5413,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲戌](/guide/pillar-gap-sul) e o seguinte é [丙子](/guide/pillar-byeong-ja)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [甲戌](/guide/pillar-gap-sul) e o seguinte é [丙子](/guide/pillar-byeong-ja)."
           },
           {
             "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [亥 (Porco)](/guide/branch-hae)."
@@ -5442,10 +5442,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丙子 é o pilar do dia número 13 do ciclo de sessenta anos",
+        "title": "丙子 é o pilar do dia número 13 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丙子, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 13."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙子, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 子 (Rato). No ciclo sexagenário, é a combinação número 13."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5503,7 +5503,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙亥](/guide/pillar-eul-hae) e o seguinte é [丁丑](/guide/pillar-jeong-chuk)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [乙亥](/guide/pillar-eul-hae) e o seguinte é [丁丑](/guide/pillar-jeong-chuk)."
           },
           {
             "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [子 (Rato)](/guide/branch-ja)."
@@ -5532,10 +5532,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丁丑 é o pilar do dia número 14 do ciclo de sessenta anos",
+        "title": "丁丑 é o pilar do dia número 14 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丁丑, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 14."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁丑, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 丑 (Boi). No ciclo sexagenário, é a combinação número 14."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5599,7 +5599,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙子](/guide/pillar-byeong-ja) e o seguinte é [戊寅](/guide/pillar-mu-in)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丙子](/guide/pillar-byeong-ja) e o seguinte é [戊寅](/guide/pillar-mu-in)."
           },
           {
             "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [丑 (Boi)](/guide/branch-chuk)."
@@ -5628,10 +5628,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "戊寅 é o pilar do dia número 15 do ciclo de sessenta anos",
+        "title": "戊寅 é o pilar do dia número 15 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 戊寅, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 15."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊寅, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 寅 (Tigre). No ciclo sexagenário, é a combinação número 15."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5695,7 +5695,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁丑](/guide/pillar-jeong-chuk) e o seguinte é [己卯](/guide/pillar-gi-myo)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丁丑](/guide/pillar-jeong-chuk) e o seguinte é [己卯](/guide/pillar-gi-myo)."
           },
           {
             "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [寅 (Tigre)](/guide/branch-in)."
@@ -5724,10 +5724,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "己卯 é o pilar do dia número 16 do ciclo de sessenta anos",
+        "title": "己卯 é o pilar do dia número 16 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 己卯, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 16."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己卯, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 卯 (Coelho). No ciclo sexagenário, é a combinação número 16."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5785,7 +5785,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊寅](/guide/pillar-mu-in) e o seguinte é [庚辰](/guide/pillar-gyeong-jin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [戊寅](/guide/pillar-mu-in) e o seguinte é [庚辰](/guide/pillar-gyeong-jin)."
           },
           {
             "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [卯 (Coelho)](/guide/branch-myo)."
@@ -5814,10 +5814,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "庚辰 é o pilar do dia número 17 do ciclo de sessenta anos",
+        "title": "庚辰 é o pilar do dia número 17 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 庚辰, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 17."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚辰, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 辰 (Dragão). No ciclo sexagenário, é a combinação número 17."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5881,7 +5881,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己卯](/guide/pillar-gi-myo) e o seguinte é [辛巳](/guide/pillar-sin-sa)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [己卯](/guide/pillar-gi-myo) e o seguinte é [辛巳](/guide/pillar-sin-sa)."
           },
           {
             "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [辰 (Dragão)](/guide/branch-jin)."
@@ -5910,10 +5910,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "辛巳 é o pilar do dia número 18 do ciclo de sessenta anos",
+        "title": "辛巳 é o pilar do dia número 18 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 辛巳, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 18."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛巳, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 巳 (Serpente). No ciclo sexagenário, é a combinação número 18."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -5977,7 +5977,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚辰](/guide/pillar-gyeong-jin) e o seguinte é [壬午](/guide/pillar-im-o)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [庚辰](/guide/pillar-gyeong-jin) e o seguinte é [壬午](/guide/pillar-im-o)."
           },
           {
             "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [巳 (Serpente)](/guide/branch-sa)."
@@ -6006,10 +6006,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "壬午 é o pilar do dia número 19 do ciclo de sessenta anos",
+        "title": "壬午 é o pilar do dia número 19 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 壬午, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 19."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬午, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 午 (Cavalo). No ciclo sexagenário, é a combinação número 19."
           },
           {
             "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6073,7 +6073,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛巳](/guide/pillar-sin-sa) e o seguinte é [癸未](/guide/pillar-gye-mi)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [辛巳](/guide/pillar-sin-sa) e o seguinte é [癸未](/guide/pillar-gye-mi)."
           },
           {
             "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [午 (Cavalo)](/guide/branch-o)."
@@ -6102,10 +6102,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "癸未 é o pilar do dia número 20 do ciclo de sessenta anos",
+        "title": "癸未 é o pilar do dia número 20 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 癸未, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 20."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸未, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 未 (Ovelha). No ciclo sexagenário, é a combinação número 20."
           },
           {
             "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6169,7 +6169,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬午](/guide/pillar-im-o) e o seguinte é [甲申](/guide/pillar-gap-sin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [壬午](/guide/pillar-im-o) e o seguinte é [甲申](/guide/pillar-gap-sin)."
           },
           {
             "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [未 (Ovelha)](/guide/branch-mi)."
@@ -6198,10 +6198,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "甲申 é o pilar do dia número 21 do ciclo de sessenta anos",
+        "title": "甲申 é o pilar do dia número 21 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 甲申, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 21."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲申, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 申 (Macaco). No ciclo sexagenário, é a combinação número 21."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6265,7 +6265,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸未](/guide/pillar-gye-mi) e o seguinte é [乙酉](/guide/pillar-eul-yu)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [癸未](/guide/pillar-gye-mi) e o seguinte é [乙酉](/guide/pillar-eul-yu)."
           },
           {
             "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [申 (Macaco)](/guide/branch-sin)."
@@ -6294,10 +6294,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "乙酉 é o pilar do dia número 22 do ciclo de sessenta anos",
+        "title": "乙酉 é o pilar do dia número 22 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 乙酉, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 22."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙酉, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 酉 (Galo). No ciclo sexagenário, é a combinação número 22."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6355,7 +6355,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲申](/guide/pillar-gap-sin) e o seguinte é [丙戌](/guide/pillar-byeong-sul)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [甲申](/guide/pillar-gap-sin) e o seguinte é [丙戌](/guide/pillar-byeong-sul)."
           },
           {
             "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [酉 (Galo)](/guide/branch-yu)."
@@ -6384,10 +6384,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丙戌 é o pilar do dia número 23 do ciclo de sessenta anos",
+        "title": "丙戌 é o pilar do dia número 23 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丙戌, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 23."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙戌, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 戌 (Cão). No ciclo sexagenário, é a combinação número 23."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6451,7 +6451,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙酉](/guide/pillar-eul-yu) e o seguinte é [丁亥](/guide/pillar-jeong-hae)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [乙酉](/guide/pillar-eul-yu) e o seguinte é [丁亥](/guide/pillar-jeong-hae)."
           },
           {
             "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [戌 (Cão)](/guide/branch-sul)."
@@ -6480,10 +6480,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丁亥 é o pilar do dia número 24 do ciclo de sessenta anos",
+        "title": "丁亥 é o pilar do dia número 24 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丁亥, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 24."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁亥, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 亥 (Porco). No ciclo sexagenário, é a combinação número 24."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6547,7 +6547,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙戌](/guide/pillar-byeong-sul) e o seguinte é [戊子](/guide/pillar-mu-ja)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丙戌](/guide/pillar-byeong-sul) e o seguinte é [戊子](/guide/pillar-mu-ja)."
           },
           {
             "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [亥 (Porco)](/guide/branch-hae)."
@@ -6576,10 +6576,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "戊子 é o pilar do dia número 25 do ciclo de sessenta anos",
+        "title": "戊子 é o pilar do dia número 25 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 戊子, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 25."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊子, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 子 (Rato). No ciclo sexagenário, é a combinação número 25."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6637,7 +6637,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁亥](/guide/pillar-jeong-hae) e o seguinte é [己丑](/guide/pillar-gi-chuk)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丁亥](/guide/pillar-jeong-hae) e o seguinte é [己丑](/guide/pillar-gi-chuk)."
           },
           {
             "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [子 (Rato)](/guide/branch-ja)."
@@ -6666,10 +6666,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "己丑 é o pilar do dia número 26 do ciclo de sessenta anos",
+        "title": "己丑 é o pilar do dia número 26 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 己丑, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 26."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己丑, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 丑 (Boi). No ciclo sexagenário, é a combinação número 26."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6733,7 +6733,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊子](/guide/pillar-mu-ja) e o seguinte é [庚寅](/guide/pillar-gyeong-in)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [戊子](/guide/pillar-mu-ja) e o seguinte é [庚寅](/guide/pillar-gyeong-in)."
           },
           {
             "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [丑 (Boi)](/guide/branch-chuk)."
@@ -6762,10 +6762,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "庚寅 é o pilar do dia número 27 do ciclo de sessenta anos",
+        "title": "庚寅 é o pilar do dia número 27 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 庚寅, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 27."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚寅, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 寅 (Tigre). No ciclo sexagenário, é a combinação número 27."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6829,7 +6829,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己丑](/guide/pillar-gi-chuk) e o seguinte é [辛卯](/guide/pillar-sin-myo)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [己丑](/guide/pillar-gi-chuk) e o seguinte é [辛卯](/guide/pillar-sin-myo)."
           },
           {
             "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [寅 (Tigre)](/guide/branch-in)."
@@ -6858,10 +6858,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "辛卯 é o pilar do dia número 28 do ciclo de sessenta anos",
+        "title": "辛卯 é o pilar do dia número 28 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 辛卯, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 28."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛卯, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 卯 (Coelho). No ciclo sexagenário, é a combinação número 28."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -6919,7 +6919,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚寅](/guide/pillar-gyeong-in) e o seguinte é [壬辰](/guide/pillar-im-jin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [庚寅](/guide/pillar-gyeong-in) e o seguinte é [壬辰](/guide/pillar-im-jin)."
           },
           {
             "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [卯 (Coelho)](/guide/branch-myo)."
@@ -6948,10 +6948,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "壬辰 é o pilar do dia número 29 do ciclo de sessenta anos",
+        "title": "壬辰 é o pilar do dia número 29 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 壬辰, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 29."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬辰, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 辰 (Dragão). No ciclo sexagenário, é a combinação número 29."
           },
           {
             "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7015,7 +7015,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛卯](/guide/pillar-sin-myo) e o seguinte é [癸巳](/guide/pillar-gye-sa)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [辛卯](/guide/pillar-sin-myo) e o seguinte é [癸巳](/guide/pillar-gye-sa)."
           },
           {
             "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [辰 (Dragão)](/guide/branch-jin)."
@@ -7044,10 +7044,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "癸巳 é o pilar do dia número 30 do ciclo de sessenta anos",
+        "title": "癸巳 é o pilar do dia número 30 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 癸巳, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 30."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸巳, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 巳 (Serpente). No ciclo sexagenário, é a combinação número 30."
           },
           {
             "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7111,7 +7111,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬辰](/guide/pillar-im-jin) e o seguinte é [甲午](/guide/pillar-gap-o)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [壬辰](/guide/pillar-im-jin) e o seguinte é [甲午](/guide/pillar-gap-o)."
           },
           {
             "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [巳 (Serpente)](/guide/branch-sa)."
@@ -7140,10 +7140,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "甲午 é o pilar do dia número 31 do ciclo de sessenta anos",
+        "title": "甲午 é o pilar do dia número 31 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 甲午, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 31."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲午, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 午 (Cavalo). No ciclo sexagenário, é a combinação número 31."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7207,7 +7207,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸巳](/guide/pillar-gye-sa) e o seguinte é [乙未](/guide/pillar-eul-mi)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [癸巳](/guide/pillar-gye-sa) e o seguinte é [乙未](/guide/pillar-eul-mi)."
           },
           {
             "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [午 (Cavalo)](/guide/branch-o)."
@@ -7236,10 +7236,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "乙未 é o pilar do dia número 32 do ciclo de sessenta anos",
+        "title": "乙未 é o pilar do dia número 32 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 乙未, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 32."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙未, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 未 (Ovelha). No ciclo sexagenário, é a combinação número 32."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7303,7 +7303,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲午](/guide/pillar-gap-o) e o seguinte é [丙申](/guide/pillar-byeong-sin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [甲午](/guide/pillar-gap-o) e o seguinte é [丙申](/guide/pillar-byeong-sin)."
           },
           {
             "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [未 (Ovelha)](/guide/branch-mi)."
@@ -7332,10 +7332,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丙申 é o pilar do dia número 33 do ciclo de sessenta anos",
+        "title": "丙申 é o pilar do dia número 33 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丙申, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 33."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙申, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 申 (Macaco). No ciclo sexagenário, é a combinação número 33."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7399,7 +7399,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙未](/guide/pillar-eul-mi) e o seguinte é [丁酉](/guide/pillar-jeong-yu)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [乙未](/guide/pillar-eul-mi) e o seguinte é [丁酉](/guide/pillar-jeong-yu)."
           },
           {
             "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [申 (Macaco)](/guide/branch-sin)."
@@ -7428,10 +7428,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丁酉 é o pilar do dia número 34 do ciclo de sessenta anos",
+        "title": "丁酉 é o pilar do dia número 34 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丁酉, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 34."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁酉, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 酉 (Galo). No ciclo sexagenário, é a combinação número 34."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7489,7 +7489,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙申](/guide/pillar-byeong-sin) e o seguinte é [戊戌](/guide/pillar-mu-sul)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丙申](/guide/pillar-byeong-sin) e o seguinte é [戊戌](/guide/pillar-mu-sul)."
           },
           {
             "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [酉 (Galo)](/guide/branch-yu)."
@@ -7518,10 +7518,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "戊戌 é o pilar do dia número 35 do ciclo de sessenta anos",
+        "title": "戊戌 é o pilar do dia número 35 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 戊戌, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 35."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊戌, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 戌 (Cão). No ciclo sexagenário, é a combinação número 35."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7585,7 +7585,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁酉](/guide/pillar-jeong-yu) e o seguinte é [己亥](/guide/pillar-gi-hae)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丁酉](/guide/pillar-jeong-yu) e o seguinte é [己亥](/guide/pillar-gi-hae)."
           },
           {
             "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [戌 (Cão)](/guide/branch-sul)."
@@ -7614,10 +7614,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "己亥 é o pilar do dia número 36 do ciclo de sessenta anos",
+        "title": "己亥 é o pilar do dia número 36 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 己亥, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 36."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己亥, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 亥 (Porco). No ciclo sexagenário, é a combinação número 36."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7681,7 +7681,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊戌](/guide/pillar-mu-sul) e o seguinte é [庚子](/guide/pillar-gyeong-ja)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [戊戌](/guide/pillar-mu-sul) e o seguinte é [庚子](/guide/pillar-gyeong-ja)."
           },
           {
             "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [亥 (Porco)](/guide/branch-hae)."
@@ -7710,10 +7710,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "庚子 é o pilar do dia número 37 do ciclo de sessenta anos",
+        "title": "庚子 é o pilar do dia número 37 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 庚子, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 37."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚子, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 子 (Rato). No ciclo sexagenário, é a combinação número 37."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7771,7 +7771,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己亥](/guide/pillar-gi-hae) e o seguinte é [辛丑](/guide/pillar-sin-chuk)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [己亥](/guide/pillar-gi-hae) e o seguinte é [辛丑](/guide/pillar-sin-chuk)."
           },
           {
             "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [子 (Rato)](/guide/branch-ja)."
@@ -7800,10 +7800,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "辛丑 é o pilar do dia número 38 do ciclo de sessenta anos",
+        "title": "辛丑 é o pilar do dia número 38 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 辛丑, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 38."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛丑, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 丑 (Boi). No ciclo sexagenário, é a combinação número 38."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7867,7 +7867,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚子](/guide/pillar-gyeong-ja) e o seguinte é [壬寅](/guide/pillar-im-in)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [庚子](/guide/pillar-gyeong-ja) e o seguinte é [壬寅](/guide/pillar-im-in)."
           },
           {
             "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [丑 (Boi)](/guide/branch-chuk)."
@@ -7896,10 +7896,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "壬寅 é o pilar do dia número 39 do ciclo de sessenta anos",
+        "title": "壬寅 é o pilar do dia número 39 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 壬寅, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 39."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬寅, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 寅 (Tigre). No ciclo sexagenário, é a combinação número 39."
           },
           {
             "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -7963,7 +7963,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛丑](/guide/pillar-sin-chuk) e o seguinte é [癸卯](/guide/pillar-gye-myo)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [辛丑](/guide/pillar-sin-chuk) e o seguinte é [癸卯](/guide/pillar-gye-myo)."
           },
           {
             "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [寅 (Tigre)](/guide/branch-in)."
@@ -7992,10 +7992,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "癸卯 é o pilar do dia número 40 do ciclo de sessenta anos",
+        "title": "癸卯 é o pilar do dia número 40 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 癸卯, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 40."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸卯, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 卯 (Coelho). No ciclo sexagenário, é a combinação número 40."
           },
           {
             "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8053,7 +8053,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬寅](/guide/pillar-im-in) e o seguinte é [甲辰](/guide/pillar-gap-jin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [壬寅](/guide/pillar-im-in) e o seguinte é [甲辰](/guide/pillar-gap-jin)."
           },
           {
             "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [卯 (Coelho)](/guide/branch-myo)."
@@ -8082,10 +8082,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "甲辰 é o pilar do dia número 41 do ciclo de sessenta anos",
+        "title": "甲辰 é o pilar do dia número 41 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 甲辰, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 41."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲辰, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 辰 (Dragão). No ciclo sexagenário, é a combinação número 41."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8149,7 +8149,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸卯](/guide/pillar-gye-myo) e o seguinte é [乙巳](/guide/pillar-eul-sa)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [癸卯](/guide/pillar-gye-myo) e o seguinte é [乙巳](/guide/pillar-eul-sa)."
           },
           {
             "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [辰 (Dragão)](/guide/branch-jin)."
@@ -8178,10 +8178,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "乙巳 é o pilar do dia número 42 do ciclo de sessenta anos",
+        "title": "乙巳 é o pilar do dia número 42 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 乙巳, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 42."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙巳, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 巳 (Serpente). No ciclo sexagenário, é a combinação número 42."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8245,7 +8245,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲辰](/guide/pillar-gap-jin) e o seguinte é [丙午](/guide/pillar-byeong-o)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [甲辰](/guide/pillar-gap-jin) e o seguinte é [丙午](/guide/pillar-byeong-o)."
           },
           {
             "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [巳 (Serpente)](/guide/branch-sa)."
@@ -8274,10 +8274,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丙午 é o pilar do dia número 43 do ciclo de sessenta anos",
+        "title": "丙午 é o pilar do dia número 43 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丙午, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 43."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙午, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 午 (Cavalo). No ciclo sexagenário, é a combinação número 43."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8341,7 +8341,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙巳](/guide/pillar-eul-sa) e o seguinte é [丁未](/guide/pillar-jeong-mi)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [乙巳](/guide/pillar-eul-sa) e o seguinte é [丁未](/guide/pillar-jeong-mi)."
           },
           {
             "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [午 (Cavalo)](/guide/branch-o)."
@@ -8370,10 +8370,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丁未 é o pilar do dia número 44 do ciclo de sessenta anos",
+        "title": "丁未 é o pilar do dia número 44 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丁未, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 44."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁未, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 未 (Ovelha). No ciclo sexagenário, é a combinação número 44."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8437,7 +8437,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙午](/guide/pillar-byeong-o) e o seguinte é [戊申](/guide/pillar-mu-sin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丙午](/guide/pillar-byeong-o) e o seguinte é [戊申](/guide/pillar-mu-sin)."
           },
           {
             "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [未 (Ovelha)](/guide/branch-mi)."
@@ -8466,10 +8466,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "戊申 é o pilar do dia número 45 do ciclo de sessenta anos",
+        "title": "戊申 é o pilar do dia número 45 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 戊申, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 45."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊申, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 申 (Macaco). No ciclo sexagenário, é a combinação número 45."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8533,7 +8533,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁未](/guide/pillar-jeong-mi) e o seguinte é [己酉](/guide/pillar-gi-yu)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丁未](/guide/pillar-jeong-mi) e o seguinte é [己酉](/guide/pillar-gi-yu)."
           },
           {
             "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [申 (Macaco)](/guide/branch-sin)."
@@ -8562,10 +8562,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "己酉 é o pilar do dia número 46 do ciclo de sessenta anos",
+        "title": "己酉 é o pilar do dia número 46 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 己酉, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 46."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己酉, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 酉 (Galo). No ciclo sexagenário, é a combinação número 46."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8623,7 +8623,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊申](/guide/pillar-mu-sin) e o seguinte é [庚戌](/guide/pillar-gyeong-sul)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [戊申](/guide/pillar-mu-sin) e o seguinte é [庚戌](/guide/pillar-gyeong-sul)."
           },
           {
             "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [酉 (Galo)](/guide/branch-yu)."
@@ -8652,10 +8652,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "庚戌 é o pilar do dia número 47 do ciclo de sessenta anos",
+        "title": "庚戌 é o pilar do dia número 47 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 庚戌, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 47."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚戌, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 戌 (Cão). No ciclo sexagenário, é a combinação número 47."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8719,7 +8719,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己酉](/guide/pillar-gi-yu) e o seguinte é [辛亥](/guide/pillar-sin-hae)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [己酉](/guide/pillar-gi-yu) e o seguinte é [辛亥](/guide/pillar-sin-hae)."
           },
           {
             "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [戌 (Cão)](/guide/branch-sul)."
@@ -8748,10 +8748,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "辛亥 é o pilar do dia número 48 do ciclo de sessenta anos",
+        "title": "辛亥 é o pilar do dia número 48 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 辛亥, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 48."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛亥, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 亥 (Porco). No ciclo sexagenário, é a combinação número 48."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8815,7 +8815,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚戌](/guide/pillar-gyeong-sul) e o seguinte é [壬子](/guide/pillar-im-ja)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [庚戌](/guide/pillar-gyeong-sul) e o seguinte é [壬子](/guide/pillar-im-ja)."
           },
           {
             "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [亥 (Porco)](/guide/branch-hae)."
@@ -8844,10 +8844,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "壬子 é o pilar do dia número 49 do ciclo de sessenta anos",
+        "title": "壬子 é o pilar do dia número 49 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 壬子, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 49."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬子, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 子 (Rato). No ciclo sexagenário, é a combinação número 49."
           },
           {
             "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -8905,7 +8905,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛亥](/guide/pillar-sin-hae) e o seguinte é [癸丑](/guide/pillar-gye-chuk)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [辛亥](/guide/pillar-sin-hae) e o seguinte é [癸丑](/guide/pillar-gye-chuk)."
           },
           {
             "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [子 (Rato)](/guide/branch-ja)."
@@ -8934,10 +8934,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "癸丑 é o pilar do dia número 50 do ciclo de sessenta anos",
+        "title": "癸丑 é o pilar do dia número 50 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 癸丑, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 50."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸丑, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 丑 (Boi). No ciclo sexagenário, é a combinação número 50."
           },
           {
             "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9001,7 +9001,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬子](/guide/pillar-im-ja) e o seguinte é [甲寅](/guide/pillar-gap-in)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [壬子](/guide/pillar-im-ja) e o seguinte é [甲寅](/guide/pillar-gap-in)."
           },
           {
             "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [丑 (Boi)](/guide/branch-chuk)."
@@ -9030,10 +9030,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "甲寅 é o pilar do dia número 51 do ciclo de sessenta anos",
+        "title": "甲寅 é o pilar do dia número 51 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 甲寅, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 51."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲寅, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 寅 (Tigre). No ciclo sexagenário, é a combinação número 51."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9097,7 +9097,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸丑](/guide/pillar-gye-chuk) e o seguinte é [乙卯](/guide/pillar-eul-myo)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [癸丑](/guide/pillar-gye-chuk) e o seguinte é [乙卯](/guide/pillar-eul-myo)."
           },
           {
             "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [寅 (Tigre)](/guide/branch-in)."
@@ -9126,10 +9126,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "乙卯 é o pilar do dia número 52 do ciclo de sessenta anos",
+        "title": "乙卯 é o pilar do dia número 52 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 乙卯, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 52."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙卯, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 卯 (Coelho). No ciclo sexagenário, é a combinação número 52."
           },
           {
             "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9187,7 +9187,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲寅](/guide/pillar-gap-in) e o seguinte é [丙辰](/guide/pillar-byeong-jin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [甲寅](/guide/pillar-gap-in) e o seguinte é [丙辰](/guide/pillar-byeong-jin)."
           },
           {
             "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [卯 (Coelho)](/guide/branch-myo)."
@@ -9216,10 +9216,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丙辰 é o pilar do dia número 53 do ciclo de sessenta anos",
+        "title": "丙辰 é o pilar do dia número 53 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丙辰, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 53."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙辰, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 辰 (Dragão). No ciclo sexagenário, é a combinação número 53."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9283,7 +9283,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙卯](/guide/pillar-eul-myo) e o seguinte é [丁巳](/guide/pillar-jeong-sa)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [乙卯](/guide/pillar-eul-myo) e o seguinte é [丁巳](/guide/pillar-jeong-sa)."
           },
           {
             "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [辰 (Dragão)](/guide/branch-jin)."
@@ -9312,10 +9312,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "丁巳 é o pilar do dia número 54 do ciclo de sessenta anos",
+        "title": "丁巳 é o pilar do dia número 54 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 丁巳, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 54."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁巳, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 巳 (Serpente). No ciclo sexagenário, é a combinação número 54."
           },
           {
             "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9379,7 +9379,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙辰](/guide/pillar-byeong-jin) e o seguinte é [戊午](/guide/pillar-mu-o)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丙辰](/guide/pillar-byeong-jin) e o seguinte é [戊午](/guide/pillar-mu-o)."
           },
           {
             "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [巳 (Serpente)](/guide/branch-sa)."
@@ -9408,10 +9408,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "戊午 é o pilar do dia número 55 do ciclo de sessenta anos",
+        "title": "戊午 é o pilar do dia número 55 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 戊午, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 55."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊午, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 午 (Cavalo). No ciclo sexagenário, é a combinação número 55."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9475,7 +9475,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁巳](/guide/pillar-jeong-sa) e o seguinte é [己未](/guide/pillar-gi-mi)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [丁巳](/guide/pillar-jeong-sa) e o seguinte é [己未](/guide/pillar-gi-mi)."
           },
           {
             "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [午 (Cavalo)](/guide/branch-o)."
@@ -9504,10 +9504,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "己未 é o pilar do dia número 56 do ciclo de sessenta anos",
+        "title": "己未 é o pilar do dia número 56 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 己未, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 56."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己未, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 未 (Ovelha). No ciclo sexagenário, é a combinação número 56."
           },
           {
             "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9571,7 +9571,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊午](/guide/pillar-mu-o) e o seguinte é [庚申](/guide/pillar-gyeong-sin)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [戊午](/guide/pillar-mu-o) e o seguinte é [庚申](/guide/pillar-gyeong-sin)."
           },
           {
             "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [未 (Ovelha)](/guide/branch-mi)."
@@ -9600,10 +9600,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "庚申 é o pilar do dia número 57 do ciclo de sessenta anos",
+        "title": "庚申 é o pilar do dia número 57 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 庚申, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 57."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚申, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 申 (Macaco). No ciclo sexagenário, é a combinação número 57."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9667,7 +9667,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己未](/guide/pillar-gi-mi) e o seguinte é [辛酉](/guide/pillar-sin-yu)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [己未](/guide/pillar-gi-mi) e o seguinte é [辛酉](/guide/pillar-sin-yu)."
           },
           {
             "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [申 (Macaco)](/guide/branch-sin)."
@@ -9696,10 +9696,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "辛酉 é o pilar do dia número 58 do ciclo de sessenta anos",
+        "title": "辛酉 é o pilar do dia número 58 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 辛酉, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 58."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛酉, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 酉 (Galo). No ciclo sexagenário, é a combinação número 58."
           },
           {
             "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9757,7 +9757,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚申](/guide/pillar-gyeong-sin) e o seguinte é [壬戌](/guide/pillar-im-sul)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [庚申](/guide/pillar-gyeong-sin) e o seguinte é [壬戌](/guide/pillar-im-sul)."
           },
           {
             "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [酉 (Galo)](/guide/branch-yu)."
@@ -9786,10 +9786,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "壬戌 é o pilar do dia número 59 do ciclo de sessenta anos",
+        "title": "壬戌 é o pilar do dia número 59 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 壬戌, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 59."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬戌, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 戌 (Cão). No ciclo sexagenário, é a combinação número 59."
           },
           {
             "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9853,7 +9853,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛酉](/guide/pillar-sin-yu) e o seguinte é [癸亥](/guide/pillar-gye-hae)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [辛酉](/guide/pillar-sin-yu) e o seguinte é [癸亥](/guide/pillar-gye-hae)."
           },
           {
             "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [戌 (Cão)](/guide/branch-sul)."
@@ -9882,10 +9882,10 @@ export const PT_DOCS = {
     "backLabel": "Base de cálculo",
     "sections": [
       {
-        "title": "癸亥 é o pilar do dia número 60 do ciclo de sessenta anos",
+        "title": "癸亥 é o pilar do dia número 60 do ciclo sexagenário",
         "blocks": [
           {
-            "p": "Quando o par tronco-ramo do dia de nascimento é 癸亥, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 60."
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸亥, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 亥 (Porco). No ciclo sexagenário, é a combinação número 60."
           },
           {
             "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
@@ -9949,7 +9949,7 @@ export const PT_DOCS = {
         "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
         "blocks": [
           {
-            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬戌](/guide/pillar-im-sul) e o seguinte é [甲子](/guide/pillar-gap-ja)."
+            "p": "No ciclo sexagenário, o pilar do dia anterior é [壬戌](/guide/pillar-im-sul) e o seguinte é [甲子](/guide/pillar-gap-ja)."
           },
           {
             "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [亥 (Porco)](/guide/branch-hae)."

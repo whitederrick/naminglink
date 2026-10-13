@@ -130,7 +130,7 @@ export const VI_DOCS = {
             }
           },
           {
-            "p": "Các ký tự trên được gọi là heavenly stems (天干), và các ký tự dưới được gọi là earthly branches (地支). Có mười heavenly stems và mười hai earthly branches. Mười hai earthly branches thường được gọi là **cung hoàng đạo**."
+            "p": "Các ký tự trên được gọi là heavenly stems (天干), và các ký tự dưới được gọi là earthly branches (地支). Có mười heavenly stems và mười hai earthly branches. Mười hai earthly branches thường được gọi là **con giáp**."
           }
         ]
       },
@@ -145,7 +145,7 @@ export const VI_DOCS = {
             "caption": "Saju bao gồm tám ký tự được thiết lập bằng cách sử dụng hai ký tự cho mỗi năm, tháng, ngày và giờ sinh, được đại diện bởi heavenly stems và earthly branches. Ở đây, day stem (日干) nổi bật là ký tự chỉ về bản thân tôi.",
             "labels": {
               "year": "Trụ Năm",
-              "yearNote": "Gốc · Cung Hoàng Đạo",
+              "yearNote": "Gốc · Con Giáp",
               "month": "Trụ Tháng",
               "monthNote": "Mùa · Sức Mạnh",
               "day": "Cột Ngày",
@@ -179,7 +179,7 @@ export const VI_DOCS = {
             "p": "Một năm saju không thay đổi vào ngày 1 tháng 1 mà thay vào đó vào **Ipchun (khoảng ngày 4 tháng 2)**. Tháng cũng được chia dựa trên tiết khí."
           },
           {
-            "p": "Do đó, những người sinh vào **tháng 1 và đầu tháng 2 nhận Thiên Can Năm của năm trước**. Đây là nơi mà sự hiểu lầm phổ biến về các cung hoàng đạo phát sinh. Điều tương tự cũng áp dụng nếu bạn nhập ngày sinh âm lịch — nó được chuyển đổi trở lại thành dương lịch và sau đó được chia theo tiết khí."
+            "p": "Do đó, những người sinh vào **tháng 1 và đầu tháng 2 nhận Thiên Can Năm của năm trước**. Đây là nơi mà sự hiểu lầm phổ biến về các con giáp phát sinh. Điều tương tự cũng áp dụng nếu bạn nhập ngày sinh âm lịch — nó được chuyển đổi trở lại thành dương lịch và sau đó được chia theo tiết khí."
           }
         ]
       },
@@ -10058,10 +10058,10 @@ export const VI_DOCS = {
           },
           {
             "table": {
-              "caption": "Mười Hai Nhánh Đất và Cung Hoàng Đạo",
+              "caption": "Mười Hai Nhánh Đất và Con Giáp",
               "head": [
                 "Nhánh Đất",
-                "Cung Hoàng Đạo"
+                "Con Giáp"
               ],
               "rows": [
                 [
@@ -10560,23 +10560,23 @@ export const VI_DOCS = {
     ]
   },
   "guide/zodiac": {
-    "eyebrow": "Cung Hoàng Đạo",
-    "title": "Cung Hoàng Đạo ở đâu trong Saju?",
-    "summary": "Cung hoàng đạo là nhánh đất của năm bạn sinh ra. Điều này giải thích tại sao nó được rút ra từ năm saju thay vì năm dương lịch, và tại sao những người sinh vào đầu tháng Giêng hoặc tháng Hai có cung hoàng đạo của năm trước.",
+    "eyebrow": "Con Giáp",
+    "title": "Con Giáp ở đâu trong Saju?",
+    "summary": "Con giáp là nhánh đất của năm bạn sinh ra. Điều này giải thích tại sao nó được rút ra từ năm saju thay vì năm dương lịch, và tại sao những người sinh vào đầu tháng Giêng hoặc tháng Hai có con giáp của năm trước.",
     "backLabel": "Cơ sở Tính Toán",
     "sections": [
       {
-        "title": "Cung hoàng đạo là nhánh đất của năm bạn sinh ra.",
+        "title": "Con giáp là nhánh đất của năm bạn sinh ra.",
         "blocks": [
           {
-            "p": "Saju bao gồm bốn trụ: năm, tháng, ngày và giờ, với mỗi trụ có một thiên can và một nhánh đất. Trong số đó, **nhánh đất của năm**, hay nhánh năm, là con vật mà chúng ta gọi là cung hoàng đạo."
+            "p": "Saju bao gồm bốn trụ: năm, tháng, ngày và giờ, với mỗi trụ có một thiên can và một nhánh đất. Trong số đó, **nhánh đất của năm**, hay nhánh năm, là con vật mà chúng ta gọi là con giáp."
           },
           {
             "table": {
-              "caption": "Mười Hai Nhánh Đất và Cung Hoàng Đạo",
+              "caption": "Mười Hai Nhánh Đất và Con Giáp",
               "head": [
                 "Nhánh Đất",
-                "Cung Hoàng Đạo"
+                "Con Giáp"
               ],
               "rows": [
                 [
@@ -10636,36 +10636,36 @@ export const VI_DOCS = {
         "title": "Chúng tôi sử dụng năm saju, không phải năm dương lịch.",
         "blocks": [
           {
-            "p": "Thời điểm mà cung hoàng đạo thay đổi không phải là ngày 1 tháng Giêng của dương lịch cũng không phải là Tết Nguyên Đán. Tiêu chuẩn để thay đổi năm trong saju là **Ipchun**. Do đó, những người sinh vào đầu tháng Giêng hoặc tháng Hai có thể có cung hoàng đạo khác với những gì lịch chỉ ra."
+            "p": "Thời điểm mà con giáp thay đổi không phải là ngày 1 tháng Giêng của dương lịch cũng không phải là Tết Nguyên Đán. Tiêu chuẩn để thay đổi năm trong saju là **Ipchun**. Do đó, những người sinh vào đầu tháng Giêng hoặc tháng Hai có thể có con giáp khác với những gì lịch chỉ ra."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Lý do chúng tôi không hỏi trực tiếp về cung hoàng đạo.",
+        "title": "Lý do chúng tôi không hỏi trực tiếp về con giáp.",
         "blocks": [
           {
-            "p": "Đó là lý do tại sao chúng tôi chỉ hỏi về ngày sinh mà không chọn cung hoàng đạo trên màn hình nhập liệu. Khi động cơ saju tính toán năm, nó tự động căn chỉnh với ranh giới Ipchun. Nếu được chọn trực tiếp, một người sinh vào đầu tháng Hai sẽ chọn một cung hoàng đạo không khớp với cung hoàng đạo thực tế của họ."
+            "p": "Đó là lý do tại sao chúng tôi chỉ hỏi về ngày sinh mà không chọn con giáp trên màn hình nhập liệu. Khi động cơ saju tính toán năm, nó tự động căn chỉnh với ranh giới Ipchun. Nếu được chọn trực tiếp, một người sinh vào đầu tháng Hai sẽ chọn một con giáp không khớp với con giáp thực tế của họ."
           }
         ]
       },
       {
-        "title": "Cung hoàng đạo là một ký tự trong saju.",
+        "title": "Con giáp là một ký tự trong saju.",
         "blocks": [
           {
-            "p": "Trong số tám ký tự, ký tự tương ứng với cung hoàng đạo là **một nhánh năm**. Bảy ký tự còn lại — đặc biệt là thiên can ngày mà chỉ về bản thân — không có liên quan đến cung hoàng đạo."
+            "p": "Trong số tám ký tự, ký tự tương ứng với con giáp là **một nhánh năm**. Bảy ký tự còn lại — đặc biệt là thiên can ngày mà chỉ về bản thân — không có liên quan đến con giáp."
           },
           {
-            "p": "Những người sinh cùng năm đều có cùng một cung hoàng đạo. Do đó, những gì có thể biết từ cung hoàng đạo chỉ bằng với một trong tám ký tự. Đây là lý do tại sao dịch vụ này không **xem xét cung hoàng đạo một cách riêng biệt hoặc quan trọng** — nhánh năm được tính toán để xác định sức mạnh và hôm nay là trụ ngày của phán đoán ngày giống như bất kỳ nhánh đất nào khác."
+            "p": "Những người sinh cùng năm đều có cùng một con giáp. Do đó, những gì có thể biết từ con giáp chỉ bằng với một trong tám ký tự. Đây là lý do tại sao dịch vụ này không **xem xét con giáp một cách riêng biệt hoặc quan trọng** — nhánh năm được tính toán để xác định sức mạnh và hôm nay là trụ ngày của phán đoán ngày giống như bất kỳ nhánh đất nào khác."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Tuy nhiên, lý do chúng tôi hiển thị cung hoàng đạo.",
+        "title": "Tuy nhiên, lý do chúng tôi hiển thị con giáp.",
         "blocks": [
           {
-            "p": "Đây là vị trí duy nhất mà ý nghĩa được hiểu ngay cả khi bạn không biết thuật ngữ của myeongri. Nếu cung hoàng đạo được ghi chú cùng với nhánh năm trên màn hình bản đồ sinh, nó trở thành một manh mối để đọc bảy ký tự còn lại."
+            "p": "Đây là vị trí duy nhất mà ý nghĩa được hiểu ngay cả khi bạn không biết thuật ngữ của myeongri. Nếu con giáp được ghi chú cùng với nhánh năm trên màn hình bản đồ sinh, nó trở thành một manh mối để đọc bảy ký tự còn lại."
           }
         ]
       },
@@ -10676,7 +10676,7 @@ export const VI_DOCS = {
             "p": "Nếu bạn không nhập thời gian, trụ giờ sẽ bị bỏ qua và sức mạnh của các yếu tố năm (the five elements) sẽ thay đổi. Tuy nhiên, **nhánh năm vẫn giữ nguyên** — nó chỉ được xác định bởi năm bạn sinh."
           },
           {
-            "p": "Do đó, câu chuyện phát sinh từ nhánh năm không thay đổi ngay cả đối với những người không biết thời gian. Ngược lại, điều này có nghĩa là những gì có thể nói chỉ dựa vào cung hoàng đạo là hạn chế, bất kể thời gian có được bao gồm hay không."
+            "p": "Do đó, câu chuyện phát sinh từ nhánh năm không thay đổi ngay cả đối với những người không biết thời gian. Ngược lại, điều này có nghĩa là những gì có thể nói chỉ dựa vào con giáp là hạn chế, bất kể thời gian có được bao gồm hay không."
           }
         ]
       }
