@@ -131,6 +131,50 @@ const ABSORBED_GUIDES = [
   { source: `/:locale/guide/${from}`, destination: `/:locale/guide/${to}`, permanent: true },
 ]);
 
+/**
+ * 옛 사전의 상징 주소 → 새 사전에서 **같은 뜻**인 상징 (2026-10-13).
+ *
+ * 해몽 사전을 원문에서 다시 지으며(v2, 2026-08-31) 옛 사전에만 있던 상징 페이지가 사라졌고,
+ * 서치 콘솔이 그 주소 124건(상징 59개 × 언어판)을 404로 잡았다. 그중 **뜻이 같은 18개**만
+ * 301로 잇는다. 나머지 41개는 일부러 잇지 않는다 — 새 사전에 같은 뜻이 없거나(공룡·공항·
+ * 시험…), 이름이 비슷해도 다른 뜻이거나(계단≠ascend · 칼≠sword), 새 사전에서 둘로 갈라져
+ * 하나로 못 보낸다(신부·신랑). 틀린 곳으로 보내는 것이 404보다 나쁘다.
+ *
+ * 짝은 새 사전의 `term_ko`/`term_en`을 눈으로 대조해 고른 것이다(옛 값은 `dream-symbols.data.json`).
+ * **짝을 더할 때는 도착 id가 `dream-symbols.v2.data.json`에 실제로 있는지 먼저 본다** —
+ * `verify-declared-urls` 같은 검사기는 이 표를 모른다.
+ *
+ * 무접두 주소(`/dream/symbol/…`)는 `proxy.ts`가 어차피 영어판으로 308 보내므로 한 번에 영어판으로 잇는다.
+ */
+const RENAMED_SYMBOLS: Array<[from: string, to: string]> = [
+  ["dancing", "dance"],
+  ["falling", "fall"],
+  ["old-person", "old-man-or-woman"],
+  ["temple", "buddhist-temple"],
+  ["market", "marketplace"],
+  ["crying", "weeping"],
+  ["kissing", "kiss"],
+  ["car", "automobile"],
+  ["foot", "feet"],
+  ["toilet", "outhouse"],
+  ["clothes", "clothing"],
+  ["naked", "naked-body"],
+  ["wallet", "pocketbook"],
+  ["fighting", "fight"],
+  ["photo", "photograph"],
+  ["bead", "beads"],
+  ["glasses", "eyeglass"],
+  ["nail", "fingernail"],
+];
+const RENAMED_SYMBOL_REDIRECTS = RENAMED_SYMBOLS.flatMap(([from, to]) => [
+  { source: `/dream/symbol/${from}`, destination: `/en/dream/symbol/${to}`, permanent: true },
+  {
+    source: `/:locale/dream/symbol/${from}`,
+    destination: `/:locale/dream/symbol/${to}`,
+    permanent: true,
+  },
+]);
+
 const nextConfig: NextConfig = {
   // 응답에서 `X-Powered-By: Next.js`를 뺀다(naminglink와 같은 이유·같은 설정).
   poweredByHeader: false,
@@ -147,7 +191,7 @@ const nextConfig: NextConfig = {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
   async redirects() {
-    return ABSORBED_GUIDES;
+    return [...ABSORBED_GUIDES, ...RENAMED_SYMBOL_REDIRECTS];
   },
 };
 
