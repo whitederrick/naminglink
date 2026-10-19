@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 import { AdBanner } from "@/components/AdBanner";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
+import { ResultEntryGate } from "@/components/ResultEntryGate";
 import { trackAnalytics } from "@/lib/analytics-client";
 import {
   citeLines,
@@ -135,6 +136,11 @@ export function DreamResultView({
   return (
     // `mt-10`은 사주링크 `SajuResultView`와 같은 값이다. 없으면 첫 카드가 제목에 붙는다.
     <div className="mt-10 grid gap-6">
+      {/* 결과를 여는 대가로 광고 하나를 치르는 자리(naminglink `ResultEntryGate`와 같다).
+          **풀이할 상징이 있을 때만 세운다** — 상징을 못 찾은 화면은 발행한 콘텐츠가 없어
+          광고를 붙이면 안 된다. 입력 화면(`DreamForm`)에는 관문이 없어야 한다. */}
+      {outcome.matched.length ? <ResultEntryGate dictionary={dictionary} locale={locale} /> : null}
+
       <section className="rounded-2xl border border-line bg-surface p-5">
         <p className="break-keep-all text-sm leading-6 text-muted">{input.text}</p>
       </section>
