@@ -135,7 +135,7 @@ const ABSORBED_GUIDES = [
  * 옛 사전의 상징 주소 → 새 사전에서 **같은 뜻**인 상징 (2026-10-13).
  *
  * 해몽 사전을 원문에서 다시 지으며(v2, 2026-08-31) 옛 사전에만 있던 상징 페이지가 사라졌고,
- * 서치 콘솔이 그 주소 124건(상징 59개 × 언어판)을 404로 잡았다. 그중 **뜻이 같은 18개**만
+ * 서치 콘솔이 그 주소 124건(상징 59개 × 언어판)을 404로 잡았다. 그중 **뜻이 같은 18개**(+10-21 에 10개)만
  * 301로 잇는다. 나머지 41개는 일부러 잇지 않는다 — 새 사전에 같은 뜻이 없거나(공룡·공항·
  * 시험…), 이름이 비슷해도 다른 뜻이거나(계단≠ascend · 칼≠sword), 새 사전에서 둘로 갈라져
  * 하나로 못 보낸다(신부·신랑). 틀린 곳으로 보내는 것이 404보다 나쁘다.
@@ -165,6 +165,18 @@ const RENAMED_SYMBOLS: Array<[from: string, to: string]> = [
   ["bead", "beads"],
   ["glasses", "eyeglass"],
   ["nail", "fingernail"],
+  // 2026-10-21 추가 — 같은 대상 7개(사용자 결정)
+  ["rat", "mouse"],
+  ["giving-birth", "birth"],
+  ["singing", "song"],
+  ["shoe", "shoes"],
+  ["drinking-alcohol", "liquor"],
+  ["marriage", "wedding"],
+  ["tooth-fall", "teeth"],
+  // 2026-10-21 추가 — 부분만 겹치지만 사용자가 잇기로 한 3개(뼈→해골만, 여행→먼 길 떠남, 외국인→이방인)
+  ["bone", "skeleton"],
+  ["traveling", "long-journey"],
+  ["foreigner", "alien"],
 ];
 const RENAMED_SYMBOL_REDIRECTS = RENAMED_SYMBOLS.flatMap(([from, to]) => [
   { source: `/dream/symbol/${from}`, destination: `/en/dream/symbol/${to}`, permanent: true },
