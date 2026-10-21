@@ -119,15 +119,15 @@ const d1 = {
         "**Tush kartasi** — bitta tasvir fayli. O'sha kuni ko'rilgan tushda paydo bo'lgan ramzlar va an'anaviy ma'nolarni saqlab, ulashish imkonini beruvchi bitta tasvirga aylantiriladi. **Hujjat (PDF) emas.** Ichki to'lov {priceCardDomestic} (QQS kiritilgan), xorijiy to'lov {priceCardGlobal}.",
         "**Tug'ilish tushiga oid hisobot PDF** — 4 sahifa. Paydo bo'lgan ramzlarning an'anaviy ma'nolari va ularning konteksti hujjatga kiritiladi. **Homiladorlik holatini aniqlamaydi** — an'anaviy ravishda tug'ilish tushiga oid ramzlar tushda paydo bo'lganligi haqida ma'lumot beriladi. Ichki to'lov {priceConceptionDomestic} (QQS kiritilgan), xorijiy to'lov {priceConceptionGlobal}.",
         "Ichki to'lovlar Toss Payments orqali kredit/debet kartalari va qulay to'lov (Toss Pay, Kakao Pay, Naver Pay, Payco va boshqalar) orqali amalga oshirilishi mumkin, xorijiy to'lovlar esa PortOne orqali PayPal orqali amalga oshiriladi. Yakuniy summa to'lov ekranida ko'rsatilgan summaga muvofiq bo'ladi.",
-        "**Xizmat foydalanuvchining kiritgan ma'lumotlarini va yaratilgan PDF fayllarni saqlamaydi.** To'lov tasdiqlangandan so'ng, darhol hujjat yaratiladi va serverda hech narsa qoldirilmaydi. Shuning uchun yuklab olingan faylni foydalanuvchi o'zi saqlashi kerak.",
-        "Yuklab olish to'xtatilgan yoki faylni yo'qotgan taqdirda, bir xil buyurtma bilan **5 marta** qayta yuklab olish mumkin. Biroq natija ekranidan chiqib ketsangiz, kiritilgan ma'lumotlar yo'qoladi va qayta yaratish mumkin emas, shuning uchun to'lovdan so'ng faylni saqlashingizni iltimos qilamiz."
+        "**Xizmat foydalanuvchining kiritgan ma'lumotlarini va yaratilgan fayllarni saqlamaydi.** To'lov tasdiqlangandan so'ng, darhol hujjat yaratiladi va serverda hech narsa qoldirilmaydi. Shuning uchun yuklab olingan faylni foydalanuvchi o'zi saqlashi kerak.",
+        "Yuklab olish to'xtatilgan yoki faylni yo'qotgan taqdirda, bir xil buyurtma bilan **birinchi yuklab olishni ham qo'shganda jami 5 martagacha** yuklab olish mumkin. Biroq natija ekranidan chiqib ketsangiz, kiritilgan ma'lumotlar yo'qoladi va qayta yaratish mumkin emas, shuning uchun to'lovdan so'ng faylni saqlashingizni iltimos qilamiz."
       ],
       "bullets": [
         "**To'lovdan keyin yuklab olish boshlanmasdan oldin** har qanday vaqtda bekor qilishingiz va to'liq qaytarib olishingiz mumkin.",
         "**Yuklab olish tugallangandan so'ng** oddiy xohish bilan qaytarish cheklangan. To'lov darhol taqdim etiladi va tiklash mumkin bo'lmagan raqamli kontent bo'lib, bu «Elektron tijorat va iste'molchilarni himoya qilish to'g'risida»gi qonunning 17-moddasi 2-bandi tomonidan belgilangan qaytarish cheklovlari sababidir.",
         "**Tizim xatosi tufayli hujjat yaratilmagan yoki fayl ochilmagan yoki to'lov summasi buyurtmadan farq qilsa** qayta chiqarish yoki to'liq qaytarish bilan hal qilinadi.",
         "**Natija mazmuniga nisbatan norozilik** qaytarish sababi hisoblanmaydi. Tush talqini natijalari an'anaviy talqin nuqtai nazaridan ma'lumot sifatida beriladi va bu xususiyat to'lovdan oldin ma'lum qilinadi (yuqoridagi 1-band).",
-        "Qayta chiqarish uchun 5 marta foydalanilgandan keyin qayta so'rov qilish qaytarish sababi hisoblanmaydi.",
+        "Yuklab olish uchun 5 marta foydalanilgandan keyin qayta so'rov qilish qaytarish sababi hisoblanmaydi.",
         "**Kichik yoshli shaxs qonuniy vakilining roziligisiz to'lov qilgan taqdirda** o'zlari yoki qonuniy vakillari ushbu to'lovni bekor qilishlari mumkin. Quyidagi aloqa ma'lumotlari orqali bizga xabar bersangiz, sizga qaytarib beramiz."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Natija mazmuniga nisbatan norozilik.** Tushni talqin qilish natijalari an'anaviy talqin nuqtai nazaridan ma'lumot sifatida taqdim etiladi va bu xususiyat to'lovdan oldin ma'lum qilinadi. Tushda oldindan mavjud bo'lgan ramzlarni topa olmaslik natijasi qisqa bo'lishi ham shu holatga kiradi — mavjud bo'lmagan ma'noni yaratmaslik uchun.",
-        "Qayta berish uchun 5 marta foydalanilgandan keyin qayta so'rov."
+        "Yuklab olish uchun 5 marta foydalanilgandan keyin qayta so'rov."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Ichki to'lov {priceCardDomestic} (Qo'shimcha qiymat solig'i kiritilgan) · Xalqaro to'lov {priceCardGlobal}",
         "Ekrandagi natijalarni **bitta tasvir**ga joylashtiramiz. Saqlash yoki yuborish uchun qulay shaklda, **PDF hujjati emas.**",
-        "Bir xil buyurtma bilan **5 marta** qayta yuklab olish mumkin. Biroq, natija ekrandan chiqib ketganda va kiritilgan ma'lumotlar yo'qolsa, qayta yaratish mumkin emas, shuning uchun to'lovdan so'ng faylni saqlashingizni iltimos qilamiz."
+        "Bir xil buyurtma bilan **birinchi yuklab olishni ham qo'shganda jami 5 martagacha** yuklab olish mumkin. Biroq, natija ekrandan chiqib ketganda va kiritilgan ma'lumotlar yo'qolsa, qayta yaratish mumkin emas, shuning uchun to'lovdan so'ng faylni saqlashingizni iltimos qilamiz."
       ]
     },
     {
@@ -490,15 +490,15 @@ const d6 = {
         "**Tush kartasi** — bitta tasvir fayli. O'sha kun ko'rilgan tushdagi ramzlar va an'anaviy ma'nolarni saqlab, ulashish imkoniyatini beradi. **Hujjat (PDF) emas.** Ichki to'lov {priceCardDomestic} (QQS kiritilgan), xorijiy to'lov {priceCardGlobal}.",
         "**Tug'ilish tushiga oid hisobot PDF** — 4 sahifa. Ramzlarning an'anaviy ma'nolari va ularning konteksti haqida hujjatga kiritiladi. **Homiladorlik holatini aniqlamaydi** — an'anaviy ravishda tug'ilish tushiga oid ramzlar tushda paydo bo'lganligi haqida ma'lumot beramiz. Ichki to'lov {priceConceptionDomestic} (QQS kiritilgan), xorijiy to'lov {priceConceptionGlobal}.",
         "Ichki to'lovlar Toss Payments orqali kredit/debet kartalari va qulay to'lov (Toss Pay, Kakao Pay, Naver Pay, Payco va boshqalar) orqali amalga oshirilishi mumkin, xorijiy to'lovlar esa PortOne orqali PayPal orqali amalga oshiriladi. Yakuniy summa to'lov sahifasida ko'rsatilgan summaga muvofiq bo'ladi.",
-        "**Xizmat foydalanuvchining kiritgan ma'lumotlarini ham, yaratilgan PDF faylini ham saqlamaydi.** To'lov tasdiqlangandan so'ng, darhol hujjatni yaratib yuboradi va serverda hech narsa qoldirmaydi. Shuning uchun yuklab olingan faylni foydalanuvchi o'zi saqlashi kerak.",
-        "Yuklab olish to'xtatilsa yoki fayl yo'qolsa, bir xil buyurtma bilan **5 marta** qayta yuklab olish mumkin. Biroq, natija sahnasidan chiqib ketsangiz, kiritilgan ma'lumotlar yo'qoladi va qayta yaratish mumkin emas, shuning uchun to'lovdan so'ng faylni saqlashingizni iltimos qilamiz."
+        "**Xizmat foydalanuvchining kiritgan ma'lumotlarini va yaratilgan fayllarni saqlamaydi.** To'lov tasdiqlangandan so'ng, darhol hujjat yaratiladi va serverda hech narsa qoldirilmaydi. Shuning uchun yuklab olingan faylni foydalanuvchi o'zi saqlashi kerak.",
+        "Yuklab olish to'xtatilgan yoki faylni yo'qotgan taqdirda, bir xil buyurtma bilan **birinchi yuklab olishni ham qo'shganda jami 5 martagacha** yuklab olish mumkin. Biroq natija ekranidan chiqib ketsangiz, kiritilgan ma'lumotlar yo'qoladi va qayta yaratish mumkin emas, shuning uchun to'lovdan so'ng faylni saqlashingizni iltimos qilamiz."
       ],
       "bullets": [
         "**To'lovdan keyin yuklab olish boshlanmasdan oldin** har qanday vaqtda bekor qilishingiz va to'liq qaytarib olishingiz mumkin.",
         "**Yuklab olish tugagandan so'ng** oddiy xohish bilan qaytarish cheklangan. To'lov darhol taqdim etiladi va tiklash mumkin bo'lmagan raqamli kontent bo'lib, bu «Elektron tijorat va iste'molchilarni himoya qilish to'g'risida»gi qonunning 17-moddasi 2-bandi bilan belgilangan qaytarish cheklovlari sababidir.",
         "**Tizim xatosi tufayli hujjat yaratilmasa, fayl ochilmasa yoki to'lov summasi buyurtmadan farq qilsa** qayta berish yoki to'liq qaytarish bilan hal qilinadi.",
         "**Natija mazmuniga nisbatan norozilik** qaytarish sababi hisoblanmaydi. Tush talqini natijalari an'anaviy talqin nuqtai nazaridan ma'lumot sifatida xizmat qiladi va uning tabiati to'lovdan oldin ma'lum qilinadi (yuqoridagi 1-band).",
-        "Qayta berish uchun 5 marta foydalanilgandan keyin qayta so'rov qilish qaytarish sababi hisoblanmaydi.",
+        "Yuklab olish uchun 5 marta foydalanilgandan keyin qayta so'rov qilish qaytarish sababi hisoblanmaydi.",
         "**Kichik yoshli shaxs qonuniy vakilining roziligisiz to'lov qilgan taqdirda** o'zlari yoki qonuniy vakillari ushbu to'lovni bekor qilishlari mumkin. Quyidagi aloqa ma'lumotlari orqali xabar bersangiz, sizga qaytarish amalga oshiriladi."
       ]
     },

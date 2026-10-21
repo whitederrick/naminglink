@@ -126,7 +126,7 @@ export const it: Dictionary = {
       ],
       [
         "Scarica di nuovo",
-        "Fino a 5 volte con lo stesso ordine. Non conserviamo il file, quindi non può essere creato di nuovo una volta che esci dalla schermata dei risultati."
+        "Fino a 5 volte in totale con lo stesso ordine, compreso il primo download. Non conserviamo il file, quindi non può essere creato di nuovo una volta che esci dalla schermata dei risultati."
       ],
       [
         "Ritiro",
@@ -179,7 +179,7 @@ export const it: Dictionary = {
       ],
       [
         "Scarica di nuovo",
-        "Fino a 5 volte con lo stesso ordine. Non conserviamo il file, quindi non può essere ricreato una volta che lasci la schermata dei risultati."
+        "Fino a 5 volte in totale con lo stesso ordine, compreso il primo download. Non conserviamo il file, quindi non può essere creato di nuovo una volta che esci dalla schermata dei risultati."
       ],
       [
         "Ritiro",

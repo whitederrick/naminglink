@@ -119,15 +119,15 @@ const d1 = {
         "**Thẻ giấc mơ** — là một tệp hình ảnh duy nhất. Nó sẽ lưu giữ và chia sẻ các biểu tượng và ý nghĩa truyền thống từ giấc mơ mà bạn đã có trong ngày. **Không phải là tài liệu (PDF).** Thanh toán trong nước {priceCardDomestic} (bao gồm thuế giá trị gia tăng), thanh toán quốc tế {priceCardGlobal}.",
         "**Báo cáo giấc mơ mang thai dưới dạng PDF** — 4 trang. Nó chứa ý nghĩa truyền thống của các biểu tượng và bối cảnh của chúng trong tài liệu. **Không xác định tình trạng mang thai** — chỉ thông báo rằng các biểu tượng đã được coi là giấc mơ mang thai theo truyền thống đã xuất hiện trong giấc mơ. Thanh toán trong nước {priceConceptionDomestic} (bao gồm thuế giá trị gia tăng), thanh toán quốc tế {priceConceptionGlobal}.",
         "Thanh toán trong nước có thể sử dụng thẻ tín dụng, thẻ ghi nợ và thanh toán đơn giản (Toss Payments, KakaoPay, NaverPay, Payco, v.v.) thông qua Toss Payments, trong khi thanh toán quốc tế thông qua PayPal của PortOne. Số tiền cuối cùng sẽ theo số tiền hiển thị trên màn hình thanh toán.",
-        "**Dịch vụ không lưu trữ dữ liệu đầu vào của người dùng cũng như tệp PDF đã tạo.** Khi thanh toán được phê duyệt, tài liệu sẽ được tạo và gửi ngay lập tức mà không để lại gì trên máy chủ. Do đó, tệp đã tải xuống cần được người dùng tự lưu giữ.",
-        "Trong trường hợp tải xuống bị ngừng hoặc tệp bị mất, bạn có thể tải xuống lại **tối đa 5 lần** với cùng một đơn hàng. Tuy nhiên, nếu dữ liệu đầu vào bị mất khi ra khỏi màn hình kết quả, bạn sẽ không thể tạo lại, vì vậy hãy lưu tệp ngay sau khi thanh toán."
+        "**Dịch vụ không lưu trữ dữ liệu đầu vào của người dùng cũng như tệp đã tạo.** Khi thanh toán được phê duyệt, tài liệu sẽ được tạo và gửi ngay lập tức mà không để lại gì trên máy chủ. Do đó, tệp đã tải xuống cần được người dùng tự lưu giữ.",
+        "Trong trường hợp tải xuống bị ngừng hoặc tệp bị mất, với cùng một đơn hàng, bạn có thể tải xuống **tối đa tổng cộng 5 lần, tính cả lần tải xuống đầu tiên**. Tuy nhiên, nếu dữ liệu đầu vào bị mất khi ra khỏi màn hình kết quả, bạn sẽ không thể tạo lại, vì vậy hãy lưu tệp ngay sau khi thanh toán."
       ],
       "bullets": [
         "**Trước khi tải xuống bắt đầu sau khi thanh toán, bạn có thể hủy bất kỳ lúc nào và nhận hoàn tiền đầy đủ.**",
         "**Sau khi tải xuống hoàn tất, việc hủy đơn hàng do thay đổi ý kiến sẽ bị hạn chế.** Đây là nội dung kỹ thuật số được cung cấp ngay lập tức và không thể phục hồi, điều này thuộc về lý do hạn chế hủy đơn hàng theo Điều 17, Khoản 2 của Luật Bảo vệ Người tiêu dùng trong Giao dịch Điện tử.",
         "**Trong trường hợp tài liệu không được tạo do lỗi hệ thống, tệp không mở được, hoặc số tiền thanh toán khác với đơn hàng,** sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền đầy đủ.",
         "**Phàn nàn về nội dung kết quả** không thuộc lý do hoàn tiền. Kết quả giải mã là tài liệu tham khảo từ góc nhìn truyền thống và đã được thông báo về tính chất của nó trước khi thanh toán (mục 1 trên).",
-        "Yêu cầu hoàn tiền sau khi đã sử dụng hết 5 lần cấp lại sẽ không thuộc lý do hoàn tiền.",
+        "Yêu cầu lại sau khi đã sử dụng hết 5 lần tải xuống sẽ không thuộc lý do hoàn tiền.",
         "**Nếu người chưa thành niên thanh toán mà không có sự đồng ý của người đại diện hợp pháp,** bản thân hoặc người đại diện hợp pháp có thể hủy thanh toán đó. Vui lòng thông báo cho chúng tôi qua thông tin liên lạc dưới đây để được hoàn tiền."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Sự không hài lòng với nội dung kết quả.** Kết quả giải mộng là tài liệu tham khảo từ góc độ giải thích truyền thống và chúng tôi đã thông báo về tính chất này trước khi thanh toán. Trường hợp không tìm thấy biểu tượng có sẵn trong giấc mơ dẫn đến kết quả ngắn gọn cũng thuộc trường hợp này — vì chúng tôi không tạo ra ý nghĩa không có thực.",
-        "Yêu cầu cấp lại sau khi đã sử dụng hết 5 lần."
+        "Yêu cầu lại sau khi đã sử dụng hết 5 lần tải xuống."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Thanh toán trong nước {priceCardDomestic} (bao gồm thuế giá trị gia tăng) · Thanh toán quốc tế {priceCardGlobal}",
         "Chúng tôi sẽ cung cấp kết quả trên màn hình dưới dạng **một hình ảnh duy nhất**. Đây là định dạng dễ dàng để giữ lại hoặc gửi đi, và **không phải là tài liệu PDF.**",
-        "Bạn có thể tải lại tối đa **5 lần** với cùng một đơn hàng. Tuy nhiên, nếu bạn rời khỏi màn hình kết quả và các giá trị nhập vào bị mất, bạn sẽ không thể tạo lại, vì vậy hãy lưu tệp ngay sau khi thanh toán."
+        "Với cùng một đơn hàng, bạn có thể tải xuống **tối đa tổng cộng 5 lần, tính cả lần tải xuống đầu tiên**. Tuy nhiên, nếu bạn rời khỏi màn hình kết quả và các giá trị nhập vào bị mất, bạn sẽ không thể tạo lại, vì vậy hãy lưu tệp ngay sau khi thanh toán."
       ]
     },
     {
@@ -490,15 +490,15 @@ const d6 = {
         "**Thẻ giấc mơ** — Một tệp hình ảnh. Nó sẽ được tạo thành một tấm để bạn có thể giữ lại và chia sẻ biểu tượng và ý nghĩa truyền thống từ giấc mơ mà bạn đã có trong ngày. **Không phải là tài liệu (PDF).** Thanh toán trong nước {priceCardDomestic} (bao gồm thuế giá trị gia tăng), thanh toán quốc tế {priceCardGlobal}.",
         "**Báo cáo giấc mơ mang thai PDF** — 4 trang. Nó chứa ý nghĩa truyền thống của các biểu tượng và bối cảnh của chúng trong tài liệu. **Không xác định tình trạng mang thai** — chỉ thông báo rằng có biểu tượng được coi là giấc mơ mang thai theo truyền thống xuất hiện trong giấc mơ. Thanh toán trong nước {priceConceptionDomestic} (bao gồm thuế giá trị gia tăng), thanh toán quốc tế {priceConceptionGlobal}.",
         "Thanh toán trong nước có thể sử dụng thẻ tín dụng, thẻ ghi nợ và thanh toán tiện lợi (Toss Payments, KakaoPay, NaverPay, Payco, v.v.) thông qua Toss Payments, và thanh toán quốc tế thông qua PayPal qua PortOne. Số tiền cuối cùng sẽ theo số tiền hiển thị trên màn hình thanh toán.",
-        "**Dịch vụ không lưu trữ dữ liệu đầu vào của người dùng cũng như tệp PDF đã tạo.** Khi thanh toán được phê duyệt, tài liệu sẽ được tạo và gửi ngay lập tức mà không để lại gì trên máy chủ. Do đó, tệp đã tải xuống cần được người dùng tự lưu giữ.",
-        "Trong trường hợp tải xuống bị ngừng hoặc tệp bị mất, bạn có thể tải xuống lại **tối đa 5 lần** với cùng một đơn hàng. Tuy nhiên, nếu dữ liệu đầu vào bị mất khi ra khỏi màn hình kết quả, bạn sẽ không thể tạo lại, vì vậy hãy lưu tệp ngay sau khi thanh toán."
+        "**Dịch vụ không lưu trữ dữ liệu đầu vào của người dùng cũng như tệp đã tạo.** Khi thanh toán được phê duyệt, tài liệu sẽ được tạo và gửi ngay lập tức mà không để lại gì trên máy chủ. Do đó, tệp đã tải xuống cần được người dùng tự lưu giữ.",
+        "Trong trường hợp tải xuống bị ngừng hoặc tệp bị mất, với cùng một đơn hàng, bạn có thể tải xuống **tối đa tổng cộng 5 lần, tính cả lần tải xuống đầu tiên**. Tuy nhiên, nếu dữ liệu đầu vào bị mất khi ra khỏi màn hình kết quả, bạn sẽ không thể tạo lại, vì vậy hãy lưu tệp ngay sau khi thanh toán."
       ],
       "bullets": [
         "**Trước khi tải xuống bắt đầu sau khi thanh toán, bạn có thể hủy bất kỳ lúc nào và nhận lại toàn bộ tiền.**",
         "**Sau khi tải xuống hoàn tất, việc hủy đơn hàng do thay đổi ý kiến sẽ bị hạn chế. Đây là nội dung kỹ thuật số được cung cấp ngay lập tức và không thể khôi phục lại, điều này thuộc về lý do hạn chế hủy đơn hàng theo Điều 17, Khoản 2 của Luật Bảo vệ Người tiêu dùng trong Giao dịch Điện tử.",
         "**Trong trường hợp tài liệu không được tạo do lỗi hệ thống, tệp không mở được hoặc số tiền thanh toán khác với đơn hàng,** sẽ được xử lý bằng cách cấp lại hoặc hoàn tiền toàn bộ.",
         "**Phàn nàn về nội dung kết quả** không thuộc lý do hoàn tiền. Kết quả giải mộng là tài liệu tham khảo từ góc nhìn giải thích truyền thống và đã được thông báo về tính chất của nó trước khi thanh toán (mục 1 trên).",
-        "Yêu cầu hoàn tiền sau khi đã sử dụng hết 5 lần cấp lại sẽ không thuộc lý do hoàn tiền.",
+        "Yêu cầu lại sau khi đã sử dụng hết 5 lần tải xuống sẽ không thuộc lý do hoàn tiền.",
         "**Trong trường hợp người chưa thành niên thanh toán mà không có sự đồng ý của người đại diện hợp pháp,** cá nhân đó hoặc người đại diện hợp pháp có thể hủy thanh toán. Vui lòng thông báo cho chúng tôi qua thông tin liên lạc dưới đây để được hoàn tiền."
       ]
     },

@@ -119,15 +119,15 @@ const d1 = {
         "**Carta dei sogni** — è un'immagine in formato file. Viene creata un'immagine che conserva e consente di condividere i simboli e i significati tradizionali emersi dal sogno di quel giorno. **Non è un documento (PDF).** Pagamento nazionale {priceCardDomestic} (IVA inclusa), pagamento internazionale {priceCardGlobal}.",
         "**Rapporto sui sogni di concezione in PDF** — 4 pagine. Contiene il significato tradizionale dei simboli emersi e il loro contesto in forma di documento. **Non determina la gravidanza** — si informa solo che simboli tradizionalmente considerati sogni di concezione sono emersi nel sogno. Pagamento nazionale {priceConceptionDomestic} (IVA inclusa), pagamento internazionale {priceConceptionGlobal}.",
         "I pagamenti nazionali possono essere effettuati tramite Toss Payments utilizzando carte di credito/debito e pagamenti semplificati (Toss, KakaoPay, NaverPay, Payco, ecc.), mentre i pagamenti internazionali avvengono tramite PayPal attraverso PortOne. L'importo finale è quello visualizzato nella schermata di pagamento.",
-        "**Il Servizio non conserva né i dati inseriti dall'utente né i file PDF creati.** Una volta approvato il pagamento, il documento viene creato e inviato immediatamente, senza lasciare nulla sul server. Pertanto, il file scaricato deve essere conservato dall'utente stesso.",
-        "In caso di interruzione del download o smarrimento del file, è possibile scaricare nuovamente fino a **5 volte** con lo stesso ordine. Tuttavia, se si esce dalla schermata dei risultati e i dati inseriti vengono persi, non sarà possibile ricrearli, quindi si prega di salvare il file subito dopo il pagamento."
+        "**Il Servizio non conserva né i dati inseriti dall'utente né i file creati.** Una volta approvato il pagamento, il documento viene creato e inviato immediatamente, senza lasciare nulla sul server. Pertanto, il file scaricato deve essere conservato dall'utente stesso.",
+        "In caso di interruzione del download o smarrimento del file, è possibile scaricarlo con lo stesso ordine **fino a 5 volte in totale, compreso il primo download**. Tuttavia, se si esce dalla schermata dei risultati e i dati inseriti vengono persi, non sarà possibile ricrearli, quindi si prega di salvare il file subito dopo il pagamento."
       ],
       "bullets": [
         "**Fino a quando il download non inizia dopo il pagamento,** è possibile annullare in qualsiasi momento e ricevere un rimborso completo.",
         "**Dopo il completamento del download,** il recesso per semplice ripensamento è limitato. Si tratta di contenuti digitali forniti immediatamente e non ripristinabili, che rientrano nei motivi di limitazione del recesso stabiliti dall'articolo 17, comma 2, della Legge sulla protezione dei consumatori nel commercio elettronico.",
         "**In caso di errore di sistema che impedisce la creazione del documento, file non apribili o importo di pagamento diverso dall'ordine,** verrà trattato come riemissione o rimborso completo.",
         "**Le lamentele sui contenuti dei risultati** non costituiscono motivo di rimborso. I risultati delle interpretazioni sono materiale di riferimento da una prospettiva di interpretazione tradizionale e la loro natura è stata comunicata prima del pagamento (vedi paragrafo 1).",
-        "Richieste di riemissione dopo aver utilizzato tutte le 5 volte non costituiscono motivo di rimborso.",
+        "Le nuove richieste dopo aver utilizzato tutti e 5 i download non costituiscono motivo di rimborso.",
         "**Se un minorenne effettua un pagamento senza il consenso del legale rappresentante,** il minorenne o il legale rappresentante possono annullare il pagamento. Si prega di informare il contatto sottostante per ricevere un rimborso."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Insoddisfazione riguardo al contenuto del risultato.** I risultati dell'interpretazione dei sogni sono materiali di riferimento secondo la tradizione interpretativa e questa natura è comunicata prima del pagamento. Se non si riesce a trovare i simboli presenti nel sogno, e il risultato è breve, ciò rientra in questa categoria — non si inventano significati inesistenti.",
-        "Richiesta di riemissione dopo aver utilizzato tutte e cinque le possibilità."
+        "Nuova richiesta dopo aver utilizzato tutti e cinque i download."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Pagamento nazionale {priceCardDomestic} (IVA inclusa) · Pagamento internazionale {priceCardGlobal}",
         "Ti forniamo i risultati sullo schermo in **un'unica immagine**. È una forma facile da conservare o inviare, **non è un documento PDF.**",
-        "Puoi scaricare nuovamente fino a **5 volte** con lo stesso ordine. Tuttavia, se esci dalla schermata dei risultati e i dati di input scompaiono, non potrai ricrearlo, quindi ti preghiamo di salvare il file subito dopo il pagamento."
+        "Puoi scaricarlo con lo stesso ordine **fino a 5 volte in totale, compreso il primo download**. Tuttavia, se esci dalla schermata dei risultati e i dati di input scompaiono, non potrai ricrearlo, quindi ti preghiamo di salvare il file subito dopo il pagamento."
       ]
     },
     {
@@ -490,15 +490,15 @@ const d6 = {
         "**Carta dei sogni** — un file immagine. Viene creata un'immagine che conserva e consente di condividere i simboli e i significati tradizionali del sogno di quel giorno. **Non è un documento (PDF).** Pagamento nazionale {priceCardDomestic} (IVA inclusa), pagamento internazionale {priceCardGlobal}.",
         "**Rapporto sui sogni di concezione PDF** — 4 pagine. Contiene il significato tradizionale dei simboli e il loro contesto in forma di documento. **Non determina la gravidanza** — si informa solo che un simbolo tradizionalmente considerato un sogno di concezione è apparso nel sogno. Pagamento nazionale {priceConceptionDomestic} (IVA inclusa), pagamento internazionale {priceConceptionGlobal}.",
         "Il pagamento nazionale può essere effettuato tramite Toss Payments utilizzando carte di credito/debito e pagamenti semplificati (Toss Pay, Kakao Pay, Naver Pay, Payco, ecc.), mentre il pagamento internazionale avviene tramite PayPal attraverso PortOne. L'importo finale è quello visualizzato nella schermata di pagamento.",
-        "**Il servizio non conserva né i dati inseriti dall'utente né i file PDF creati.** Una volta approvato il pagamento, il documento viene creato e inviato immediatamente, senza lasciare nulla sul server. Pertanto, il file scaricato deve essere conservato dall'utente.",
-        "In caso di interruzione del download o smarrimento del file, è possibile scaricare nuovamente fino a **5 volte** con lo stesso ordine. Tuttavia, se si esce dalla schermata dei risultati e i dati inseriti vengono persi, non sarà possibile ricrearlo, quindi si prega di salvare il file subito dopo il pagamento."
+        "**Il Servizio non conserva né i dati inseriti dall'utente né i file creati.** Una volta approvato il pagamento, il documento viene creato e inviato immediatamente, senza lasciare nulla sul server. Pertanto, il file scaricato deve essere conservato dall'utente stesso.",
+        "In caso di interruzione del download o smarrimento del file, è possibile scaricarlo con lo stesso ordine **fino a 5 volte in totale, compreso il primo download**. Tuttavia, se si esce dalla schermata dei risultati e i dati inseriti vengono persi, non sarà possibile ricrearli, quindi si prega di salvare il file subito dopo il pagamento."
       ],
       "bullets": [
         "**Fino a quando il download non inizia dopo il pagamento,** è possibile annullare in qualsiasi momento e ricevere un rimborso completo.",
         "**Dopo il completamento del download,** il recesso per semplice ripensamento è limitato. Si tratta di contenuti digitali forniti immediatamente e non ripristinabili, che rientrano nei motivi di limitazione del recesso stabiliti dall'articolo 17, comma 2 della legge sulla protezione dei consumatori nel commercio elettronico.",
         "**In caso di errore di sistema che impedisce la creazione del documento, file non apribili o importo di pagamento diverso dall'ordine,** verrà trattato come riemissione o rimborso completo.",
         "**Le lamentele sui contenuti dei risultati** non costituiscono motivo di rimborso. I risultati dell'interpretazione sono materiale di riferimento dal punto di vista dell'interpretazione tradizionale e questa natura è comunicata prima del pagamento (vedi punto 1).",
-        "Richieste di riemissione dopo aver utilizzato tutte le 5 volte non costituiscono motivo di rimborso.",
+        "Le nuove richieste dopo aver utilizzato tutti e 5 i download non costituiscono motivo di rimborso.",
         "**Se un minorenne effettua un pagamento senza il consenso del legale rappresentante,** il minorenne o il legale rappresentante possono annullare il pagamento. Se ci informate tramite i contatti sottostanti, procederemo al rimborso."
       ]
     },

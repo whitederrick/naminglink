@@ -126,7 +126,7 @@ export const fr: Dictionary = {
       ],
       [
         "Télécharger à nouveau",
-        "Jusqu'à 5 fois sur la même commande. Nous ne conservons pas le fichier, il ne peut donc pas être recréé une fois que vous quittez l'écran de résultats."
+        "Jusqu'à 5 fois au total sur la même commande, premier téléchargement compris. Nous ne conservons pas le fichier, il ne peut donc pas être recréé une fois que vous quittez l'écran de résultats."
       ],
       [
         "Retrait",
@@ -179,7 +179,7 @@ export const fr: Dictionary = {
       ],
       [
         "Télécharger à nouveau",
-        "Jusqu'à 5 fois pour la même commande. Nous ne conservons pas le fichier, donc il ne peut pas être recréé une fois que vous quittez l'écran de résultats."
+        "Jusqu'à 5 fois au total sur la même commande, premier téléchargement compris. Nous ne conservons pas le fichier, il ne peut donc pas être recréé une fois que vous quittez l'écran de résultats."
       ],
       [
         "Retrait",

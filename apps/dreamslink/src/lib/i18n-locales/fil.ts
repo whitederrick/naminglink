@@ -126,7 +126,7 @@ export const fil: Dictionary = {
       ],
       [
         "I-download muli",
-        "Hanggang 5 beses sa parehong order. Hindi namin itinatago ang file, kaya hindi na ito maibabalik kapag umalis ka sa resulta ng screen."
+        "Hanggang 5 beses sa kabuuan sa parehong order, kasama ang unang pag-download. Hindi namin itinatago ang file, kaya hindi na ito maibabalik kapag umalis ka sa resulta ng screen."
       ],
       [
         "Pagbawi",
@@ -179,7 +179,7 @@ export const fil: Dictionary = {
       ],
       [
         "I-download muli",
-        "Hanggang 5 beses sa parehong order. Hindi namin itinatago ang file, kaya hindi na ito maibabalik kapag umalis ka sa resulta ng screen."
+        "Hanggang 5 beses sa kabuuan sa parehong order, kasama ang unang pag-download. Hindi namin itinatago ang file, kaya hindi na ito maibabalik kapag umalis ka sa resulta ng screen."
       ],
       [
         "Pagbawi",

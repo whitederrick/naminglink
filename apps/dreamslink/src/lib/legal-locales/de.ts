@@ -119,15 +119,15 @@ const d1 = {
         "**Traumkarte** — Eine Bilddatei. Sie wird erstellt, um die Symbole und deren traditionelle Bedeutungen aus dem Traum des Tages zu bewahren und zu teilen. **Es handelt sich nicht um ein Dokument (PDF).** Inlandszahlung {priceCardDomestic} (inklusive Mehrwertsteuer), Auslandszahlung {priceCardGlobal}.",
         "**Konzeptionstraumbericht als PDF** — 4 Seiten. Er enthält die traditionellen Bedeutungen der gefundenen Symbole und deren Hintergrund in Dokumentform. **Es wird nicht festgestellt, ob eine Schwangerschaft vorliegt** — es wird lediglich mitgeteilt, dass Symbole, die traditionell als Konzeptionstraum angesehen werden, im Traum erschienen sind. Inlandszahlung {priceConceptionDomestic} (inklusive Mehrwertsteuer), Auslandszahlung {priceConceptionGlobal}.",
         "Inlandszahlungen können über Toss Payments mit Kredit- oder Debitkarten sowie mit einfachen Zahlungsmethoden (Toss Pay, Kakao Pay, Naver Pay, Payco usw.) erfolgen, während Auslandszahlungen über PortOne mit PayPal abgewickelt werden. Der endgültige Betrag entspricht dem Betrag, der auf dem Zahlungsbildschirm angezeigt wird.",
-        "**Der Dienst speichert weder die Eingaben der Nutzer noch die erstellten PDF-Dateien.** Nach Genehmigung der Zahlung wird das Dokument sofort erstellt und heruntergeladen, und es bleibt nichts auf dem Server zurück. Daher muss die heruntergeladene Datei vom Nutzer selbst aufbewahrt werden.",
-        "Für den Fall, dass der Download unterbrochen wird oder die Datei verloren geht, kann die Datei bis zu **5 Mal** mit derselben Bestellung erneut heruntergeladen werden. Wenn jedoch die Eingaben verloren gehen, nachdem der Bildschirm mit den Ergebnissen verlassen wurde, kann die Datei nicht erneut erstellt werden, daher speichern Sie bitte die Datei sofort nach der Zahlung."
+        "**Der Dienst speichert weder die Eingaben der Nutzer noch die erstellten Dateien.** Nach Genehmigung der Zahlung wird das Dokument sofort erstellt und heruntergeladen, und es bleibt nichts auf dem Server zurück. Daher muss die heruntergeladene Datei vom Nutzer selbst aufbewahrt werden.",
+        "Für den Fall, dass der Download unterbrochen wird oder die Datei verloren geht, kann die Datei mit derselben Bestellung **einschließlich des ersten Downloads insgesamt bis zu 5 Mal** heruntergeladen werden. Wenn jedoch die Eingaben verloren gehen, nachdem der Bildschirm mit den Ergebnissen verlassen wurde, kann die Datei nicht erneut erstellt werden, daher speichern Sie bitte die Datei sofort nach der Zahlung."
       ],
       "bullets": [
         "**Vor Beginn des Downloads nach der Zahlung** kann jederzeit storniert und eine vollständige Rückerstattung beantragt werden.",
         "**Nach Abschluss des Downloads** ist eine Rücktrittserklärung aufgrund einfacher Meinungsänderung eingeschränkt. Es handelt sich um digitale Inhalte, die sofort bereitgestellt werden und deren Wiederherstellung nicht möglich ist, was den in Artikel 17 Absatz 2 des Gesetzes über den Verbraucherschutz im elektronischen Geschäftsverkehr festgelegten Gründen für die Einschränkung des Rücktritts entspricht.",
         "**Wenn aufgrund eines Systemfehlers das Dokument nicht erstellt wurde, die Datei nicht geöffnet werden kann oder der Zahlungsbetrag von der Bestellung abweicht,** wird dies als Neuausstellung oder vollständige Rückerstattung behandelt.",
         "**Beschwerden über den Inhalt der Ergebnisse** gelten nicht als Rückerstattungsgrund. Die Traumdeutungsergebnisse sind Referenzmaterial aus der Perspektive traditioneller Interpretationen, und deren Natur wird vor der Zahlung erläutert (siehe Abschnitt 1).",
-        "Anfragen nach einer Rückerstattung nach der Nutzung aller 5 Neuausstellungen gelten nicht als Rückerstattungsgrund.",
+        "Erneute Anfragen nach der Nutzung aller 5 Downloads gelten nicht als Rückerstattungsgrund.",
         "**Wenn Minderjährige ohne Zustimmung des gesetzlichen Vertreters eine Zahlung vorgenommen haben,** kann die Zahlung von der betreffenden Person oder dem gesetzlichen Vertreter storniert werden. Bitte informieren Sie uns unter den unten angegebenen Kontaktdaten, um eine Rückerstattung zu erhalten."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Unzufriedenheit mit dem Ergebnis.** Die Traumdeutungsergebnisse sind Referenzmaterialien aus der Perspektive traditioneller Interpretationen, und deren Natur wird vor der Zahlung bekannt gegeben. Dies gilt auch für Fälle, in denen im Traum keine vorab vorhandenen Symbole gefunden werden und das Ergebnis daher kurz ausfällt — um keine nicht vorhandene Bedeutung zu erfinden.",
-        "Anfragen nach einer Neuausstellung, nachdem alle 5 Neuausstellungen genutzt wurden."
+        "Erneute Anfragen, nachdem alle 5 Downloads genutzt wurden."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Inlandszahlung {priceCardDomestic} (inklusive Mehrwertsteuer) · Auslandszahlung {priceCardGlobal}",
         "Die Ergebnisse auf dem Bildschirm werden in **einem Bild** festgehalten. Es ist in einer Form, die sich gut aufbewahren oder versenden lässt, und es handelt sich **nicht um ein PDF-Dokument.**",
-        "Sie können die gleiche Bestellung **bis zu 5 Mal** erneut herunterladen. Bitte speichern Sie die Datei direkt nach der Zahlung, da sie nicht erneut erstellt werden kann, wenn die Eingabewerte verloren gehen."
+        "Sie können die Datei mit derselben Bestellung **einschließlich des ersten Downloads insgesamt bis zu 5 Mal** herunterladen. Bitte speichern Sie die Datei direkt nach der Zahlung, da sie nicht erneut erstellt werden kann, wenn die Eingabewerte verloren gehen."
       ]
     },
     {
@@ -491,15 +491,15 @@ const d6 = {
         "**Traumkarte** — Eine Bilddatei. Sie wird erstellt, um die Symbole und die traditionellen Bedeutungen des Traums, den Sie an diesem Tag hatten, festzuhalten und zu teilen. **Es handelt sich nicht um ein Dokument (PDF).** Inlandszahlung {priceCardDomestic} (inklusive Mehrwertsteuer), Auslandszahlung {priceCardGlobal}.",
         "**Konzeptionstraumbericht PDF** — 4 Seiten. Er enthält die traditionellen Bedeutungen der aufgetretenen Symbole und deren Hintergrund in Dokumentform. **Es wird keine Schwangerschaft festgestellt** — es wird lediglich mitgeteilt, dass Symbole, die traditionell als Konzeptionsträume betrachtet werden, im Traum erschienen sind. Inlandszahlung {priceConceptionDomestic} (inklusive Mehrwertsteuer), Auslandszahlung {priceConceptionGlobal}.",
         "Für Inlandszahlungen können Kredit- und Debitkarten sowie einfache Zahlungsmethoden (Toss Payments, KakaoPay, NaverPay, Payco usw.) über Toss Payments genutzt werden, während für Auslandszahlungen PayPal über PortOne verwendet wird. Der endgültige Betrag entspricht dem auf dem Zahlungsbildschirm angezeigten Betrag.",
-        "**Der Dienst speichert weder die Eingabewerte des Nutzers noch die erstellte PDF-Datei.** Nach Genehmigung der Zahlung wird das Dokument sofort erstellt und heruntergeladen, ohne dass etwas auf dem Server verbleibt. Daher muss die heruntergeladene Datei vom Nutzer selbst aufbewahrt werden.",
-        "Für den Fall, dass der Download unterbrochen wird oder die Datei verloren geht, kann die Datei bis zu **5 Mal** erneut heruntergeladen werden. Allerdings kann die Datei nicht erneut erstellt werden, wenn die Eingabewerte nach dem Ergebnisbildschirm verloren gehen, daher speichern Sie bitte die Datei sofort nach der Zahlung."
+        "**Der Dienst speichert weder die Eingaben der Nutzer noch die erstellten Dateien.** Nach Genehmigung der Zahlung wird das Dokument sofort erstellt und heruntergeladen, und es bleibt nichts auf dem Server zurück. Daher muss die heruntergeladene Datei vom Nutzer selbst aufbewahrt werden.",
+        "Für den Fall, dass der Download unterbrochen wird oder die Datei verloren geht, kann die Datei mit derselben Bestellung **einschließlich des ersten Downloads insgesamt bis zu 5 Mal** heruntergeladen werden. Wenn jedoch die Eingaben verloren gehen, nachdem der Bildschirm mit den Ergebnissen verlassen wurde, kann die Datei nicht erneut erstellt werden, daher speichern Sie bitte die Datei sofort nach der Zahlung."
       ],
       "bullets": [
         "**Vor Beginn des Downloads nach der Zahlung** kann jederzeit storniert und eine vollständige Rückerstattung erhalten werden.",
         "**Nach Abschluss des Downloads** ist eine Rücktrittserklärung aufgrund einfacher Meinungsänderung eingeschränkt. Es handelt sich um digitale Inhalte, die sofort bereitgestellt werden und deren Wiederherstellung nicht möglich ist, was den in Artikel 17 Absatz 2 des Gesetzes über den Schutz der Verbraucher im elektronischen Geschäftsverkehr festgelegten Gründen für die Einschränkung des Rücktritts entspricht.",
         "**Im Falle eines Systemfehlers, bei dem das Dokument nicht erstellt wurde, die Datei nicht geöffnet werden kann oder der Zahlungsbetrag von der Bestellung abweicht**, wird dies als Neuausstellung oder vollständige Rückerstattung behandelt.",
         "**Beschwerden über den Inhalt der Ergebnisse** gelten nicht als Rückerstattungsgrund. Die Ergebnisse der Traumdeutung sind Referenzmaterial aus der Perspektive traditioneller Interpretationen, und dies wird vor der Zahlung mitgeteilt (siehe Absatz 1 oben).",
-        "Eine erneute Anfrage nach der Nutzung aller 5 Neuausstellungen gilt nicht als Rückerstattungsgrund.",
+        "Erneute Anfragen nach der Nutzung aller 5 Downloads gelten nicht als Rückerstattungsgrund.",
         "**Wenn ein Minderjähriger ohne Zustimmung des gesetzlichen Vertreters eine Zahlung vorgenommen hat**, kann dieser oder der gesetzliche Vertreter die Zahlung stornieren. Bitte informieren Sie uns unter den unten angegebenen Kontaktdaten, damit wir Ihnen eine Rückerstattung gewähren können."
       ]
     },

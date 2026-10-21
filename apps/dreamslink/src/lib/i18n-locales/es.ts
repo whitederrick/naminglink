@@ -126,7 +126,7 @@ export const es: Dictionary = {
       ],
       [
         "Volver a descargar",
-        "Hasta 5 veces en el mismo pedido. No guardamos el archivo, por lo que no se puede volver a crear una vez que salgas de la pantalla de resultados."
+        "Hasta un total de 5 veces en el mismo pedido, incluida la primera descarga. No guardamos el archivo, por lo que no se puede volver a crear una vez que salgas de la pantalla de resultados."
       ],
       [
         "Retiro",
@@ -179,7 +179,7 @@ export const es: Dictionary = {
       ],
       [
         "Volver a descargar",
-        "Hasta 5 veces en el mismo pedido. No guardamos el archivo, por lo que no se puede volver a crear una vez que salgas de la pantalla de resultados."
+        "Hasta un total de 5 veces en el mismo pedido, incluida la primera descarga. No guardamos el archivo, por lo que no se puede volver a crear una vez que salgas de la pantalla de resultados."
       ],
       [
         "Retiro",

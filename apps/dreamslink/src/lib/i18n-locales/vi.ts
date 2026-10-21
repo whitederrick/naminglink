@@ -126,7 +126,7 @@ export const vi: Dictionary = {
       ],
       [
         "Tải lại",
-        "Tối đa 5 lần cho cùng một đơn hàng. Chúng tôi không giữ file, vì vậy không thể tạo lại sau khi bạn rời khỏi màn hình kết quả."
+        "Tối đa tổng cộng 5 lần cho cùng một đơn hàng, tính cả lần tải đầu tiên. Chúng tôi không giữ file, vì vậy không thể tạo lại sau khi bạn rời khỏi màn hình kết quả."
       ],
       [
         "Rút lại",
@@ -179,7 +179,7 @@ export const vi: Dictionary = {
       ],
       [
         "Tải lại",
-        "Tối đa 5 lần cho cùng một đơn hàng. Chúng tôi không giữ tệp, vì vậy không thể tạo lại sau khi bạn rời khỏi màn hình kết quả."
+        "Tối đa tổng cộng 5 lần cho cùng một đơn hàng, tính cả lần tải đầu tiên. Chúng tôi không giữ file, vì vậy không thể tạo lại sau khi bạn rời khỏi màn hình kết quả."
       ],
       [
         "Rút lại",

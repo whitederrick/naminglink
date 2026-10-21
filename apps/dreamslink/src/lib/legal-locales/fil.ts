@@ -119,15 +119,15 @@ const d1 = {
         "**Dream card** — isang larawan na file. Ito ay naglalaman ng mga simbolo at tradisyonal na kahulugan mula sa pangarap na iyon. **Hindi ito dokumento (PDF).** Bayad sa loob ng bansa {priceCardDomestic} (kasama ang VAT), bayad sa ibang bansa {priceCardGlobal}.",
         "**Conception dream report (태몽) PDF** — 4 na pahina. Naglalaman ito ng tradisyonal na kahulugan ng mga simbolo at ang kanilang konteksto sa isang dokumento. **Hindi ito nagtatakda ng katotohanan ng pagbubuntis** — ipinapaalam lamang ang katotohanan na ang mga simbolo na itinuturing na pangarap ng pagbubuntis ay lumabas sa pangarap. Bayad sa loob ng bansa {priceConceptionDomestic} (kasama ang VAT), bayad sa ibang bansa {priceConceptionGlobal}.",
         "Ang mga bayad sa loob ng bansa ay maaaring gawin gamit ang Toss Payments sa pamamagitan ng credit/debit card at mga simpleng pagbabayad (Toss Pay, Kakao Pay, Naver Pay, Payco, atbp.), at ang mga bayad sa ibang bansa ay sa pamamagitan ng PayPal sa PortOne. Ang huling halaga ay nakabatay sa halaga na ipinapakita sa screen ng pagbabayad.",
-        "**Ang serbisyo ay hindi nag-iimbak ng mga input ng gumagamit o ng mga nilikhang PDF file.** Kapag naaprubahan ang pagbabayad, agad na nilikha ang dokumento at walang naiwan sa server. Samakatuwid, ang na-download na file ay dapat itago ng gumagamit mismo.",
-        "Kung ang pag-download ay naputol o nawala ang file, maaari itong ma-download muli ng **hanggang 5 beses** gamit ang parehong order. Gayunpaman, kung ang mga input ay nawala sa labas ng resulta na screen, hindi na ito maaaring muling likhain, kaya't mangyaring i-save ang file kaagad pagkatapos ng pagbabayad."
+        "**Ang serbisyo ay hindi nag-iimbak ng mga input ng gumagamit o ng mga nilikhang file.** Kapag naaprubahan ang pagbabayad, agad na nilikha ang dokumento at walang naiwan sa server. Samakatuwid, ang na-download na file ay dapat itago ng gumagamit mismo.",
+        "Kung ang pag-download ay naputol o nawala ang file, maaari itong i-download nang **hanggang 5 beses sa kabuuan kasama ang unang pag-download** gamit ang parehong order. Gayunpaman, kung ang mga input ay nawala sa labas ng resulta na screen, hindi na ito maaaring muling likhain, kaya't mangyaring i-save ang file kaagad pagkatapos ng pagbabayad."
       ],
       "bullets": [
         "**Bago magsimula ang pag-download pagkatapos ng pagbabayad,** maaari itong kanselahin anumang oras at makakuha ng buong refund.",
         "**Matapos makumpleto ang pag-download,** ang pag-withdraw ng aplikasyon dahil sa simpleng pagbabago ng isip ay limitado. Ito ay isang digital na nilalaman na ibinibigay kaagad at hindi maibabalik, na tumutugma sa mga dahilan ng limitasyon sa pag-withdraw ng aplikasyon ayon sa Artikulo 17, Seksyon 2 ng Batas sa Proteksyon ng Mamimili sa Elektronikong Kalakalan.",
         "**Kung ang dokumento ay hindi nalikha dahil sa error sa sistema, o ang file ay hindi mabuksan, o ang halaga ng pagbabayad ay iba sa order,** ito ay ipoproseso bilang muling pag-isyu o buong refund.",
         "**Ang mga reklamo tungkol sa nilalaman ng resulta** ay hindi itinuturing na dahilan para sa refund. Ang mga resulta ng interpretasyon ay mga sanggunian mula sa tradisyonal na interpretasyon at ito ay ipinaalam bago ang pagbabayad (tingnan ang Seksyon 1 sa itaas).",
-        "Ang mga muling pag-isyu na ginamit na ang lahat ng 5 beses ay hindi itinuturing na dahilan para sa refund.",
+        "Ang mga muling kahilingan matapos gamitin ang lahat ng 5 beses na pag-download ay hindi itinuturing na dahilan para sa refund.",
         "**Kung ang isang menor de edad ay nagbayad nang walang pahintulot ng kanyang legal na kinatawan,** ang sarili o ang legal na kinatawan ay maaaring kanselahin ang pagbabayad. Mangyaring ipaalam sa ibaba ng contact para sa refund."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Hindi pagkakaunawaan sa nilalaman ng resulta.** Ang mga resulta ng interpretasyon ay mga sanggunian mula sa tradisyonal na pananaw at ito ay ipinaalam bago ang pagbabayad. Kasama rito ang mga kaso kung saan hindi natagpuan ang mga simbolo na nasa pangarap, kaya't maikli ang resulta — hindi kami bumubuo ng mga di-umiiral na kahulugan.",
-        "Mga muling kahilingan matapos gamitin ang lahat ng 5 pagkakataon para sa muling pag-isyu."
+        "Mga muling kahilingan matapos gamitin ang lahat ng 5 pagkakataon para sa pag-download."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Bayad sa loob ng bansa {priceCardDomestic} (kasama ang buwis) · Bayad sa ibang bansa {priceCardGlobal}",
         "Ipinapahayag namin ang mga resulta sa **isang larawan**. Ito ay nasa anyo na madaling itago o ipadala, at **hindi ito isang PDF na dokumento.**",
-        "Maaari mong i-download muli ang parehong order ng **hanggang 5 beses.** Gayunpaman, kung mawala ang mga input na halaga sa labas ng resulta ng screen, hindi na ito maibabalik, kaya't mangyaring i-save ang file kaagad pagkatapos ng pagbabayad."
+        "Maaari mong i-download ang parehong order nang **hanggang 5 beses sa kabuuan kasama ang unang pag-download**. Gayunpaman, kung mawala ang mga input na halaga sa labas ng resulta ng screen, hindi na ito maibabalik, kaya't mangyaring i-save ang file kaagad pagkatapos ng pagbabayad."
       ]
     },
     {
@@ -490,15 +490,15 @@ const d6 = {
         "**Dream card** — Isang imahe na file. Ito ay isang larawan na naglalaman ng mga simbolo mula sa pangarap na iyon at ang tradisyonal na kahulugan. **Hindi ito dokumento (PDF).** Bayad sa loob ng bansa {priceCardDomestic} (kasama ang VAT), bayad sa ibang bansa {priceCardGlobal}.",
         "**Conception-dream report PDF** — 4 na pahina. Naglalaman ito ng tradisyonal na kahulugan ng mga simbolo at ang kanilang konteksto. **Hindi ito nagtatakda ng katotohanan ng pagbubuntis** — ipinapaalam lamang nito na ang mga simbolo na tradisyonal na itinuturing na pangarap ng pagbubuntis ay lumabas sa pangarap. Bayad sa loob ng bansa {priceConceptionDomestic} (kasama ang VAT), bayad sa ibang bansa {priceConceptionGlobal}.",
         "Ang mga bayad sa loob ng bansa ay maaaring gawin gamit ang Toss Payments sa pamamagitan ng credit/debit card at mga simpleng pagbabayad (Toss Pay, Kakao Pay, Naver Pay, Payco, atbp.), at ang mga bayad sa ibang bansa ay sa pamamagitan ng PayPal sa PortOne. Ang huling halaga ay nakabatay sa halaga na ipinapakita sa pahina ng pagbabayad.",
-        "**Ang serbisyo ay hindi nag-iimbak ng mga input ng gumagamit o ng mga nilikhang PDF file.** Kapag naaprubahan ang pagbabayad, agad na nililikha ang dokumento at walang natitirang impormasyon sa server. Samakatuwid, ang na-download na file ay dapat itago ng gumagamit mismo.",
-        "Kung ang pag-download ay naputol o ang file ay nawala, maaari itong ma-download muli ng **hanggang 5 beses** gamit ang parehong order. Gayunpaman, kung ang mga input ay nawala sa labas ng resulta na pahina, hindi na ito maaaring muling likhain, kaya't mangyaring i-save ang file kaagad pagkatapos ng pagbabayad."
+        "**Ang serbisyo ay hindi nag-iimbak ng mga input ng gumagamit o ng mga nilikhang file.** Kapag naaprubahan ang pagbabayad, agad na nilikha ang dokumento at walang naiwan sa server. Samakatuwid, ang na-download na file ay dapat itago ng gumagamit mismo.",
+        "Kung ang pag-download ay naputol o nawala ang file, maaari itong i-download nang **hanggang 5 beses sa kabuuan kasama ang unang pag-download** gamit ang parehong order. Gayunpaman, kung ang mga input ay nawala sa labas ng resulta na screen, hindi na ito maaaring muling likhain, kaya't mangyaring i-save ang file kaagad pagkatapos ng pagbabayad."
       ],
       "bullets": [
         "**Bago magsimula ang pag-download pagkatapos ng pagbabayad,** maaari itong kanselahin anumang oras at makakuha ng buong refund.",
         "**Matapos makumpleto ang pag-download,** ang pag-withdraw ng aplikasyon dahil sa simpleng pagbabago ng isip ay limitado. Ito ay digital na nilalaman na ibinibigay agad at hindi maibabalik, na tumutugma sa mga dahilan ng limitasyon ng pag-withdraw ng aplikasyon ayon sa Artikulo 17, Seksyon 2 ng Batas sa Proteksyon ng Mamimili sa Elektronikong Kalakalan.",
         "**Kung ang dokumento ay hindi nalikha dahil sa error ng sistema, o ang file ay hindi mabuksan, o ang halaga ng pagbabayad ay iba sa order,** ito ay ipoproseso bilang muling pag-isyu o buong refund.",
         "**Ang mga reklamo tungkol sa nilalaman ng resulta** ay hindi itinuturing na dahilan para sa refund. Ang mga resulta ng interpretasyon ay mga sanggunian mula sa tradisyonal na pananaw ng interpretasyon at ito ay ipinaalam bago ang pagbabayad (tingnan ang Seksyon 1).",
-        "Ang mga muling pag-isyu na ginamit na ang 5 beses ay hindi itinuturing na dahilan para sa refund.",
+        "Ang mga muling kahilingan matapos gamitin ang lahat ng 5 beses na pag-download ay hindi itinuturing na dahilan para sa refund.",
         "**Kung ang isang menor de edad ay nagbayad nang walang pahintulot ng legal na kinatawan,** maaaring kanselahin ng sarili o ng legal na kinatawan ang pagbabayad. Mangyaring ipaalam sa ibaba ng contact para sa refund."
       ]
     },

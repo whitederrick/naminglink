@@ -126,7 +126,7 @@ export const pl: Dictionary = {
       ],
       [
         "Pobierz ponownie",
-        "Do 5 razy w ramach tego samego zamówienia. Nie przechowujemy pliku, więc nie można go ponownie utworzyć po opuszczeniu ekranu wyników."
+        "Łącznie do 5 razy wraz z pierwszym pobraniem w ramach tego samego zamówienia. Nie przechowujemy pliku, więc nie można go ponownie utworzyć po opuszczeniu ekranu wyników."
       ],
       [
         "Wycofanie",
@@ -179,7 +179,7 @@ export const pl: Dictionary = {
       ],
       [
         "Pobierz ponownie",
-        "Do 5 razy w ramach tego samego zamówienia. Nie przechowujemy pliku, więc nie można go ponownie utworzyć po opuszczeniu ekranu wyników."
+        "Łącznie do 5 razy wraz z pierwszym pobraniem w ramach tego samego zamówienia. Nie przechowujemy pliku, więc nie można go ponownie utworzyć po opuszczeniu ekranu wyników."
       ],
       [
         "Wycofanie",

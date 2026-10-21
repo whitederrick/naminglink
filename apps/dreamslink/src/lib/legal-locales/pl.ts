@@ -120,15 +120,15 @@ const d1 = {
         "**Karta snu** — to pojedynczy plik graficzny. Tworzymy ją, aby zachować symbole i tradycyjne znaczenie z snu, który został śniony danego dnia. **Nie jest to dokument (PDF).** Płatność krajowa {priceCardDomestic} (z VAT), płatność zagraniczna {priceCardGlobal}.",
         "**Raport o śnie dotyczący poczęcia (태몽 리포트) PDF** — 4 strony. Zawiera tradycyjne znaczenie symboli oraz ich kontekst w formie dokumentu. **Nie oceniamy stanu ciąży** — informujemy jedynie, że symbole, które tradycyjnie uważane są za związane z poczęciem, pojawiły się w śnie. Płatność krajowa {priceConceptionDomestic} (z VAT), płatność zagraniczna {priceConceptionGlobal}.",
         "Płatności krajowe można dokonywać za pomocą kart kredytowych i debetowych oraz płatności mobilnych (Toss Payments, KakaoPay, NaverPay, Payco itp.) przez Toss Payments, a płatności zagraniczne przez PayPal za pośrednictwem PortOne. Ostateczna kwota jest zgodna z kwotą wyświetlaną na ekranie płatności.",
-        "**Usługa nie przechowuje ani danych wprowadzonych przez użytkownika, ani utworzonych plików PDF.** Po zatwierdzeniu płatności dokument jest tworzony i przesyłany natychmiastowo, a na serwerze nie pozostaje nic. Dlatego pobrany plik należy przechować samodzielnie przez użytkownika.",
-        "W przypadku przerwania pobierania lub utraty pliku, można go pobrać ponownie **do 5 razy** w ramach tego samego zamówienia. Należy jednak pamiętać, że jeśli dane wejściowe znikną po opuszczeniu ekranu wyników, nie będzie można ich ponownie utworzyć, dlatego prosimy o zapisanie pliku zaraz po dokonaniu płatności."
+        "**Usługa nie przechowuje ani danych wprowadzonych przez użytkownika, ani utworzonych plików.** Po zatwierdzeniu płatności dokument jest tworzony i przesyłany natychmiastowo, a na serwerze nie pozostaje nic. Dlatego pobrany plik należy przechować samodzielnie przez użytkownika.",
+        "W przypadku przerwania pobierania lub utraty pliku, można go pobrać **łącznie do 5 razy wraz z pierwszym pobraniem** w ramach tego samego zamówienia. Należy jednak pamiętać, że jeśli dane wejściowe znikną po opuszczeniu ekranu wyników, nie będzie można ich ponownie utworzyć, dlatego prosimy o zapisanie pliku zaraz po dokonaniu płatności."
       ],
       "bullets": [
         "**Przed rozpoczęciem pobierania po dokonaniu płatności** można w każdej chwili anulować zamówienie i otrzymać pełny zwrot.",
         "**Po zakończeniu pobierania** zwrot z powodu zmiany zdania jest ograniczony. Jest to cyfrowa treść, która jest dostarczana natychmiastowo i nie można jej przywrócić, co odpowiada przyczynom ograniczenia zwrotów określonym w art. 17 ust. 2 ustawy o ochronie konsumentów w handlu elektronicznym.",
         "**W przypadku błędu systemu, gdy dokument nie został utworzony, plik nie otwiera się lub kwota płatności różni się od zamówienia** będzie to traktowane jako ponowne wydanie lub pełny zwrot.",
         "**Reklamacje dotyczące treści wyników** nie są podstawą do zwrotu. Wyniki interpretacji snów są materiałem referencyjnym z perspektywy tradycyjnej interpretacji, co zostało wskazane przed dokonaniem płatności (punkt 1 powyżej).",
-        "Ponowne żądanie po wykorzystaniu wszystkich 5 możliwości ponownego wydania nie jest podstawą do zwrotu.",
+        "Ponowne żądanie po wykorzystaniu wszystkich 5 pobrań nie jest podstawą do zwrotu.",
         "**W przypadku, gdy osoba niepełnoletnia dokonała płatności bez zgody swojego przedstawiciela ustawowego**, zarówno ona, jak i jej przedstawiciel ustawowy mogą anulować tę płatność. Prosimy o kontakt pod poniższymi danymi, aby uzyskać zwrot."
       ]
     },
@@ -220,7 +220,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Niezadowolenie z treści wyników.** Wyniki interpretacji snów są materiałem referencyjnym z perspektywy tradycyjnej interpretacji, co zostało wcześniej wyjaśnione przed dokonaniem płatności. Dotyczy to również sytuacji, gdy nie można znaleźć symboli obecnych w śnie, co skutkuje krótkim wynikiem — nie tworzymy znaczeń, które nie istnieją.",
-        "Ponowne żądanie po wykorzystaniu wszystkich 5 możliwości ponownego wydania."
+        "Ponowne żądanie po wykorzystaniu wszystkich 5 pobrań."
       ]
     },
     {
@@ -250,7 +250,7 @@ const d3 = {
       "paragraphs": [
         "Płatność krajowa {priceCardDomestic} (w tym VAT) · Płatność zagraniczna {priceCardGlobal}",
         "Wyniki na ekranie zostaną zapisane w **jednym obrazie**. Jest to forma, którą można przechować lub wysłać, **to nie jest dokument PDF.**",
-        "Możesz pobrać ten sam zamówiony plik **do 5 razy**. Jednakże, jeśli dane wejściowe znikną poza ekranem wyników, nie będzie można go ponownie utworzyć, dlatego prosimy o zapisanie pliku zaraz po dokonaniu płatności."
+        "Możesz pobrać ten sam zamówiony plik **łącznie do 5 razy wraz z pierwszym pobraniem**. Jednakże, jeśli dane wejściowe znikną poza ekranem wyników, nie będzie można go ponownie utworzyć, dlatego prosimy o zapisanie pliku zaraz po dokonaniu płatności."
       ]
     },
     {
@@ -491,15 +491,15 @@ const d6 = {
         "**Karta snu** — to jeden plik graficzny. Zawiera symbole i tradycyjne znaczenie snu z danego dnia. **Nie jest to dokument (PDF).** Płatność krajowa {priceCardDomestic} (w tym VAT), płatność zagraniczna {priceCardGlobal}.",
         "**Raport o poczęciu (태몽 리포트) PDF** — 4 strony. Zawiera tradycyjne znaczenie symboli oraz ich kontekst w formie dokumentu. **Nie określa stanu ciąży** — informujemy jedynie o tym, że w śnie pojawiły się symbole, które tradycyjnie uznawane są za związane z marzeniami o poczęciu. Płatność krajowa {priceConceptionDomestic} (w tym VAT), płatność zagraniczna {priceConceptionGlobal}.",
         "Płatności krajowe można dokonywać za pośrednictwem Toss Payments przy użyciu kart kredytowych, debetowych oraz płatności mobilnych (Toss, KakaoPay, NaverPay, Payco itp.), a płatności zagraniczne realizowane są przez PortOne za pośrednictwem PayPal. Ostateczna kwota jest zgodna z kwotą wyświetlaną na stronie płatności.",
-        "**Usługa nie przechowuje danych wprowadzonych przez użytkownika ani utworzonych plików PDF.** Po zatwierdzeniu płatności dokument jest tworzony i przesyłany natychmiast, a na serwerze nie pozostaje nic. Dlatego pobrany plik należy przechować samodzielnie przez użytkownika.",
-        "W przypadku przerwania pobierania lub utraty pliku, można pobrać go ponownie **do 5 razy** w ramach tego samego zamówienia. Należy jednak pamiętać, że jeśli dane wprowadzane przez użytkownika znikną po opuszczeniu ekranu wyników, nie będzie można ich ponownie utworzyć, dlatego należy zapisać plik zaraz po dokonaniu płatności."
+        "**Usługa nie przechowuje ani danych wprowadzonych przez użytkownika, ani utworzonych plików.** Po zatwierdzeniu płatności dokument jest tworzony i przesyłany natychmiastowo, a na serwerze nie pozostaje nic. Dlatego pobrany plik należy przechować samodzielnie przez użytkownika.",
+        "W przypadku przerwania pobierania lub utraty pliku, można go pobrać **łącznie do 5 razy wraz z pierwszym pobraniem** w ramach tego samego zamówienia. Należy jednak pamiętać, że jeśli dane wejściowe znikną po opuszczeniu ekranu wyników, nie będzie można ich ponownie utworzyć, dlatego prosimy o zapisanie pliku zaraz po dokonaniu płatności."
       ],
       "bullets": [
         "**Przed rozpoczęciem pobierania po dokonaniu płatności** można w każdej chwili anulować zamówienie i otrzymać pełny zwrot.",
         "**Po zakończeniu pobierania** zwrot z powodu zmiany zdania jest ograniczony. Jest to cyfrowa treść, która jest dostarczana natychmiast po płatności i nie można jej przywrócić, co odpowiada przyczynom ograniczenia zwrotów określonym w art. 17 ust. 2 ustawy o ochronie konsumentów w transakcjach elektronicznych.",
         "**W przypadku, gdy dokument nie został utworzony z powodu błędu systemu, plik nie otwiera się lub kwota płatności różni się od zamówienia**, zostanie to rozwiązane poprzez ponowne wydanie lub pełny zwrot.",
         "**Reklamacje dotyczące treści wyników** nie są podstawą do zwrotu. Wyniki interpretacji są materiałem referencyjnym z perspektywy tradycyjnej interpretacji, co jest jasno określone przed dokonaniem płatności (patrz punkt 1).",
-        "Ponowne żądanie po wykorzystaniu wszystkich 5 możliwości ponownego wydania nie jest podstawą do zwrotu.",
+        "Ponowne żądanie po wykorzystaniu wszystkich 5 pobrań nie jest podstawą do zwrotu.",
         "**W przypadku, gdy osoba niepełnoletnia dokonała płatności bez zgody swojego ustawowego przedstawiciela**, może ona lub jej przedstawiciel prawny anulować tę płatność. Proszę poinformować nas o tym pod poniższym adresem kontaktowym, a dokonamy zwrotu."
       ]
     },

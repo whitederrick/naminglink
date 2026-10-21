@@ -119,15 +119,15 @@ const d1 = {
         "**Carte de rêve** — Il s'agit d'un fichier image unique. Elle conserve et permet de partager les symboles et significations traditionnelles du rêve de ce jour. **Ce n'est pas un document (PDF).** Paiement national {priceCardDomestic} (TVA incluse), paiement international {priceCardGlobal}.",
         "**Rapport de rêve de conception en PDF** — 4 pages. Ce document contient la signification traditionnelle des symboles et leur contexte. **Il ne détermine pas la grossesse** — nous vous informerons uniquement que des symboles traditionnellement considérés comme des rêves de conception sont apparus dans le rêve. Paiement national {priceConceptionDomestic} (TVA incluse), paiement international {priceConceptionGlobal}.",
         "Les paiements nationaux peuvent être effectués via Toss Payments en utilisant des cartes de crédit, de débit et des paiements simplifiés (Toss Pay, Kakao Pay, Naver Pay, Payco, etc.), et les paiements internationaux se font via PayPal par l'intermédiaire de PortOne. Le montant final est celui affiché à l'écran de paiement.",
-        "**Le service ne conserve ni les valeurs saisies par l'utilisateur ni les fichiers PDF générés.** Une fois le paiement approuvé, le document est créé et envoyé immédiatement, sans rien laisser sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
-        "En cas d'interruption du téléchargement ou de perte du fichier, il est possible de le télécharger à nouveau **jusqu'à 5 fois** avec la même commande. Cependant, si les valeurs saisies disparaissent en dehors de l'écran de résultats, il ne sera pas possible de les recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
+        "**Le service ne conserve ni les valeurs saisies par l'utilisateur ni les fichiers générés.** Une fois le paiement approuvé, le document est créé et envoyé immédiatement, sans rien laisser sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
+        "En cas d'interruption du téléchargement ou de perte du fichier, il est possible de le télécharger avec la même commande **jusqu'à 5 fois au total, premier téléchargement compris**. Cependant, si les valeurs saisies disparaissent en dehors de l'écran de résultats, il ne sera pas possible de les recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
       ],
       "bullets": [
         "**Avant le début du téléchargement après le paiement, vous pouvez** annuler à tout moment et obtenir un remboursement intégral.",
         "**Après la fin du téléchargement,** le droit de rétractation pour simple changement d'avis est limité. Il s'agit de contenu numérique fourni immédiatement et qui ne peut pas être restitué, ce qui correspond aux motifs de limitation du droit de rétractation définis à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique.",
         "**En cas d'erreur système empêchant la création du document, de fichier ne s'ouvrant pas, ou si le montant payé diffère de la commande,** cela sera traité par un réémission ou un remboursement intégral.",
         "**Les plaintes concernant le contenu des résultats** ne constituent pas un motif de remboursement. Les résultats d'interprétation sont des références selon une perspective d'interprétation traditionnelle, et cette nature est expliquée avant le paiement (voir l'article 1 ci-dessus).",
-        "Les demandes de réémission après avoir utilisé les 5 réémissions sont considérées comme ne constituant pas un motif de remboursement.",
+        "Les nouvelles demandes après avoir utilisé les 5 téléchargements sont considérées comme ne constituant pas un motif de remboursement.",
         "**Si un mineur effectue un paiement sans le consentement de son représentant légal,** celui-ci ou le mineur peut annuler ce paiement. Veuillez nous en informer aux coordonnées ci-dessous pour obtenir un remboursement."
       ]
     },
@@ -220,7 +220,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Insatisfaction concernant le contenu des résultats.** Les résultats d'interprétation des rêves sont des références basées sur une perspective d'interprétation traditionnelle, et leur nature est expliquée avant le paiement. Cela inclut les cas où les symboles présents dans le rêve ne sont pas trouvés, ce qui entraîne des résultats courts — afin de ne pas inventer de significations inexistantes.",
-        "Demande de réémission après avoir utilisé les 5 réémissions autorisées."
+        "Nouvelle demande après avoir utilisé les 5 téléchargements autorisés."
       ]
     },
     {
@@ -250,7 +250,7 @@ const d3 = {
       "paragraphs": [
         "Paiement national {priceCardDomestic} (TVA incluse) · Paiement international {priceCardGlobal}",
         "Nous vous fournissons le résultat à l'écran sous la forme d'une **image unique**. C'est un format facile à conserver ou à envoyer, et ce n'est pas un **document PDF.**",
-        "Vous pouvez le télécharger à nouveau **jusqu'à 5 fois** avec la même commande. Cependant, si vous quittez l'écran des résultats et que les valeurs saisies disparaissent, vous ne pourrez pas le recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
+        "Vous pouvez le télécharger avec la même commande **jusqu'à 5 fois au total, premier téléchargement compris**. Cependant, si vous quittez l'écran des résultats et que les valeurs saisies disparaissent, vous ne pourrez pas le recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
       ]
     },
     {
@@ -491,15 +491,15 @@ const d6 = {
         "**Carte de rêve** — Il s'agit d'un fichier image unique. Elle conserve et permet de partager les symboles et significations traditionnelles du rêve que vous avez fait ce jour-là. **Ce n'est pas un document (PDF).** Paiement national {priceCardDomestic} (TVA incluse), paiement international {priceCardGlobal}.",
         "**Rapport de rêve de conception PDF** — 4 pages. Il contient la signification traditionnelle des symboles et leur contexte sous forme de document. **Il ne détermine pas la grossesse** — nous vous informerons uniquement que des symboles traditionnellement considérés comme des rêves de conception sont apparus dans le rêve. Paiement national {priceConceptionDomestic} (TVA incluse), paiement international {priceConceptionGlobal}.",
         "Pour les paiements nationaux, vous pouvez utiliser des cartes de crédit ou de débit et des paiements simplifiés (Toss Pay, Kakao Pay, Naver Pay, Payco, etc.) via Toss Payments, et pour les paiements internationaux, via PayPal par PortOne. Le montant final est celui affiché sur l'écran de paiement.",
-        "**Le service ne conserve ni les données saisies par l'utilisateur ni les fichiers PDF générés.** Une fois le paiement approuvé, le document est créé et envoyé immédiatement, sans rien conserver sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
-        "En cas d'interruption du téléchargement ou de perte du fichier, il est possible de le télécharger à nouveau **jusqu'à 5 fois** avec la même commande. Cependant, si vous quittez l'écran des résultats et que les données saisies disparaissent, il ne sera pas possible de le recréer, donc veuillez sauvegarder le fichier immédiatement après le paiement."
+        "**Le service ne conserve ni les valeurs saisies par l'utilisateur ni les fichiers générés.** Une fois le paiement approuvé, le document est créé et envoyé immédiatement, sans rien laisser sur le serveur. Par conséquent, le fichier téléchargé doit être conservé par l'utilisateur.",
+        "En cas d'interruption du téléchargement ou de perte du fichier, il est possible de le télécharger avec la même commande **jusqu'à 5 fois au total, premier téléchargement compris**. Cependant, si les valeurs saisies disparaissent en dehors de l'écran de résultats, il ne sera pas possible de les recréer, donc veuillez enregistrer le fichier immédiatement après le paiement."
       ],
       "bullets": [
         "**Avant le début du téléchargement après le paiement, vous pouvez** annuler à tout moment et obtenir un remboursement intégral.",
         "**Après la fin du téléchargement,** le droit de rétractation pour simple changement d'avis est limité. Il s'agit de contenu numérique fourni immédiatement après le paiement, et cela correspond aux raisons de limitation du droit de rétractation définies à l'article 17, paragraphe 2 de la loi sur la protection des consommateurs dans le commerce électronique.",
         "**En cas d'erreur système empêchant la création du document, de fichier ne s'ouvrant pas ou de montant de paiement différent de la commande,** un réémission ou un remboursement intégral sera effectué.",
         "**Les plaintes concernant le contenu des résultats** ne constituent pas un motif de remboursement. Les résultats d'interprétation sont des références selon une perspective d'interprétation traditionnelle, et leur nature est expliquée avant le paiement (voir point 1 ci-dessus).",
-        "Les demandes de remboursement après avoir utilisé les 5 réémissions sont considérées comme non valables.",
+        "Les nouvelles demandes après avoir utilisé les 5 téléchargements sont considérées comme ne constituant pas un motif de remboursement.",
         "**Si un mineur effectue un paiement sans le consentement de son représentant légal,** lui-même ou son représentant légal peut annuler ce paiement. Veuillez nous en informer aux coordonnées ci-dessous pour obtenir un remboursement."
       ]
     },

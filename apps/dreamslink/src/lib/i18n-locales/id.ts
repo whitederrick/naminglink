@@ -126,7 +126,7 @@ export const id: Dictionary = {
       ],
       [
         "Unduh ulang",
-        "Hingga 5 kali pada pesanan yang sama. Kami tidak menyimpan file, jadi tidak dapat dibuat lagi setelah Anda meninggalkan layar hasil."
+        "Hingga total 5 kali pada pesanan yang sama, termasuk unduhan pertama. Kami tidak menyimpan file, jadi tidak dapat dibuat lagi setelah Anda meninggalkan layar hasil."
       ],
       [
         "Penarikan",
@@ -179,7 +179,7 @@ export const id: Dictionary = {
       ],
       [
         "Unduh ulang",
-        "Hingga 5 kali pada pesanan yang sama. Kami tidak menyimpan file, jadi tidak dapat dibuat lagi setelah Anda meninggalkan layar hasil."
+        "Hingga total 5 kali pada pesanan yang sama, termasuk unduhan pertama. Kami tidak menyimpan file, jadi tidak dapat dibuat lagi setelah Anda meninggalkan layar hasil."
       ],
       [
         "Penarikan",

@@ -119,15 +119,15 @@ const d1 = {
         "**Rüya kartı** — Tek bir görüntü dosyasıdır. O gün görülen rüyada yer alan sembol ve geleneksel anlamı saklayıp paylaşmanızı sağlar. **Belge (PDF) değildir.** Yerli ödeme {priceCardDomestic} (KDV dahil), yurtdışı ödeme {priceCardGlobal}.",
         "**Conception dream raporu PDF** — 4 sayfa. Yer alan sembollerin geleneksel anlamı ve arka planı belge olarak sunulmaktadır. **Hamilelik durumu belirlemez** — geleneksel olarak conception dream (태몽) olarak kabul edilen sembollerin rüyada yer aldığı gerçeği hakkında bilgi verilir. Yerli ödeme {priceConceptionDomestic} (KDV dahil), yurtdışı ödeme {priceConceptionGlobal}.",
         "Yerli ödemeler, Toss Payments aracılığıyla kredi/banka kartı ve kolay ödeme (Toss Pay, Kakao Pay, Naver Pay, Payco vb.) ile yapılabilir; yurtdışı ödemeler ise PortOne aracılığıyla PayPal ile yapılmaktadır. Nihai tutar, ödeme ekranında gösterilen tutara tabidir.",
-        "**Hizmet, kullanıcıların girdiği verileri ve oluşturulan PDF dosyalarını saklamaz.** Ödeme onaylandığında, belgeler anında oluşturulup indirilir ve sunucuda hiçbir şey bırakılmaz. Bu nedenle indirilen dosyayı kullanıcı kendisi saklamalıdır.",
-        "İndirme durdurulursa veya dosya kaybolursa, aynı siparişle **5 kez** tekrar indirilebilir. Ancak sonuç ekranından çıkıldığında girilen veriler kaybolursa yeniden oluşturulamaz, bu nedenle ödeme sonrası dosyayı kaydetmeniz önemlidir."
+        "**Hizmet, kullanıcıların girdiği verileri ve oluşturulan dosyaları saklamaz.** Ödeme onaylandığında, belgeler anında oluşturulup indirilir ve sunucuda hiçbir şey bırakılmaz. Bu nedenle indirilen dosyayı kullanıcı kendisi saklamalıdır.",
+        "İndirme durdurulursa veya dosya kaybolursa, aynı siparişle **ilk indirme dahil toplam 5 kereye kadar** indirilebilir. Ancak sonuç ekranından çıkıldığında girilen veriler kaybolursa yeniden oluşturulamaz, bu nedenle ödeme sonrası dosyayı kaydetmeniz önemlidir."
       ],
       "bullets": [
         "**Ödeme sonrası indirme başlamadan önce** her zaman iptal edebilir ve tam geri ödeme alabilirsiniz.",
         "**İndirme tamamlandıktan sonra** basit bir fikir değişikliği nedeniyle sözleşmeden dönme sınırlıdır. Ödeme anında sağlanan ve geri alınması mümkün olmayan dijital içerik olup, bu durum 「Elektronik Ticaret ve Tüketici Koruma Hakkında Kanun」un 17. maddesinin 2. fıkrasında belirtilen sözleşmeden dönme sınırlama nedenine tabidir.",
         "**Sistem hatası nedeniyle belge oluşturulmadıysa, dosya açılamıyorsa veya ödeme tutarı siparişle farklıysa** yeniden düzenleme veya tam geri ödeme yapılır.",
         "**Sonuç içeriği ile ilgili şikayetler** geri ödeme nedeni olarak kabul edilmez. Rüya yorumu sonuçları, geleneksel yorum perspektifine dayanan referans materyaldir ve bu niteliği ödeme öncesinde bildirilmiştir (yukarıdaki 1. madde).",
-        "Yeniden düzenleme hakkı 5 kez kullanıldıktan sonraki talepler geri ödeme nedeni olarak kabul edilmez.",
+        "5 indirme hakkının tamamı kullanıldıktan sonraki talepler geri ödeme nedeni olarak kabul edilmez.",
         "**Reşit olmayanların yasal temsilcisinin izni olmadan ödeme yapması durumunda**, kendisi veya yasal temsilcisi bu ödemeyi iptal edebilir. Aşağıdaki iletişim bilgileri ile bildirildiğinde geri ödeme yapılacaktır."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Sonuç içeriğiyle ilgili memnuniyetsizlik.** Rüya yorumları, geleneksel yorum perspektifinden referans materyallerdir ve bu niteliği ödeme öncesinde bildirilmiştir. Rüyada önceden var olan sembolleri bulamamak durumunda sonuçların kısa çıkması da buraya dahildir — olmayan bir anlam yaratmamak için.",
-        "Yeniden düzenleme hakkının 5 kez kullanıldıktan sonraki talepleri."
+        "5 indirme hakkının tamamı kullanıldıktan sonraki talepler."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Yerli ödeme {priceCardDomestic} (KDV dahil) · Yurt dışı ödeme {priceCardGlobal}",
         "Ekrandaki sonuçları **tek bir görüntü** halinde sunuyoruz. Saklamak veya göndermek için uygun bir formattadır, **PDF belgesi değildir.**",
-        "Aynı siparişle **5 kez** tekrar indirilebilir. Ancak sonuç ekranından çıkıldığında giriş bilgileri kaybolursa yeniden oluşturulamaz, bu nedenle ödeme sonrası dosyayı kaydetmenizi öneririz."
+        "Aynı siparişle **ilk indirme dahil toplam 5 kereye kadar** indirilebilir. Ancak sonuç ekranından çıkıldığında giriş bilgileri kaybolursa yeniden oluşturulamaz, bu nedenle ödeme sonrası dosyayı kaydetmenizi öneririz."
       ]
     },
     {
@@ -492,15 +492,15 @@ const d6 = {
         "**Dream card (꿈 카드)** — Tek bir görüntü dosyasıdır. O gün görülen rüyada yer alan sembol ve geleneksel anlamı saklayıp paylaşmanızı sağlar. **Belge (PDF) değildir.** Yerli ödeme {priceCardDomestic} (KDV dahil), yurtdışı ödeme {priceCardGlobal}.",
         "**Conception-dream report (태몽 리포트) PDF** — 4 sayfa. Yer alan sembollerin geleneksel anlamı ve arka planı belge olarak sunulmaktadır. **Hamilelik durumu belirlemez** — Geleneksel olarak conception dream (태몽) olarak kabul edilen sembollerin rüyada yer aldığı gerçeği hakkında bilgi veririz. Yerli ödeme {priceConceptionDomestic} (KDV dahil), yurtdışı ödeme {priceConceptionGlobal}.",
         "Yerli ödemeler Toss Payments aracılığıyla kredi/banka kartları ve kolay ödeme (TossPay, KakaoPay, NaverPay, Payco vb.) ile yapılabilir, yurtdışı ödemeler ise PortOne aracılığıyla PayPal ile yapılmaktadır. Nihai tutar, ödeme ekranında gösterilen tutarı esas alır.",
-        "**Hizmet, kullanıcıların girdiği verileri ve oluşturulan PDF dosyalarını saklamaz.** Ödeme onaylandığında, belgeleri anında oluşturup gönderir ve sunucuda hiçbir şey bırakmaz. Bu nedenle indirilen dosyayı kullanıcı kendisi saklamalıdır.",
-        "İndirme durdurulursa veya dosya kaybolursa, aynı siparişle **5 kez** tekrar indirilebilir. Ancak sonuç ekranından çıkıldığında girilen veriler kaybolursa, yeniden oluşturulamaz, bu nedenle ödeme sonrası dosyayı kaydetmeniz önemlidir."
+        "**Hizmet, kullanıcıların girdiği verileri ve oluşturulan dosyaları saklamaz.** Ödeme onaylandığında, belgeler anında oluşturulup indirilir ve sunucuda hiçbir şey bırakılmaz. Bu nedenle indirilen dosyayı kullanıcı kendisi saklamalıdır.",
+        "İndirme durdurulursa veya dosya kaybolursa, aynı siparişle **ilk indirme dahil toplam 5 kereye kadar** indirilebilir. Ancak sonuç ekranından çıkıldığında girilen veriler kaybolursa yeniden oluşturulamaz, bu nedenle ödeme sonrası dosyayı kaydetmeniz önemlidir."
       ],
       "bullets": [
         "**Ödeme sonrası indirme başlamadan önce** her zaman iptal edebilir ve tam geri ödeme alabilirsiniz.",
         "**İndirme tamamlandıktan sonra** basit bir fikir değişikliği nedeniyle sözleşmeden dönme kısıtlanmaktadır. Ödeme anında sağlanan ve geri alınması mümkün olmayan dijital içeriklerdir ve bu, 「Elektronik Ticaretin Düzenlenmesi Hakkında Kanun」un 17. maddesinin 2. fıkrasında belirtilen sözleşmeden dönme kısıtlaması nedenlerine tabidir.",
         "**Sistem hatası nedeniyle belge oluşturulmadıysa, dosya açılamıyorsa veya ödeme tutarı siparişle farklıysa** yeniden düzenleme veya tam geri ödeme ile işleme alınır.",
         "**Sonuç içeriği ile ilgili şikayetler** geri ödeme nedeni olarak kabul edilmez. Rüya yorumlama sonuçları, geleneksel yorumlama perspektifine dayanan referans materyaldir ve bu niteliği ödeme öncesinde bildirilmiştir (yukarıdaki 1. madde).",
-        "Yeniden düzenleme hakkının 5 kez kullanılması sonrası yeniden talep edilmesi geri ödeme nedeni olarak kabul edilmez.",
+        "5 indirme hakkının tamamı kullanıldıktan sonraki talepler geri ödeme nedeni olarak kabul edilmez.",
         "**Reşit olmayanların yasal temsilcisinin izni olmadan ödeme yapması durumunda**, kendisi veya yasal temsilcisi bu ödemeyi iptal edebilir. Aşağıdaki iletişim bilgileriyle bildirirseniz geri ödeme yapılacaktır."
       ]
     },

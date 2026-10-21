@@ -120,15 +120,15 @@ const d1 = {
         "**Kad Mimpi** — Satu fail imej. Ia dihasilkan untuk menyimpan dan berkongsi simbol dan makna tradisional yang terdapat dalam mimpi yang dialami pada hari tersebut. **Bukan dokumen (PDF).** Pembayaran domestik {priceCardDomestic} (termasuk VAT), pembayaran luar negara {priceCardGlobal}.",
         "**Laporan Mimpi Konsepsi (태몽) PDF** — 4 halaman. Ia mengandungi makna tradisional simbol yang terlibat dan latar belakangnya dalam bentuk dokumen. **Tidak menentukan kehamilan** — hanya memberitahu bahawa simbol yang dianggap sebagai mimpi konsepsi secara tradisional muncul dalam mimpi. Pembayaran domestik {priceConceptionDomestic} (termasuk VAT), pembayaran luar negara {priceConceptionGlobal}.",
         "Pembayaran domestik boleh dilakukan melalui Toss Payments menggunakan kad kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.), manakala pembayaran luar negara dilakukan melalui PayPal melalui PortOne. Jumlah akhir adalah berdasarkan jumlah yang ditunjukkan di skrin pembayaran.",
-        "**Perkhidmatan tidak menyimpan input pengguna atau fail PDF yang dihasilkan.** Setelah pembayaran diluluskan, dokumen akan dihasilkan dan dihantar serta tidak ada yang disimpan di pelayan. Oleh itu, fail yang dimuat turun perlu disimpan oleh pengguna secara langsung.",
-        "Sekiranya muat turun terhenti atau fail hilang, ia boleh dimuat turun semula **hingga 5 kali** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari skrin hasil, ia tidak dapat dibuat semula, jadi sila simpan fail segera setelah pembayaran."
+        "**Perkhidmatan tidak menyimpan input pengguna atau fail yang dihasilkan.** Setelah pembayaran diluluskan, dokumen akan dihasilkan dan dihantar serta tidak ada yang disimpan di pelayan. Oleh itu, fail yang dimuat turun perlu disimpan oleh pengguna secara langsung.",
+        "Sekiranya muat turun terhenti atau fail hilang, ia boleh dimuat turun **sebanyak 5 kali secara keseluruhan termasuk muat turun pertama** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari skrin hasil, ia tidak dapat dibuat semula, jadi sila simpan fail segera setelah pembayaran."
       ],
       "bullets": [
         "**Sebelum muat turun dimulakan selepas pembayaran,** anda boleh membatalkan dan mendapatkan pengembalian penuh pada bila-bila masa.",
         "**Setelah muat turun selesai,** pembatalan atas alasan perubahan fikiran adalah terhad. Ini adalah kandungan digital yang disediakan serta-merta dan tidak boleh dipulihkan, yang termasuk dalam alasan pembatalan yang ditetapkan dalam Seksyen 17(2) Akta Perlindungan Pengguna dalam Transaksi Elektronik.",
         "**Jika dokumen tidak dihasilkan akibat ralat sistem, fail tidak dapat dibuka, atau jumlah pembayaran berbeza daripada pesanan,** ia akan diproses untuk pengeluaran semula atau pengembalian penuh.",
         "**Ketidakpuasan terhadap kandungan hasil** tidak dianggap sebagai alasan untuk pengembalian wang. Hasil tafsiran adalah bahan rujukan dari perspektif tafsiran tradisional dan sifatnya telah dinyatakan sebelum pembayaran (lihat perenggan 1 di atas).",
-        "Permintaan semula setelah menggunakan semua 5 kali pengeluaran semula tidak dianggap sebagai alasan untuk pengembalian wang.",
+        "Permintaan semula setelah menggunakan kesemua 5 kali muat turun tidak dianggap sebagai alasan untuk pengembalian wang.",
         "**Jika individu yang belum dewasa membuat pembayaran tanpa persetujuan wakil sah,** individu tersebut atau wakil sahnya boleh membatalkan pembayaran tersebut. Sila maklumkan kepada kami melalui maklumat hubungan di bawah untuk mendapatkan pengembalian wang."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Ketidakpuasan terhadap hasil.** Hasil tafsiran adalah bahan rujukan dari perspektif tafsiran tradisional dan sifatnya telah dimaklumkan sebelum pembayaran. Ini juga termasuk kes di mana simbol yang ada dalam mimpi tidak dapat ditemui, menyebabkan hasilnya menjadi pendek — kerana kami tidak mencipta makna yang tidak ada.",
-        "Permintaan semula setelah menggunakan semua 5 kali pengeluaran semula."
+        "Permintaan semula setelah menggunakan kesemua 5 kali muat turun."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Pembayaran domestik {priceCardDomestic} (termasuk pajak) · Pembayaran internasional {priceCardGlobal}",
         "Kami akan menyajikan hasil di layar dalam bentuk **satu gambar**. Ini adalah bentuk yang baik untuk disimpan atau dikirim, dan **bukan dokumen PDF.**",
-        "Anda dapat mengunduh kembali hingga **5 kali** dengan pesanan yang sama. Namun, jika Anda keluar dari layar hasil dan nilai input hilang, Anda tidak dapat membuatnya lagi, jadi harap simpan file segera setelah pembayaran."
+        "Anda boleh memuat turun **sebanyak 5 kali secara keseluruhan termasuk muat turun pertama** dengan pesanan yang sama. Namun, jika anda keluar dari skrin hasil dan nilai input hilang, anda tidak dapat membuatnya semula, jadi sila simpan fail segera setelah pembayaran."
       ]
     },
     {
@@ -490,15 +490,15 @@ const d6 = {
         "**Kad Mimpi** — Satu fail imej. Ia akan menyimpan simbol yang muncul dalam mimpi pada hari tersebut dan makna tradisionalnya dalam satu gambar. **Ia bukan dokumen (PDF).** Pembayaran domestik {priceCardDomestic} (termasuk VAT), pembayaran luar negara {priceCardGlobal}.",
         "**Laporan Mimpi Kehamilan PDF** — 4 halaman. Ia mengandungi makna tradisional simbol yang muncul dan latar belakangnya dalam dokumen. **Ia tidak menentukan sama ada seseorang itu hamil** — kami hanya akan memberitahu bahawa simbol yang dianggap sebagai mimpi kehamilan secara tradisional telah muncul dalam mimpi. Pembayaran domestik {priceConceptionDomestic} (termasuk VAT), pembayaran luar negara {priceConceptionGlobal}.",
         "Pembayaran domestik boleh dilakukan melalui Toss Payments menggunakan kad kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.), manakala pembayaran luar negara dilakukan melalui PayPal melalui PortOne. Jumlah akhir adalah berdasarkan jumlah yang ditunjukkan pada skrin pembayaran.",
-        "**Perkhidmatan ini tidak menyimpan input pengguna atau fail PDF yang dihasilkan.** Setelah pembayaran diluluskan, dokumen akan dibuat dan dihantar serta tidak ada yang disimpan di pelayan. Oleh itu, fail yang dimuat turun perlu disimpan oleh pengguna secara langsung.",
-        "Sekiranya muat turun terhenti atau fail hilang, anda boleh memuat turun semula **hingga 5 kali** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari skrin hasil, ia tidak dapat dibuat semula, jadi sila simpan fail sejurus selepas pembayaran."
+        "**Perkhidmatan tidak menyimpan input pengguna atau fail yang dihasilkan.** Setelah pembayaran diluluskan, dokumen akan dihasilkan dan dihantar serta tidak ada yang disimpan di pelayan. Oleh itu, fail yang dimuat turun perlu disimpan oleh pengguna secara langsung.",
+        "Sekiranya muat turun terhenti atau fail hilang, ia boleh dimuat turun **sebanyak 5 kali secara keseluruhan termasuk muat turun pertama** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari skrin hasil, ia tidak dapat dibuat semula, jadi sila simpan fail segera setelah pembayaran."
       ],
       "bullets": [
         "**Anda boleh membatalkan dan mendapatkan pemulangan penuh pada bila-bila masa sebelum muat turun bermula selepas pembayaran.**",
         "**Setelah muat turun selesai,** pembatalan atas sebab perubahan fikiran adalah terhad. Ini adalah kandungan digital yang disediakan serta-merta dan tidak boleh dipulihkan, dan ini termasuk dalam sebab-sebab yang ditetapkan dalam Seksyen 17(2) Akta Perlindungan Pengguna dalam Transaksi Elektronik.",
         "**Sekiranya dokumen tidak dihasilkan disebabkan ralat sistem, fail tidak dapat dibuka, atau jumlah pembayaran berbeza daripada pesanan,** ia akan diproses sebagai pengeluaran semula atau pemulangan penuh.",
         "**Ketidakpuasan terhadap kandungan hasil** tidak dianggap sebagai sebab untuk pemulangan. Hasil tafsiran adalah bahan rujukan dari perspektif tafsiran tradisional dan sifatnya telah dinyatakan sebelum pembayaran (lihat seksyen 1 di atas).",
-        "Permintaan semula selepas menggunakan semua 5 kali pengeluaran semula tidak dianggap sebagai sebab untuk pemulangan.",
+        "Permintaan semula setelah menggunakan kesemua 5 kali muat turun tidak dianggap sebagai alasan untuk pengembalian wang.",
         "**Sekiranya individu di bawah umur membuat pembayaran tanpa persetujuan wakil sah,** individu tersebut atau wakil sahnya boleh membatalkan pembayaran tersebut. Sila maklumkan kepada kami melalui maklumat hubungan di bawah untuk mendapatkan pemulangan."
       ]
     },

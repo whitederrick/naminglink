@@ -126,7 +126,7 @@ export const pt: Dictionary = {
       ],
       [
         "Baixar novamente",
-        "Até 5 vezes no mesmo pedido. Não mantemos o arquivo, então não pode ser feito novamente uma vez que você saia da tela de resultados."
+        "Até 5 vezes no total no mesmo pedido, incluindo o primeiro download. Não mantemos o arquivo, então não pode ser feito novamente uma vez que você saia da tela de resultados."
       ],
       [
         "Cancelamento",
@@ -179,7 +179,7 @@ export const pt: Dictionary = {
       ],
       [
         "Baixar novamente",
-        "Até 5 vezes no mesmo pedido. Não mantemos o arquivo, então não pode ser recriado uma vez que você saia da tela de resultados."
+        "Até 5 vezes no total no mesmo pedido, incluindo o primeiro download. Não mantemos o arquivo, então não pode ser feito novamente uma vez que você saia da tela de resultados."
       ],
       [
         "Retirada",

@@ -126,7 +126,7 @@ export const de: Dictionary = {
       ],
       [
         "Wiederherunterladen",
-        "Bis zu 5 Mal bei derselben Bestellung. Wir speichern die Datei nicht, daher kann sie nicht erneut erstellt werden, sobald Sie den Ergebnisscreen verlassen."
+        "Einschließlich des ersten Downloads insgesamt bis zu 5 Mal bei derselben Bestellung. Wir speichern die Datei nicht, daher kann sie nicht erneut erstellt werden, sobald Sie den Ergebnisscreen verlassen."
       ],
       [
         "Widerruf",
@@ -179,7 +179,7 @@ export const de: Dictionary = {
       ],
       [
         "Erneut herunterladen",
-        "Bis zu 5 Mal bei derselben Bestellung. Wir speichern die Datei nicht, daher kann sie nicht erneut erstellt werden, sobald Sie den Ergebnisscreen verlassen."
+        "Einschließlich des ersten Downloads insgesamt bis zu 5 Mal bei derselben Bestellung. Wir speichern die Datei nicht, daher kann sie nicht erneut erstellt werden, sobald Sie den Ergebnisscreen verlassen."
       ],
       [
         "Widerruf",

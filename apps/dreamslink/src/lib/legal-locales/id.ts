@@ -119,15 +119,15 @@ const d1 = {
         "**Kartu Mimpi** — Sebuah file gambar tunggal. Kami membuatnya menjadi satu gambar yang menyimpan simbol yang muncul dalam mimpi hari itu dan makna tradisionalnya. **Bukan dokumen (PDF).** Pembayaran domestik {priceCardDomestic} (termasuk pajak), pembayaran internasional {priceCardGlobal}.",
         "**Laporan Mimpi Kehamilan PDF** — 4 halaman. Ini berisi makna tradisional dari simbol yang muncul dan latar belakangnya dalam bentuk dokumen. **Tidak menentukan apakah seseorang hamil** — kami hanya memberi tahu bahwa simbol yang secara tradisional dianggap sebagai mimpi kehamilan muncul dalam mimpi. Pembayaran domestik {priceConceptionDomestic} (termasuk pajak), pembayaran internasional {priceConceptionGlobal}.",
         "Pembayaran domestik dapat dilakukan melalui Toss Payments menggunakan kartu kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.), sedangkan pembayaran internasional dilakukan melalui PayPal melalui PortOne. Jumlah akhir mengikuti jumlah yang ditampilkan di layar pembayaran.",
-        "**Layanan ini tidak menyimpan input pengguna maupun file PDF yang dibuat.** Setelah pembayaran disetujui, dokumen akan dibuat dan dikirimkan tanpa menyimpan apa pun di server. Oleh karena itu, file yang diunduh harus disimpan oleh pengguna sendiri.",
-        "Untuk kasus di mana unduhan terhenti atau file hilang, Anda dapat mengunduh kembali **hingga 5 kali** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari layar hasil, tidak dapat dibuat kembali, jadi harap simpan file segera setelah pembayaran."
+        "**Layanan ini tidak menyimpan input pengguna maupun file yang dibuat.** Setelah pembayaran disetujui, dokumen akan dibuat dan dikirimkan tanpa menyimpan apa pun di server. Oleh karena itu, file yang diunduh harus disimpan oleh pengguna sendiri.",
+        "Untuk kasus di mana unduhan terhenti atau file hilang, Anda dapat mengunduh **hingga total 5 kali termasuk unduhan pertama** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari layar hasil, tidak dapat dibuat kembali, jadi harap simpan file segera setelah pembayaran."
       ],
       "bullets": [
         "**Sebelum unduhan dimulai setelah pembayaran,** Anda dapat membatalkan kapan saja dan mendapatkan pengembalian dana penuh.",
         "**Setelah unduhan selesai,** pembatalan karena perubahan pikiran tidak diperbolehkan. Ini adalah konten digital yang disediakan segera setelah pembayaran dan tidak dapat dikembalikan ke keadaan semula, yang termasuk dalam alasan pembatasan pembatalan sesuai dengan Pasal 17 Ayat 2 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik.",
         "**Jika dokumen tidak dibuat karena kesalahan sistem, file tidak dapat dibuka, atau jumlah pembayaran berbeda dari pesanan,** akan diproses sebagai penggantian atau pengembalian dana penuh.",
         "**Keluhan tentang isi hasil** tidak termasuk dalam alasan pengembalian dana. Hasil interpretasi adalah referensi dari perspektif interpretasi tradisional dan sifatnya telah diinformasikan sebelum pembayaran (lihat pasal 1 di atas).",
-        "Permintaan ulang setelah menggunakan semua 5 kali penggantian tidak termasuk dalam alasan pengembalian dana.",
+        "Permintaan ulang setelah menggunakan semua 5 kali unduhan tidak termasuk dalam alasan pengembalian dana.",
         "**Jika seorang remaja melakukan pembayaran tanpa persetujuan wali hukum,** baik remaja tersebut atau wali hukum dapat membatalkan pembayaran tersebut. Silakan beri tahu kami melalui kontak di bawah ini untuk mendapatkan pengembalian dana."
       ]
     },
@@ -219,7 +219,7 @@ const d2 = {
       "paragraphs": [],
       "bullets": [
         "**Ketidakpuasan terhadap isi hasil.** Hasil interpretasi mimpi adalah referensi dari perspektif interpretasi tradisional dan sifatnya telah diinformasikan sebelum pembayaran. Jika simbol yang ada dalam mimpi tidak ditemukan sehingga hasilnya singkat, ini juga termasuk dalam kategori ini — karena kami tidak menciptakan makna yang tidak ada.",
-        "Permintaan ulang setelah menggunakan semua 5 kali penggantian."
+        "Permintaan ulang setelah menggunakan semua 5 kali unduhan."
       ]
     },
     {
@@ -249,7 +249,7 @@ const d3 = {
       "paragraphs": [
         "Pembayaran domestik {priceCardDomestic} (termasuk PPN) · Pembayaran internasional {priceCardGlobal}",
         "Kami akan menyajikan hasil di layar dalam bentuk **satu gambar**. Bentuk ini mudah disimpan atau dikirim, dan **bukan dokumen PDF.**",
-        "Anda dapat mengunduhnya kembali **hingga 5 kali** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari layar hasil, Anda tidak dapat membuatnya lagi, jadi harap simpan file segera setelah pembayaran."
+        "Anda dapat mengunduhnya **hingga total 5 kali termasuk unduhan pertama** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari layar hasil, Anda tidak dapat membuatnya lagi, jadi harap simpan file segera setelah pembayaran."
       ]
     },
     {
@@ -490,15 +490,15 @@ const d6 = {
         "**Kartu Mimpi** — Satu file gambar. Kami membuatnya menjadi satu lembar yang menyimpan simbol yang muncul dalam mimpi dan makna tradisionalnya. **Ini bukan dokumen (PDF).** Pembayaran domestik {priceCardDomestic} (termasuk pajak), pembayaran internasional {priceCardGlobal}.",
         "**Laporan Mimpi Kehamilan PDF** — 4 halaman. Ini berisi makna tradisional dari simbol yang muncul dan latar belakangnya dalam bentuk dokumen. **Tidak menentukan apakah seseorang hamil** — kami hanya memberi tahu bahwa simbol yang secara tradisional dianggap sebagai mimpi kehamilan muncul dalam mimpi. Pembayaran domestik {priceConceptionDomestic} (termasuk pajak), pembayaran internasional {priceConceptionGlobal}.",
         "Pembayaran domestik dapat dilakukan melalui Toss Payments menggunakan kartu kredit/debit dan pembayaran mudah (Toss Pay, Kakao Pay, Naver Pay, Payco, dll.), sedangkan pembayaran internasional dilakukan melalui PayPal melalui PortOne. Jumlah akhir mengikuti jumlah yang ditampilkan di layar pembayaran.",
-        "**Layanan tidak menyimpan input pengguna atau file PDF yang dibuat.** Setelah pembayaran disetujui, dokumen dibuat dan dikirimkan tanpa menyimpan apa pun di server. Oleh karena itu, file yang diunduh harus disimpan oleh pengguna sendiri.",
-        "Jika unduhan terhenti atau file hilang, Anda dapat mengunduh kembali **hingga 5 kali** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari layar hasil, tidak dapat dibuat kembali, jadi harap simpan file segera setelah pembayaran."
+        "**Layanan ini tidak menyimpan input pengguna maupun file yang dibuat.** Setelah pembayaran disetujui, dokumen akan dibuat dan dikirimkan tanpa menyimpan apa pun di server. Oleh karena itu, file yang diunduh harus disimpan oleh pengguna sendiri.",
+        "Untuk kasus di mana unduhan terhenti atau file hilang, Anda dapat mengunduh **hingga total 5 kali termasuk unduhan pertama** dengan pesanan yang sama. Namun, jika input hilang setelah keluar dari layar hasil, tidak dapat dibuat kembali, jadi harap simpan file segera setelah pembayaran."
       ],
       "bullets": [
         "**Sebelum unduhan dimulai setelah pembayaran,** Anda dapat membatalkan kapan saja dan mendapatkan pengembalian penuh.",
         "**Setelah unduhan selesai,** pembatalan karena perubahan pikiran tidak diperbolehkan. Ini adalah konten digital yang disediakan segera setelah pembayaran dan tidak dapat dikembalikan ke keadaan semula, yang termasuk dalam alasan pembatasan pembatalan sesuai dengan Pasal 17 Ayat 2 Undang-Undang Perlindungan Konsumen dalam Transaksi Elektronik.",
         "**Jika dokumen tidak dibuat karena kesalahan sistem, file tidak dapat dibuka, atau jumlah pembayaran berbeda dari pesanan,** akan diproses dengan penerbitan ulang atau pengembalian penuh.",
         "**Keluhan tentang isi hasil** tidak termasuk dalam alasan pengembalian dana. Hasil interpretasi adalah referensi dari perspektif interpretasi tradisional dan sifatnya telah diinformasikan sebelum pembayaran (lihat pasal 1 di atas).",
-        "Permintaan ulang setelah menggunakan semua 5 kali penerbitan ulang tidak termasuk dalam alasan pengembalian dana.",
+        "Permintaan ulang setelah menggunakan semua 5 kali unduhan tidak termasuk dalam alasan pengembalian dana.",
         "**Jika seorang remaja melakukan pembayaran tanpa persetujuan wali hukum,** baik remaja tersebut atau wali hukum dapat membatalkan pembayaran tersebut. Silakan beri tahu kami melalui kontak di bawah ini untuk mendapatkan pengembalian dana."
       ]
     },

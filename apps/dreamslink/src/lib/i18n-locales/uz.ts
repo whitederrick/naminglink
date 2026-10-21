@@ -126,7 +126,7 @@ export const uz: Dictionary = {
       ],
       [
         "Qayta yuklab olish",
-        "Bir xil buyurtma bo'yicha 5 marta. Server faylni saqlamaydi, shuning uchun natija ekranidan chiqib ketgandan so'ng, uni qayta yaratish mumkin emas."
+        "Bir xil buyurtma bo'yicha birinchi yuklab olishni ham qo'shganda jami 5 martagacha. Server faylni saqlamaydi, shuning uchun natija ekranidan chiqib ketgandan so'ng, uni qayta yaratish mumkin emas."
       ],
       [
         "Qaytarish",
@@ -179,7 +179,7 @@ export const uz: Dictionary = {
       ],
       [
         "Qayta yuklab olish",
-        "Bir xil buyurtma bo'yicha 5 marta. Server faylni saqlamaydi, shuning uchun natija ekranidan chiqib ketgandan so'ng, uni qayta yaratish mumkin emas."
+        "Bir xil buyurtma bo'yicha birinchi yuklab olishni ham qo'shganda jami 5 martagacha. Server faylni saqlamaydi, shuning uchun natija ekranidan chiqib ketgandan so'ng, uni qayta yaratish mumkin emas."
       ],
       [
         "Bekor qilish",

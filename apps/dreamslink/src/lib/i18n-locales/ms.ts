@@ -126,7 +126,7 @@ export const ms: Dictionary = {
       ],
       [
         "Muat turun semula",
-        "Sehingga 5 kali untuk pesanan yang sama. Kami tidak menyimpan fail, jadi ia tidak dapat dibuat semula setelah anda meninggalkan skrin hasil."
+        "Sehingga 5 kali secara keseluruhan termasuk muat turun pertama untuk pesanan yang sama. Kami tidak menyimpan fail, jadi ia tidak dapat dibuat semula setelah anda meninggalkan skrin hasil."
       ],
       [
         "Penarikan balik",
@@ -179,7 +179,7 @@ export const ms: Dictionary = {
       ],
       [
         "Muat turun semula",
-        "Sehingga 5 kali untuk pesanan yang sama. Kami tidak menyimpan fail, jadi ia tidak boleh dibuat semula setelah anda meninggalkan skrin keputusan."
+        "Sehingga 5 kali secara keseluruhan termasuk muat turun pertama untuk pesanan yang sama. Kami tidak menyimpan fail, jadi ia tidak dapat dibuat semula setelah anda meninggalkan skrin hasil."
       ],
       [
         "Penarikan balik",

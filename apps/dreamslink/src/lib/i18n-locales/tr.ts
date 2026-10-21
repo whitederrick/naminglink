@@ -126,7 +126,7 @@ export const tr: Dictionary = {
       ],
       [
         "Yeniden indir",
-        "Aynı siparişle 5 defaya kadar. Sunucu dosyayı saklamadığından, sonuç ekranını terk ettiğinizde tekrar yapılamaz."
+        "Aynı siparişle ilk indirme dahil toplam 5 defaya kadar. Sunucu dosyayı saklamadığından, sonuç ekranını terk ettiğinizde tekrar yapılamaz."
       ],
       [
         "İptal",
@@ -179,7 +179,7 @@ export const tr: Dictionary = {
       ],
       [
         "Yeniden indir",
-        "Aynı siparişle 5 kez. Sunucu dosyayı saklamadığı için sonuç ekranını terk ettiğinizde tekrar oluşturulamaz."
+        "Aynı siparişle ilk indirme dahil toplam 5 defaya kadar. Sunucu dosyayı saklamadığından, sonuç ekranını terk ettiğinizde tekrar yapılamaz."
       ],
       [
         "İptal",
