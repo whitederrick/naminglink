@@ -1,0 +1,17 @@
+{
+  "note": "드림링크 영어(en) 거래 문구 사람 확인 기록. naminglink 의 trade-copy-review.json 과 같은 모양이지만 그 파일을 읽는 검사기(verify-locale-manifest)는 이 파일을 읽지 않는다 — 드림링크 몫이라 따로 둔다. 광고 개방(AD_OPENED_LOCALES)은 이 파일이 아니라 apps/dreamslink/src/lib/ads.ts 에서 사람이 고친다. sourceHash 는 apps/dreamslink/scripts/extract-trade-copy.ts 가 운영 서버에서 뽑은 71자리의 [id, en] 해시다.",
+  "version": 1,
+  "reviews": [
+    {
+      "locale": "en",
+      "reviewedOn": "2026-10-21",
+      "reviewer": "사용자",
+      "record": "docs/TRADE_COPY_REVIEW_EN_DREAMS_2026-10-20.md",
+      "positions": 71,
+      "verdicts": { "good": 65, "doubt": 6, "fix": 0 },
+      "unresolvedCritical": 0,
+      "unresolvedNote": "의심 6건(A-terms-1 · A-terms-7 · A-terms-11 · A-pricing-1 · B-refund-6 · B-refund-13)은 전부 문구를 고쳐 반영했고 운영 /api/legal 에서 확인했다(커밋 115370b3). 금액·환불 조건이 틀린 자리는 없었다. 남은 것: ① A-terms-7 은 한국어 원문도 「PDF 파일」을 「파일」로 고쳤으나 21개 언어 번역은 다시 만들지 않아 번역에 PDF 가 남아 있다(OpenAI 비용, 사용자 승인 필요). ② 한국어 「다시 내려받을 수 있습니다…5회까지」·「재발급 5회」는 재다운로드 5회로도 읽히나 코드(REISSUE_LIMIT=5)는 첫 발급 포함 총 5회라 영어가 정확하다 — 한국어 정정 여부는 사용자 판단 대기. ③ {brand} 자리표시자 두 자리는 문구로 판정할 수 없어 좋음으로 두었고 운영 화면에서 상호가 채워지는지는 따로 본다.",
+      "sourceHash": "c9a6b416e7e9f864d03536c8fcb978c34f03ccc57d786697b39fef49b793d575"
+    }
+  ]
+}
