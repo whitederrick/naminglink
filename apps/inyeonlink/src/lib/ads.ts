@@ -82,7 +82,9 @@ const ADSENSE_SUPPORTED_LOCALES = new Set<string>([
 // 신고 채널(관측망, naminglink docs/LOCALE_AD_STRATEGY_2026-08-21.md §3.5 ⑤)이 이 값을
 // 그대로 가져다 쓴다 — 광고 검수가 열릴 때 신고 버튼도 같은 커밋에서 함께 열리게 하려는
 // 것이다. 그래서 export한다.
-export const AD_OPENED_LOCALES: ReadonlySet<string> = new Set(["ko"]);
+// en 은 2026-10-21 사용자 지시로 열었다. 인연링크 영어 거래 문구는 사람이 읽어 확인한 기록이
+// 없다(드림링크 10-19 와 같은 순서) — 기록은 `docs/locale-review/` 에 따로 남기지 않았다.
+export const AD_OPENED_LOCALES: ReadonlySet<string> = new Set(["ko", "en"]);
 
 /**
  * 이 화면에 구글 광고 코드를 실어도 되는가. **애드센스·GAM 양쪽에 같이 적용된다** —
