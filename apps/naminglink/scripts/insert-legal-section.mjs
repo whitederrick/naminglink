@@ -34,7 +34,7 @@ const env = Object.fromEntries(
 
 const LANG_NAMES = {
   ja: "Japanese", zh: "Simplified Chinese", de: "German", es: "Spanish", fr: "French",
-  it: "Italian", pt: "Portuguese", vi: "Vietnamese", th: "Thai", id: "Indonesian",
+  it: "Italian", pt: "Brazilian Portuguese", vi: "Vietnamese", th: "Thai", id: "Indonesian",
   ru: "Russian", ar: "Arabic", fil: "Filipino", uz: "Uzbek", mn: "Mongolian",
   hi: "Hindi", tr: "Turkish", km: "Khmer", ms: "Malay", kk: "Kazakh", pl: "Polish",
 };
