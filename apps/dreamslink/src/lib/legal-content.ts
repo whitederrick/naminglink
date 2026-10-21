@@ -132,7 +132,7 @@ const paidProductSectionKo = (prices: AllReportPrices): LegalSection => ({
     `**꿈 카드** — 이미지 파일 한 장입니다. 그날 꾼 꿈에서 걸린 상징과 전통적 의미를 간직하고 나눌 수 있게 한 장으로 만듭니다. **문서(PDF)가 아닙니다.** 국내 결제 ${prices.card.domestic}(부가세 포함), 해외 결제 ${prices.card.global}.`,
     `**태몽 리포트 PDF** — ${CONCEPTION_PAGE_COUNT}장. 걸린 상징의 전통적 의미와 그 배경을 문서로 담습니다. **임신 여부를 판정하지 않습니다** — 전통적으로 태몽으로 보아 온 상징이 꿈에 나왔다는 사실까지만 알려 드립니다. 국내 결제 ${prices.conception.domestic}(부가세 포함), 해외 결제 ${prices.conception.global}.`,
     "국내 결제는 토스페이먼츠를 통해 신용·체크카드와 간편결제(토스페이·카카오페이·네이버페이·페이코 등)를 이용할 수 있고, 해외 결제는 포트원을 통한 페이팔입니다. 최종 금액은 결제 화면에 표시되는 금액을 따릅니다.",
-    "**서비스는 이용자의 입력값도, 만들어진 PDF 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
+    "**서비스는 이용자의 입력값도, 만들어진 파일도 보관하지 않습니다.** 결제가 승인되면 그 자리에서 문서를 만들어 내려보내고 서버에는 아무것도 남기지 않습니다. 따라서 내려받은 파일은 이용자가 직접 보관해 주셔야 합니다.",
     "다운로드가 중단되거나 파일을 잃어버린 경우를 위해, 같은 주문으로 **5회까지** 다시 내려받을 수 있습니다. 다만 결과 화면을 벗어나 입력값이 사라지면 다시 만들 수 없으므로, 결제 직후 파일을 저장해 주십시오.",
   ],
   bullets: [
@@ -156,7 +156,7 @@ const feeSectionEn: LegalSection = paymentsConfigured
   : {
       heading: "2. Fees",
       paragraphs: [
-        "The service is currently free in full and requires no account.",
+        "The service is currently entirely free and requires no account.",
         "If we begin selling the paid products (the dream card and the conception-dream report), the conditions in section 3 will apply. We will publish these terms again before sales begin.",
       ],
     };
@@ -168,13 +168,13 @@ const paidProductSectionEn = (prices: AllReportPrices): LegalSection => ({
     `**Dream card** — a single image file holding the symbols found in your dream and their traditional meanings, made to keep and to share. **It is not a PDF document.** ${prices.card.domestic} (VAT included) for domestic payment, ${prices.card.global} for international payment.`,
     `**Conception-dream report PDF** — ${CONCEPTION_PAGE_COUNT} pages covering the traditional meanings of the symbols found and their background. **It does not determine pregnancy** — it only tells you that symbols traditionally read as conception omens appeared in your dream. ${prices.conception.domestic} (VAT included) for domestic payment, ${prices.conception.global} for international payment.`,
     "Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.",
-    "**We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
+    "**We store neither your input nor the generated file.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.",
     "In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.",
   ],
   bullets: [
     "**Before the download begins**, you may cancel at any time for a full refund.",
     "**After the download completes**, withdrawal for a simple change of mind is restricted. This is digital content delivered immediately upon payment that cannot be returned, which falls under the withdrawal restrictions in Article 17(2) of the Korean Act on Consumer Protection in Electronic Commerce.",
-    "**If a system error prevents the document from being produced, the file cannot be opened, or the amount charged differs from the order**, we will reissue the document or refund it in full.",
+    "**If a system error prevents the document from being produced, the file cannot be opened, or the amount charged differs from the order**, we will reissue the document or refund in full.",
     "**Dissatisfaction with the content of the reading** is not a ground for refund. A dream reading is reference material offered from a traditional interpretive perspective, and this is stated before purchase (section 1).",
     "Requests made after all five downloads have been used are not a ground for refund.",
     "**Where a minor has paid without the consent of a legal representative**, either the minor or that representative may cancel the payment. Contact us at the details below and we will refund it.",
@@ -638,7 +638,7 @@ const enDocuments = (
       },
       {
         heading: "3. Full refunds",
-        paragraphs: ["We reissue the file or refund in full in these cases."],
+        paragraphs: ["After confirming the cause, we reissue the file or refund in full in these cases."],
         bullets: [
           "A system error prevented the file from being produced",
           "The downloaded file cannot be opened",
@@ -657,7 +657,7 @@ const enDocuments = (
       {
         heading: "5. How to request",
         paragraphs: [
-          `Contact the customer centre (${company.customerCenter}) or email (${company.email}). Including your order number speeds things up.`,
+          `Contact customer service (${company.customerCenter}) or email (${company.email}). Including your order number speeds things up.`,
           "Refunds return to the payment method used. Depending on the card issuer or payment provider, it can take 3-7 business days to appear.",
         ],
       },
@@ -671,7 +671,7 @@ const enDocuments = (
       {
         heading: "1. Free",
         paragraphs: [
-          "**Reading a dream and viewing the result is free**, and requires no account.",
+          "**Reading a dream and viewing the result are free**, and require no account.",
           "The symbols found in your dream, what each has traditionally meant, and what they point to together are all shown on screen. Dreams come nightly, so the service does not ration how often you may look one up.",
         ],
       },

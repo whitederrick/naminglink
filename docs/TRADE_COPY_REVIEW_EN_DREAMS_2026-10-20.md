@@ -31,8 +31,8 @@ _[terms] 2. 이용료  →  2. Fees_
 
 > The service is currently free in full and requires no account.
 
-판정:  
-제안:  
+판정: 의심
+제안: The service is currently entirely free and requires no account.
 
 ### `A-terms-2` · 문단 2 / 2
 
@@ -46,7 +46,7 @@ _[terms] 2. 이용료  →  2. Fees_
 
 > If we begin selling the paid products (the dream card and the conception-dream report), the conditions in section 3 will apply. We will publish these terms again before sales begin.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-3` · 문단 1 / 6
@@ -61,7 +61,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > There are **two paid products**. The dream reading itself is free; these two turn that result into something you can keep.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-4` · 문단 2 / 6
@@ -76,7 +76,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **Dream card** — a single image file holding the symbols found in your dream and their traditional meanings, made to keep and to share. **It is not a PDF document.** ₩990 (VAT included) for domestic payment, US$1.99 for international payment.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-5` · 문단 3 / 6
@@ -91,7 +91,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **Conception-dream report PDF** — 4 pages covering the traditional meanings of the symbols found and their background. **It does not determine pregnancy** — it only tells you that symbols traditionally read as conception omens appeared in your dream. ₩2,900 (VAT included) for domestic payment, US$2.99 for international payment.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-6` · 문단 4 / 6
@@ -106,7 +106,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > Domestic payments go through Toss Payments (credit and debit cards, and Korean pay services); international payments are by PayPal through PortOne. The amount shown on the payment screen is the final amount.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-7` · 문단 5 / 6
@@ -121,8 +121,8 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **We store neither your input nor the generated PDF.** Once payment is approved, the document is generated in that same request, sent to you, and nothing is kept on the server. Please save the downloaded file yourself.
 
-판정:  
-제안:  
+판정: 의심
+제안: **We store neither your input nor the generated file.** (한국어 원문도 「만들어진 PDF 파일」→「만들어진 파일」. 꿈 카드는 PDF가 아니라 이미지다)
 
 ### `A-terms-8` · 문단 6 / 6
 
@@ -136,7 +136,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > In case a download is interrupted or the file is lost, the same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the document can no longer be produced, so please save the file right after payment.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-9` · 항목 1 / 6
@@ -151,7 +151,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **Before the download begins**, you may cancel at any time for a full refund.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-10` · 항목 2 / 6
@@ -166,7 +166,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **After the download completes**, withdrawal for a simple change of mind is restricted. This is digital content delivered immediately upon payment that cannot be returned, which falls under the withdrawal restrictions in Article 17(2) of the Korean Act on Consumer Protection in Electronic Commerce.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-11` · 항목 3 / 6
@@ -181,8 +181,8 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **If a system error prevents the document from being produced, the file cannot be opened, or the amount charged differs from the order**, we will reissue the document or refund it in full.
 
-판정:  
-제안:  
+판정: 의심
+제안: ...we will reissue the document or refund in full.
 
 ### `A-terms-12` · 항목 4 / 6
 
@@ -196,7 +196,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **Dissatisfaction with the content of the reading** is not a ground for refund. A dream reading is reference material offered from a traditional interpretive perspective, and this is stated before purchase (section 1).
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-13` · 항목 5 / 6
@@ -211,7 +211,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > Requests made after all five downloads have been used are not a ground for refund.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-terms-14` · 항목 6 / 6
@@ -226,7 +226,7 @@ _[terms] 3. 유료 상품과 환불  →  3. Paid products and refunds_
 
 > **Where a minor has paid without the consent of a legal representative**, either the minor or that representative may cancel the payment. Contact us at the details below and we will refund it.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-1` · 문단 1 / 2
@@ -241,8 +241,8 @@ _[pricing] 1. 무료  →  1. Free_
 
 > **Reading a dream and viewing the result is free**, and requires no account.
 
-판정:  
-제안:  
+판정: 의심
+제안: **Reading a dream and viewing the result are free**, and require no account.
 
 ### `A-pricing-2` · 문단 2 / 2
 
@@ -256,7 +256,7 @@ _[pricing] 1. 무료  →  1. Free_
 
 > The symbols found in your dream, what each has traditionally meant, and what they point to together are all shown on screen. Dreams come nightly, so the service does not ration how often you may look one up.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-3` · 문단 1 / 3
@@ -271,7 +271,7 @@ _[pricing] 2. 꿈 카드 (유료)  →  2. Dream card (paid)_
 
 > ₩990 (VAT included) for domestic payment - US$1.99 for international payment
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-4` · 문단 2 / 3
@@ -286,7 +286,7 @@ _[pricing] 2. 꿈 카드 (유료)  →  2. Dream card (paid)_
 
 > Puts the on-screen result into **a single image**, made to keep or to share. **It is not a PDF document.**
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-5` · 문단 3 / 3
@@ -301,7 +301,7 @@ _[pricing] 2. 꿈 카드 (유료)  →  2. Dream card (paid)_
 
 > The same order may be downloaded **up to five times**. Once you leave the result screen the input is gone and the file can no longer be produced, so please save it right after payment.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-6` · 문단 1 / 3
@@ -316,7 +316,7 @@ _[pricing] 3. 태몽 리포트 PDF (유료)  →  3. Conception-dream report PDF
 
 > ₩2,900 (VAT included) for domestic payment - US$2.99 for international payment
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-7` · 문단 2 / 3
@@ -331,7 +331,7 @@ _[pricing] 3. 태몽 리포트 PDF (유료)  →  3. Conception-dream report PDF
 
 > When symbols traditionally read as conception omens appear, this sets out their meanings and background across 4 pages. **It does not determine pregnancy or the sex of a child.**
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-8` · 문단 3 / 3
@@ -346,7 +346,7 @@ _[pricing] 3. 태몽 리포트 PDF (유료)  →  3. Conception-dream report PDF
 
 > Re-download terms are the same as for the dream card.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-9` · 문단 1 / 3
@@ -361,7 +361,7 @@ _[pricing] 4. 결제 수단  →  4. Payment methods_
 
 > **In Korea** - Toss Payments: credit and debit cards, and Korean pay services (Toss Pay, KakaoPay, Naver Pay, Payco and others).
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-10` · 문단 2 / 3
@@ -376,7 +376,7 @@ _[pricing] 4. 결제 수단  →  4. Payment methods_
 
 > **Outside Korea** - PayPal through PortOne.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-11` · 문단 3 / 3
@@ -391,7 +391,7 @@ _[pricing] 4. 결제 수단  →  4. Payment methods_
 
 > The amount shown on the payment screen is the final amount.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `A-pricing-12` · 문단 1 / 1
@@ -406,7 +406,7 @@ _[pricing] 5. 가격 변경  →  5. Price changes_
 
 > Any price change is posted on this page first. Orders already paid for are not affected.
 
-판정:  
+판정: 좋음
 제안:  
 
 ---
@@ -425,7 +425,7 @@ _[refund] 1. 상품의 성격  →  1. What you are buying_
 
 > There are two paid products: the **dream card** (a single image) and the **conception-dream report PDF**. For both, once payment is approved the file is generated in that same request and sent to you immediately.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-2` · 문단 2 / 2
@@ -440,7 +440,7 @@ _[refund] 1. 상품의 성격  →  1. What you are buying_
 
 > **We store neither the dream you wrote nor the generated file.** Please save the downloaded file yourself.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-3` · 문단 1 / 1
@@ -455,7 +455,7 @@ _[refund] 2. 청약철회  →  2. Withdrawal_
 
 > We follow the Korean E-Commerce Act.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-4` · 항목 1 / 2
@@ -470,7 +470,7 @@ _[refund] 2. 청약철회  →  2. Withdrawal_
 
 > **Before the download begins**, you may cancel at any time for a full refund.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-5` · 항목 2 / 2
@@ -485,7 +485,7 @@ _[refund] 2. 청약철회  →  2. Withdrawal_
 
 > **After the download completes**, withdrawal for a simple change of mind is restricted — digital content delivered immediately on payment that cannot be returned (Art. 17(2) of the Act). We state this and take your consent on the payment screen.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-6` · 문단 1 / 1
@@ -500,8 +500,8 @@ _[refund] 3. 전액 환불하는 경우  →  3. Full refunds_
 
 > We reissue the file or refund in full in these cases.
 
-판정:  
-제안:  
+판정: 의심
+제안: After confirming the cause, we reissue the file or refund in full in these cases.
 
 ### `B-refund-7` · 항목 1 / 4
 
@@ -515,7 +515,7 @@ _[refund] 3. 전액 환불하는 경우  →  3. Full refunds_
 
 > A system error prevented the file from being produced
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-8` · 항목 2 / 4
@@ -530,7 +530,7 @@ _[refund] 3. 전액 환불하는 경우  →  3. Full refunds_
 
 > The downloaded file cannot be opened
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-9` · 항목 3 / 4
@@ -545,7 +545,7 @@ _[refund] 3. 전액 환불하는 경우  →  3. Full refunds_
 
 > The amount charged differs from the order
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-10` · 항목 4 / 4
@@ -560,7 +560,7 @@ _[refund] 3. 전액 환불하는 경우  →  3. Full refunds_
 
 > **A minor paid without the consent of a legal representative** — either may request cancellation.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-11` · 항목 1 / 2
@@ -575,7 +575,7 @@ _[refund] 4. 환불 사유가 아닌 경우  →  4. Not grounds for a refund_
 
 > **Dissatisfaction with the content.** A dream reading is reference material from a traditional interpretive perspective, and this is stated before purchase. A short result — because no symbol from the dictionary was found in your dream — falls under this too: we do not invent meanings that are not there.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-12` · 항목 2 / 2
@@ -590,7 +590,7 @@ _[refund] 4. 환불 사유가 아닌 경우  →  4. Not grounds for a refund_
 
 > Requests after all five downloads have been used.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `B-refund-13` · 문단 1 / 2
@@ -605,8 +605,8 @@ _[refund] 5. 접수 방법  →  5. How to request_
 
 > Contact the customer centre (070-4300-7141) or email (platforest.inc@gmail.com). Including your order number speeds things up.
 
-판정:  
-제안:  
+판정: 의심
+제안: Contact customer service (...) — 「customer centre」를 문서 안 다른 자리와 맞춰 「customer service」로
 
 ### `B-refund-14` · 문단 2 / 2
 
@@ -620,7 +620,7 @@ _[refund] 5. 접수 방법  →  5. How to request_
 
 > Refunds return to the payment method used. Depending on the card issuer or payment provider, it can take 3-7 business days to appear.
 
-판정:  
+판정: 좋음
 제안:  
 
 ---
@@ -639,7 +639,7 @@ _i18n · 꿈 카드_
 
 > {brand}
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-info-2` · 상품 형태 / Format
@@ -654,7 +654,7 @@ _i18n · 꿈 카드_
 
 > 1 image file (PNG), downloaded on this screen right after payment. It is not a PDF document.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-info-3` · 이용 조건 / Requirements
@@ -669,7 +669,7 @@ _i18n · 꿈 카드_
 
 > Any device that can open an image. No installation and no account.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-info-4` · 이용 기간 / Availability
@@ -684,7 +684,7 @@ _i18n · 꿈 카드_
 
 > No time limit. The downloaded file is yours to keep.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-info-5` · 다시 받기 / Re-download
@@ -699,7 +699,7 @@ _i18n · 꿈 카드_
 
 > Up to 5 times on the same order. We do not keep the file, so it cannot be made again once you leave the result screen.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-info-6` · 청약철회 / Withdrawal
@@ -714,7 +714,7 @@ _i18n · 꿈 카드_
 
 > Full refund before the download completes. Afterwards, withdrawal for a change of mind is limited (Korean E-Commerce Act art. 17(2)).
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-info-7` · 교환·반품 비용 / Return costs
@@ -729,7 +729,7 @@ _i18n · 꿈 카드_
 
 > None. Digital content is not shipped.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-consent` · 동의 문구
@@ -744,7 +744,7 @@ _i18n · 꿈 카드_
 
 > This is digital content delivered immediately after payment. I understand that **once the download completes, the right to withdraw for a change of mind is limited**.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-required` · 동의 안 했을 때
@@ -759,7 +759,7 @@ _i18n · 꿈 카드_
 
 > You need to agree to the withdrawal terms before paying.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-dreamCard-contact` · 환불 요청처
@@ -774,7 +774,7 @@ _i18n · 꿈 카드_
 
 > For refunds or questions, contact the support desk or the email address below. If the file was never produced, or the amount charged differs from the order, we refund it in full.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-info-1` · 제작·공급자 / Supplier
@@ -789,7 +789,7 @@ _i18n · 태몽 리포트 PDF_
 
 > {brand}
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-info-2` · 상품 형태 / Format
@@ -804,7 +804,7 @@ _i18n · 태몽 리포트 PDF_
 
 > 1 PDF document (4 pages), downloaded on this screen right after payment.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-info-3` · 이용 조건 / Requirements
@@ -819,7 +819,7 @@ _i18n · 태몽 리포트 PDF_
 
 > Any device that can open a PDF. No installation and no account.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-info-4` · 이용 기간 / Availability
@@ -834,7 +834,7 @@ _i18n · 태몽 리포트 PDF_
 
 > No time limit. The downloaded file is yours to keep.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-info-5` · 다시 받기 / Re-download
@@ -849,7 +849,7 @@ _i18n · 태몽 리포트 PDF_
 
 > Up to 5 times on the same order. We do not keep the file, so it cannot be made again once you leave the result screen.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-info-6` · 청약철회 / Withdrawal
@@ -864,7 +864,7 @@ _i18n · 태몽 리포트 PDF_
 
 > Full refund before the download completes. Afterwards, withdrawal for a change of mind is limited (Korean E-Commerce Act art. 17(2)).
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-info-7` · 교환·반품 비용 / Return costs
@@ -879,7 +879,7 @@ _i18n · 태몽 리포트 PDF_
 
 > None. Digital content is not shipped.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-consent` · 동의 문구
@@ -894,7 +894,7 @@ _i18n · 태몽 리포트 PDF_
 
 > This is digital content delivered immediately after payment. I understand that **once the download completes, the right to withdraw for a change of mind is limited**.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-required` · 동의 안 했을 때
@@ -909,7 +909,7 @@ _i18n · 태몽 리포트 PDF_
 
 > You need to agree to the withdrawal terms before paying.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `C-conceptionReport-contact` · 환불 요청처
@@ -924,7 +924,7 @@ _i18n · 태몽 리포트 PDF_
 
 > For refunds or questions, contact the support desk or the email address below. If the document was never produced, or the amount charged differs from the order, we refund it in full.
 
-판정:  
+판정: 좋음
 제안:  
 
 ---
@@ -943,7 +943,7 @@ _푸터 (운영 화면)_
 
 > Platforest Inc.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-2` · 대표자 / Representative
@@ -958,7 +958,7 @@ _푸터 (운영 화면)_
 
 > Gwak Eunha
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-3` · 사업자등록번호 / Registration no.
@@ -973,7 +973,7 @@ _푸터 (운영 화면)_
 
 > 197-86-02010
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-4` · 통신판매업 / E-commerce reg.
@@ -988,7 +988,7 @@ _푸터 (운영 화면)_
 
 > 제2026-서울금천-1798호
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-5` · 주소 / Address
@@ -1003,7 +1003,7 @@ _푸터 (운영 화면)_
 
 > 13F #1309, Namseong Plaza, 130 Digital-ro, Geumcheon-gu, Seoul, Republic of Korea
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-6` · 고객센터 / Customer service
@@ -1018,7 +1018,7 @@ _푸터 (운영 화면)_
 
 > 070-4300-7141
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-7` · 이메일 / Email
@@ -1033,7 +1033,7 @@ _푸터 (운영 화면)_
 
 > platforest.inc@gmail.com
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-8` · 개인정보 보호책임자 / Privacy officer
@@ -1048,7 +1048,7 @@ _푸터 (운영 화면)_
 
 > Gwak Eunha (CEO)
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-footer-9` · 호스팅 제공 / Hosting
@@ -1063,7 +1063,7 @@ _푸터 (운영 화면)_
 
 > Vercel Inc.
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-privacy-1` · 문단 1 / 2
@@ -1078,7 +1078,7 @@ _[privacy] 9. 개인정보 보호책임자  →  9. Privacy contact_
 
 > Responsible person: Gwak Eunha (CEO)
 
-판정:  
+판정: 좋음
 제안:  
 
 ### `D-privacy-2` · 문단 2 / 2
@@ -1093,5 +1093,5 @@ _[privacy] 9. 개인정보 보호책임자  →  9. Privacy contact_
 
 > Contact: platforest.inc@gmail.com / 070-4300-7141
 
-판정:  
+판정: 좋음
 제안:  
