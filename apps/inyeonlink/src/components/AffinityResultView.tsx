@@ -9,6 +9,7 @@ import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
+import { ResultEntryGate } from "@/components/ResultEntryGate";
 import { TypeCheckModal } from "@/components/TypeCheckModal";
 import {
   decodeAffinityInput,
@@ -108,10 +109,10 @@ export function AffinityResultView({
     );
   }
 
-  // 결과는 이미 손에 있지만, 광고를 켠 상태에서는 이용자가 "광고 보고 결과 보기"를 누르기
-  // 전까지 열지 않는다. 인연의 결은 후보를 하나씩 여는 구조가 아니라 한 번에 다 보는 1회성
-  // 결과라, 진입에 두는 광고 하나가 이 화면의 유일한 보상형 자리다.
-  // 오류 화면에는 세우지 않는다 — 보여 줄 것이 없는데 광고를 보게 할 수는 없다.
+  // 결과는 이미 손에 있다. 광고를 켠 상태에서는 아래 `ResultEntryGate`가 결과를 덮고 광고 하나를
+  // 치르게 한다(오퍼월 → GAM 보상형 → 셀프 광고). 인연의 결은 후보를 하나씩 여는 구조가 아니라
+  // 한 번에 다 보는 1회성 결과라, 진입에 두는 광고 하나가 이 화면의 유일한 보상형 자리다.
+  // 오류·로딩 화면에는 세우지 않는다 — 보여 줄 것이 없는데 광고를 보게 할 수는 없다.
   // 간이 유형 확인기(TypeCheckModal)는 결과 안의 곁들임이라 게이트 대상이 아니다.
 
   const { outcome, input } = state;
@@ -123,6 +124,7 @@ export function AffinityResultView({
 
   return (
     <div className="mt-6">
+      <ResultEntryGate dictionary={dictionary} locale={locale} />
       <p className="break-keep-all leading-7 text-muted">
         {emphasize(t.intro)}
       </p>

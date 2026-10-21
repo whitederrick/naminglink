@@ -1,11 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
-import { submitAdGateEnabled } from "@/lib/ads";
+import { useEffect } from "react";
 
 /**
- * 광고 관문이 있는 제출 폼의 공통 배선.
+ * 제출 폼의 공통 배선. (이름의 「광고 관문」은 옛 이름이다 — 관문은 2026-10-21 에 결과 화면 진입
+ * `ResultEntryGate` 로 옮겼고, 이 훅은 더 이상 광고를 모른다.)
  *
  * `AffinityForm.tsx`·`CompatibilityForm.tsx`가 각자 다음 세 가지를 복붙해 두고 있었다
  * (2026-08-26 코드 리뷰에서 발견 — 복붙 상태로는 한쪽만 고치는 순간 어긋난다):
@@ -16,8 +15,7 @@ import { submitAdGateEnabled } from "@/lib/ads";
  *      않는다. `pageshow`는 그 복원 시점에도 발생하므로 여기서 잠금을 푼다.
  *   2. 이전 조회의 프래그먼트 지우기 — 결과 화면에서 "다시 계산하기"로 돌아오면 남의
  *      생년월일이 주소창에 남아 있다. `replaceState`라 히스토리에 항목이 늘지 않는다.
- *   3. 광고 관문 통과 후 이동 — 관문이 켜져 있으면 광고를 띄우고(`pendingTarget`을 채워
- *      돌려준다), 꺼져 있으면 분석 시작 기록을 기다린 뒤 바로 이동한다.
+ *   3. 이동 — 분석 시작 기록을 기다린 뒤 결과 화면으로 간다.
  *
  * `goto`의 `started`는 `trackAnalytics(...)`가 돌려주는 진행 중인 약속이다 — 이동 직전에
  * 기다려야 시작 기록이 유실되지 않는다(문서를 갈아 끼우면 진행 중인 요청이 끊긴다).
@@ -38,17 +36,11 @@ export function useAdGatedSubmit(setSubmitting: (value: boolean) => void) {
     );
   }, []);
 
-  const [pendingTarget, setPendingTarget] = useState<string | null>(null);
-
   async function goto(target: string, started: Promise<unknown>) {
-    if (submitAdGateEnabled) {
-      // 광고 화면이 떠 있는 동안 전송이 끝난다. 여기서 기다리면 광고가 그만큼 늦게 뜬다.
-      setPendingTarget(target);
-      return;
-    }
+    // 문서를 갈아 끼우기 전에 기다린다. 안 기다리면 분석 시작 기록이 그대로 날아간다.
     await started;
     window.location.assign(target);
   }
 
-  return { pendingTarget, goto };
+  return { goto };
 }

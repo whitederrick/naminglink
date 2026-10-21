@@ -8,8 +8,7 @@ import {
   toPersonInput,
   type PersonDraft,
 } from "@/components/PersonFields";
-import { AdWatchOverlay } from "@/components/AdWatchOverlay";
-import { submitAdGateEnabled } from "@/lib/ads";
+import { adGatesEnabled } from "@/lib/ads";
 import { trackAnalytics } from "@/lib/analytics-client";
 import { localePath } from "@/lib/locale-path";
 import { useAdGatedSubmit } from "@/lib/use-ad-gated-submit";
@@ -32,9 +31,9 @@ export function CompatibilityForm({
   const [personB, setPersonB] = useState<PersonDraft>(emptyPerson);
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
-  // bfcache 복원 시 제출 잠금 풀기, 이전 프래그먼트 지우기, 광고 관문 통과 후 이동 —
+  // bfcache 복원 시 제출 잠금 풀기, 이전 프래그먼트 지우기, 이동 —
   // AffinityForm.tsx와 같은 배선이라 훅으로 뽑았다(use-ad-gated-submit.ts).
-  const { pendingTarget, goto } = useAdGatedSubmit(setSubmitting);
+  const { goto } = useAdGatedSubmit(setSubmitting);
 
   async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
@@ -65,19 +64,11 @@ export function CompatibilityForm({
     // 빈 값으로 읽는 경합도 함께 사라진다. 전체 이동이라 전환이 조금 느려지지만, 이 화면은
     // 어차피 결과를 받으러 서버를 한 번 다녀온다.
     //
-    // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다(goto — 위 훅 참고).
-    // 예전에는 결과 화면에 게이트를 세웠는데, 그러면 버튼을 누른 사람은 결과 페이지에서
-    // 한 번 더 눌러야 했다. 광고 단위가 없으면(지금) 관문 없이 그대로 넘어간다.
+    // **광고 관문은 여기 없다.** 결과 화면(`MatchResultView`의 `ResultEntryGate`)이 맡는다 —
+    // 입력 화면에서는 오퍼월 유무를 잴 수 없어 한 번의 이용에 광고가 둘이 될 수 있다.
+    // (예전 결과 화면 게이트는 「누르고 또 눌러야」 해서 버렸는데, 지금 것은 누를 것이 없다 —
+    // 결과가 열리는 순간 스스로 서고 스스로 걷힌다.)
     await goto(target, started);
-  }
-
-  if (pendingTarget) {
-    return (
-      <AdWatchOverlay
-        dictionary={dictionary}
-        onDone={() => window.location.assign(pendingTarget)}
-      />
-    );
   }
 
   return (
@@ -110,10 +101,10 @@ export function CompatibilityForm({
       >
         {submitting
           ? t.submitting
-          : /* 띄울 광고가 없으면 광고 얘기를 하지 않는다. 관문이 꺼져 있는데
+          : /* 관문이 꺼져 있으면(심사 모드) 광고 얘기를 하지 않는다. 광고를 안 보여 주는데
                "광고 확인 후"라고 적으면 없는 광고를 예고하는 것이 된다.
-               광고 단위를 넣으면 관문과 문구가 함께 켜진다. */
-            submitAdGateEnabled
+               운영 모드(`adGatesEnabled`)면 결과 화면의 관문과 문구가 함께 켜진다. */
+            adGatesEnabled
             ? t.submit
             : t.submitNoAd}
       </button>

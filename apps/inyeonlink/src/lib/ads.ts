@@ -7,11 +7,6 @@
 // 값을 넣은 뒤에는 **재배포가 필요하다.** NEXT_PUBLIC_ 변수는 빌드 시점에 클라이언트 번들로
 // 박히기 때문이다.
 
-// **상대 경로로 둔다.** 이 파일은 `next.config.ts`가 직접 읽는데, 그 자리에서는
-// tsconfig의 `@/` 별칭이 보장되지 않는다.
-// `gam-rewarded`가 아니라 설정 파일에서 가져온다 — 그쪽은 `"use client"`라 서버에서 읽으면
-// 값이 undefined가 된다(`gam-rewarded-config.ts` 주석 참고).
-import { gamRewardedEnabled } from "./gam-rewarded-config";
 
 /** 퍼블리셔 ID. 애드센스 계정의 `ca-pub-0000000000000000` 꼴. */
 const rawClient = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "").trim();
@@ -177,7 +172,7 @@ function adSlot(name: string, raw: string | undefined): string {
  *   약관(`LegalDocumentView`)·입력 화면이 **함께 쓰던 자리**라, 슬롯 ID를 하나 넣으면
  *   아직 아무것도 발행하지 않은 화면 전부에 광고가 나갔다. naming-link을 2026-08-10에
  *   반려시킨(「가치가 별로 없는 콘텐츠」) 것이 정확히 그 구조다.
- * · **계산 중 팝업(`AdWatchOverlay`)**. 화면을 덮는 오버레이이자 결과를 여는 관문이라
+ * · **계산 중 팝업(`ResultEntryGate`)**. 화면을 덮는 오버레이이자 결과를 여는 관문이라
  *   오버레이 게재 금지와 보상형 금지에 동시에 걸린다. 보상형이 필요하면 GAM 보상형 포맷을 쓸 것.
  */
 export const adSlots = {
@@ -212,22 +207,6 @@ export const adSlots = {
 }
 
 export type AdPlacement = keyof typeof adSlots;
-
-/**
- * 제출을 누를 때 광고 관문(`AdWatchOverlay`)을 세울 것인가.
- *
- * **GAM 보상형 광고 단위가 있을 때만 참이다.** 예전에는 `adSlotFor("analyzing")`으로 판단했는데,
- * 그 자리에 있던 애드센스 표시 광고를 정책 때문에 걷어내면서 판단 근거가 사라져 한동안 항상
- * 거짓이었다.
- *
- * 띄울 광고 없이 켜 두면 안 되는 이유: 인연링크는 규칙 엔진이라 결과가 즉시 나온다. 광고
- * 없이 5초를 붙잡으면 **이용자만 잃고 우리가 버는 것은 없는 순수한 지연**이 된다(naminglink는
- * 그 시간에 실제로 AI를 부르고 있어 사정이 다르다). 그래서 판단 근거를 실제로 띄울 광고가
- * 있는지(`gamRewardedEnabled`)에 묶는다 — 단위를 비우면 게이트가 통째로 사라진다.
- *
- * 타입을 boolean으로 못 박은 것은 리터럴 타입이 되면 아래 분기가 죽은 코드로 취급되기 때문이다.
- */
-export const submitAdGateEnabled: boolean = gamRewardedEnabled;
 
 export function adSlotFor(placement: AdPlacement) {
   if (!adsEnabled) return "";

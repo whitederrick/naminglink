@@ -7,6 +7,7 @@ import { AdBanner } from "@/components/AdBanner";
 import { GuideLink } from "@/components/GuideLink";
 import { localePath } from "@/lib/locale-path";
 import { ReportPurchasePanel } from "@/components/ReportPurchasePanel";
+import { ResultEntryGate } from "@/components/ResultEntryGate";
 import { emphasize } from "@/lib/emphasize";
 import {
   scoreBand,
@@ -108,9 +109,9 @@ export function MatchResultView({
     );
   }
 
-  // 결과는 이미 손에 있지만, 광고를 켠 상태에서는 이용자가 "광고 보고 결과 보기"를 누르기
-  // 전까지 열지 않는다. 오류 화면에는 게이트를 세우지 않는다 — 보여 줄 것이 없는데 광고를
-  // 보게 하는 것은 정책 위반이자 무례한 일이다.
+  // 결과는 이미 손에 있다. 광고를 켠 상태에서는 아래 `ResultEntryGate`가 결과를 덮고 광고 하나를
+  // 치르게 한다(오퍼월 → GAM 보상형 → 셀프 광고). 오류·로딩 화면에는 세우지 않는다 — 보여 줄 것이
+  // 없는데 광고를 보게 하는 것은 정책 위반이자 무례한 일이다. 입력 화면에는 관문이 없어야 한다.
 
   const { outcome, input } = state;
   const band = scoreBand(outcome.totalScore);
@@ -119,6 +120,7 @@ export function MatchResultView({
 
   return (
     <div className="mt-10">
+      <ResultEntryGate dictionary={dictionary} locale={locale} />
       <p className="text-center text-sm text-muted">
         {nameA} · {nameB}
       </p>

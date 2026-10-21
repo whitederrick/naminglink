@@ -14,8 +14,7 @@ import {
   encodeAffinityInput,
   type AffinityInput,
 } from "@/lib/affinity-input";
-import { AdWatchOverlay } from "@/components/AdWatchOverlay";
-import { submitAdGateEnabled } from "@/lib/ads";
+import { adGatesEnabled } from "@/lib/ads";
 import { trackAnalytics } from "@/lib/analytics-client";
 import { useAdGatedSubmit } from "@/lib/use-ad-gated-submit";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -34,9 +33,9 @@ export function AffinityForm({
   );
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
-  // bfcache 복원 시 제출 잠금 풀기, 이전 프래그먼트 지우기, 광고 관문 통과 후 이동 —
+  // bfcache 복원 시 제출 잠금 풀기, 이전 프래그먼트 지우기, 이동 —
   // CompatibilityForm.tsx와 같은 배선이라 훅으로 뽑았다(use-ad-gated-submit.ts).
-  const { pendingTarget, goto } = useAdGatedSubmit(setSubmitting);
+  const { goto } = useAdGatedSubmit(setSubmitting);
 
   async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
@@ -55,18 +54,9 @@ export function AffinityForm({
     // 궁합과 같은 이유로 프래그먼트에 싣고 location.assign으로 넘긴다(주소가 확정된 뒤에
     // 결과 화면의 스크립트가 돈다). 자세한 사연은 CompatibilityForm 주석에 있다.
     const target = `${localePath("/affinity/result", locale)}#${encodeAffinityInput(input)}`;
-    // 제출을 누르면 **여기서 광고를 띄우고** 끝난 뒤 결과로 넘어간다(goto — 위 훅 참고).
-    // 광고 단위가 없으면(지금) 관문 없이 그대로 넘어간다.
+    // **광고 관문은 여기 없다.** 결과 화면(`AffinityResultView`의 `ResultEntryGate`)이 맡는다 —
+    // 입력 화면에서는 오퍼월 유무를 잴 수 없어 한 번의 이용에 광고가 둘이 될 수 있다.
     await goto(target, started);
-  }
-
-  if (pendingTarget) {
-    return (
-      <AdWatchOverlay
-        dictionary={dictionary}
-        onDone={() => window.location.assign(pendingTarget)}
-      />
-    );
   }
 
   return (
@@ -123,10 +113,10 @@ export function AffinityForm({
       >
         {submitting
           ? t.submitting
-          : /* 띄울 광고가 없으면 광고 얘기를 하지 않는다. 관문이 꺼져 있는데
+          : /* 관문이 꺼져 있으면(심사 모드) 광고 얘기를 하지 않는다. 광고를 안 보여 주는데
                "광고 확인 후"라고 적으면 없는 광고를 예고하는 것이 된다.
-               광고 단위를 넣으면 관문과 문구가 함께 켜진다. */
-            submitAdGateEnabled
+               운영 모드(`adGatesEnabled`)면 결과 화면의 관문과 문구가 함께 켜진다. */
+            adGatesEnabled
             ? t.submit
             : t.submitNoAd}
       </button>
