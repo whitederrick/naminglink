@@ -86,6 +86,119 @@ export const TR_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Örnekler",
+    "title": "Bir Haritayı Örnekle Okumak — Üç Gerçek Hesaplama Sonucu",
+    "summary": "Saju-Link motorundan geçirilen üç uydurma doğum tarihi, hesaplandıkları haliyle gösterilir; dört sütunu, gün ustasını ve beş elementin gücünü hangi sırayla okumanız gerektiği de adım adım anlatılır.",
+    "backLabel": "Nasıl hesaplıyoruz",
+    "sections": [
+      {
+        "title": "Bu örnekler nedir",
+        "blocks": [
+          {
+            "p": "Aşağıdaki üç kişi gerçek değildir. Doğum tarihleri bir noktayı göstermek için seçilmiştir. Sonuçlar, kendi doğum tarihinizi girdiğinizde ücretsiz sonucu gösteren **aynı hesaplama motoru ve aynı ekran bileşenleriyle** çizilir; dolayısıyla burada gördüğünüz, sizin alacağınız sonuçla aynıdır."
+          },
+          {
+            "p": "Ücretsiz ekran dört sütunu, gün ustasını ve beş elementin gücünü gösterir. Gün ustasının güçlü mü zayıf mı olduğu (güçlü / zayıf harita) ve bu yüzden hangi elementin gerekli olduğu (dengeleyici element), [Ücretli raporda neler var](/guide/reports) bölümüne aittir; bu nedenle bu örneklerde de gösterilmez."
+          },
+          {
+            "p": "Her örnek aynı sırayla okunur. Önce dört sütun içinde gün ustasını bulun — doğduğunuz günün gök gövdesini. Sonra çubukta en güçlü ve en zayıf elementlere bakın ve en sonunda doğum ayının mevsimini bunların üzerine yerleştirin. Harfler size yabancıysa [Gök Gövdeleri, Yer Dalları ve Gün Sütunu — Harfler Nasıl Okunur](/guide/saju-letters) ile başlayın."
+          }
+        ]
+      },
+      {
+        "title": "Örnek 1 — {exADayMaster}: gün ustası ile en güçlü element farklı",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Hayali doğum: {exABirth} (güneş takvimi). Haritada yıl sütunu {exAYear}, ay sütunu {exAMonth}, gün sütunu {exADay} ve saat sütunu {exAHour} yer alır."
+          },
+          {
+            "p": "Doğum gününün gök gövdesi gün ustasıdır — burada: {exADayMaster} (element: {exADayElement}). Saju-Link'in her gün ustasına eklediği tek satırlık mizaç şöyledir: {exATrait}"
+          },
+          {
+            "p": "Element çubuğunda en büyük pay {exAStrongest} elementinindir, oran: {exAStrongestPct}; en küçük pay ise {exAScarcest} elementinindir, oran: {exAScarcestPct}. Gün ustasının elementi {exADayElement}, ama en güçlü element {exAStrongest}. **Gün ustasının elementi ile en güçlü element farklı olabilir** — bu örneğin amacı budur."
+          },
+          {
+            "p": "Doğum ayının mevsimi: {exASeason}; bu, en güçlü elementle aynı taraftadır. Mevsimin bir elementi nasıl yükselttiği güç hesabının bir parçasıdır ve yöntem [Dengeleyici Element — Şu Anda Gerekli Enerji](/guide/yongsin) bölümünde anlatılır."
+          },
+          {
+            "p": "Gün dalının ({exADayBranch}) içinde gizli gövdeler şunlardır: {exAHiddenStems}. Gizli gövdeler her elementin gücüne sayılır; bu yüzden yalnızca görünen sekiz karakteri sayarsanız çubuk tutarsız görünebilir."
+          },
+          {
+            "p": "Bu örnek için okunmaya değer diğer yazılar: [Yin Ağaç (乙) — Ağaç, Yin](/guide/stem-eul), [乙亥 gün sütunu](/guide/pillar-eul-hae) ve [亥 — Domuz dalı](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Örnek 2 — {exBDayMaster}: bir elementi eksik olan harita",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Hayali doğum: {exBBirth} (güneş takvimi). Haritada yıl sütunu {exBYear}, ay sütunu {exBMonth}, gün sütunu {exBDay} ve saat sütunu {exBHour} yer alır."
+          },
+          {
+            "p": "Doğum gününün gök gövdesi gün ustasıdır — burada: {exBDayMaster} (element: {exBDayElement}). Saju-Link'in her gün ustasına eklediği tek satırlık mizaç şöyledir: {exBTrait}"
+          },
+          {
+            "p": "Element çubuğunda {exBScarcest} elementinin payı {exBScarcestPct}; bu, çubukta neredeyse görünmez olduğu anlamına gelir. Saju-Link böyle bir elementi en zayıf element olarak ayrıca belirtir. Buna karşılık en büyük pay {exBStrongest} elementinindir, oran: {exBStrongestPct}."
+          },
+          {
+            "p": "Doğum ayının mevsimi: {exBSeason}. Gün ustasının elementi ({exBDayElement}), en güçlü element ({exBStrongest}) ve mevsim ({exBSeason}) birbirinden farklıdır; bu da üçünü ayrı ayrı okumayı göstermek için iyi bir örnek yapar."
+          },
+          {
+            "p": "Yıl dalına ({exBYearBranch}) karşılık gelen hayvan: {exBAnimal}. Hayvan, sekiz karakterden yalnızca biridir — yıl dalı. Daha fazlası [Saju'da Burç Nerede?](/guide/zodiac) bölümündedir."
+          },
+          {
+            "p": "Bu örnek için okunmaya değer diğer yazılar: [Yin Toprak (己) — Toprak, Yin](/guide/stem-gi), [己酉 gün sütunu](/guide/pillar-gi-yu) ve [酉 — Horoz dalı](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Örnek 3 — {exCDayMaster}: bir yana ağır basan harita",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Hayali doğum: {exCBirth} (güneş takvimi). Haritada yıl sütunu {exCYear}, ay sütunu {exCMonth}, gün sütunu {exCDay} ve saat sütunu {exCHour} yer alır."
+          },
+          {
+            "p": "Doğum gününün gök gövdesi gün ustasıdır — burada: {exCDayMaster} (element: {exCDayElement}). Saju-Link'in her gün ustasına eklediği tek satırlık mizaç şöyledir: {exCTrait}"
+          },
+          {
+            "p": "Gün ustasının elementi, en güçlü element ve mevsim aynı tarafta toplanır — taraf: {exCStrongest}. Element çubuğunda {exCStrongest} elementinin payı {exCStrongestPct}; en küçük pay ise {exCScarcest} elementinindir, oran: {exCScarcestPct}."
+          },
+          {
+            "p": "Bir yana ağır basmak tek başına iyi ya da kötü demek değildir. Bu eğilimin gün ustası için yük mü güç mü olduğu, güçlü / zayıf değerlendirmesi ve dengeleyici elementle ayrıca belirlenir — ölçütler [Dengeleyici Element — Şu Anda Gerekli Enerji](/guide/yongsin) bölümünde yayımlanmıştır, değerlendirmenin kendisi ise [Ücretli raporda neler var](/guide/reports) bölümündedir."
+          },
+          {
+            "p": "Gün dalının ({exCDayBranch}) içinde gizli gövdeler şunlardır: {exCHiddenStems}."
+          },
+          {
+            "p": "Bu örnek için okunmaya değer diğer yazılar: [Yin Ateş (丁) — Ateş, Yin](/guide/stem-jeong), [丁亥 gün sütunu](/guide/pillar-jeong-hae) ve [亥 — Domuz dalı](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Kendi haritanızla deneyin",
+        "blocks": [
+          {
+            "p": "Doğum tarihinizi ve saatinizi [Saju okumanız](/reading) içine girin; bu örneklerle aynı biçimde oluşturulmuş bir sonuç alırsınız. Girdiğiniz değerler sunucularımızda saklanmaz — yöntem [Girilen bilgileri saklamayan bir yöntem](/guide/no-storage) bölümünde anlatılır."
+          },
+          {
+            "p": "Bugünün gün sütununu haritanızın üzerine koymak için [Bugünün falı](/today) bölümünü kullanın."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Bu örneklerdeki doğum tarihleri açıklama amacıyla uydurulmuştur ve sonuçlar yalnızca referans içindir. Bugünün falı gibi her gün değişen değerler dahil edilmemiştir."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Hizmet Temeli",
     "title": "doğum haritası — Sekiz karakter nereden geliyor?",

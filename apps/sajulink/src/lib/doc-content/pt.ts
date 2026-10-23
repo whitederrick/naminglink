@@ -86,6 +86,119 @@ export const PT_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Exemplos",
+    "title": "Lendo um mapa por exemplos: três resultados reais de cálculo",
+    "summary": "Três datas de nascimento fictícias processadas pelo mecanismo do Saju-Link e mostradas exatamente como foram calculadas, com um passo a passo da ordem para ler os quatro pilares, o mestre do dia e a força dos cinco elementos.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O que são estes exemplos",
+        "blocks": [
+          {
+            "p": "As três pessoas abaixo não são reais. As datas de nascimento foram escolhidas para ilustrar um ponto. Os resultados são gerados com **o mesmo mecanismo de cálculo e os mesmos componentes de tela** que mostram o resultado gratuito quando você informa a sua própria data de nascimento; por isso, o que você vê aqui corresponde ao que você obteria."
+          },
+          {
+            "p": "A tela gratuita mostra os quatro pilares, o mestre do dia e a força dos cinco elementos. Se o mestre do dia é forte ou fraco (pilar do dia forte / fraco) e, portanto, qual elemento é necessário (o elemento de equilíbrio) fazem parte do [O que está incluído no relatório pago](/guide/reports); por isso, também não aparecem nestes exemplos."
+          },
+          {
+            "p": "Cada exemplo é lido na mesma ordem. Primeiro, encontre o mestre do dia — o tronco celeste do dia em que você nasceu — entre os quatro pilares. Depois, observe os elementos mais forte e mais fraco na barra e, por fim, sobreponha a estação do mês de nascimento. Se os caracteres não forem familiares, comece por [Troncos celestes, ramos terrestres e pilar do dia: como ler os caracteres](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Exemplo 1 — {exADayMaster}: o mestre do dia e o elemento mais forte são diferentes",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "O nascimento imaginado é {exABirth} (calendário solar). O mapa tem estes pilares. Ano: {exAYear}. Mês: {exAMonth}. Dia: {exADay}. Hora: {exAHour}."
+          },
+          {
+            "p": "O tronco celeste do dia de nascimento é o mestre do dia — aqui, {exADayMaster} ({exADayElement}). A descrição de temperamento em uma linha que o Saju-Link associa a cada mestre do dia diz: {exATrait}"
+          },
+          {
+            "p": "Na barra de elementos, a maior parcela é {exAStrongest}, com {exAStrongestPct}, e a menor é {exAScarcest}, com {exAScarcestPct}. O elemento do mestre do dia é {exADayElement}, mas o elemento mais forte é {exAStrongest}. **O elemento do mestre do dia e o elemento mais forte podem ser diferentes** — esse é o ponto deste exemplo."
+          },
+          {
+            "p": "A estação do mês de nascimento é {exASeason}, do mesmo lado que o elemento mais forte. Como a estação eleva um elemento faz parte do cálculo da força, e o método está descrito em [Elemento de Equilíbrio — A Energia Necessária Agora](/guide/yongsin)."
+          },
+          {
+            "p": "Os troncos ocultos dentro do ramo do dia ({exADayBranch}) são: {exAHiddenStems}. Os troncos ocultos contam para a força de cada elemento; por isso, se você contar apenas os oito caracteres visíveis, a barra pode parecer inconsistente."
+          },
+          {
+            "p": "Para este exemplo, outras leituras recomendadas são [Madeira Yin (乙) — Madeira, Yin](/guide/stem-eul), [O pilar do dia 乙亥](/guide/pillar-eul-hae) e [亥 — o ramo do Porco](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Exemplo 2 — {exBDayMaster}: um mapa com um elemento ausente",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "O nascimento imaginado é {exBBirth} (calendário solar). O mapa tem estes pilares. Ano: {exBYear}. Mês: {exBMonth}. Dia: {exBDay}. Hora: {exBHour}."
+          },
+          {
+            "p": "O tronco celeste do dia de nascimento é o mestre do dia — aqui, {exBDayMaster} ({exBDayElement}). A descrição de temperamento em uma linha que o Saju-Link associa a cada mestre do dia diz: {exBTrait}"
+          },
+          {
+            "p": "Na barra de elementos, a parcela de {exBScarcest} é {exBScarcestPct}, o que significa que ele é praticamente invisível na barra. O Saju-Link destaca separadamente esse elemento como o mais fraco. Já a maior parcela é {exBStrongest}, com {exBStrongestPct}."
+          },
+          {
+            "p": "A estação do mês de nascimento é {exBSeason}. O elemento do mestre do dia ({exBDayElement}), o elemento mais forte ({exBStrongest}) e a estação ({exBSeason}) são todos diferentes entre si, o que faz deste um bom exemplo para ler os três separadamente."
+          },
+          {
+            "p": "O ramo do ano ({exBYearBranch}) corresponde ao animal: {exBAnimal}. O animal é apenas um dos oito caracteres — o ramo do ano. Mais informações em [Onde está o Signo do Zodíaco em Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Para este exemplo, outras leituras recomendadas são [Terra Yin (己) — Terra, Yin](/guide/stem-gi), [O pilar do dia 己酉](/guide/pillar-gi-yu) e [酉 — o ramo do Galo](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Exemplo 3 — {exCDayMaster}: um mapa fortemente inclinado para um lado",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "O nascimento imaginado é {exCBirth} (calendário solar). O mapa tem estes pilares. Ano: {exCYear}. Mês: {exCMonth}. Dia: {exCDay}. Hora: {exCHour}."
+          },
+          {
+            "p": "O tronco celeste do dia de nascimento é o mestre do dia — aqui, {exCDayMaster} ({exCDayElement}). A descrição de temperamento em uma linha que o Saju-Link associa a cada mestre do dia diz: {exCTrait}"
+          },
+          {
+            "p": "O elemento do mestre do dia, o elemento mais forte e a estação se reúnem todos no mesmo lado, o de {exCStrongest}. Na barra de elementos, a parcela de {exCStrongest} é {exCStrongestPct}, e o menor, {exCScarcest}, tem {exCScarcestPct}."
+          },
+          {
+            "p": "Uma forte inclinação para um lado não diz, por si só, se algo é bom ou ruim. Se a inclinação é um peso ou uma força para o mestre do dia é decidido separadamente pela avaliação de pilar do dia forte / fraco e pelo elemento de equilíbrio — os critérios estão publicados em [Elemento de Equilíbrio — A Energia Necessária Agora](/guide/yongsin), e a avaliação em si está em [O que está incluído no relatório pago](/guide/reports)."
+          },
+          {
+            "p": "Os troncos ocultos dentro do ramo do dia ({exCDayBranch}) são: {exCHiddenStems}."
+          },
+          {
+            "p": "Para este exemplo, outras leituras recomendadas são [Fogo Yin (丁) — Fogo, Yin](/guide/stem-jeong), [O pilar do dia 丁亥](/guide/pillar-jeong-hae) e [亥 — o ramo do Porco](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Experimente com o seu próprio mapa",
+        "blocks": [
+          {
+            "p": "Informe a sua data e hora de nascimento em [Leitura de Saju](/reading) e você receberá um resultado construído da mesma forma que estes exemplos. Os valores informados não são guardados em nossos servidores — o método está descrito em [Um método que não armazena as informações inseridas](/guide/no-storage)."
+          },
+          {
+            "p": "Para sobrepor o pilar do dia de hoje ao seu mapa, use [A sorte de hoje](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "As datas de nascimento destes exemplos são fictícias, criadas para ilustração, e os resultados servem apenas como referência. Valores que mudam todos os dias, como a sorte de hoje, não estão incluídos."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Base do Serviço",
     "title": "gráfico natal — De onde vêm os oito caracteres?",

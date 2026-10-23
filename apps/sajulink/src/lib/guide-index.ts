@@ -57,6 +57,9 @@ export type GuideEntry = {
 /** 허브에 놓이는 순서. 입문(글자) → 원국 → 오행·용신 → 십신 → 관계표 → 시각 → 오늘 → 개인정보 → 상품. */
 export const guideEntries: GuideEntry[] = [
   { slug: "saju-letters", track: "reading" },
+  // 실제 엔진 출력으로 그린 가상 사주 셋. 홈 카드(앞 네 편)에 들어가 크롤러가 풀이 결과가 어떤
+  // 모양인지 홈에서 한 걸음으로 닿는다(2026-10-23).
+  { slug: "examples", track: "reading" },
   { slug: "natal-chart", track: "reading" },
   { slug: "five-elements", track: "reading" },
   { slug: "yongsin", track: "reading" },

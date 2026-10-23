@@ -86,6 +86,119 @@ export const MS_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Contoh",
+    "title": "Membaca Carta melalui Contoh — Tiga Keputusan Pengiraan Sebenar",
+    "summary": "Tiga tarikh lahir rekaan dijalankan melalui enjin Saju-Link dan ditunjukkan tepat seperti yang dikira, beserta panduan tertib membaca empat pilar, penguasa hari dan kekuatan lima elemen.",
+    "backLabel": "Asas Pengiraan",
+    "sections": [
+      {
+        "title": "Apakah contoh-contoh ini",
+        "blocks": [
+          {
+            "p": "Tiga orang di bawah ini bukan orang sebenar. Tarikh lahir mereka dipilih untuk menerangkan sesuatu perkara. Keputusannya dilukis dengan **enjin pengiraan yang sama dan komponen skrin yang sama** yang memaparkan keputusan percuma apabila anda memasukkan tarikh lahir anda sendiri, jadi apa yang anda lihat di sini sepadan dengan apa yang akan anda perolehi."
+          },
+          {
+            "p": "Skrin percuma memaparkan empat pilar, penguasa hari dan kekuatan lima elemen. Sama ada penguasa hari itu kuat atau lemah (carta kuat / lemah) dan elemen mana yang diperlukan sebagai akibatnya (elemen penyeimbang) tergolong dalam [laporan berbayar](/guide/reports), maka ia juga tidak ditunjukkan dalam contoh-contoh ini."
+          },
+          {
+            "p": "Setiap contoh dibaca mengikut tertib yang sama. Mula-mula cari penguasa hari — batang syurga bagi hari anda dilahirkan — di antara empat pilar. Kemudian lihat elemen yang paling kuat dan paling lemah dalam bar, dan akhirnya letakkan musim bulan kelahiran di atasnya. Jika aksara-aksara itu belum biasa, mulakan dengan [Batang Syurga, Cabang Bumi dan Pilar Hari — Cara Membaca Watak Saju](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Contoh 1 — {exADayMaster}: penguasa hari dan elemen terkuat berbeza",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Kelahiran rekaan ialah {exABirth} (kalendar suria). Carta ini mempunyai pilar tahun {exAYear}, pilar bulan {exAMonth}, pilar hari {exADay} dan pilar jam {exAHour}."
+          },
+          {
+            "p": "Batang syurga bagi hari lahir ialah penguasa hari — di sini {exADayMaster} ({exADayElement}). Sifat satu baris yang dilekatkan Saju-Link pada setiap penguasa hari berbunyi: {exATrait}"
+          },
+          {
+            "p": "Dalam bar elemen, bahagian terbesar ialah {exAStrongest} sebanyak {exAStrongestPct} dan yang terkecil ialah {exAScarcest} sebanyak {exAScarcestPct}. Elemen penguasa hari ialah {exADayElement}, namun elemen terkuat ialah {exAStrongest}. **Elemen penguasa hari dan elemen terkuat boleh berbeza** — itulah inti contoh ini."
+          },
+          {
+            "p": "Musim bulan kelahiran ialah {exASeason}, di pihak yang sama dengan elemen terkuat. Cara musim menaikkan sesuatu elemen ialah sebahagian daripada pengiraan kekuatan, dan kaedahnya diterangkan dalam [Elemen Penyeimbang — Tenaga yang Diperlukan Sekarang](/guide/yongsin)."
+          },
+          {
+            "p": "Batang tersembunyi di dalam cabang hari ({exADayBranch}) ialah {exAHiddenStems}. Batang tersembunyi dikira dalam kekuatan setiap elemen, jadi jika anda hanya mengira lapan aksara yang kelihatan, bar itu mungkin nampak tidak konsisten."
+          },
+          {
+            "p": "Untuk contoh ini, entri lain yang wajar dibaca ialah [Kayu Yin (乙) — Kayu, Yin](/guide/stem-eul), [Pilar Hari 乙亥](/guide/pillar-eul-hae) dan [亥 — cabang Babi](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Contoh 2 — {exBDayMaster}: carta dengan elemen yang tiada",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Kelahiran rekaan ialah {exBBirth} (kalendar suria). Carta ini mempunyai pilar tahun {exBYear}, pilar bulan {exBMonth}, pilar hari {exBDay} dan pilar jam {exBHour}."
+          },
+          {
+            "p": "Batang syurga bagi hari lahir ialah penguasa hari — di sini {exBDayMaster} ({exBDayElement}). Sifat satu baris yang dilekatkan Saju-Link pada setiap penguasa hari berbunyi: {exBTrait}"
+          },
+          {
+            "p": "Dalam bar elemen, bahagian {exBScarcest} ialah {exBScarcestPct}, yang bermakna ia hampir tidak kelihatan dalam bar. Saju-Link menunjukkan elemen sebegini secara berasingan sebagai yang paling lemah. Sebaliknya, bahagian terbesar ialah {exBStrongest} sebanyak {exBStrongestPct}."
+          },
+          {
+            "p": "Musim bulan kelahiran ialah {exBSeason}. Elemen penguasa hari ({exBDayElement}), elemen terkuat ({exBStrongest}) dan musim ({exBSeason}) semuanya berbeza antara satu sama lain, menjadikannya contoh yang baik untuk membaca ketiga-tiganya secara berasingan."
+          },
+          {
+            "p": "Cabang tahun ({exBYearBranch}) sepadan dengan haiwan {exBAnimal}. Haiwan itu hanyalah satu daripada lapan aksara — cabang tahun. Maklumat lanjut ada dalam [Di mana Tanda Zodiak dalam Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Untuk contoh ini, entri lain yang wajar dibaca ialah [Tanah Yin (己) — Tanah, Yin](/guide/stem-gi), [Pilar Hari 己酉](/guide/pillar-gi-yu) dan [酉 — cabang Ayam](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Contoh 3 — {exCDayMaster}: carta yang sangat condong ke satu pihak",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Kelahiran rekaan ialah {exCBirth} (kalendar suria). Carta ini mempunyai pilar tahun {exCYear}, pilar bulan {exCMonth}, pilar hari {exCDay} dan pilar jam {exCHour}."
+          },
+          {
+            "p": "Batang syurga bagi hari lahir ialah penguasa hari — di sini {exCDayMaster} ({exCDayElement}). Sifat satu baris yang dilekatkan Saju-Link pada setiap penguasa hari berbunyi: {exCTrait}"
+          },
+          {
+            "p": "Elemen penguasa hari, elemen terkuat dan musim semuanya berkumpul di pihak {exCStrongest}. Dalam bar elemen, bahagian {exCStrongest} ialah {exCStrongestPct}, dan yang terkecil, {exCScarcest}, mempunyai {exCScarcestPct}."
+          },
+          {
+            "p": "Kecondongan yang kuat ke satu pihak tidak dengan sendirinya bermakna baik atau buruk. Sama ada kecondongan itu beban atau kekuatan bagi penguasa hari ditentukan secara berasingan melalui penilaian kuat / lemah dan elemen penyeimbang — kriterianya diterbitkan dalam [Elemen Penyeimbang — Tenaga yang Diperlukan Sekarang](/guide/yongsin), dan penilaian itu sendiri terdapat dalam [laporan berbayar](/guide/reports)."
+          },
+          {
+            "p": "Batang tersembunyi di dalam cabang hari ({exCDayBranch}) ialah {exCHiddenStems}."
+          },
+          {
+            "p": "Untuk contoh ini, entri lain yang wajar dibaca ialah [Api Yin (丁) — Api, Yin](/guide/stem-jeong), [Pilar Hari 丁亥](/guide/pillar-jeong-hae) dan [亥 — cabang Babi](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Mencuba dengan carta anda sendiri",
+        "blocks": [
+          {
+            "p": "Masukkan tarikh dan waktu lahir anda dalam [Saju saya](/reading) dan anda akan mendapat keputusan yang dibina dengan cara yang sama seperti contoh-contoh ini. Nilai yang anda masukkan tidak disimpan di pelayan kami — kaedahnya diterangkan dalam [Kaedah yang tidak menyimpan maklumat yang dimasukkan](/guide/no-storage)."
+          },
+          {
+            "p": "Untuk meletakkan pilar hari ini di atas carta anda, gunakan [Ramalan hari ini](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Tarikh lahir dalam contoh-contoh ini direka untuk ilustrasi, dan keputusannya adalah sebagai rujukan. Nilai yang berubah setiap hari, seperti ramalan hari ini, tidak disertakan."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Asas Perkhidmatan",
     "title": "graf kelahiran — Dari mana datangnya lapan watak?",

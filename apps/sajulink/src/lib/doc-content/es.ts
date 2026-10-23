@@ -86,6 +86,119 @@ export const ES_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Ejemplos",
+    "title": "Cómo leer una carta con ejemplos: tres resultados de cálculo reales",
+    "summary": "Tres fechas de nacimiento inventadas pasadas por el motor de Saju-Link y mostradas tal como se calcularon, con un recorrido por el orden en que se leen los cuatro pilares, el maestro del día y la fuerza de los cinco elementos.",
+    "backLabel": "Cómo calculamos",
+    "sections": [
+      {
+        "title": "Qué son estos ejemplos",
+        "blocks": [
+          {
+            "p": "Las tres personas de abajo no son reales. Sus fechas de nacimiento se eligieron para ilustrar un punto. Los resultados se dibujan con **el mismo motor de cálculo y los mismos componentes de pantalla** que muestran el resultado gratuito cuando ingresas tu propia fecha de nacimiento, así que lo que ves aquí coincide con lo que obtendrías."
+          },
+          {
+            "p": "La pantalla gratuita muestra los cuatro pilares, el maestro del día y la fuerza de los cinco elementos. Si el maestro del día es fuerte o débil (carta fuerte / débil) y, por tanto, qué elemento se necesita (el elemento equilibrante) forman parte del [Qué incluye el informe de pago](/guide/reports), así que tampoco se muestran en estos ejemplos."
+          },
+          {
+            "p": "Cada ejemplo se lee en el mismo orden. Primero se busca el maestro del día, es decir, el tronco celestial del día en que naciste, entre los cuatro pilares. Después se miran los elementos más fuerte y más débil en la barra y, por último, se superpone la estación del mes de nacimiento. Si los caracteres te resultan desconocidos, empieza por [Troncos celestiales, ramas terrestres y pilar del día: cómo leer los caracteres](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Ejemplo 1 — {exADayMaster}: el maestro del día y el elemento más fuerte son distintos",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "El nacimiento imaginado es el siguiente (calendario solar): {exABirth}. La carta tiene el pilar del año {exAYear}, el pilar del mes {exAMonth}, el pilar del día {exADay} y el pilar de la hora {exAHour}."
+          },
+          {
+            "p": "El tronco celestial del día de nacimiento es el maestro del día, aquí {exADayMaster} ({exADayElement}). El temperamento en una línea que Saju-Link asocia a cada maestro del día dice lo siguiente: {exATrait}"
+          },
+          {
+            "p": "En la barra de elementos, la mayor proporción corresponde al elemento {exAStrongest} con {exAStrongestPct}, y la menor al elemento {exAScarcest} con {exAScarcestPct}. El elemento del maestro del día es {exADayElement}, pero el elemento más fuerte es {exAStrongest}. **El elemento del maestro del día y el elemento más fuerte pueden ser distintos**; ese es el punto de este ejemplo."
+          },
+          {
+            "p": "La estación del mes de nacimiento es {exASeason}, del mismo lado que el elemento más fuerte. Cómo la estación refuerza un elemento forma parte del cálculo de la fuerza, y el método se describe en [Elemento Equilibrante — La Energía Necesaria Ahora](/guide/yongsin)."
+          },
+          {
+            "p": "Los troncos ocultos dentro de la rama del día ({exADayBranch}) son los siguientes: {exAHiddenStems}. Los troncos ocultos cuentan para la fuerza de cada elemento, así que si solo cuentas los ocho caracteres visibles, la barra puede parecer incoherente."
+          },
+          {
+            "p": "Para este ejemplo, otras entradas que vale la pena leer son [Madera Yin (乙) — Madera Yin](/guide/stem-eul), [El pilar del día 乙亥](/guide/pillar-eul-hae) y [亥 — la rama del Cerdo](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Ejemplo 2 — {exBDayMaster}: una carta con un elemento ausente",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "El nacimiento imaginado es el siguiente (calendario solar): {exBBirth}. La carta tiene el pilar del año {exBYear}, el pilar del mes {exBMonth}, el pilar del día {exBDay} y el pilar de la hora {exBHour}."
+          },
+          {
+            "p": "El tronco celestial del día de nacimiento es el maestro del día, aquí {exBDayMaster} ({exBDayElement}). El temperamento en una línea que Saju-Link asocia a cada maestro del día dice lo siguiente: {exBTrait}"
+          },
+          {
+            "p": "En la barra de elementos, la proporción del elemento {exBScarcest} es {exBScarcestPct}, lo que significa que prácticamente no se ve en la barra. Saju-Link señala aparte un elemento así como el más débil. En cambio, la mayor proporción corresponde al elemento {exBStrongest} con {exBStrongestPct}."
+          },
+          {
+            "p": "La estación del mes de nacimiento es {exBSeason}. El elemento del maestro del día ({exBDayElement}), el elemento más fuerte ({exBStrongest}) y la estación ({exBSeason}) son todos distintos entre sí, lo que hace de este un buen ejemplo para leer los tres por separado."
+          },
+          {
+            "p": "La rama del año ({exBYearBranch}) corresponde al animal siguiente: {exBAnimal}. El animal es solo uno de los ocho caracteres: la rama del año. Hay más en [¿Dónde está el Signo Zodiacal en Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Para este ejemplo, otras entradas que vale la pena leer son [Tierra Yin (己) — Tierra Yin](/guide/stem-gi), [El pilar del día 己酉](/guide/pillar-gi-yu) y [酉 — la rama del Gallo](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Ejemplo 3 — {exCDayMaster}: una carta muy inclinada hacia un lado",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "El nacimiento imaginado es el siguiente (calendario solar): {exCBirth}. La carta tiene el pilar del año {exCYear}, el pilar del mes {exCMonth}, el pilar del día {exCDay} y el pilar de la hora {exCHour}."
+          },
+          {
+            "p": "El tronco celestial del día de nacimiento es el maestro del día, aquí {exCDayMaster} ({exCDayElement}). El temperamento en una línea que Saju-Link asocia a cada maestro del día dice lo siguiente: {exCTrait}"
+          },
+          {
+            "p": "El elemento del maestro del día, el elemento más fuerte y la estación se reúnen todos del lado de este elemento: {exCStrongest}. En la barra de elementos, la proporción del elemento {exCStrongest} es {exCStrongestPct}, y el más pequeño, {exCScarcest}, tiene {exCScarcestPct}."
+          },
+          {
+            "p": "Una fuerte inclinación hacia un lado no dice por sí sola si algo es bueno o malo. Si esa inclinación es una carga o una fortaleza para el maestro del día se decide por separado mediante el juicio fuerte / débil y el elemento equilibrante: los criterios se publican en [Elemento Equilibrante — La Energía Necesaria Ahora](/guide/yongsin), y el juicio en sí está en el [Qué incluye el informe de pago](/guide/reports)."
+          },
+          {
+            "p": "Los troncos ocultos dentro de la rama del día ({exCDayBranch}) son los siguientes: {exCHiddenStems}."
+          },
+          {
+            "p": "Para este ejemplo, otras entradas que vale la pena leer son [Fuego Yin (丁) — Fuego Yin](/guide/stem-jeong), [El pilar del día 丁亥](/guide/pillar-jeong-hae) y [亥 — la rama del Cerdo](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Pruébalo con tu propia carta",
+        "blocks": [
+          {
+            "p": "Ingresa tu fecha y hora de nacimiento en [Lectura de Saju](/reading) y obtendrás un resultado construido de la misma manera que estos ejemplos. Los valores que ingresas no se guardan en nuestros servidores; el método se describe en [Un método que no almacena la información ingresada](/guide/no-storage)."
+          },
+          {
+            "p": "Para superponer el pilar del día de hoy a tu carta, usa [La fortuna de hoy](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Las fechas de nacimiento de estos ejemplos son inventadas para ilustrar, y los resultados son solo de referencia. No se incluyen los valores que cambian cada día, como la fortuna de hoy."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Base del Servicio",
     "title": "gráfico natal — ¿De dónde provienen los ocho caracteres?",

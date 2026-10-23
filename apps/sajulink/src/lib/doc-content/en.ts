@@ -91,6 +91,119 @@ export const EN_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Examples",
+    "title": "Reading a Chart by Example — Three Real Calculation Results",
+    "summary": "Three made-up birth dates run through the Saju Link engine, shown exactly as calculated, with a walk through the order in which to read the four pillars, the day master and the strength of the five elements.",
+    "backLabel": "How we calculate",
+    "sections": [
+      {
+        "title": "What these examples are",
+        "blocks": [
+          {
+            "p": "The three people below are not real. Their birth dates were chosen to illustrate a point. The results are drawn with **the same calculation engine and the same screen components** that show the free result when you enter your own birth date, so what you see here matches what you would get."
+          },
+          {
+            "p": "The free screen shows the four pillars, the day master and the strength of the five elements. Whether the day master is strong or weak (strong / weak chart) and which element is therefore needed (the balancing element) belong to the [paid report](/guide/reports), so they are not shown in these examples either."
+          },
+          {
+            "p": "Each example is read in the same order. First find the day master — the heavenly stem of the day you were born — among the four pillars. Then look at the strongest and weakest elements in the bar, and finally lay the season of the birth month over them. If the letters are unfamiliar, start with [Stems, Branches and Day Pillars — How to Read the Letters](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Example 1 — {exADayMaster}: the day master and the strongest element differ",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "The imagined birth is {exABirth} (solar calendar). The chart has the year pillar {exAYear}, month pillar {exAMonth}, day pillar {exADay} and hour pillar {exAHour}."
+          },
+          {
+            "p": "The heavenly stem of the birth day is the day master — here {exADayMaster} ({exADayElement}). The one-line temperament Saju Link attaches to each day master reads: {exATrait}"
+          },
+          {
+            "p": "In the element bar the largest share is {exAStrongest} at {exAStrongestPct} and the smallest is {exAScarcest} at {exAScarcestPct}. The day master's element is {exADayElement}, yet the strongest element is {exAStrongest}. **The day master's element and the strongest element can differ** — that is the point of this example."
+          },
+          {
+            "p": "The season of the birth month is {exASeason}, the same side as the strongest element. How the season pushes an element up is part of the strength calculation, and the method is described in [Balancing Element — The Energy Needed Now](/guide/yongsin)."
+          },
+          {
+            "p": "The stems hidden inside the day branch ({exADayBranch}) are {exAHiddenStems}. Hidden stems count towards the strength of each element, so if you only count the eight visible characters the bar may look inconsistent."
+          },
+          {
+            "p": "For this example, further entries worth reading are [Yin Wood (乙)](/guide/stem-eul), [The 乙亥 Day Pillar](/guide/pillar-eul-hae) and [亥 — the branch of the Pig](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Example 2 — {exBDayMaster}: a chart with an element that is missing",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "The imagined birth is {exBBirth} (solar calendar). The chart has the year pillar {exBYear}, month pillar {exBMonth}, day pillar {exBDay} and hour pillar {exBHour}."
+          },
+          {
+            "p": "The heavenly stem of the birth day is the day master — here {exBDayMaster} ({exBDayElement}). The one-line temperament Saju Link attaches to each day master reads: {exBTrait}"
+          },
+          {
+            "p": "In the element bar the share of {exBScarcest} is {exBScarcestPct}, which means it is practically invisible in the bar. Saju Link points out such an element separately as the weakest one. The largest share, by contrast, is {exBStrongest} at {exBStrongestPct}."
+          },
+          {
+            "p": "The season of the birth month is {exBSeason}. The day master's element ({exBDayElement}), the strongest element ({exBStrongest}) and the season ({exBSeason}) are all different from one another, which makes this a good example for reading the three separately."
+          },
+          {
+            "p": "The year branch ({exBYearBranch}) corresponds to the animal {exBAnimal}. The animal is only one of the eight characters — the year branch. More is in [Where is the Zodiac Sign in Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "For this example, further entries worth reading are [Yin Earth (己)](/guide/stem-gi), [The 己酉 Day Pillar](/guide/pillar-gi-yu) and [酉 — the branch of the Rooster](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Example 3 — {exCDayMaster}: a chart weighted heavily to one side",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "The imagined birth is {exCBirth} (solar calendar). The chart has the year pillar {exCYear}, month pillar {exCMonth}, day pillar {exCDay} and hour pillar {exCHour}."
+          },
+          {
+            "p": "The heavenly stem of the birth day is the day master — here {exCDayMaster} ({exCDayElement}). The one-line temperament Saju Link attaches to each day master reads: {exCTrait}"
+          },
+          {
+            "p": "The day master's element, the strongest element and the season all gather on the side of {exCStrongest}. In the element bar the share of {exCStrongest} is {exCStrongestPct}, and the smallest, {exCScarcest}, has {exCScarcestPct}."
+          },
+          {
+            "p": "A heavy lean to one side does not by itself say good or bad. Whether the lean is a burden or a strength for the day master is decided separately through the strong / weak judgement and the balancing element — the criteria are published in [Balancing Element — The Energy Needed Now](/guide/yongsin), and the judgement itself is in the [paid report](/guide/reports)."
+          },
+          {
+            "p": "The stems hidden inside the day branch ({exCDayBranch}) are {exCHiddenStems}."
+          },
+          {
+            "p": "For this example, further entries worth reading are [Yin Fire (丁)](/guide/stem-jeong), [The 丁亥 Day Pillar](/guide/pillar-jeong-hae) and [亥 — the branch of the Pig](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Trying it with your own chart",
+        "blocks": [
+          {
+            "p": "Enter your birth date and time in [Saju Reading](/reading) and you get a result built the same way as these examples. The values you enter are not kept on our servers — the method is described in [A method that does not store the entered information](/guide/no-storage)."
+          },
+          {
+            "p": "To lay today's day pillar over your chart, use [Today's Fortune](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "The birth dates in these examples are made up for illustration, and the results are for reference. Values that change every day, such as today's fortune, are not included."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Service Basis",
     "title": "natal chart — Where do the eight characters come from?",

@@ -86,6 +86,119 @@ export const FIL_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Mga Halimbawa",
+    "title": "Pagbasa ng Chart sa Pamamagitan ng Halimbawa — Tatlong Totoong Resulta ng Kalkulasyon",
+    "summary": "Tatlong gawa-gawang petsa ng kapanganakan ang pinatakbo sa engine ng Saju-Link at ipinapakita nang eksakto ayon sa kinalkula, kasama ang paliwanag sa pagkakasunod-sunod ng pagbasa sa apat na haligi, sa day master at sa lakas ng limang elemento.",
+    "backLabel": "Paano kami nagkakalkula",
+    "sections": [
+      {
+        "title": "Ano ang mga halimbawang ito",
+        "blocks": [
+          {
+            "p": "Hindi totoong tao ang tatlong nasa ibaba. Pinili ang kanilang mga petsa ng kapanganakan upang ilarawan ang isang punto. Iginuhit ang mga resulta gamit ang **parehong engine ng kalkulasyon at parehong mga component ng screen** na nagpapakita ng libreng resulta kapag inilagay mo ang sarili mong petsa ng kapanganakan, kaya tugma ang makikita mo rito sa makukuha mo."
+          },
+          {
+            "p": "Ipinapakita ng libreng screen ang apat na haligi, ang day master at ang lakas ng limang elemento. Kung malakas o mahina ang day master (strong / weak chart) at kung aling elemento ang kailangan dahil doon (ang balancing element) ay bahagi ng bayad na ulat ([Ano ang kasama sa bayad na ulat](/guide/reports)), kaya hindi rin ito ipinapakita sa mga halimbawang ito."
+          },
+          {
+            "p": "Binabasa ang bawat halimbawa sa parehong pagkakasunod-sunod. Una, hanapin sa apat na haligi ang day master — ang heavenly stem ng araw ng iyong kapanganakan. Pagkatapos, tingnan ang pinakamalakas at pinakamahinang elemento sa bar, at panghuli, ipatong ang season ng buwan ng kapanganakan. Kung bago sa iyo ang mga karakter, magsimula sa [Heavenly Stems, Earthly Branches at Day Pillar — Paano Basahin ang mga Karakter ng Saju](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Halimbawa 1 — {exADayMaster}: magkaiba ang day master at ang pinakamalakas na elemento",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Ang kathang-isip na kapanganakan ay {exABirth} (solar calendar). Ang chart ay may year pillar na {exAYear}, month pillar na {exAMonth}, day pillar na {exADay} at hour pillar na {exAHour}."
+          },
+          {
+            "p": "Ang heavenly stem ng araw ng kapanganakan ang day master — dito ay {exADayMaster} ({exADayElement}). Ang isang linyang ugali na iniuugnay ng Saju-Link sa bawat day master ay ganito: {exATrait}"
+          },
+          {
+            "p": "Sa element bar, ang pinakamalaking bahagi ay {exAStrongest} sa {exAStrongestPct} at ang pinakamaliit ay {exAScarcest} sa {exAScarcestPct}. Ang elemento ng day master ay {exADayElement}, ngunit ang pinakamalakas na elemento ay {exAStrongest}. **Maaaring magkaiba ang elemento ng day master at ang pinakamalakas na elemento** — iyon ang punto ng halimbawang ito."
+          },
+          {
+            "p": "Ang season ng buwan ng kapanganakan ay {exASeason}, kapareho ng panig ng pinakamalakas na elemento. Bahagi ng kalkulasyon ng lakas kung paano itinataas ng season ang isang elemento, at inilalarawan ang paraan sa [Balancing Element — Ang Enerhiya na Kailangan Ngayon](/guide/yongsin)."
+          },
+          {
+            "p": "Ang mga stem na nakatago sa loob ng day branch ({exADayBranch}) ay {exAHiddenStems}. Binibilang ang hidden stems sa lakas ng bawat elemento, kaya kung walong nakikitang karakter lang ang bibilangin mo, maaaring mukhang hindi tugma ang bar."
+          },
+          {
+            "p": "Para sa halimbawang ito, ang iba pang mga entry na sulit basahin ay [Yin na Kahoy (乙) — Kahoy, Yin](/guide/stem-eul), [Ang Day Pillar na 乙亥](/guide/pillar-eul-hae) at [亥 — ang branch ng Baboy](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Halimbawa 2 — {exBDayMaster}: isang chart na may nawawalang elemento",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Ang kathang-isip na kapanganakan ay {exBBirth} (solar calendar). Ang chart ay may year pillar na {exBYear}, month pillar na {exBMonth}, day pillar na {exBDay} at hour pillar na {exBHour}."
+          },
+          {
+            "p": "Ang heavenly stem ng araw ng kapanganakan ang day master — dito ay {exBDayMaster} ({exBDayElement}). Ang isang linyang ugali na iniuugnay ng Saju-Link sa bawat day master ay ganito: {exBTrait}"
+          },
+          {
+            "p": "Sa element bar, ang bahagi ng {exBScarcest} ay {exBScarcestPct}, ibig sabihin halos hindi ito makita sa bar. Hiwalay na itinuturo ng Saju-Link ang ganitong elemento bilang pinakamahina. Ang pinakamalaking bahagi naman ay {exBStrongest} sa {exBStrongestPct}."
+          },
+          {
+            "p": "Ang season ng buwan ng kapanganakan ay {exBSeason}. Magkakaiba ang elemento ng day master ({exBDayElement}), ang pinakamalakas na elemento ({exBStrongest}) at ang season ({exBSeason}), kaya magandang halimbawa ito para basahin nang hiwalay ang tatlo."
+          },
+          {
+            "p": "Ang year branch ({exBYearBranch}) ay tumutugma sa hayop na {exBAnimal}. Ang hayop ay isa lamang sa walong karakter — ang year branch. Mas marami pa sa [Nasaan ang Tanda ng Zodiac sa Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Para sa halimbawang ito, ang iba pang mga entry na sulit basahin ay [Yin na Lupa (己) — Lupa, Yin](/guide/stem-gi), [Ang Day Pillar na 己酉](/guide/pillar-gi-yu) at [酉 — ang branch ng Manok](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Halimbawa 3 — {exCDayMaster}: isang chart na lubhang nakahilig sa isang panig",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Ang kathang-isip na kapanganakan ay {exCBirth} (solar calendar). Ang chart ay may year pillar na {exCYear}, month pillar na {exCMonth}, day pillar na {exCDay} at hour pillar na {exCHour}."
+          },
+          {
+            "p": "Ang heavenly stem ng araw ng kapanganakan ang day master — dito ay {exCDayMaster} ({exCDayElement}). Ang isang linyang ugali na iniuugnay ng Saju-Link sa bawat day master ay ganito: {exCTrait}"
+          },
+          {
+            "p": "Ang elemento ng day master, ang pinakamalakas na elemento at ang season ay nagtitipon lahat sa panig ng {exCStrongest}. Sa element bar, ang bahagi ng {exCStrongest} ay {exCStrongestPct}, at ang pinakamaliit, ang {exCScarcest}, ay may {exCScarcestPct}."
+          },
+          {
+            "p": "Ang matinding pagkahilig sa isang panig ay hindi nagsasabi ng mabuti o masama sa sarili nito. Hiwalay na napagpapasyahan kung pabigat o lakas ito para sa day master sa pamamagitan ng strong / weak na pagsusuri at ng balancing element — nakalathala ang mga pamantayan sa [Balancing Element — Ang Enerhiya na Kailangan Ngayon](/guide/yongsin), at ang mismong pagsusuri ay nasa bayad na ulat ([Ano ang kasama sa bayad na ulat](/guide/reports))."
+          },
+          {
+            "p": "Ang mga stem na nakatago sa loob ng day branch ({exCDayBranch}) ay {exCHiddenStems}."
+          },
+          {
+            "p": "Para sa halimbawang ito, ang iba pang mga entry na sulit basahin ay [Yin na Apoy (丁) — Apoy, Yin](/guide/stem-jeong), [Ang Day Pillar na 丁亥](/guide/pillar-jeong-hae) at [亥 — ang branch ng Baboy](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Subukan gamit ang sarili mong chart",
+        "blocks": [
+          {
+            "p": "Ilagay ang iyong petsa at oras ng kapanganakan sa [Saju na Pagbasa](/reading) at makakakuha ka ng resultang binuo sa parehong paraan ng mga halimbawang ito. Hindi iniimbak sa aming mga server ang mga halagang inilalagay mo — inilalarawan ang paraan sa [Isang paraan na hindi nag-iimbak ng naipasok na impormasyon](/guide/no-storage)."
+          },
+          {
+            "p": "Para ipatong ang day pillar ngayon sa iyong chart, gamitin ang [Suwerteng araw na ito](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Gawa-gawa lamang para sa paglalarawan ang mga petsa ng kapanganakan sa mga halimbawang ito, at ang mga resulta ay para sa sanggunian. Hindi kasama ang mga halagang nagbabago araw-araw, gaya ng suwerte ngayong araw."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Batayan ng Serbisyo",
     "title": "natal chart — Saan nagmumula ang walong karakter?",

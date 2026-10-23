@@ -86,6 +86,119 @@ export const ZH_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "示例",
+    "title": "通过示例读懂命盘 — 三个真实的计算结果",
+    "summary": "将三个虚构的出生日期输入 Saju-Link 的计算引擎，并按计算结果原样展示，同时说明阅读四柱、日主和五行强弱的顺序。",
+    "backLabel": "计算基础",
+    "sections": [
+      {
+        "title": "这些示例是什么",
+        "blocks": [
+          {
+            "p": "下面的三个人并不真实存在，他们的出生日期是为了说明某个要点而选定的。结果由**同一个计算引擎和同一套界面组件**绘制，与您输入自己的出生日期时显示免费结果所用的相同，因此这里看到的与您实际得到的一致。"
+          },
+          {
+            "p": "免费界面显示四柱、日主和五行的强弱。日主是强还是弱（强命 / 弱命），以及由此需要哪种元素（平衡元素），属于[付费报告中包含的内容](/guide/reports)，所以这些示例中同样不显示。"
+          },
+          {
+            "p": "每个示例都按相同的顺序阅读。首先在四柱中找到日主，也就是出生日的天干。然后查看柱状图中最强和最弱的元素，最后再叠加出生月份的季节。如果对这些文字不熟悉，请先阅读[天干、地支与日柱 — 如何读懂八字中的文字](/guide/saju-letters)。"
+          }
+        ]
+      },
+      {
+        "title": "示例 1 — {exADayMaster}：日主与最强元素不同",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "假设的出生日期为 {exABirth}（阳历）。该命盘的年柱为 {exAYear}，月柱为 {exAMonth}，日柱为 {exADay}，时柱为 {exAHour}。"
+          },
+          {
+            "p": "出生日的天干就是日主，这里是 {exADayMaster}（{exADayElement}）。Saju-Link 为每个日主附上的一句性格描述如下：{exATrait}"
+          },
+          {
+            "p": "在五行柱状图中，占比最大的是 {exAStrongest}，为 {exAStrongestPct}；最小的是 {exAScarcest}，为 {exAScarcestPct}。日主的五行是 {exADayElement}，而最强的元素是 {exAStrongest}。**日主的五行与最强的元素可以不同** — 这正是本示例的要点。"
+          },
+          {
+            "p": "出生月份的季节是 {exASeason}，与最强元素属于同一侧。季节如何推高某个元素是强弱计算的一部分，具体方法见[平衡元素 — 现在所需的能量](/guide/yongsin)。"
+          },
+          {
+            "p": "日支（{exADayBranch}）中隐藏的天干是 {exAHiddenStems}。藏干会计入各元素的强弱，因此如果只数可见的八个字，柱状图可能看起来不一致。"
+          },
+          {
+            "p": "针对本示例，还值得阅读的条目有[乙木（阴木） — 木，阴](/guide/stem-eul)、[乙亥日柱](/guide/pillar-eul-hae)和[亥 — 猪的地支](/guide/branch-hae)。"
+          }
+        ]
+      },
+      {
+        "title": "示例 2 — {exBDayMaster}：缺少某个元素的命盘",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "假设的出生日期为 {exBBirth}（阳历）。该命盘的年柱为 {exBYear}，月柱为 {exBMonth}，日柱为 {exBDay}，时柱为 {exBHour}。"
+          },
+          {
+            "p": "出生日的天干就是日主，这里是 {exBDayMaster}（{exBDayElement}）。Saju-Link 为每个日主附上的一句性格描述如下：{exBTrait}"
+          },
+          {
+            "p": "在五行柱状图中，{exBScarcest} 的占比为 {exBScarcestPct}，也就是说它在图中几乎看不见。Saju-Link 会把这样的元素单独指出，作为最弱的元素。相反，占比最大的是 {exBStrongest}，为 {exBStrongestPct}。"
+          },
+          {
+            "p": "出生月份的季节是 {exBSeason}。日主的五行（{exBDayElement}）、最强的元素（{exBStrongest}）和季节（{exBSeason}）三者互不相同，因此是分开阅读这三者的好例子。"
+          },
+          {
+            "p": "年支（{exBYearBranch}）对应的动物是 {exBAnimal}。动物只是八个字中年支这一个字。更多内容见[Saju 中的生肖在哪里？](/guide/zodiac)。"
+          },
+          {
+            "p": "针对本示例，还值得阅读的条目有[己土（阴土） — 土，阴](/guide/stem-gi)、[己酉日柱](/guide/pillar-gi-yu)和[酉 — 鸡的地支](/guide/branch-yu)。"
+          }
+        ]
+      },
+      {
+        "title": "示例 3 — {exCDayMaster}：明显偏向一侧的命盘",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "假设的出生日期为 {exCBirth}（阳历）。该命盘的年柱为 {exCYear}，月柱为 {exCMonth}，日柱为 {exCDay}，时柱为 {exCHour}。"
+          },
+          {
+            "p": "出生日的天干就是日主，这里是 {exCDayMaster}（{exCDayElement}）。Saju-Link 为每个日主附上的一句性格描述如下：{exCTrait}"
+          },
+          {
+            "p": "日主的五行、最强的元素和季节都集中在 {exCStrongest} 一侧。在五行柱状图中，{exCStrongest} 的占比为 {exCStrongestPct}，最小的 {exCScarcest} 为 {exCScarcestPct}。"
+          },
+          {
+            "p": "明显偏向一侧本身并不说明好或坏。这种偏向对日主是负担还是优势，要通过强弱判断和平衡元素另行决定 — 其标准公布在[平衡元素 — 现在所需的能量](/guide/yongsin)中，而判断本身则在[付费报告中包含的内容](/guide/reports)里。"
+          },
+          {
+            "p": "日支（{exCDayBranch}）中隐藏的天干是 {exCHiddenStems}。"
+          },
+          {
+            "p": "针对本示例，还值得阅读的条目有[丁火（阴火） — 火，阴](/guide/stem-jeong)、[丁亥日柱](/guide/pillar-jeong-hae)和[亥 — 猪的地支](/guide/branch-hae)。"
+          }
+        ]
+      },
+      {
+        "title": "用您自己的命盘试试",
+        "blocks": [
+          {
+            "p": "在[您的四柱命理解读](/reading)中输入您的出生日期和时间，即可得到与这些示例相同方式生成的结果。您输入的内容不会保存在我们的服务器上 — 具体方法见[一种不存储输入信息的方法](/guide/no-storage)。"
+          },
+          {
+            "p": "若要把今天的日柱叠加到您的命盘上，请使用[今天的运势](/today)。"
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "这些示例中的出生日期是为说明而虚构的，结果仅供参考。今天的运势等每天变化的数值未包含在内。"
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "服务基础",
     "title": "命盘 — 八个字符来自哪里？",

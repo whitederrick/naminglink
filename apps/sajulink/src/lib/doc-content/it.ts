@@ -86,6 +86,119 @@ export const IT_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Esempi",
+    "title": "Leggere un grafico con degli esempi: tre veri risultati di calcolo",
+    "summary": "Tre date di nascita inventate passate nel motore di Saju-Link e mostrate esattamente come calcolate, con una guida all'ordine in cui leggere i quattro pilastri, il giorno maestro e la forza dei cinque elementi.",
+    "backLabel": "Come calcoliamo",
+    "sections": [
+      {
+        "title": "Cosa sono questi esempi",
+        "blocks": [
+          {
+            "p": "Le tre persone qui sotto non sono reali. Le loro date di nascita sono state scelte per illustrare un punto. I risultati sono disegnati con **lo stesso motore di calcolo e gli stessi componenti di schermata** che mostrano il risultato gratuito quando inserisci la tua data di nascita, quindi ciò che vedi qui corrisponde a ciò che otterresti."
+          },
+          {
+            "p": "La schermata gratuita mostra i quattro pilastri, il giorno maestro e la forza dei cinque elementi. Se il giorno maestro sia forte o debole (grafico forte / debole) e quindi quale elemento serva (l'elemento di bilanciamento) fanno parte del [Cosa è incluso nel rapporto a pagamento](/guide/reports), perciò non sono mostrati nemmeno in questi esempi."
+          },
+          {
+            "p": "Ogni esempio si legge nello stesso ordine. Per prima cosa si trova il giorno maestro, cioè lo stelo celeste del giorno in cui sei nato, tra i quattro pilastri. Poi si osservano gli elementi più forte e più debole nella barra e infine si sovrappone la stagione del mese di nascita. Se i caratteri ti sono poco familiari, comincia da [Steli celesti, rami terrestri e pilastro del giorno: come leggere i caratteri](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Esempio 1 — {exADayMaster}: il giorno maestro e l'elemento più forte sono diversi",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "La nascita immaginata è la seguente (calendario solare): {exABirth}. Il grafico ha il pilastro dell'anno {exAYear}, il pilastro del mese {exAMonth}, il pilastro del giorno {exADay} e il pilastro dell'ora {exAHour}."
+          },
+          {
+            "p": "Lo stelo celeste del giorno di nascita è il giorno maestro, qui {exADayMaster} ({exADayElement}). Il temperamento in una riga che Saju-Link associa a ogni giorno maestro dice così: {exATrait}"
+          },
+          {
+            "p": "Nella barra degli elementi la quota maggiore spetta all'elemento {exAStrongest} con {exAStrongestPct}, e la minore all'elemento {exAScarcest} con {exAScarcestPct}. L'elemento del giorno maestro è {exADayElement}, ma l'elemento più forte è {exAStrongest}. **L'elemento del giorno maestro e l'elemento più forte possono essere diversi**: è questo il punto di questo esempio."
+          },
+          {
+            "p": "La stagione del mese di nascita è {exASeason}, dallo stesso lato dell'elemento più forte. Il modo in cui la stagione rafforza un elemento fa parte del calcolo della forza, e il metodo è descritto in [Elemento di Bilanciamento — L'Energia Necessaria Ora](/guide/yongsin)."
+          },
+          {
+            "p": "Gli steli nascosti all'interno del ramo del giorno ({exADayBranch}) sono i seguenti: {exAHiddenStems}. Gli steli nascosti contano nella forza di ogni elemento, quindi se conti soltanto gli otto caratteri visibili la barra può sembrare incoerente."
+          },
+          {
+            "p": "Per questo esempio, altre voci che vale la pena leggere sono [Legno Yin (乙) — Legno, Yin](/guide/stem-eul), [Il pilastro del giorno 乙亥](/guide/pillar-eul-hae) e [亥 — il ramo del Maiale](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Esempio 2 — {exBDayMaster}: un grafico in cui manca un elemento",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "La nascita immaginata è la seguente (calendario solare): {exBBirth}. Il grafico ha il pilastro dell'anno {exBYear}, il pilastro del mese {exBMonth}, il pilastro del giorno {exBDay} e il pilastro dell'ora {exBHour}."
+          },
+          {
+            "p": "Lo stelo celeste del giorno di nascita è il giorno maestro, qui {exBDayMaster} ({exBDayElement}). Il temperamento in una riga che Saju-Link associa a ogni giorno maestro dice così: {exBTrait}"
+          },
+          {
+            "p": "Nella barra degli elementi la quota dell'elemento {exBScarcest} è {exBScarcestPct}, il che significa che è praticamente invisibile nella barra. Saju-Link segnala a parte un elemento simile come il più debole. La quota maggiore, invece, spetta all'elemento {exBStrongest} con {exBStrongestPct}."
+          },
+          {
+            "p": "La stagione del mese di nascita è {exBSeason}. L'elemento del giorno maestro ({exBDayElement}), l'elemento più forte ({exBStrongest}) e la stagione ({exBSeason}) sono tutti diversi tra loro, il che rende questo un buon esempio per leggere i tre separatamente."
+          },
+          {
+            "p": "Il ramo dell'anno ({exBYearBranch}) corrisponde al seguente animale: {exBAnimal}. L'animale è solo uno degli otto caratteri: il ramo dell'anno. Ne trovi di più in [Dove si trova il Segno Zodiacale nel Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Per questo esempio, altre voci che vale la pena leggere sono [Terra Yin (己) — Terra, Yin](/guide/stem-gi), [Il pilastro del giorno 己酉](/guide/pillar-gi-yu) e [酉 — il ramo del Gallo](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Esempio 3 — {exCDayMaster}: un grafico molto sbilanciato da un lato",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "La nascita immaginata è la seguente (calendario solare): {exCBirth}. Il grafico ha il pilastro dell'anno {exCYear}, il pilastro del mese {exCMonth}, il pilastro del giorno {exCDay} e il pilastro dell'ora {exCHour}."
+          },
+          {
+            "p": "Lo stelo celeste del giorno di nascita è il giorno maestro, qui {exCDayMaster} ({exCDayElement}). Il temperamento in una riga che Saju-Link associa a ogni giorno maestro dice così: {exCTrait}"
+          },
+          {
+            "p": "L'elemento del giorno maestro, l'elemento più forte e la stagione si riuniscono tutti dal lato di questo elemento: {exCStrongest}. Nella barra degli elementi la quota dell'elemento {exCStrongest} è {exCStrongestPct}, e il più piccolo, {exCScarcest}, ha {exCScarcestPct}."
+          },
+          {
+            "p": "Un forte sbilanciamento da un lato non dice da solo se qualcosa sia buono o cattivo. Se tale sbilanciamento sia un peso o un punto di forza per il giorno maestro si decide separatamente con il giudizio forte / debole e l'elemento di bilanciamento: i criteri sono pubblicati in [Elemento di Bilanciamento — L'Energia Necessaria Ora](/guide/yongsin), e il giudizio vero e proprio si trova nel [Cosa è incluso nel rapporto a pagamento](/guide/reports)."
+          },
+          {
+            "p": "Gli steli nascosti all'interno del ramo del giorno ({exCDayBranch}) sono i seguenti: {exCHiddenStems}."
+          },
+          {
+            "p": "Per questo esempio, altre voci che vale la pena leggere sono [Fuoco Yin (丁) — Fuoco, Yin](/guide/stem-jeong), [Il pilastro del giorno 丁亥](/guide/pillar-jeong-hae) e [亥 — il ramo del Maiale](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Provalo con il tuo grafico",
+        "blocks": [
+          {
+            "p": "Inserisci la tua data e ora di nascita in [Lettura di Saju](/reading) e otterrai un risultato costruito allo stesso modo di questi esempi. I valori che inserisci non vengono conservati sui nostri server; il metodo è descritto in [Un metodo che non memorizza le informazioni inserite](/guide/no-storage)."
+          },
+          {
+            "p": "Per sovrapporre il pilastro del giorno di oggi al tuo grafico, usa [La fortuna di oggi](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Le date di nascita di questi esempi sono inventate a scopo illustrativo e i risultati sono solo di riferimento. I valori che cambiano ogni giorno, come la fortuna di oggi, non sono inclusi."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Base del Servizio",
     "title": "grafico natale — Da dove provengono gli otto caratteri?",

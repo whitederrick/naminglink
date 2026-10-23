@@ -94,6 +94,121 @@ export const KO_DOCS = {
     ],
   },
 
+  "guide/examples": {
+    eyebrow: "예시",
+    title: "예시로 읽는 사주 — 실제 계산 결과 세 가지",
+    summary:
+      "가상의 생년월일 세 개를 사주링크 엔진에 넣어 나온 결과를 그대로 싣고, 원국의 네 기둥과 일간, 오행 세력을 어떤 순서로 읽는지 풀어 씁니다.",
+    backLabel: "계산 근거",
+    sections: [
+      {
+        title: "이 예시는 무엇인가",
+        blocks: [
+          {
+            p: "아래 세 사람은 실존 인물이 아니라 설명을 위해 고른 가상의 생년월일입니다. 사주링크가 생년월일시를 받아 무료로 보여 주는 결과를 **같은 계산 엔진, 같은 화면 부품**으로 그렸으므로, 직접 입력하셨을 때 나오는 모양과 다르지 않습니다.",
+          },
+          {
+            p: "무료 화면에 나오는 것은 원국의 네 기둥, 일간, 오행 세력까지입니다. 일간이 강한지 약한지(신강·신약)와 그래서 필요한 기운(용신)은 [유료 리포트](/guide/reports)의 몫이라 이 예시에도 싣지 않았습니다.",
+          },
+          {
+            p: "예시마다 읽는 순서는 같습니다. 먼저 네 기둥에서 태어난 날의 천간, 곧 일간을 찾고, 오행 막대에서 가장 강한 기운과 가장 약한 기운을 본 뒤, 태어난 달의 계절 기운을 겹쳐 봅니다. 글자가 낯설다면 [천간·지지·일주 — 사주 글자 읽는 법](/guide/saju-letters)을 먼저 보세요.",
+          },
+        ],
+      },
+      {
+        title: "예시 1 — {exADayMaster}: 일간과 가장 강한 기운이 다른 사주",
+        slot: "exampleA",
+        blocks: [
+          {
+            p: "가상의 출생은 양력 {exABirth}입니다. 원국은 연주 {exAYear}, 월주 {exAMonth}, 일주 {exADay}, 시주 {exAHour}입니다.",
+          },
+          {
+            p: "태어난 날의 천간이 일간이고, 이 예시에서는 {exADayMaster}({exADayElement})입니다. 사주링크가 일간마다 붙여 두는 성향 한 줄은 이렇습니다. {exATrait}",
+          },
+          {
+            p: "오행 막대에서 가장 큰 몫은 {exAStrongest} {exAStrongestPct}이고 가장 작은 몫은 {exAScarcest} {exAScarcestPct}입니다. 일간의 오행은 {exADayElement}인데 가장 강한 기운은 {exAStrongest}입니다. **일간의 오행과 가장 강한 오행은 다를 수 있다**는 것이 이 예시의 요점입니다.",
+          },
+          {
+            p: "태어난 달의 계절 기운은 {exASeason}입니다. 가장 강한 기운과 같은 쪽입니다. 계절이 어느 기운을 밀어 올리는지는 세력 계산에 반영되는데, 그 방식은 [억부용신](/guide/yongsin) 문서에 적었습니다.",
+          },
+          {
+            p: "일지({exADayBranch}) 안에 숨은 천간은 {exAHiddenStems}입니다. 숨은 천간까지 세력에 들어가므로, 눈에 보이는 여덟 글자만 세면 막대와 어긋나 보일 수 있습니다.",
+          },
+          {
+            p: "이 예시에서 더 읽어 볼 사전은 [을(乙) 문서](/guide/stem-eul), [을해(乙亥) 일주](/guide/pillar-eul-hae), [해(亥) 문서](/guide/branch-hae)입니다.",
+          },
+        ],
+      },
+      {
+        title: "예시 2 — {exBDayMaster}: 비어 있는 오행이 있는 사주",
+        slot: "exampleB",
+        blocks: [
+          {
+            p: "가상의 출생은 양력 {exBBirth}입니다. 원국은 연주 {exBYear}, 월주 {exBMonth}, 일주 {exBDay}, 시주 {exBHour}입니다.",
+          },
+          {
+            p: "태어난 날의 천간이 일간이고, 이 예시에서는 {exBDayMaster}({exBDayElement})입니다. 사주링크가 일간마다 붙여 두는 성향 한 줄은 이렇습니다. {exBTrait}",
+          },
+          {
+            p: "오행 막대에서 {exBScarcest}의 몫은 {exBScarcestPct}입니다. 막대에서 사실상 보이지 않는다는 뜻이고, 사주링크는 이런 오행을 「가장 약한 기운」으로 따로 짚어 보여 줍니다. 반대로 가장 큰 몫은 {exBStrongest} {exBStrongestPct}입니다.",
+          },
+          {
+            p: "태어난 달의 계절 기운은 {exBSeason}입니다. 일간의 오행({exBDayElement}), 가장 강한 기운({exBStrongest}), 계절 기운({exBSeason})이 모두 서로 다릅니다. 세 가지를 따로 읽는 연습이 되는 예시입니다.",
+          },
+          {
+            p: "연지({exBYearBranch})에 해당하는 띠는 {exBAnimal}입니다. 띠는 여덟 글자 가운데 연지 하나에 해당할 뿐입니다. 자세한 것은 [띠는 사주에서 어디에 있나](/guide/zodiac)에 있습니다.",
+          },
+          {
+            p: "이 예시에서 더 읽어 볼 사전은 [기(己) 문서](/guide/stem-gi), [기유(己酉) 일주](/guide/pillar-gi-yu), [유(酉) 문서](/guide/branch-yu)입니다.",
+          },
+        ],
+      },
+      {
+        title: "예시 3 — {exCDayMaster}: 한쪽으로 크게 쏠린 사주",
+        slot: "exampleC",
+        blocks: [
+          {
+            p: "가상의 출생은 양력 {exCBirth}입니다. 원국은 연주 {exCYear}, 월주 {exCMonth}, 일주 {exCDay}, 시주 {exCHour}입니다.",
+          },
+          {
+            p: "태어난 날의 천간이 일간이고, 이 예시에서는 {exCDayMaster}({exCDayElement})입니다. 사주링크가 일간마다 붙여 두는 성향 한 줄은 이렇습니다. {exCTrait}",
+          },
+          {
+            p: "일간의 오행, 가장 강한 기운, 계절 기운이 모두 {exCStrongest} 쪽에 모입니다. 오행 막대에서 {exCStrongest}의 몫은 {exCStrongestPct}이고 가장 작은 {exCScarcest}의 몫은 {exCScarcestPct}입니다.",
+          },
+          {
+            p: "한쪽으로 쏠렸다고 해서 곧바로 좋고 나쁨을 말하지는 않습니다. 그 쏠림이 일간에게 짐인지 힘인지는 신강·신약과 용신으로 따로 가르며, 그 기준은 [억부용신](/guide/yongsin) 문서에 공개돼 있고 판정 결과는 [유료 리포트](/guide/reports)에 있습니다.",
+          },
+          {
+            p: "일지({exCDayBranch}) 안에 숨은 천간은 {exCHiddenStems}입니다.",
+          },
+          {
+            p: "이 예시에서 더 읽어 볼 사전은 [정(丁) 문서](/guide/stem-jeong), [정해(丁亥) 일주](/guide/pillar-jeong-hae), [해(亥) 문서](/guide/branch-hae)입니다.",
+          },
+        ],
+      },
+      {
+        title: "내 사주로 해 보려면",
+        blocks: [
+          {
+            p: "[사주 풀이](/reading)에서 생년월일시를 넣으면 이 예시와 같은 구성의 결과가 나옵니다. 입력하신 값은 서버에 남기지 않습니다. 자세한 방식은 [입력한 정보를 저장하지 않는 방식](/guide/no-storage)에 적었습니다.",
+          },
+          {
+            p: "오늘의 일진을 원국에 대어 보려면 [오늘의 운세](/today)를 이용하시면 됩니다.",
+          },
+        ],
+      },
+      {
+        kind: "note",
+        blocks: [
+          {
+            p: "예시의 생년월일은 설명을 위한 가상의 값이며, 결과는 참고 자료입니다. 오늘의 운세처럼 날마다 바뀌는 값은 싣지 않았습니다.",
+          },
+        ],
+      },
+    ],
+  },
+
   "guide/natal-chart": {
     eyebrow: "서비스 근거",
     title: "사주 원국 — 여덟 글자는 어디서 나오나",

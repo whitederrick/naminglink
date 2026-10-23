@@ -86,6 +86,119 @@ export const FR_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Exemples",
+    "title": "Lire une carte par l'exemple : trois vrais résultats de calcul",
+    "summary": "Trois dates de naissance inventées passées dans le moteur de Saju-Link et présentées telles que calculées, avec un parcours de l'ordre dans lequel lire les quatre piliers, le maître du jour et la force des cinq éléments.",
+    "backLabel": "Comment nous calculons",
+    "sections": [
+      {
+        "title": "Ce que sont ces exemples",
+        "blocks": [
+          {
+            "p": "Les trois personnes ci-dessous ne sont pas réelles. Leurs dates de naissance ont été choisies pour illustrer un point. Les résultats sont dessinés avec **le même moteur de calcul et les mêmes composants d'écran** que ceux qui affichent le résultat gratuit lorsque vous saisissez votre propre date de naissance ; ce que vous voyez ici correspond donc à ce que vous obtiendriez."
+          },
+          {
+            "p": "L'écran gratuit montre les quatre piliers, le maître du jour et la force des cinq éléments. Savoir si le maître du jour est fort ou faible (carte forte / faible) et, par conséquent, quel élément est nécessaire (l'élément d'équilibre) relève du [Ce qui est inclus dans le rapport payant](/guide/reports) ; ces points ne figurent donc pas non plus dans ces exemples."
+          },
+          {
+            "p": "Chaque exemple se lit dans le même ordre. On cherche d'abord le maître du jour, c'est-à-dire la tige céleste du jour de votre naissance, parmi les quatre piliers. On regarde ensuite les éléments les plus forts et les plus faibles dans la barre, puis on y superpose la saison du mois de naissance. Si les caractères vous sont peu familiers, commencez par [Tiges célestes, branches terrestres et pilier du jour : comment lire les caractères](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Exemple 1 — {exADayMaster} : le maître du jour et l'élément le plus fort diffèrent",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "La naissance imaginée est la suivante (calendrier solaire) : {exABirth}. La carte comprend le pilier de l'année {exAYear}, le pilier du mois {exAMonth}, le pilier du jour {exADay} et le pilier de l'heure {exAHour}."
+          },
+          {
+            "p": "La tige céleste du jour de naissance est le maître du jour, ici {exADayMaster} ({exADayElement}). Le tempérament en une ligne que Saju-Link associe à chaque maître du jour se lit ainsi : {exATrait}"
+          },
+          {
+            "p": "Dans la barre des éléments, la plus grande part revient à l'élément {exAStrongest} avec {exAStrongestPct}, et la plus petite à l'élément {exAScarcest} avec {exAScarcestPct}. L'élément du maître du jour est {exADayElement}, mais l'élément le plus fort est {exAStrongest}. **L'élément du maître du jour et l'élément le plus fort peuvent différer** : c'est tout l'intérêt de cet exemple."
+          },
+          {
+            "p": "La saison du mois de naissance est {exASeason}, du même côté que l'élément le plus fort. La manière dont la saison renforce un élément fait partie du calcul de la force, et la méthode est décrite dans [Élément d'Équilibre — L'Énergie Nécessaire Maintenant](/guide/yongsin)."
+          },
+          {
+            "p": "Les tiges cachées à l'intérieur de la branche du jour ({exADayBranch}) sont les suivantes : {exAHiddenStems}. Les tiges cachées comptent dans la force de chaque élément ; si vous ne comptez que les huit caractères visibles, la barre peut donc sembler incohérente."
+          },
+          {
+            "p": "Pour cet exemple, d'autres fiches méritent d'être lues : [Bois Yin (乙) — Bois, Yin](/guide/stem-eul), [Le pilier du jour 乙亥](/guide/pillar-eul-hae) et [亥 — la branche du Cochon](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Exemple 2 — {exBDayMaster} : une carte où il manque un élément",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "La naissance imaginée est la suivante (calendrier solaire) : {exBBirth}. La carte comprend le pilier de l'année {exBYear}, le pilier du mois {exBMonth}, le pilier du jour {exBDay} et le pilier de l'heure {exBHour}."
+          },
+          {
+            "p": "La tige céleste du jour de naissance est le maître du jour, ici {exBDayMaster} ({exBDayElement}). Le tempérament en une ligne que Saju-Link associe à chaque maître du jour se lit ainsi : {exBTrait}"
+          },
+          {
+            "p": "Dans la barre des éléments, la part de l'élément {exBScarcest} est {exBScarcestPct}, ce qui signifie qu'il est pratiquement invisible dans la barre. Saju-Link signale séparément un tel élément comme le plus faible. En revanche, la plus grande part revient à l'élément {exBStrongest} avec {exBStrongestPct}."
+          },
+          {
+            "p": "La saison du mois de naissance est {exBSeason}. L'élément du maître du jour ({exBDayElement}), l'élément le plus fort ({exBStrongest}) et la saison ({exBSeason}) sont tous différents les uns des autres, ce qui fait de cet exemple un bon cas pour lire les trois séparément."
+          },
+          {
+            "p": "La branche de l'année ({exBYearBranch}) correspond à l'animal suivant : {exBAnimal}. L'animal n'est que l'un des huit caractères : la branche de l'année. Vous en saurez plus dans [Où se trouve le Signe du Zodiaque dans le Saju ?](/guide/zodiac)."
+          },
+          {
+            "p": "Pour cet exemple, d'autres fiches méritent d'être lues : [Terre Yin (己) — Terre, Yin](/guide/stem-gi), [Le pilier du jour 己酉](/guide/pillar-gi-yu) et [酉 — la branche du Coq](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Exemple 3 — {exCDayMaster} : une carte fortement penchée d'un côté",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "La naissance imaginée est la suivante (calendrier solaire) : {exCBirth}. La carte comprend le pilier de l'année {exCYear}, le pilier du mois {exCMonth}, le pilier du jour {exCDay} et le pilier de l'heure {exCHour}."
+          },
+          {
+            "p": "La tige céleste du jour de naissance est le maître du jour, ici {exCDayMaster} ({exCDayElement}). Le tempérament en une ligne que Saju-Link associe à chaque maître du jour se lit ainsi : {exCTrait}"
+          },
+          {
+            "p": "L'élément du maître du jour, l'élément le plus fort et la saison se rejoignent tous du côté de cet élément : {exCStrongest}. Dans la barre des éléments, la part de l'élément {exCStrongest} est {exCStrongestPct}, et le plus petit, {exCScarcest}, a {exCScarcestPct}."
+          },
+          {
+            "p": "Un fort penchant d'un côté ne dit pas à lui seul si c'est bon ou mauvais. Que ce penchant soit un fardeau ou une force pour le maître du jour se décide séparément par le jugement fort / faible et l'élément d'équilibre : les critères sont publiés dans [Élément d'Équilibre — L'Énergie Nécessaire Maintenant](/guide/yongsin), et le jugement lui-même se trouve dans le [Ce qui est inclus dans le rapport payant](/guide/reports)."
+          },
+          {
+            "p": "Les tiges cachées à l'intérieur de la branche du jour ({exCDayBranch}) sont les suivantes : {exCHiddenStems}."
+          },
+          {
+            "p": "Pour cet exemple, d'autres fiches méritent d'être lues : [Feu Yin (丁) — Feu, Yin](/guide/stem-jeong), [Le pilier du jour 丁亥](/guide/pillar-jeong-hae) et [亥 — la branche du Cochon](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Essayer avec votre propre carte",
+        "blocks": [
+          {
+            "p": "Saisissez votre date et votre heure de naissance dans [Lecture de Saju](/reading) et vous obtiendrez un résultat construit de la même manière que ces exemples. Les valeurs saisies ne sont pas conservées sur nos serveurs ; la méthode est décrite dans [Une méthode qui ne stocke pas les informations saisies](/guide/no-storage)."
+          },
+          {
+            "p": "Pour superposer le pilier du jour d'aujourd'hui à votre carte, utilisez [La fortune du jour](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Les dates de naissance de ces exemples sont inventées à titre d'illustration, et les résultats sont donnés à titre indicatif. Les valeurs qui changent chaque jour, comme la fortune du jour, n'y figurent pas."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Base du service",
     "title": "carte natale — D'où viennent les huit caractères ?",

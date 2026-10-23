@@ -86,6 +86,119 @@ export const VI_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Ví dụ",
+    "title": "Đọc lá số qua ví dụ — ba kết quả tính toán thực tế",
+    "summary": "Ba ngày sinh giả định được đưa qua công cụ tính của Saju-Link và hiển thị đúng như kết quả đã tính, kèm hướng dẫn thứ tự đọc bốn trụ, Nhật can và sức mạnh của năm yếu tố.",
+    "backLabel": "Cơ sở Tính toán",
+    "sections": [
+      {
+        "title": "Các ví dụ này là gì",
+        "blocks": [
+          {
+            "p": "Ba người dưới đây không có thật. Ngày sinh của họ được chọn để minh họa một điểm. Kết quả được tạo ra bằng **cùng một công cụ tính toán và cùng các thành phần màn hình** hiển thị kết quả miễn phí khi bạn nhập ngày sinh của chính mình, nên những gì bạn thấy ở đây giống với những gì bạn sẽ nhận được."
+          },
+          {
+            "p": "Màn hình miễn phí hiển thị bốn trụ, Nhật can và sức mạnh của năm yếu tố. Việc Nhật can mạnh hay yếu (trụ ngày mạnh / yếu) và do đó cần yếu tố nào (yếu tố cân bằng) thuộc về [Nội dung bao gồm trong báo cáo trả phí](/guide/reports), nên các ví dụ này cũng không hiển thị chúng."
+          },
+          {
+            "p": "Mỗi ví dụ được đọc theo cùng một thứ tự. Trước hết, tìm Nhật can — Thiên can của ngày bạn sinh — trong bốn trụ. Sau đó, xem các yếu tố mạnh nhất và yếu nhất trong thanh biểu đồ, và cuối cùng đối chiếu với mùa của tháng sinh. Nếu các chữ còn xa lạ, hãy bắt đầu với [Thiên can, Địa chi và Trụ Ngày — Cách đọc các chữ trong Saju](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Ví dụ 1 — {exADayMaster}: Nhật can và yếu tố mạnh nhất khác nhau",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Ngày sinh giả định là {exABirth} (dương lịch). Lá số có các trụ sau. Trụ năm: {exAYear}. Trụ tháng: {exAMonth}. Trụ ngày: {exADay}. Trụ giờ: {exAHour}."
+          },
+          {
+            "p": "Thiên can của ngày sinh là Nhật can — ở đây là {exADayMaster} ({exADayElement}). Mô tả tính cách một dòng mà Saju-Link gắn với mỗi Nhật can như sau: {exATrait}"
+          },
+          {
+            "p": "Trong thanh yếu tố, phần lớn nhất là {exAStrongest} với {exAStrongestPct}, và phần nhỏ nhất là {exAScarcest} với {exAScarcestPct}. Yếu tố của Nhật can là {exADayElement}, nhưng yếu tố mạnh nhất lại là {exAStrongest}. **Yếu tố của Nhật can và yếu tố mạnh nhất có thể khác nhau** — đó là điểm chính của ví dụ này."
+          },
+          {
+            "p": "Mùa của tháng sinh là {exASeason}, cùng phía với yếu tố mạnh nhất. Cách mùa đẩy một yếu tố lên là một phần của phép tính sức mạnh, và phương pháp được mô tả trong [Yếu Tố Cân Bằng — Năng Lượng Cần Thiết Hiện Tại](/guide/yongsin)."
+          },
+          {
+            "p": "Các Thiên can ẩn (Tàng can) bên trong Địa chi của ngày ({exADayBranch}) là: {exAHiddenStems}. Tàng can được tính vào sức mạnh của mỗi yếu tố, nên nếu chỉ đếm tám chữ nhìn thấy, thanh biểu đồ có thể trông không nhất quán."
+          },
+          {
+            "p": "Với ví dụ này, các mục đáng đọc thêm là [Ất Mộc (乙) — Mộc, Âm](/guide/stem-eul), [Trụ ngày 乙亥](/guide/pillar-eul-hae) và [亥 — Địa chi của Lợn](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Ví dụ 2 — {exBDayMaster}: một lá số thiếu một yếu tố",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Ngày sinh giả định là {exBBirth} (dương lịch). Lá số có các trụ sau. Trụ năm: {exBYear}. Trụ tháng: {exBMonth}. Trụ ngày: {exBDay}. Trụ giờ: {exBHour}."
+          },
+          {
+            "p": "Thiên can của ngày sinh là Nhật can — ở đây là {exBDayMaster} ({exBDayElement}). Mô tả tính cách một dòng mà Saju-Link gắn với mỗi Nhật can như sau: {exBTrait}"
+          },
+          {
+            "p": "Trong thanh yếu tố, phần của {exBScarcest} là {exBScarcestPct}, nghĩa là gần như không nhìn thấy trong thanh. Saju-Link chỉ ra riêng một yếu tố như vậy là yếu tố yếu nhất. Ngược lại, phần lớn nhất là {exBStrongest} với {exBStrongestPct}."
+          },
+          {
+            "p": "Mùa của tháng sinh là {exBSeason}. Yếu tố của Nhật can ({exBDayElement}), yếu tố mạnh nhất ({exBStrongest}) và mùa ({exBSeason}) đều khác nhau, nên đây là ví dụ tốt để đọc riêng ba điều này."
+          },
+          {
+            "p": "Địa chi của năm ({exBYearBranch}) ứng với con giáp: {exBAnimal}. Con giáp chỉ là một trong tám chữ — Địa chi của năm. Xem thêm trong [Con Giáp ở đâu trong Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Với ví dụ này, các mục đáng đọc thêm là [Kỷ Thổ (己) — Thổ, Âm](/guide/stem-gi), [Trụ ngày 己酉](/guide/pillar-gi-yu) và [酉 — Địa chi của Gà](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Ví dụ 3 — {exCDayMaster}: một lá số lệch nặng về một phía",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Ngày sinh giả định là {exCBirth} (dương lịch). Lá số có các trụ sau. Trụ năm: {exCYear}. Trụ tháng: {exCMonth}. Trụ ngày: {exCDay}. Trụ giờ: {exCHour}."
+          },
+          {
+            "p": "Thiên can của ngày sinh là Nhật can — ở đây là {exCDayMaster} ({exCDayElement}). Mô tả tính cách một dòng mà Saju-Link gắn với mỗi Nhật can như sau: {exCTrait}"
+          },
+          {
+            "p": "Yếu tố của Nhật can, yếu tố mạnh nhất và mùa đều tập trung về cùng một phía: {exCStrongest}. Trong thanh yếu tố, phần của {exCStrongest} là {exCStrongestPct}, và yếu tố nhỏ nhất, {exCScarcest}, có {exCScarcestPct}."
+          },
+          {
+            "p": "Việc lệch nặng về một phía tự nó không cho biết tốt hay xấu. Sự lệch đó là gánh nặng hay sức mạnh đối với Nhật can được quyết định riêng qua đánh giá trụ ngày mạnh / yếu và yếu tố cân bằng — các tiêu chí được công bố trong [Yếu Tố Cân Bằng — Năng Lượng Cần Thiết Hiện Tại](/guide/yongsin), còn bản đánh giá nằm trong [Nội dung bao gồm trong báo cáo trả phí](/guide/reports)."
+          },
+          {
+            "p": "Các Thiên can ẩn (Tàng can) bên trong Địa chi của ngày ({exCDayBranch}) là: {exCHiddenStems}."
+          },
+          {
+            "p": "Với ví dụ này, các mục đáng đọc thêm là [Đinh Hỏa (丁) — Hỏa, Âm](/guide/stem-jeong), [Trụ ngày 丁亥](/guide/pillar-jeong-hae) và [亥 — Địa chi của Lợn](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Thử với lá số của chính bạn",
+        "blocks": [
+          {
+            "p": "Nhập ngày và giờ sinh của bạn trong [Bói Saju](/reading) và bạn sẽ nhận được kết quả được tạo theo cùng cách như các ví dụ này. Các giá trị bạn nhập không được lưu trên máy chủ của chúng tôi — phương pháp được mô tả trong [Một phương pháp không lưu trữ thông tin đã nhập](/guide/no-storage)."
+          },
+          {
+            "p": "Để đối chiếu trụ ngày hôm nay với lá số của bạn, hãy dùng [Vận mệnh hôm nay](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Các ngày sinh trong những ví dụ này là giả định để minh họa, và kết quả chỉ mang tính tham khảo. Những giá trị thay đổi mỗi ngày, chẳng hạn vận mệnh hôm nay, không được đưa vào."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Cơ sở Dịch vụ",
     "title": "biểu đồ sinh — Tám ký tự đến từ đâu?",

@@ -86,6 +86,119 @@ export const UZ_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Misollar",
+    "title": "Chartni misollar orqali o'qish — uchta haqiqiy hisob natijasi",
+    "summary": "Saju-Link dvigatelidan o'tkazilgan uchta o'ylab topilgan tug'ilgan sana hisoblangan holatda aynan ko'rsatiladi; shuningdek, to'rt ustun, day master va besh element kuchini qanday tartibda o'qish tushuntiriladi.",
+    "backLabel": "Biz qanday hisoblaymiz",
+    "sections": [
+      {
+        "title": "Bu misollar nima",
+        "blocks": [
+          {
+            "p": "Quyidagi uch kishi haqiqiy emas. Ularning tug'ilgan sanalari bir fikrni ko'rsatish uchun tanlangan. Natijalar o'z tug'ilgan sanangizni kiritganingizda bepul natijani ko'rsatadigan **o'sha hisoblash dvigateli va o'sha ekran komponentlari** bilan chizilgan, shuning uchun bu yerda ko'rganingiz sizda chiqadigan natijaga mos keladi."
+          },
+          {
+            "p": "Bepul ekran to'rt ustun, day master va besh element kuchini ko'rsatadi. Day master kuchli yoki zaifligi (strong / weak chart) va shunga ko'ra qaysi element kerakligi (muvozanatli element) to'langan hisobotga kiradi ([To'langan hisobotda nimalar mavjud](/guide/reports)), shuning uchun bu misollarda ham ko'rsatilmaydi."
+          },
+          {
+            "p": "Har bir misol bir xil tartibda o'qiladi. Avval to'rt ustun orasidan day masterni toping — tug'ilgan kuningizning heavenly stemi. Keyin barda eng kuchli va eng zaif elementlarga qarang, oxirida tug'ilgan oyning season ini ustiga qo'ying. Belgilar notanish bo'lsa, [Heavenly stems, earthly branches va kun ustuni — belgilarni qanday o'qish kerak](/guide/saju-letters) dan boshlang."
+          }
+        ]
+      },
+      {
+        "title": "1-misol — {exADayMaster}: day master va eng kuchli element farq qiladi",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Tasavvur qilingan tug'ilish: {exABirth} (quyosh kalendari). Chartda yil ustuni {exAYear}, oy ustuni {exAMonth}, kun ustuni {exADay} va soat ustuni {exAHour}."
+          },
+          {
+            "p": "Tug'ilgan kunning heavenly stemi day master hisoblanadi — bu yerda: {exADayMaster} ({exADayElement}). Saju-Link har bir day masterga biriktiradigan bir qatorli xarakter tavsifi: {exATrait}"
+          },
+          {
+            "p": "Element barida eng katta ulush: {exAStrongest}, {exAStrongestPct}; eng kichigi: {exAScarcest}, {exAScarcestPct}. Day masterning elementi: {exADayElement}, ammo eng kuchli element: {exAStrongest}. **Day masterning elementi va eng kuchli element farq qilishi mumkin** — bu misolning asosiy fikri shu."
+          },
+          {
+            "p": "Tug'ilgan oyning season i: {exASeason}, eng kuchli element bilan bir tomonda. Season elementni qanday ko'tarishi kuch hisobining bir qismi bo'lib, usul [Muvozanatli Element — Hozir Zarur Energiya](/guide/yongsin) da bayon qilingan."
+          },
+          {
+            "p": "Kun branchi ({exADayBranch}) ichida yashiringan stemlar: {exAHiddenStems}. Hidden stems har bir element kuchiga hisoblanadi, shuning uchun faqat ko'rinadigan sakkiz belgini sanasangiz, bar mos kelmayotgandek tuyulishi mumkin."
+          },
+          {
+            "p": "Bu misol uchun o'qishga arziydigan boshqa maqolalar: [Yin Yog'och (乙) — Yog'och, Yin](/guide/stem-eul), [Kun ustuni 乙亥](/guide/pillar-eul-hae) va [亥 — earthly branch: Cho'chqa](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "2-misol — {exBDayMaster}: bitta elementi yo'q chart",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Tasavvur qilingan tug'ilish: {exBBirth} (quyosh kalendari). Chartda yil ustuni {exBYear}, oy ustuni {exBMonth}, kun ustuni {exBDay} va soat ustuni {exBHour}."
+          },
+          {
+            "p": "Tug'ilgan kunning heavenly stemi day master hisoblanadi — bu yerda: {exBDayMaster} ({exBDayElement}). Saju-Link har bir day masterga biriktiradigan bir qatorli xarakter tavsifi: {exBTrait}"
+          },
+          {
+            "p": "Element barida {exBScarcest} ulushi: {exBScarcestPct}; bu uning barda deyarli ko'rinmasligini bildiradi. Saju-Link bunday elementni alohida, eng zaif element sifatida ko'rsatadi. Eng katta ulush esa: {exBStrongest}, {exBStrongestPct}."
+          },
+          {
+            "p": "Tug'ilgan oyning season i: {exBSeason}. Day masterning elementi ({exBDayElement}), eng kuchli element ({exBStrongest}) va season ({exBSeason}) bir-biridan farq qiladi, shuning uchun bu uchtasini alohida o'qishni ko'rsatadigan yaxshi misol."
+          },
+          {
+            "p": "Yil branchi ({exBYearBranch}) hayvonga mos keladi: {exBAnimal}. Hayvon sakkiz belgidan faqat bittasi — yil branchi. Batafsil: [Zodiak Belgisi Saju da qayerda?](/guide/zodiac)."
+          },
+          {
+            "p": "Bu misol uchun o'qishga arziydigan boshqa maqolalar: [Yin Tuproq (己) — Tuproq, Yin](/guide/stem-gi), [Kun ustuni 己酉](/guide/pillar-gi-yu) va [酉 — earthly branch: Xo'roz](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "3-misol — {exCDayMaster}: bir tomonga kuchli og'gan chart",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Tasavvur qilingan tug'ilish: {exCBirth} (quyosh kalendari). Chartda yil ustuni {exCYear}, oy ustuni {exCMonth}, kun ustuni {exCDay} va soat ustuni {exCHour}."
+          },
+          {
+            "p": "Tug'ilgan kunning heavenly stemi day master hisoblanadi — bu yerda: {exCDayMaster} ({exCDayElement}). Saju-Link har bir day masterga biriktiradigan bir qatorli xarakter tavsifi: {exCTrait}"
+          },
+          {
+            "p": "Day masterning elementi, eng kuchli element va season hammasi bir tomonda to'planadi: {exCStrongest}. Element barida {exCStrongest} ulushi: {exCStrongestPct}; eng kichigi: {exCScarcest}, {exCScarcestPct}."
+          },
+          {
+            "p": "Bir tomonga kuchli og'ish o'z-o'zidan yaxshi yoki yomon ma'noni bildirmaydi. Bu og'ish day master uchun yuk yoki kuch ekanligi kuchli / zaif baholash va muvozanatli element orqali alohida aniqlanadi — mezonlar [Muvozanatli Element — Hozir Zarur Energiya](/guide/yongsin) da e'lon qilingan, baholashning o'zi esa to'langan hisobotda ([To'langan hisobotda nimalar mavjud](/guide/reports))."
+          },
+          {
+            "p": "Kun branchi ({exCDayBranch}) ichida yashiringan stemlar: {exCHiddenStems}."
+          },
+          {
+            "p": "Bu misol uchun o'qishga arziydigan boshqa maqolalar: [Yin Olov (丁) — Olov, Yin](/guide/stem-jeong), [Kun ustuni 丁亥](/guide/pillar-jeong-hae) va [亥 — earthly branch: Cho'chqa](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "O'z chartingiz bilan sinab ko'ring",
+        "blocks": [
+          {
+            "p": "Tug'ilgan sana va vaqtingizni [Saju o'qishi](/reading) sahifasiga kiriting — natija shu misollar kabi tuziladi. Kiritgan qiymatlaringiz serverlarimizda saqlanmaydi — usul [Kiritilgan ma'lumotlarni saqlamaydigan usul](/guide/no-storage) da bayon qilingan."
+          },
+          {
+            "p": "Bugungi kun ustunini chartingiz ustiga qo'yish uchun [Bugungi taqdir](/today) dan foydalaning."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Bu misollardagi tug'ilgan sanalar tushuntirish uchun o'ylab topilgan, natijalar esa ma'lumot uchun. Bugungi taqdir kabi har kuni o'zgaradigan qiymatlar kiritilmagan."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Xizmat Asosi",
     "title": "natal chart — Sakkiz belgi qayerdan keladi?",

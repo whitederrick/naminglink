@@ -86,6 +86,119 @@ export const PL_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Przykłady",
+    "title": "Czytanie karty na przykładach — trzy rzeczywiste wyniki obliczeń",
+    "summary": "Trzy zmyślone daty urodzenia przepuszczone przez silnik Saju-Link i pokazane dokładnie tak, jak je obliczono, wraz z omówieniem kolejności czytania czterech filarów, pnia dnia i siły pięciu elementów.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Czym są te przykłady",
+        "blocks": [
+          {
+            "p": "Trzy osoby poniżej nie istnieją naprawdę. Ich daty urodzenia wybrano, aby zilustrować pewną kwestię. Wyniki są rysowane przez **ten sam silnik obliczeniowy i te same komponenty ekranu**, które pokazują bezpłatny wynik po wpisaniu własnej daty urodzenia, więc to, co tu widzisz, odpowiada temu, co otrzymasz."
+          },
+          {
+            "p": "Bezpłatny ekran pokazuje cztery filary, pień dnia i siłę pięciu elementów. To, czy pień dnia jest silny, czy słaby (silna / słaba karta), i jaki element jest w związku z tym potrzebny (element równoważący), należy do [płatnego raportu](/guide/reports), dlatego w tych przykładach też tego nie pokazano."
+          },
+          {
+            "p": "Każdy przykład czyta się w tej samej kolejności. Najpierw znajdź pień dnia — pień niebiański dnia, w którym się urodziłeś — wśród czterech filarów. Potem spójrz na najsilniejszy i najsłabszy element na pasku, a na końcu nałóż na nie porę roku miesiąca urodzenia. Jeśli znaki są ci obce, zacznij od [Pnie niebiańskie, gałęzie ziemskie i filar dnia – jak czytać znaki](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Przykład 1 — {exADayMaster}: pień dnia i najsilniejszy element są różne",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Wyobrażone urodzenie: {exABirth} (kalendarz słoneczny). Karta ma filar roku {exAYear}, filar miesiąca {exAMonth}, filar dnia {exADay} i filar godziny {exAHour}."
+          },
+          {
+            "p": "Pień niebiański dnia urodzenia to pień dnia — tutaj {exADayMaster} ({exADayElement}). Jednolinijkowy charakter, który Saju-Link przypisuje każdemu pniowi dnia, brzmi: {exATrait}"
+          },
+          {
+            "p": "Na pasku elementów największy udział ma element {exAStrongest}: {exAStrongestPct}, a najmniejszy element {exAScarcest}: {exAScarcestPct}. Element pnia dnia to {exADayElement}, a mimo to najsilniejszy element to {exAStrongest}. **Element pnia dnia i najsilniejszy element mogą być różne** — na tym polega sens tego przykładu."
+          },
+          {
+            "p": "Pora roku miesiąca urodzenia: {exASeason}, po tej samej stronie co najsilniejszy element. To, jak pora roku wzmacnia element, jest częścią obliczania siły, a metodę opisano w [Element Równoważący — Energia Potrzebna Teraz](/guide/yongsin)."
+          },
+          {
+            "p": "Pnie ukryte w gałęzi dnia ({exADayBranch}): {exAHiddenStems}. Pnie ukryte liczą się do siły każdego elementu, więc jeśli policzysz tylko osiem widocznych znaków, pasek może wyglądać niespójnie."
+          },
+          {
+            "p": "Do tego przykładu warto przeczytać także: [Drewno Yin (乙) — Drewno, Yin](/guide/stem-eul), [Filar dnia 乙亥](/guide/pillar-eul-hae) oraz [亥 — gałąź Świni](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Przykład 2 — {exBDayMaster}: karta z brakującym elementem",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Wyobrażone urodzenie: {exBBirth} (kalendarz słoneczny). Karta ma filar roku {exBYear}, filar miesiąca {exBMonth}, filar dnia {exBDay} i filar godziny {exBHour}."
+          },
+          {
+            "p": "Pień niebiański dnia urodzenia to pień dnia — tutaj {exBDayMaster} ({exBDayElement}). Jednolinijkowy charakter, który Saju-Link przypisuje każdemu pniowi dnia, brzmi: {exBTrait}"
+          },
+          {
+            "p": "Na pasku elementów udział elementu {exBScarcest} wynosi {exBScarcestPct}, co oznacza, że jest on na pasku praktycznie niewidoczny. Saju-Link wskazuje taki element osobno jako najsłabszy. Największy udział ma natomiast element {exBStrongest}: {exBStrongestPct}."
+          },
+          {
+            "p": "Pora roku miesiąca urodzenia: {exBSeason}. Element pnia dnia ({exBDayElement}), najsilniejszy element ({exBStrongest}) i pora roku ({exBSeason}) są różne, co czyni ten przykład dobrym do osobnego czytania całej trójki."
+          },
+          {
+            "p": "Gałąź roku ({exBYearBranch}) odpowiada zwierzęciu: {exBAnimal}. Zwierzę to tylko jeden z ośmiu znaków — gałąź roku. Więcej w [Gdzie znajduje się Znak Zodiaku w Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Do tego przykładu warto przeczytać także: [Ziemia Yin (己) — Ziemia, Yin](/guide/stem-gi), [Filar dnia 己酉](/guide/pillar-gi-yu) oraz [酉 — gałąź Koguta](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Przykład 3 — {exCDayMaster}: karta mocno przechylona w jedną stronę",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Wyobrażone urodzenie: {exCBirth} (kalendarz słoneczny). Karta ma filar roku {exCYear}, filar miesiąca {exCMonth}, filar dnia {exCDay} i filar godziny {exCHour}."
+          },
+          {
+            "p": "Pień niebiański dnia urodzenia to pień dnia — tutaj {exCDayMaster} ({exCDayElement}). Jednolinijkowy charakter, który Saju-Link przypisuje każdemu pniowi dnia, brzmi: {exCTrait}"
+          },
+          {
+            "p": "Element pnia dnia, najsilniejszy element i pora roku zbiegają się po stronie elementu {exCStrongest}. Na pasku elementów udział elementu {exCStrongest} wynosi {exCStrongestPct}, a najmniejszy, element {exCScarcest}, ma {exCScarcestPct}."
+          },
+          {
+            "p": "Silne przechylenie w jedną stronę samo w sobie nie oznacza ani dobra, ani zła. To, czy przechylenie jest dla pnia dnia ciężarem, czy siłą, rozstrzyga się osobno przez ocenę silny / słaby i element równoważący — kryteria opublikowano w [Element Równoważący — Energia Potrzebna Teraz](/guide/yongsin), a sama ocena znajduje się w [płatnym raporcie](/guide/reports)."
+          },
+          {
+            "p": "Pnie ukryte w gałęzi dnia ({exCDayBranch}): {exCHiddenStems}."
+          },
+          {
+            "p": "Do tego przykładu warto przeczytać także: [Ogień Yin (丁) — Ogień, Yin](/guide/stem-jeong), [Filar dnia 丁亥](/guide/pillar-jeong-hae) oraz [亥 — gałąź Świni](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Wypróbuj na własnej karcie",
+        "blocks": [
+          {
+            "p": "Wpisz datę i godzinę urodzenia w [Moje Saju](/reading), a otrzymasz wynik zbudowany tak samo jak w tych przykładach. Wpisane wartości nie są przechowywane na naszych serwerach — metodę opisano w [Metoda, która nie przechowuje wprowadzonych informacji](/guide/no-storage)."
+          },
+          {
+            "p": "Aby nałożyć dzisiejszy filar dnia na swoją kartę, skorzystaj z [Dzienna fortuna](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Daty urodzenia w tych przykładach są zmyślone na potrzeby ilustracji, a wyniki mają charakter orientacyjny. Wartości zmieniające się codziennie, takie jak dzienna fortuna, nie są uwzględnione."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Podstawa Usługi",
     "title": "wykres urodzeniowy — Skąd pochodzą osiem znaków?",

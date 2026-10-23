@@ -86,6 +86,119 @@ export const DE_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Beispiele",
+    "title": "Ein Horoskop anhand von Beispielen lesen — drei echte Berechnungsergebnisse",
+    "summary": "Drei erfundene Geburtsdaten, durch die Berechnungs-Engine von Saju-Link geschickt und genau so gezeigt, wie sie berechnet wurden – mit einer Anleitung, in welcher Reihenfolge man die vier Säulen, den Tagesstamm und die Stärke der fünf Elemente liest.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Was diese Beispiele sind",
+        "blocks": [
+          {
+            "p": "Die drei Personen unten sind nicht real. Ihre Geburtsdaten wurden gewählt, um einen Punkt zu veranschaulichen. Die Ergebnisse werden mit **derselben Berechnungs-Engine und denselben Bildschirmkomponenten** dargestellt, die auch das kostenlose Ergebnis zeigen, wenn Sie Ihr eigenes Geburtsdatum eingeben – was Sie hier sehen, entspricht also dem, was Sie erhalten würden."
+          },
+          {
+            "p": "Der kostenlose Bildschirm zeigt die vier Säulen, den Tagesstamm und die Stärke der fünf Elemente. Ob der Tagesstamm stark oder schwach ist (starkes / schwaches Horoskop) und welches Element deshalb gebraucht wird (das ausgleichende Element), gehört zu [Was im kostenpflichtigen Bericht enthalten ist](/guide/reports) und wird daher auch in diesen Beispielen nicht gezeigt."
+          },
+          {
+            "p": "Jedes Beispiel wird in derselben Reihenfolge gelesen. Zuerst suchen Sie unter den vier Säulen den Tagesstamm – den himmlischen Stamm des Geburtstags. Dann schauen Sie im Balken auf das stärkste und das schwächste Element und legen zuletzt die Jahreszeit des Geburtsmonats darüber. Wenn Ihnen die Zeichen unvertraut sind, beginnen Sie mit [Himmlische Stämme, irdische Zweige und Tagessäule – so lesen Sie die Zeichen](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Beispiel 1 — {exADayMaster}: Tagesstamm und stärkstes Element unterscheiden sich",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Die angenommene Geburt ist {exABirth} (Sonnenkalender). Das Horoskop hat die Jahressäule {exAYear}, die Monatssäule {exAMonth}, die Tagessäule {exADay} und die Stundensäule {exAHour}."
+          },
+          {
+            "p": "Der himmlische Stamm des Geburtstags ist der Tagesstamm – hier {exADayMaster} ({exADayElement}). Die einzeilige Wesensart, die Saju-Link jedem Tagesstamm zuordnet, lautet: {exATrait}"
+          },
+          {
+            "p": "Im Elementbalken hat {exAStrongest} mit {exAStrongestPct} den größten Anteil und {exAScarcest} mit {exAScarcestPct} den kleinsten. Das Element des Tagesstamms ist {exADayElement}, das stärkste Element jedoch {exAStrongest}. **Das Element des Tagesstamms und das stärkste Element können sich unterscheiden** – das ist der Kern dieses Beispiels."
+          },
+          {
+            "p": "Die Jahreszeit des Geburtsmonats ist {exASeason}, auf derselben Seite wie das stärkste Element. Wie die Jahreszeit ein Element anhebt, gehört zur Berechnung der Stärke; die Methode wird in [Ausgleichendes Element — Die jetzt benötigte Energie](/guide/yongsin) beschrieben."
+          },
+          {
+            "p": "Die verborgenen Stämme im Tageszweig ({exADayBranch}) sind: {exAHiddenStems}. Verborgene Stämme zählen zur Stärke der einzelnen Elemente; wenn Sie nur die acht sichtbaren Zeichen zählen, kann der Balken daher unstimmig wirken."
+          },
+          {
+            "p": "Für dieses Beispiel lesenswert sind außerdem [Yin-Holz (乙) — Yin-Holz](/guide/stem-eul), [Die Tagessäule 乙亥](/guide/pillar-eul-hae) und [亥 — der Zweig des Schweins](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Beispiel 2 — {exBDayMaster}: ein Horoskop mit einem fehlenden Element",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Die angenommene Geburt ist {exBBirth} (Sonnenkalender). Das Horoskop hat die Jahressäule {exBYear}, die Monatssäule {exBMonth}, die Tagessäule {exBDay} und die Stundensäule {exBHour}."
+          },
+          {
+            "p": "Der himmlische Stamm des Geburtstags ist der Tagesstamm – hier {exBDayMaster} ({exBDayElement}). Die einzeilige Wesensart, die Saju-Link jedem Tagesstamm zuordnet, lautet: {exBTrait}"
+          },
+          {
+            "p": "Im Elementbalken beträgt der Anteil von {exBScarcest} nur {exBScarcestPct}, das heißt, es ist im Balken praktisch unsichtbar. Saju-Link weist ein solches Element gesondert als das schwächste aus. Den größten Anteil hat dagegen {exBStrongest} mit {exBStrongestPct}."
+          },
+          {
+            "p": "Die Jahreszeit des Geburtsmonats ist {exBSeason}. Das Element des Tagesstamms ({exBDayElement}), das stärkste Element ({exBStrongest}) und die Jahreszeit ({exBSeason}) sind alle voneinander verschieden – ein gutes Beispiel, um die drei getrennt zu lesen."
+          },
+          {
+            "p": "Der Jahreszweig ({exBYearBranch}) entspricht dem Tier: {exBAnimal}. Das Tier ist nur eines der acht Zeichen – der Jahreszweig. Mehr dazu in [Wo befindet sich das Tierkreiszeichen in der Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Für dieses Beispiel lesenswert sind außerdem [Yin-Erde (己) — Yin-Erde](/guide/stem-gi), [Die Tagessäule 己酉](/guide/pillar-gi-yu) und [酉 — der Zweig des Hahns](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Beispiel 3 — {exCDayMaster}: ein stark einseitig gewichtetes Horoskop",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Die angenommene Geburt ist {exCBirth} (Sonnenkalender). Das Horoskop hat die Jahressäule {exCYear}, die Monatssäule {exCMonth}, die Tagessäule {exCDay} und die Stundensäule {exCHour}."
+          },
+          {
+            "p": "Der himmlische Stamm des Geburtstags ist der Tagesstamm – hier {exCDayMaster} ({exCDayElement}). Die einzeilige Wesensart, die Saju-Link jedem Tagesstamm zuordnet, lautet: {exCTrait}"
+          },
+          {
+            "p": "Das Element des Tagesstamms, das stärkste Element und die Jahreszeit versammeln sich alle auf der Seite von {exCStrongest}. Im Elementbalken beträgt der Anteil von {exCStrongest} {exCStrongestPct}, und das kleinste Element, {exCScarcest}, hat {exCScarcestPct}."
+          },
+          {
+            "p": "Eine starke Einseitigkeit sagt für sich genommen weder gut noch schlecht. Ob sie für den Tagesstamm eine Last oder eine Stärke ist, wird gesondert durch die Beurteilung stark / schwach und das ausgleichende Element entschieden – die Kriterien sind in [Ausgleichendes Element — Die jetzt benötigte Energie](/guide/yongsin) veröffentlicht, die Beurteilung selbst steht in [Was im kostenpflichtigen Bericht enthalten ist](/guide/reports)."
+          },
+          {
+            "p": "Die verborgenen Stämme im Tageszweig ({exCDayBranch}) sind: {exCHiddenStems}."
+          },
+          {
+            "p": "Für dieses Beispiel lesenswert sind außerdem [Yin-Feuer (丁) — Yin-Feuer](/guide/stem-jeong), [Die Tagessäule 丁亥](/guide/pillar-jeong-hae) und [亥 — der Zweig des Schweins](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Mit dem eigenen Horoskop ausprobieren",
+        "blocks": [
+          {
+            "p": "Geben Sie Ihr Geburtsdatum und Ihre Geburtszeit unter [Ihre Saju-Deutung](/reading) ein, und Sie erhalten ein Ergebnis, das auf dieselbe Weise erstellt wird wie diese Beispiele. Die eingegebenen Werte werden nicht auf unseren Servern gespeichert – die Methode wird in [Eine Methode, die die eingegebenen Informationen nicht speichert](/guide/no-storage) beschrieben."
+          },
+          {
+            "p": "Um die heutige Tagessäule über Ihr Horoskop zu legen, nutzen Sie [Heute’s Glück](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Die Geburtsdaten in diesen Beispielen sind zur Veranschaulichung erfunden, und die Ergebnisse dienen nur zur Orientierung. Täglich wechselnde Werte wie das heutige Glück sind nicht enthalten."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Dienstgrundlage",
     "title": "natal chart — Woher kommen die acht Zeichen?",

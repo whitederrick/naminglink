@@ -2,6 +2,7 @@ import { BRANCH_HIDDEN_STEMS, VITALITY_MULTIPLIER } from "@naminglink/core/saju/
 import { BIRTHPLACES } from "@/lib/birthplaces";
 import { BRANCH_RELATION_SCORE } from "@/lib/engines/branches";
 import { DEFAULT_SCORING_CONFIG } from "@/lib/engines/today-fortune";
+import { exampleValues } from "@/lib/example-readings";
 import { STRONG_THRESHOLD, WEAK_THRESHOLD } from "@/lib/engines/yongsin";
 import type { Locale } from "@/lib/i18n";
 import { REPORT_PAGE_COUNT } from "@/lib/report-pages";
@@ -24,7 +25,7 @@ import { getReportPrices } from "@/lib/report-product";
  * 로케일을 받는 것은 형제 앱과 꼴을 맞추기 위해서다. 이 앱은 아직 로케일마다 달라지는 값이
  * 없지만, 부르는 쪽(`guide-page`)이 같은 모양이어야 옮겨 다니기 쉽다.
  */
-export async function docValues(_locale: Locale): Promise<Record<string, string>> {
+export async function docValues(locale: Locale): Promise<Record<string, string>> {
   const percent = (value: number) => `${Math.round(value * 100)}%`;
   /** 가점·감점은 부호가 뜻의 일부다. 「+20」과 「20」은 다른 말이 된다. */
   const signed = (value: number) => (value > 0 ? `+${value}` : String(value));
@@ -117,6 +118,9 @@ export async function docValues(_locale: Locale): Promise<Record<string, string>
         `${(Math.round((days / total) * 1000) / 10).toFixed(1)}%`;
     });
   }
+
+  // 「예시로 읽는 사주」의 가상 사주 셋 — 엔진 출력이고 이름·낱말은 그 로케일 사전에서 온다.
+  Object.assign(values, exampleValues(locale));
 
   /**
    * 값은 상품 설정(DB)이 정한다.

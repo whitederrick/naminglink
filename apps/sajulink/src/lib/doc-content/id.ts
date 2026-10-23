@@ -86,6 +86,119 @@ export const ID_DOCS = {
       }
     ]
   },
+  "guide/examples": {
+    "eyebrow": "Contoh",
+    "title": "Membaca Bagan lewat Contoh — Tiga Hasil Perhitungan Nyata",
+    "summary": "Tiga tanggal lahir rekaan yang dijalankan melalui mesin Saju-Link dan ditampilkan persis seperti hasil perhitungannya, disertai penjelasan urutan membaca empat pilar, batang hari, dan kekuatan lima elemen.",
+    "backLabel": "Cara kami menghitung",
+    "sections": [
+      {
+        "title": "Apa itu contoh-contoh ini",
+        "blocks": [
+          {
+            "p": "Tiga orang di bawah ini bukan orang sungguhan. Tanggal lahir mereka dipilih untuk menggambarkan satu hal. Hasilnya digambar dengan **mesin perhitungan yang sama dan komponen layar yang sama** yang menampilkan hasil gratis ketika Anda memasukkan tanggal lahir Anda sendiri, sehingga yang Anda lihat di sini sama dengan yang akan Anda dapatkan."
+          },
+          {
+            "p": "Layar gratis menampilkan empat pilar, batang hari, dan kekuatan lima elemen. Apakah batang hari kuat atau lemah (bagan kuat / lemah) dan elemen apa yang karenanya dibutuhkan (elemen penyeimbang) termasuk dalam [laporan berbayar](/guide/reports), jadi hal itu juga tidak ditampilkan dalam contoh-contoh ini."
+          },
+          {
+            "p": "Setiap contoh dibaca dengan urutan yang sama. Pertama, temukan batang hari — batang langit dari hari Anda lahir — di antara empat pilar. Lalu lihat elemen terkuat dan terlemah pada bilah, dan terakhir letakkan musim bulan kelahiran di atasnya. Jika karakter-karakternya masih asing, mulailah dengan [Batang Langit, Cabang Bumi, dan Pilar Hari — Cara Membaca Karakter Saju](/guide/saju-letters)."
+          }
+        ]
+      },
+      {
+        "title": "Contoh 1 — {exADayMaster}: batang hari dan elemen terkuat berbeda",
+        "slot": "exampleA",
+        "blocks": [
+          {
+            "p": "Kelahiran rekaan: {exABirth} (kalender matahari). Bagan ini memiliki pilar tahun {exAYear}, pilar bulan {exAMonth}, pilar hari {exADay}, dan pilar jam {exAHour}."
+          },
+          {
+            "p": "Batang langit dari hari lahir adalah batang hari — di sini {exADayMaster} ({exADayElement}). Watak satu baris yang dilekatkan Saju-Link pada setiap batang hari berbunyi: {exATrait}"
+          },
+          {
+            "p": "Pada bilah elemen, bagian terbesar adalah {exAStrongest} sebesar {exAStrongestPct}, dan yang terkecil adalah {exAScarcest} sebesar {exAScarcestPct}. Elemen batang hari adalah {exADayElement}, tetapi elemen terkuat adalah {exAStrongest}. **Elemen batang hari dan elemen terkuat bisa berbeda** — itulah inti contoh ini."
+          },
+          {
+            "p": "Musim bulan kelahiran adalah {exASeason}, sisi yang sama dengan elemen terkuat. Cara musim mendorong sebuah elemen naik merupakan bagian dari perhitungan kekuatan, dan metodenya dijelaskan di [Elemen Penyeimbang — Energi yang Dibutuhkan Sekarang](/guide/yongsin)."
+          },
+          {
+            "p": "Batang-batang tersembunyi di dalam cabang hari ({exADayBranch}) adalah {exAHiddenStems}. Batang tersembunyi ikut dihitung dalam kekuatan setiap elemen, jadi jika Anda hanya menghitung delapan karakter yang terlihat, bilahnya mungkin tampak tidak konsisten."
+          },
+          {
+            "p": "Untuk contoh ini, entri lain yang layak dibaca adalah [Kayu Yin (乙) — Kayu, Yin](/guide/stem-eul), [Pilar hari 乙亥](/guide/pillar-eul-hae), dan [亥 — cabang Babi](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Contoh 2 — {exBDayMaster}: bagan dengan satu elemen yang hilang",
+        "slot": "exampleB",
+        "blocks": [
+          {
+            "p": "Kelahiran rekaan: {exBBirth} (kalender matahari). Bagan ini memiliki pilar tahun {exBYear}, pilar bulan {exBMonth}, pilar hari {exBDay}, dan pilar jam {exBHour}."
+          },
+          {
+            "p": "Batang langit dari hari lahir adalah batang hari — di sini {exBDayMaster} ({exBDayElement}). Watak satu baris yang dilekatkan Saju-Link pada setiap batang hari berbunyi: {exBTrait}"
+          },
+          {
+            "p": "Pada bilah elemen, bagian elemen {exBScarcest} adalah {exBScarcestPct}, yang berarti nyaris tak terlihat pada bilah. Saju-Link menunjukkan elemen seperti itu secara terpisah sebagai yang terlemah. Sebaliknya, bagian terbesar adalah {exBStrongest} sebesar {exBStrongestPct}."
+          },
+          {
+            "p": "Musim bulan kelahiran adalah {exBSeason}. Elemen batang hari ({exBDayElement}), elemen terkuat ({exBStrongest}), dan musim ({exBSeason}) semuanya berbeda satu sama lain, sehingga ini contoh yang baik untuk membaca ketiganya secara terpisah."
+          },
+          {
+            "p": "Cabang tahun ({exBYearBranch}) sesuai dengan hewan {exBAnimal}. Hewan hanyalah salah satu dari delapan karakter — cabang tahun. Penjelasan lebih lanjut ada di [Di mana Tanda Zodiak dalam Saju?](/guide/zodiac)."
+          },
+          {
+            "p": "Untuk contoh ini, entri lain yang layak dibaca adalah [Tanah Yin (己) — Tanah, Yin](/guide/stem-gi), [Pilar hari 己酉](/guide/pillar-gi-yu), dan [酉 — cabang Ayam](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "title": "Contoh 3 — {exCDayMaster}: bagan yang sangat condong ke satu sisi",
+        "slot": "exampleC",
+        "blocks": [
+          {
+            "p": "Kelahiran rekaan: {exCBirth} (kalender matahari). Bagan ini memiliki pilar tahun {exCYear}, pilar bulan {exCMonth}, pilar hari {exCDay}, dan pilar jam {exCHour}."
+          },
+          {
+            "p": "Batang langit dari hari lahir adalah batang hari — di sini {exCDayMaster} ({exCDayElement}). Watak satu baris yang dilekatkan Saju-Link pada setiap batang hari berbunyi: {exCTrait}"
+          },
+          {
+            "p": "Elemen batang hari, elemen terkuat, dan musim semuanya berkumpul di sisi yang sama: {exCStrongest}. Pada bilah elemen, bagian {exCStrongest} adalah {exCStrongestPct}, dan yang terkecil, {exCScarcest}, memiliki {exCScarcestPct}."
+          },
+          {
+            "p": "Kecondongan yang kuat ke satu sisi tidak dengan sendirinya berarti baik atau buruk. Apakah kecondongan itu menjadi beban atau kekuatan bagi batang hari ditentukan secara terpisah melalui penilaian kuat / lemah dan elemen penyeimbang — kriterianya dipublikasikan di [Elemen Penyeimbang — Energi yang Dibutuhkan Sekarang](/guide/yongsin), dan penilaiannya sendiri ada di [laporan berbayar](/guide/reports)."
+          },
+          {
+            "p": "Batang-batang tersembunyi di dalam cabang hari ({exCDayBranch}) adalah {exCHiddenStems}."
+          },
+          {
+            "p": "Untuk contoh ini, entri lain yang layak dibaca adalah [Api Yin (丁) — Api, Yin](/guide/stem-jeong), [Pilar hari 丁亥](/guide/pillar-jeong-hae), dan [亥 — cabang Babi](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "title": "Mencoba dengan bagan Anda sendiri",
+        "blocks": [
+          {
+            "p": "Masukkan tanggal dan waktu lahir Anda di [Pembacaan Saju](/reading) dan Anda akan mendapatkan hasil yang disusun dengan cara yang sama seperti contoh-contoh ini. Nilai yang Anda masukkan tidak disimpan di server kami — metodenya dijelaskan di [Metode yang tidak menyimpan informasi yang dimasukkan](/guide/no-storage)."
+          },
+          {
+            "p": "Untuk menyandingkan pilar hari ini dengan bagan Anda, gunakan [Ramalan hari ini](/today)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "blocks": [
+          {
+            "p": "Tanggal lahir dalam contoh-contoh ini adalah rekaan untuk ilustrasi, dan hasilnya hanya untuk referensi. Nilai yang berubah setiap hari, seperti ramalan hari ini, tidak disertakan."
+          }
+        ]
+      }
+    ]
+  },
   "guide/natal-chart": {
     "eyebrow": "Dasar Layanan",
     "title": "grafik kelahiran — Dari mana delapan karakter berasal?",
